@@ -7,8 +7,12 @@ namespace Nager.Country.CountryInfo
 	{
 		public string CommonName => "Austria";
 		public string OfficialName => "Republic of Austria";
+        public Translation[] Translations => new[]
+        {
+            new Translation(LanguageCode.DE, "Österreich"),
+        };
 
-		public Alpha2Code Alpha2Code => Alpha2Code.AT;
+        public Alpha2Code Alpha2Code => Alpha2Code.AT;
 		public Alpha3Code Alpha3Code => Alpha3Code.AUT;
 		public int NumericCode => 040;
 		public string[] TLD => new [] { ".at" };
@@ -30,5 +34,6 @@ namespace Nager.Country.CountryInfo
 
 		public string[] Currencies => new [] { "EUR" };
 		public string[] CallingCodes => new [] { "43" };
-	}
+
+    }
 }

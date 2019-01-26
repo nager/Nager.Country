@@ -4,6 +4,7 @@
     {
         string CommonName { get; }
         string OfficialName { get; }
+        Translation[] Translations { get; }
 
         /// <summary>
         /// ISO-3166-1 Alpha2 code
