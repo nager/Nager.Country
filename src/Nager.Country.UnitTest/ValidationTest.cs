@@ -24,5 +24,22 @@ namespace Nager.Date.UnitTest
                 Assert.IsFalse(duplicateTranslation);
             }
         }
+
+        [TestMethod]
+        public void CheckTranslationsAvailableTest()
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+            foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
+            {
+                var countryInfo = countryProvider.GetCountry(countryCode);
+                if (countryInfo == null)
+                {
+                    continue;
+                }
+
+                var translationCount = countryInfo.Translations.Length;
+                Assert.IsTrue(translationCount > 5);
+            }
+        }
     }
 }
