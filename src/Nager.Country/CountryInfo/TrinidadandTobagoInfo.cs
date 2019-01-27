@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Trinidad and Tobago
 	/// </summary>
-	public class TrinidadandTobagoInfo : ICountryInfo
+	public class TrinidadAndTobagoInfo : ICountryInfo
 	{
 		public string CommonName => "Trinidad and Tobago";
 		public string OfficialName => "Republic of Trinidad and Tobago";

@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Saint Barthélemy
 	/// </summary>
-	public class SaintBarthélemyInfo : ICountryInfo
+	public class SaintBarthelemyInfo : ICountryInfo
 	{
 		public string CommonName => "Saint Barthélemy";
 		public string OfficialName => "Collectivity of Saint BarthélemySaint Barthélemy";

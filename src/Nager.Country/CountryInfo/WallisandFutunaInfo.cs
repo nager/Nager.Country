@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Wallis and Futuna
 	/// </summary>
-	public class WallisandFutunaInfo : ICountryInfo
+	public class WallisAndFutunaInfo : ICountryInfo
 	{
 		public string CommonName => "Wallis and Futuna";
 		public string OfficialName => "Territory of the Wallis and Futuna Islands";

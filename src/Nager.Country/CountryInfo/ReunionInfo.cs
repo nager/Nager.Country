@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Réunion
 	/// </summary>
-	public class RéunionInfo : ICountryInfo
+	public class ReunionInfo : ICountryInfo
 	{
 		public string CommonName => "Réunion";
 		public string OfficialName => "Réunion Island";

@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Curaçao
 	/// </summary>
-	public class CuraçaoInfo : ICountryInfo
+	public class CuracaoInfo : ICountryInfo
 	{
 		public string CommonName => "Curaçao";
 		public string OfficialName => "Country of Curaçao";

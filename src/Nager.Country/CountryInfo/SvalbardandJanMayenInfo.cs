@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Svalbard and Jan Mayen
 	/// </summary>
-	public class SvalbardandJanMayenInfo : ICountryInfo
+	public class SvalbardAndJanMayenInfo : ICountryInfo
 	{
 		public string CommonName => "Svalbard and Jan Mayen";
 		public string OfficialName => "Svalbard og Jan Mayen";

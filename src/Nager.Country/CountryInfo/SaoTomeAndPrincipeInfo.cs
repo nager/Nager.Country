@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// São Tomé and Príncipe
 	/// </summary>
-	public class SãoToméandPríncipeInfo : ICountryInfo
+	public class SaoTomeAndPrincipeInfo : ICountryInfo
 	{
 		public string CommonName => "São Tomé and Príncipe";
 		public string OfficialName => "Democratic Republic of São Tomé and Príncipe";

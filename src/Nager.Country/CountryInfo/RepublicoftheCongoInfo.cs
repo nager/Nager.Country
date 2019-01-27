@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Republic of the Congo
 	/// </summary>
-	public class RepublicoftheCongoInfo : ICountryInfo
+	public class RepublicOfTheCongoInfo : ICountryInfo
 	{
 		public string CommonName => "Republic of the Congo";
 		public string OfficialName => "Republic of the Congo";

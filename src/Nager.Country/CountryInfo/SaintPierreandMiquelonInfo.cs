@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Saint Pierre and Miquelon
 	/// </summary>
-	public class SaintPierreandMiquelonInfo : ICountryInfo
+	public class SaintPierreAndMiquelonInfo : ICountryInfo
 	{
 		public string CommonName => "Saint Pierre and Miquelon";
 		public string OfficialName => "Saint Pierre and Miquelon";

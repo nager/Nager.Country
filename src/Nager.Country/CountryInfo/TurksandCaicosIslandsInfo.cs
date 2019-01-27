@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Turks and Caicos Islands
 	/// </summary>
-	public class TurksandCaicosIslandsInfo : ICountryInfo
+	public class TurksAndCaicosIslandsInfo : ICountryInfo
 	{
 		public string CommonName => "Turks and Caicos Islands";
 		public string OfficialName => "Turks and Caicos Islands";

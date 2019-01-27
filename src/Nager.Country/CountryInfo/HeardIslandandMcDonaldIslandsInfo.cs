@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Heard Island and McDonald Islands
 	/// </summary>
-	public class HeardIslandandMcDonaldIslandsInfo : ICountryInfo
+	public class HeardIslandAndMcDonaldIslandsInfo : ICountryInfo
 	{
 		public string CommonName => "Heard Island and McDonald Islands";
 		public string OfficialName => "Heard Island and McDonald Islands";

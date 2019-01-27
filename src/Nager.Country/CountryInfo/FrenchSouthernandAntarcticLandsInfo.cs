@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// French Southern and Antarctic Lands
 	/// </summary>
-	public class FrenchSouthernandAntarcticLandsInfo : ICountryInfo
+	public class FrenchSouthernAndAntarcticLandsInfo : ICountryInfo
 	{
 		public string CommonName => "French Southern and Antarctic Lands";
 		public string OfficialName => "Territory of the French Southern and Antarctic Lands";

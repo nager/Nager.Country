@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
 	/// <summary>
 	/// Saint Vincent and the Grenadines
 	/// </summary>
-	public class SaintVincentandtheGrenadinesInfo : ICountryInfo
+	public class SaintVincentAndTheGrenadinesInfo : ICountryInfo
 	{
 		public string CommonName => "Saint Vincent and the Grenadines";
 		public string OfficialName => "Saint Vincent and the Grenadines";
