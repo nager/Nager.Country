@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
     /// <summary>
     /// Antigua and Barbuda
     /// </summary>
-    public class AntiguaandBarbudaInfo : ICountryInfo
+    public class AntiguaAndBarbudaInfo : ICountryInfo
     {
         public string CommonName => "Antigua and Barbuda";
         public string OfficialName => "Antigua and Barbuda";

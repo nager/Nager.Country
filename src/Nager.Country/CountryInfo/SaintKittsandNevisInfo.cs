@@ -3,7 +3,7 @@ namespace Nager.Country.CountryInfo
     /// <summary>
     /// Saint Kitts and Nevis
     /// </summary>
-    public class SaintKittsandNevisInfo : ICountryInfo
+    public class SaintKittsAndNevisInfo : ICountryInfo
     {
         public string CommonName => "Saint Kitts and Nevis";
         public string OfficialName => "Federation of Saint Christopher and Nevisa";
