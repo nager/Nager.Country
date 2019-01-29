@@ -9,6 +9,6 @@ before_build:
 
 build_script:
   # output will be in ./src/bin/debug/netcoreapp1.1/publish
-  - cmd: dotnet publish ./src/Nager.Country.sln
+  - cmd: dotnet build ./src/Nager.Country.sln --configuration Release
 
 deploy: off
