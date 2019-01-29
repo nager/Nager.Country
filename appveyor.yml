@@ -11,4 +11,7 @@ build_script:
   # output will be in ./src/bin/debug/netcoreapp1.1/publish
   - cmd: dotnet build ./src/Nager.Country.sln --configuration Release
 
+test_script:
+  - cmd: dotnet test ./src/Nager.Country.UnitTest/Nager.Country.UnitTest.csproj
+  
 deploy: off
