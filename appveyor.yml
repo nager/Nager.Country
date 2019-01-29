@@ -15,10 +15,11 @@ test_script:
   - cmd: dotnet test ./src/Nager.Country.UnitTest/Nager.Country.UnitTest.csproj --logger:AppVeyor
 
 artifacts:  
-  - path: '**\*.nupkg'
+  - path: Nager.Country.[0-9]{1}.[0-9]{1}.[0-9]{1}.nupkg
+    name: nugetpackage
   
 deploy:
   provider: NuGet
   api_key:
     secure: yd+EICeWOnPIZ5abqix5pClg/jJFFwkjC2zICq/WFTjuFy5miezzZG4eY8DGeljN
-  artifact: Nager.Country.[0-9]{1}.[0-9]{1}.[0-9]{1}.nupkg
+  artifact: nugetpackage
