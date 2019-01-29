@@ -3,7 +3,7 @@ image: Visual Studio 2017
 branches:
   only:
   - master
-
+ 
 before_build:
   - cmd: dotnet restore ./src/Nager.Country.sln
 
@@ -14,4 +14,7 @@ build_script:
 test_script:
   - cmd: dotnet test ./src/Nager.Country.UnitTest/Nager.Country.UnitTest.csproj --logger:AppVeyor
   
-deploy: off
+deploy:
+  provider: NuGet
+  api_key:
+    secure: yd+EICeWOnPIZ5abqix5pClg/jJFFwkjC2zICq/WFTjuFy5miezzZG4eY8DGeljN
