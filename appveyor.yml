@@ -15,7 +15,7 @@ test_script:
   - cmd: dotnet test ./src/Nager.Country.UnitTest/Nager.Country.UnitTest.csproj --logger:AppVeyor
 
 artifacts:  
-  - path: **\*.nupkg
+  - path: '**\*.nupkg'
     name: nugetpackage
   
 deploy:
