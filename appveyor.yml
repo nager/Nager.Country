@@ -1,4 +1,14 @@
+version: '1.0.{build}'
 image: Visual Studio 2017
+branches:
+  only:
+  - master
 
 before_build:
-  - dotnet restore
+  - cmd: dotnet restore ./src/Nager.Country.sln
+
+build_script:
+  # output will be in ./src/bin/debug/netcoreapp1.1/publish
+  - cmd: dotnet publish ./src/Nager.Country.sln
+
+deploy: off
