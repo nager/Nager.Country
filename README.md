@@ -30,6 +30,6 @@ var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
 
 ### Alternative projects
 
-| Project | 
-| ------------- | 
-| [countries](https://github.com/mledoze/countries) |
+| Language | Project | 
+| ------------- | ------------- | 
+| php | [mledoze-countries](https://github.com/mledoze/countries) |
