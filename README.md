@@ -22,5 +22,6 @@ Worldwirde Country Informations with this fields. Also a nuget package is availa
 
 #### Get country informations of Germany
 ```cs
+ICountryProvider countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
 ```
