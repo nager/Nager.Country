@@ -25,3 +25,11 @@ Worldwirde Country Informations with this fields. Also a nuget package is availa
 ICountryProvider countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
 ```
+
+
+
+### Alternative projects
+
+| Project | 
+| ------------- | 
+| [countries](https://github.com/mledoze/countries) |
