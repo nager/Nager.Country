@@ -54,6 +54,7 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.CM, new CameroonInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.CA, new CanadaInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.CV, new CapeVerdeInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BQ, new CaribbeanNetherlandsInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.KY, new CaymanIslandsInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.CF, new CentralAfricanRepublicInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.TD, new ChadInfo());
@@ -196,6 +197,7 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.RU, new RussiaInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.RW, new RwandaInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.BL, new SaintBarthelemyInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SH, new SaintHelenaInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.KN, new SaintKittsAndNevisInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.LC, new SaintLuciaInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.MF, new SaintMartinInfo());

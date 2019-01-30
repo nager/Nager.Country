@@ -16,3 +16,11 @@ Worldwirde Country Informations with this fields. Also a nuget package is availa
 - BorderCountrys
 - Currencies
 - CallingCodes
+
+
+### Examples
+
+#### Get country informations of Germany
+```cs
+var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
+```

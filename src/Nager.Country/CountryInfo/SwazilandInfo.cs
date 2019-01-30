@@ -5,7 +5,7 @@ namespace Nager.Country.CountryInfo
     /// </summary>
     public class SwazilandInfo : ICountryInfo
     {
-        public string CommonName => "Swaziland";
+        public string CommonName => "Eswatini";
         public string OfficialName => "Kingdom of Swaziland";
         public Translation[] Translations => new []
         {
