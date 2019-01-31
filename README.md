@@ -17,6 +17,11 @@ Worldwirde Country Informations with this fields. Also a nuget package is availa
 - Currencies
 - CallingCodes
 
+### nuget
+The package is available on [nuget](https://www.nuget.org/packages/Nager.Country)
+```
+PM> install-package Nager.Country
+```
 
 ### Examples
 
