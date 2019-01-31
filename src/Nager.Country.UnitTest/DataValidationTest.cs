@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -33,6 +34,11 @@ namespace Nager.Country.UnitTest
                         Assert.Inconclusive(countryCode.ToString());
                         continue;
                     }
+
+                    countryInfo.Currencies
+                        .Should()
+                        .BeEquivalentTo(compareCountry.Currency, 
+                        because: $"{countryCode} {string.Join(",", compareCountry.Currency)}  {string.Join(",", countryInfo.Currencies)}");
 
                     Assert.AreEqual(compareCountry.Ccn3, countryInfo.NumericCode, $"wrong numeric code by {countryCode}");
                     //Assert.AreEqual(countryInfo.Region.ToString(), compareCountry.Region, $"wrong region by {countryCode}");

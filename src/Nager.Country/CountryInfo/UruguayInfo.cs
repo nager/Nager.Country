@@ -71,7 +71,7 @@ namespace Nager.Country.CountryInfo
             Alpha2Code.BR,
         };
 
-        public string[] Currencies => new [] { "UYI", "UYU" };
+        public string[] Currencies => new [] { "UYU" };
         public string[] CallingCodes => new [] { "598" };
     }
 }

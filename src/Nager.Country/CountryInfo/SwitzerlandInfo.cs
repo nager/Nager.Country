@@ -74,7 +74,7 @@ namespace Nager.Country.CountryInfo
             Alpha2Code.DE,
         };
 
-        public string[] Currencies => new [] { "CHE", "CHF", "CHW" };
+        public string[] Currencies => new [] { "CHF" };
         public string[] CallingCodes => new [] { "41" };
     }
 }

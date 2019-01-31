@@ -74,7 +74,7 @@ namespace Nager.Country.CountryInfo
             Alpha2Code.UA,
         };
 
-        public string[] Currencies => new [] { "BYR" };
+        public string[] Currencies => new [] { "BYN" };
         public string[] CallingCodes => new [] { "375" };
     }
 }

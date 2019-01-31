@@ -69,7 +69,7 @@ namespace Nager.Country.CountryInfo
         {
         };
 
-        public string[] Currencies => new [] { "NZD" };
+        public string[] Currencies => new [] { "NZD", "CKD" };
         public string[] CallingCodes => new [] { "682" };
     }
 }

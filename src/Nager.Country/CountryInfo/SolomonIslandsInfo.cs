@@ -69,7 +69,7 @@ namespace Nager.Country.CountryInfo
         {
         };
 
-        public string[] Currencies => new [] { "SDB" };
+        public string[] Currencies => new [] { "SBD" };
         public string[] CallingCodes => new [] { "677" };
     }
 }

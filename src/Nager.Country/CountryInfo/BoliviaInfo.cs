@@ -74,7 +74,7 @@ namespace Nager.Country.CountryInfo
             Alpha2Code.PE,
         };
 
-        public string[] Currencies => new [] { "BOB", "BOV" };
+        public string[] Currencies => new [] { "BOB" };
         public string[] CallingCodes => new [] { "591" };
     }
 }

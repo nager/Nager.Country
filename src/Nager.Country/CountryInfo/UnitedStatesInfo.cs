@@ -71,7 +71,7 @@ namespace Nager.Country.CountryInfo
             Alpha2Code.MX,
         };
 
-        public string[] Currencies => new [] { "USD", "USN", "USS" };
+        public string[] Currencies => new [] { "USD" };
         public string[] CallingCodes => new [] { "1" };
     }
 }

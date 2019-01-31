@@ -72,7 +72,7 @@ namespace Nager.Country.CountryInfo
             Alpha2Code.PE,
         };
 
-        public string[] Currencies => new [] { "CLF", "CLP" };
+        public string[] Currencies => new [] { "CLP" };
         public string[] CallingCodes => new [] { "56" };
     }
 }
