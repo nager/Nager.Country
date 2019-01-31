@@ -2,7 +2,7 @@
 
 # Nager.Country
 
-Worldwirde Country Informations with this fields. Also a nuget package is available
+Worldwirde Country Informations with the following data:
 
 - CommonName
 - OfficialName
