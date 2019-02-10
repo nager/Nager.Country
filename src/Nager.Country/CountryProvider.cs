@@ -277,12 +277,12 @@ namespace Nager.Country
 
         public ICountryInfo GetCountry(string alpha2or3Code)
         {
-            if (Enum.TryParse(alpha2or3Code, out Alpha2Code alpha2Code))
+            if (Enum.TryParse(alpha2or3Code, true, out Alpha2Code alpha2Code))
             {
                 return this.GetCountry(alpha2Code);
             }
 
-            if (Enum.TryParse(alpha2or3Code, out Alpha3Code alpha3Code))
+            if (Enum.TryParse(alpha2or3Code, true, out Alpha3Code alpha3Code))
             {
                 return this.GetCountry(alpha3Code);
             }

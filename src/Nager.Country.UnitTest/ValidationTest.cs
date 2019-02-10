@@ -50,5 +50,23 @@ namespace Nager.Date.UnitTest
                 Assert.IsTrue(translationCount > 5, $"missing translations {countryCode}");
             }
         }
+
+        [DataTestMethod]
+        [DataRow("DE")]
+        [DataRow("de")]
+        [DataRow("De")]
+        [DataRow("dE")]
+        [DataRow("DE ")]
+        [DataRow(" DE")]
+        public void GetCountry(string countryCode)
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+
+            var countryInfo = countryProvider.GetCountry(countryCode);
+            if (countryInfo == null)
+            {
+                Assert.Fail($"Found country not {countryCode}");
+            }
+        }
     }
 }

@@ -2,18 +2,18 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
+    <AssemblyVersion>1.0.3</AssemblyVersion>
+    <FileVersion>1.0.3</FileVersion>
     <Authors>Tino Hager</Authors>
     <Company>nager.at</Company>
     <Description>Get Worldwide country informations with translations and country border information</Description>
     <Copyright></Copyright>
     <PackageLicenseUrl>https://github.com/tinohager/Nager.Country/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/tinohager/Nager.Country</PackageProjectUrl>
-    <PackageReleaseNotes>currencies fixes</PackageReleaseNotes>
+    <PackageReleaseNotes>small fix enum parse</PackageReleaseNotes>
     <PackageTags>Country CountryInfo ISO3166 ISO-3166-1_Alpha2 ISO-3166-1_Alpha3 ISO639 ISO-639-1 globalization localization</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
 </Project>
