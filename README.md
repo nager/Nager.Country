@@ -37,5 +37,5 @@ var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
 
 | Language | Project | 
 | ------------- | ------------- | 
-| php | [mledoze-countries](https://github.com/mledoze/countries) |
-| * | https://github.com/umpirsky/country-list |
+| php | [mledoze countries](https://github.com/mledoze/countries) |
+| * | [umpirsky country-list](https://github.com/umpirsky/country-list) |
