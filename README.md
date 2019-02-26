@@ -39,3 +39,4 @@ var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
 | ------------- | ------------- | 
 | php | [mledoze countries](https://github.com/mledoze/countries) |
 | * | [umpirsky country-list](https://github.com/umpirsky/country-list) |
+| javascript | [michaelwittig node-i18n-iso-countries](https://github.com/michaelwittig/node-i18n-iso-countries) |
