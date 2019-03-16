@@ -27,6 +27,10 @@ namespace Nager.Country.UnitTest
                 foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
                 {
                     var countryInfo = countryProvider.GetCountry(countryCode);
+                    if (countryInfo == null)
+                    {
+                        Assert.Fail($"countryInfo is null for {countryCode}");
+                    }
 
                     var compareCountry = items.FirstOrDefault(o => o.Cca2.Equals(countryInfo.Alpha2Code.ToString()));
                     if (compareCountry == null)

@@ -478,6 +478,10 @@
         /// </summary>
         KR,
         /// <summary>
+        /// Kosovo
+        /// </summary>
+        //XK,
+        /// <summary>
         /// Kuwait
         /// </summary>
         KW,

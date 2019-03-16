@@ -259,6 +259,7 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.VN, new VietnamInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.WF, new WallisAndFutunaInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.EH, new WesternSaharaInfo());
+            //this._alpha2Code2CountryInfo.Add(Alpha2Code.XK, new KosovoInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.YE, new YemenInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.ZM, new ZambiaInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.ZW, new ZimbabweInfo());
