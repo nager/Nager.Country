@@ -320,17 +320,17 @@ namespace Nager.Country
 
         public string GetCountryTranslatedName(string alpha2or3Code, LanguageCode languageCode)
         {
-            return GetCountryTranslatedName(GetCountry(alpha2or3Code), languageCode);
+            return this.GetCountryTranslatedName(GetCountry(alpha2or3Code), languageCode);
         }
 
         public string GetCountryTranslatedName(Alpha2Code alpha2Code, LanguageCode languageCode)
         {
-            return GetCountryTranslatedName(GetCountry(alpha2Code), languageCode);
+            return this.GetCountryTranslatedName(GetCountry(alpha2Code), languageCode);
         }
 
         public string GetCountryTranslatedName(Alpha3Code alpha3Code, LanguageCode languageCode)
         {
-            return GetCountryTranslatedName(GetCountry(alpha3Code), languageCode);
+            return this.GetCountryTranslatedName(GetCountry(alpha3Code), languageCode);
         }
 
         public string GetCountryTranslatedName(string alpha2or3Code, string languageCode)
@@ -380,25 +380,31 @@ namespace Nager.Country
 
         public string GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
-            string name = this.GetCountryTranslatedName(alpha2or3Code, culture);
-            if (String.IsNullOrWhiteSpace(name) == true)
+            var name = this.GetCountryTranslatedName(alpha2or3Code, culture);
+            if (string.IsNullOrWhiteSpace(name) == true)
+            {
                 name = this.GetCountryTranslatedName(alpha2or3Code, defaultLanguageCode);
+            }
             return name;
         }
 
         public string GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
-            string name = this.GetCountryTranslatedName(alpha2Code, culture);
-            if (String.IsNullOrWhiteSpace(name) == true)
+            var name = this.GetCountryTranslatedName(alpha2Code, culture);
+            if (string.IsNullOrWhiteSpace(name) == true)
+            {
                 name = this.GetCountryTranslatedName(alpha2Code, defaultLanguageCode);
+            }
             return name;
         }
 
         public string GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
-            string name = this.GetCountryTranslatedName(alpha3Code, culture);
-            if (String.IsNullOrWhiteSpace(name) == true)
+            var name = this.GetCountryTranslatedName(alpha3Code, culture);
+            if (string.IsNullOrWhiteSpace(name) == true)
+            {
                 name = this.GetCountryTranslatedName(alpha3Code, defaultLanguageCode);
+            }
             return name;
         }
 
