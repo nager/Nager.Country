@@ -5,7 +5,7 @@ namespace Nager.Country.CountryInfo
     /// </summary>
     public class MacedoniaInfo : ICountryInfo
     {
-        public string CommonName => "Macedonia";
+        public string CommonName => "North Macedonia";
         public string OfficialName => "Republic of Macedonia";
         public Translation[] Translations => new []
         {
