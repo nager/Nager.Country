@@ -1,6 +1,8 @@
 ﻿using Nager.Country.CountryInfo;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 
 namespace Nager.Country
 {
@@ -276,6 +278,11 @@ namespace Nager.Country
             #endregion
         }
 
+        public IEnumerable<ICountryInfo> GetCountries()
+        {
+            return this._alpha2Code2CountryInfo.Values;
+        }
+
         public ICountryInfo GetCountry(string alpha2or3Code)
         {
             if (Enum.TryParse(alpha2or3Code, true, out Alpha2Code alpha2Code))
@@ -306,6 +313,106 @@ namespace Nager.Country
             if (this._alpha3Code2CountryInfo.TryGetValue(alpha3Code, out ICountryInfo countryInfo))
             {
                 return countryInfo;
+            }
+
+            return null;
+        }
+
+        public string GetCountryTranslatedName(string alpha2or3Code, LanguageCode languageCode)
+        {
+            return this.GetCountryTranslatedName(GetCountry(alpha2or3Code), languageCode);
+        }
+
+        public string GetCountryTranslatedName(Alpha2Code alpha2Code, LanguageCode languageCode)
+        {
+            return this.GetCountryTranslatedName(GetCountry(alpha2Code), languageCode);
+        }
+
+        public string GetCountryTranslatedName(Alpha3Code alpha3Code, LanguageCode languageCode)
+        {
+            return this.GetCountryTranslatedName(GetCountry(alpha3Code), languageCode);
+        }
+
+        public string GetCountryTranslatedName(string alpha2or3Code, string languageCode)
+        {
+            if (Enum.TryParse(languageCode, true, out LanguageCode code))
+            {
+                return this.GetCountryTranslatedName(alpha2or3Code, code);
+            }
+
+            return null;
+        }
+
+        public string GetCountryTranslatedName(Alpha2Code alpha2Code, string languageCode)
+        {
+            if (Enum.TryParse(languageCode, true, out LanguageCode code))
+            {
+                return this.GetCountryTranslatedName(alpha2Code, code);
+            }
+
+            return null;
+        }
+
+        public string GetCountryTranslatedName(Alpha3Code alpha3Code, string languageCode)
+        {
+            if (Enum.TryParse(languageCode, true, out LanguageCode code))
+            {
+                return this.GetCountryTranslatedName(alpha3Code, code);
+            }
+
+            return null;
+        }
+
+        public string GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture)
+        {
+            return this.GetCountryTranslatedName(alpha2or3Code, culture.TwoLetterISOLanguageName);
+        }
+
+        public string GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture)
+        {
+            return this.GetCountryTranslatedName(alpha2Code, culture.TwoLetterISOLanguageName);
+        }
+
+        public string GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture)
+        {
+            return this.GetCountryTranslatedName(alpha3Code, culture.TwoLetterISOLanguageName);
+        }
+
+        public string GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
+        {
+            var name = this.GetCountryTranslatedName(alpha2or3Code, culture);
+            if (string.IsNullOrWhiteSpace(name) == true)
+            {
+                name = this.GetCountryTranslatedName(alpha2or3Code, defaultLanguageCode);
+            }
+            return name;
+        }
+
+        public string GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture, LanguageCode defaultLanguageCode)
+        {
+            var name = this.GetCountryTranslatedName(alpha2Code, culture);
+            if (string.IsNullOrWhiteSpace(name) == true)
+            {
+                name = this.GetCountryTranslatedName(alpha2Code, defaultLanguageCode);
+            }
+            return name;
+        }
+
+        public string GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
+        {
+            var name = this.GetCountryTranslatedName(alpha3Code, culture);
+            if (string.IsNullOrWhiteSpace(name) == true)
+            {
+                name = this.GetCountryTranslatedName(alpha3Code, defaultLanguageCode);
+            }
+            return name;
+        }
+
+        private string GetCountryTranslatedName(ICountryInfo countryInfo, LanguageCode languageCode)
+        {
+            if (countryInfo != null && countryInfo.Translations != null && countryInfo.Translations.Length > 0)
+            {
+                return countryInfo.Translations.Where(x => x.LanguageCode == languageCode).Select(x => x.Name).FirstOrDefault();
             }
 
             return null;
