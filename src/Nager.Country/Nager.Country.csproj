@@ -2,18 +2,25 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <AssemblyVersion>1.0.3</AssemblyVersion>
-    <FileVersion>1.0.3</FileVersion>
+    <AssemblyVersion>1.0.4</AssemblyVersion>
+    <FileVersion>1.0.4</FileVersion>
     <Authors>Tino Hager</Authors>
     <Company>nager.at</Company>
     <Description>Get Worldwide country informations with translations and country border information</Description>
-    <Copyright></Copyright>
-    <PackageLicenseUrl>https://github.com/tinohager/Nager.Country/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/tinohager/Nager.Country</PackageProjectUrl>
-    <PackageReleaseNotes>small fix enum parse</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/tinohager/Nager.Country</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Add Licenece file</PackageReleaseNotes>
     <PackageTags>Country CountryInfo ISO3166 ISO-3166-1_Alpha2 ISO-3166-1_Alpha3 ISO639 ISO-639-1 globalization localization</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.3</Version>
+    <PackageIconUrl>https://raw.githubusercontent.com/tinohager/Nager.Country/master/doc/logo.png</PackageIconUrl>
+    <Version>1.0.4</Version>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md" Pack="true" PackagePath="LICENSE.md" />
+  </ItemGroup>
 
 </Project>
