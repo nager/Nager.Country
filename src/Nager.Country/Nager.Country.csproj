@@ -5,8 +5,8 @@
     <Authors>Tino Hager</Authors>
     <Company>nager.at</Company>
     <Description>Get Worldwide country informations with translations and country border information</Description>
-    <PackageProjectUrl>https://github.com/tinohager/Nager.Country</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/tinohager/Nager.Country</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/nager/Nager.Country</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nager/Nager.Country</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>Small fixes</PackageReleaseNotes>
     <PackageTags>Country CountryInfo ISO3166 ISO-3166-1_Alpha2 ISO-3166-1_Alpha3 ISO639 ISO-639-1 globalization localization</PackageTags>
