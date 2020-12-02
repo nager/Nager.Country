@@ -62,7 +62,7 @@ namespace Nager.Country.CountryInfo
         public int NumericCode => 260;
         public string[] TLD => new [] { ".tf" };
 
-        public Region Region => Region.None;
+        public Region Region => Region.Antarctic;
         public SubRegion SubRegion => SubRegion.None;
 
         public Alpha2Code[] BorderCountrys => new Alpha2Code[]

@@ -25,6 +25,10 @@
         /// <summary>
         /// Oceania
         /// </summary>
-        Oceania
+        Oceania,
+        /// <summary>
+        /// Antarctic
+        /// </summary>
+        Antarctic
     }
 }

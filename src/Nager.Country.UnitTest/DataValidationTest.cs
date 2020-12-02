@@ -42,14 +42,30 @@ namespace Nager.Country.UnitTest
                     //countryInfo.Currencies
                     //    .Should()
                     //    .BeEquivalentTo(compareCountry.Currencies.ChildrenToke.Name.ToArray(),
-                    //    because: $"{countryCode} {string.Join(",", compareCountry.Currencies.Keys)}  {string.Join(",", countryInfo.Currencies)}");
+                    //    because: $"{countryCode} {string.Join(",", compareCountry.Currencies.Keys)}  {string.Join(",", countryInfo.Currencies)}");                   
 
-                    Assert.AreEqual(compareCountry.Ccn3, countryInfo.NumericCode, $"wrong numeric code by {countryCode}");
-                    //Assert.AreEqual(countryInfo.Region.ToString(), compareCountry.Region, $"wrong region by {countryCode}");
-                    Assert.AreEqual(compareCountry.Cca3, countryInfo.Alpha3Code.ToString(), $"wrong alpha 3 code by {countryCode}");
-                    Assert.AreEqual(compareCountry.Name.Common, countryInfo.CommonName.ToString(), $"wrong common name by {countryCode}");
+                    Assert.AreEqual(compareCountry.Ccn3, countryInfo.NumericCode, $"wrong numeric code by {countryCode} {countryInfo.CommonName}");
+                    Assert.AreEqual(compareCountry.Region, countryInfo.Region.ToString(), $"wrong region by {countryCode} {countryInfo.CommonName}");
+                    Assert.AreEqual(this.AdaptMledozeSubRegion(compareCountry.Subregion), this.GetSubRegion(countryInfo.SubRegion), $"wrong subregion by {countryCode} {countryInfo.CommonName}");
+                    Assert.AreEqual(compareCountry.Cca3, countryInfo.Alpha3Code.ToString(), $"wrong alpha 3 code by {countryCode} {countryInfo.CommonName}");
+                    Assert.AreEqual(compareCountry.Name.Common, countryInfo.CommonName.ToString(), $"wrong common name by {countryCode} {countryInfo.CommonName}");
                 }
             }
+        }
+
+        private string AdaptMledozeSubRegion(string subregion)
+        {
+            return subregion.Replace(" ", string.Empty).Replace("-", string.Empty);
+        }
+
+        private string GetSubRegion(SubRegion subRegion)
+        {
+            if (subRegion == SubRegion.None)
+            {
+                return string.Empty;
+            }
+
+            return subRegion.ToString();
         }
 
         public class MledozeCountry

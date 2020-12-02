@@ -19,15 +19,19 @@
         /// Eastern Europe
         /// </summary>
         EasternEurope,
+        /// <summary>
+        /// Central Europe
+        /// </summary>
+        CentralEurope,
 
         /// <summary>
         /// Central America
         /// </summary>
         CentralAmerica,
         /// <summary>
-        /// Northern America
+        /// North America
         /// </summary>
-        NorthernAmerica,
+        NorthAmerica,
         /// <summary>
         /// South America
         /// </summary>

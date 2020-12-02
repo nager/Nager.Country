@@ -63,7 +63,7 @@ namespace Nager.Country.CountryInfo
         public string[] TLD => new [] { ".mx" };
 
         public Region Region => Region.Americas;
-        public SubRegion SubRegion => SubRegion.CentralAmerica;
+        public SubRegion SubRegion => SubRegion.NorthAmerica;
 
         public Alpha2Code[] BorderCountrys => new Alpha2Code[]
         {

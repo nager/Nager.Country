@@ -381,7 +381,7 @@ namespace Nager.Country
         public string GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
             var name = this.GetCountryTranslatedName(alpha2or3Code, culture);
-            if (string.IsNullOrWhiteSpace(name) == true)
+            if (string.IsNullOrWhiteSpace(name))
             {
                 name = this.GetCountryTranslatedName(alpha2or3Code, defaultLanguageCode);
             }
@@ -391,7 +391,7 @@ namespace Nager.Country
         public string GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
             var name = this.GetCountryTranslatedName(alpha2Code, culture);
-            if (string.IsNullOrWhiteSpace(name) == true)
+            if (string.IsNullOrWhiteSpace(name))
             {
                 name = this.GetCountryTranslatedName(alpha2Code, defaultLanguageCode);
             }
@@ -401,7 +401,7 @@ namespace Nager.Country
         public string GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
             var name = this.GetCountryTranslatedName(alpha3Code, culture);
-            if (string.IsNullOrWhiteSpace(name) == true)
+            if (string.IsNullOrWhiteSpace(name))
             {
                 name = this.GetCountryTranslatedName(alpha3Code, defaultLanguageCode);
             }

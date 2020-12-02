@@ -25,7 +25,7 @@ namespace Nager.Date.UnitTest
                     continue;
                 }
 
-                var duplicateTranslation = countryInfo.Translations.GroupBy(o => o.LanguageCode).Where(o => o.Count() > 1).Any();
+                var duplicateTranslation = countryInfo.Translations.GroupBy(o => o.LanguageCode).Any(o => o.Count() > 1);
                 Assert.IsFalse(duplicateTranslation);
             }
 
@@ -77,7 +77,7 @@ namespace Nager.Date.UnitTest
 
             foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
             {
-                if(countries.Any(x => x.Alpha2Code == countryCode) == false)
+                if(!countries.Any(x => x.Alpha2Code == countryCode))
                 {
                     Assert.Fail($"No country in all countries list for country code {countryCode}");
                 }
@@ -100,13 +100,13 @@ namespace Nager.Date.UnitTest
                 foreach (var culture in cultures)
                 {
                     bool expectResult = false;
-                    if (Enum.TryParse(culture.TwoLetterISOLanguageName, true, out LanguageCode code) == true)
+                    if (Enum.TryParse(culture.TwoLetterISOLanguageName, true, out LanguageCode code))
                     {
                         expectResult = expectedLanguages.Any(x => x == code);
                     }
 
                     var translatedCountryName = countryProvider.GetCountryTranslatedName(countryCode, culture);
-                    if(expectResult == true && String.IsNullOrWhiteSpace(translatedCountryName) == true)
+                    if(expectResult && string.IsNullOrWhiteSpace(translatedCountryName))
                     {
                         Assert.Fail($"A result was expected but there was no translated country name found for {countryCode} and culture {culture.Name} (language {culture.TwoLetterISOLanguageName})");
                     }
@@ -134,20 +134,20 @@ namespace Nager.Date.UnitTest
                 foreach (var culture in cultures)
                 {
                     bool expectResult = false;
-                    if (Enum.TryParse(culture.TwoLetterISOLanguageName, true, out LanguageCode code) == true)
+                    if (Enum.TryParse(culture.TwoLetterISOLanguageName, true, out LanguageCode code))
                     {
                         expectResult = expectedLanguages.Any(x => x == code);
                     }
 
                     var translatedCountryName = countryProvider.GetCountryTranslatedName(countryCode, culture, defaultLanguageCode);
-                    if (expectResult == true && String.IsNullOrWhiteSpace(translatedCountryName) == true)
+                    if (expectResult && string.IsNullOrWhiteSpace(translatedCountryName))
                     {
                         Assert.Fail($"A result was expected but there was no translated country name found for {countryCode} and culture {culture.Name} (language {culture.TwoLetterISOLanguageName})");
                     }
                     else
                     {
                         expectResult = expectedLanguages.Any(x => x == defaultLanguageCode);
-                        if (expectResult == true && String.IsNullOrWhiteSpace(translatedCountryName) == true)
+                        if (expectResult && string.IsNullOrWhiteSpace(translatedCountryName))
                         {
                             Assert.Fail($"A result was expected for default value but there was no translated country name found for {countryCode} and default language code {defaultLanguageCode}");
                         }

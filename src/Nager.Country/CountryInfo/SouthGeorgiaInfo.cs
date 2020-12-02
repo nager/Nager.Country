@@ -62,8 +62,8 @@ namespace Nager.Country.CountryInfo
         public int NumericCode => 239;
         public string[] TLD => new [] { ".gs" };
 
-        public Region Region => Region.Americas;
-        public SubRegion SubRegion => SubRegion.SouthAmerica;
+        public Region Region => Region.Antarctic;
+        public SubRegion SubRegion => SubRegion.None;
 
         public Alpha2Code[] BorderCountrys => new Alpha2Code[]
         {
