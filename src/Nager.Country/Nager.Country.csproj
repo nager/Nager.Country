@@ -11,8 +11,8 @@
     <PackageReleaseNotes>Small fixes</PackageReleaseNotes>
     <PackageTags>Country CountryInfo ISO3166 ISO-3166-1_Alpha2 ISO-3166-1_Alpha3 ISO639 ISO-639-1 globalization localization</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageIcon>logo.png</PackageIcon>
-    <Version>1.0.5</Version>
+    <PackageIcon>icon.png</PackageIcon>
+    <Version>1.0.6</Version>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\doc\logo.png">
+    <None Include="..\..\doc\icon.png">
       <Pack>true</Pack>
       <Visible>false</Visible>
       <PackagePath></PackagePath>
