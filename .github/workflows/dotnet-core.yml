@@ -1,0 +1,38 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: |
+        cd src
+        dotnet restore
+    - name: Build
+      run: |
+        cd src
+        dotnet build --configuration Release --no-restore
+#    - name: Test
+#      run: |
+#        cd src
+#        dotnet test --no-restore --verbosity normal
+    - name: Build solution and generate NuGet package
+      run: |  
+        cd src/Nager.Country
+        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out
+
+    - name: Push generated package NuGet
+      run: dotnet nuget push $GITHUB_WORKSPACE/out/*.nupkg --source https://www.nuget.org/api/v2/package --api-key ${{secrets.NUGET_TOKEN}} --skip-duplicate --no-symbols true
