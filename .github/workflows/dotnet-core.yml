@@ -33,6 +33,8 @@ jobs:
       run: |  
         cd src/Nager.Country
         dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out
-
     - name: Push generated package NuGet
-      run: dotnet nuget push $GITHUB_WORKSPACE/out/*.nupkg --source https://www.nuget.org/api/v2/package --api-key ${{secrets.NUGET_TOKEN}} --skip-duplicate --no-symbols true
+      run: |
+        cd $GITHUB_WORKSPACE/out
+        ls
+        dotnet nuget push $GITHUB_WORKSPACE/out/*.nupkg --source https://www.nuget.org/api/v2/package --api-key ${{secrets.NUGET_TOKEN}} --skip-duplicate --no-symbols true
