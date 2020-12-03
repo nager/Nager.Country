@@ -17,26 +17,24 @@ Worldwirde Country Informations with the following data:
 - Currencies
 - CallingCodes
 
-### nuget
+## nuget
 The package is available on [nuget](https://www.nuget.org/packages/Nager.Country)
 ```
 PM> install-package Nager.Country
 ```
 
-### Examples
+## Examples
 
-#### Get country informations of Germany
+### Get country informations of Germany
 ```cs
 ICountryProvider countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
 ```
 
-
-
-### Alternative projects
+## Alternative projects
 
 | Language | Project | 
 | ------------- | ------------- | 
-| php | [mledoze countries](https://github.com/mledoze/countries) |
+| * | [mledoze countries](https://github.com/mledoze/countries) |
 | * | [umpirsky country-list](https://github.com/umpirsky/country-list) |
 | javascript | [michaelwittig node-i18n-iso-countries](https://github.com/michaelwittig/node-i18n-iso-countries) |
