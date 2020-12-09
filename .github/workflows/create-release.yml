@@ -1,0 +1,40 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Create release
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install project dependencies
+      working-directory: ./src
+      run: dotnet restore
+    - name: Build
+      working-directory: ./src
+      run: dotnet build --configuration Release --no-restore
+    - name: Export Countries
+      working-directory: ./src/Nager.Country.Export/bin/Release/netcoreapp3.1
+      run: |
+        ./Nager.Country.Export.exe
+        Compress-Archive -Path *.json -DestinationPath countries.zip
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_name: tinohager/Test.GithubActionPublishRelease
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: src/Nager.Country.Export/bin/Release/netcoreapp3.1/countries.zip
+        asset_name: countries.zip
+        tag: ${{ github.ref }}-{{ github.run_id }}
+        overwrite: true
+        body: "Countries as json"

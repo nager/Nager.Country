@@ -17,23 +17,21 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.301
-    - name: Install dependencies
-      run: |
-        cd src
-        dotnet restore
+    - name: Install project dependencies
+      working-directory: ./src
+      run: dotnet restore
     - name: Build
-      run: |
-        cd src
-        dotnet build --configuration Release --no-restore
+      working-directory: ./src
+      run: dotnet build --configuration Release --no-restore
 #    - name: Test
+#      working-directory: ./src
 #      run: |
-#        cd src
 #        dotnet test --no-restore --verbosity normal
-    - name: Build solution and generate NuGet package
+    - name: Build project and generate NuGet package
       run: |  
         cd src/Nager.Country
         dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out
-    - name: Push generated package NuGet
+    - name: Push NuGet package
       run: |
         cd $GITHUB_WORKSPACE/out
         dotnet nuget push *.nupkg --source https://www.nuget.org/api/v2/package --api-key ${{secrets.NUGET_TOKEN}} --skip-duplicate --no-symbols true
