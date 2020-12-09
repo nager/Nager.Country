@@ -31,7 +31,7 @@ jobs:
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
       with:
-        repo_name: tinohager/Test.GithubActionPublishRelease
+        repo_name: nager/Nager.Country
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: src/Nager.Country.Export/bin/Release/netcoreapp3.1/countries.zip
         asset_name: countries.zip
