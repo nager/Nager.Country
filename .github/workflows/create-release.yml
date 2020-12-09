@@ -35,6 +35,6 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: src/Nager.Country.Export/bin/Release/netcoreapp3.1/countries.zip
         asset_name: countries.zip
-        tag: ${{ github.ref }}-{{ github.run_id }}
+        tag: ${{ github.ref }}-${{ github.run_id }}
         overwrite: true
         body: "Countries as json"
