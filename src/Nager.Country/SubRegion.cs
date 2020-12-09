@@ -19,10 +19,6 @@
         /// Eastern Europe
         /// </summary>
         EasternEurope,
-        /// <summary>
-        /// Central Europe
-        /// </summary>
-        CentralEurope,
 
         /// <summary>
         /// Central America

@@ -63,7 +63,7 @@ namespace Nager.Country.CountryInfo
         public string[] TLD => new [] { ".sk" };
 
         public Region Region => Region.Europe;
-        public SubRegion SubRegion => SubRegion.CentralEurope;
+        public SubRegion SubRegion => SubRegion.EasternEurope;
 
         public Alpha2Code[] BorderCountrys => new Alpha2Code[]
         {
