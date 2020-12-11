@@ -9,36 +9,36 @@ The Worldwirde Country Informations are available over the `nuget` package or as
   "officialName": "Republic of Austria",
   "translations": [
     {
-      "languageCode": "en",
+      "languageCode": "EN",
       "name": "Austria"
     },
     {
-      "languageCode": "es",
+      "languageCode": "ES",
       "name": "Austria"
     },
     {
-      "languageCode": "fr",
+      "languageCode": "FR",
       "name": "Autriche"
     },
     ...
   ],
-  "alpha2Code": "at",
-  "alpha3Code": "aut",
+  "alpha2Code": "AT",
+  "alpha3Code": "AUT",
   "numericCode": 40,
   "tld": [
     ".at"
   ],
-  "region": "europe",
-  "subRegion": "westernEurope",
+  "region": "Europe",
+  "subRegion": "WesternEurope",
   "borderCountrys": [
-    "cz",
-    "de",
-    "hu",
-    "it",
-    "li",
-    "sk",
-    "si",
-    "ch"
+    "CZ",
+    "DE",
+    "HU",
+    "IT",
+    "LI",
+    "SK",
+    "SI",
+    "CH"
   ],
   "currencies": [
     "EUR"
