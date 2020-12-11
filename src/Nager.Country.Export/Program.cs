@@ -22,8 +22,8 @@ namespace Nager.Country.Export
                 PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
                 Converters =
                 {
-                    new JsonStringEnumConverter(JsonNamingPolicy.CamelCase)
-                },
+                    new JsonStringEnumConverterWithAttributeSupport(null, true, true, true, true)
+        },
                 WriteIndented = true
             };
 

@@ -63,7 +63,7 @@ namespace Nager.Country.CountryInfo
         public string[] TLD => new [] { ".cx" };
 
         public Region Region => Region.Oceania;
-        public SubRegion SubRegion => SubRegion.AustraliaandNewZealand;
+        public SubRegion SubRegion => SubRegion.AustraliaAndNewZealand;
 
         public Alpha2Code[] BorderCountrys => new Alpha2Code[]
         {

@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EnumExtensions.System.Text.Json" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Nager.Country\Nager.Country.csproj" />
   </ItemGroup>
 
