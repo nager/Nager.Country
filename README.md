@@ -55,12 +55,37 @@ The package is available on [nuget](https://www.nuget.org/packages/Nager.Country
 PM> install-package Nager.Country
 ```
 
-## Examples
+## Examples for the use of the nuget package
 
-### Get country informations of Germany
+### Get country by Alpha2Code
 ```cs
 ICountryProvider countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
+//countryInfo.CommonName -> Germany
+//countryInfo.Alpha3Code -> DEU
+//countryInfo.NumericCode -> 276
+//countryInfo.Region -> Europe
+//countryInfo.SubRegion -> WesternEurope
+//countryInfo...
+```
+
+### Get country by CountryName
+```cs
+ICountryProvider countryProvider = new CountryProvider();
+var countryInfo = countryProvider.GetCountryByName("Germany");
+//countryInfo.Alpha2Code -> DE
+//countryInfo.Alpha3Code -> DEU
+//countryInfo.NumericCode -> 276
+//countryInfo.Region -> Europe
+//countryInfo.SubRegion -> WesternEurope
+//countryInfo...
+```
+
+### Get the name of the country in the requested language
+```cs
+ICountryProvider countryProvider = new CountryProvider();
+var translatedCountryName = countryProvider.GetCountryTranslatedName(Alpha2Code.DE, LanguageCode.EN);
+//translatedCountryName -> Germany
 ```
 
 ## Alternative projects

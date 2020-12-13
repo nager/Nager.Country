@@ -70,6 +70,8 @@ namespace Nager.Country.UnitTest
         }
 
         [DataTestMethod]
+        [DataRow("austria")]
+        [DataRow("Österreich")]
         [DataRow("Austria")]
         [DataRow("Republic of Austria")]
         [DataRow("Austrija")]
@@ -80,7 +82,16 @@ namespace Nager.Country.UnitTest
             ICountryProvider countryProvider = new CountryProvider();
 
             var countryInfo = countryProvider.GetCountryByName(countryName);
-            Assert.AreEqual(Country.Alpha2Code.AT, countryInfo.Alpha2Code);
+            Assert.AreEqual(Alpha2Code.AT, countryInfo.Alpha2Code);
+        }
+
+        [TestMethod]
+        public void GetCountryTranslatedName()
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+
+            var translatedCountryName = countryProvider.GetCountryTranslatedName(Alpha2Code.DE, LanguageCode.EN);
+            Assert.AreEqual("Germany", translatedCountryName);
         }
 
         public void GetCountries()
