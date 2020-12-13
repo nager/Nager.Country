@@ -1,11 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Nager.Country;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace Nager.Date.UnitTest
+namespace Nager.Country.UnitTest
 {
     [TestClass]
     public class ValidationTest
@@ -48,7 +47,7 @@ namespace Nager.Date.UnitTest
                 }
 
                 var translationCount = countryInfo.Translations.Length;
-                Assert.IsTrue(translationCount > 5, $"missing translations {countryCode}");
+                Assert.IsTrue(translationCount > 5, $"Missing translations for countryCode: {countryCode}");
             }
         }
 
@@ -66,20 +65,35 @@ namespace Nager.Date.UnitTest
             var countryInfo = countryProvider.GetCountry(countryCode);
             if (countryInfo == null)
             {
-                Assert.Fail($"Found country not {countryCode}");
+                Assert.Fail($"Cannot found countryCode: {countryCode}");
             }
+        }
+
+        [DataTestMethod]
+        [DataRow("Austria")]
+        [DataRow("Republic of Austria")]
+        [DataRow("Austrija")]
+        [DataRow("Oostenrijk")]
+        [DataRow("Österrike")]
+        public void GetCountryByName(string countryName)
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+
+            var countryInfo = countryProvider.GetCountryByName(countryName);
+            Assert.AreEqual(Country.Alpha2Code.AT, countryInfo.Alpha2Code);
         }
 
         public void GetCountries()
         {
             ICountryProvider countryProvider = new CountryProvider();
             var countries = countryProvider.GetCountries();
+            var availableCountryCodes = (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code));
 
-            foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
+            foreach (var countryCode in availableCountryCodes)
             {
-                if(!countries.Any(x => x.Alpha2Code == countryCode))
+                if (!countries.Any(x => x.Alpha2Code == countryCode))
                 {
-                    Assert.Fail($"No country in all countries list for country code {countryCode}");
+                    Assert.Fail($"Cannot found a CountryInfo for countryCode: {countryCode}");
                 }
             }
         }
@@ -106,7 +120,7 @@ namespace Nager.Date.UnitTest
                     }
 
                     var translatedCountryName = countryProvider.GetCountryTranslatedName(countryCode, culture);
-                    if(expectResult && string.IsNullOrWhiteSpace(translatedCountryName))
+                    if (expectResult && string.IsNullOrWhiteSpace(translatedCountryName))
                     {
                         Assert.Fail($"A result was expected but there was no translated country name found for {countryCode} and culture {culture.Name} (language {culture.TwoLetterISOLanguageName})");
                     }

@@ -8,8 +8,8 @@ namespace Nager.Country
 {
     public class CountryProvider : ICountryProvider
     {
-        public readonly Dictionary<Alpha2Code, ICountryInfo> _alpha2Code2CountryInfo = new Dictionary<Alpha2Code, ICountryInfo>();
-        public readonly Dictionary<Alpha3Code, ICountryInfo> _alpha3Code2CountryInfo = new Dictionary<Alpha3Code, ICountryInfo>();
+        private readonly Dictionary<Alpha2Code, ICountryInfo> _alpha2Code2CountryInfo = new Dictionary<Alpha2Code, ICountryInfo>();
+        private readonly Dictionary<Alpha3Code, ICountryInfo> _alpha3Code2CountryInfo = new Dictionary<Alpha3Code, ICountryInfo>();
 
         public CountryProvider()
         {
@@ -313,6 +313,29 @@ namespace Nager.Country
             if (this._alpha3Code2CountryInfo.TryGetValue(alpha3Code, out ICountryInfo countryInfo))
             {
                 return countryInfo;
+            }
+
+            return null;
+        }
+
+        public ICountryInfo GetCountryByName(string countryName)
+        {
+            foreach (var countryInfo in this._alpha2Code2CountryInfo.Values)
+            {
+                if (countryInfo.CommonName.Equals(countryName, StringComparison.OrdinalIgnoreCase))
+                {
+                    return countryInfo;
+                }
+
+                if (countryInfo.OfficialName.Equals(countryName, StringComparison.OrdinalIgnoreCase))
+                {
+                    return countryInfo;
+                }
+
+                if (countryInfo.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
+                {
+                    return countryInfo;
+                }
             }
 
             return null;
