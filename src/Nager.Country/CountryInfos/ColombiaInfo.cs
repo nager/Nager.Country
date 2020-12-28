@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.VE,
         };
 
-        public string[] Currencies => new [] { "COP" };
+        public ICurrency[] Currencies => new [] { new CopCurrency() };
         public string[] CallingCodes => new [] { "57" };
     }
 }

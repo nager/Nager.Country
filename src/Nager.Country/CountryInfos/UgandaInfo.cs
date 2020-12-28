@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TZ,
         };
 
-        public string[] Currencies => new [] { "UGX" };
+        public ICurrency[] Currencies => new [] { "UGX" };
         public string[] CallingCodes => new [] { "256" };
     }
 }

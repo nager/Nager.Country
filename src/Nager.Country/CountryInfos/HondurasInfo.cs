@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.NI,
         };
 
-        public string[] Currencies => new [] { "HNL" };
+        public ICurrency[] Currencies => new [] { new HnlCurrency() };
         public string[] CallingCodes => new [] { "504" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.GY,
         };
 
-        public string[] Currencies => new [] { "VEF" };
+        public ICurrency[] Currencies => new [] { new VefCurrency() };
         public string[] CallingCodes => new [] { "58" };
     }
 }

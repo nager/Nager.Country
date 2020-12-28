@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SL,
         };
 
-        public string[] Currencies => new [] { "LRD" };
+        public ICurrency[] Currencies => new [] { new LrdCurrency() };
         public string[] CallingCodes => new [] { "231" };
     }
 }

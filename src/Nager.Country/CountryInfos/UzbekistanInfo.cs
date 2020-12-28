@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TM,
         };
 
-        public string[] Currencies => new [] { "UZS" };
+        public ICurrency[] Currencies => new [] { new UzsCurrency() };
         public string[] CallingCodes => new [] { "998" };
     }
 }

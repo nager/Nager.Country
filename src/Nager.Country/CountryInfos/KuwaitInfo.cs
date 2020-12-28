@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SA,
         };
 
-        public string[] Currencies => new [] { "KWD" };
+        public ICurrency[] Currencies => new [] { new KwdCurrency() };
         public string[] CallingCodes => new [] { "965" };
     }
 }

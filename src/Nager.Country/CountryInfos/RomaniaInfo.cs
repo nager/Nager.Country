@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UA,
         };
 
-        public string[] Currencies => new [] { "RON" };
+        public ICurrency[] Currencies => new [] { new RonCurrency() };
         public string[] CallingCodes => new [] { "40" };
     }
 }

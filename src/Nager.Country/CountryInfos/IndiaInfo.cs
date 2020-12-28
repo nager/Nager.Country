@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -77,7 +79,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.LK,
         };
 
-        public string[] Currencies => new [] { "INR" };
+        public ICurrency[] Currencies => new [] { new InrCurrency() };
         public string[] CallingCodes => new [] { "91" };
     }
 }

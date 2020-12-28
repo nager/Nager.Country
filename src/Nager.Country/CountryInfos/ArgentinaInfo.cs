@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UY,
         };
 
-        public string[] Currencies => new [] { "ARS" };
+        public ICurrency[] Currencies => new [] { new ArsCurrency() };
         public string[] CallingCodes => new [] { "54" };
     }
 }

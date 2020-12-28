@@ -28,7 +28,7 @@
 
         Alpha2Code[] BorderCountrys { get; }
 
-        string[] Currencies { get; }
+        ICurrency[] Currencies { get; }
         string[] CallingCodes { get; }
     }
 }

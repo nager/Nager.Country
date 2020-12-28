@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.US,
         };
 
-        public string[] Currencies => new [] { "MXN" };
+        public ICurrency[] Currencies => new [] { new MxnCurrency() };
         public string[] CallingCodes => new [] { "52" };
     }
 }

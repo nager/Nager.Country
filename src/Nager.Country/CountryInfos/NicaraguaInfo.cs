@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.HN,
         };
 
-        public string[] Currencies => new [] { "NIO" };
+        public ICurrency[] Currencies => new [] { new NioCurrency() };
         public string[] CallingCodes => new [] { "505" };
     }
 }

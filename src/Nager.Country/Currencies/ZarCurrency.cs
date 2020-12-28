@@ -2,16 +2,16 @@ namespace Nager.Country.Currencies
 {
     public class ZarCurrency : ICurrency
     {
-        public string Symbol => "R";
+        public string Symbol => null;
 
-        public string Singular => "rand";
+        public string Singular => null;
 
-        public string Plural => "rand";
+        public string Plural => null;
 
-        public string IsoCode => "ZAR";
+        public string IsoCode => "XPF";
 
-        public string NumericCode => "710";
+        public string NumericCode => "953";
 
-        public string Name => "South African Rand";
+        public string Name => "CFP franc";
     }
 }

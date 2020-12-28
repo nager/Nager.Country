@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.JO,
         };
 
-        public string[] Currencies => new [] { "ILS" };
+        public ICurrency[] Currencies => new [] { new IlsCurrency() };
         public string[] CallingCodes => new [] { "970" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.EC,
         };
 
-        public string[] Currencies => new [] { "PEN" };
+        public ICurrency[] Currencies => new [] { new PenCurrency() };
         public string[] CallingCodes => new [] { "51" };
     }
 }

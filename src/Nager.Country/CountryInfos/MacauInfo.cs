@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.CN,
         };
 
-        public string[] Currencies => new [] { "MOP" };
+        public ICurrency[] Currencies => new [] { new MopCurrency() };
         public string[] CallingCodes => new [] { "853" };
     }
 }

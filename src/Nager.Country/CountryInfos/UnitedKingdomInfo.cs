@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.IE,
         };
 
-        public string[] Currencies => new [] { "GBP" };
+        public ICurrency[] Currencies => new [] { new GbpCurrency() };
         public string[] CallingCodes => new [] { "44" };
     }
 }

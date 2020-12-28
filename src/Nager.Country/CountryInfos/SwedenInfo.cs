@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.NO,
         };
 
-        public string[] Currencies => new [] { "SEK" };
+        public ICurrency[] Currencies => new [] { new SekCurrency() };
         public string[] CallingCodes => new [] { "46" };
     }
 }

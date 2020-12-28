@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.US,
         };
 
-        public string[] Currencies => new [] { "CAD" };
+        public ICurrency[] Currencies => new [] { new CadCurrency() };
         public string[] CallingCodes => new [] { "1" };
     }
 }

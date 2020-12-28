@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SA,
         };
 
-        public string[] Currencies => new [] { "QAR" };
+        public ICurrency[] Currencies => new [] { new QarCurrency() };
         public string[] CallingCodes => new [] { "974" };
     }
 }

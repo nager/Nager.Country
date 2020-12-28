@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.MX,
         };
 
-        public string[] Currencies => new [] { "GTQ" };
+        public ICurrency[] Currencies => new [] { new GtqCurrency() };
         public string[] CallingCodes => new [] { "502" };
     }
 }

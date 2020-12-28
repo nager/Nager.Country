@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UG,
         };
 
-        public string[] Currencies => new [] { "KES" };
+        public ICurrency[] Currencies => new [] { new KesCurrency() };
         public string[] CallingCodes => new [] { "254" };
     }
 }

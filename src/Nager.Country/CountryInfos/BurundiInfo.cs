@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TZ,
         };
 
-        public string[] Currencies => new [] { "BIF" };
+        public ICurrency[] Currencies => new [] { new BifCurrency() };
         public string[] CallingCodes => new [] { "257" };
     }
 }

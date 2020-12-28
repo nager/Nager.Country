@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.IR,
         };
 
-        public string[] Currencies => new [] { "PKR" };
+        public ICurrency[] Currencies => new [] { new PkrCurrency() };
         public string[] CallingCodes => new [] { "92" };
     }
 }

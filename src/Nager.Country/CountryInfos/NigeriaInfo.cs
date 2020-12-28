@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.NE,
         };
 
-        public string[] Currencies => new [] { "NGN" };
+        public ICurrency[] Currencies => new [] { new NgnCurrency() };
         public string[] CallingCodes => new [] { "234" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.LY,
         };
 
-        public string[] Currencies => new [] { "TND" };
+        public ICurrency[] Currencies => new [] { new TndCurrency() };
         public string[] CallingCodes => new [] { "216" };
     }
 }

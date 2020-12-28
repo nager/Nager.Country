@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -79,7 +81,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.VE,
         };
 
-        public string[] Currencies => new [] { "BRL" };
+        public ICurrency[] Currencies => new [] { new BrlCurrency() };
         public string[] CallingCodes => new [] { "55" };
     }
 }

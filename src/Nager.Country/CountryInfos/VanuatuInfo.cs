@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -69,7 +71,7 @@ namespace Nager.Country.CountryInfos
         {
         };
 
-        public string[] Currencies => new [] { "VUV" };
+        public ICurrency[] Currencies => new [] { new VuvCurrency() };
         public string[] CallingCodes => new [] { "678" };
     }
 }

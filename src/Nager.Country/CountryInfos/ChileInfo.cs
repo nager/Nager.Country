@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.PE,
         };
 
-        public string[] Currencies => new [] { "CLP" };
+        public ICurrency[] Currencies => new [] { new ClpCurrency() };
         public string[] CallingCodes => new [] { "56" };
     }
 }

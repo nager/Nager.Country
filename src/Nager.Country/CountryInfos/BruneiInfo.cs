@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.MY,
         };
 
-        public string[] Currencies => new [] { "BND" };
+        public ICurrency[] Currencies => new [] { new BndCurrency() };
         public string[] CallingCodes => new [] { "673" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.CR,
         };
 
-        public string[] Currencies => new [] { "PAB", "USD" };
+        public ICurrency[] Currencies => new ICurrency[] { new PabCurrency(), new UsdCurrency() };
         public string[] CallingCodes => new [] { "507" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZM,
         };
 
-        public string[] Currencies => new [] { "ZWL" };
+        public ICurrency[] Currencies => new [] { new ZwlCurrency() };
         public string[] CallingCodes => new [] { "263" };
     }
 }

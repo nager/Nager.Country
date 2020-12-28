@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ES,
         };
 
-        public string[] Currencies => new [] { "GIP" };
+        public ICurrency[] Currencies => new [] { new GipCurrency() };
         public string[] CallingCodes => new [] { "350" };
     }
 }

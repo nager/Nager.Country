@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.DO,
         };
 
-        public string[] Currencies => new [] { "HTG", "USD" };
+        public ICurrency[] Currencies => new ICurrency[] { new HtgCurrency(), new UsdCurrency() };
         public string[] CallingCodes => new [] { "509" };
     }
 }

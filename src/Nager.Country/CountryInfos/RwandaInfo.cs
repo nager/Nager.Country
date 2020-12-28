@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UG,
         };
 
-        public string[] Currencies => new [] { "RWF" };
+        public ICurrency[] Currencies => new [] { new RwfCurrency() };
         public string[] CallingCodes => new [] { "250" };
     }
 }

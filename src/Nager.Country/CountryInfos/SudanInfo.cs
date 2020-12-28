@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -76,7 +78,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SS,
         };
 
-        public string[] Currencies => new [] { "SDG" };
+        public ICurrency[] Currencies => new [] { new SdgCurrency() };
         public string[] CallingCodes => new [] { "249" };
     }
 }

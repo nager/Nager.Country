@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.MA,
         };
 
-        public string[] Currencies => new [] { "MAD", "DZD", "MRO" };
+        public ICurrency[] Currencies => new ICurrency[] { new MadCurrency(), new DzdCurrency(), new MroCurrency() };
         public string[] CallingCodes => new [] { "212" };
     }
 }

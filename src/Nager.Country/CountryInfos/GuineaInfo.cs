@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -75,7 +77,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SL,
         };
 
-        public string[] Currencies => new [] { "GNF" };
+        public ICurrency[] Currencies => new [] { "GNF" };
         public string[] CallingCodes => new [] { "224" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.HT,
         };
 
-        public string[] Currencies => new [] { "DOP" };
+        public ICurrency[] Currencies => new [] { new DopCurrency() };
         public string[] CallingCodes => new [] { "1809", "1829", "1849" };
     }
 }

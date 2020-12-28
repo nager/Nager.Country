@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -75,7 +77,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TR,
         };
 
-        public string[] Currencies => new [] { "IQD" };
+        public ICurrency[] Currencies => new [] { new IqdCurrency() };
         public string[] CallingCodes => new [] { "964" };
     }
 }

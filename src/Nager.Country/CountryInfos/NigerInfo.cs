@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -76,7 +78,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.NG,
         };
 
-        public string[] Currencies => new [] { "XOF" };
+        public ICurrency[] Currencies => new [] { new XofCurrency() };
         public string[] CallingCodes => new [] { "227" };
     }
 }

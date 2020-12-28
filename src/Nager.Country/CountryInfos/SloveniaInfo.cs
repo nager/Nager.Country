@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.HU,
         };
 
-        public string[] Currencies => new [] { "EUR" };
+        public ICurrency[] Currencies => new [] { new EurCurrency() };
         public string[] CallingCodes => new [] { "386" };
     }
 }

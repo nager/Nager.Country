@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.PA,
         };
 
-        public string[] Currencies => new [] { "CRC" };
+        public ICurrency[] Currencies => new [] { new CrcCurrency() };
         public string[] CallingCodes => new [] { "506" };
     }
 }

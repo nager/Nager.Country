@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -83,7 +85,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UA,
         };
 
-        public string[] Currencies => new [] { "RUB" };
+        public ICurrency[] Currencies => new [] { new RubCurrency() };
         public string[] CallingCodes => new [] { "7" };
     }
 }

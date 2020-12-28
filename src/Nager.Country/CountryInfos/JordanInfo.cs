@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SY,
         };
 
-        public string[] Currencies => new [] { "JOD" };
+        public ICurrency[] Currencies => new [] { new JodCurrency() };
         public string[] CallingCodes => new [] { "962" };
     }
 }

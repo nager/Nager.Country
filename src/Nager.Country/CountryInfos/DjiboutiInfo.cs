@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SO,
         };
 
-        public string[] Currencies => new [] { "DJF" };
+        public ICurrency[] Currencies => new [] { new DjfCurrency() };
         public string[] CallingCodes => new [] { "253" };
     }
 }

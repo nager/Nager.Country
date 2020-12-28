@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.PE,
         };
 
-        public string[] Currencies => new [] { "BOB" };
+        public ICurrency[] Currencies => new [] { new BobCurrency() };
         public string[] CallingCodes => new [] { "591" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.NA,
         };
 
-        public string[] Currencies => new [] { "AOA" };
+        public ICurrency[] Currencies => new [] { new AoaCurrency() };
         public string[] CallingCodes => new [] { "244" };
     }
 }

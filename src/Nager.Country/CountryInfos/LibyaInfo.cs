@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -75,7 +77,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TN,
         };
 
-        public string[] Currencies => new [] { "LYD" };
+        public ICurrency[] Currencies => new [] { new LydCurrency() };
         public string[] CallingCodes => new [] { "218" };
     }
 }

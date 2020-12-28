@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SI,
         };
 
-        public string[] Currencies => new [] { "HRK" };
+        public ICurrency[] Currencies => new [] { new HrkCurrency() };
         public string[] CallingCodes => new [] { "385" };
     }
 }

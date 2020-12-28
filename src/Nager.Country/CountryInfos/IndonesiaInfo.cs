@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.PG,
         };
 
-        public string[] Currencies => new [] { "IDR" };
+        public ICurrency[] Currencies => new [] { new IdrCurrency() };
         public string[] CallingCodes => new [] { "62" };
     }
 }

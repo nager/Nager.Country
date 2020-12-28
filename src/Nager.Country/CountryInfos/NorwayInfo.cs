@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.RU,
         };
 
-        public string[] Currencies => new [] { "NOK" };
+        public ICurrency[] Currencies => new [] { new NokCurrency() };
         public string[] CallingCodes => new [] { "47" };
     }
 }

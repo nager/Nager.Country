@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -76,7 +78,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.RO,
         };
 
-        public string[] Currencies => new [] { "RSD" };
+        public ICurrency[] Currencies => new [] { new RsdCurrency() };
         public string[] CallingCodes => new [] { "381" };
     }
 }

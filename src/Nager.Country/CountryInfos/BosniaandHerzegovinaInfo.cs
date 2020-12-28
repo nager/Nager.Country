@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.RS,
         };
 
-        public string[] Currencies => new [] { "BAM" };
+        public ICurrency[] Currencies => new [] { new BamCurrency() };
         public string[] CallingCodes => new [] { "387" };
     }
 }

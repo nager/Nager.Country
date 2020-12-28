@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -69,7 +71,7 @@ namespace Nager.Country.CountryInfos
         {
         };
 
-        public string[] Currencies => new [] { "FJD" };
+        public ICurrency[] Currencies => new [] { new FjdCurrency() };
         public string[] CallingCodes => new [] { "679" };
     }
 }

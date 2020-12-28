@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "GBP";
 
-        public string NumericCode => null;
+        public string NumericCode => "826";
 
         public string Name => "British Pound";
     }

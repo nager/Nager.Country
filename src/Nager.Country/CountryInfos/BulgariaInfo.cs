@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TR,
         };
 
-        public string[] Currencies => new [] { "BGN" };
+        public ICurrency[] Currencies => new [] { new BgnCurrency() };
         public string[] CallingCodes => new [] { "359" };
     }
 }

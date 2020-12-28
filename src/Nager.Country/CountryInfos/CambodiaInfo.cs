@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.VN,
         };
 
-        public string[] Currencies => new [] { "KHR" };
+        public ICurrency[] Currencies => new [] { new KhrCurrency() };
         public string[] CallingCodes => new [] { "855" };
     }
 }

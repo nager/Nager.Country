@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -75,7 +77,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SD,
         };
 
-        public string[] Currencies => new [] { "ETB" };
+        public ICurrency[] Currencies => new [] { new EtbCurrency() };
         public string[] CallingCodes => new [] { "251" };
     }
 }

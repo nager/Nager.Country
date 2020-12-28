@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SN,
         };
 
-        public string[] Currencies => new [] { "GMD" };
+        public ICurrency[] Currencies => new [] { new GmdCurrency() };
         public string[] CallingCodes => new [] { "220" };
     }
 }

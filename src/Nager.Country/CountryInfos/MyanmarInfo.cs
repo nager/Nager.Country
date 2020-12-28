@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TH,
         };
 
-        public string[] Currencies => new [] { "MMK" };
+        public ICurrency[] Currencies => new [] { new MmkCurrency() };
         public string[] CallingCodes => new [] { "95" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZW,
         };
 
-        public string[] Currencies => new [] { "BWP" };
+        public ICurrency[] Currencies => new [] { new BwpCurrency() };
         public string[] CallingCodes => new [] { "267" };
     }
 }

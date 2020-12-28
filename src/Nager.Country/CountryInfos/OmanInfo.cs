@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.YE,
         };
 
-        public string[] Currencies => new [] { "OMR" };
+        public ICurrency[] Currencies => new [] { new OmrCurrency() };
         public string[] CallingCodes => new [] { "968" };
     }
 }

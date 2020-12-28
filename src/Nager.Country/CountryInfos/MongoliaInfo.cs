@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.RU,
         };
 
-        public string[] Currencies => new [] { "MNT" };
+        public ICurrency[] Currencies => new [] { new MntCurrency() };
         public string[] CallingCodes => new [] { "976" };
     }
 }

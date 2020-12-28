@@ -1,4 +1,6 @@
-﻿namespace Nager.Country.CountryInfos
+﻿using Nager.Country.Currencies;
+
+namespace Nager.Country.CountryInfos
 {
     /// <summary>
     /// Caribbean Netherlands
@@ -27,7 +29,7 @@
 
         public Alpha2Code[] BorderCountrys => new Alpha2Code[0];
 
-        public string[] Currencies => new[] { "USD" };
+        public ICurrency[] Currencies => new[] { new UsdCurrency() };
         public string[] CallingCodes => new[] { "599" };
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace Nager.Country.CountryInfos
+﻿using Nager.Country.Currencies;
+
+namespace Nager.Country.CountryInfos
 {
     /// <summary>
     /// Saint Helena
@@ -34,7 +36,7 @@
             Alpha2Code.PE,
         };
 
-        public string[] Currencies => new[] { "SHP", "GBP" };
+        public ICurrency[] Currencies => new ICurrency[] { "SHP", new GbpCurrency() };
         public string[] CallingCodes => new[] { "290", "247" };
     }
 }

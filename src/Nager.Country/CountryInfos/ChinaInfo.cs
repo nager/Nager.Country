@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -84,7 +86,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.VN,
         };
 
-        public string[] Currencies => new [] { "CNY" };
+        public ICurrency[] Currencies => new [] { new CnyCurrency() };
         public string[] CallingCodes => new [] { "86" };
     }
 }

@@ -29,7 +29,7 @@
 //            Alpha2Code.RS
 //        };
 
-//        public string[] Currencies => new[] { "EUR" };
+//        public ICurrency[] Currencies => new[] { new EurCurrency() };
 //        public string[] CallingCodes => new[] { "383" };
 //    }
 //}

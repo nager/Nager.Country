@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.LR,
         };
 
-        public string[] Currencies => new [] { "SLL" };
+        public ICurrency[] Currencies => new [] { "SLL" };
         public string[] CallingCodes => new [] { "232" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.KP,
         };
 
-        public string[] Currencies => new [] { "KRW" };
+        public ICurrency[] Currencies => new [] { new KrwCurrency() };
         public string[] CallingCodes => new [] { "82" };
     }
 }

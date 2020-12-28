@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -71,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZA,
         };
 
-        public string[] Currencies => new [] { "SZL" };
+        public ICurrency[] Currencies => new [] { new SzlCurrency() };
         public string[] CallingCodes => new [] { "268" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.LA,
         };
 
-        public string[] Currencies => new [] { "VND" };
+        public ICurrency[] Currencies => new [] { new VndCurrency() };
         public string[] CallingCodes => new [] { "84" };
     }
 }

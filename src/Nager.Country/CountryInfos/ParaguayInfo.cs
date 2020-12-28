@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -72,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.BR,
         };
 
-        public string[] Currencies => new [] { "PYG" };
+        public ICurrency[] Currencies => new [] { new PygCurrency() };
         public string[] CallingCodes => new [] { "595" };
     }
 }

@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -73,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UZ,
         };
 
-        public string[] Currencies => new [] { "KGS" };
+        public ICurrency[] Currencies => new [] { new KgsCurrency() };
         public string[] CallingCodes => new [] { "996" };
     }
 }

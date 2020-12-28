@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -70,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.CN,
         };
 
-        public string[] Currencies => new [] { "HKD" };
+        public ICurrency[] Currencies => new [] { new HkdCurrency() };
         public string[] CallingCodes => new [] { "852" };
     }
 }

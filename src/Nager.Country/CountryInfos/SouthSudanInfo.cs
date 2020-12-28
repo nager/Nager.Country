@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -75,7 +77,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UG,
         };
 
-        public string[] Currencies => new [] { "SSP" };
+        public ICurrency[] Currencies => new [] { new SspCurrency() };
         public string[] CallingCodes => new [] { "211" };
     }
 }

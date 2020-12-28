@@ -1,3 +1,5 @@
+using Nager.Country.Currencies;
+
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
@@ -74,7 +76,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UZ,
         };
 
-        public string[] Currencies => new [] { "KZT" };
+        public ICurrency[] Currencies => new [] { new KztCurrency() };
         public string[] CallingCodes => new [] { "76", "77" };
     }
 }
