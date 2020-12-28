@@ -2,7 +2,7 @@
 {
     public class AedCurrency : ICurrency
     {
-        public string Symbol => "د.إ";
+        public string Symbol => "د.إ.‏";
 
         public string Singular => "dirham";
 

@@ -7,7 +7,7 @@ using System.Linq;
 namespace Nager.Country.UnitTest
 {
     [TestClass]
-    public class ValidationTest
+    public class CountryTest
     {
         [TestMethod]
         public void DuplicateTranslationTest()

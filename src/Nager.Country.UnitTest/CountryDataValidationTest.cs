@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 namespace Nager.Country.UnitTest
 {
     [TestClass]
-    public class DataValidationTest
+    public class CountryDataValidationTest
     {
         //Very popular country project on github
         //https://github.com/mledoze/countries
@@ -26,7 +27,7 @@ namespace Nager.Country.UnitTest
                 foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
                 {
                     var countryInfo = countryProvider.GetCountry(countryCode);
-                    Console.WriteLine(countryInfo.CommonName);
+                    Trace.WriteLine($"check {countryInfo.CommonName}");
                     if (countryInfo == null)
                     {
                         Assert.Fail($"countryInfo is null for {countryCode}");
@@ -56,7 +57,7 @@ namespace Nager.Country.UnitTest
 
         private string AdaptMledozeSubRegion(string subregion)
         {
-            return subregion.Replace(" ", string.Empty).Replace("-", string.Empty);
+            return subregion.Replace(" ", string.Empty).Replace("-", string.Empty).ToLower();
         }
 
         private string GetSubRegion(SubRegion subRegion)
@@ -66,7 +67,7 @@ namespace Nager.Country.UnitTest
                 return string.Empty;
             }
 
-            return subRegion.ToString();
+            return subRegion.ToString().ToLower();
         }
 
         public class MledozeCountry

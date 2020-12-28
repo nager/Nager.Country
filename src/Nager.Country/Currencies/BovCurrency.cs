@@ -2,7 +2,7 @@
 {
     public class BovCurrency : ICurrency
     {
-        public string Symbol => nul;
+        public string Symbol => null;
 
         public string Singular => null;
 

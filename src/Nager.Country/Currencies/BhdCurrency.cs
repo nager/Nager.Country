@@ -2,7 +2,7 @@
 {
     public class BhdCurrency : ICurrency
     {
-        public string Symbol => ".د.ب";
+        public string Symbol => "د.ب.‏";
 
         public string Singular => "dinar";
 

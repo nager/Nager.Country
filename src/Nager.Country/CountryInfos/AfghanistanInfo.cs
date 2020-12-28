@@ -76,6 +76,7 @@ namespace Nager.Country.CountryInfos
         };
 
         public string[] Currencies => new [] { "AFN" };
+
         public string[] CallingCodes => new [] { "93" };
     }
 }

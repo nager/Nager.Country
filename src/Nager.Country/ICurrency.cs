@@ -1,20 +1,24 @@
 ﻿namespace Nager.Country
 {
+    /// <summary>
+    /// Currency ISO 4217
+    /// https://en.wikipedia.org/wiki/ISO_4217
+    /// </summary>
     public interface ICurrency
     {
         string Symbol { get; }
         string Singular { get; }
         string Plural { get; }
         /// <summary>
-        /// ISO 4217 - IsoCode
+        /// IsoCode
         /// </summary>
         string IsoCode { get; }
         /// <summary>
-        /// ISO 4217 - Num
+        /// Num
         /// </summary>
         string NumericCode { get; }
         /// <summary>
-        /// ISO 4217 - Name
+        /// Name
         /// </summary>
         string Name { get; }
     }

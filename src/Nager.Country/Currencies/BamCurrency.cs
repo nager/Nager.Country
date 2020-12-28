@@ -2,7 +2,7 @@
 {
     public class BamCurrency : ICurrency
     {
-        public string Symbol => "KM";
+        public string Symbol => "КМ";
 
         public string Singular => "mark";
 
