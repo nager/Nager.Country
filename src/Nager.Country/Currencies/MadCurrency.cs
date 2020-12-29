@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MAD";
 
-        public string NumericCode => null;
+        public string NumericCode => "504";
 
         public string Name => "Moroccan Dirham";
     }

@@ -67,7 +67,7 @@ namespace Nager.Country.CountryInfos
         public Region Region => Region.Asia;
         public SubRegion SubRegion => SubRegion.CentralAsia;
 
-        public Alpha2Code[] BorderCountrys => new Alpha2Code[]
+        public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AF,
             Alpha2Code.KZ,

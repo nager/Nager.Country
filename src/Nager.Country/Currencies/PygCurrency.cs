@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "PYG";
 
-        public string NumericCode => null;
+        public string NumericCode => "600";
 
         public string Name => "Paraguayan Guarani";
     }

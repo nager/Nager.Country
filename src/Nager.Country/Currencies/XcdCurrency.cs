@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "XCD";
 
-        public string NumericCode => null;
+        public string NumericCode => "951";
 
         public string Name => "East Caribbean Dollar";
     }

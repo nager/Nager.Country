@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MDL";
 
-        public string NumericCode => null;
+        public string NumericCode => "498";
 
         public string Name => "Moldovan Leu";
     }

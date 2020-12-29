@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MYR";
 
-        public string NumericCode => null;
+        public string NumericCode => "458";
 
         public string Name => "Malaysian Ringgit";
     }

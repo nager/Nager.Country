@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "LKR";
 
-        public string NumericCode => null;
+        public string NumericCode => "144";
 
         public string Name => "Sri Lankan Rupee";
     }

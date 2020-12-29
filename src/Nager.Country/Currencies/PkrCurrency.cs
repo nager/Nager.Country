@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "PKR";
 
-        public string NumericCode => null;
+        public string NumericCode => "586";
 
         public string Name => "Pakistani Rupee";
     }

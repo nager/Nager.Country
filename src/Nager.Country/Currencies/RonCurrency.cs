@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "RON";
 
-        public string NumericCode => null;
+        public string NumericCode => "946";
 
         public string Name => "Romanian Leu";
     }

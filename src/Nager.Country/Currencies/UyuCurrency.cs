@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "UYU";
 
-        public string NumericCode => null;
+        public string NumericCode => "858";
 
         public string Name => "Uruguayan Peso";
     }

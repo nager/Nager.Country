@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MMK";
 
-        public string NumericCode => null;
+        public string NumericCode => "104";
 
         public string Name => "Myanmar Kyat";
     }

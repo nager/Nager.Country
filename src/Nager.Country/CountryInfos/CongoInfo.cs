@@ -67,7 +67,7 @@ namespace Nager.Country.CountryInfos
         public Region Region => Region.Africa;
         public SubRegion SubRegion => SubRegion.MiddleAfrica;
 
-        public Alpha2Code[] BorderCountrys => new Alpha2Code[]
+        public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AO,
             Alpha2Code.BI,

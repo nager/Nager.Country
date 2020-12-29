@@ -67,7 +67,7 @@ namespace Nager.Country.CountryInfos
         public Region Region => Region.Asia;
         public SubRegion SubRegion => SubRegion.SouthernAsia;
 
-        public Alpha2Code[] BorderCountrys => new Alpha2Code[]
+        public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.MM,
             Alpha2Code.IN,

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "RUB";
 
-        public string NumericCode => null;
+        public string NumericCode => "643";
 
         public string Name => "Russian Ruble";
     }

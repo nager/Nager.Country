@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "PEN";
 
-        public string NumericCode => null;
+        public string NumericCode => "604";
 
         public string Name => "Peruvian Sol";
     }

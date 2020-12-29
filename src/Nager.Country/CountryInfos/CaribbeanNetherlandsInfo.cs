@@ -27,7 +27,7 @@ namespace Nager.Country.CountryInfos
         public Region Region => Region.Americas;
         public SubRegion SubRegion => SubRegion.Caribbean;
 
-        public Alpha2Code[] BorderCountrys => new Alpha2Code[0];
+        public Alpha2Code[] BorderCountries => new Alpha2Code[0];
 
         public ICurrency[] Currencies => new[] { new UsdCurrency() };
         public string[] CallingCodes => new[] { "599" };

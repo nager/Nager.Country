@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "TRY";
 
-        public string NumericCode => null;
+        public string NumericCode => "949";
 
         public string Name => "Turkish Lira";
     }

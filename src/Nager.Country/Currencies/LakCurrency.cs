@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "LAK";
 
-        public string NumericCode => null;
+        public string NumericCode => "418";
 
         public string Name => "Laotian Kip";
     }

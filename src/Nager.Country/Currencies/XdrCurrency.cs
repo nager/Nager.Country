@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "XDR";
 
-        public string NumericCode => null;
+        public string NumericCode => "960";
 
         public string Name => "Special Drawing Rights";
     }

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "PHP";
 
-        public string NumericCode => null;
+        public string NumericCode => "608";
 
         public string Name => "Philippine Piso";
     }

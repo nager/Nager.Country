@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "PLN";
 
-        public string NumericCode => null;
+        public string NumericCode => "985";
 
         public string Name => "Polish Zloty";
     }

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MXN";
 
-        public string NumericCode => null;
+        public string NumericCode => "484";
 
         public string Name => "Mexican Peso";
     }

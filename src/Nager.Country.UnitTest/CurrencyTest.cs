@@ -38,13 +38,13 @@ namespace Nager.Country.UnitTest
             //    .Select(grouped => new { grouped.Key, Count = grouped.Count() })
             //    .Where(o => o.Count > 1);
 
-            var detectDuplicateIsoCode = currenies.Where(currency => currency.IsoCode != null)
+            var detectDuplicateIsoCode = currenies
                 .GroupBy(currency => currency.IsoCode)
                 .Any(grouped => grouped.Count() > 1);
 
             Assert.IsFalse(detectDuplicateIsoCode, "detect duplicate IsoCode");
 
-            var detectDuplicateNumericCode = currenies.Where(currency => currency.NumericCode != null)
+            var detectDuplicateNumericCode = currenies
                 .GroupBy(currency => currency.NumericCode)
                 .Any(grouped => grouped.Count() > 1);
 

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "TJS";
 
-        public string NumericCode => null;
+        public string NumericCode => "972";
 
         public string Name => "Tajikistani Somoni";
     }

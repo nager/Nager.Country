@@ -27,7 +27,7 @@ namespace Nager.Country.CountryInfos
         public Region Region => Region.Africa;
         public SubRegion SubRegion => SubRegion.WesternAfrica;
 
-        public Alpha2Code[] BorderCountrys => new Alpha2Code[]
+        public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AR,
             Alpha2Code.BR,

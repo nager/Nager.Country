@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "RSD";
 
-        public string NumericCode => null;
+        public string NumericCode => "941";
 
         public string Name => "Serbian Dinar";
     }

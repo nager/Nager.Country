@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "TND";
 
-        public string NumericCode => null;
+        public string NumericCode => "788";
 
         public string Name => "Tunisian Dinar";
     }

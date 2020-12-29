@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "UAH";
 
-        public string NumericCode => null;
+        public string NumericCode => "980";
 
         public string Name => "Ukrainian Hryvnia";
     }

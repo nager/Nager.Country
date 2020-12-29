@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "NGN";
 
-        public string NumericCode => null;
+        public string NumericCode => "566";
 
         public string Name => "Nigerian Naira";
     }

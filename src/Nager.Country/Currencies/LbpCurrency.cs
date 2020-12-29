@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "LBP";
 
-        public string NumericCode => null;
+        public string NumericCode => "422";
 
         public string Name => "Lebanese Pound";
     }

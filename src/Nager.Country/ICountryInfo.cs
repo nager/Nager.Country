@@ -26,7 +26,7 @@
         Region Region { get; }
         SubRegion SubRegion { get; }
 
-        Alpha2Code[] BorderCountrys { get; }
+        Alpha2Code[] BorderCountries { get; }
 
         ICurrency[] Currencies { get; }
         string[] CallingCodes { get; }

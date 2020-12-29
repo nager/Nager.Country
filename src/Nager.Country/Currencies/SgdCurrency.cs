@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "SGD";
 
-        public string NumericCode => null;
+        public string NumericCode => "702";
 
         public string Name => "Singapore Dollar";
     }

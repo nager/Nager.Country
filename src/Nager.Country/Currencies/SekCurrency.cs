@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "SEK";
 
-        public string NumericCode => null;
+        public string NumericCode => "752";
 
         public string Name => "Swedish Krona";
     }

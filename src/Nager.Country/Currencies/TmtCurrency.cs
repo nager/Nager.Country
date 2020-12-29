@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "TMT";
 
-        public string NumericCode => null;
+        public string NumericCode => "934";
 
         public string Name => "Turkmenistani Manat";
     }

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "NIO";
 
-        public string NumericCode => null;
+        public string NumericCode => "558";
 
         public string Name => "Nicaraguan Córdoba";
     }

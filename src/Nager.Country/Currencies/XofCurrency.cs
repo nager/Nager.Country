@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "XOF";
 
-        public string NumericCode => null;
+        public string NumericCode => "952";
 
         public string Name => "West African CFA Franc";
     }

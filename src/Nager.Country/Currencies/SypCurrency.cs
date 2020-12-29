@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "SYP";
 
-        public string NumericCode => null;
+        public string NumericCode => "760";
 
         public string Name => "Syrian Pound";
     }

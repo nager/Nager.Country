@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "TWD";
 
-        public string NumericCode => null;
+        public string NumericCode => "901";
 
         public string Name => "New Taiwan Dollar";
     }

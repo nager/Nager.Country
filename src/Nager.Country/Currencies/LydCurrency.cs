@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "LYD";
 
-        public string NumericCode => null;
+        public string NumericCode => "434";
 
         public string Name => "Libyan Dinar";
     }

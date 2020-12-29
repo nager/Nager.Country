@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "PAB";
 
-        public string NumericCode => null;
+        public string NumericCode => "590";
 
         public string Name => "Panamanian Balboa";
     }

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "UZS";
 
-        public string NumericCode => null;
+        public string NumericCode => "860";
 
         public string Name => "Uzbekistani Som";
     }

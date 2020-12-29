@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "NZD";
 
-        public string NumericCode => null;
+        public string NumericCode => "554";
 
         public string Name => "New Zealand Dollar";
     }

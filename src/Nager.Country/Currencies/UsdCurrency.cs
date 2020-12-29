@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "USD";
 
-        public string NumericCode => null;
+        public string NumericCode => "840";
 
         public string Name => "US Dollar";
     }

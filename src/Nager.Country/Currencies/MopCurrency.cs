@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MOP";
 
-        public string NumericCode => null;
+        public string NumericCode => "446";
 
         public string Name => "Macanese Pataca";
     }

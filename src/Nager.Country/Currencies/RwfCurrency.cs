@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "RWF";
 
-        public string NumericCode => null;
+        public string NumericCode => "646";
 
         public string Name => "Rwandan Franc";
     }

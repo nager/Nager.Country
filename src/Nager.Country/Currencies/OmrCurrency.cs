@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "OMR";
 
-        public string NumericCode => null;
+        public string NumericCode => "512";
 
         public string Name => "Omani Rial";
     }

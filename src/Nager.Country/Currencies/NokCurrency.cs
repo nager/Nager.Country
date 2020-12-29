@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "NOK";
 
-        public string NumericCode => null;
+        public string NumericCode => "578";
 
         public string Name => "Norwegian Krone";
     }

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "QAR";
 
-        public string NumericCode => null;
+        public string NumericCode => "634";
 
         public string Name => "Qatari Rial";
     }

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "VES";
 
-        public string NumericCode => null;
+        public string NumericCode => "928";
 
         public string Name => "Venezuelan Bolívar";
     }

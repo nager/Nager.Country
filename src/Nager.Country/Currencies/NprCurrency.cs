@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "NPR";
 
-        public string NumericCode => null;
+        public string NumericCode => "524";
 
         public string Name => "Nepalese Rupee";
     }

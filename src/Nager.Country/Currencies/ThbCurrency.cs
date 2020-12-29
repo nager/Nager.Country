@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "THB";
 
-        public string NumericCode => null;
+        public string NumericCode => "764";
 
         public string Name => "Thai Baht";
     }

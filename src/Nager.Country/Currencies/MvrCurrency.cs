@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MVR";
 
-        public string NumericCode => null;
+        public string NumericCode => "462";
 
         public string Name => "Maldivian Rufiyaa";
     }

@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "VND";
 
-        public string NumericCode => null;
+        public string NumericCode => "704";
 
         public string Name => "Vietnamese Dong";
     }

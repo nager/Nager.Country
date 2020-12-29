@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MKD";
 
-        public string NumericCode => null;
+        public string NumericCode => "807";
 
         public string Name => "Macedonian Denar";
     }

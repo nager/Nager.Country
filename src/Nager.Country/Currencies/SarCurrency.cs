@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "SAR";
 
-        public string NumericCode => null;
+        public string NumericCode => "682";
 
         public string Name => "Saudi Riyal";
     }

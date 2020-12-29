@@ -10,7 +10,7 @@ namespace Nager.Country.Currencies
 
         public string IsoCode => "MNT";
 
-        public string NumericCode => null;
+        public string NumericCode => "496";
 
         public string Name => "Mongolian Tugrik";
     }
