@@ -77,7 +77,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SL,
         };
 
-        public ICurrency[] Currencies => new [] { "GNF" };
+        public ICurrency[] Currencies => new [] { new GnfCurrency() };
         public string[] CallingCodes => new [] { "224" };
     }
 }

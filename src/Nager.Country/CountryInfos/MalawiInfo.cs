@@ -74,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZM,
         };
 
-        public ICurrency[] Currencies => new [] { "MWK" };
+        public ICurrency[] Currencies => new [] { new MwkCurrency() };
         public string[] CallingCodes => new [] { "265" };
     }
 }

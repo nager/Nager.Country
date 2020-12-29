@@ -36,7 +36,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.PE,
         };
 
-        public ICurrency[] Currencies => new ICurrency[] { "SHP", new GbpCurrency() };
+        public ICurrency[] Currencies => new ICurrency[] { new ShpCurrency(), new GbpCurrency() };
         public string[] CallingCodes => new[] { "290", "247" };
     }
 }

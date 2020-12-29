@@ -79,7 +79,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZM,
         };
 
-        public ICurrency[] Currencies => new [] { "TZS" };
+        public ICurrency[] Currencies => new [] { new TzsCurrency() };
         public string[] CallingCodes => new [] { "255" };
     }
 }

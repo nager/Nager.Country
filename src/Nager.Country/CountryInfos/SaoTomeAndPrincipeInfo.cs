@@ -71,7 +71,7 @@ namespace Nager.Country.CountryInfos
         {
         };
 
-        public ICurrency[] Currencies => new [] { "STD" };
+        public ICurrency[] Currencies => new [] {new StdCurrency() };
         public string[] CallingCodes => new [] { "239" };
     }
 }

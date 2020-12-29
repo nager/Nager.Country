@@ -71,7 +71,7 @@ namespace Nager.Country.CountryInfos
         {
         };
 
-        public ICurrency[] Currencies => new [] { "TOP" };
+        public ICurrency[] Currencies => new [] { new TopCurrency() };
         public string[] CallingCodes => new [] { "676" };
     }
 }

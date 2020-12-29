@@ -75,7 +75,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZM,
         };
 
-        public ICurrency[] Currencies => new ICurrency[] { "NAD", new ZarCurrency() };
+        public ICurrency[] Currencies => new ICurrency[] { new NadCurrency(), new ZarCurrency() };
         public string[] CallingCodes => new [] { "264" };
     }
 }

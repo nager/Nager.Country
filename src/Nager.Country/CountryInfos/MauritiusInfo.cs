@@ -71,7 +71,7 @@ namespace Nager.Country.CountryInfos
         {
         };
 
-        public ICurrency[] Currencies => new [] { "MUR" };
+        public ICurrency[] Currencies => new [] { new MurCurrency() };
         public string[] CallingCodes => new [] { "230" };
     }
 }

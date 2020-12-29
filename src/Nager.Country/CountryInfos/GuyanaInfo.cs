@@ -74,7 +74,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.VE,
         };
 
-        public ICurrency[] Currencies => new [] { "GYD" };
+        public ICurrency[] Currencies => new [] { new GydCurrency() };
         public string[] CallingCodes => new [] { "592" };
     }
 }

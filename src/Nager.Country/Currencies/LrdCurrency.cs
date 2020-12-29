@@ -12,6 +12,6 @@ namespace Nager.Country.Currencies
 
         public string NumericCode => "430";
 
-        public string Name => "	Liberian dollar";
+        public string Name => "Liberian dollar";
     }
 }

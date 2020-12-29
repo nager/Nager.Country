@@ -72,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZA,
         };
 
-        public ICurrency[] Currencies => new ICurrency[] { "LSL", new ZarCurrency() };
+        public ICurrency[] Currencies => new ICurrency[] { new LslCurrency(), new ZarCurrency() };
         public string[] CallingCodes => new [] { "266" };
     }
 }

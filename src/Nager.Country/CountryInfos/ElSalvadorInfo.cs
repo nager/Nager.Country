@@ -73,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.HN,
         };
 
-        public ICurrency[] Currencies => new ICurrency[] { "SVC", new UsdCurrency() };
+        public ICurrency[] Currencies => new ICurrency[] { new SvcCurrency(), new UsdCurrency() };
         public string[] CallingCodes => new [] { "503" };
     }
 }

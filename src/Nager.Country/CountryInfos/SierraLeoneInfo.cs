@@ -73,7 +73,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.LR,
         };
 
-        public ICurrency[] Currencies => new [] { "SLL" };
+        public ICurrency[] Currencies => new [] { new SllCurrency() };
         public string[] CallingCodes => new [] { "232" };
     }
 }

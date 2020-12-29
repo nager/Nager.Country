@@ -72,7 +72,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ID,
         };
 
-        public ICurrency[] Currencies => new [] { "PGK" };
+        public ICurrency[] Currencies => new [] { new PgkCurrency() };
         public string[] CallingCodes => new [] { "675" };
     }
 }

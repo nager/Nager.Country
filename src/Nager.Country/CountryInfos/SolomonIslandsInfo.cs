@@ -71,7 +71,7 @@ namespace Nager.Country.CountryInfos
         {
         };
 
-        public ICurrency[] Currencies => new [] { "SBD" };
+        public ICurrency[] Currencies => new [] { new SbdCurrency() };
         public string[] CallingCodes => new [] { "677" };
     }
 }

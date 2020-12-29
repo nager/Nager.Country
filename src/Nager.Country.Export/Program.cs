@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -23,7 +24,7 @@ namespace Nager.Country.Export
                 Converters =
                 {
                     new JsonStringEnumConverterWithAttributeSupport(null, true, true, true, true)
-        },
+                },
                 WriteIndented = true
             };
 
@@ -34,6 +35,8 @@ namespace Nager.Country.Export
                 var jsonData = JsonSerializer.SerializeToUtf8Bytes(country, jsonSerializerOptions);
                 File.WriteAllBytesAsync($"{exportDirectory}/{country.Alpha2Code}.json", jsonData).GetAwaiter().GetResult();
             }
+
+            Console.WriteLine("Json export done");
         }
     }
 }
