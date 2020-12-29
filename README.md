@@ -30,7 +30,7 @@ The Worldwirde Country Informations are available over the `nuget` package or as
   ],
   "region": "Europe",
   "subRegion": "Western Europe",
-  "borderCountrys": [
+  "borderCountries": [
     "CZ",
     "DE",
     "HU",
