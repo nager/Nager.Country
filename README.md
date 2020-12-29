@@ -41,7 +41,14 @@ The Worldwirde Country Informations are available over the `nuget` package or as
     "CH"
   ],
   "currencies": [
-    "EUR"
+    {
+      "symbol": "€",
+      "singular": "euro",
+      "plural": "euro",
+      "isoCode": "EUR",
+      "numericCode": "978",
+      "name": "Euro"
+    }
   ],
   "callingCodes": [
     "43"
