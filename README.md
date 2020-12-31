@@ -95,7 +95,7 @@ var translatedCountryName = countryProvider.GetCountryTranslatedName(Alpha2Code.
 //translatedCountryName -> Germany
 ```
 
-## Alternative projects
+## Interesting projects
 
 | Language | Project | 
 | ------------- | ------------- | 
@@ -103,3 +103,4 @@ var translatedCountryName = countryProvider.GetCountryTranslatedName(Alpha2Code.
 | * | [umpirsky country-list](https://github.com/umpirsky/country-list) |
 | * | [dr5hn countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) |
 | javascript | [michaelwittig node-i18n-iso-countries](https://github.com/michaelwittig/node-i18n-iso-countries) |
+| .net | [anghelvalentin CountryValidator](https://github.com/anghelvalentin/CountryValidator) |
