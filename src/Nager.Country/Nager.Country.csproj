@@ -29,4 +29,7 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="LanguageInfos\" />
+  </ItemGroup>
 </Project>
