@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net5;net461</TargetFrameworks>
     <Authors>Tino Hager</Authors>
     <Company>nager.at</Company>
     <Description>Get Worldwide country informations with translations and country border information</Description>
@@ -27,9 +27,5 @@
       <Visible>false</Visible>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="LanguageInfos\" />
   </ItemGroup>
 </Project>
