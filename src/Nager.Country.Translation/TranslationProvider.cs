@@ -1,5 +1,4 @@
 ﻿using Nager.Country.Translation.CountryInfos;
-using Nager.Country.Translation.LanguageTranslations;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -18,10 +17,16 @@ namespace Nager.Country.Translation
         {
             this._countryProvider = new CountryProvider();
 
-            this._languageCode2LanguageTranslation.Add(LanguageCode.AB, new AbkhazianLanguageTranslation());
-            this._languageCode2LanguageTranslation.Add(LanguageCode.AA, new AfarLanguageTranslation());
-            this._languageCode2LanguageTranslation.Add(LanguageCode.AF, new AfrikaansLanguageTranslation());
-            this._languageCode2LanguageTranslation.Add(LanguageCode.AK, new AkanLanguageTranslation());
+            var interfaceType = typeof(ILanguageTranslation);
+            var types = AppDomain.CurrentDomain.GetAssemblies()
+                .SelectMany(s => s.GetTypes())
+                .Where(p => interfaceType.IsAssignableFrom(p) && p.IsClass);
+
+            foreach (var type in types)
+            {
+                var languageTranslation = (ILanguageTranslation)Activator.CreateInstance(type);
+                this._languageCode2LanguageTranslation.Add(languageTranslation.LanguageCode, languageTranslation);
+            }
 
             #region Country translation
 
@@ -313,21 +318,41 @@ namespace Nager.Country.Translation
             return null;
         }
 
-        public string GetCountryTranslatedName(string alpha2or3Code, LanguageCode languageCode)
-        {
-            var countryInfo = this._countryProvider.GetCountry(alpha2or3Code);
-            return this.GetCountryTranslatedName(countryInfo, languageCode);
-        }
-
         public string GetCountryTranslatedName(Alpha2Code alpha2Code, LanguageCode languageCode)
         {
             var countryInfo = this._countryProvider.GetCountry(alpha2Code);
             return this.GetCountryTranslatedName(countryInfo, languageCode);
         }
 
+        public string GetCountryTranslatedName(Alpha2Code alpha2Code, string languageCode)
+        {
+            if (Enum.TryParse(languageCode, true, out LanguageCode code))
+            {
+                return this.GetCountryTranslatedName(alpha2Code, code);
+            }
+
+            return null;
+        }
+
         public string GetCountryTranslatedName(Alpha3Code alpha3Code, LanguageCode languageCode)
         {
             var countryInfo = this._countryProvider.GetCountry(alpha3Code);
+            return this.GetCountryTranslatedName(countryInfo, languageCode);
+        }
+
+        public string GetCountryTranslatedName(Alpha3Code alpha3Code, string languageCode)
+        {
+            if (Enum.TryParse(languageCode, true, out LanguageCode code))
+            {
+                return this.GetCountryTranslatedName(alpha3Code, code);
+            }
+
+            return null;
+        }
+
+        public string GetCountryTranslatedName(string alpha2or3Code, LanguageCode languageCode)
+        {
+            var countryInfo = this._countryProvider.GetCountry(alpha2or3Code);
             return this.GetCountryTranslatedName(countryInfo, languageCode);
         }
 
@@ -341,21 +366,13 @@ namespace Nager.Country.Translation
             return null;
         }
 
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, string languageCode)
+        private string GetCountryTranslatedName(ICountryInfo countryInfo, LanguageCode languageCode)
         {
-            if (Enum.TryParse(languageCode, true, out LanguageCode code))
-            {
-                return this.GetCountryTranslatedName(alpha2Code, code);
-            }
+            this._alpha2Code2CountryTranslation.TryGetValue(countryInfo.Alpha2Code, out var countryTranslation);
 
-            return null;
-        }
-
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, string languageCode)
-        {
-            if (Enum.TryParse(languageCode, true, out LanguageCode code))
+            if (countryTranslation.Translations != null && countryTranslation.Translations.Length > 0)
             {
-                return this.GetCountryTranslatedName(alpha3Code, code);
+                return countryTranslation.Translations.Where(x => x.LanguageCode == languageCode).Select(x => x.Name).FirstOrDefault();
             }
 
             return null;
@@ -404,18 +421,6 @@ namespace Nager.Country.Translation
                 name = this.GetCountryTranslatedName(alpha3Code, defaultLanguageCode);
             }
             return name;
-        }
-
-        private string GetCountryTranslatedName(ICountryInfo countryInfo, LanguageCode languageCode)
-        {
-            this._alpha2Code2CountryTranslation.TryGetValue(countryInfo.Alpha2Code, out var countryTranslation);
-
-            if (countryTranslation.Translations != null && countryTranslation.Translations.Length > 0)
-            {
-                return countryTranslation.Translations.Where(x => x.LanguageCode == languageCode).Select(x => x.Name).FirstOrDefault();
-            }
-
-            return null;
         }
     }
 }
