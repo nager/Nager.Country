@@ -1,7 +1,7 @@
 ﻿namespace Nager.Country
 {
     /// <summary>
-    /// ISO-3166-1 Alpha2 code
+    /// Alpha2 code (ISO-3166-1)
     /// </summary>
     public enum Alpha2Code
     {
