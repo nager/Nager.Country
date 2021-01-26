@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nager.Country", "Nager.Coun
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nager.Country.UnitTest", "Nager.Country.UnitTest\Nager.Country.UnitTest.csproj", "{672EBF88-48E5-4F5E-AA70-6B123071AF2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nager.Country.Export", "Nager.Country.Export\Nager.Country.Export.csproj", "{11895598-7D9B-4E42-86AA-3543EB06A79A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nager.Country.Export", "Nager.Country.Export\Nager.Country.Export.csproj", "{11895598-7D9B-4E42-86AA-3543EB06A79A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nager.Country.Translation", "Nager.Country.Translation\Nager.Country.Translation.csproj", "{B72F1FD6-FDCB-4ACC-9B67-4A9CF8C02D34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{11895598-7D9B-4E42-86AA-3543EB06A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11895598-7D9B-4E42-86AA-3543EB06A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11895598-7D9B-4E42-86AA-3543EB06A79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72F1FD6-FDCB-4ACC-9B67-4A9CF8C02D34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72F1FD6-FDCB-4ACC-9B67-4A9CF8C02D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72F1FD6-FDCB-4ACC-9B67-4A9CF8C02D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72F1FD6-FDCB-4ACC-9B67-4A9CF8C02D34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

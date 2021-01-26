@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Nager.Country.Translation\Nager.Country.Translation.csproj" />
     <ProjectReference Include="..\Nager.Country\Nager.Country.csproj" />
   </ItemGroup>
 

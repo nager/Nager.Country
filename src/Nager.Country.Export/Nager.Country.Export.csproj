@@ -7,9 +7,11 @@
 
   <ItemGroup>
     <PackageReference Include="EnumExtensions.System.Text.Json" Version="1.0.0" />
+    <PackageReference Include="Mapster" Version="7.1.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Nager.Country.Translation\Nager.Country.Translation.csproj" />
     <ProjectReference Include="..\Nager.Country\Nager.Country.csproj" />
   </ItemGroup>
 

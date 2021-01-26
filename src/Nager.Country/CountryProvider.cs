@@ -1,8 +1,6 @@
 ﻿using Nager.Country.CountryInfos;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
 
 namespace Nager.Country
 {
@@ -15,256 +13,255 @@ namespace Nager.Country
         {
             #region Alpha2Code mapping
 
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AF, new AfghanistanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AX, new AlandIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AL, new AlbaniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.DZ, new AlgeriaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AS, new AmericanSamoaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AD, new AndorraInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AO, new AngolaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AI, new AnguillaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AQ, new AntarcticaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AG, new AntiguaAndBarbudaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AR, new ArgentinaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AM, new ArmeniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AW, new ArubaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AU, new AustraliaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AT, new AustriaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AZ, new AzerbaijanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BS, new BahamasInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BH, new BahrainInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BD, new BangladeshInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BB, new BarbadosInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BY, new BelarusInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BE, new BelgiumInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BZ, new BelizeInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BJ, new BeninInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BM, new BermudaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BT, new BhutanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BO, new BoliviaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BA, new BosniaandHerzegovinaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BW, new BotswanaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BV, new BouvetIslandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BR, new BrazilInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IO, new BritishIndianOceanTerritoryInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.VG, new BritishVirginIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BN, new BruneiInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BG, new BulgariaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BF, new BurkinaFasoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BI, new BurundiInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KH, new CambodiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CM, new CameroonInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CA, new CanadaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CV, new CapeVerdeInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BQ, new CaribbeanNetherlandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KY, new CaymanIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CF, new CentralAfricanRepublicInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TD, new ChadInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CL, new ChileInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CN, new ChinaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CX, new ChristmasIslandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CC, new CocosIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CO, new ColombiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KM, new ComorosInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CD, new CongoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CK, new CookIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CR, new CostaRicaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.HR, new CroatiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CU, new CubaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CW, new CuracaoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CY, new CyprusInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CZ, new CzechRepublicInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.DK, new DenmarkInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.DJ, new DjiboutiInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.DM, new DominicaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.DO, new DominicanRepublicInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.EC, new EcuadorInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.EG, new EgyptInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SV, new ElSalvadorInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GQ, new EquatorialGuineaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ER, new EritreaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.EE, new EstoniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ET, new EthiopiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.FK, new FalklandIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.FO, new FaroeIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.FJ, new FijiInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.FI, new FinlandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.FR, new FranceInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GF, new FrenchGuianaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PF, new FrenchPolynesiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TF, new FrenchSouthernAndAntarcticLandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GA, new GabonInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GM, new GambiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GE, new GeorgiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.DE, new GermanyInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GH, new GhanaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GI, new GibraltarInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GR, new GreeceInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GL, new GreenlandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GD, new GrenadaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GP, new GuadeloupeInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GU, new GuamInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GT, new GuatemalaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GG, new GuernseyInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GW, new GuineaBissauInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GN, new GuineaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GY, new GuyanaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.HT, new HaitiInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.HM, new HeardIslandAndMcDonaldIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.HN, new HondurasInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.HK, new HongKongInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.HU, new HungaryInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IS, new IcelandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IN, new IndiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ID, new IndonesiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IR, new IranInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IQ, new IraqInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IE, new IrelandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IM, new IsleofManInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IL, new IsraelInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IT, new ItalyInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CI, new IvoryCoastInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.JM, new JamaicaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.JP, new JapanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.JE, new JerseyInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.JO, new JordanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KZ, new KazakhstanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KE, new KenyaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KI, new KiribatiInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KW, new KuwaitInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KG, new KyrgyzstanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LA, new LaosInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LV, new LatviaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LB, new LebanonInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LS, new LesothoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LR, new LiberiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LY, new LibyaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LI, new LiechtensteinInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LT, new LithuaniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LU, new LuxembourgInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MO, new MacauInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MK, new MacedoniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MG, new MadagascarInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MW, new MalawiInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MY, new MalaysiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MV, new MaldivesInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ML, new MaliInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MT, new MaltaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MH, new MarshallIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MQ, new MartiniqueInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MR, new MauritaniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MU, new MauritiusInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.YT, new MayotteInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MX, new MexicoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.FM, new MicronesiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MD, new MoldovaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MC, new MonacoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MN, new MongoliaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ME, new MontenegroInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MS, new MontserratInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MA, new MoroccoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MZ, new MozambiqueInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MM, new MyanmarInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NA, new NamibiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NR, new NauruInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NP, new NepalInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NL, new NetherlandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NC, new NewCaledoniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NZ, new NewZealandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NI, new NicaraguaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NG, new NigeriaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NE, new NigerInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NU, new NiueInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NF, new NorfolkIslandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MP, new NorthernMarianaIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KP, new NorthKoreaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.NO, new NorwayInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.OM, new OmanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PK, new PakistanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PW, new PalauInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PS, new PalestineInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PA, new PanamaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PG, new PapuaNewGuineaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PY, new ParaguayInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PE, new PeruInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PH, new PhilippinesInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PN, new PitcairnIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PL, new PolandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PT, new PortugalInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PR, new PuertoRicoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.QA, new QatarInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CG, new RepublicOfTheCongoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.RE, new ReunionInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.RO, new RomaniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.RU, new RussiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.RW, new RwandaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BL, new SaintBarthelemyInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SH, new SaintHelenaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KN, new SaintKittsAndNevisInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LC, new SaintLuciaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MF, new SaintMartinInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.PM, new SaintPierreAndMiquelonInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.VC, new SaintVincentAndTheGrenadinesInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.WS, new SamoaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SM, new SanMarinoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ST, new SaoTomeAndPrincipeInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SA, new SaudiArabiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SN, new SenegalInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.RS, new SerbiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SC, new SeychellesInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SL, new SierraLeoneInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SG, new SingaporeInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SX, new SintMaartenInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SK, new SlovakiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SI, new SloveniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SB, new SolomonIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SO, new SomaliaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ZA, new SouthAfricaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GS, new SouthGeorgiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.KR, new SouthKoreaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SS, new SouthSudanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ES, new SpainInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.LK, new SriLankaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SD, new SudanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SR, new SurinameInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SJ, new SvalbardAndJanMayenInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SZ, new SwazilandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SE, new SwedenInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.CH, new SwitzerlandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SY, new SyriaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TW, new TaiwanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TJ, new TajikistanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TZ, new TanzaniaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TH, new ThailandInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TL, new TimorLesteInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TG, new TogoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TK, new TokelauInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TO, new TongaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TT, new TrinidadAndTobagoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TN, new TunisiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TR, new TurkeyInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TM, new TurkmenistanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TC, new TurksAndCaicosIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.TV, new TuvaluInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.UG, new UgandaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.UA, new UkraineInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.AE, new UnitedArabEmiratesInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.GB, new UnitedKingdomInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.US, new UnitedStatesInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.UM, new UnitedStatesMinorOutlyingIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.VI, new UnitedStatesVirginIslandsInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.UY, new UruguayInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.UZ, new UzbekistanInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.VU, new VanuatuInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.VA, new VaticanCityInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.VE, new VenezuelaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.VN, new VietnamInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.WF, new WallisAndFutunaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.EH, new WesternSaharaInfo());
-            //this._alpha2Code2CountryInfo.Add(Alpha2Code.XK, new KosovoInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.YE, new YemenInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ZM, new ZambiaInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.ZW, new ZimbabweInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AF, new AfghanistanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AX, new AlandIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AL, new AlbaniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.DZ, new AlgeriaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AS, new AmericanSamoaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AD, new AndorraCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AO, new AngolaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AI, new AnguillaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AQ, new AntarcticaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AG, new AntiguaAndBarbudaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AR, new ArgentinaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AM, new ArmeniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AW, new ArubaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AU, new AustraliaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AT, new AustriaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AZ, new AzerbaijanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BS, new BahamasCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BH, new BahrainCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BD, new BangladeshCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BB, new BarbadosCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BY, new BelarusCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BE, new BelgiumCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BZ, new BelizeCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BJ, new BeninCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BM, new BermudaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BT, new BhutanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BO, new BoliviaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BA, new BosniaandHerzegovinaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BW, new BotswanaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BV, new BouvetIslandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BR, new BrazilCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IO, new BritishIndianOceanTerritoryCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.VG, new BritishVirginIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BN, new BruneiCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BG, new BulgariaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BF, new BurkinaFasoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BI, new BurundiCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KH, new CambodiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CM, new CameroonCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CA, new CanadaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CV, new CapeVerdeCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BQ, new CaribbeanNetherlandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KY, new CaymanIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CF, new CentralAfricanRepublicCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TD, new ChadCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CL, new ChileCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CN, new ChinaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CX, new ChristmasIslandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CC, new CocosIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CO, new ColombiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KM, new ComorosCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CD, new CongoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CK, new CookIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CR, new CostaRicaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.HR, new CroatiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CU, new CubaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CW, new CuracaoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CY, new CyprusCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CZ, new CzechRepublicCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.DK, new DenmarkCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.DJ, new DjiboutiCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.DM, new DominicaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.DO, new DominicanRepublicCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.EC, new EcuadorCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.EG, new EgyptCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SV, new ElSalvadorCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GQ, new EquatorialGuineaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ER, new EritreaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.EE, new EstoniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ET, new EthiopiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.FK, new FalklandIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.FO, new FaroeIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.FJ, new FijiCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.FI, new FinlandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.FR, new FranceCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GF, new FrenchGuianaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PF, new FrenchPolynesiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TF, new FrenchSouthernAndAntarcticLandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GA, new GabonCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GM, new GambiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GE, new GeorgiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.DE, new GermanyCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GH, new GhanaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GI, new GibraltarCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GR, new GreeceCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GL, new GreenlandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GD, new GrenadaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GP, new GuadeloupeCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GU, new GuamCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GT, new GuatemalaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GG, new GuernseyCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GW, new GuineaBissauCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GN, new GuineaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GY, new GuyanaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.HT, new HaitiCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.HM, new HeardIslandAndMcDonaldIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.HN, new HondurasCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.HK, new HongKongCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.HU, new HungaryCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IS, new IcelandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IN, new IndiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ID, new IndonesiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IR, new IranCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IQ, new IraqCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IE, new IrelandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IM, new IsleofManCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IL, new IsraelCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IT, new ItalyCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CI, new IvoryCoastCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.JM, new JamaicaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.JP, new JapanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.JE, new JerseyCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.JO, new JordanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KZ, new KazakhstanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KE, new KenyaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KI, new KiribatiCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KW, new KuwaitCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KG, new KyrgyzstanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LA, new LaosCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LV, new LatviaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LB, new LebanonCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LS, new LesothoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LR, new LiberiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LY, new LibyaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LI, new LiechtensteinCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LT, new LithuaniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LU, new LuxembourgCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MO, new MacauCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MK, new MacedoniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MG, new MadagascarCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MW, new MalawiCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MY, new MalaysiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MV, new MaldivesCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ML, new MaliCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MT, new MaltaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MH, new MarshallIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MQ, new MartiniqueCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MR, new MauritaniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MU, new MauritiusCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.YT, new MayotteCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MX, new MexicoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.FM, new MicronesiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MD, new MoldovaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MC, new MonacoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MN, new MongoliaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ME, new MontenegroCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MS, new MontserratCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MA, new MoroccoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MZ, new MozambiqueCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MM, new MyanmarCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NA, new NamibiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NR, new NauruCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NP, new NepalCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NL, new NetherlandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NC, new NewCaledoniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NZ, new NewZealandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NI, new NicaraguaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NG, new NigeriaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NE, new NigerCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NU, new NiueCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NF, new NorfolkIslandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MP, new NorthernMarianaIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KP, new NorthKoreaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.NO, new NorwayCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.OM, new OmanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PK, new PakistanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PW, new PalauCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PS, new PalestineCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PA, new PanamaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PG, new PapuaNewGuineaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PY, new ParaguayCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PE, new PeruCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PH, new PhilippinesCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PN, new PitcairnIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PL, new PolandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PT, new PortugalCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PR, new PuertoRicoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.QA, new QatarCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CG, new RepublicOfTheCongoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.RE, new ReunionCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.RO, new RomaniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.RU, new RussiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.RW, new RwandaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BL, new SaintBarthelemyCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SH, new SaintHelenaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KN, new SaintKittsAndNevisCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LC, new SaintLuciaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MF, new SaintMartinCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.PM, new SaintPierreAndMiquelonCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.VC, new SaintVincentAndTheGrenadinesCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.WS, new SamoaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SM, new SanMarinoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ST, new SaoTomeAndPrincipeCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SA, new SaudiArabiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SN, new SenegalCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.RS, new SerbiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SC, new SeychellesCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SL, new SierraLeoneCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SG, new SingaporeCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SX, new SintMaartenCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SK, new SlovakiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SI, new SloveniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SB, new SolomonIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SO, new SomaliaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ZA, new SouthAfricaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GS, new SouthGeorgiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.KR, new SouthKoreaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SS, new SouthSudanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ES, new SpainCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.LK, new SriLankaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SD, new SudanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SR, new SurinameCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SJ, new SvalbardAndJanMayenCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SZ, new SwazilandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SE, new SwedenCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.CH, new SwitzerlandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SY, new SyriaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TW, new TaiwanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TJ, new TajikistanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TZ, new TanzaniaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TH, new ThailandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TL, new TimorLesteCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TG, new TogoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TK, new TokelauCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TO, new TongaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TT, new TrinidadAndTobagoCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TN, new TunisiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TR, new TurkeyCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TM, new TurkmenistanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TC, new TurksAndCaicosIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.TV, new TuvaluCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.UG, new UgandaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.UA, new UkraineCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.AE, new UnitedArabEmiratesCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.GB, new UnitedKingdomCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.US, new UnitedStatesCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.UM, new UnitedStatesMinorOutlyingIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.VI, new UnitedStatesVirginIslandsCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.UY, new UruguayCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.UZ, new UzbekistanCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.VU, new VanuatuCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.VA, new VaticanCityCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.VE, new VenezuelaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.VN, new VietnamCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.WF, new WallisAndFutunaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.EH, new WesternSaharaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.YE, new YemenCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ZM, new ZambiaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.ZW, new ZimbabweCountryInfo());
 
             #endregion
 
@@ -332,110 +329,10 @@ namespace Nager.Country
                     return countryInfo;
                 }
 
-                if (countryInfo.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
-                {
-                    return countryInfo;
-                }
-            }
-
-            return null;
-        }
-
-        public string GetCountryTranslatedName(string alpha2or3Code, LanguageCode languageCode)
-        {
-            return this.GetCountryTranslatedName(GetCountry(alpha2or3Code), languageCode);
-        }
-
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, LanguageCode languageCode)
-        {
-            return this.GetCountryTranslatedName(GetCountry(alpha2Code), languageCode);
-        }
-
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, LanguageCode languageCode)
-        {
-            return this.GetCountryTranslatedName(GetCountry(alpha3Code), languageCode);
-        }
-
-        public string GetCountryTranslatedName(string alpha2or3Code, string languageCode)
-        {
-            if (Enum.TryParse(languageCode, true, out LanguageCode code))
-            {
-                return this.GetCountryTranslatedName(alpha2or3Code, code);
-            }
-
-            return null;
-        }
-
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, string languageCode)
-        {
-            if (Enum.TryParse(languageCode, true, out LanguageCode code))
-            {
-                return this.GetCountryTranslatedName(alpha2Code, code);
-            }
-
-            return null;
-        }
-
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, string languageCode)
-        {
-            if (Enum.TryParse(languageCode, true, out LanguageCode code))
-            {
-                return this.GetCountryTranslatedName(alpha3Code, code);
-            }
-
-            return null;
-        }
-
-        public string GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture)
-        {
-            return this.GetCountryTranslatedName(alpha2or3Code, culture.TwoLetterISOLanguageName);
-        }
-
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture)
-        {
-            return this.GetCountryTranslatedName(alpha2Code, culture.TwoLetterISOLanguageName);
-        }
-
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture)
-        {
-            return this.GetCountryTranslatedName(alpha3Code, culture.TwoLetterISOLanguageName);
-        }
-
-        public string GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
-        {
-            var name = this.GetCountryTranslatedName(alpha2or3Code, culture);
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                name = this.GetCountryTranslatedName(alpha2or3Code, defaultLanguageCode);
-            }
-            return name;
-        }
-
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture, LanguageCode defaultLanguageCode)
-        {
-            var name = this.GetCountryTranslatedName(alpha2Code, culture);
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                name = this.GetCountryTranslatedName(alpha2Code, defaultLanguageCode);
-            }
-            return name;
-        }
-
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
-        {
-            var name = this.GetCountryTranslatedName(alpha3Code, culture);
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                name = this.GetCountryTranslatedName(alpha3Code, defaultLanguageCode);
-            }
-            return name;
-        }
-
-        private string GetCountryTranslatedName(ICountryInfo countryInfo, LanguageCode languageCode)
-        {
-            if (countryInfo != null && countryInfo.Translations != null && countryInfo.Translations.Length > 0)
-            {
-                return countryInfo.Translations.Where(x => x.LanguageCode == languageCode).Select(x => x.Name).FirstOrDefault();
+                //if (countryInfo.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
+                //{
+                //    return countryInfo;
+                //}
             }
 
             return null;
