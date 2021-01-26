@@ -34,10 +34,10 @@ jobs:
 #        dotnet test --no-restore --verbosity normal
     - name: Build project and generate NuGet package
       run: |     
-        cd src/Nager.Country
-        mkdir $GITHUB_WORKSPACE/out
-        move **/*.nupkg $GITHUB_WORKSPACE/out
-#        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out
+#        cd src/Nager.Country
+        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country
+#        cd src/Nager.Country
+        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country.Translation
     - name: Push NuGet package
       run: |
         cd $GITHUB_WORKSPACE/out
