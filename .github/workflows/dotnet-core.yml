@@ -33,11 +33,9 @@ jobs:
 #      run: |
 #        dotnet test --no-restore --verbosity normal
     - name: Build project and generate NuGet package
-      run: |     
-#        cd src/Nager.Country
-        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country
-#        cd src/Nager.Country
-        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country.Translation
+      run: |
+        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country/Nager.Country.csproj
+        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country.Translation/Nager.Country.Translation.csproj
     - name: Push NuGet package
       run: |
         cd $GITHUB_WORKSPACE/out
