@@ -34,6 +34,7 @@ jobs:
     - name: Build project and generate NuGet package
       run: |     
         cd src/Nager.Country
+        mkdir $GITHUB_WORKSPACE/out
         mv **/*.nupkg $GITHUB_WORKSPACE/out
 #        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out
     - name: Push NuGet package
