@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Mapster;
+using Nager.Country.Translation;
+using System;
 using System.IO;
 using System.Text.Encodings.Web;
 using System.Text.Json;
@@ -29,10 +31,17 @@ namespace Nager.Country.Export
             };
 
             var countryProvider = new CountryProvider();
+            var translationProvider = new TranslationProvider();
+
             var countries = countryProvider.GetCountries();
             foreach (var country in countries)
             {
-                var jsonData = JsonSerializer.SerializeToUtf8Bytes(country, jsonSerializerOptions);
+                var countryTranslation = translationProvider.GetCountryTranslation(country.Alpha2Code);
+
+                var fullCountry = country.Adapt<FullCountryInfo>();
+                fullCountry.Translations = countryTranslation.Translations;
+
+                var jsonData = JsonSerializer.SerializeToUtf8Bytes(fullCountry, jsonSerializerOptions);
                 File.WriteAllBytesAsync($"{exportDirectory}/{country.Alpha2Code}.json", jsonData).GetAwaiter().GetResult();
             }
 

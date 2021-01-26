@@ -2,6 +2,6 @@
 {
     public interface ICountryTranslation
     {
-        Translation[] Translations { get; }
+        TranslationInfo[] Translations { get; }
     }
 }

@@ -1,11 +1,11 @@
 ﻿namespace Nager.Country.Translation
 {
-    public class Translation
+    public class TranslationInfo
     {
         public LanguageCode LanguageCode { get; }
         public string Name { get; }
 
-        public Translation(LanguageCode languageCode, string name)
+        public TranslationInfo(LanguageCode languageCode, string name)
         {
             this.LanguageCode = languageCode;
             this.Name = name;

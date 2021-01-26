@@ -4,7 +4,7 @@
     {
         string CommonName { get; }
         string OfficialName { get; }
-        Translation[] Translations { get; }
+        TranslationInfo[] Translations { get; }
 
         /// <summary>
         /// ISO 639-1 language code

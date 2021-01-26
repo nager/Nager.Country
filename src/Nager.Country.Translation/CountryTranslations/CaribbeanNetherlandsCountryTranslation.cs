@@ -5,14 +5,14 @@ namespace Nager.Country.Translation.CountryInfos
     /// </summary>
     public class CaribbeanNetherlandsCountryTranslation : ICountryTranslation
     {
-        public Translation[] Translations => new[]
+        public TranslationInfo[] Translations => new[]
         {
-            new Translation(LanguageCode.EN, "Caribbean Netherlands"),
-            new Translation(LanguageCode.DE, "Caribbean Netherlands"),
-            new Translation(LanguageCode.NL, "Caribbean Netherlands"),
-            new Translation(LanguageCode.FR, "Caribbean Netherlands"),
-            new Translation(LanguageCode.ES, "Caribbean Netherlands"),
-            new Translation(LanguageCode.IT, "Caribbean Netherlands"),
+            new TranslationInfo(LanguageCode.EN, "Caribbean Netherlands"),
+            new TranslationInfo(LanguageCode.DE, "Caribbean Netherlands"),
+            new TranslationInfo(LanguageCode.NL, "Caribbean Netherlands"),
+            new TranslationInfo(LanguageCode.FR, "Caribbean Netherlands"),
+            new TranslationInfo(LanguageCode.ES, "Caribbean Netherlands"),
+            new TranslationInfo(LanguageCode.IT, "Caribbean Netherlands"),
         };
         
     }
