@@ -32,9 +32,10 @@ jobs:
 #      run: |
 #        dotnet test --no-restore --verbosity normal
     - name: Build project and generate NuGet package
-      run: |  
+      run: |     
         cd src/Nager.Country
-        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out
+        mv **/*.nupkg $GITHUB_WORKSPACE/out
+#        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out
     - name: Push NuGet package
       run: |
         cd $GITHUB_WORKSPACE/out
