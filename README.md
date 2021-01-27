@@ -88,10 +88,10 @@ var countryInfo = countryProvider.GetCountryByName("Germany");
 //countryInfo...
 ```
 
-### Get the name of the country in the requested language
+### Get the name of the country in the requested language ([nuget -> Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation))
 ```cs
-ICountryProvider countryProvider = new CountryProvider();
-var translatedCountryName = countryProvider.GetCountryTranslatedName(Alpha2Code.DE, LanguageCode.EN);
+ITranslationProvider translationProvider = new TranslationProvider();
+var translatedCountryName = translationProvider.GetCountryTranslatedName(Alpha2Code.DE, LanguageCode.EN);
 //translatedCountryName -> Germany
 ```
 
