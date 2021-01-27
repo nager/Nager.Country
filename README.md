@@ -62,9 +62,9 @@ The package is available on [nuget](https://www.nuget.org/packages/Nager.Country
 PM> install-package Nager.Country
 ```
 
-## Examples for the use of the nuget package
+## Examples of use
 
-### Get country by Alpha2Code
+### Get country via Alpha2Code
 ```cs
 ICountryProvider countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
@@ -76,7 +76,7 @@ var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
 //countryInfo...
 ```
 
-### Get country by CountryName
+### Get country via CountryName
 ```cs
 ICountryProvider countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountryByName("Germany");
