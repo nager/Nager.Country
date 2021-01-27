@@ -1,5 +1,8 @@
 ﻿namespace Nager.Country
 {
+    /// <summary>
+    /// Region
+    /// </summary>
     public enum Region
     {
         /// <summary>

@@ -4,11 +4,17 @@ using System.Collections.Generic;
 
 namespace Nager.Country
 {
+    /// <summary>
+    /// CountryProvider
+    /// </summary>
     public class CountryProvider : ICountryProvider
     {
         private readonly Dictionary<Alpha2Code, ICountryInfo> _alpha2Code2CountryInfo = new Dictionary<Alpha2Code, ICountryInfo>();
         private readonly Dictionary<Alpha3Code, ICountryInfo> _alpha3Code2CountryInfo = new Dictionary<Alpha3Code, ICountryInfo>();
 
+        /// <summary>
+        /// CountryProvider
+        /// </summary>
         public CountryProvider()
         {
             #region Alpha2Code mapping
@@ -275,11 +281,13 @@ namespace Nager.Country
             #endregion
         }
 
+        ///<inheritdoc/>
         public IEnumerable<ICountryInfo> GetCountries()
         {
             return this._alpha2Code2CountryInfo.Values;
         }
 
+        ///<inheritdoc/>
         public ICountryInfo GetCountry(string alpha2or3Code)
         {
             if (Enum.TryParse(alpha2or3Code, true, out Alpha2Code alpha2Code))
@@ -295,6 +303,7 @@ namespace Nager.Country
             return null;
         }
 
+        ///<inheritdoc/>
         public ICountryInfo GetCountry(Alpha2Code alpha2Code)
         {
             if (this._alpha2Code2CountryInfo.TryGetValue(alpha2Code, out ICountryInfo countryInfo))
@@ -305,6 +314,7 @@ namespace Nager.Country
             return null;
         }
 
+        ///<inheritdoc/>
         public ICountryInfo GetCountry(Alpha3Code alpha3Code)
         {
             if (this._alpha3Code2CountryInfo.TryGetValue(alpha3Code, out ICountryInfo countryInfo))
@@ -315,6 +325,7 @@ namespace Nager.Country
             return null;
         }
 
+        ///<inheritdoc/>
         public ICountryInfo GetCountryByName(string countryName)
         {
             foreach (var countryInfo in this._alpha2Code2CountryInfo.Values)
@@ -328,11 +339,6 @@ namespace Nager.Country
                 {
                     return countryInfo;
                 }
-
-                //if (countryInfo.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
-                //{
-                //    return countryInfo;
-                //}
             }
 
             return null;

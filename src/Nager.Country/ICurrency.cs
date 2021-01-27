@@ -6,8 +6,17 @@
     /// </summary>
     public interface ICurrency
     {
+        /// <summary>
+        /// Symbol
+        /// </summary>
         string Symbol { get; }
+        /// <summary>
+        /// Singular
+        /// </summary>
         string Singular { get; }
+        /// <summary>
+        /// Plural
+        /// </summary>
         string Plural { get; }
         /// <summary>
         /// IsoCode

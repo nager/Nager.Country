@@ -2,9 +2,16 @@
 
 namespace Nager.Country
 {
+    /// <summary>
+    /// SubRegion
+    /// </summary>
     public enum SubRegion
     {
+        /// <summary>
+        /// None
+        /// </summary>
         None,
+
         /// <summary>
         /// Northern Europe
         /// </summary>
@@ -93,16 +100,31 @@ namespace Nager.Country
         /// </summary>
         [Description("Western Asia")]
         WesternAsia,
-
         /// <summary>
         /// Australia and New Zealand
         /// </summary>
         [Description("Australia and New Zealand")]
         AustraliaAndNewZealand,
 
+        /// <summary>
+        /// Melanesia
+        /// </summary>
+        [Description("Melanesia")]
         Melanesia,
+        /// <summary>
+        /// Polynesia
+        /// </summary>
+        [Description("Polynesia")]
         Polynesia,
+        /// <summary>
+        /// Micronesia
+        /// </summary>
+        [Description("Micronesia")]
         Micronesia,
+        /// <summary>
+        /// Caribbean
+        /// </summary>
+        [Description("Caribbean")]
         Caribbean
     }
 }

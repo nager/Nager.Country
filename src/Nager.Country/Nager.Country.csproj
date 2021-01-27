@@ -11,6 +11,7 @@
     <PackageReleaseNotes>Split the translations in an own package</PackageReleaseNotes>
     <PackageTags>Country CountryInfo ISO3166 ISO-3166-1_Alpha2 ISO-3166-1_Alpha3 ISO639 ISO-639-1 globalization localization</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageIcon>icon.png</PackageIcon>
     <Version>3.0.0</Version>
   </PropertyGroup>
