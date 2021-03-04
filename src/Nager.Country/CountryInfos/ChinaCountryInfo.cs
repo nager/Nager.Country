@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class ChinaCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "China";
+        ///<inheritdoc/>
         public string OfficialName => "People's Republic of China";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CN;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CHN;
+        ///<inheritdoc/>
         public int NumericCode => 156;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".cn", ".中国", ".中國", ".公司", ".网络" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Asia;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternAsia;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AF,
@@ -36,7 +45,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.VN,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new CnyCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "86" };
     }
 }

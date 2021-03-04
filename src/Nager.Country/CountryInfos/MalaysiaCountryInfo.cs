@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class MalaysiaCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "Malaysia";
+        ///<inheritdoc/>
         public string OfficialName => "Malaysia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MY;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MYS;
+        ///<inheritdoc/>
         public int NumericCode => 458;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".my" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Asia;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthEasternAsia;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.BN,
@@ -24,7 +33,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TH,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new MyrCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "60" };
     }
 }

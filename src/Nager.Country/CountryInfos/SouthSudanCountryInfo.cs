@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class SouthSudanCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "South Sudan";
+        ///<inheritdoc/>
         public string OfficialName => "Republic of South Sudan";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SS;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SSD;
+        ///<inheritdoc/>
         public int NumericCode => 728;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".ss" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Africa;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.MiddleAfrica;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.CF,
@@ -27,7 +36,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UG,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new SspCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "211" };
     }
 }

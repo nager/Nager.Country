@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class GuineaCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "Guinea";
+        ///<inheritdoc/>
         public string OfficialName => "Republic of Guinea";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GN;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GIN;
+        ///<inheritdoc/>
         public int NumericCode => 324;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".gn" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Africa;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAfrica;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.CI,
@@ -27,7 +36,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SL,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new GnfCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "224" };
     }
 }

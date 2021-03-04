@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class BrazilCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "Brazil";
+        ///<inheritdoc/>
         public string OfficialName => "Federative Republic of Brazil";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BR;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BRA;
+        ///<inheritdoc/>
         public int NumericCode => 076;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".br" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Americas;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthAmerica;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AR,
@@ -31,7 +40,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.VE,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new BrlCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "55" };
     }
 }

@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class HungaryCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "Hungary";
+        ///<inheritdoc/>
         public string OfficialName => "Hungary";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HU;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.HUN;
+        ///<inheritdoc/>
         public int NumericCode => 348;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".hu" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Europe;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AT,
@@ -28,7 +37,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UA,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new HufCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "36" };
     }
 }

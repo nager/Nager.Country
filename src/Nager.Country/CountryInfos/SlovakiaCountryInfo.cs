@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class SlovakiaCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "Slovakia";
+        ///<inheritdoc/>
         public string OfficialName => "Slovak Republic";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SK;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SVK;
+        ///<inheritdoc/>
         public int NumericCode => 703;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".sk" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Europe;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AT,
@@ -26,7 +35,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UA,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new EurCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "421" };
     }
 }

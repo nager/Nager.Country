@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class FranceCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "France";
+        ///<inheritdoc/>
         public string OfficialName => "French Republic";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.FR;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.FRA;
+        ///<inheritdoc/>
         public int NumericCode => 250;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".fr" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Europe;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternEurope;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AD,
@@ -29,7 +38,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.CH,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new EurCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "33" };
     }
 }

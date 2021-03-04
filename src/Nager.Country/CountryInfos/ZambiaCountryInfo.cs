@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class ZambiaCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "Zambia";
+        ///<inheritdoc/>
         public string OfficialName => "Republic of Zambia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.ZM;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ZMB;
+        ///<inheritdoc/>
         public int NumericCode => 894;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".zm" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Africa;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternAfrica;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AO,
@@ -29,7 +38,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZW,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new ZmwCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "260" };
     }
 }

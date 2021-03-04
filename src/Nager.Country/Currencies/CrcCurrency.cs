@@ -4,14 +4,19 @@
     {
         public string Symbol => "₡";
 
+        ///<inheritdoc/>
         public string Singular => "colón";
 
+        ///<inheritdoc/>
         public string Plural => "cólones";
 
+        ///<inheritdoc/>
         public string IsoCode => "CRC";
 
+        ///<inheritdoc/>
         public string NumericCode => "188";
 
+        ///<inheritdoc/>
         public string Name => "Costa Rican colon";
     }
 }

@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class TurkmenistanCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "Turkmenistan";
+        ///<inheritdoc/>
         public string OfficialName => "Turkmenistan";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TM;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TKM;
+        ///<inheritdoc/>
         public int NumericCode => 795;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".tm" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Asia;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.CentralAsia;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AF,
@@ -25,7 +34,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UZ,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new TmtCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "993" };
     }
 }

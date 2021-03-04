@@ -7,16 +7,25 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class RussiaCountryInfo : ICountryInfo
     {
+        ///<inheritdoc/>
         public string CommonName => "Russia";
+        ///<inheritdoc/>
         public string OfficialName => "Russian Federation";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.RU;
+        ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.RUS;
+        ///<inheritdoc/>
         public int NumericCode => 643;
+        ///<inheritdoc/>
         public string[] TLD => new [] { ".ru", ".su", ".рф" };
 
+        ///<inheritdoc/>
         public Region Region => Region.Europe;
+        ///<inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
+        ///<inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AZ,
@@ -35,7 +44,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.UA,
         };
 
+        ///<inheritdoc/>
         public ICurrency[] Currencies => new [] { new RubCurrency() };
+        ///<inheritdoc/>
         public string[] CallingCodes => new [] { "7" };
     }
 }
