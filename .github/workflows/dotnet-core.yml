@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup .NET Core
+    - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.100
@@ -31,7 +31,7 @@ jobs:
     - name: Test
       working-directory: ./src
       run: |
-        dotnet test --no-restore --verbosity normal
+        dotnet test --configuration Release --no-restore -no-build --verbosity normal
     - name: Build project and generate NuGet package
       run: |
         dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country/Nager.Country.csproj
