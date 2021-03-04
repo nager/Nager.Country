@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class SomaliLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Somali";
+        ///<inheritdoc/>
         public string OfficialName => "Soomaaliga, af Soomaali";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Somaliese"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "索马里"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.SO;
     }
 }

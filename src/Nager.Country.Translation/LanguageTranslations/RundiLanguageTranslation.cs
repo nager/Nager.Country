@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class RundiLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Rundi";
+        ///<inheritdoc/>
         public string OfficialName => "Ikirundi";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Kirundi"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "基隆迪语"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.RN;
     }
 }

@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class WalloonLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Walloon";
+        ///<inheritdoc/>
         public string OfficialName => "Walon";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Die waalse"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "瓦隆大区"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.WA;
     }
 }

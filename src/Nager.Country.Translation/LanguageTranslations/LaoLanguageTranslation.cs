@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class LaoLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Lao";
+        ///<inheritdoc/>
         public string OfficialName => "ພາສາລາວ";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Lao"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "老挝"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.LO;
     }
 }

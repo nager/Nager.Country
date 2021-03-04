@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class NavajoLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Navajo";
+        ///<inheritdoc/>
         public string OfficialName => "Diné bizaad";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Navajo, Navaho"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "纳瓦霍人，纳瓦霍"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.NV;
     }
 }

@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class AfrikaansLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Afrikaans";
+        ///<inheritdoc/>
         public string OfficialName => "Afrikaans";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Afrikaans"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "南非荷兰语"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.AF;
     }
 }

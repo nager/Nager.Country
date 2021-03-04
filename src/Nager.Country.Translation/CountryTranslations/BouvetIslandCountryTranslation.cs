@@ -5,6 +5,7 @@ namespace Nager.Country.Translation.CountryInfos
     /// </summary>
     public class BouvetIslandCountryTranslation : ICountryTranslation
     {
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AR, "جزيرة بوفيه"),

@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class ChamorroLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Chamorro";
+        ///<inheritdoc/>
         public string OfficialName => "Chamoru";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Chamorro"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "查莫罗"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.CH;
     }
 }

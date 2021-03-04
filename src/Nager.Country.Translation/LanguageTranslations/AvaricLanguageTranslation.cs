@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class AvaricLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Avaric";
+        ///<inheritdoc/>
         public string OfficialName => "авар мацӀ, магӀарул мацӀ";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Avaric"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "阿瓦尔文"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.AV;
     }
 }

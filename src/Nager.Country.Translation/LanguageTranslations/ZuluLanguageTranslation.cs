@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class ZuluLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Zulu";
+        ///<inheritdoc/>
         public string OfficialName => "isiZulu";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Zulu"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "Zulu"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.ZU;
     }
 }

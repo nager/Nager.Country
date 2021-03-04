@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class ChurchSlavicLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "ChurchSlavic";
+        ///<inheritdoc/>
         public string OfficialName => "ѩзыкъ словѣньскъ";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Die Ou Kerk Slawiese, Kerk Slawiese, Ou Bulgaarse"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "老斯拉夫的教堂，教堂斯拉夫、老保加利亚"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.CU;
     }
 }

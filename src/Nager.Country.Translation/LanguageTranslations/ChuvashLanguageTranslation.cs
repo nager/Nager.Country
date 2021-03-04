@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class ChuvashLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Chuvash";
+        ///<inheritdoc/>
         public string OfficialName => "чӑваш чӗлхи";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Chuvash"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "楚瓦什"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.CV;
     }
 }

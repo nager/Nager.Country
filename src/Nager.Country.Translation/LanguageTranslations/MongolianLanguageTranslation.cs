@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class MongolianLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Mongolian";
+        ///<inheritdoc/>
         public string OfficialName => "Монгол хэл";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Mongoolse"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "蒙古"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.MN;
     }
 }

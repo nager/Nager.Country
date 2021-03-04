@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class JapaneseLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Japanese";
+        ///<inheritdoc/>
         public string OfficialName => "日本語 (にほんご)";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Japanees"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "日本"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.JA;
     }
 }

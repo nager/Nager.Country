@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class CatalanLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Catalan";
+        ///<inheritdoc/>
         public string OfficialName => "català, valencià";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Katalaans"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "加泰罗尼亚语"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.CA;
     }
 }

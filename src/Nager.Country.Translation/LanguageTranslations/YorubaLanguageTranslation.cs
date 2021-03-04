@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class YorubaLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Yoruba";
+        ///<inheritdoc/>
         public string OfficialName => "Yorùbá";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Yoruba"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "约鲁巴语"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.YO;
     }
 }

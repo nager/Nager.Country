@@ -5,6 +5,7 @@ namespace Nager.Country.Translation
 {
     public static class CountryProviderExtension
     {
+        ///<inheritdoc/>
         public static ICountryInfo GetCountryByNameConsiderTranslation(
             this ICountryProvider countryProvider,
             string countryName)

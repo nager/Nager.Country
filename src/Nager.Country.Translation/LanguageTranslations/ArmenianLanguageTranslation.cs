@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class ArmenianLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Armenian";
+        ///<inheritdoc/>
         public string OfficialName => "Հայերեն";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Armeense"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "亚美尼亚"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.HY;
     }
 }

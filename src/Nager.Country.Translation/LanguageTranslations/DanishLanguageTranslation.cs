@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class DanishLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Danish";
+        ///<inheritdoc/>
         public string OfficialName => "dansk";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Deense"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "丹麦"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.DA;
     }
 }

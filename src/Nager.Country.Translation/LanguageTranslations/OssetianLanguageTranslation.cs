@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class OssetianLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Ossetian";
+        ///<inheritdoc/>
         public string OfficialName => "ирон æвзаг";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Ossetië, Ossetic"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "奥塞梯，奥塞梯文"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.OS;
     }
 }

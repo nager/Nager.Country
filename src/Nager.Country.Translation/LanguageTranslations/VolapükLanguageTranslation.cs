@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class VolapükLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Volapük";
+        ///<inheritdoc/>
         public string OfficialName => "Volapük";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Volapük"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "沃拉普克文"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.VO;
     }
 }

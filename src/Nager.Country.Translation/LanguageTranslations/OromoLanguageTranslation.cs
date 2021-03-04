@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class OromoLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Oromo";
+        ///<inheritdoc/>
         public string OfficialName => "Afaan Oromoo";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Oromo"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "奥罗莫"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.OM;
     }
 }

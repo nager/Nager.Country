@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class WelshLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Welsh";
+        ///<inheritdoc/>
         public string OfficialName => "Cymraeg";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Walliese"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "威尔士"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.CY;
     }
 }

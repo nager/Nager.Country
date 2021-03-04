@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class FaroeseLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Faroese";
+        ///<inheritdoc/>
         public string OfficialName => "føroyskt";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Faroese"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "法罗群岛"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.FO;
     }
 }

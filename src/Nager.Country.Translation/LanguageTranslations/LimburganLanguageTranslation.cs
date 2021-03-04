@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class LimburganLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Limburgan";
+        ///<inheritdoc/>
         public string OfficialName => "Limburgs";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Limburgan, Limburgan, Limburger"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "淋布尔吉文，Limburgan的，林堡"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.LI;
     }
 }

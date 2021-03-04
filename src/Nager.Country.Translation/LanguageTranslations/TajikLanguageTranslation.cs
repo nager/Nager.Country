@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class TajikLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Tajik";
+        ///<inheritdoc/>
         public string OfficialName => "тоҷикӣ, toçikī, تاجیکی‎";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Tajik"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "塔吉克斯坦"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.TG;
     }
 }

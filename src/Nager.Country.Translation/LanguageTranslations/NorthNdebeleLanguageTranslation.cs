@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class NorthNdebeleLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "NorthNdebele";
+        ///<inheritdoc/>
         public string OfficialName => "isiNdebele";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Noord-Ndebele"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "北部的恩德"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.ND;
     }
 }

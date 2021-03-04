@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class KirghizLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Kirghiz";
+        ///<inheritdoc/>
         public string OfficialName => "Кыргызча, Кыргыз тили";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Kirgisies"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "吉尔吉斯斯坦"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.KY;
     }
 }

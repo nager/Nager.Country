@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class TibetanLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Tibetan";
+        ///<inheritdoc/>
         public string OfficialName => "བོད་ཡིག";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Tibetaanse Standaard, Tibetaans, Sentrale"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "西藏的标准，藏族，中央"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.BO;
     }
 }

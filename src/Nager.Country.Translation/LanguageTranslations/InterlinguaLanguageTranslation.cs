@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class InterlinguaLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Interlingua";
+        ///<inheritdoc/>
         public string OfficialName => "Interlingua";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Interlingua"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "国际文"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.IA;
     }
 }

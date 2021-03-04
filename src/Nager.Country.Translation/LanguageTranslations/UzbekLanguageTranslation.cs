@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class UzbekLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Uzbek";
+        ///<inheritdoc/>
         public string OfficialName => "Oʻzbek, Ўзбек, أۇزبېك‎";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Oezbeeks"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "乌兹别克斯坦"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.UZ;
     }
 }

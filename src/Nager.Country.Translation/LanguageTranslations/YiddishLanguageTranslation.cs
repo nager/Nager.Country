@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class YiddishLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Yiddish";
+        ///<inheritdoc/>
         public string OfficialName => "ייִדיש";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Jiddisj"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "犹太语"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.YI;
     }
 }

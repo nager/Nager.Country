@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class KurdishLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Kurdish";
+        ///<inheritdoc/>
         public string OfficialName => "Kurdî, کوردی‎";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Koerdiese"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "库尔德"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.KU;
     }
 }

@@ -13,6 +13,7 @@ namespace Nager.Country.Translation
 
         private readonly ICountryProvider _countryProvider;
 
+        ///<inheritdoc/>
         public TranslationProvider()
         {
             this._countryProvider = new CountryProvider();

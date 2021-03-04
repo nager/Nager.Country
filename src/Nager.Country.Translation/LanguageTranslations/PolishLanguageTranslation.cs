@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class PolishLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Polish";
+        ///<inheritdoc/>
         public string OfficialName => "język polski, polszczyzna";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Pools"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "波兰"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.PL;
     }
 }

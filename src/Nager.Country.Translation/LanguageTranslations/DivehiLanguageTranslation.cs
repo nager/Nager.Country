@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class DivehiLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Divehi";
+        ///<inheritdoc/>
         public string OfficialName => "ދިވެހި";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Divehi, Dhivehi, Maldive"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "迪维希文，迪维希语、马尔代夫"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.DV;
     }
 }

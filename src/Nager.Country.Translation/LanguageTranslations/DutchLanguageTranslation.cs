@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class DutchLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Dutch";
+        ///<inheritdoc/>
         public string OfficialName => "Nederlands, Vlaams";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Duits"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "荷兰"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.NL;
     }
 }

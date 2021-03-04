@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class SamoanLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Samoan";
+        ///<inheritdoc/>
         public string OfficialName => "gagana fa'a Samoa";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Samoaans"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "萨摩亚"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.SM;
     }
 }

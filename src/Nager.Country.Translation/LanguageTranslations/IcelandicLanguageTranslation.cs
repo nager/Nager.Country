@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class IcelandicLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Icelandic";
+        ///<inheritdoc/>
         public string OfficialName => "Íslenska";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Yslands"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "冰岛"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.IS;
     }
 }

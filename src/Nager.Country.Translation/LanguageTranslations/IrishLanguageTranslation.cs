@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class IrishLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Irish";
+        ///<inheritdoc/>
         public string OfficialName => "Gaeilge";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Iers"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "爱尔兰"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.GA;
     }
 }

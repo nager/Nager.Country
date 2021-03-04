@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class OccitanLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Occitan";
+        ///<inheritdoc/>
         public string OfficialName => "occitan, lenga d'òc";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Oksitaans"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "奥克"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.OC;
     }
 }

@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class PaliLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Pali";
+        ///<inheritdoc/>
         public string OfficialName => "पालि, पाळि";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Pāli"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "Pāli"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.PI;
     }
 }

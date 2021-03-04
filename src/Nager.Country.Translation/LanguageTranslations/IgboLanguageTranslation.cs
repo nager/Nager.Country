@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class IgboLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Igbo";
+        ///<inheritdoc/>
         public string OfficialName => "Asụsụ Igbo";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Igbo"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "伊博"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.IG;
     }
 }

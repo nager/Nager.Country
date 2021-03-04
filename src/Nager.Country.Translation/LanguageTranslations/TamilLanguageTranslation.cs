@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class TamilLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Tamil";
+        ///<inheritdoc/>
         public string OfficialName => "தமிழ்";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Tamil"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "泰米尔"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.TA;
     }
 }

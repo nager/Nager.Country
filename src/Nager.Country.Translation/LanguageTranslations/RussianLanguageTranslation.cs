@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class RussianLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Russian";
+        ///<inheritdoc/>
         public string OfficialName => "русский";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Russiese"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "俄罗斯"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.RU;
     }
 }

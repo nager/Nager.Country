@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class LatvianLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Latvian";
+        ///<inheritdoc/>
         public string OfficialName => "latviešu valoda";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Lets"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "拉脱维亚"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.LV;
     }
 }

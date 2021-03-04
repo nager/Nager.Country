@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class FinnishLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Finnish";
+        ///<inheritdoc/>
         public string OfficialName => "suomi, suomen kieli";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Finse"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "芬兰"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.FI;
     }
 }

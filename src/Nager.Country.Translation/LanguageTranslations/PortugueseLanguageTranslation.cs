@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class PortugueseLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Portuguese";
+        ///<inheritdoc/>
         public string OfficialName => "Português";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Portugees"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "葡萄牙"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.PT;
     }
 }

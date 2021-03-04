@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class ManxLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Manx";
+        ///<inheritdoc/>
         public string OfficialName => "Gaelg, Gailck";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Manx"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "马恩岛"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.GV;
     }
 }

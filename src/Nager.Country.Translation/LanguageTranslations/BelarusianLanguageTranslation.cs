@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class BelarusianLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Belarusian";
+        ///<inheritdoc/>
         public string OfficialName => "беларуская мова";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Wit"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "白俄罗斯"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.BE;
     }
 }

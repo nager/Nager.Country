@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class BihariLanguagesLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "BihariLanguages";
+        ///<inheritdoc/>
         public string OfficialName => "भोजपुरी";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Bihari"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "比哈里"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.BH;
     }
 }

@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class EsperantoLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Esperanto";
+        ///<inheritdoc/>
         public string OfficialName => "Esperanto";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Esperanto"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "世界"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.EO;
     }
 }

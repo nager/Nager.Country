@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class HungarianLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Hungarian";
+        ///<inheritdoc/>
         public string OfficialName => "magyar";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Hongaars"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "匈牙利"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.HU;
     }
 }

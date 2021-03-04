@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class KalaallisutLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Kalaallisut";
+        ///<inheritdoc/>
         public string OfficialName => "kalaallisut, kalaallit oqaasii";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Kalaallisut, Greenlandic"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "格陵兰文，格陵兰"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.KL;
     }
 }

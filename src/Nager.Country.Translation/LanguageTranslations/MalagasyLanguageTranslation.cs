@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class MalagasyLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Malagasy";
+        ///<inheritdoc/>
         public string OfficialName => "fiteny malagasy";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Madagaskar"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "马达加斯加"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.MG;
     }
 }

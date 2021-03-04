@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class MaoriLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Maori";
+        ///<inheritdoc/>
         public string OfficialName => "te reo Māori";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Māori"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "毛利人"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.MI;
     }
 }

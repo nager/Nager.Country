@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class ChineseLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Chinese";
+        ///<inheritdoc/>
         public string OfficialName => "中文 (Zhōngwén), 汉语, 漢語";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Chinese"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "中国"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.ZH;
     }
 }

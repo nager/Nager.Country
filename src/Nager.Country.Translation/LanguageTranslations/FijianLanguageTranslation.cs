@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class FijianLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Fijian";
+        ///<inheritdoc/>
         public string OfficialName => "vosa Vakaviti";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Fidjiaanse"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "斐济"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.FJ;
     }
 }

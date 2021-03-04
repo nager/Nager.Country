@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class InupiaqLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Inupiaq";
+        ///<inheritdoc/>
         public string OfficialName => "Iñupiaq, Iñupiatun";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Afrikaans"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "Inupiaq"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.IK;
     }
 }

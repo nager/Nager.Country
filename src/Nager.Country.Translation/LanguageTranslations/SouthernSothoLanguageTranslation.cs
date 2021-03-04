@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class SouthernSothoLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "SouthernSotho";
+        ///<inheritdoc/>
         public string OfficialName => "Sesotho";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Suid-Sotho"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "南部索托"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.ST;
     }
 }

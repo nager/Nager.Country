@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class EweLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Ewe";
+        ///<inheritdoc/>
         public string OfficialName => "Eʋegbe";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Ooi"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "羊"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.EE;
     }
 }

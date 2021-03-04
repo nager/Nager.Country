@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class SichuanYiLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "SichuanYi";
+        ///<inheritdoc/>
         public string OfficialName => "ꆈꌠ꒿ Nuosuhxop";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Nuosu"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "Nuosu"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.II;
     }
 }

@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class GaelicLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Gaelic";
+        ///<inheritdoc/>
         public string OfficialName => "Gàidhlig";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Skotse Gallies, Gaelic"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "苏格兰盖尔盖尔"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.GD;
     }
 }

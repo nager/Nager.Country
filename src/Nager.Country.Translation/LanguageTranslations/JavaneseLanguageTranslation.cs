@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class JavaneseLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Javanese";
+        ///<inheritdoc/>
         public string OfficialName => "ꦧꦱꦗꦮ, Basa Jawa";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Javaans"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "爪哇"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.JV;
     }
 }

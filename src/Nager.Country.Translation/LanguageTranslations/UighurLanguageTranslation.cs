@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class UighurLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Uighur";
+        ///<inheritdoc/>
         public string OfficialName => "ئۇيغۇرچە‎, Uyghurche";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Uyghur"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "维吾尔"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.UG;
     }
 }

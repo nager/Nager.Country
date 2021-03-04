@@ -3,6 +3,9 @@ using System.Globalization;
 
 namespace Nager.Country.Translation
 {
+    /// <summary>
+    /// ITranslationProvider
+    /// </summary>
     public interface ITranslationProvider
     {
         IEnumerable<ILanguageTranslation> GetLanguages();

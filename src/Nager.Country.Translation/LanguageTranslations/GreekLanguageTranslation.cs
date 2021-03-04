@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class GreekLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Greek";
+        ///<inheritdoc/>
         public string OfficialName => "ελληνικά";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Grieks"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "希腊"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.EL;
     }
 }

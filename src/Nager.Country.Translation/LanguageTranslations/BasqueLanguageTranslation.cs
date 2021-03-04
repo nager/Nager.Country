@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class BasqueLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Basque";
+        ///<inheritdoc/>
         public string OfficialName => "euskara, euskera";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Baskies"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "巴斯克"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.EU;
     }
 }

@@ -2,9 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class GujaratiLanguageTranslation : ILanguageTranslation
     {
+        ///<inheritdoc/>
         public string CommonName => "Gujarati";
+        ///<inheritdoc/>
         public string OfficialName => "ગુજરાતી";
 
+        ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Gujarati"),
@@ -93,6 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "古吉拉特"),
         };
 
+        ///<inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.GU;
     }
 }
