@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Avaric
+    /// </summary>
     public class AvaricLanguageTranslation : ILanguageTranslation
     {
         ///<inheritdoc/>

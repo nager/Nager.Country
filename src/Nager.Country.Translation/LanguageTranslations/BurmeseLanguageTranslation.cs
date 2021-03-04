@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Burmese
+    /// </summary>
     public class BurmeseLanguageTranslation : ILanguageTranslation
     {
         ///<inheritdoc/>

@@ -1,9 +1,12 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
-    public class BihariLanguagesLanguageTranslation : ILanguageTranslation
+    /// <summary>
+    /// Bihari
+    /// </summary>
+    public class BihariLanguageTranslation : ILanguageTranslation
     {
         ///<inheritdoc/>
-        public string CommonName => "BihariLanguages";
+        public string CommonName => "Bihari";
         ///<inheritdoc/>
         public string OfficialName => "भोजपुरी";
 

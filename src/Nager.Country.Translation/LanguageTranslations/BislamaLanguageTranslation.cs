@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Bislama
+    /// </summary>
     public class BislamaLanguageTranslation : ILanguageTranslation
     {
         ///<inheritdoc/>

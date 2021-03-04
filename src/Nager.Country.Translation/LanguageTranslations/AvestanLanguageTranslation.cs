@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Avestan
+    /// </summary>
     public class AvestanLanguageTranslation : ILanguageTranslation
     {
         ///<inheritdoc/>

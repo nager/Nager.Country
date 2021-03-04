@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Afar
+    /// </summary>
     public class AfarLanguageTranslation : ILanguageTranslation
     {
         ///<inheritdoc/>

@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Bosnian
+    /// </summary>
     public class BosnianLanguageTranslation : ILanguageTranslation
     {
         ///<inheritdoc/>
