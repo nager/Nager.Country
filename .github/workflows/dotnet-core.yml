@@ -28,10 +28,10 @@ jobs:
     - name: Build
       working-directory: ./src
       run: dotnet build --configuration Release --no-restore
-#    - name: Test
-#      working-directory: ./src
-#      run: |
-#        dotnet test --no-restore --verbosity normal
+    - name: Test
+      working-directory: ./src
+      run: |
+        dotnet test --no-restore --verbosity normal
     - name: Build project and generate NuGet package
       run: |
         dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country/Nager.Country.csproj
