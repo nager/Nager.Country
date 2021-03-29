@@ -8,7 +8,7 @@ namespace Nager.Country.Translation
     internal static class AssemblieExtensions
     {
         public static IEnumerable<Type> GetLoadableTypes(this Assembly assembly)
-        {​​​​​​​​
+        {
             if (assembly == null)
             {
                 throw new ArgumentNullException(nameof(assembly));
