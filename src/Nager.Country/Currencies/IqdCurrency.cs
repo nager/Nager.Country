@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class IqdCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "د.ع.‏";
 
         ///<inheritdoc/>

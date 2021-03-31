@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Awg Currency
+    /// </summary>
     public class AwgCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "Afl";
 
         ///<inheritdoc/>

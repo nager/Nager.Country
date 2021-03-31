@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class HufCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "Ft";
 
         ///<inheritdoc/>

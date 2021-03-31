@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Ang Currency
+    /// </summary>
     public class AngCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "NAƒ";
 
         ///<inheritdoc/>

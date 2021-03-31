@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class GmdCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "D";
 
         ///<inheritdoc/>

@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class NioCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "C$";
 
         ///<inheritdoc/>

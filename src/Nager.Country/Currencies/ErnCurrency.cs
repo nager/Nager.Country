@@ -2,6 +2,7 @@
 {
     public class ErnCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "Nfk";
 
         ///<inheritdoc/>

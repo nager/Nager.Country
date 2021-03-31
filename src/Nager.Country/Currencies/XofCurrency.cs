@@ -1,7 +1,11 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Xof Currency
+    /// </summary>
     public class XofCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "CFA";
 
         ///<inheritdoc/>

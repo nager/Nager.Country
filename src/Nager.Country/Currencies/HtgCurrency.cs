@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class HtgCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "G";
 
         ///<inheritdoc/>

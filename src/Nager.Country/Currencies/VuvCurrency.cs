@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class VuvCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "VT";
 
         ///<inheritdoc/>

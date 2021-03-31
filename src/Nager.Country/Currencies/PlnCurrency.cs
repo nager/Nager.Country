@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class PlnCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "zł";
 
         ///<inheritdoc/>

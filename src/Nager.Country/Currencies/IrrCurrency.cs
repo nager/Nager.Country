@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class IrrCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "ريال";
 
         ///<inheritdoc/>

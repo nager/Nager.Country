@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Czk Currency
+    /// </summary>
     public class CzkCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "Kč";
 
         ///<inheritdoc/>

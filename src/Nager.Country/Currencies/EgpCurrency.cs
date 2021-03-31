@@ -2,6 +2,7 @@
 {
     public class EgpCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "ج.م.‏";
 
         ///<inheritdoc/>

@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Btn Currency
+    /// </summary>
     public class BtnCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "Nu.";
 
         ///<inheritdoc/>

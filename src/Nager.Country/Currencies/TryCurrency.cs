@@ -1,7 +1,11 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Try Currency
+    /// </summary>
     public class TryCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "₺";
 
         ///<inheritdoc/>

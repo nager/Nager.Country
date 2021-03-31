@@ -2,6 +2,7 @@
 {
     public class DzdCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "د.ج.‏";
 
         ///<inheritdoc/>

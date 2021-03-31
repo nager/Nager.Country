@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class XafCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "FCFA";
 
         ///<inheritdoc/>

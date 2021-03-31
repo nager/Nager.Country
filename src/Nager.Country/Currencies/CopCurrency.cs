@@ -2,6 +2,7 @@
 {
     public class CopCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "$";
 
         ///<inheritdoc/>

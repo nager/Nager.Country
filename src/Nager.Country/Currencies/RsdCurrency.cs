@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class RsdCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "дин.";
 
         ///<inheritdoc/>

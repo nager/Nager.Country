@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Bhd Currency
+    /// </summary>
     public class BhdCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "د.ب.‏";
 
         ///<inheritdoc/>

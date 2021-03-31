@@ -1,7 +1,11 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Gnf Currency
+    /// </summary>
     public class GnfCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "FG";
 
         ///<inheritdoc/>

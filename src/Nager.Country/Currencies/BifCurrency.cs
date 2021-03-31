@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Bif Currency
+    /// </summary>
     public class BifCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "FBu";
 
         ///<inheritdoc/>

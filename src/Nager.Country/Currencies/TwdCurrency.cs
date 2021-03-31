@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class TwdCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "NT$";
 
         ///<inheritdoc/>

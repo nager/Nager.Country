@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Chf Currency
+    /// </summary>
     public class ChfCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "CHF";
 
         ///<inheritdoc/>

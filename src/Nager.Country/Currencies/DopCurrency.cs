@@ -2,6 +2,7 @@
 {
     public class DopCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "$";
 
         ///<inheritdoc/>

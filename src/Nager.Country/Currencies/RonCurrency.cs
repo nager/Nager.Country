@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class RonCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "lei";
 
         ///<inheritdoc/>

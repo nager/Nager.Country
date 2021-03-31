@@ -1,7 +1,11 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Wst Currency
+    /// </summary>
     public class WstCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "WS$";
 
         ///<inheritdoc/>

@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class MznCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "MT";
 
         ///<inheritdoc/>

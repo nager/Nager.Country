@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class RwfCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "RF";
 
         ///<inheritdoc/>

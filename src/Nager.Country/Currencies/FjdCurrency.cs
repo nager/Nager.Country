@@ -2,6 +2,7 @@
 {
     public class FjdCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "FJ$";
 
         ///<inheritdoc/>

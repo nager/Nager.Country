@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class KmfCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "CF";
 
         ///<inheritdoc/>

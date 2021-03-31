@@ -2,6 +2,7 @@
 {
     public class SvcCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "₡";
 
         ///<inheritdoc/>

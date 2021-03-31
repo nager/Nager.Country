@@ -1,7 +1,11 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Syp Currency
+    /// </summary>
     public class SypCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "ل.س.‏";
 
         ///<inheritdoc/>

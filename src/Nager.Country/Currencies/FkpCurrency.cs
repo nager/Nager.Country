@@ -2,6 +2,7 @@
 {
     public class FkpCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "£";
 
         ///<inheritdoc/>

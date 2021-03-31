@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Bwp Currency
+    /// </summary>
     public class BwpCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "P";
 
         ///<inheritdoc/>

@@ -1,7 +1,11 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Aoa Currency
+    /// </summary>
     public class AoaCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "Kz";
 
         ///<inheritdoc/>

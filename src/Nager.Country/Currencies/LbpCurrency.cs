@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class LbpCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "ل.ل.‏";
 
         ///<inheritdoc/>

@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class MopCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "MOP";
 
         ///<inheritdoc/>

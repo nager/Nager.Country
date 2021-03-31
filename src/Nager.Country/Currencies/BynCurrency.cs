@@ -2,6 +2,7 @@
 {
     public class BynCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "Br";
 
         ///<inheritdoc/>

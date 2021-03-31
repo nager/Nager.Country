@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class OmrCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "ر.ع.‏";
 
         ///<inheritdoc/>

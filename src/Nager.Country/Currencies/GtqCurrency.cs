@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class GtqCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "Q";
 
         ///<inheritdoc/>

@@ -2,6 +2,7 @@
 {
     public class EtbCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "ብር";
 
         ///<inheritdoc/>

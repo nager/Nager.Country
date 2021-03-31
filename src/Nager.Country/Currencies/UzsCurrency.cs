@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class UzsCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "сўм";
 
         ///<inheritdoc/>

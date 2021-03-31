@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class XpfCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "R";
 
         ///<inheritdoc/>

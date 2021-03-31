@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class PabCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "B/.";
 
         ///<inheritdoc/>

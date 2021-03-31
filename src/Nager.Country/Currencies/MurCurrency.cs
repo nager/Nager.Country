@@ -2,6 +2,7 @@
 {
     public class MurCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "₨";
 
         ///<inheritdoc/>

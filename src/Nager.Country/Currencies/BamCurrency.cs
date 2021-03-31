@@ -2,6 +2,7 @@
 {
     public class BamCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "КМ";
 
         ///<inheritdoc/>

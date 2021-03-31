@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class SspCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "SS£";
 
         ///<inheritdoc/>

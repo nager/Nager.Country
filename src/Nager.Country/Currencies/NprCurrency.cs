@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class NprCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "रु";
 
         ///<inheritdoc/>

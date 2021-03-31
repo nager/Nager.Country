@@ -2,6 +2,7 @@ namespace Nager.Country.Currencies
 {
     public class UyuCurrency : ICurrency
     {
+        ///<inheritdoc/>
         public string Symbol => "$";
 
         ///<inheritdoc/>
