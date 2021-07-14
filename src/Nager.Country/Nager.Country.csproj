@@ -8,12 +8,12 @@
     <PackageProjectUrl>https://github.com/nager/Nager.Country</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nager/Nager.Country</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>Split the translations in an own package</PackageReleaseNotes>
+    <PackageReleaseNotes>Add Readme.md to nuget file</PackageReleaseNotes>
     <PackageTags>Country CountryInfo ISO3166 ISO-3166-1_Alpha2 ISO-3166-1_Alpha3 ISO639 ISO-639-1 globalization localization</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageIcon>icon.png</PackageIcon>
-    <Version>3.0.1</Version>
+    <Version>3.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,15 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="readme.txt">
-      <Pack>true</Pack>
-      <PackagePath>\</PackagePath>
-    </Content>
-
-    <None Include="..\..\doc\icon.png">
-      <Pack>true</Pack>
-      <Visible>false</Visible>
-      <PackagePath></PackagePath>
-    </None>
+    <Content Include="readme.txt" Pack="true" PackagePath="\" />
+    <None Include="readme.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\doc\icon.png" Pack="true" PackagePath="" Visible="false" />
   </ItemGroup>
 </Project>
