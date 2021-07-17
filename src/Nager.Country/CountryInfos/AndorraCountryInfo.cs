@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Principality of Andorra";
         ///<inheritdoc/>
+        public string NativeName => "Andorra";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AD;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.AND;

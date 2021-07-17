@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Croatia";
         ///<inheritdoc/>
+        public string NativeName => "Hrvatska";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HR;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.HRV;

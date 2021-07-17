@@ -6,6 +6,7 @@ namespace Nager.Country.Export
     {
         public string CommonName { get; set; }
         public string OfficialName { get; set; }
+        public string NativeName { get; set; }
         public Alpha2Code Alpha2Code { get; set; }
         public Alpha3Code Alpha3Code { get; set; }
         public int NumericCode { get; set; }

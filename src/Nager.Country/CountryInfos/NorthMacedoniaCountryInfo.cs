@@ -1,16 +1,18 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
-    /// Macedonia
+    /// North Macedonia
     /// </summary>
-    public class MacedoniaCountryInfo : ICountryInfo
+    public class NorthMacedoniaCountryInfo : ICountryInfo
     {
         ///<inheritdoc/>
         public string CommonName => "North Macedonia";
         ///<inheritdoc/>
-        public string OfficialName => "Republic of Macedonia";
+        public string OfficialName => "Republic of North Macedonia";
+        ///<inheritdoc/>
+        public string NativeName => "Северна Македонија";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MK;
         ///<inheritdoc/>

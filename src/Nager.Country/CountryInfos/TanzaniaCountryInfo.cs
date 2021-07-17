@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "United Republic of Tanzania";
         ///<inheritdoc/>
+        public string NativeName => "Tanzania";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TZ;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TZA;

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Chile";
         ///<inheritdoc/>
+        public string NativeName => "Chile";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CL;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CHL;

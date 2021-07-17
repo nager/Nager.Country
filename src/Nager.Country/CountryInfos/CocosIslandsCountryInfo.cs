@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Territory of the Cocos (Keeling) Islands";
         ///<inheritdoc/>
+        public string NativeName => "Cocos (Keeling) Islands";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CC;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CCK;

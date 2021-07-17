@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Burundi";
         ///<inheritdoc/>
+        public string NativeName => "Burundi";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BI;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BDI;

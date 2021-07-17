@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Democratic Socialist Republic of Sri Lanka";
         ///<inheritdoc/>
+        public string NativeName => "śrī laṃkāva";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LK;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LKA;

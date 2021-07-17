@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Kingdom of Norway";
         ///<inheritdoc/>
+        public string NativeName => "Norge";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.NO;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.NOR;

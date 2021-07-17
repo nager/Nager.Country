@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Co-operative Republic of Guyana";
         ///<inheritdoc/>
+        public string NativeName => "Guyana";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GY;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GUY;

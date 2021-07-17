@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Greenland";
         ///<inheritdoc/>
+        public string NativeName => "Kalaallit Nunaat";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GL;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GRL;

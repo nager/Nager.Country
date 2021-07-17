@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Hashemite Kingdom of Jordan";
         ///<inheritdoc/>
+        public string NativeName => "الأردن";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.JO;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.JOR;

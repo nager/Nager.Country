@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Democratic Republic of Timor-Leste";
         ///<inheritdoc/>
+        public string NativeName => "Timor-Leste";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TL;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TLS;

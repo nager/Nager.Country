@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Grand Duchy of Luxembourg";
         ///<inheritdoc/>
+        public string NativeName => "Luxembourg";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LU;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LUX;

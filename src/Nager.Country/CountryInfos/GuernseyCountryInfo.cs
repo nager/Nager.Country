@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Bailiwick of Guernsey";
         ///<inheritdoc/>
+        public string NativeName => "Guernsey";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GG;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GGY;

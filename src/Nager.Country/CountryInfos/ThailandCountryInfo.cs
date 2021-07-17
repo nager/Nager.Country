@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Kingdom of Thailand";
         ///<inheritdoc/>
+        public string NativeName => "ประเทศไทย";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TH;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.THA;

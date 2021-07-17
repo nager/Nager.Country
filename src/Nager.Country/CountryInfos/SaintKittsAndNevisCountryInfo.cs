@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Federation of Saint Christopher and Nevisa";
         ///<inheritdoc/>
+        public string NativeName => "Saint Kitts and Nevis";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KN;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.KNA;

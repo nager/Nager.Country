@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Martinique";
         ///<inheritdoc/>
+        public string NativeName => "Martinique";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MQ;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MTQ;

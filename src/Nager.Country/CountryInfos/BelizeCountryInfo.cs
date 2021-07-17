@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Belize";
         ///<inheritdoc/>
+        public string NativeName => "Belize";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BZ;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BLZ;
