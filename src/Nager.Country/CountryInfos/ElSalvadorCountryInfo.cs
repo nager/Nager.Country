@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of El Salvador";
         ///<inheritdoc/>
+        public string NativeName => "El Salvador";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SV;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SLV;

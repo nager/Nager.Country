@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Palau";
         ///<inheritdoc/>
+        public string NativeName => "Palau";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PW;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PLW;

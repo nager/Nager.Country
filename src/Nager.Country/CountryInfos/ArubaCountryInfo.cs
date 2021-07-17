@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Aruba";
         ///<inheritdoc/>
+        public string NativeName => "Aruba";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AW;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ABW;

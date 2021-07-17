@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Commonwealth of Dominica";
         ///<inheritdoc/>
+        public string NativeName => "Dominica";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.DM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.DMA;

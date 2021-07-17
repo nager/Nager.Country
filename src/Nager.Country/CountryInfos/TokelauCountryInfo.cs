@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Tokelau";
         ///<inheritdoc/>
+        public string NativeName => "Tokelau";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TK;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TKL;

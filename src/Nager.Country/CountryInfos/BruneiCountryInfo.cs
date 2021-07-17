@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Nation of Brunei, Abode of Peace";
         ///<inheritdoc/>
+        public string NativeName => "Negara Brunei Darussalam";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BN;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BRN;

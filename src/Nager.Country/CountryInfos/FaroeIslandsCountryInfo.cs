@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Faroe Islands";
         ///<inheritdoc/>
         public string OfficialName => "Faroe Islands";
+        ///<inheritdoc/>
+        public string NativeName => "Føroyar";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.FO;
         ///<inheritdoc/>

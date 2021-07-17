@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Vanuatu";
         ///<inheritdoc/>
+        public string NativeName => "Vanuatu";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.VU;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.VUT;

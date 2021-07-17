@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Estonia";
         ///<inheritdoc/>
+        public string NativeName => "Eesti";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.EE;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.EST;

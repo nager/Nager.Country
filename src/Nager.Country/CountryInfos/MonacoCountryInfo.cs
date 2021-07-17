@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Principality of Monaco";
         ///<inheritdoc/>
+        public string NativeName => "Monaco";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MC;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MCO;

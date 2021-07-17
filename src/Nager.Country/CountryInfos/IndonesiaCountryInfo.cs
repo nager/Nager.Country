@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Indonesia";
         ///<inheritdoc/>
+        public string NativeName => "Indonesia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.ID;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.IDN;

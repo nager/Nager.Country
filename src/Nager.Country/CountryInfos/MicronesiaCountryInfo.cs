@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Federated States of Micronesia";
         ///<inheritdoc/>
+        public string NativeName => "Micronesia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.FM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.FSM;

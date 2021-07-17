@@ -13,7 +13,10 @@
         /// OfficialName
         /// </summary>
         string OfficialName { get; }
-
+        /// <summary>
+        /// NativeName
+        /// </summary>
+        string NativeName { get; }
         /// <summary>
         /// ISO-3166-1 Alpha2 code
         /// </summary>

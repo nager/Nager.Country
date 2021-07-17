@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Cook Islands";
         ///<inheritdoc/>
+        public string NativeName => "Cook Islands";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CK;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.COK;

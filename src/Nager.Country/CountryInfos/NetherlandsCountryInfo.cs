@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Netherlands";
         ///<inheritdoc/>
+        public string NativeName => "Nederland";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.NL;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.NLD;

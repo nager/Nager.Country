@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Uganda";
         ///<inheritdoc/>
+        public string NativeName => "Uganda";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.UG;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.UGA;

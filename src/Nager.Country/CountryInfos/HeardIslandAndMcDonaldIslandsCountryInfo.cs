@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Heard Island and McDonald Islands";
         ///<inheritdoc/>
+        public string NativeName => "Heard Island and McDonald Islands";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.HMD;

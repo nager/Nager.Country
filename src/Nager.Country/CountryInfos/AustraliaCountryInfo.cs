@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Commonwealth of Australia";
         ///<inheritdoc/>
+        public string NativeName => "Australia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AU;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.AUS;

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Uzbekistan";
         ///<inheritdoc/>
+        public string NativeName => "O‘zbekiston";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.UZ;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.UZB;

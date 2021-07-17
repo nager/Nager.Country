@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Territory of the Wallis and Futuna Islands";
         ///<inheritdoc/>
+        public string NativeName => "Wallis et Futuna";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.WF;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.WLF;

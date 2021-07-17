@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Libya";
         ///<inheritdoc/>
         public string OfficialName => "State of Libya";
+        ///<inheritdoc/>
+        public string NativeName => "ليبيا";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LY;
         ///<inheritdoc/>

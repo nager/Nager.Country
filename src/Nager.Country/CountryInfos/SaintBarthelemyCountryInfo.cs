@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Collectivity of Saint BarthélemySaint Barthélemy";
         ///<inheritdoc/>
+        public string NativeName => "Saint-Barthélemy";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BL;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BLM;

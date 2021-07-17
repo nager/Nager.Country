@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Chad";
         ///<inheritdoc/>
+        public string NativeName => "Tchad";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TD;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TCD;

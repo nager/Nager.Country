@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Islamic Republic of Iran";
         ///<inheritdoc/>
+        public string NativeName => "ایران";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.IR;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.IRN;

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Russian Federation";
         ///<inheritdoc/>
+        public string NativeName => "Россия";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.RU;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.RUS;

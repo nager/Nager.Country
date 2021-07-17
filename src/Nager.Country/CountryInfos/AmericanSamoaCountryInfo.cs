@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "American Samoa";
         ///<inheritdoc/>
+        public string NativeName => "American Samoa";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AS;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ASM;

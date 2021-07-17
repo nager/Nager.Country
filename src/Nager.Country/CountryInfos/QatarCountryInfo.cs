@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "State of Qatar";
         ///<inheritdoc/>
+        public string NativeName => "قطر";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.QA;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.QAT;

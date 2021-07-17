@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Vatican City";
         ///<inheritdoc/>
         public string OfficialName => "Vatican City State";
+        ///<inheritdoc/>
+        public string NativeName => "Stato della Città del Vaticano";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.VA;
         ///<inheritdoc/>

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Seychelles";
         ///<inheritdoc/>
+        public string NativeName => "Seychelles";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SC;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SYC;

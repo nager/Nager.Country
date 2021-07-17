@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Anguilla";
         ///<inheritdoc/>
+        public string NativeName => "Anguilla";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AI;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.AIA;

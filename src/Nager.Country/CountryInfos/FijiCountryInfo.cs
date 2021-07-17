@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Fiji";
         ///<inheritdoc/>
+        public string NativeName => "Fiji";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.FJ;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.FJI;

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "British Indian Ocean Territory";
         ///<inheritdoc/>
+        public string NativeName => "British Indian Ocean Territory";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.IO;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.IOT;

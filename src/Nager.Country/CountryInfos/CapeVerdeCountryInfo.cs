@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Cabo Verde";
         ///<inheritdoc/>
+        public string NativeName => "Cabo Verde";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CV;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CPV;

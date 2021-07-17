@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Federative Republic of Brazil";
         ///<inheritdoc/>
+        public string NativeName => "Brasil";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BR;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BRA;

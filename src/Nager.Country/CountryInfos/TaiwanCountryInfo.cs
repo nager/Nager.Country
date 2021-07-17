@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of China";
         ///<inheritdoc/>
+        public string NativeName => "臺灣";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TW;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TWN;

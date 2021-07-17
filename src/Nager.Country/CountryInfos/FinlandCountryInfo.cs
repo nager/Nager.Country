@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Finland";
         ///<inheritdoc/>
+        public string NativeName => "Suomi";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.FI;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.FIN;

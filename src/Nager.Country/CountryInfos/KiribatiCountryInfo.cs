@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Independent and Sovereign Republic of Kiribati";
         ///<inheritdoc/>
+        public string NativeName => "Kiribati";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KI;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.KIR;

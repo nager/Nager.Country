@@ -147,7 +147,6 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.LT, new LithuaniaCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.LU, new LuxembourgCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.MO, new MacauCountryInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.MK, new MacedoniaCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.MG, new MadagascarCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.MW, new MalawiCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.MY, new MalaysiaCountryInfo());
@@ -182,6 +181,7 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.NF, new NorfolkIslandCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.MP, new NorthernMarianaIslandsCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.KP, new NorthKoreaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.MK, new NorthMacedoniaCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.NO, new NorwayCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.OM, new OmanCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.PK, new PakistanCountryInfo());

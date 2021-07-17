@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Central African Republic";
         ///<inheritdoc/>
         public string OfficialName => "Central African Republic";
+        ///<inheritdoc/>
+        public string NativeName => "Ködörösêse tî Bêafrîka";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CF;
         ///<inheritdoc/>

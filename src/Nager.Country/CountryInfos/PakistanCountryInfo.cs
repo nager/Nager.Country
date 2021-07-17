@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Islamic Republic of Pakistan";
         ///<inheritdoc/>
+        public string NativeName => "Pakistan";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PK;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PAK;

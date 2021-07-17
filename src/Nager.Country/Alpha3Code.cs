@@ -532,7 +532,7 @@
         /// </summary>
         MAC,
         /// <summary>
-        /// Macedonia
+        /// North Macedonia
         /// </summary>
         MKD,
         /// <summary>

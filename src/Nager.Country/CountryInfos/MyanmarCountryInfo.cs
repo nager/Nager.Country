@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of the Union of Myanmar";
         ///<inheritdoc/>
+        public string NativeName => "Myanma";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MMR;

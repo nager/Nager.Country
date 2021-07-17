@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "French Southern and Antarctic Lands";
         ///<inheritdoc/>
         public string OfficialName => "Territory of the French Southern and Antarctic Lands";
+        ///<inheritdoc/>
+        public string NativeName => "Territoire des Terres australes et antarctiques françaises";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TF;
         ///<inheritdoc/>

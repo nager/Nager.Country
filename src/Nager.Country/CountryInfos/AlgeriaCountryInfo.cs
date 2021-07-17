@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "People's Democratic Republic of Algeria";
         ///<inheritdoc/>
+        public string NativeName => "الجزائر";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.DZ;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.DZA;

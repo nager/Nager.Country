@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Djibouti";
         ///<inheritdoc/>
+        public string NativeName => "Djibouti";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.DJ;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.DJI;

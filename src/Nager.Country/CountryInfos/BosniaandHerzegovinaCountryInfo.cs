@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Bosnia and Herzegovina";
         ///<inheritdoc/>
+        public string NativeName => "Bosna i Hercegovina";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BA;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BIH;

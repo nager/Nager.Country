@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Cuba";
         ///<inheritdoc/>
+        public string NativeName => "Cuba";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CU;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CUB;

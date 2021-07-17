@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Kingdom of Saudi Arabia";
         ///<inheritdoc/>
+        public string NativeName => "العربية السعودية";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SA;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SAU;

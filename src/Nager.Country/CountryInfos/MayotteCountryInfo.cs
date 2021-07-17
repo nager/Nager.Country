@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Department of Mayotte";
         ///<inheritdoc/>
+        public string NativeName => "Mayotte";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.YT;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MYT;

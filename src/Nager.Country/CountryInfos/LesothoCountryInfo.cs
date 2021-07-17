@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Kingdom of Lesotho";
         ///<inheritdoc/>
+        public string NativeName => "Lesotho";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LS;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LSO;

@@ -532,7 +532,7 @@
         /// </summary>
         MO,
         /// <summary>
-        /// Macedonia
+        /// North Macedonia
         /// </summary>
         MK,
         /// <summary>

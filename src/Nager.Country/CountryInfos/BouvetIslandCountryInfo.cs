@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Bouvet Island";
         ///<inheritdoc/>
         public string OfficialName => "Bouvet Island";
+        ///<inheritdoc/>
+        public string NativeName => "Bouvetøya";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BV;
         ///<inheritdoc/>

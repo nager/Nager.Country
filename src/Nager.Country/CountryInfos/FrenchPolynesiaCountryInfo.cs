@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "French Polynesia";
         ///<inheritdoc/>
         public string OfficialName => "French Polynesia";
+        ///<inheritdoc/>
+        public string NativeName => "Polynésie française";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PF;
         ///<inheritdoc/>

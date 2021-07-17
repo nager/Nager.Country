@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of the Philippines";
         ///<inheritdoc/>
+        public string NativeName => "Pilipinas";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PH;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PHL;

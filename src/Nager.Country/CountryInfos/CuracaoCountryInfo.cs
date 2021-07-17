@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Country of Curaçao";
         ///<inheritdoc/>
+        public string NativeName => "Curaçao";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CW;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CUW;

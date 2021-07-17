@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of South Sudan";
         ///<inheritdoc/>
+        public string NativeName => "South Sudan";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SS;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SSD;

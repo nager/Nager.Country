@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Singapore";
         ///<inheritdoc/>
+        public string NativeName => "Singapore";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SG;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SGP;

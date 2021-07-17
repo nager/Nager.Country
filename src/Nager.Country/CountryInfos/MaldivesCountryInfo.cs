@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of the Maldives";
         ///<inheritdoc/>
+        public string NativeName => "Maldives";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MV;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MDV;

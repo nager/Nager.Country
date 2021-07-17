@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Plurinational State of Bolivia";
         ///<inheritdoc/>
+        public string NativeName => "Bolivia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BO;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BOL;

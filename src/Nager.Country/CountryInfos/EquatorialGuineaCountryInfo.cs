@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Equatorial Guinea";
         ///<inheritdoc/>
+        public string NativeName => "Equatorial Guinea";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GQ;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GNQ;

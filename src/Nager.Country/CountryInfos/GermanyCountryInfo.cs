@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Federal Republic of Germany";
         ///<inheritdoc/>
+        public string NativeName => "Deutschland";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.DE;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.DEU;

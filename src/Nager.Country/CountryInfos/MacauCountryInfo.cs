@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Macau";
         ///<inheritdoc/>
         public string OfficialName => "Macao Special Administrative Region of the People's Republic of China";
+        ///<inheritdoc/>
+        public string NativeName => "澳門";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MO;
         ///<inheritdoc/>

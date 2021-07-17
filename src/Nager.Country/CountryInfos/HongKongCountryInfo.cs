@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Hong Kong Special Administrative Region of the People's Republic of China";
         ///<inheritdoc/>
+        public string NativeName => "香港";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HK;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.HKG;

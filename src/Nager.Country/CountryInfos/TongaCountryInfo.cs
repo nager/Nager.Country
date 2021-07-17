@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Kingdom of Tonga";
         ///<inheritdoc/>
+        public string NativeName => "Tonga";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TO;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TON;

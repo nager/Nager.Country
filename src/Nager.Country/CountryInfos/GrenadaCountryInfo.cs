@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Grenada";
         ///<inheritdoc/>
+        public string NativeName => "Grenada";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GD;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GRD;

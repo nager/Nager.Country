@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Commonwealth of Puerto Rico";
         ///<inheritdoc/>
+        public string NativeName => "Puerto Rico";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PR;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PRI;

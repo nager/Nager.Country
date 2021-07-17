@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Laos";
         ///<inheritdoc/>
         public string OfficialName => "Lao People's Democratic Republic";
+        ///<inheritdoc/>
+        public string NativeName => "ສປປລາວ";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LA;
         ///<inheritdoc/>

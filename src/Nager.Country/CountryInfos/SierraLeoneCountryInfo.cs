@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Sierra Leone";
         ///<inheritdoc/>
+        public string NativeName => "Sierra Leone";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SL;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SLE;

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Isle of Man";
         ///<inheritdoc/>
+        public string NativeName => "Isle of Man";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.IM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.IMN;

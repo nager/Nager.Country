@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Bermuda";
         ///<inheritdoc/>
+        public string NativeName => "Bermuda";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BMU;

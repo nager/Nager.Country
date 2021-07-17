@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Union of the Comoros";
         ///<inheritdoc/>
+        public string NativeName => "Komori";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.COM;
