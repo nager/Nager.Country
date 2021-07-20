@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Gtq Currency
+    /// </summary>
     public class GtqCurrency : ICurrency
     {
         ///<inheritdoc/>

@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Kzt Currency
+    /// </summary>
     public class KztCurrency : ICurrency
     {
         ///<inheritdoc/>

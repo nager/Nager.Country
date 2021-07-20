@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Iqd Currency
+    /// </summary>
     public class IqdCurrency : ICurrency
     {
         ///<inheritdoc/>

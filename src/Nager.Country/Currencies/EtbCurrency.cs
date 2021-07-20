@@ -1,5 +1,8 @@
 ﻿namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Etb Currency
+    /// </summary>
     public class EtbCurrency : ICurrency
     {
         ///<inheritdoc/>
