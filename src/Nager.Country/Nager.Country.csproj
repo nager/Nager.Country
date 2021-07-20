@@ -11,7 +11,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>Add Readme.md to nuget file</PackageReleaseNotes>
+    <PackageReleaseNotes>Add NativeName, change Macedonia to North Macedonia</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/nager/Nager.Country</PackageProjectUrl>
     <PackageTags>Country CountryInfo ISO3166 ISO-3166-1_Alpha2 ISO-3166-1_Alpha3 ISO639 ISO-639-1 globalization localization</PackageTags>
 
@@ -19,7 +19,7 @@
 
     <TargetFrameworks>netstandard2.0;netstandard2.1;net5;net461</TargetFrameworks>
 
-    <Version>3.0.3</Version>
+    <Version>3.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
