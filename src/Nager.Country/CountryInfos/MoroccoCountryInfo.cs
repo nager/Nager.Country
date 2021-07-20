@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Kingdom of Morocco";
         ///<inheritdoc/>
+        public string NativeName => "المغرب";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MA;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MAR;

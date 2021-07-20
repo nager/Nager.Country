@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Lithuania";
         ///<inheritdoc/>
+        public string NativeName => "Lietuva";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LT;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LTU;

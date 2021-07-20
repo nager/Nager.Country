@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "State of Palestine";
         ///<inheritdoc/>
+        public string NativeName => "فلسطين";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PS;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PSE;

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "United Kingdom of Great Britain and Northern Ireland";
         ///<inheritdoc/>
+        public string NativeName => "United Kingdom";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GB;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GBR;

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Commonwealth of the Northern Mariana Islands";
         ///<inheritdoc/>
+        public string NativeName => "Northern Mariana Islands";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MP;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MNP;

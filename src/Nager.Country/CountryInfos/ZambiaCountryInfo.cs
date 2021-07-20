@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Zambia";
         ///<inheritdoc/>
+        public string NativeName => "Zambia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.ZM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ZMB;

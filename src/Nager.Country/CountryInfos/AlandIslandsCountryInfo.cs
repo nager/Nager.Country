@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Åland Islands";
         ///<inheritdoc/>
+        public string NativeName => "Åland";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AX;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ALA;

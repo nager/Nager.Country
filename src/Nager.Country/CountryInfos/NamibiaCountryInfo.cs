@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Namibia";
         ///<inheritdoc/>
+        public string NativeName => "Namibia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.NA;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.NAM;

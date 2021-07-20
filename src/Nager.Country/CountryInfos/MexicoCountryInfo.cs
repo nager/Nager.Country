@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Mexico";
         ///<inheritdoc/>
         public string OfficialName => "United Mexican States";
+        ///<inheritdoc/>
+        public string NativeName => "México";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MX;
         ///<inheritdoc/>

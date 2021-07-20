@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Suriname";
         ///<inheritdoc/>
+        public string NativeName => "Suriname";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SR;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SUR;

@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Botswana";
         ///<inheritdoc/>
+        public string NativeName => "Botswana";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BW;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BWA;

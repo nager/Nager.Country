@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Kenya";
         ///<inheritdoc/>
+        public string NativeName => "Kenya";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KE;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.KEN;

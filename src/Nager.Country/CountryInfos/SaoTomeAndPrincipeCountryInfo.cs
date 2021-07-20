@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Democratic Republic of São Tomé and Príncipe";
         ///<inheritdoc/>
+        public string NativeName => "São Tomé e Príncipe";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.ST;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.STP;

@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -11,6 +11,8 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Nepal";
         ///<inheritdoc/>
         public string OfficialName => "Federal Democratic Republic of Nepal";
+        ///<inheritdoc/>
+        public string NativeName => "नेपाल";
         ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.NP;
         ///<inheritdoc/>

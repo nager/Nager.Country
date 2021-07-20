@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Solomon Islands";
         ///<inheritdoc/>
+        public string NativeName => "Solomon Islands";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SB;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SLB;

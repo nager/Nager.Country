@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Barbados";
         ///<inheritdoc/>
+        public string NativeName => "Barbados";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BB;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BRB;

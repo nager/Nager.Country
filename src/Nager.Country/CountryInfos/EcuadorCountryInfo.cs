@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Ecuador";
         ///<inheritdoc/>
+        public string NativeName => "Ecuador";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.EC;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ECU;

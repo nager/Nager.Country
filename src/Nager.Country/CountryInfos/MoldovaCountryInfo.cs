@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Moldova";
         ///<inheritdoc/>
+        public string NativeName => "Moldova";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MD;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MDA;

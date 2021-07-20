@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Principality of Liechtenstein";
         ///<inheritdoc/>
+        public string NativeName => "Liechtenstein";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LI;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LIE;

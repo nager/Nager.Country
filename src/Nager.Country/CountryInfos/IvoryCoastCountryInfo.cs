@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Côte d'Ivoire";
         ///<inheritdoc/>
+        public string NativeName => "Côte d'Ivoire";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CI;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CIV;

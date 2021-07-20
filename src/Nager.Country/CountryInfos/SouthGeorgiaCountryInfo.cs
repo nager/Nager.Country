@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "South Georgia and the South Sandwich Islands";
         ///<inheritdoc/>
+        public string NativeName => "South Georgia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GS;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SGS;

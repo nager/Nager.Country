@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Guatemala";
         ///<inheritdoc/>
+        public string NativeName => "Guatemala";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GT;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GTM;

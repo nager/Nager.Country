@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Korea";
         ///<inheritdoc/>
+        public string NativeName => "대한민국";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KR;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.KOR;

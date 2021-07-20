@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Colombia";
         ///<inheritdoc/>
+        public string NativeName => "Colombia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CO;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.COL;

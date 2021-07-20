@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Most Serene Republic of San Marino";
         ///<inheritdoc/>
+        public string NativeName => "San Marino";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SM;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SMR;

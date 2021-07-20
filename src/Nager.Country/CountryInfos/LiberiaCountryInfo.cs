@@ -12,6 +12,8 @@ namespace Nager.Country.CountryInfos
         ///<inheritdoc/>
         public string OfficialName => "Republic of Liberia";
         ///<inheritdoc/>
+        public string NativeName => "Liberia";
+        ///<inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LR;
         ///<inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LBR;
