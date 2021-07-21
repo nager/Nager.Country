@@ -7,6 +7,7 @@ The Worldwirde Country Informations are available over the `nuget` package or as
 {
   "commonName": "Austria",
   "officialName": "Republic of Austria",
+  "nativeName": "Österreich",
   "translations": [
     {
       "languageCode": "EN",
