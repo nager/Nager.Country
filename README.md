@@ -89,6 +89,21 @@ var countryInfo = countryProvider.GetCountryByName("Germany");
 //countryInfo...
 ```
 
+### Get country via CountryName and consider Country Translation
+
+Require the translation package `Install-Package Nager.Country.Translation`
+
+```cs
+ICountryProvider countryProvider = new CountryProvider();
+var countryInfo = countryProvider.GetCountryByNameConsiderTranslation("Germania"); // <- Germany
+//countryInfo.Alpha2Code -> DE
+//countryInfo.Alpha3Code -> DEU
+//countryInfo.NumericCode -> 276
+//countryInfo.Region -> Europe
+//countryInfo.SubRegion -> WesternEurope
+//countryInfo...
+```
+
 ### Get the name of the country in the requested language ([nuget -> Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation))
 ```cs
 ITranslationProvider translationProvider = new TranslationProvider();
