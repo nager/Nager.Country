@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "クリスマス島"),
             new TranslationInfo(LanguageCode.KA, "შობის კუნძული"),
             new TranslationInfo(LanguageCode.KK, "Рождество аралы"),
-            new TranslationInfo(LanguageCode.KO, "크리스마스 섬"),
+            new TranslationInfo(LanguageCode.KO, "크리스마스섬"),
             new TranslationInfo(LanguageCode.KY, "Крисмас аралы"),
             new TranslationInfo(LanguageCode.LT, "Kalėdų Sala"),
             new TranslationInfo(LanguageCode.LV, "Ziemsvētku sala"),

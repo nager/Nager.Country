@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ブルネイ・ダルサラーム"),
             new TranslationInfo(LanguageCode.KA, "ბრუნეი"),
             new TranslationInfo(LanguageCode.KK, "Бруней"),
-            new TranslationInfo(LanguageCode.KO, "브루나이 다루 살람"),
+            new TranslationInfo(LanguageCode.KO, "브루나이"),
             new TranslationInfo(LanguageCode.KY, "Бруней"),
             new TranslationInfo(LanguageCode.LT, "Brunėjus"),
             new TranslationInfo(LanguageCode.LV, "Bruneja"),

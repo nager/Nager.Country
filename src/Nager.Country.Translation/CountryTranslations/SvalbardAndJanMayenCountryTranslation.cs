@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "スヴァールバル諸島およびヤンマイエン島"),
             new TranslationInfo(LanguageCode.KA, "შპიცბერგენი და იან-მაიენი"),
             new TranslationInfo(LanguageCode.KK, "Шпицберген және Ян-Майен"),
-            new TranslationInfo(LanguageCode.KO, "스발 바르와 얀 메이 엔"),
+            new TranslationInfo(LanguageCode.KO, "스발바르 얀마엔"),
             new TranslationInfo(LanguageCode.KY, "Свалбард жана Жан Майен"),
             new TranslationInfo(LanguageCode.LT, "Svalbardas ir Janas Majenas"),
             new TranslationInfo(LanguageCode.LV, "Svalbāra un Jana Majena sala"),

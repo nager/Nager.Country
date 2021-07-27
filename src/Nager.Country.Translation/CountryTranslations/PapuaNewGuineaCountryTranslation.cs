@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "パプアニューギニア"),
             new TranslationInfo(LanguageCode.KA, "პაპუა-ახალი გვინეა"),
             new TranslationInfo(LanguageCode.KK, "Папуа — Жаңа Гвинея"),
-            new TranslationInfo(LanguageCode.KO, "파푸아 뉴기니"),
+            new TranslationInfo(LanguageCode.KO, "파푸아뉴기니"),
             new TranslationInfo(LanguageCode.KY, "Папуа Жаңы-Гвинея"),
             new TranslationInfo(LanguageCode.LT, "Papua Naujoji Gvinėja"),
             new TranslationInfo(LanguageCode.LV, "Papua-Jaungvineja"),

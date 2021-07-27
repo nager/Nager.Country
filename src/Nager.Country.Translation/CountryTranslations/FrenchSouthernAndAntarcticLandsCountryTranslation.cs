@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "フランス領南方・南極地域"),
             new TranslationInfo(LanguageCode.KA, "ფრანგული სამხრეთის ტერიტორიები"),
             new TranslationInfo(LanguageCode.KK, "Францияның оңтүстік аймақтары"),
-            new TranslationInfo(LanguageCode.KO, "프랑스 남부 지역"),
+            new TranslationInfo(LanguageCode.KO, "프랑스령 남방 및 남극 지역"),
             new TranslationInfo(LanguageCode.KY, "Франциянын Түштүктөгү аймактары"),
             new TranslationInfo(LanguageCode.LT, "Prancūzijos Pietų sritys"),
             new TranslationInfo(LanguageCode.LV, "Francijas Dienvidjūru teritorija"),

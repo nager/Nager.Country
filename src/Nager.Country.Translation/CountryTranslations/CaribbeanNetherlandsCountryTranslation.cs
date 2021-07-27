@@ -14,7 +14,8 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.FR, "Caribbean Netherlands"),
             new TranslationInfo(LanguageCode.ES, "Caribbean Netherlands"),
             new TranslationInfo(LanguageCode.IT, "Caribbean Netherlands"),
-        };
+			new TranslationInfo(LanguageCode.KO, "네덜란드령 카리브"),
+		};
         
     }
 }

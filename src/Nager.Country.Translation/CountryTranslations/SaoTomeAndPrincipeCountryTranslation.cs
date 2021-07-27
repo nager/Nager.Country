@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "サントメ・プリンシペ"),
             new TranslationInfo(LanguageCode.KA, "სან-ტომე და პრინსიპი"),
             new TranslationInfo(LanguageCode.KK, "Сан-Томе және Принсипи"),
-            new TranslationInfo(LanguageCode.KO, "상투 메 프린시 페"),
+            new TranslationInfo(LanguageCode.KO, "상투메 프린시페"),
             new TranslationInfo(LanguageCode.KY, "Сан-Томе жана Принсипи"),
             new TranslationInfo(LanguageCode.LT, "San Tomė ir Prinsipė"),
             new TranslationInfo(LanguageCode.LV, "Santome un Prinsipi"),

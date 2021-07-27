@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "チェコ"),
             new TranslationInfo(LanguageCode.KA, "ჩეხეთის რესპუბლიკა"),
             new TranslationInfo(LanguageCode.KK, "Чех Республикасы"),
-            new TranslationInfo(LanguageCode.KO, "체코 공화국"),
+            new TranslationInfo(LanguageCode.KO, "체코"),
             new TranslationInfo(LanguageCode.KY, "Чехия"),
             new TranslationInfo(LanguageCode.LT, "Čekija"),
             new TranslationInfo(LanguageCode.LV, "Čehija"),

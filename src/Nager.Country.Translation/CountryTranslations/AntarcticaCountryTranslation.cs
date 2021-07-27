@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "南極"),
             new TranslationInfo(LanguageCode.KA, "ანტარქტიკა"),
             new TranslationInfo(LanguageCode.KK, "Антарктида"),
-            new TranslationInfo(LanguageCode.KO, "남극 대륙"),
+            new TranslationInfo(LanguageCode.KO, "남극"),
             new TranslationInfo(LanguageCode.KY, "Антарктика"),
             new TranslationInfo(LanguageCode.LT, "Antarktida"),
             new TranslationInfo(LanguageCode.LV, "Antarktika"),

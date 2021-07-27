@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "マン島"),
             new TranslationInfo(LanguageCode.KA, "მენის კუნძული"),
             new TranslationInfo(LanguageCode.KK, "Мэн аралы"),
-            new TranslationInfo(LanguageCode.KO, "아일 오브 맨"),
+            new TranslationInfo(LanguageCode.KO, "맨섬"),
             new TranslationInfo(LanguageCode.KY, "Мэн аралы"),
             new TranslationInfo(LanguageCode.LT, "Meno Sala"),
             new TranslationInfo(LanguageCode.LV, "Mena"),

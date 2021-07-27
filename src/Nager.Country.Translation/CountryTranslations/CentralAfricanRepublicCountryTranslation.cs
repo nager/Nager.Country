@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "中央アフリカ共和国"),
             new TranslationInfo(LanguageCode.KA, "ცენტრალური აფრიკის რესპუბლიკა"),
             new TranslationInfo(LanguageCode.KK, "Орталық Африка Республикасы"),
-            new TranslationInfo(LanguageCode.KO, "중앙 아프리카 공화국"),
+            new TranslationInfo(LanguageCode.KO, "중앙아프리카 공화국"),
             new TranslationInfo(LanguageCode.KY, "Борбордук Африка Республикасы"),
             new TranslationInfo(LanguageCode.LT, "Centrinės Afrikos Respublika"),
             new TranslationInfo(LanguageCode.LV, "Centrālāfrikas Republika"),

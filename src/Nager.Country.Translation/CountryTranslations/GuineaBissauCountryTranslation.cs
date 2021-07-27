@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ギニアビサウ"),
             new TranslationInfo(LanguageCode.KA, "გვინეა-ბისაუ"),
             new TranslationInfo(LanguageCode.KK, "Гвинея-Бисау"),
-            new TranslationInfo(LanguageCode.KO, "기니 비사우"),
+            new TranslationInfo(LanguageCode.KO, "기니비사우"),
             new TranslationInfo(LanguageCode.KY, "Гвинея-Бисау"),
             new TranslationInfo(LanguageCode.LT, "Bisau Gvinėja"),
             new TranslationInfo(LanguageCode.LV, "Gvineja-Bisava"),

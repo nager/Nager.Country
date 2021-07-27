@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "イエメン"),
             new TranslationInfo(LanguageCode.KA, "იემენი"),
             new TranslationInfo(LanguageCode.KK, "Йемен"),
-            new TranslationInfo(LanguageCode.KO, "예멘 아랍 공화국"),
+            new TranslationInfo(LanguageCode.KO, "예멘"),
             new TranslationInfo(LanguageCode.KY, "Йемен"),
             new TranslationInfo(LanguageCode.LT, "Jemenas"),
             new TranslationInfo(LanguageCode.LV, "Jemena"),

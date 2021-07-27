@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "インドネシア"),
             new TranslationInfo(LanguageCode.KA, "ინდონეზია"),
             new TranslationInfo(LanguageCode.KK, "Индонезия"),
-            new TranslationInfo(LanguageCode.KO, "인도네시아 공화국"),
+            new TranslationInfo(LanguageCode.KO, "인도네시아"),
             new TranslationInfo(LanguageCode.KY, "Индонезия"),
             new TranslationInfo(LanguageCode.LT, "Indonezija"),
             new TranslationInfo(LanguageCode.LV, "Indonēzija"),

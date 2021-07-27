@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "朝鮮民主主義人民共和国"),
             new TranslationInfo(LanguageCode.KA, "ჩრდილოეთ კორეა"),
             new TranslationInfo(LanguageCode.KK, "Солтүстік Корея"),
-            new TranslationInfo(LanguageCode.KO, "한국, 조선 민주주의 인민 공화국"),
+            new TranslationInfo(LanguageCode.KO, "조선민주주의인민공화국"),
             new TranslationInfo(LanguageCode.KY, "Түндүк Корея"),
             new TranslationInfo(LanguageCode.LT, "Šiaurės Korėja"),
             new TranslationInfo(LanguageCode.LV, "Ziemeļkoreja"),

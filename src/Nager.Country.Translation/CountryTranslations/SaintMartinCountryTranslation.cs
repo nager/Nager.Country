@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "サン・マルタン（フランス領）"),
             new TranslationInfo(LanguageCode.KA, "სენ-მარტენი"),
             new TranslationInfo(LanguageCode.KK, "Сен-Мартен"),
-            new TranslationInfo(LanguageCode.KO, "세인트 마틴 (프랑스어 부분)"),
+            new TranslationInfo(LanguageCode.KO, "생마르탱"),
             new TranslationInfo(LanguageCode.KY, "Сент-Мартин"),
             new TranslationInfo(LanguageCode.LT, "Sen Martenas"),
             new TranslationInfo(LanguageCode.LV, "Senmartēna"),

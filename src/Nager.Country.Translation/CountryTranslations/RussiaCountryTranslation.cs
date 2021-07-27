@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ロシア連邦"),
             new TranslationInfo(LanguageCode.KA, "რუსეთი"),
             new TranslationInfo(LanguageCode.KK, "Ресей"),
-            new TranslationInfo(LanguageCode.KO, "러시아 연방"),
+            new TranslationInfo(LanguageCode.KO, "러시아"),
             new TranslationInfo(LanguageCode.KY, "Россия"),
             new TranslationInfo(LanguageCode.LT, "Rusija"),
             new TranslationInfo(LanguageCode.LV, "Krievija"),

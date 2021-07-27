@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "アラブ首長国連邦"),
             new TranslationInfo(LanguageCode.KA, "არაბთა გაერთიანებული საამიროები"),
             new TranslationInfo(LanguageCode.KK, "Біріккен Араб Әмірліктері"),
-            new TranslationInfo(LanguageCode.KO, "아랍 에미리트"),
+            new TranslationInfo(LanguageCode.KO, "아랍에미리트"),
             new TranslationInfo(LanguageCode.KY, "Бириккен Араб Эмираттары"),
             new TranslationInfo(LanguageCode.LT, "Jungtiniai Arabų Emyratai"),
             new TranslationInfo(LanguageCode.LV, "Apvienotie Arābu Emirāti"),

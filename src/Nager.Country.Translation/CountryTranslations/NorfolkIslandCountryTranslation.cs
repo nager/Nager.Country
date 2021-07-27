@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ノーフォーク島"),
             new TranslationInfo(LanguageCode.KA, "ნორფოლკის კუნძული"),
             new TranslationInfo(LanguageCode.KK, "Норфолк аралы"),
-            new TranslationInfo(LanguageCode.KO, "노퍽 섬"),
+            new TranslationInfo(LanguageCode.KO, "노퍽섬"),
             new TranslationInfo(LanguageCode.KY, "Норфолк аралы"),
             new TranslationInfo(LanguageCode.LT, "Norfolko sala"),
             new TranslationInfo(LanguageCode.LV, "Norfolkas sala"),

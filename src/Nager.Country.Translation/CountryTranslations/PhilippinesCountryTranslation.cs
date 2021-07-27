@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "フィリピン"),
             new TranslationInfo(LanguageCode.KA, "ფილიპინები"),
             new TranslationInfo(LanguageCode.KK, "Филиппин"),
-            new TranslationInfo(LanguageCode.KO, "필리핀 제도"),
+            new TranslationInfo(LanguageCode.KO, "필리핀"),
             new TranslationInfo(LanguageCode.KY, "Филлипин"),
             new TranslationInfo(LanguageCode.LT, "Filipinai"),
             new TranslationInfo(LanguageCode.LV, "Filipīnas"),

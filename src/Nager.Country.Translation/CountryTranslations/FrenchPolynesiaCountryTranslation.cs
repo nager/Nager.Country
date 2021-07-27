@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "フランス領ポリネシア"),
             new TranslationInfo(LanguageCode.KA, "საფრანგეთის პოლინეზია"),
             new TranslationInfo(LanguageCode.KK, "Француз Полинезиясы"),
-            new TranslationInfo(LanguageCode.KO, "프랑스 령 폴리네시아의"),
+            new TranslationInfo(LanguageCode.KO, "프랑스령 폴리네시아"),
             new TranslationInfo(LanguageCode.KY, "Француз Полинезиясы"),
             new TranslationInfo(LanguageCode.LT, "Prancūzijos Polinezija"),
             new TranslationInfo(LanguageCode.LV, "Francijas Polinēzija"),

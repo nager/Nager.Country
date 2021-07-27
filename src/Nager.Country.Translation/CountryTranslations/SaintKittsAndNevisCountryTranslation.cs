@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "セントクリストファー・ネイビス"),
             new TranslationInfo(LanguageCode.KA, "სენტ-კიტსი და ნევისი"),
             new TranslationInfo(LanguageCode.KK, "Сент-Китс және Невис"),
-            new TranslationInfo(LanguageCode.KO, "세인트 키츠 네비스"),
+            new TranslationInfo(LanguageCode.KO, "세인트키츠 네비스"),
             new TranslationInfo(LanguageCode.KY, "Сент-Китс жана Невис"),
             new TranslationInfo(LanguageCode.LT, "Sent Kitsas ir Nevis"),
             new TranslationInfo(LanguageCode.LV, "Sentkitsa un Nevisa"),

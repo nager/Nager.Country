@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "レユニオン"),
             new TranslationInfo(LanguageCode.KA, "რეუნიონი"),
             new TranslationInfo(LanguageCode.KK, "Реюньон"),
-            new TranslationInfo(LanguageCode.KO, "재결합"),
+            new TranslationInfo(LanguageCode.KO, "레위니옹"),
             new TranslationInfo(LanguageCode.KY, "Реюнион"),
             new TranslationInfo(LanguageCode.LT, "Reunjonas"),
             new TranslationInfo(LanguageCode.LV, "Reinjona"),

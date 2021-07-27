@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "プエルトリコ"),
             new TranslationInfo(LanguageCode.KA, "პუერტო-რიკო"),
             new TranslationInfo(LanguageCode.KK, "Пуэрто-Рико"),
-            new TranslationInfo(LanguageCode.KO, "푸에르토 리코"),
+            new TranslationInfo(LanguageCode.KO, "푸에르토리코"),
             new TranslationInfo(LanguageCode.KY, "Пуэрто-Рико"),
             new TranslationInfo(LanguageCode.LT, "Puerto Rikas"),
             new TranslationInfo(LanguageCode.LV, "Puertoriko"),
