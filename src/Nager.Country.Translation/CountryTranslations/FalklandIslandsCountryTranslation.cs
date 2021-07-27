@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "フォークランド（マルビナス）諸島"),
             new TranslationInfo(LanguageCode.KA, "ფოლკლენდის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Фолкленд аралдары"),
-            new TranslationInfo(LanguageCode.KO, "포클랜드 제도 (말 비나 스)"),
+            new TranslationInfo(LanguageCode.KO, "포클랜드(말비나스) 제도"),
             new TranslationInfo(LanguageCode.KY, "Фолклэнд аралдары"),
             new TranslationInfo(LanguageCode.LT, "Folklando Salos"),
             new TranslationInfo(LanguageCode.LV, "Folklenda salas"),

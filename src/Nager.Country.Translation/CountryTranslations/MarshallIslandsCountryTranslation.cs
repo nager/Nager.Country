@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "マーシャル諸島"),
             new TranslationInfo(LanguageCode.KA, "მარშალის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Маршалл аралдары"),
-            new TranslationInfo(LanguageCode.KO, "마샬 군도"),
+            new TranslationInfo(LanguageCode.KO, "마셜 제도"),
             new TranslationInfo(LanguageCode.KY, "Маршалл аралдары"),
             new TranslationInfo(LanguageCode.LT, "Maršalo Salos"),
             new TranslationInfo(LanguageCode.LV, "Māršala salas"),

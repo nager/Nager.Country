@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ラオス人民民主共和国"),
             new TranslationInfo(LanguageCode.KA, "ლაოსი"),
             new TranslationInfo(LanguageCode.KK, "Лаос"),
-            new TranslationInfo(LanguageCode.KO, "라오스 인민 민주주의 공화국"),
+            new TranslationInfo(LanguageCode.KO, "라오스"),
             new TranslationInfo(LanguageCode.KY, "Лаос"),
             new TranslationInfo(LanguageCode.LT, "Laosas"),
             new TranslationInfo(LanguageCode.LV, "Laosa"),

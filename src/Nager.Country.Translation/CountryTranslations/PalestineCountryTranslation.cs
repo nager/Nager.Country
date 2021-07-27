@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "パレスチナ"),
             new TranslationInfo(LanguageCode.KA, "პალესტინის ტერიტორიები"),
             new TranslationInfo(LanguageCode.KK, "Палестина аймақтары"),
-            new TranslationInfo(LanguageCode.KO, "팔레스타인 자치구, 점령 자"),
+            new TranslationInfo(LanguageCode.KO, "팔레스타인"),
             new TranslationInfo(LanguageCode.KY, "Палестина аймактары"),
             new TranslationInfo(LanguageCode.LT, "Palestinos teritorija"),
             new TranslationInfo(LanguageCode.LV, "Palestīna"),

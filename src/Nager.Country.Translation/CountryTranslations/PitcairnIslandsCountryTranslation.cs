@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ピトケアン"),
             new TranslationInfo(LanguageCode.KA, "პიტკერნის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Питкэрн аралдары"),
-            new TranslationInfo(LanguageCode.KO, "핏 케언"),
+            new TranslationInfo(LanguageCode.KO, "핏케언 제도"),
             new TranslationInfo(LanguageCode.KY, "Питкэрн аралдары"),
             new TranslationInfo(LanguageCode.LT, "Pitkerno salos"),
             new TranslationInfo(LanguageCode.LV, "Pitkērnas salas"),

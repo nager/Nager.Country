@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "北マリアナ諸島"),
             new TranslationInfo(LanguageCode.KA, "ჩრდილოეთ მარიანას კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Солтүстік Мариана аралдары"),
-            new TranslationInfo(LanguageCode.KO, "북 마리아나 제도"),
+            new TranslationInfo(LanguageCode.KO, "북마리아나 제도"),
             new TranslationInfo(LanguageCode.KY, "Түндүк Мариана аралдары"),
             new TranslationInfo(LanguageCode.LT, "Marianos Šiaurinės Salos"),
             new TranslationInfo(LanguageCode.LV, "Ziemeļu Marianas salas"),

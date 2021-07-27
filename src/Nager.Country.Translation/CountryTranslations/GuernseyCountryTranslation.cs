@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ガーンジー"),
             new TranslationInfo(LanguageCode.KA, "გერნსი"),
             new TranslationInfo(LanguageCode.KK, "Гернси"),
-            new TranslationInfo(LanguageCode.KO, "건지 섬"),
+            new TranslationInfo(LanguageCode.KO, "건지섬"),
             new TranslationInfo(LanguageCode.KY, "Гернси"),
             new TranslationInfo(LanguageCode.LT, "Gernsis"),
             new TranslationInfo(LanguageCode.LV, "Gērnsija"),

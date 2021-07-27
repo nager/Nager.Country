@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "コンゴ共和国"),
             new TranslationInfo(LanguageCode.KA, "კონგო - ბრაზავილი"),
             new TranslationInfo(LanguageCode.KK, "Конго Республикасы"),
-            new TranslationInfo(LanguageCode.KO, "콩고"),
+            new TranslationInfo(LanguageCode.KO, "콩고공화국"),
             new TranslationInfo(LanguageCode.KY, "Конго-Браззавил"),
             new TranslationInfo(LanguageCode.LT, "Kongas-Brazavilis"),
             new TranslationInfo(LanguageCode.LV, "Kongo (Brazavila)"),

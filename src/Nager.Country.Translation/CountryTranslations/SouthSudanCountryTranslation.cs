@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "南スーダン"),
             new TranslationInfo(LanguageCode.KA, "სამხრეთ სუდანი"),
             new TranslationInfo(LanguageCode.KK, "Оңтүстік Судан"),
-            new TranslationInfo(LanguageCode.KO, "남 수단"),
+            new TranslationInfo(LanguageCode.KO, "남수단"),
             new TranslationInfo(LanguageCode.KY, "Түштүк Судан"),
             new TranslationInfo(LanguageCode.LT, "Pietų Sudanas"),
             new TranslationInfo(LanguageCode.LV, "Dienvidsudāna"),

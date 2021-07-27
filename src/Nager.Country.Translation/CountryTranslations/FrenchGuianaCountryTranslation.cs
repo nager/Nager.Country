@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "フランス領ギアナ"),
             new TranslationInfo(LanguageCode.KA, "საფრანგეთის გვიანა"),
             new TranslationInfo(LanguageCode.KK, "Француз Гвианасы"),
-            new TranslationInfo(LanguageCode.KO, "프랑스 령 기아나"),
+            new TranslationInfo(LanguageCode.KO, "프랑스령 기아나"),
             new TranslationInfo(LanguageCode.KY, "Гвиана (Франция)"),
             new TranslationInfo(LanguageCode.LT, "Prancūzijos Gviana"),
             new TranslationInfo(LanguageCode.LV, "Francijas Gviāna"),

@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "モルドバ共和国"),
             new TranslationInfo(LanguageCode.KA, "მოლდოვა"),
             new TranslationInfo(LanguageCode.KK, "Молдова"),
-            new TranslationInfo(LanguageCode.KO, "몰도바, 공화국"),
+            new TranslationInfo(LanguageCode.KO, "몰도바"),
             new TranslationInfo(LanguageCode.KY, "Молдова"),
             new TranslationInfo(LanguageCode.LT, "Moldova"),
             new TranslationInfo(LanguageCode.LV, "Moldova"),

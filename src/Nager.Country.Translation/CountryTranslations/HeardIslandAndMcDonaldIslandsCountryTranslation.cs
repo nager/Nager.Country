@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ハード島とマクドナルド諸島"),
             new TranslationInfo(LanguageCode.KA, "ჰერდი და მაკდონალდის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Херд аралы және Макдональд аралдары"),
-            new TranslationInfo(LanguageCode.KO, "허드 섬 및 맥도널드 제도"),
+            new TranslationInfo(LanguageCode.KO, "허드 맥도널드 제도"),
             new TranslationInfo(LanguageCode.KY, "Херд жана Макдоналд аралдары"),
             new TranslationInfo(LanguageCode.LT, "Herdo ir Makdonaldo Salos"),
             new TranslationInfo(LanguageCode.LV, "Hērda sala un Makdonalda salas"),

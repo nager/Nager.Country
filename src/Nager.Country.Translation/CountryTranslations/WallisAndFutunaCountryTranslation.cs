@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ウォリス・フツナ"),
             new TranslationInfo(LanguageCode.KA, "უოლისი და ფუტუნა"),
             new TranslationInfo(LanguageCode.KK, "Уоллис және Футуна"),
-            new TranslationInfo(LanguageCode.KO, "월리스 푸 투나"),
+            new TranslationInfo(LanguageCode.KO, "왈리스 푸투나"),
             new TranslationInfo(LanguageCode.KY, "Уоллис жана Футуна"),
             new TranslationInfo(LanguageCode.LT, "Volisas ir Futūna"),
             new TranslationInfo(LanguageCode.LV, "Volisa un Futunas salas"),

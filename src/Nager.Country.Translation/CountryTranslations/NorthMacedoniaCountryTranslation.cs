@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "北マケドニア"),
             new TranslationInfo(LanguageCode.KA, "ჩრდილოეთ მაკედონია"),
             new TranslationInfo(LanguageCode.KK, "Солтүстік Македония"),
-            new TranslationInfo(LanguageCode.KO, "북 마케도니아"),
+            new TranslationInfo(LanguageCode.KO, "북마케도니아"),
             new TranslationInfo(LanguageCode.KY, "Түндүк Македония"),
             new TranslationInfo(LanguageCode.LT, "Šiaurės Makedonija"),
             new TranslationInfo(LanguageCode.LV, "Ziemeļmaķedonija"),

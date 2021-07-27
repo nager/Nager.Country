@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "サンピエール島・ミクロン島"),
             new TranslationInfo(LanguageCode.KA, "სენ-პიერი და მიკელონი"),
             new TranslationInfo(LanguageCode.KK, "Сен-Пьер және Микелон"),
-            new TranslationInfo(LanguageCode.KO, "생 피에르 미 클롱"),
+            new TranslationInfo(LanguageCode.KO, "생피에르 미클롱"),
             new TranslationInfo(LanguageCode.KY, "Сен-Пьер жана Микелон"),
             new TranslationInfo(LanguageCode.LT, "Sen Pjeras ir Mikelonas"),
             new TranslationInfo(LanguageCode.LV, "Senpjēra un Mikelona"),

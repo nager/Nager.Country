@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "アンティグア・バーブーダ"),
             new TranslationInfo(LanguageCode.KA, "ანტიგუა და ბარბუდა"),
             new TranslationInfo(LanguageCode.KK, "Антигуа және Барбуда"),
-            new TranslationInfo(LanguageCode.KO, "앤티가 바부 다"),
+            new TranslationInfo(LanguageCode.KO, "앤티가 바부다"),
             new TranslationInfo(LanguageCode.KY, "Антигуа жана Барбуда"),
             new TranslationInfo(LanguageCode.LT, "Antigva ir Barbuda"),
             new TranslationInfo(LanguageCode.LV, "Antigva un Barbuda"),

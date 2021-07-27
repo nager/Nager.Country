@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "シエラレオネ"),
             new TranslationInfo(LanguageCode.KA, "სიერა-ლეონე"),
             new TranslationInfo(LanguageCode.KK, "Сьерра-Леоне"),
-            new TranslationInfo(LanguageCode.KO, "시에라 리온"),
+            new TranslationInfo(LanguageCode.KO, "시에라리온"),
             new TranslationInfo(LanguageCode.KY, "Сьерра-Леоне"),
             new TranslationInfo(LanguageCode.LT, "Siera Leonė"),
             new TranslationInfo(LanguageCode.LV, "Sjerraleone"),

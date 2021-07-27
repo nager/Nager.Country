@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ニューカレドニア"),
             new TranslationInfo(LanguageCode.KA, "ახალი კალედონია"),
             new TranslationInfo(LanguageCode.KK, "Жаңа Каледония"),
-            new TranslationInfo(LanguageCode.KO, "뉴 칼레도니아"),
+            new TranslationInfo(LanguageCode.KO, "누벨칼레도니"),
             new TranslationInfo(LanguageCode.KY, "Жаӊы Каледония"),
             new TranslationInfo(LanguageCode.LT, "Naujoji Kaledonija"),
             new TranslationInfo(LanguageCode.LV, "Jaunkaledonija"),

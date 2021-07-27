@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "アメリカ領ヴァージン諸島"),
             new TranslationInfo(LanguageCode.KA, "აშშ-ის ვირჯინის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "АҚШ-тың Виргин аралдары"),
-            new TranslationInfo(LanguageCode.KO, "미국령 버진 아일랜드"),
+            new TranslationInfo(LanguageCode.KO, "미국령 버진아일랜드"),
             new TranslationInfo(LanguageCode.KY, "Виргин аралдары (АКШ)"),
             new TranslationInfo(LanguageCode.LT, "Jungtinių Valstijų Mergelių Salos"),
             new TranslationInfo(LanguageCode.LV, "ASV Virdžīnas"),

@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "タンザニア"),
             new TranslationInfo(LanguageCode.KA, "ტანზანია"),
             new TranslationInfo(LanguageCode.KK, "Танзания"),
-            new TranslationInfo(LanguageCode.KO, "탄자니아, 유엔"),
+            new TranslationInfo(LanguageCode.KO, "탄자니아"),
             new TranslationInfo(LanguageCode.KY, "Танзания"),
             new TranslationInfo(LanguageCode.LT, "Tanzanija"),
             new TranslationInfo(LanguageCode.LV, "Tanzānija"),

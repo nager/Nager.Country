@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "リビア"),
             new TranslationInfo(LanguageCode.KA, "ლიბია"),
             new TranslationInfo(LanguageCode.KK, "Ливия"),
-            new TranslationInfo(LanguageCode.KO, "리비아 아랍 자 마히리 야"),
+            new TranslationInfo(LanguageCode.KO, "리비아"),
             new TranslationInfo(LanguageCode.KY, "Ливия"),
             new TranslationInfo(LanguageCode.LT, "Libija"),
             new TranslationInfo(LanguageCode.LV, "Lībija"),

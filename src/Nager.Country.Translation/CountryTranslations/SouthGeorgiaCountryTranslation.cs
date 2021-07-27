@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "サウスジョージア・サウスサンドウィッチ諸島"),
             new TranslationInfo(LanguageCode.KA, "სამხრეთ ჯორჯია და სამხრეთ სენდვიჩის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Оңтүстік Георгия және Оңтүстік Сандвич аралдары"),
-            new TranslationInfo(LanguageCode.KO, "사우스 조지아 및 사우스 샌드위치 제도"),
+            new TranslationInfo(LanguageCode.KO, "사우스조지아 사우스샌드위치 제도"),
             new TranslationInfo(LanguageCode.KY, "Түштүк Жоржия жана Түштүк Сэндвич аралдары"),
             new TranslationInfo(LanguageCode.LT, "Pietų Džordžija ir Pietų Sandvičo salos"),
             new TranslationInfo(LanguageCode.LV, "Dienviddžordžija un Dienvidsendviču salas"),

@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "トーゴ"),
             new TranslationInfo(LanguageCode.KA, "ტოგო"),
             new TranslationInfo(LanguageCode.KK, "Того"),
-            new TranslationInfo(LanguageCode.KO, "가다"),
+            new TranslationInfo(LanguageCode.KO, "토고"),
             new TranslationInfo(LanguageCode.KY, "Того"),
             new TranslationInfo(LanguageCode.LT, "Togas"),
             new TranslationInfo(LanguageCode.LV, "Togo"),

@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ブーベ島"),
             new TranslationInfo(LanguageCode.KA, "ბუვე"),
             new TranslationInfo(LanguageCode.KK, "Буве аралы"),
-            new TranslationInfo(LanguageCode.KO, "부베 섬"),
+            new TranslationInfo(LanguageCode.KO, "부베섬"),
             new TranslationInfo(LanguageCode.KY, "Буве аралдары"),
             new TranslationInfo(LanguageCode.LT, "Buvė Sala"),
             new TranslationInfo(LanguageCode.LV, "Buvē sala"),

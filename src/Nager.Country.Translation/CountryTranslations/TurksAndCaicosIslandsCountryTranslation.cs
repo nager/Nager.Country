@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "タークス・カイコス諸島"),
             new TranslationInfo(LanguageCode.KA, "თერქს-ქაიქოსის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Теркс және Кайкос аралдары"),
-            new TranslationInfo(LanguageCode.KO, "터크 스 케이 커스 제도"),
+            new TranslationInfo(LanguageCode.KO, "터크스 케이커스 제도"),
             new TranslationInfo(LanguageCode.KY, "Түркс жана Кайкос аралдары"),
             new TranslationInfo(LanguageCode.LT, "Terkso ir Kaikoso Salos"),
             new TranslationInfo(LanguageCode.LV, "Tērksas un Kaikosas salas"),

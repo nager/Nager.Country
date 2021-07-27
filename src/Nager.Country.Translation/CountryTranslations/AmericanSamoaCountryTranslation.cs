@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "アメリカ領サモア"),
             new TranslationInfo(LanguageCode.KA, "ამერიკის სამოა"),
             new TranslationInfo(LanguageCode.KK, "Америкалық Самоа"),
-            new TranslationInfo(LanguageCode.KO, "아메리칸 사모아"),
+            new TranslationInfo(LanguageCode.KO, "아메리칸사모아"),
             new TranslationInfo(LanguageCode.KY, "Америка Самоасы"),
             new TranslationInfo(LanguageCode.LT, "Amerikos Samoa"),
             new TranslationInfo(LanguageCode.LV, "ASV Samoa"),

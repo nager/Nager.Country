@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "バチカン市国"),
             new TranslationInfo(LanguageCode.KA, "ქალაქი ვატიკანი"),
             new TranslationInfo(LanguageCode.KK, "Ватикан"),
-            new TranslationInfo(LanguageCode.KO, "성좌 (바티칸 시국)"),
+            new TranslationInfo(LanguageCode.KO, "바티칸 시국"),
             new TranslationInfo(LanguageCode.KY, "Ватикан"),
             new TranslationInfo(LanguageCode.LT, "Vatikano Miesto Valstybė"),
             new TranslationInfo(LanguageCode.LV, "Vatikāns"),

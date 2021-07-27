@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "トルクメニスタン"),
             new TranslationInfo(LanguageCode.KA, "თურქმენეთი"),
             new TranslationInfo(LanguageCode.KK, "Түрікменстан"),
-            new TranslationInfo(LanguageCode.KO, "투르크 메니스탄"),
+            new TranslationInfo(LanguageCode.KO, "투르크메니스탄"),
             new TranslationInfo(LanguageCode.KY, "Түркмөнстан"),
             new TranslationInfo(LanguageCode.LT, "Turkmėnistanas"),
             new TranslationInfo(LanguageCode.LV, "Turkmenistāna"),

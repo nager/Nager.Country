@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ドミニカ国"),
             new TranslationInfo(LanguageCode.KA, "დომინიკა"),
             new TranslationInfo(LanguageCode.KK, "Доминика"),
-            new TranslationInfo(LanguageCode.KO, "도미니카 공화국"),
+            new TranslationInfo(LanguageCode.KO, "도미니카 연방"),
             new TranslationInfo(LanguageCode.KY, "Доминика"),
             new TranslationInfo(LanguageCode.LT, "Dominika"),
             new TranslationInfo(LanguageCode.LV, "Dominika"),

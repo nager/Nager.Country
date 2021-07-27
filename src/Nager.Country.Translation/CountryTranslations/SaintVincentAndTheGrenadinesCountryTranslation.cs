@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "セントビンセントおよびグレナディーン諸島"),
             new TranslationInfo(LanguageCode.KA, "სენტ-ვინსენტი და გრენადინები"),
             new TranslationInfo(LanguageCode.KK, "Сент-Винсент және Гренадин аралдары"),
-            new TranslationInfo(LanguageCode.KO, "세인트 빈센트 그레나딘"),
+            new TranslationInfo(LanguageCode.KO, "세인트빈센트 그레나딘"),
             new TranslationInfo(LanguageCode.KY, "Сент-Винсент жана Гренадиналар"),
             new TranslationInfo(LanguageCode.LT, "Šventasis Vincentas ir Grenadinai"),
             new TranslationInfo(LanguageCode.LV, "Sentvinsenta un Grenadīnas"),

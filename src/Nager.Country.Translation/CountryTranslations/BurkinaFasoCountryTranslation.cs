@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "ブルキナファソ"),
             new TranslationInfo(LanguageCode.KA, "ბურკინა-ფასო"),
             new TranslationInfo(LanguageCode.KK, "Буркина-Фасо"),
-            new TranslationInfo(LanguageCode.KO, "부키 나 파소"),
+            new TranslationInfo(LanguageCode.KO, "부르키나 파소"),
             new TranslationInfo(LanguageCode.KY, "Буркина-Фасо"),
             new TranslationInfo(LanguageCode.LT, "Burkina Fasas"),
             new TranslationInfo(LanguageCode.LV, "Burkinafaso"),

@@ -33,7 +33,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.JA, "イラン・イスラム共和国"),
             new TranslationInfo(LanguageCode.KA, "ირანი"),
             new TranslationInfo(LanguageCode.KK, "Иран"),
-            new TranslationInfo(LanguageCode.KO, "이란, 이슬람 공화국"),
+            new TranslationInfo(LanguageCode.KO, "이란"),
             new TranslationInfo(LanguageCode.KY, "Иран"),
             new TranslationInfo(LanguageCode.LT, "Iranas"),
             new TranslationInfo(LanguageCode.LV, "Irāna"),
