@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Omr Currency
+    /// </summary>
     public class OmrCurrency : ICurrency
     {
         ///<inheritdoc/>

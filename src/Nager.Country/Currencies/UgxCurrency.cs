@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Ugx Currency
+    /// </summary>
     public class UgxCurrency : ICurrency
     {
         ///<inheritdoc/>
