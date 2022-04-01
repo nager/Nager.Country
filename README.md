@@ -61,6 +61,7 @@ The Worldwirde Country Informations are available over the `nuget` package or as
 The package is available via [NuGet](https://www.nuget.org/packages/Nager.Country)
 ```
 PM> install-package Nager.Country
+PM> install-package Nager.Country.Translation
 ```
 
 ## Examples of use
@@ -100,10 +101,17 @@ var countryInfo = countryProvider.GetCountryByNameConsiderTranslation("Germania"
 
 ### Get the name of the country in the requested language ([nuget -> Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation))
 ```cs
-ITranslationProvider translationProvider = new TranslationProvider();
+var translationProvider = new TranslationProvider();
 var translatedCountryName = translationProvider.GetCountryTranslatedName(Alpha2Code.DE, LanguageCode.EN);
 //translatedCountryName -> Germany
 ```
+
+### Get all Languages ([nuget -> Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation))
+```
+var translationProvider = new TranslationProvider();
+var languages = translationProvider.GetLanguages();
+```
+
 
 ## Interesting projects
 
