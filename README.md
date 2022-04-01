@@ -107,7 +107,7 @@ var translatedCountryName = translationProvider.GetCountryTranslatedName(Alpha2C
 ```
 
 ### Get all Languages ([nuget -> Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation))
-```
+```cs
 var translationProvider = new TranslationProvider();
 var languages = translationProvider.GetLanguages();
 ```
