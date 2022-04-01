@@ -58,28 +58,22 @@ The Worldwirde Country Informations are available over the `nuget` package or as
 ```
 
 ## nuget [![nuget.org download count](https://img.shields.io/nuget/dt/nager.country.svg)](https://www.nuget.org/packages/Nager.Country/)
-The package is available on [nuget](https://www.nuget.org/packages/Nager.Country)
+The package is available via [NuGet](https://www.nuget.org/packages/Nager.Country)
 ```
 PM> install-package Nager.Country
 ```
 
 ## Examples of use
 
-### Get country via Alpha2Code
+### Get all countries
 ```cs
-ICountryProvider countryProvider = new CountryProvider();
-var countryInfo = countryProvider.GetCountry(Alpha2Code.DE);
-//countryInfo.CommonName -> Germany
-//countryInfo.Alpha3Code -> DEU
-//countryInfo.NumericCode -> 276
-//countryInfo.Region -> Europe
-//countryInfo.SubRegion -> WesternEurope
-//countryInfo...
+var countryProvider = new CountryProvider();
+var countries = countryProvider.GetCountries();
 ```
 
 ### Get country via CountryName
 ```cs
-ICountryProvider countryProvider = new CountryProvider();
+var countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountryByName("Germany");
 //countryInfo.Alpha2Code -> DE
 //countryInfo.Alpha3Code -> DEU
@@ -94,7 +88,7 @@ var countryInfo = countryProvider.GetCountryByName("Germany");
 Require the translation package `Install-Package Nager.Country.Translation`
 
 ```cs
-ICountryProvider countryProvider = new CountryProvider();
+var countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountryByNameConsiderTranslation("Germania"); // <- Germany
 //countryInfo.Alpha2Code -> DE
 //countryInfo.Alpha3Code -> DEU
