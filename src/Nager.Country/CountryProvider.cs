@@ -300,7 +300,7 @@ namespace Nager.Country
                 return this.GetCountry(alpha3Code);
             }
 
-            return null;
+            throw new UnknownCountryException($"Cannot found a country for code {alpha2or3Code}");
         }
 
         ///<inheritdoc/>
@@ -311,7 +311,7 @@ namespace Nager.Country
                 return countryInfo;
             }
 
-            return null;
+            throw new UnknownCountryException($"Cannot found a country for code {alpha2Code}");
         }
 
         ///<inheritdoc/>
@@ -322,7 +322,7 @@ namespace Nager.Country
                 return countryInfo;
             }
 
-            return null;
+            throw new UnknownCountryException($"Cannot found a country for code {alpha3Code}");
         }
 
         ///<inheritdoc/>
@@ -341,7 +341,7 @@ namespace Nager.Country
                 }
             }
 
-            return null;
+            throw new UnknownCountryException($"Cannot found a country for countryName {countryName}");
         }
     }
 }
