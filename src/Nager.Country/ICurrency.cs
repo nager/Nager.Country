@@ -10,22 +10,27 @@
         /// Symbol
         /// </summary>
         string Symbol { get; }
+
         /// <summary>
         /// Singular
         /// </summary>
         string Singular { get; }
+
         /// <summary>
         /// Plural
         /// </summary>
         string Plural { get; }
+
         /// <summary>
         /// IsoCode
         /// </summary>
         string IsoCode { get; }
+
         /// <summary>
         /// Num
         /// </summary>
         string NumericCode { get; }
+
         /// <summary>
         /// Name
         /// </summary>

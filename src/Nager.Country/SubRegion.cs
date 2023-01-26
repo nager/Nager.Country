@@ -17,16 +17,19 @@ namespace Nager.Country
         /// </summary>
         [Description("Northern Europe")]
         NorthernEurope,
+
         /// <summary>
         /// Western Europe
         /// </summary>
         [Description("Western Europe")]
         WesternEurope,
+
         /// <summary>
         /// Southern Europe
         /// </summary>
         [Description("Southern Europe")]
         SouthernEurope,
+
         /// <summary>
         /// Eastern Europe
         /// </summary>
@@ -38,11 +41,13 @@ namespace Nager.Country
         /// </summary>
         [Description("Central America")]
         CentralAmerica,
+
         /// <summary>
         /// North America
         /// </summary>
         [Description("North America")]
         NorthAmerica,
+
         /// <summary>
         /// South America
         /// </summary>
@@ -54,21 +59,25 @@ namespace Nager.Country
         /// </summary>
         [Description("Eastern Africa")]
         EasternAfrica,
+
         /// <summary>
         /// Middle Africa
         /// </summary>
         [Description("Middle Africa")]
         MiddleAfrica,
+
         /// <summary>
         /// Northern Africa
         /// </summary>
         [Description("Northern Africa")]
         NorthernAfrica,
+
         /// <summary>
         /// Southern Africa
         /// </summary>
         [Description("SouthernAfrica")]
         SouthernAfrica,
+
         /// <summary>
         /// Western Africa
         /// </summary>
@@ -80,26 +89,31 @@ namespace Nager.Country
         /// </summary>
         [Description("Central Asia")]
         CentralAsia,
+
         /// <summary>
         /// Eastern Asia
         /// </summary>
         [Description("Eastern Asia")]
         EasternAsia,
+
         /// <summary>
         /// Southern Asia
         /// </summary>
         [Description("Southern Asia")]
         SouthernAsia,
+
         /// <summary>
         /// South Eastern Asia
         /// </summary>
         [Description("South Eastern Asia")]
         SouthEasternAsia,
+
         /// <summary>
         /// Western Asia
         /// </summary>
         [Description("Western Asia")]
         WesternAsia,
+
         /// <summary>
         /// Australia and New Zealand
         /// </summary>
@@ -111,16 +125,19 @@ namespace Nager.Country
         /// </summary>
         [Description("Melanesia")]
         Melanesia,
+
         /// <summary>
         /// Polynesia
         /// </summary>
         [Description("Polynesia")]
         Polynesia,
+
         /// <summary>
         /// Micronesia
         /// </summary>
         [Description("Micronesia")]
         Micronesia,
+
         /// <summary>
         /// Caribbean
         /// </summary>
