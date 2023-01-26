@@ -40,12 +40,20 @@ namespace Nager.Country.UnitTest
         }
 
         [TestMethod]
-        public void GetCountryTranslatedName()
+        public void GetCountryTranslatedName_GermanyInEnglish_Successful()
         {
             ITranslationProvider translationProvider = new TranslationProvider();
 
             var translatedCountryName = translationProvider.GetCountryTranslatedName(Alpha2Code.DE, LanguageCode.EN);
             Assert.AreEqual("Germany", translatedCountryName);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(UnknownCountryException), "Cannot found a country for code XX")]
+        public void GetCountryTranslatedName_InvalidAlphaCode_ThrowException()
+        {
+            ITranslationProvider translationProvider = new TranslationProvider();
+            translationProvider.GetCountryTranslatedName("XX", LanguageCode.EN);
         }
 
         [TestMethod]

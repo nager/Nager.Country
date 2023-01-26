@@ -16,7 +16,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.100
+        dotnet-version: 6.0.x
     - name: Install project dependencies
       working-directory: ./src
       run: dotnet restore
@@ -33,7 +33,7 @@ jobs:
       with:
         repo_name: nager/Nager.Country
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: src/Nager.Country.Export/bin/Release/net5.0/countries.zip
+        file: src/Nager.Country.Export/bin/Release/net6.0/countries.zip
         asset_name: countries.zip
         tag: ${{ github.ref }}-${{ github.run_id }}
         overwrite: true
