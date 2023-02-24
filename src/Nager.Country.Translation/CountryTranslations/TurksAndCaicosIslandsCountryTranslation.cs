@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Turks- és Caicos-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Թըրքս և Կայկոս կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Turks dan Caicos Islands"),
+            new TranslationInfo(LanguageCode.IS, "Turks- og Caicos-eyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Turks e Caicos"),
             new TranslationInfo(LanguageCode.JA, "タークス・カイコス諸島"),
             new TranslationInfo(LanguageCode.KA, "თერქს-ქაიქოსის კუნძულები"),

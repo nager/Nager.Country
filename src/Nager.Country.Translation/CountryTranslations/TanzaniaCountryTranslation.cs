@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Tanzánia"),
             new TranslationInfo(LanguageCode.HY, "Տանզանիա"),
             new TranslationInfo(LanguageCode.ID, "Tanzania"),
+            new TranslationInfo(LanguageCode.IS, "Tansanía"),
             new TranslationInfo(LanguageCode.IT, "Tanzania"),
             new TranslationInfo(LanguageCode.JA, "タンザニア"),
             new TranslationInfo(LanguageCode.KA, "ტანზანია"),

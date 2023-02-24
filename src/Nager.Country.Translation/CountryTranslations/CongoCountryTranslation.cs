@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Kongói Demokratikus Köztársaság"),
             new TranslationInfo(LanguageCode.HY, "Կոնգո - Կինշասա"),
             new TranslationInfo(LanguageCode.ID, "Republik Demokratik Kongo"),
+            new TranslationInfo(LanguageCode.IS, "Kongó"),
             new TranslationInfo(LanguageCode.IT, "Repubblica Democratica del Congo"),
             new TranslationInfo(LanguageCode.JA, "コンゴ民主共和国"),
             new TranslationInfo(LanguageCode.KA, "კონგო - კინშასა"),

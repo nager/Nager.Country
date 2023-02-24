@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Észak-Macedónia"),
             new TranslationInfo(LanguageCode.HY, "Հյուսիսային Մակեդոնիա"),
             new TranslationInfo(LanguageCode.ID, "Makedonia Utara"),
+            new TranslationInfo(LanguageCode.IS, "Norður-Makedónía"),
             new TranslationInfo(LanguageCode.IT, "Macedonia del Nord"),
             new TranslationInfo(LanguageCode.JA, "北マケドニア"),
             new TranslationInfo(LanguageCode.KA, "ჩრდილოეთ მაკედონია"),

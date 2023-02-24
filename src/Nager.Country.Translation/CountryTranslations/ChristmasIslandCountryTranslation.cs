@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Karácsony-sziget"),
             new TranslationInfo(LanguageCode.HY, "Սուրբ Ծննդյան կղզի"),
             new TranslationInfo(LanguageCode.ID, "Pulau Natal"),
+            new TranslationInfo(LanguageCode.IS, "Jólaey"),
             new TranslationInfo(LanguageCode.IT, "Isola del Natale"),
             new TranslationInfo(LanguageCode.JA, "クリスマス島"),
             new TranslationInfo(LanguageCode.KA, "შობის კუნძული"),

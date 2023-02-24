@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Dél-Afrika"),
             new TranslationInfo(LanguageCode.HY, "Հարավաֆրիկյան Հանրապետություն"),
             new TranslationInfo(LanguageCode.ID, "Afrika Selatan"),
+            new TranslationInfo(LanguageCode.IS, "Suður-Afríka"),
             new TranslationInfo(LanguageCode.IT, "Sudafrica"),
             new TranslationInfo(LanguageCode.JA, "南アフリカ"),
             new TranslationInfo(LanguageCode.KA, "სამხრეთ აფრიკის რესპუბლიკა"),

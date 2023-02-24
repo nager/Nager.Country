@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Zimbabwe"),
             new TranslationInfo(LanguageCode.HY, "Զիմբաբվե"),
             new TranslationInfo(LanguageCode.ID, "Zimbabwe"),
+            new TranslationInfo(LanguageCode.IS, "Simbabve"),
             new TranslationInfo(LanguageCode.IT, "Zimbabwe"),
             new TranslationInfo(LanguageCode.JA, "ジンバブエ"),
             new TranslationInfo(LanguageCode.KA, "ზიმბაბვე"),

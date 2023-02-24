@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Dél-Szudán"),
             new TranslationInfo(LanguageCode.HY, "Հարավային Սուդան"),
             new TranslationInfo(LanguageCode.ID, "Sudan Selatan"),
+            new TranslationInfo(LanguageCode.IS, "Suður-Súdan"),
             new TranslationInfo(LanguageCode.IT, "Sudan del Sud"),
             new TranslationInfo(LanguageCode.JA, "南スーダン"),
             new TranslationInfo(LanguageCode.KA, "სამხრეთ სუდანი"),

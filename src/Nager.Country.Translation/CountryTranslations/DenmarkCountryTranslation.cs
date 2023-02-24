@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Dánia"),
             new TranslationInfo(LanguageCode.HY, "Դանիա"),
             new TranslationInfo(LanguageCode.ID, "Denmark"),
+            new TranslationInfo(LanguageCode.IS, "Danmörk"),
             new TranslationInfo(LanguageCode.IT, "Danimarca"),
             new TranslationInfo(LanguageCode.JA, "デンマーク"),
             new TranslationInfo(LanguageCode.KA, "დანია"),

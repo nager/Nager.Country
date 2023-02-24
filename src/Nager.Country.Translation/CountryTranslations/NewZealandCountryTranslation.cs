@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Új-Zéland"),
             new TranslationInfo(LanguageCode.HY, "Նոր Զելանդիա"),
             new TranslationInfo(LanguageCode.ID, "Selandia Baru"),
+            new TranslationInfo(LanguageCode.IS, "Nýja-Sjáland"),
             new TranslationInfo(LanguageCode.IT, "Nuova Zelanda"),
             new TranslationInfo(LanguageCode.JA, "ニュージーランド"),
             new TranslationInfo(LanguageCode.KA, "ახალი ზელანდია"),

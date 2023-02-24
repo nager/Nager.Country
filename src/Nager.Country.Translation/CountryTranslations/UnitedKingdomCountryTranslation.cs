@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Egyesült Királyság"),
             new TranslationInfo(LanguageCode.HY, "Միացյալ Թագավորություն"),
             new TranslationInfo(LanguageCode.ID, "Britania Raya"),
+            new TranslationInfo(LanguageCode.IS, "Bretland"),
             new TranslationInfo(LanguageCode.IT, "Regno Unito"),
             new TranslationInfo(LanguageCode.JA, "イギリス"),
             new TranslationInfo(LanguageCode.KA, "გაერთიანებული სამეფო"),

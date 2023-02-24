@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Martinique"),
             new TranslationInfo(LanguageCode.HY, "Մարտինիկա"),
             new TranslationInfo(LanguageCode.ID, "Martinik"),
+            new TranslationInfo(LanguageCode.IS, "Martiník"),
             new TranslationInfo(LanguageCode.IT, "Martinica"),
             new TranslationInfo(LanguageCode.JA, "マルティニーク"),
             new TranslationInfo(LanguageCode.KA, "მარტინიკა"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Spitzbergák és Jan Mayen"),
             new TranslationInfo(LanguageCode.HY, "Սվալբարդ և Յան Մայեն"),
             new TranslationInfo(LanguageCode.ID, "Svalbard dan Jan Mayen"),
+            new TranslationInfo(LanguageCode.IS, "Svalbarði og Jan Mayen"),
             new TranslationInfo(LanguageCode.IT, "Svalbard e Jan Mayen"),
             new TranslationInfo(LanguageCode.JA, "スヴァールバル諸島およびヤンマイエン島"),
             new TranslationInfo(LanguageCode.KA, "შპიცბერგენი და იან-მაიენი"),

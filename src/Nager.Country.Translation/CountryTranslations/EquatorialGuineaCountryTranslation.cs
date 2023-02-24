@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Egyenlítői-Guinea"),
             new TranslationInfo(LanguageCode.HY, "Հասարակածային Գվինեա"),
             new TranslationInfo(LanguageCode.ID, "Guinea Khatulistiwa"),
+            new TranslationInfo(LanguageCode.IS, "Miðbaugs-Gínea"),
             new TranslationInfo(LanguageCode.IT, "Guinea Equatoriale"),
             new TranslationInfo(LanguageCode.JA, "赤道ギニア"),
             new TranslationInfo(LanguageCode.KA, "ეკვატორული გვინეა"),

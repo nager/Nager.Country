@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Brunei"),
             new TranslationInfo(LanguageCode.HY, "Բրունեյ"),
             new TranslationInfo(LanguageCode.ID, "Brunei Darussalam"),
+            new TranslationInfo(LanguageCode.IS, "Brúnei"),
             new TranslationInfo(LanguageCode.IT, "Brunei"),
             new TranslationInfo(LanguageCode.JA, "ブルネイ・ダルサラーム"),
             new TranslationInfo(LanguageCode.KA, "ბრუნეი"),

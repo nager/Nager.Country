@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Marokkó"),
             new TranslationInfo(LanguageCode.HY, "Մարոկկո"),
             new TranslationInfo(LanguageCode.ID, "Moroko"),
+            new TranslationInfo(LanguageCode.IS, "Marokkó"),
             new TranslationInfo(LanguageCode.IT, "Marocco"),
             new TranslationInfo(LanguageCode.JA, "モロッコ"),
             new TranslationInfo(LanguageCode.KA, "მაროკო"),

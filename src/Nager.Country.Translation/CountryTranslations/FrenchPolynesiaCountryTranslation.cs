@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Francia Polinézia"),
             new TranslationInfo(LanguageCode.HY, "Ֆրանսիական Պոլինեզիա"),
             new TranslationInfo(LanguageCode.ID, "Polinesia Perancis"),
+            new TranslationInfo(LanguageCode.IS, "Franska Pólýnesía"),
             new TranslationInfo(LanguageCode.IT, "Polinesia Francese"),
             new TranslationInfo(LanguageCode.JA, "フランス領ポリネシア"),
             new TranslationInfo(LanguageCode.KA, "საფრანგეთის პოლინეზია"),

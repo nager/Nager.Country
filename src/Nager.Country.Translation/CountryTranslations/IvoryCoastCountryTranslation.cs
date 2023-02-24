@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Elefántcsontpart"),
             new TranslationInfo(LanguageCode.HY, "Կոտ դ’Իվուար"),
             new TranslationInfo(LanguageCode.ID, "Pantai Gading"),
+            new TranslationInfo(LanguageCode.IS, "Fílabeinsströndin"),
             new TranslationInfo(LanguageCode.IT, "Costa d'Avorio"),
             new TranslationInfo(LanguageCode.JA, "コートジボワール"),
             new TranslationInfo(LanguageCode.KA, "კოტ-დივუარი"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Mauritius"),
             new TranslationInfo(LanguageCode.HY, "Մավրիկիոս"),
             new TranslationInfo(LanguageCode.ID, "Mauritius"),
+            new TranslationInfo(LanguageCode.IS, "Máritíus"),
             new TranslationInfo(LanguageCode.IT, "Mauritius"),
             new TranslationInfo(LanguageCode.JA, "モーリシャス"),
             new TranslationInfo(LanguageCode.KA, "მავრიკი"),

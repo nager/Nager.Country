@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "India"),
             new TranslationInfo(LanguageCode.HY, "Հնդկաստան"),
             new TranslationInfo(LanguageCode.ID, "India"),
+            new TranslationInfo(LanguageCode.IS, "Indland"),
             new TranslationInfo(LanguageCode.IT, "India"),
             new TranslationInfo(LanguageCode.JA, "インド"),
             new TranslationInfo(LanguageCode.KA, "ინდოეთი"),

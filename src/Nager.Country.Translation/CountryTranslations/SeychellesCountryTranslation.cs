@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Seychelle-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Սեյշելներ"),
             new TranslationInfo(LanguageCode.ID, "Seychelles"),
+            new TranslationInfo(LanguageCode.IS, "Seychelles-eyjar"),
             new TranslationInfo(LanguageCode.IT, "Seychelles"),
             new TranslationInfo(LanguageCode.JA, "セーシェル"),
             new TranslationInfo(LanguageCode.KA, "სეიშელის კუნძულები"),

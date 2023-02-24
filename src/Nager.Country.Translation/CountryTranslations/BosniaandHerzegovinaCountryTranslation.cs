@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Bosznia-Hercegovina"),
             new TranslationInfo(LanguageCode.HY, "Բոսնիա և Հերցեգովինա"),
             new TranslationInfo(LanguageCode.ID, "Bosnia dan Herzegovina"),
+            new TranslationInfo(LanguageCode.IS, "Bosnía og Hersegóvína"),
             new TranslationInfo(LanguageCode.IT, "Bosnia ed Erzegovina"),
             new TranslationInfo(LanguageCode.JA, "ボスニア・ヘルツェゴビナ"),
             new TranslationInfo(LanguageCode.KA, "ბოსნია და ჰერცეგოვინა"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Bhután"),
             new TranslationInfo(LanguageCode.HY, "Բութան"),
             new TranslationInfo(LanguageCode.ID, "Bhutan"),
+            new TranslationInfo(LanguageCode.IS, "Bútan"),
             new TranslationInfo(LanguageCode.IT, "Bhutan"),
             new TranslationInfo(LanguageCode.JA, "ブータン"),
             new TranslationInfo(LanguageCode.KA, "ბუტანი"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Svédország"),
             new TranslationInfo(LanguageCode.HY, "Շվեդիա"),
             new TranslationInfo(LanguageCode.ID, "Sweden"),
+            new TranslationInfo(LanguageCode.IS, "Svíþjóð"),
             new TranslationInfo(LanguageCode.IT, "Svezia"),
             new TranslationInfo(LanguageCode.JA, "スウェーデン"),
             new TranslationInfo(LanguageCode.KA, "შვედეთი"),

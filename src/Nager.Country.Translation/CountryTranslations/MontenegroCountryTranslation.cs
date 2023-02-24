@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Montenegró"),
             new TranslationInfo(LanguageCode.HY, "Չեռնոգորիա"),
             new TranslationInfo(LanguageCode.ID, "Montenegro"),
+            new TranslationInfo(LanguageCode.IS, "Svartfjallaland"),
             new TranslationInfo(LanguageCode.IT, "Montenegro"),
             new TranslationInfo(LanguageCode.JA, "モンテネグロ"),
             new TranslationInfo(LanguageCode.KA, "მონტენეგრო"),

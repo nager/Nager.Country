@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Oroszország"),
             new TranslationInfo(LanguageCode.HY, "Ռուսաստան"),
             new TranslationInfo(LanguageCode.ID, "Rusia"),
+            new TranslationInfo(LanguageCode.IS, "Rússland"),
             new TranslationInfo(LanguageCode.IT, "Russia"),
             new TranslationInfo(LanguageCode.JA, "ロシア連邦"),
             new TranslationInfo(LanguageCode.KA, "რუსეთი"),

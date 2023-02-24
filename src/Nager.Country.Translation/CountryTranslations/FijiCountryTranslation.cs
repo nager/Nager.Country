@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Fidzsi-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Ֆիջի"),
             new TranslationInfo(LanguageCode.ID, "Fiji"),
+            new TranslationInfo(LanguageCode.IS, "Fídjí"),
             new TranslationInfo(LanguageCode.IT, "Figi"),
             new TranslationInfo(LanguageCode.JA, "フィジー"),
             new TranslationInfo(LanguageCode.KA, "ფიჯი"),

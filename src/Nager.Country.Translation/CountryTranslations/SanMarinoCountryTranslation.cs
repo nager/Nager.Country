@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "San Marino"),
             new TranslationInfo(LanguageCode.HY, "Սան Մարինո"),
             new TranslationInfo(LanguageCode.ID, "San Marino"),
+            new TranslationInfo(LanguageCode.IS, "San Marínó"),
             new TranslationInfo(LanguageCode.IT, "San Marino"),
             new TranslationInfo(LanguageCode.JA, "サンマリノ"),
             new TranslationInfo(LanguageCode.KA, "სან-მარინო"),

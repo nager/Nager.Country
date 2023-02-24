@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Mali"),
             new TranslationInfo(LanguageCode.HY, "Մալի"),
             new TranslationInfo(LanguageCode.ID, "Mali"),
+            new TranslationInfo(LanguageCode.IS, "Malí"),
             new TranslationInfo(LanguageCode.IT, "Mali"),
             new TranslationInfo(LanguageCode.JA, "マリ"),
             new TranslationInfo(LanguageCode.KA, "მალი"),

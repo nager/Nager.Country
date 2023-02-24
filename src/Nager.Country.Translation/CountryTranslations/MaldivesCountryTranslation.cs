@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Maldív-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Մալդիվներ"),
             new TranslationInfo(LanguageCode.ID, "Maldives"),
+            new TranslationInfo(LanguageCode.IS, "Maldívur"),
             new TranslationInfo(LanguageCode.IT, "Maldive"),
             new TranslationInfo(LanguageCode.JA, "モルディブ"),
             new TranslationInfo(LanguageCode.KA, "მალდივები"),

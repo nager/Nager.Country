@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Montserrat"),
             new TranslationInfo(LanguageCode.HY, "Մոնսեռատ"),
             new TranslationInfo(LanguageCode.ID, "Montserrat"),
+            new TranslationInfo(LanguageCode.IS, "Montserrat"),
             new TranslationInfo(LanguageCode.IT, "Montserrat"),
             new TranslationInfo(LanguageCode.JA, "モントセラト"),
             new TranslationInfo(LanguageCode.KA, "მონსერატი"),

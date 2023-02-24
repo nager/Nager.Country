@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Közép-afrikai Köztársaság"),
             new TranslationInfo(LanguageCode.HY, "Կենտրոնական Աֆրիկյան Հանրապետություն"),
             new TranslationInfo(LanguageCode.ID, "Afrika Tengah"),
+            new TranslationInfo(LanguageCode.IS, "Mið-Afríkulýðveldið"),
             new TranslationInfo(LanguageCode.IT, "Repubblica Centrafricana"),
             new TranslationInfo(LanguageCode.JA, "中央アフリカ共和国"),
             new TranslationInfo(LanguageCode.KA, "ცენტრალური აფრიკის რესპუბლიკა"),

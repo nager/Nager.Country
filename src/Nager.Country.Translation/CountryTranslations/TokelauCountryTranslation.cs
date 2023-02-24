@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Tokelau-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Տոկելաու"),
             new TranslationInfo(LanguageCode.ID, "Tokelau"),
+            new TranslationInfo(LanguageCode.IS, "Tókelá"),
             new TranslationInfo(LanguageCode.IT, "Tokelau"),
             new TranslationInfo(LanguageCode.JA, "トケラウ"),
             new TranslationInfo(LanguageCode.KA, "ტოკელაუ"),

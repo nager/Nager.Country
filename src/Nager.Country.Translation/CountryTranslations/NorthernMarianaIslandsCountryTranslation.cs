@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Északi-Mariana-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Հյուսիսային Մարիանյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Mariana Utara"),
+            new TranslationInfo(LanguageCode.IS, "Norður-Maríanaeyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Marianne Settentrionali"),
             new TranslationInfo(LanguageCode.JA, "北マリアナ諸島"),
             new TranslationInfo(LanguageCode.KA, "ჩრდილოეთ მარიანას კუნძულები"),

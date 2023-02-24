@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Saint Pierre and Miquelon"),
             new TranslationInfo(LanguageCode.HY, "Սեն Պիեռ և Միքելոն"),
             new TranslationInfo(LanguageCode.ID, "Saint Pierre dan Miquelon"),
+            new TranslationInfo(LanguageCode.IS, "Sankti Pierre og Miquelon"),
             new TranslationInfo(LanguageCode.IT, "Saint Pierre e Miquelon"),
             new TranslationInfo(LanguageCode.JA, "サンピエール島・ミクロン島"),
             new TranslationInfo(LanguageCode.KA, "სენ-პიერი და მიკელონი"),

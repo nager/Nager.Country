@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Réunion"),
             new TranslationInfo(LanguageCode.HY, "Ռեյունիոն"),
             new TranslationInfo(LanguageCode.ID, "Reunion"),
+            new TranslationInfo(LanguageCode.IS, "Réunion"),
             new TranslationInfo(LanguageCode.IT, "Réunion"),
             new TranslationInfo(LanguageCode.JA, "レユニオン"),
             new TranslationInfo(LanguageCode.KA, "რეუნიონი"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Suriname"),
             new TranslationInfo(LanguageCode.HY, "Սուրինամ"),
             new TranslationInfo(LanguageCode.ID, "Suriname"),
+            new TranslationInfo(LanguageCode.IS, "Súrínam"),
             new TranslationInfo(LanguageCode.IT, "Suriname"),
             new TranslationInfo(LanguageCode.JA, "スリナム"),
             new TranslationInfo(LanguageCode.KA, "სურინამი"),

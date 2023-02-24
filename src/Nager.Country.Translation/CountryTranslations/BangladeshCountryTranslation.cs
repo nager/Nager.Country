@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Banglades"),
             new TranslationInfo(LanguageCode.HY, "Բանգլադեշ"),
             new TranslationInfo(LanguageCode.ID, "Bangladesh"),
+            new TranslationInfo(LanguageCode.IS, "Bangladess"),
             new TranslationInfo(LanguageCode.IT, "Bangladesh"),
             new TranslationInfo(LanguageCode.JA, "バングラデシュ"),
             new TranslationInfo(LanguageCode.KA, "ბანგლადეში"),

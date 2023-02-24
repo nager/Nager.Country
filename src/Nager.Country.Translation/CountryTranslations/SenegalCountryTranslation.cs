@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Szenegál"),
             new TranslationInfo(LanguageCode.HY, "Սենեգալ"),
             new TranslationInfo(LanguageCode.ID, "Senegal"),
+            new TranslationInfo(LanguageCode.IS, "Senegal"),
             new TranslationInfo(LanguageCode.IT, "Senegal"),
             new TranslationInfo(LanguageCode.JA, "セネガル"),
             new TranslationInfo(LanguageCode.KA, "სენეგალი"),

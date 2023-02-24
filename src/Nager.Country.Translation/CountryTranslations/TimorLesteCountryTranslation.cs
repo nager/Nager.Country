@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Kelet-Timor"),
             new TranslationInfo(LanguageCode.HY, "Թիմոր Լեշտի"),
             new TranslationInfo(LanguageCode.ID, "Timor-Leste"),
+            new TranslationInfo(LanguageCode.IS, "Tímor-Leste"),
             new TranslationInfo(LanguageCode.IT, "Timor Est"),
             new TranslationInfo(LanguageCode.JA, "東ティモール"),
             new TranslationInfo(LanguageCode.KA, "ტიმორ-ლესტე"),

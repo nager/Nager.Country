@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Cook-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կուկի կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Cook"),
+            new TranslationInfo(LanguageCode.IS, "Cookseyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Cook"),
             new TranslationInfo(LanguageCode.JA, "クック諸島"),
             new TranslationInfo(LanguageCode.KA, "კუკის კუნძულები"),

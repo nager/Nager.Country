@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Csehország"),
             new TranslationInfo(LanguageCode.HY, "Չեխիա"),
             new TranslationInfo(LanguageCode.ID, "Republik Ceko"),
+            new TranslationInfo(LanguageCode.IS, "Tékkland"),
             new TranslationInfo(LanguageCode.IT, "Repubblica Ceca"),
             new TranslationInfo(LanguageCode.JA, "チェコ"),
             new TranslationInfo(LanguageCode.KA, "ჩეხეთის რესპუბლიკა"),

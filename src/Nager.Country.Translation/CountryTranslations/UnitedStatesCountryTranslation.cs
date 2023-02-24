@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Amerikai Egyesült Államok"),
             new TranslationInfo(LanguageCode.HY, "Միացյալ Նահանգներ"),
             new TranslationInfo(LanguageCode.ID, "Amerika Serikat"),
+            new TranslationInfo(LanguageCode.IS, "Bandaríkin"),
             new TranslationInfo(LanguageCode.IT, "Stati Uniti d'America"),
             new TranslationInfo(LanguageCode.JA, "アメリカ合衆国"),
             new TranslationInfo(LanguageCode.KA, "ამერიკის შეერთებული შტატები"),

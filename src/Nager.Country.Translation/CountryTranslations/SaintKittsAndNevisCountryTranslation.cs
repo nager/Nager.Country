@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Saint Kitts és Nevis"),
             new TranslationInfo(LanguageCode.HY, "Սենտ Քիտս և Նևիս"),
             new TranslationInfo(LanguageCode.ID, "Saint Kitts dan Nevis"),
+            new TranslationInfo(LanguageCode.IS, "Sankti Kitts og Nevis"),
             new TranslationInfo(LanguageCode.IT, "Saint Kitts e Nevis"),
             new TranslationInfo(LanguageCode.JA, "セントクリストファー・ネイビス"),
             new TranslationInfo(LanguageCode.KA, "სენტ-კიტსი და ნევისი"),

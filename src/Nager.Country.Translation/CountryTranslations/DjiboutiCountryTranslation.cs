@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Dzsibuti"),
             new TranslationInfo(LanguageCode.HY, "Ջիբութի"),
             new TranslationInfo(LanguageCode.ID, "Djibouti"),
+            new TranslationInfo(LanguageCode.IS, "Djíbútí"),
             new TranslationInfo(LanguageCode.IT, "Gibuti"),
             new TranslationInfo(LanguageCode.JA, "ジブチ"),
             new TranslationInfo(LanguageCode.KA, "ჯიბუტი"),

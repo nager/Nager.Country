@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Venezuela"),
             new TranslationInfo(LanguageCode.HY, "Վենեսուելա"),
             new TranslationInfo(LanguageCode.ID, "Venezuela"),
+            new TranslationInfo(LanguageCode.IS, "Venesúela"),
             new TranslationInfo(LanguageCode.IT, "Venezuela"),
             new TranslationInfo(LanguageCode.JA, "ベネズエラ・ボリバル共和国"),
             new TranslationInfo(LanguageCode.KA, "ვენესუელა"),

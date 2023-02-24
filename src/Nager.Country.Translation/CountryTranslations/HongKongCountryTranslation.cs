@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Hong Kong"),
             new TranslationInfo(LanguageCode.HY, "Հոնկոնգի ՀՎՇ"),
             new TranslationInfo(LanguageCode.ID, "Hong Kong"),
+            new TranslationInfo(LanguageCode.IS, "Hong Kong"),
             new TranslationInfo(LanguageCode.IT, "Hong Kong"),
             new TranslationInfo(LanguageCode.JA, "香港"),
             new TranslationInfo(LanguageCode.KA, "ჰონკონგი"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Ausztria"),
             new TranslationInfo(LanguageCode.HY, "Ավստրիա"),
             new TranslationInfo(LanguageCode.ID, "Austria"),
+            new TranslationInfo(LanguageCode.IS, "Austurríki"),
             new TranslationInfo(LanguageCode.IT, "Austria"),
             new TranslationInfo(LanguageCode.JA, "オーストリア"),
             new TranslationInfo(LanguageCode.KA, "ავსტრია"),

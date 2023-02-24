@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Fülöp-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Ֆիլիպիններ"),
             new TranslationInfo(LanguageCode.ID, "Filipina"),
+            new TranslationInfo(LanguageCode.IS, "Filippseyjar"),
             new TranslationInfo(LanguageCode.IT, "Filippine"),
             new TranslationInfo(LanguageCode.JA, "フィリピン"),
             new TranslationInfo(LanguageCode.KA, "ფილიპინები"),

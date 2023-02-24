@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Észak-Korea"),
             new TranslationInfo(LanguageCode.HY, "Հյուսիսային Կորեա"),
             new TranslationInfo(LanguageCode.ID, "Korea Utara"),
+            new TranslationInfo(LanguageCode.IS, "Norður-Kórea"),
             new TranslationInfo(LanguageCode.IT, "Corea del Nord"),
             new TranslationInfo(LanguageCode.JA, "朝鮮民主主義人民共和国"),
             new TranslationInfo(LanguageCode.KA, "ჩრდილოეთ კორეა"),

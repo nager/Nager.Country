@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Dominikai Közösség"),
             new TranslationInfo(LanguageCode.HY, "Դոմինիկա"),
             new TranslationInfo(LanguageCode.ID, "Dominika"),
+            new TranslationInfo(LanguageCode.IS, "Dóminíka"),
             new TranslationInfo(LanguageCode.IT, "Dominica"),
             new TranslationInfo(LanguageCode.JA, "ドミニカ国"),
             new TranslationInfo(LanguageCode.KA, "დომინიკა"),

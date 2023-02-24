@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Andorra"),
             new TranslationInfo(LanguageCode.HY, "Անդորրա"),
             new TranslationInfo(LanguageCode.ID, "Andorra"),
+            new TranslationInfo(LanguageCode.IS, "Andorra"),
             new TranslationInfo(LanguageCode.IT, "Andorra"),
             new TranslationInfo(LanguageCode.JA, "アンドラ"),
             new TranslationInfo(LanguageCode.KA, "ანდორა"),

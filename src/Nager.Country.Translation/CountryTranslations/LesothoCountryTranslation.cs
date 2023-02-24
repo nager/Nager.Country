@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Lesotho"),
             new TranslationInfo(LanguageCode.HY, "Լեսոտո"),
             new TranslationInfo(LanguageCode.ID, "Lesotho"),
+            new TranslationInfo(LanguageCode.IS, "Lesótó"),
             new TranslationInfo(LanguageCode.IT, "Lesotho"),
             new TranslationInfo(LanguageCode.JA, "レソト"),
             new TranslationInfo(LanguageCode.KA, "ლესოთო"),

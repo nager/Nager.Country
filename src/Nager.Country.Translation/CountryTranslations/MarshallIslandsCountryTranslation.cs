@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Marshall-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Մարշալյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Marshall"),
+            new TranslationInfo(LanguageCode.IS, "Marshall-eyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Marshall"),
             new TranslationInfo(LanguageCode.JA, "マーシャル諸島"),
             new TranslationInfo(LanguageCode.KA, "მარშალის კუნძულები"),

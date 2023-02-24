@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Benin"),
             new TranslationInfo(LanguageCode.HY, "Բենին"),
             new TranslationInfo(LanguageCode.ID, "Benin"),
+            new TranslationInfo(LanguageCode.IS, "Benín"),
             new TranslationInfo(LanguageCode.IT, "Benin"),
             new TranslationInfo(LanguageCode.JA, "ベナン"),
             new TranslationInfo(LanguageCode.KA, "ბენინი"),

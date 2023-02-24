@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Vietnam"),
             new TranslationInfo(LanguageCode.HY, "Վիետնամ"),
             new TranslationInfo(LanguageCode.ID, "Viet Nam"),
+            new TranslationInfo(LanguageCode.IS, "Víetnam"),
             new TranslationInfo(LanguageCode.IT, "Vietnam"),
             new TranslationInfo(LanguageCode.JA, "ベトナム"),
             new TranslationInfo(LanguageCode.KA, "ვიეტნამი"),

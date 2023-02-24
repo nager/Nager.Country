@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Aruba"),
             new TranslationInfo(LanguageCode.HY, "Արուբա"),
             new TranslationInfo(LanguageCode.ID, "Aruba"),
+            new TranslationInfo(LanguageCode.IS, "Arúba"),
             new TranslationInfo(LanguageCode.IT, "Aruba"),
             new TranslationInfo(LanguageCode.JA, "アルバ"),
             new TranslationInfo(LanguageCode.KA, "არუბა"),

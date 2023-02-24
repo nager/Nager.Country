@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "São Tomé és Príncipe"),
             new TranslationInfo(LanguageCode.HY, "Սան Տոմե և Փրինսիպի"),
             new TranslationInfo(LanguageCode.ID, "Sao Tome dan Principe"),
+            new TranslationInfo(LanguageCode.IS, "Saó Tóme og Prinsipe"),
             new TranslationInfo(LanguageCode.IT, "São Tomé e Príncipe"),
             new TranslationInfo(LanguageCode.JA, "サントメ・プリンシペ"),
             new TranslationInfo(LanguageCode.KA, "სან-ტომე და პრინსიპი"),

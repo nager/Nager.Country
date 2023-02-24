@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Franciaország"),
             new TranslationInfo(LanguageCode.HY, "Ֆրանսիա"),
             new TranslationInfo(LanguageCode.ID, "Perancis"),
+            new TranslationInfo(LanguageCode.IS, "Frakkland"),
             new TranslationInfo(LanguageCode.IT, "Francia"),
             new TranslationInfo(LanguageCode.JA, "フランス"),
             new TranslationInfo(LanguageCode.KA, "საფრანგეთი"),

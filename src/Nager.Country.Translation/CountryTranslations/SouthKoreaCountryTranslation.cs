@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Dél-Korea"),
             new TranslationInfo(LanguageCode.HY, "Հարավային Կորեա"),
             new TranslationInfo(LanguageCode.ID, "Korea Selatan"),
+            new TranslationInfo(LanguageCode.IS, "Suður-Kórea"),
             new TranslationInfo(LanguageCode.IT, "Corea del Sud"),
             new TranslationInfo(LanguageCode.JA, "大韓民国"),
             new TranslationInfo(LanguageCode.KA, "სამხრეთ კორეა"),

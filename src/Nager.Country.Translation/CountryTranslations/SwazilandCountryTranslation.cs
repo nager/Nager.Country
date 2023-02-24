@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Szváziföld"),
             new TranslationInfo(LanguageCode.HY, "Սվազիլենդ"),
             new TranslationInfo(LanguageCode.ID, "Swaziland"),
+            new TranslationInfo(LanguageCode.IS, "Esvatíní"),
             new TranslationInfo(LanguageCode.IT, "Swaziland"),
             new TranslationInfo(LanguageCode.JA, "スワジランド"),
             new TranslationInfo(LanguageCode.KA, "სვაზილენდი"),
