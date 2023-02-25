@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Jordánia"),
             new TranslationInfo(LanguageCode.HY, "Հորդանան"),
             new TranslationInfo(LanguageCode.ID, "Yordania"),
+            new TranslationInfo(LanguageCode.IS, "Jórdanía"),
             new TranslationInfo(LanguageCode.IT, "Giordania"),
             new TranslationInfo(LanguageCode.JA, "ヨルダン"),
             new TranslationInfo(LanguageCode.KA, "იორდანია"),

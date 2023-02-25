@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Salvador"),
             new TranslationInfo(LanguageCode.HY, "Սալվադոր"),
             new TranslationInfo(LanguageCode.ID, "El Salvador"),
+            new TranslationInfo(LanguageCode.IS, "El Salvador"),
             new TranslationInfo(LanguageCode.IT, "El Salvador"),
             new TranslationInfo(LanguageCode.JA, "エルサルバドル"),
             new TranslationInfo(LanguageCode.KA, "სალვადორი"),

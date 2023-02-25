@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Líbia"),
             new TranslationInfo(LanguageCode.HY, "Լիբիա"),
             new TranslationInfo(LanguageCode.ID, "Libya"),
+            new TranslationInfo(LanguageCode.IS, "Líbía"),
             new TranslationInfo(LanguageCode.IT, "Libia"),
             new TranslationInfo(LanguageCode.JA, "リビア"),
             new TranslationInfo(LanguageCode.KA, "ლიბია"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Falkland-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Ֆոլքլենդյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Falkland(Malvinas)"),
+            new TranslationInfo(LanguageCode.IS, "Falklandseyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Falkland"),
             new TranslationInfo(LanguageCode.JA, "フォークランド（マルビナス）諸島"),
             new TranslationInfo(LanguageCode.KA, "ფოლკლენდის კუნძულები"),

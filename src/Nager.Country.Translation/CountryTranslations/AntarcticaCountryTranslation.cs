@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Antarktisz"),
             new TranslationInfo(LanguageCode.HY, "Անտարկտիդա"),
             new TranslationInfo(LanguageCode.ID, "Antarctica"),
+            new TranslationInfo(LanguageCode.IS, "Antarktíka"),
             new TranslationInfo(LanguageCode.IT, "Antartide"),
             new TranslationInfo(LanguageCode.JA, "南極"),
             new TranslationInfo(LanguageCode.KA, "ანტარქტიკა"),

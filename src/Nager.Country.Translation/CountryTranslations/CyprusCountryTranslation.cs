@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Ciprus"),
             new TranslationInfo(LanguageCode.HY, "Կիպրոս"),
             new TranslationInfo(LanguageCode.ID, "Siprus"),
+            new TranslationInfo(LanguageCode.IS, "Kýpur"),
             new TranslationInfo(LanguageCode.IT, "Cipro"),
             new TranslationInfo(LanguageCode.JA, "キプロス"),
             new TranslationInfo(LanguageCode.KA, "კვიპროსი"),

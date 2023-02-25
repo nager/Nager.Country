@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Makao"),
             new TranslationInfo(LanguageCode.HY, "Չինաստանի Մակաո ՀՎՇ"),
             new TranslationInfo(LanguageCode.ID, "Makau"),
+            new TranslationInfo(LanguageCode.IS, "Makaó"),
             new TranslationInfo(LanguageCode.IT, "Macao"),
             new TranslationInfo(LanguageCode.JA, "マカオ"),
             new TranslationInfo(LanguageCode.KA, "მაკაო"),

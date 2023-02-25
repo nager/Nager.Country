@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Åland"),
             new TranslationInfo(LanguageCode.HY, "Ալանդյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Åland Islands"),
+            new TranslationInfo(LanguageCode.IS, "Álandseyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Åland"),
             new TranslationInfo(LanguageCode.JA, "オーランド諸島"),
             new TranslationInfo(LanguageCode.KA, "ალანდის კუნძულები"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Feröer"),
             new TranslationInfo(LanguageCode.HY, "Ֆարերյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Faroe"),
+            new TranslationInfo(LanguageCode.IS, "Færeyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Fær Øer"),
             new TranslationInfo(LanguageCode.JA, "フェロー諸島"),
             new TranslationInfo(LanguageCode.KA, "ფარერის კუნძულები"),

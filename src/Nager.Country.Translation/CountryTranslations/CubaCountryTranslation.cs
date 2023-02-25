@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Kuba"),
             new TranslationInfo(LanguageCode.HY, "Կուբա"),
             new TranslationInfo(LanguageCode.ID, "Kuba"),
+            new TranslationInfo(LanguageCode.IS, "Kúba"),
             new TranslationInfo(LanguageCode.IT, "Cuba"),
             new TranslationInfo(LanguageCode.JA, "キューバ"),
             new TranslationInfo(LanguageCode.KA, "კუბა"),

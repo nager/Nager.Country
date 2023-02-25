@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Hollandia"),
             new TranslationInfo(LanguageCode.HY, "Նիդեռլանդներ"),
             new TranslationInfo(LanguageCode.ID, "Belanda"),
+            new TranslationInfo(LanguageCode.IS, "Holland"),
             new TranslationInfo(LanguageCode.IT, "Paesi Bassi"),
             new TranslationInfo(LanguageCode.JA, "オランダ"),
             new TranslationInfo(LanguageCode.KA, "ნიდერლანდები"),

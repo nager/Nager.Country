@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Algéria"),
             new TranslationInfo(LanguageCode.HY, "Ալժիր"),
             new TranslationInfo(LanguageCode.ID, "Algeria"),
+            new TranslationInfo(LanguageCode.IS, "Alsír"),
             new TranslationInfo(LanguageCode.IT, "Algeria"),
             new TranslationInfo(LanguageCode.JA, "アルジェリア"),
             new TranslationInfo(LanguageCode.KA, "ალჟირი"),

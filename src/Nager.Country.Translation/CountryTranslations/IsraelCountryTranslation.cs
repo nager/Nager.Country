@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Izrael"),
             new TranslationInfo(LanguageCode.HY, "Իսրայել"),
             new TranslationInfo(LanguageCode.ID, "Israel"),
+            new TranslationInfo(LanguageCode.IS, "Ísrael"),
             new TranslationInfo(LanguageCode.IT, "Israele"),
             new TranslationInfo(LanguageCode.JA, "イスラエル"),
             new TranslationInfo(LanguageCode.KA, "ისრაელი"),

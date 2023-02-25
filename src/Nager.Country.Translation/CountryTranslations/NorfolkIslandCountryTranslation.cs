@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Norfolk-sziget"),
             new TranslationInfo(LanguageCode.HY, "Նորֆոլկ կղզի"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Norfolk"),
+            new TranslationInfo(LanguageCode.IS, "Norfolkeyja"),
             new TranslationInfo(LanguageCode.IT, "Isola Norfolk"),
             new TranslationInfo(LanguageCode.JA, "ノーフォーク島"),
             new TranslationInfo(LanguageCode.KA, "ნორფოლკის კუნძული"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Kuvait"),
             new TranslationInfo(LanguageCode.HY, "Քուվեյթ"),
             new TranslationInfo(LanguageCode.ID, "Kuwait"),
+            new TranslationInfo(LanguageCode.IS, "Kúveit"),
             new TranslationInfo(LanguageCode.IT, "Kuwait"),
             new TranslationInfo(LanguageCode.JA, "クウェート"),
             new TranslationInfo(LanguageCode.KA, "ქუვეითი"),

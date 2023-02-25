@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Fehéroroszország"),
             new TranslationInfo(LanguageCode.HY, "Բելառուս"),
             new TranslationInfo(LanguageCode.ID, "Belarusia"),
+            new TranslationInfo(LanguageCode.IS, "Belarús"),
             new TranslationInfo(LanguageCode.IT, "Bielorussia"),
             new TranslationInfo(LanguageCode.JA, "ベラルーシ"),
             new TranslationInfo(LanguageCode.KA, "ბელარუსი"),

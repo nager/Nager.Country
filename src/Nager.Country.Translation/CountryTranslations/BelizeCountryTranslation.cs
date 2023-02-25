@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Belize"),
             new TranslationInfo(LanguageCode.HY, "Բելիզ"),
             new TranslationInfo(LanguageCode.ID, "Belize"),
+            new TranslationInfo(LanguageCode.IS, "Belís"),
             new TranslationInfo(LanguageCode.IT, "Belize"),
             new TranslationInfo(LanguageCode.JA, "ベリーズ"),
             new TranslationInfo(LanguageCode.KA, "ბელიზი"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Románia"),
             new TranslationInfo(LanguageCode.HY, "Ռումինիա"),
             new TranslationInfo(LanguageCode.ID, "Rumania"),
+            new TranslationInfo(LanguageCode.IS, "Rúmenía"),
             new TranslationInfo(LanguageCode.IT, "Romania"),
             new TranslationInfo(LanguageCode.JA, "ルーマニア"),
             new TranslationInfo(LanguageCode.KA, "რუმინეთი"),

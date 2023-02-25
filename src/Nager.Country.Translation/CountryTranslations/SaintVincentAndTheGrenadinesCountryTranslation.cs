@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Saint Vincent és a Grenadine-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Սենթ Վինսենթ և Գրենադիններ"),
             new TranslationInfo(LanguageCode.ID, "Saint Vincent dan the Grenadines"),
+            new TranslationInfo(LanguageCode.IS, "Sankti Vinsent og Grenadínur"),
             new TranslationInfo(LanguageCode.IT, "Saint Vincent e Grenadine"),
             new TranslationInfo(LanguageCode.JA, "セントビンセントおよびグレナディーン諸島"),
             new TranslationInfo(LanguageCode.KA, "სენტ-ვინსენტი და გრენადინები"),

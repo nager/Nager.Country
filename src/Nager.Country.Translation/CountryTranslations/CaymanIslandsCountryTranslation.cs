@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Kajmán-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կայմանյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Cayman"),
+            new TranslationInfo(LanguageCode.IS, "Caymaneyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Cayman"),
             new TranslationInfo(LanguageCode.JA, "ケイマン諸島"),
             new TranslationInfo(LanguageCode.KA, "კაიმანის კუნძულები"),

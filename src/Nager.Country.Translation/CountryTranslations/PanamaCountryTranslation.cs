@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Panama"),
             new TranslationInfo(LanguageCode.HY, "Պանամա"),
             new TranslationInfo(LanguageCode.ID, "Panama"),
+            new TranslationInfo(LanguageCode.IS, "Panama"),
             new TranslationInfo(LanguageCode.IT, "Panamá"),
             new TranslationInfo(LanguageCode.JA, "パナマ"),
             new TranslationInfo(LanguageCode.KA, "პანამა"),

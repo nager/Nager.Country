@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Tonga"),
             new TranslationInfo(LanguageCode.HY, "Տոնգա"),
             new TranslationInfo(LanguageCode.ID, "Tonga"),
+            new TranslationInfo(LanguageCode.IS, "Tonga"),
             new TranslationInfo(LanguageCode.IT, "Tonga"),
             new TranslationInfo(LanguageCode.JA, "トンガ"),
             new TranslationInfo(LanguageCode.KA, "ტონგა"),

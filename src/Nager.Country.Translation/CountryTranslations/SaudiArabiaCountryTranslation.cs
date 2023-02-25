@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Szaudi-Arábia"),
             new TranslationInfo(LanguageCode.HY, "Սաուդյան Արաբիա"),
             new TranslationInfo(LanguageCode.ID, "Arab Saudi"),
+            new TranslationInfo(LanguageCode.IS, "Sádi-Arabía"),
             new TranslationInfo(LanguageCode.IT, "Arabia Saudita"),
             new TranslationInfo(LanguageCode.JA, "サウジアラビア"),
             new TranslationInfo(LanguageCode.KA, "საუდის არაბეთი"),

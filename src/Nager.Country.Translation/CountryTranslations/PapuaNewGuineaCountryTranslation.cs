@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Pápua Új-Guinea"),
             new TranslationInfo(LanguageCode.HY, "Պապուա Նոր Գվինեա"),
             new TranslationInfo(LanguageCode.ID, "Papua Nugini"),
+            new TranslationInfo(LanguageCode.IS, "Papúa Nýja-Gínea"),
             new TranslationInfo(LanguageCode.IT, "Papua Nuova Guinea"),
             new TranslationInfo(LanguageCode.JA, "パプアニューギニア"),
             new TranslationInfo(LanguageCode.KA, "პაპუა-ახალი გვინეა"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Kókusz (Keeling)-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կոկոսյան (Քիլինգ) կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Cocos (Keeling)"),
+            new TranslationInfo(LanguageCode.IS, "Kókoseyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Cocos e Keeling"),
             new TranslationInfo(LanguageCode.JA, "ココス（キーリング）諸島"),
             new TranslationInfo(LanguageCode.KA, "ქოქოსის (კილინგის) კუნძულები"),

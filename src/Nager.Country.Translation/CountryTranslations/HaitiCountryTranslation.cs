@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Haiti"),
             new TranslationInfo(LanguageCode.HY, "Հայիթի"),
             new TranslationInfo(LanguageCode.ID, "Haiti"),
+            new TranslationInfo(LanguageCode.IS, "Haítí"),
             new TranslationInfo(LanguageCode.IT, "Haiti"),
             new TranslationInfo(LanguageCode.JA, "ハイチ"),
             new TranslationInfo(LanguageCode.KA, "ჰაიტი"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Irak"),
             new TranslationInfo(LanguageCode.HY, "Իրաք"),
             new TranslationInfo(LanguageCode.ID, "Irak"),
+            new TranslationInfo(LanguageCode.IS, "Írak"),
             new TranslationInfo(LanguageCode.IT, "Iraq"),
             new TranslationInfo(LanguageCode.JA, "イラク"),
             new TranslationInfo(LanguageCode.KA, "ერაყი"),

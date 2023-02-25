@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Kanada"),
             new TranslationInfo(LanguageCode.HY, "Կանադա"),
             new TranslationInfo(LanguageCode.ID, "Kanada"),
+            new TranslationInfo(LanguageCode.IS, "Kanada"),
             new TranslationInfo(LanguageCode.IT, "Canada"),
             new TranslationInfo(LanguageCode.JA, "カナダ"),
             new TranslationInfo(LanguageCode.KA, "კანადა"),

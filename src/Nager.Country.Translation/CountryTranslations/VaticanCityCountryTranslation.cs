@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Vatikán"),
             new TranslationInfo(LanguageCode.HY, "Վատիկան"),
             new TranslationInfo(LanguageCode.ID, "Vatikan"),
+            new TranslationInfo(LanguageCode.IS, "Vatíkanið"),
             new TranslationInfo(LanguageCode.IT, "Città del Vaticano"),
             new TranslationInfo(LanguageCode.JA, "バチカン市国"),
             new TranslationInfo(LanguageCode.KA, "ქალაქი ვატიკანი"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Zöld-foki Köztársaság"),
             new TranslationInfo(LanguageCode.HY, "Կաբո Վերդե"),
             new TranslationInfo(LanguageCode.ID, "Tanjung Verde"),
+            new TranslationInfo(LanguageCode.IS, "Grænhöfðaeyjar"),
             new TranslationInfo(LanguageCode.IT, "Capo Verde"),
             new TranslationInfo(LanguageCode.JA, "カーボベルデ"),
             new TranslationInfo(LanguageCode.KA, "კაბო-ვერდე"),

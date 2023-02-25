@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Palau"),
             new TranslationInfo(LanguageCode.HY, "Պալաու"),
             new TranslationInfo(LanguageCode.ID, "Palau"),
+            new TranslationInfo(LanguageCode.IS, "Palaú"),
             new TranslationInfo(LanguageCode.IT, "Palau"),
             new TranslationInfo(LanguageCode.JA, "パラオ"),
             new TranslationInfo(LanguageCode.KA, "პალაუ"),

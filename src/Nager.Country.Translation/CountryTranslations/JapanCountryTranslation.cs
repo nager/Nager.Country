@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Japán"),
             new TranslationInfo(LanguageCode.HY, "Ճապոնիա"),
             new TranslationInfo(LanguageCode.ID, "Jepang"),
+            new TranslationInfo(LanguageCode.IS, "Japan"),
             new TranslationInfo(LanguageCode.IT, "Giappone"),
             new TranslationInfo(LanguageCode.JA, "日本"),
             new TranslationInfo(LanguageCode.KA, "იაპონია"),

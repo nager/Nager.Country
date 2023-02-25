@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Monaco"),
             new TranslationInfo(LanguageCode.HY, "Մոնակո"),
             new TranslationInfo(LanguageCode.ID, "Monako"),
+            new TranslationInfo(LanguageCode.IS, "Mónakó"),
             new TranslationInfo(LanguageCode.IT, "Monaco"),
             new TranslationInfo(LanguageCode.JA, "モナコ"),
             new TranslationInfo(LanguageCode.KA, "მონაკო"),

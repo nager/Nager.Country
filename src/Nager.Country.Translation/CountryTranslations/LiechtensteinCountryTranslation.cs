@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Liechtenstein"),
             new TranslationInfo(LanguageCode.HY, "Լիխտենշտեյն"),
             new TranslationInfo(LanguageCode.ID, "Liechtenstein"),
+            new TranslationInfo(LanguageCode.IS, "Liechtenstein"),
             new TranslationInfo(LanguageCode.IT, "Liechtenstein"),
             new TranslationInfo(LanguageCode.JA, "リヒテンシュタイン"),
             new TranslationInfo(LanguageCode.KA, "ლიხტენშტაინი"),

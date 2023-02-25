@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Finnország"),
             new TranslationInfo(LanguageCode.HY, "Ֆինլանդիա"),
             new TranslationInfo(LanguageCode.ID, "Finlandia"),
+            new TranslationInfo(LanguageCode.IS, "Finnland"),
             new TranslationInfo(LanguageCode.IT, "Finlandia"),
             new TranslationInfo(LanguageCode.JA, "フィンランド"),
             new TranslationInfo(LanguageCode.KA, "ფინეთი"),

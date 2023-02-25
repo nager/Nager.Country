@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Bouvet-sziget"),
             new TranslationInfo(LanguageCode.HY, "Բուվե կղզի"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Bouvet"),
+            new TranslationInfo(LanguageCode.IS, "Bouveteyja"),
             new TranslationInfo(LanguageCode.IT, "Isola Bouvet"),
             new TranslationInfo(LanguageCode.JA, "ブーベ島"),
             new TranslationInfo(LanguageCode.KA, "ბუვე"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Nyugat-Szahara"),
             new TranslationInfo(LanguageCode.HY, "Արևմտյան Սահարա"),
             new TranslationInfo(LanguageCode.ID, "Sahara Barat"),
+            new TranslationInfo(LanguageCode.IS, "Vestur-Sahara"),
             new TranslationInfo(LanguageCode.IT, "Sahara Occidentale"),
             new TranslationInfo(LanguageCode.JA, "西サハラ"),
             new TranslationInfo(LanguageCode.KA, "დასავლეთ საჰარა"),

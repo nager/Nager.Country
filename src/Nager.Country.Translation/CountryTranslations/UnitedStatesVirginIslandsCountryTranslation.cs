@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Amerikai Virgin-szigetek"),
             new TranslationInfo(LanguageCode.HY, "ԱՄՆ Վիրջինյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Virgin Islands, U.S."),
+            new TranslationInfo(LanguageCode.IS, "Bandarísku Jómfrúaeyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Vergini Americane"),
             new TranslationInfo(LanguageCode.JA, "アメリカ領ヴァージン諸島"),
             new TranslationInfo(LanguageCode.KA, "აშშ-ის ვირჯინის კუნძულები"),

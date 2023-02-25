@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Nicaragua"),
             new TranslationInfo(LanguageCode.HY, "Նիկարագուա"),
             new TranslationInfo(LanguageCode.ID, "Nikaragua"),
+            new TranslationInfo(LanguageCode.IS, "Níkaragva"),
             new TranslationInfo(LanguageCode.IT, "Nicaragua"),
             new TranslationInfo(LanguageCode.JA, "ニカラグア"),
             new TranslationInfo(LanguageCode.KA, "ნიკარაგუა"),

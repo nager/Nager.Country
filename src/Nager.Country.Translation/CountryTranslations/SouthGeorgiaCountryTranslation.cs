@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Déli-Georgia és Déli-Sandwich-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Հարավային Ջորջիա և Հարավային Սենդվիչյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Georgia Selatan dan Kepulauan Sandwich Selatan"),
+            new TranslationInfo(LanguageCode.IS, "Suður-Georgía og Suður-Sandvíkureyjar"),
             new TranslationInfo(LanguageCode.IT, "Georgia del Sud e isole Sandwich meridionali"),
             new TranslationInfo(LanguageCode.JA, "サウスジョージア・サウスサンドウィッチ諸島"),
             new TranslationInfo(LanguageCode.KA, "სამხრეთ ჯორჯია და სამხრეთ სენდვიჩის კუნძულები"),

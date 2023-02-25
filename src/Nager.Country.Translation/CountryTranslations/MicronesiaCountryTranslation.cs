@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Mikronéziai Szövetségi Államok"),
             new TranslationInfo(LanguageCode.HY, "Միկրոնեզիա"),
             new TranslationInfo(LanguageCode.ID, "Federasi Mikronesia"),
+            new TranslationInfo(LanguageCode.IS, "Mikrónesía"),
             new TranslationInfo(LanguageCode.IT, "Stati Federati di Micronesia"),
             new TranslationInfo(LanguageCode.JA, "ミクロネシア連邦"),
             new TranslationInfo(LanguageCode.KA, "მიკრონეზია"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Tádzsikisztán"),
             new TranslationInfo(LanguageCode.HY, "Տաջիկստան"),
             new TranslationInfo(LanguageCode.ID, "Tajikistan"),
+            new TranslationInfo(LanguageCode.IS, "Tadsíkistan"),
             new TranslationInfo(LanguageCode.IT, "Tagikistan"),
             new TranslationInfo(LanguageCode.JA, "タジキスタン"),
             new TranslationInfo(LanguageCode.KA, "ტაჯიკეთი"),

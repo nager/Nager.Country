@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Tajvan"),
             new TranslationInfo(LanguageCode.HY, "Թայվան"),
             new TranslationInfo(LanguageCode.ID, "Taiwan"),
+            new TranslationInfo(LanguageCode.IS, "Taívan"),
             new TranslationInfo(LanguageCode.IT, "Repubblica di Cina"),
             new TranslationInfo(LanguageCode.JA, "台湾"),
             new TranslationInfo(LanguageCode.KA, "ტაივანი"),

@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Laosz"),
             new TranslationInfo(LanguageCode.HY, "Լաոս"),
             new TranslationInfo(LanguageCode.ID, "Laos"),
+            new TranslationInfo(LanguageCode.IS, "Laos"),
             new TranslationInfo(LanguageCode.IT, "Laos"),
             new TranslationInfo(LanguageCode.JA, "ラオス人民民主共和国"),
             new TranslationInfo(LanguageCode.KA, "ლაოსი"),

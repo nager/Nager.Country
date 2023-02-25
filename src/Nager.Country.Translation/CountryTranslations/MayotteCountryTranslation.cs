@@ -30,6 +30,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HY, "Մայոտ"),
             new TranslationInfo(LanguageCode.ID, "Mayotte"),
             new TranslationInfo(LanguageCode.IT, "Mayotte"),
+            new TranslationInfo(LanguageCode.IS, "Mayotte"),
             new TranslationInfo(LanguageCode.JA, "マヨット"),
             new TranslationInfo(LanguageCode.KA, "მაიოტა"),
             new TranslationInfo(LanguageCode.KK, "Майотта"),

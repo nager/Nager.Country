@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Burkina Faso"),
             new TranslationInfo(LanguageCode.HY, "Բուրկինա Ֆասո"),
             new TranslationInfo(LanguageCode.ID, "Burkina Faso"),
+            new TranslationInfo(LanguageCode.IS, "Búrkína Fasó"),
             new TranslationInfo(LanguageCode.IT, "Burkina Faso"),
             new TranslationInfo(LanguageCode.JA, "ブルキナファソ"),
             new TranslationInfo(LanguageCode.KA, "ბურკინა-ფასო"),

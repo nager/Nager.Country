@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Szingapúr"),
             new TranslationInfo(LanguageCode.HY, "Սինգապուր"),
             new TranslationInfo(LanguageCode.ID, "Singapura"),
+            new TranslationInfo(LanguageCode.IS, "Singapúr"),
             new TranslationInfo(LanguageCode.IT, "Singapore"),
             new TranslationInfo(LanguageCode.JA, "シンガポール"),
             new TranslationInfo(LanguageCode.KA, "სინგაპური"),

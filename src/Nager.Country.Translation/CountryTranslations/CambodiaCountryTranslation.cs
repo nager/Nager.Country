@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Kambodzsa"),
             new TranslationInfo(LanguageCode.HY, "Կամբոջա"),
             new TranslationInfo(LanguageCode.ID, "Kamboja"),
+            new TranslationInfo(LanguageCode.IS, "Kambódía"),
             new TranslationInfo(LanguageCode.IT, "Cambogia"),
             new TranslationInfo(LanguageCode.JA, "カンボジア"),
             new TranslationInfo(LanguageCode.KA, "კამბოჯა"),

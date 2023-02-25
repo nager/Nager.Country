@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Chile"),
             new TranslationInfo(LanguageCode.HY, "Չիլի"),
             new TranslationInfo(LanguageCode.ID, "Chile"),
+            new TranslationInfo(LanguageCode.IS, "Chile"),
             new TranslationInfo(LanguageCode.IT, "Cile"),
             new TranslationInfo(LanguageCode.JA, "チリ"),
             new TranslationInfo(LanguageCode.KA, "ჩილე"),

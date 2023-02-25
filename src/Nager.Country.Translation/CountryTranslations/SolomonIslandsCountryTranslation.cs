@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Salamon-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Սողոմոնյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Solomon"),
+            new TranslationInfo(LanguageCode.IS, "Salómonseyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Salomone"),
             new TranslationInfo(LanguageCode.JA, "ソロモン諸島"),
             new TranslationInfo(LanguageCode.KA, "სოლომონის კუნძულები"),

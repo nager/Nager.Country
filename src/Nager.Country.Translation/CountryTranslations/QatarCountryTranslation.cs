@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Katar"),
             new TranslationInfo(LanguageCode.HY, "Կատար"),
             new TranslationInfo(LanguageCode.ID, "Qatar"),
+            new TranslationInfo(LanguageCode.IS, "Katar"),
             new TranslationInfo(LanguageCode.IT, "Qatar"),
             new TranslationInfo(LanguageCode.JA, "カタール"),
             new TranslationInfo(LanguageCode.KA, "კატარი"),

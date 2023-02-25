@@ -29,6 +29,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.HU, "Pitcairn-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Պիտկեռն կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Pitcairn"),
+            new TranslationInfo(LanguageCode.IS, "Pitcairn"),
             new TranslationInfo(LanguageCode.IT, "Isole Pitcairn"),
             new TranslationInfo(LanguageCode.JA, "ピトケアン"),
             new TranslationInfo(LanguageCode.KA, "პიტკერნის კუნძულები"),
