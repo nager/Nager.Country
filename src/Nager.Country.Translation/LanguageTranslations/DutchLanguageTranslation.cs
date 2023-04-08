@@ -10,7 +10,7 @@ namespace Nager.Country.Translation.LanguageTranslations
         ///<inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
-            new TranslationInfo(LanguageCode.AF, "Duits"),
+            new TranslationInfo(LanguageCode.AF, "Nederlands"),
             new TranslationInfo(LanguageCode.AM, "ደች"),
             new TranslationInfo(LanguageCode.AR, "الهولندي"),
             new TranslationInfo(LanguageCode.AZ, "Hollandiya"),
