@@ -27,6 +27,31 @@ namespace Nager.Country.UnitTest
         }
 
         [DataTestMethod]
+        [DataRow("DE", true)]
+        [DataRow("de", true)]
+        [DataRow("De", true)]
+        [DataRow("dE", true)]
+        [DataRow("DE ", true)]
+        [DataRow(" DE", true)]
+        [DataRow("D1E", false)]
+        public void TryGetCountry(string countryCode, bool isSuccessful)
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+
+            var successful = countryProvider.TryGetCountry(countryCode, out var countryInfo);
+            if (isSuccessful)
+            {
+                Assert.IsTrue(successful);
+                Assert.IsNotNull(countryInfo);
+            }
+            else
+            {
+                Assert.IsFalse(successful);
+                Assert.IsNull(countryInfo);
+            }
+        }
+
+        [DataTestMethod]
         [DataRow("Austria")]
         [DataRow("Republic of Austria")]
         public void GetCountryByName(string countryName)
