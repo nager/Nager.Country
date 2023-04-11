@@ -66,7 +66,7 @@
         /// </summary>
         BG,
         /// <summary>
-        /// Bihari languages
+        /// Bihari languages (deprecated)
         /// </summary>
         BH,
         /// <summary>
