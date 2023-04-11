@@ -11,7 +11,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>Add NativeName, change Macedonia to North Macedonia</PackageReleaseNotes>
+    <PackageReleaseNotes>Change failure handling of GetCountry add new method TryGetCountry, some small fixes</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/nager/Nager.Country</PackageProjectUrl>
     <PackageTags>Country CountryInfo ISO3166 ISO-3166-1_Alpha2 ISO-3166-1_Alpha3 ISO639 ISO-639-1 globalization localization</PackageTags>
 
@@ -19,7 +19,7 @@
 
     <TargetFrameworks>netstandard2.0;netstandard2.1;net6;net48</TargetFrameworks>
 
-    <Version>3.1.1</Version>
+    <Version>4.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
