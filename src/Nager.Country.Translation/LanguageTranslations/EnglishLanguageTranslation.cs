@@ -54,7 +54,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.KO, "영어"),
             new TranslationInfo(LanguageCode.KY, "Английский"),
             new TranslationInfo(LanguageCode.LA, "Anglorum"),
-            new TranslationInfo(LanguageCode.LT, "Lietuvių"),
+            new TranslationInfo(LanguageCode.LT, "Anglų"),
             new TranslationInfo(LanguageCode.LV, "Angļu"),
             new TranslationInfo(LanguageCode.MG, "Malagasy"),
             new TranslationInfo(LanguageCode.MI, "Maori"),
