@@ -1,6 +1,9 @@
 namespace Nager.Country.Currencies
 {
-    public class SosCurrency : ICurrency
+    /// <summary>
+    /// Srd Currency
+    /// </summary>
+    public class SrdCurrency : ICurrency
     {
         ///<inheritdoc/>
         public string Symbol => "S";
