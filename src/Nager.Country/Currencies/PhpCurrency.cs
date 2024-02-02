@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Php Currency
+    /// </summary>
     public class PhpCurrency : ICurrency
     {
         ///<inheritdoc/>

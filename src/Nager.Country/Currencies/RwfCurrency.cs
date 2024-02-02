@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Rwf Currency
+    /// </summary>
     public class RwfCurrency : ICurrency
     {
         ///<inheritdoc/>

@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Tjs Currency
+    /// </summary>
     public class TjsCurrency : ICurrency
     {
         ///<inheritdoc/>

@@ -1,5 +1,8 @@
 namespace Nager.Country.Currencies
 {
+    /// <summary>
+    /// Pyg Currency
+    /// </summary>
     public class PygCurrency : ICurrency
     {
         ///<inheritdoc/>
