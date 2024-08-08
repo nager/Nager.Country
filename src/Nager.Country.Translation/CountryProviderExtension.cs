@@ -5,6 +5,8 @@ namespace Nager.Country.Translation
 {
     public static class CountryProviderExtension
     {
+        private static ITranslationProvider _translationProviderSingleton;
+            
         ///<inheritdoc/>
         public static ICountryInfo GetCountryByNameConsiderTranslation(
             this ICountryProvider countryProvider,
@@ -24,15 +26,20 @@ namespace Nager.Country.Translation
                     return country;
                 }
 
-                var translationProvider = new TranslationProvider();
-                var countryTanslation = translationProvider.GetCountryTranslation(country.Alpha2Code);
-                if (countryTanslation.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
+                var countryTranslation = GetTranslationProviderInstance().GetCountryTranslation(country.Alpha2Code);
+                if (countryTranslation.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
                 {
                     return country;
                 }
             }
 
             return null;
+        }
+        
+        private static ITranslationProvider GetTranslationProviderInstance()
+        {
+            return _translationProviderSingleton 
+                   ?? (_translationProviderSingleton = new TranslationProvider());
         }
     }
 }
