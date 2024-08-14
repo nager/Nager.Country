@@ -25,8 +25,8 @@ namespace Nager.Country.Translation
                 }
 
                 var translationProvider = new TranslationProvider();
-                var countryTanslation = translationProvider.GetCountryTranslation(country.Alpha2Code);
-                if (countryTanslation.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
+                var countryTranslation = translationProvider.GetCountryTranslation(country.Alpha2Code);
+                if (countryTranslation.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
                 {
                     return country;
                 }
