@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EnumExtensions.System.Text.Json" Version="1.1.0" />
-    <PackageReference Include="Mapster" Version="7.3.0" />
+    <PackageReference Include="EnumExtensions.System.Text.Json" Version="1.2.0" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
   </ItemGroup>
 
   <ItemGroup>
