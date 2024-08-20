@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Montserrat"),
             new TranslationInfo(LanguageCode.ZH, "蒙特塞拉特"),
         };
-        
     }
 }

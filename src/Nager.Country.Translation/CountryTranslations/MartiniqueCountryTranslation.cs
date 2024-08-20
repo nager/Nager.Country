@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Martinika"),
             new TranslationInfo(LanguageCode.ZH, "马提尼克"),
         };
-        
     }
 }

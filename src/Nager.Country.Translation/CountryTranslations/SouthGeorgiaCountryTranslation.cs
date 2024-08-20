@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Janubiy Georgiya va Janubiy Sendvich orollari"),
             new TranslationInfo(LanguageCode.ZH, "南乔治亚和南桑威奇群岛"),
         };
-        
     }
 }

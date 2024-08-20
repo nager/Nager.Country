@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Svazilend"),
             new TranslationInfo(LanguageCode.ZH, "斯威士兰"),
         };
-        
     }
 }

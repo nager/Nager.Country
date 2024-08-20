@@ -55,6 +55,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Britaniyaning Hind okeanidagi hududi"),
             new TranslationInfo(LanguageCode.ZH, "英属印度洋领地"),
         };
-        
     }
 }

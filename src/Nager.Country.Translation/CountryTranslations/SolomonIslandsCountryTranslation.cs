@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Solomon orollari"),
             new TranslationInfo(LanguageCode.ZH, "所罗门群岛"),
         };
-        
     }
 }

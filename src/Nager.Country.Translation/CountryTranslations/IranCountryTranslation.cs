@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Eron"),
             new TranslationInfo(LanguageCode.ZH, "伊朗"),
         };
-        
     }
 }

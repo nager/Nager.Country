@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Jibuti"),
             new TranslationInfo(LanguageCode.ZH, "吉布提"),
         };
-        
     }
 }

@@ -55,6 +55,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Men oroli"),
             new TranslationInfo(LanguageCode.ZH, "马恩岛"),
         };
-        
     }
 }

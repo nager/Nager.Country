@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "San-Tome va Prinsipi"),
             new TranslationInfo(LanguageCode.ZH, "圣多美和普林西比"),
         };
-        
     }
 }

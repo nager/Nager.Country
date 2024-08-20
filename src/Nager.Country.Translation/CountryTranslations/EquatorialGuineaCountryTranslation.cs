@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Ekvatorial Gvineya"),
             new TranslationInfo(LanguageCode.ZH, "赤道几内亚"),
         };
-        
     }
 }

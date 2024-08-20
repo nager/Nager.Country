@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Mozambik"),
             new TranslationInfo(LanguageCode.ZH, "莫桑比克"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Palau"),
             new TranslationInfo(LanguageCode.ZH, "帛琉"),
         };
-        
     }
 }

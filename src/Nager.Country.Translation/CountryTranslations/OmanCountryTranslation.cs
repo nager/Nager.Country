@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Ummon"),
             new TranslationInfo(LanguageCode.ZH, "阿曼"),
         };
-        
     }
 }

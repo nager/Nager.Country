@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Turkiya"),
             new TranslationInfo(LanguageCode.ZH, "土耳其"),
         };
-        
     }
 }

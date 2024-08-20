@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Yaponiya"),
             new TranslationInfo(LanguageCode.ZH, "日本"),
         };
-        
     }
 }

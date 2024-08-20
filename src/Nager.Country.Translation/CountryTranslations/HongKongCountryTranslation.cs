@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gonkong (Xitoy MMH)"),
             new TranslationInfo(LanguageCode.ZH, "香港"),
         };
-        
     }
 }

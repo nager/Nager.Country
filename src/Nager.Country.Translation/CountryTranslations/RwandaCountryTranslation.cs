@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Ruanda"),
             new TranslationInfo(LanguageCode.ZH, "卢旺达"),
         };
-        
     }
 }

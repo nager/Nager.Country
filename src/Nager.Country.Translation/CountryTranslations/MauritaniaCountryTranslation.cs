@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Mavritaniya"),
             new TranslationInfo(LanguageCode.ZH, "毛里塔尼亚"),
         };
-        
     }
 }

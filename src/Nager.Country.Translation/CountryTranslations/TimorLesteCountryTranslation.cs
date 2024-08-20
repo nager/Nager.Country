@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Timor-Leste"),
             new TranslationInfo(LanguageCode.ZH, "东帝汶"),
         };
-        
     }
 }

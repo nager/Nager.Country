@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Vengriya"),
             new TranslationInfo(LanguageCode.ZH, "匈牙利"),
         };
-        
     }
 }

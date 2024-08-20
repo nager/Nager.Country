@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kuk orollari"),
             new TranslationInfo(LanguageCode.ZH, "库克群岛"),
         };
-        
     }
 }

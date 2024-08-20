@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gretsiya"),
             new TranslationInfo(LanguageCode.ZH, "希腊"),
         };
-        
     }
 }

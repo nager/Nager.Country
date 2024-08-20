@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Janubiy Afrika Respublikasi"),
             new TranslationInfo(LanguageCode.ZH, "南非"),
         };
-        
     }
 }

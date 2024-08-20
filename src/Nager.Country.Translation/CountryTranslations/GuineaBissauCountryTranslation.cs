@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gvineya-Bisau"),
             new TranslationInfo(LanguageCode.ZH, "几内亚比绍"),
         };
-        
     }
 }

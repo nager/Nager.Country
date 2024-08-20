@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Laos"),
             new TranslationInfo(LanguageCode.ZH, "老挝"),
         };
-        
     }
 }

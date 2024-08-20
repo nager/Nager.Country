@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Sent-Vinsent va Grenadin"),
             new TranslationInfo(LanguageCode.ZH, "圣文森及格瑞那丁"),
         };
-        
     }
 }

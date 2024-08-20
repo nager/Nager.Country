@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gvadelupe"),
             new TranslationInfo(LanguageCode.ZH, "瓜德罗普"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Tuvalu"),
             new TranslationInfo(LanguageCode.ZH, "图瓦卢"),
         };
-        
     }
 }

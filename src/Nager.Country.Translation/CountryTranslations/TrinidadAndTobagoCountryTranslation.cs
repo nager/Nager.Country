@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Trinidad va Tobago"),
             new TranslationInfo(LanguageCode.ZH, "千里达及托巴哥"),
         };
-        
     }
 }

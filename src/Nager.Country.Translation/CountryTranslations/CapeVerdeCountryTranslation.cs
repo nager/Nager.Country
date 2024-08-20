@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kabo-Verde"),
             new TranslationInfo(LanguageCode.ZH, "佛得角"),
         };
-        
     }
 }

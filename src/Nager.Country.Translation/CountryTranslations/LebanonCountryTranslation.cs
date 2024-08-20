@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Livan"),
             new TranslationInfo(LanguageCode.ZH, "黎巴嫩"),
         };
-        
     }
 }

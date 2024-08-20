@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Birlashgan Arab Amirliklari"),
             new TranslationInfo(LanguageCode.ZH, "阿联酋"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Quvayt"),
             new TranslationInfo(LanguageCode.ZH, "科威特"),
         };
-        
     }
 }

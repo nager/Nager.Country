@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gaiti"),
             new TranslationInfo(LanguageCode.ZH, "海地"),
         };
-        
     }
 }

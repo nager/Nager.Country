@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kosta-Rika"),
             new TranslationInfo(LanguageCode.ZH, "哥斯达黎加"),
         };
-        
     }
 }

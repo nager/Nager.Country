@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Makedoniya"),
             new TranslationInfo(LanguageCode.ZH, "北马其顿"),
         };
-        
     }
 }

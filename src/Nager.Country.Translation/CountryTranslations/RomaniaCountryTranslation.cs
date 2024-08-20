@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Ruminiya"),
             new TranslationInfo(LanguageCode.ZH, "罗马尼亚"),
         };
-        
     }
 }

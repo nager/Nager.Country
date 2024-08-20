@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gonduras"),
             new TranslationInfo(LanguageCode.ZH, "宏都拉斯"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Somali"),
             new TranslationInfo(LanguageCode.ZH, "索马利亚"),
         };
-        
     }
 }

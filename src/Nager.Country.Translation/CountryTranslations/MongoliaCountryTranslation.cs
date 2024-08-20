@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Mongoliya"),
             new TranslationInfo(LanguageCode.ZH, "蒙古"),
         };
-        
     }
 }

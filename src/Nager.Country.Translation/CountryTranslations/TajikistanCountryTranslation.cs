@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Tojikiston"),
             new TranslationInfo(LanguageCode.ZH, "塔吉克斯坦"),
         };
-        
     }
 }

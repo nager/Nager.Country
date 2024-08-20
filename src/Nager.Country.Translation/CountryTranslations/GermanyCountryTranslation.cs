@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Germaniya"),
             new TranslationInfo(LanguageCode.ZH, "德国"),
         };
-        
     }
 }

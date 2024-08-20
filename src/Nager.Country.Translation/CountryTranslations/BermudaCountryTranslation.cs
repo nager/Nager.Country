@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Bermuda orollari"),
             new TranslationInfo(LanguageCode.ZH, "百慕大"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Ozarbayjon"),
             new TranslationInfo(LanguageCode.ZH, "阿塞拜疆"),
         };
-        
     }
 }

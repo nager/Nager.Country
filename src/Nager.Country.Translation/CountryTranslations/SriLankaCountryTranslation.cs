@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Shri-Lanka"),
             new TranslationInfo(LanguageCode.ZH, "斯里兰卡"),
         };
-        
     }
 }

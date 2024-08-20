@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Sen-Bartelemi"),
             new TranslationInfo(LanguageCode.ZH, "圣巴泰勒米"),
         };
-        
     }
 }

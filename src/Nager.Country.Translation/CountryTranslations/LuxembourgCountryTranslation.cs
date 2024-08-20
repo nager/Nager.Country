@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Lyuksemburg"),
             new TranslationInfo(LanguageCode.ZH, "卢森堡"),
         };
-        
     }
 }

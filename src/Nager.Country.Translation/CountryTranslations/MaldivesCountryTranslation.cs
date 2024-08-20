@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Maldiv orollari"),
             new TranslationInfo(LanguageCode.ZH, "马尔地夫"),
         };
-        
     }
 }

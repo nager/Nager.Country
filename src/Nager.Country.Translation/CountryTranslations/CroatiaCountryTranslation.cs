@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Xorvatiya"),
             new TranslationInfo(LanguageCode.ZH, "克罗地亚"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Tonga"),
             new TranslationInfo(LanguageCode.ZH, "汤加"),
         };
-        
     }
 }

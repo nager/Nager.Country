@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Tailand"),
             new TranslationInfo(LanguageCode.ZH, "泰国"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Samoa"),
             new TranslationInfo(LanguageCode.ZH, "萨摩亚"),
         };
-        
     }
 }

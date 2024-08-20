@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Folklend orollari"),
             new TranslationInfo(LanguageCode.ZH, "福克兰群岛"),
         };
-        
     }
 }

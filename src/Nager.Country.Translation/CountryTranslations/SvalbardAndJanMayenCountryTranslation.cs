@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Svalbard va Yan-Mayen"),
             new TranslationInfo(LanguageCode.ZH, "斯瓦尔巴群岛和扬马延岛"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Italiya"),
             new TranslationInfo(LanguageCode.ZH, "意大利"),
         };
-        
     }
 }

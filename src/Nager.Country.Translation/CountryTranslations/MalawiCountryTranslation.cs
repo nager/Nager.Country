@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Malavi"),
             new TranslationInfo(LanguageCode.ZH, "马拉维"),
         };
-        
     }
 }

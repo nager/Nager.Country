@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kyurasao"),
             new TranslationInfo(LanguageCode.ZH, "库拉索"),
         };
-        
     }
 }

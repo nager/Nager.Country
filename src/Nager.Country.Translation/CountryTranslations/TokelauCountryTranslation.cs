@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Tokelau"),
             new TranslationInfo(LanguageCode.ZH, "托克劳"),
         };
-        
     }
 }

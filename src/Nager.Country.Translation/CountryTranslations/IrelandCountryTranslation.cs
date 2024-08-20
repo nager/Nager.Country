@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Irlandiya"),
             new TranslationInfo(LanguageCode.ZH, "爱尔兰"),
         };
-        
     }
 }

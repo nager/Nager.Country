@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Burkina-Faso"),
             new TranslationInfo(LanguageCode.ZH, "布吉纳法索"),
         };
-        
     }
 }

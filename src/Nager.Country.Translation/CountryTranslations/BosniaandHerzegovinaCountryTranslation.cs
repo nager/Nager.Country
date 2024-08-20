@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Bosniya va Gertsegovina"),
             new TranslationInfo(LanguageCode.ZH, "波斯尼亚和黑塞哥维那"),
         };
-        
     }
 }

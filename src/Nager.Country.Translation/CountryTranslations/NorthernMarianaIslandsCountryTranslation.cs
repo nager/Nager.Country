@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Mariana orollari"),
             new TranslationInfo(LanguageCode.ZH, "北马里亚纳群岛"),
         };
-        
     }
 }

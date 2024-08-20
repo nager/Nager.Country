@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Rojdestvo oroli"),
             new TranslationInfo(LanguageCode.ZH, "圣诞岛"),
         };
-        
     }
 }

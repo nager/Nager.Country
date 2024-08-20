@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Venesuela"),
             new TranslationInfo(LanguageCode.ZH, "委内瑞拉"),
         };
-        
     }
 }

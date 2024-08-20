@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Panama"),
             new TranslationInfo(LanguageCode.ZH, "巴拿马"),
         };
-        
     }
 }

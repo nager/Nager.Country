@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Janubiy Koreya"),
             new TranslationInfo(LanguageCode.ZH, "韩国"),
         };
-        
     }
 }

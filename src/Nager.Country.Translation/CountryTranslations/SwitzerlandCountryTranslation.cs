@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Shveytsariya"),
             new TranslationInfo(LanguageCode.ZH, "瑞士"),
         };
-        
     }
 }

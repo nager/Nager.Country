@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Meksika"),
             new TranslationInfo(LanguageCode.ZH, "墨西哥"),
         };
-        
     }
 }

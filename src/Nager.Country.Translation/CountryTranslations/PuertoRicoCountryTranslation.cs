@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Puerto-Riko"),
             new TranslationInfo(LanguageCode.ZH, "波多黎各"),
         };
-        
     }
 }

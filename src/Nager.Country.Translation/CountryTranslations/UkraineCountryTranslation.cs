@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Ukraina"),
             new TranslationInfo(LanguageCode.ZH, "乌克兰"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Yamayka"),
             new TranslationInfo(LanguageCode.ZH, "牙买加"),
         };
-        
     }
 }

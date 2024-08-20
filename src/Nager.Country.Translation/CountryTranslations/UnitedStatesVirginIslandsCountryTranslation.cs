@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "AQSH Virgin orollari"),
             new TranslationInfo(LanguageCode.ZH, "美属维尔京群岛"),
         };
-        
     }
 }

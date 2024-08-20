@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Lixtenshteyn"),
             new TranslationInfo(LanguageCode.ZH, "列支敦斯登"),
         };
-        
     }
 }

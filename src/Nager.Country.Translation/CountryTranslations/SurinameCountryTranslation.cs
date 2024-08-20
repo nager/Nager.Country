@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Surinam"),
             new TranslationInfo(LanguageCode.ZH, "苏里南"),
         };
-        
     }
 }

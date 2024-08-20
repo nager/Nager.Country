@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Monako"),
             new TranslationInfo(LanguageCode.ZH, "摩纳哥"),
         };
-        
     }
 }

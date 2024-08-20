@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Saudiya Arabistoni"),
             new TranslationInfo(LanguageCode.ZH, "沙乌地阿拉伯"),
         };
-        
     }
 }

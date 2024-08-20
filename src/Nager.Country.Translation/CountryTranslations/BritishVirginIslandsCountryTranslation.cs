@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Britaniya Virgin orollari"),
             new TranslationInfo(LanguageCode.ZH, "英属维尔京群岛"),
         };
-        
     }
 }

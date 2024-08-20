@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Yangi Kaledoniya"),
             new TranslationInfo(LanguageCode.ZH, "新喀里多尼亚"),
         };
-        
     }
 }

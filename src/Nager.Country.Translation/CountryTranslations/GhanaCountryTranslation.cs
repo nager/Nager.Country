@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gana"),
             new TranslationInfo(LanguageCode.ZH, "加纳"),
         };
-        
     }
 }

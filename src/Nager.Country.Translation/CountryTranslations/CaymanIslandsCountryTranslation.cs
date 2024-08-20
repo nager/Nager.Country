@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kayman orollari"),
             new TranslationInfo(LanguageCode.ZH, "开曼群岛"),
         };
-        
     }
 }

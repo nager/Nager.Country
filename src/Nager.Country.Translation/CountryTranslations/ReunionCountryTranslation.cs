@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Reyunion"),
             new TranslationInfo(LanguageCode.ZH, "留尼汪"),
         };
-        
     }
 }

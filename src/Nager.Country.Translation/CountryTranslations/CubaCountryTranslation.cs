@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kuba"),
             new TranslationInfo(LanguageCode.ZH, "古巴"),
         };
-        
     }
 }

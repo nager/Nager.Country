@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Vatikan"),
             new TranslationInfo(LanguageCode.ZH, "梵蒂冈"),
         };
-        
     }
 }

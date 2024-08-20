@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Farer orollari"),
             new TranslationInfo(LanguageCode.ZH, "法罗群岛"),
         };
-        
     }
 }

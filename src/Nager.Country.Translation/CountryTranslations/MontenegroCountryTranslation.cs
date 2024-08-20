@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Chernogoriya"),
             new TranslationInfo(LanguageCode.ZH, "蒙特内哥罗"),
         };
-        
     }
 }

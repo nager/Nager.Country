@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Salvador"),
             new TranslationInfo(LanguageCode.ZH, "萨尔瓦多"),
         };
-        
     }
 }

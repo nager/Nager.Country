@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Markaziy Afrika Respublikasi"),
             new TranslationInfo(LanguageCode.ZH, "中非"),
         };
-        
     }
 }

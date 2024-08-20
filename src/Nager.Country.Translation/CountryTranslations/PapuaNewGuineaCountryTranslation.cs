@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Papua – Yangi Gvineya"),
             new TranslationInfo(LanguageCode.ZH, "巴布亚新几内亚"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Litva"),
             new TranslationInfo(LanguageCode.ZH, "立陶宛"),
         };
-        
     }
 }

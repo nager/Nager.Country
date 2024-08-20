@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gibraltar"),
             new TranslationInfo(LanguageCode.ZH, "直布罗陀"),
         };
-        
     }
 }

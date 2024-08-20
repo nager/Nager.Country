@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Turks va Kaykos orollari"),
             new TranslationInfo(LanguageCode.ZH, "特克斯和凯科斯群岛"),
         };
-        
     }
 }

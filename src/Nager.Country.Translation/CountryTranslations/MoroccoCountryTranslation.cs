@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Marokash"),
             new TranslationInfo(LanguageCode.ZH, "摩洛哥"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Mali"),
             new TranslationInfo(LanguageCode.ZH, "马里"),
         };
-        
     }
 }

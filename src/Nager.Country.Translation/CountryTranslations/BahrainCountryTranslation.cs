@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Bahrayn"),
             new TranslationInfo(LanguageCode.ZH, "巴林"),
         };
-        
     }
 }

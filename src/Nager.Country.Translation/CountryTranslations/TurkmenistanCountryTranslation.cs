@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Turkmaniston"),
             new TranslationInfo(LanguageCode.ZH, "土库曼斯坦"),
         };
-        
     }
 }

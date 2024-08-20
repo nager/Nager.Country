@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Sent-Kits va Nevis"),
             new TranslationInfo(LanguageCode.ZH, "圣基茨和尼维斯"),
         };
-        
     }
 }

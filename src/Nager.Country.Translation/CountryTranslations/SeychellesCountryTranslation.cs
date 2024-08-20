@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Seyshel orollari"),
             new TranslationInfo(LanguageCode.ZH, "塞舌尔"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kongo – Brazzavil"),
             new TranslationInfo(LanguageCode.ZH, "刚果（布)"),
         };
-        
     }
 }

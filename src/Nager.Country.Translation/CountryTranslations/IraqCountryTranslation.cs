@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Iroq"),
             new TranslationInfo(LanguageCode.ZH, "伊拉克"),
         };
-        
     }
 }

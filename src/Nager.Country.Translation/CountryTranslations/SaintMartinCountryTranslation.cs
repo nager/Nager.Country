@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Sent-Martin"),
             new TranslationInfo(LanguageCode.ZH, "法属圣马丁"),
         };
-        
     }
 }

@@ -55,6 +55,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Fransuz Gvianasi"),
             new TranslationInfo(LanguageCode.ZH, "法属圭亚那"),
         };
-        
     }
 }

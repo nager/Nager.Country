@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Niue"),
             new TranslationInfo(LanguageCode.ZH, "纽埃"),
         };
-        
     }
 }

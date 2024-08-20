@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Avstraliya"),
             new TranslationInfo(LanguageCode.ZH, "澳大利亚"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Gayana"),
             new TranslationInfo(LanguageCode.ZH, "圭亚那"),
         };
-        
     }
 }

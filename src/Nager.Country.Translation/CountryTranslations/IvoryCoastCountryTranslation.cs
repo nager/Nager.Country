@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kot-d’Ivuar"),
             new TranslationInfo(LanguageCode.ZH, "科特迪瓦"),
         };
-        
     }
 }

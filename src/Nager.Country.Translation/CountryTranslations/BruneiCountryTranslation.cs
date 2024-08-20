@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Bruney"),
             new TranslationInfo(LanguageCode.ZH, "文莱"),
         };
-        
     }
 }

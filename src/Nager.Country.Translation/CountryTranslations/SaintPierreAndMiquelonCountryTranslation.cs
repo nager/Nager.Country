@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Sen-Pyer va Mikelon"),
             new TranslationInfo(LanguageCode.ZH, "圣皮埃尔和密克隆"),
         };
-        
     }
 }

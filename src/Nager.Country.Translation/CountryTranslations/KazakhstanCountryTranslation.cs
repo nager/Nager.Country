@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Qozogʻiston"),
             new TranslationInfo(LanguageCode.ZH, "哈萨克斯坦"),
         };
-        
     }
 }

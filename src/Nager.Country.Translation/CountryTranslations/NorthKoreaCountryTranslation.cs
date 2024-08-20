@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Koreya"),
             new TranslationInfo(LanguageCode.ZH, "朝鲜"),
         };
-        
     }
 }

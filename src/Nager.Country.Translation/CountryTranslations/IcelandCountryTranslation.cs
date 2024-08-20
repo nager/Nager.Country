@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Islandiya"),
             new TranslationInfo(LanguageCode.ZH, "冰岛"),
         };
-        
     }
 }

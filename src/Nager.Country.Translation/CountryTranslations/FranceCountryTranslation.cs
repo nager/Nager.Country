@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Fransiya"),
             new TranslationInfo(LanguageCode.ZH, "法国"),
         };
-        
     }
 }

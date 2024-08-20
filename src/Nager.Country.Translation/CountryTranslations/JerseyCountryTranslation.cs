@@ -55,6 +55,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Jersi"),
             new TranslationInfo(LanguageCode.ZH, "泽西"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Chexiya"),
             new TranslationInfo(LanguageCode.ZH, "捷克"),
         };
-        
     }
 }

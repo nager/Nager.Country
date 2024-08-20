@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kipr"),
             new TranslationInfo(LanguageCode.ZH, "赛普勒斯"),
         };
-        
     }
 }

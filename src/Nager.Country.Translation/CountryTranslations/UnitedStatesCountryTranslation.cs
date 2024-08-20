@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Amerika Qo‘shma Shtatlari"),
             new TranslationInfo(LanguageCode.ZH, "美国"),
         };
-        
     }
 }

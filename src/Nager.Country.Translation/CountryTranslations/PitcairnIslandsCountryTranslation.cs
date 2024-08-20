@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Pitkern orollari"),
             new TranslationInfo(LanguageCode.ZH, "皮特凯恩群岛"),
         };
-        
     }
 }

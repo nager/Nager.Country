@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Myanma (Birma)"),
             new TranslationInfo(LanguageCode.ZH, "缅甸"),
         };
-        
     }
 }

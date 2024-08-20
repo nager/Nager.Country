@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Madagaskar"),
             new TranslationInfo(LanguageCode.ZH, "马达加斯加"),
         };
-        
     }
 }

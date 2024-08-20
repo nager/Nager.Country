@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Vanuatu"),
             new TranslationInfo(LanguageCode.ZH, "瓦努阿图"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Ispaniya"),
             new TranslationInfo(LanguageCode.ZH, "西班牙"),
         };
-        
     }
 }

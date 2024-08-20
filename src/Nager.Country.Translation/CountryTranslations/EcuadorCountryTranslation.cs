@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Ekvador"),
             new TranslationInfo(LanguageCode.ZH, "厄瓜多尔"),
         };
-        
     }
 }

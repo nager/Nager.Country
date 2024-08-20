@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Hindiston"),
             new TranslationInfo(LanguageCode.ZH, "印度"),
         };
-        
     }
 }

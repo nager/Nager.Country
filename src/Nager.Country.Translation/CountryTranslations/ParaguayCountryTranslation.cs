@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Paragvay"),
             new TranslationInfo(LanguageCode.ZH, "巴拉圭"),
         };
-        
     }
 }

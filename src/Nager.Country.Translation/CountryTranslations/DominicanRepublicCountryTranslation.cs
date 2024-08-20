@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Dominikan Respublikasi"),
             new TranslationInfo(LanguageCode.ZH, "多米尼加"),
         };
-        
     }
 }

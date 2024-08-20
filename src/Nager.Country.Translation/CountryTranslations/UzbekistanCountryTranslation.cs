@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Oʻzbekiston"),
             new TranslationInfo(LanguageCode.ZH, "乌兹别克斯坦"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Falastin hududi"),
             new TranslationInfo(LanguageCode.ZH, "巴勒斯坦"),
         };
-        
     }
 }

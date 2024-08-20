@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Chili"),
             new TranslationInfo(LanguageCode.ZH, "智利"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "San-Marino"),
             new TranslationInfo(LanguageCode.ZH, "圣马力诺"),
         };
-        
     }
 }

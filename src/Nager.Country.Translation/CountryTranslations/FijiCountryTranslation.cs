@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Fiji"),
             new TranslationInfo(LanguageCode.ZH, "斐济"),
         };
-        
     }
 }

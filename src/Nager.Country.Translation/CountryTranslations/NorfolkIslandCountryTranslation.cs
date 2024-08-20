@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Norfolk oroli"),
             new TranslationInfo(LanguageCode.ZH, "诺福克岛"),
         };
-        
     }
 }

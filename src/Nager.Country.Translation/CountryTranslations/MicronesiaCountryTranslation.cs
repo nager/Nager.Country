@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Mikroneziya"),
             new TranslationInfo(LanguageCode.ZH, "密克罗尼西亚联邦"),
         };
-        
     }
 }

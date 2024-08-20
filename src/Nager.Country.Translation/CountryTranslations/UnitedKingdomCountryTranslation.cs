@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Buyuk Britaniya"),
             new TranslationInfo(LanguageCode.ZH, "英国"),
         };
-        
     }
 }

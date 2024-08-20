@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kokos (Kiling) orollari"),
             new TranslationInfo(LanguageCode.ZH, "科科斯（基林）群岛"),
         };
-        
     }
 }

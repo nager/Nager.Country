@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Chad"),
             new TranslationInfo(LanguageCode.ZH, "乍得"),
         };
-        
     }
 }

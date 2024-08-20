@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Kolumbiya"),
             new TranslationInfo(LanguageCode.ZH, "哥伦比亚"),
         };
-        
     }
 }

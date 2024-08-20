@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Grenlandiya"),
             new TranslationInfo(LanguageCode.ZH, "格陵兰"),
         };
-        
     }
 }

@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Senegal"),
             new TranslationInfo(LanguageCode.ZH, "塞内加尔"),
         };
-        
     }
 }

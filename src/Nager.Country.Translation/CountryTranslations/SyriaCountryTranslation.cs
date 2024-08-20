@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Suriya"),
             new TranslationInfo(LanguageCode.ZH, "叙利亚"),
         };
-        
     }
 }

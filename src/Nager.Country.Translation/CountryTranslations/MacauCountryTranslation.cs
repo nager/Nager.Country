@@ -56,6 +56,5 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.UZ, "Makao (Xitoy MMH)"),
             new TranslationInfo(LanguageCode.ZH, "澳门"),
         };
-        
     }
 }
