@@ -3,8 +3,13 @@ using System.Linq;
 
 namespace Nager.Country.Translation
 {
+    /// <summary>
+    /// CountryProvider Extension
+    /// </summary>
     public static class CountryProviderExtension
     {
+        private static readonly Lazy<TranslationProvider> TranslationProvider = new Lazy<TranslationProvider>();
+
         ///<inheritdoc/>
         public static ICountryInfo GetCountryByNameConsiderTranslation(
             this ICountryProvider countryProvider,
@@ -24,9 +29,8 @@ namespace Nager.Country.Translation
                     return country;
                 }
 
-                var translationProvider = new TranslationProvider();
-                var countryTranslation = translationProvider.GetCountryTranslation(country.Alpha2Code);
-                if (countryTranslation.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
+                var countryTanslation = TranslationProvider.Value.GetCountryTranslation(country.Alpha2Code);
+                if (countryTanslation.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
                 {
                     return country;
                 }
