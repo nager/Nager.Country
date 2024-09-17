@@ -6,18 +6,20 @@ public class SubdivisionTranslationProvider : ISubdivisionTranslationProvider
 {
 	private static readonly ISubdivisionTranslation EmptyTranslation = new EmptySubdivisionTranslation();
 
-	private readonly Dictionary<SubdivisionCode, ISubdivisionTranslation> _alpha2Code2SubdivisionTranslation = [];
+	private readonly Dictionary<SubdivisionCode, ISubdivisionTranslation> _code2SubdivisionTranslation = [];
 
 	private ISubdivisionProvider _subdivisionProvider;
 
 	public SubdivisionTranslationProvider( ISubdivisionProvider subdivisionProvider = null )
 	{
 		_subdivisionProvider = subdivisionProvider;
+
+		_code2SubdivisionTranslation = SubdivisionTranslationInitializer.Create();
 	}
 
 	public ISubdivisionTranslation GetSubdivisionTranslation( SubdivisionCode code )
 	{
-		if( _alpha2Code2SubdivisionTranslation.TryGetValue( code, out var translation ) )
+		if( _code2SubdivisionTranslation.TryGetValue( code, out var translation ) )
 		{
 			return translation;
 		}
@@ -27,7 +29,7 @@ public class SubdivisionTranslationProvider : ISubdivisionTranslationProvider
 
 	public string GetSubdivisionTranslatedName( SubdivisionCode code, LanguageCode languageCode )
 	{
-		if( !_alpha2Code2SubdivisionTranslation.TryGetValue( code,
+		if( !_code2SubdivisionTranslation.TryGetValue( code,
 			out ISubdivisionTranslation subdivisionTranslation ) )
 		{
 			return null;

@@ -42,7 +42,23 @@ internal static class SubdivisionProviderInitializer
 			{ SubdivisionCode.CHVS, new ValaisSubdivisionInfo() },
 			{ SubdivisionCode.CHVD, new VaudSubdivisionInfo() },
 			{ SubdivisionCode.CHZG, new ZugSubdivisionInfo() },
-			{ SubdivisionCode.CHZH, new ZurichSubdivisionInfo() }
+			{ SubdivisionCode.CHZH, new ZurichSubdivisionInfo() },
+			{ SubdivisionCode.DEBW, new BadenWuerttembergSubdivisionInfo() },
+			{ SubdivisionCode.DEBY, new BavariaSubdivisionInfo() },
+			{ SubdivisionCode.DEBE, new BerlinSubdivisionInfo() },
+			{ SubdivisionCode.DEBB, new BrandenburgSubdivisionInfo() },
+			{ SubdivisionCode.DEHB, new BremenSubdivisionInfo() },
+			{ SubdivisionCode.DEHH, new HamburgSubdivisionInfo() },
+			{ SubdivisionCode.DEHE, new HesseSubdivisionInfo() },
+			{ SubdivisionCode.DEMV, new MecklenburgWesternPomeraniaSubdivisionInfo() },
+			{ SubdivisionCode.DENI, new LowerSaxonySubdivisionInfo() },
+			{ SubdivisionCode.DENW, new NorthRhineWestphaliaSubdivisionInfo() },
+			{ SubdivisionCode.DERP, new RhinelandPalatinateSubdivisionInfo() },
+			{ SubdivisionCode.DESL, new SaarlandSubdivisionInfo() },
+			{ SubdivisionCode.DESN, new SaxonySubdivisionInfo() },
+			{ SubdivisionCode.DEST, new SaxonyAnhaltSubdivisionInfo() },
+			{ SubdivisionCode.DESH, new SchleswigHolsteinSubdivisionInfo() },
+			{ SubdivisionCode.DETH, new ThuringiaSubdivisionInfo() }
 		};
 	}
 }	                                           
