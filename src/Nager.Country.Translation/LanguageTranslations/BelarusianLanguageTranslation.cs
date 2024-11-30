@@ -81,7 +81,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.SQ, "Bjellorusisht"),
             new TranslationInfo(LanguageCode.SR, "Белоруски"),
             new TranslationInfo(LanguageCode.SU, "Belarusian"),
-            new TranslationInfo(LanguageCode.SV, "Vitryska"),
+            new TranslationInfo(LanguageCode.SV, "Belarusiska"),
             new TranslationInfo(LanguageCode.SW, "Kibelarusi"),
             new TranslationInfo(LanguageCode.TA, "பைலோருஷ்ன்"),
             new TranslationInfo(LanguageCode.TE, "బెలరుశియన్"),
