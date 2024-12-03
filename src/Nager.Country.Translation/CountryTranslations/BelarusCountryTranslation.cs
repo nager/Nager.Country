@@ -50,7 +50,7 @@ namespace Nager.Country.Translation.CountryInfos
             new TranslationInfo(LanguageCode.SK, "Bielorusko"),
             new TranslationInfo(LanguageCode.SL, "Belorusija"),
             new TranslationInfo(LanguageCode.SR, "Белорусија"),
-            new TranslationInfo(LanguageCode.SV, "Vitryssland"),
+            new TranslationInfo(LanguageCode.SV, "Belarus"),
             new TranslationInfo(LanguageCode.TR, "Beyaz Rusya"),
             new TranslationInfo(LanguageCode.UK, "Білорусь"),
             new TranslationInfo(LanguageCode.UZ, "Belarus"),
