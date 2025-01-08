@@ -13,7 +13,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageIcon>icon.png</PackageIcon>
-    <Version>3.1.0</Version>
+    <Version>3.1.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
