@@ -38,7 +38,7 @@ namespace Nager.Country.CountryInfos
         };
 
         ///<inheritdoc/>
-        public ICurrency[] Currencies => new [] { new HrkCurrency() };
+        public ICurrency[] Currencies => new [] { new EurCurrency() };
         ///<inheritdoc/>
         public string[] CallingCodes => new [] { "385" };
     }
