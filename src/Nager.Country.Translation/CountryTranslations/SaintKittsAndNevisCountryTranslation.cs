@@ -1,11 +1,11 @@
-namespace Nager.Country.Translation.CountryInfos
+namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Saint Kitts and Nevis
     /// </summary>
     public class SaintKittsAndNevisCountryTranslation : ICountryTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
             new TranslationInfo(LanguageCode.AR, "سانت كيتس ونيفيس"),

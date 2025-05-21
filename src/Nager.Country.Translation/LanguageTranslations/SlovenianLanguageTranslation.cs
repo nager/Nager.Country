@@ -2,12 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class SlovenianLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Slovenian";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Slovenski jezik, Slovenščina";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Slovene"),
@@ -96,7 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "斯洛文尼亚"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.SL;
     }
 }

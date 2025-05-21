@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class XafCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "FCFA";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "XAF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "950";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Central African CFA Franc";
     }
 }

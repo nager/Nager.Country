@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class SwitzerlandCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Switzerland";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Swiss Confederation";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Schweiz";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CH;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CHE;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 756;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".ch" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Europe;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternEurope;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AT,
@@ -37,9 +37,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.DE,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new ChfCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "41" };
     }
 }

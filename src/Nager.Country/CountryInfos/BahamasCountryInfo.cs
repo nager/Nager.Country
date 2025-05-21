@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class BahamasCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Bahamas";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Commonwealth of the Bahamas";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Bahamas";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BS;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BHS;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 044;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".bs" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Americas;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.Caribbean;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new BsdCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "1242" };
     }
 }

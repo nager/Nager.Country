@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class TwdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "NT$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "TWD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "901";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "New Taiwan Dollar";
     }
 }

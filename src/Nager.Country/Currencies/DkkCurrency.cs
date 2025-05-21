@@ -5,22 +5,22 @@
     /// </summary>
     public class DkkCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "kr.";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "krone";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "kroner";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "DKK";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "208";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Danish krone";
     }
 }

@@ -1,13 +1,17 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// German
+    /// </summary>
     public class GermanLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "German";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string OfficialName => "Deutsch";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Duits"),
@@ -96,7 +100,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "德"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.DE;
     }
 }

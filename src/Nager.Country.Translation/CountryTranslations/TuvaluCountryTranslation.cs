@@ -1,11 +1,11 @@
-namespace Nager.Country.Translation.CountryInfos
+namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Tuvalu
     /// </summary>
     public class TuvaluCountryTranslation : ICountryTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
             new TranslationInfo(LanguageCode.AR, "توفالو"),

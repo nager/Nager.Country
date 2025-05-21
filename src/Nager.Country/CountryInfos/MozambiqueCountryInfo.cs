@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class MozambiqueCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Mozambique";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Republic of Mozambique";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Moçambique";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MZ;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MOZ;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 508;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".mz" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Africa;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternAfrica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.MW,
@@ -38,9 +38,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ZW,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new MznCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "258" };
     }
 }

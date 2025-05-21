@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class SolomonIslandsCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Solomon Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Solomon Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Solomon Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SB;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SLB;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 090;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".sb" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Oceania;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.Melanesia;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new SbdCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "677" };
     }
 }

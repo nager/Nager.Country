@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class SouthGeorgiaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "South Georgia";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "South Georgia and the South Sandwich Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "South Georgia";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GS;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SGS;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 239;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".gs" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Antarctic;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.None;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new GbpCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "500" };
     }
 }

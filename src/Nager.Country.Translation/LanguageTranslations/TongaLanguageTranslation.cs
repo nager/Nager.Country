@@ -2,12 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class TongaLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Tonga";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Faka Tonga";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Tonga (Tonga Eilande)"),
@@ -96,7 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "Tonga(汤加岛)"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.TO;
     }
 }

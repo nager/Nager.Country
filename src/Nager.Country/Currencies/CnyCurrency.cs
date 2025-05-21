@@ -5,22 +5,22 @@
     /// </summary>
     public class CnyCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "¥";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "renminbi";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "renminbi";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CNY";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "156";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Renminbi";
     }
 }

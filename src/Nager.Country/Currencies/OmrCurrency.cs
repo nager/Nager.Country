@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class OmrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ر.ع.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "OMR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "512";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Omani Rial";
     }
 }

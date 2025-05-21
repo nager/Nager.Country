@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class UnitedStatesMinorOutlyingIslandsCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "United States Minor Outlying Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "United States Minor Outlying Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "United States Minor Outlying Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.UM;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.UMI;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 581;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".us" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Americas;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthAmerica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new UsdCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new string[0];
     }
 }

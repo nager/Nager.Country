@@ -7,36 +7,36 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class SierraLeoneCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Sierra Leone";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Republic of Sierra Leone";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Sierra Leone";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SL;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SLE;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 694;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".sl" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Africa;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAfrica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.GN,
             Alpha2Code.LR,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new SllCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "232" };
     }
 }

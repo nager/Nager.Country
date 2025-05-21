@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class PygCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₲";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "PYG";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "600";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Paraguayan Guarani";
     }
 }

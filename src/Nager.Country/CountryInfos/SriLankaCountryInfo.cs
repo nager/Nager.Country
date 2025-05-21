@@ -7,35 +7,35 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class SriLankaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Sri Lanka";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Democratic Socialist Republic of Sri Lanka";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "śrī laṃkāva";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LK;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LKA;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 144;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".lk", ".இலங்கை", ".ලංකා" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Asia;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthernAsia;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.IN,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new LkrCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "94" };
     }
 }

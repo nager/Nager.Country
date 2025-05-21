@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class VietnamCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Vietnam";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Socialist Republic of Vietnam";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Việt Nam";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.VN;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.VNM;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 704;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".vn" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Asia;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthEasternAsia;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.KH,
@@ -35,9 +35,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.LA,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new VndCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "84" };
     }
 }

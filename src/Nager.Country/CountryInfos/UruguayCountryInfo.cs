@@ -7,36 +7,36 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class UruguayCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Uruguay";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Oriental Republic of Uruguay";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Uruguay";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.UY;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.URY;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 858;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".uy" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Americas;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthAmerica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AR,
             Alpha2Code.BR,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new UyuCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "598" };
     }
 }

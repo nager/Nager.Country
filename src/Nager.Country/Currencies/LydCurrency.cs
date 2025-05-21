@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class LydCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "د.ل.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "LYD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "434";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Libyan Dinar";
     }
 }

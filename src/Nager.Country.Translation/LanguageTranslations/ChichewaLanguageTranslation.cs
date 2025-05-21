@@ -1,13 +1,17 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Chichewa
+    /// </summary>
     public class ChichewaLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Chichewa";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string OfficialName => "chiCheŵa, chinyanja";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Chichewa, Chewa, Domain"),
@@ -96,7 +100,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "奇切瓦文中，Chewa中，Nyanja"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.NY;
     }
 }

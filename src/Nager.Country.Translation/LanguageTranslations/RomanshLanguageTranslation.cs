@@ -2,12 +2,12 @@ namespace Nager.Country.Translation.LanguageTranslations
 {
     public class RomanshLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Romansh";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Rumantsch Grischun";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Romaans"),
@@ -96,7 +96,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "罗曼什语"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.RM;
     }
 }

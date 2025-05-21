@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class MayotteCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Mayotte";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Department of Mayotte";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Mayotte";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.YT;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MYT;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 175;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".yt" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Africa;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternAfrica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new EurCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "262" };
     }
 }

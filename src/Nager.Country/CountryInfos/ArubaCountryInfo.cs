@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class ArubaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Aruba";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Aruba";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Aruba";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AW;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ABW;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 533;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".aw" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Americas;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.Caribbean;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new AwgCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "297" };
     }
 }

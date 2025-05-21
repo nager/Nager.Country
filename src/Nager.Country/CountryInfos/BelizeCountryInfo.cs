@@ -7,36 +7,36 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class BelizeCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Belize";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Belize";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Belize";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BZ;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BLZ;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 084;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".bz" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Americas;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.CentralAmerica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.GT,
             Alpha2Code.MX,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new BzdCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "501" };
     }
 }

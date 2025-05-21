@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class NorthKoreaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "North Korea";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Democratic People's Republic of Korea";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "북한";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KP;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PRK;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 408;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".kp" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Asia;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternAsia;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.CN,
@@ -35,9 +35,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.RU,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new KpwCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "850" };
     }
 }

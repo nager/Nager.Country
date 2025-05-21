@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class UgandaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Uganda";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Republic of Uganda";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Uganda";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.UG;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.UGA;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 800;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".ug" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Africa;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternAfrica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.CD,
@@ -37,9 +37,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TZ,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new UgxCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "256" };
     }
 }

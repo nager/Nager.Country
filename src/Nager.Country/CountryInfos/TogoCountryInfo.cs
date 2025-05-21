@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class TogoCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Togo";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Togolese Republic";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Togo";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TG;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TGO;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 768;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".tg" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Africa;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAfrica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.BJ,
@@ -35,9 +35,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.GH,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new XofCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "228" };
     }
 }

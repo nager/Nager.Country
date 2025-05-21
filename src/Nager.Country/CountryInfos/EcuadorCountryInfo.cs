@@ -7,36 +7,36 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class EcuadorCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Ecuador";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Republic of Ecuador";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Ecuador";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.EC;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ECU;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 218;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".ec" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Americas;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthAmerica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.CO,
             Alpha2Code.PE,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new UsdCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "593" };
     }
 }

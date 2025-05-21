@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class GeorgiaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Georgia";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Georgia";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "საქართველო";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GE;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GEO;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 268;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".ge" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Asia;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAsia;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AM,
@@ -36,9 +36,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.TR,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new GelCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "995" };
     }
 }

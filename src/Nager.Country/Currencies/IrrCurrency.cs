@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class IrrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ريال";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "IRR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "364";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Iranian Rial";
     }
 }

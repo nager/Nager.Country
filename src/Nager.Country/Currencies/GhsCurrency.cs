@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class GhsCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "GH₵";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "GHS";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "936";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Ghanaian cedi";
     }
 }

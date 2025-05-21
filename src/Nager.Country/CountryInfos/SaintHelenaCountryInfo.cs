@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class SaintHelenaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Saint Helena, Ascension and Tristan da Cunha";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Saint Helena, Ascension and Tristan da Cunha";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Saint Helena";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SH;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SHN;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 654;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new[] { ".sh", ".ac" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Africa;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAfrica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AR,
@@ -37,9 +37,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.PE,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new ICurrency[] { new ShpCurrency(), new GbpCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new[] { "290", "247" };
     }
 }

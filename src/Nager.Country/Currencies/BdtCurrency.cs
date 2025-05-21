@@ -5,22 +5,22 @@
     /// </summary>
     public class BdtCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "৳";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "taka";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BDT";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "050";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Bangladeshi taka";
     }
 }

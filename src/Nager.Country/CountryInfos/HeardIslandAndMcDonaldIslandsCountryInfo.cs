@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class HeardIslandAndMcDonaldIslandsCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Heard Island and McDonald Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Heard Island and McDonald Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Heard Island and McDonald Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HM;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.HMD;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 334;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".hm", ".aq" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Antarctic;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.None;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new AudCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new string[0];
     }
 }

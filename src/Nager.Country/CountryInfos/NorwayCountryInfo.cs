@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class NorwayCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Norway";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Kingdom of Norway";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Norge";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.NO;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.NOR;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 578;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".no" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Europe;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthernEurope;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.FI,
@@ -35,9 +35,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.RU,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new NokCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "47" };
     }
 }

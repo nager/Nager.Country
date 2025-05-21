@@ -5,22 +5,22 @@
     /// </summary>
     public class AznCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₼";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "manat";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "AZN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "944";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Azerbaijani manat";
     }
 }

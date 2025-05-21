@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class JpyCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "¥";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "JPY";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "392";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Japanese Yen";
     }
 }

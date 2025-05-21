@@ -7,36 +7,36 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class LebanonCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Lebanon";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Lebanese Republic";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "لبنان";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LB;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LBN;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 422;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".lb" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Asia;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAsia;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.IL,
             Alpha2Code.SY,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new LbpCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "961" };
     }
 }

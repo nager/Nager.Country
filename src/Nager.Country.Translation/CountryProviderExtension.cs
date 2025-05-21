@@ -10,7 +10,7 @@ namespace Nager.Country.Translation
     {
         private static readonly Lazy<TranslationProvider> TranslationProvider = new Lazy<TranslationProvider>();
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public static ICountryInfo GetCountryByNameConsiderTranslation(
             this ICountryProvider countryProvider,
             string countryName)

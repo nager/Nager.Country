@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class SarCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ر.س.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "SAR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "682";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Saudi Riyal";
     }
 }

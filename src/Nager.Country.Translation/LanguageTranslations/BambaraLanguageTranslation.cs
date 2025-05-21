@@ -5,12 +5,13 @@ namespace Nager.Country.Translation.LanguageTranslations
     /// </summary>
     public class BambaraLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Bambara";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string OfficialName => "bamanankan";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Bambara"),
@@ -99,7 +100,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "班巴拉"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.BM;
     }
 }

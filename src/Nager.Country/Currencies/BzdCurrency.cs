@@ -5,22 +5,22 @@
     /// </summary>
     public class BzdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dollars";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BZD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "084";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Belize dollar";
     }
 }

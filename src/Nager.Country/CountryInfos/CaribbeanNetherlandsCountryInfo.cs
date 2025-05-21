@@ -7,32 +7,32 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class CaribbeanNetherlandsCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Caribbean Netherlands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Caribbean Netherlands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Caribbean Netherlands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BQ;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BES;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 535;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new[] { ".bq", ".nl" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Americas;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.Caribbean;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[0];
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new[] { new UsdCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new[] { "599" };
     }
 }

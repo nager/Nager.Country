@@ -5,12 +5,13 @@ namespace Nager.Country.Translation.LanguageTranslations
     /// </summary>
     public class AymaraLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Aymara";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string OfficialName => "aymar aru";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Aymara"),
@@ -99,7 +100,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "艾马拉"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.AY;
     }
 }

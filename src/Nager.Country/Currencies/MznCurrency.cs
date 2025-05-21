@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MznCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "MT";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MZN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "943";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Mozambican metical";
     }
 }

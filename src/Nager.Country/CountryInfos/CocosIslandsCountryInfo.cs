@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class CocosIslandsCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Cocos (Keeling) Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Territory of the Cocos (Keeling) Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Cocos (Keeling) Islands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CC;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CCK;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 166;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".cc" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Oceania;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.AustraliaAndNewZealand;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new AudCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "61" };
     }
 }

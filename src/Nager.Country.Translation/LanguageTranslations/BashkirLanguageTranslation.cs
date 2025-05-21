@@ -5,12 +5,13 @@ namespace Nager.Country.Translation.LanguageTranslations
     /// </summary>
     public class BashkirLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Bashkir";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string OfficialName => "башҡорт теле";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Bashkir"),
@@ -99,7 +100,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "巴什基尔"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.BA;
     }
 }

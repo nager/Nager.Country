@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class TjsCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "смн";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "TJS";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "972";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Tajikistani Somoni";
     }
 }

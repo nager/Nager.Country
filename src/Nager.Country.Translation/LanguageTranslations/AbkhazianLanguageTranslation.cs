@@ -5,12 +5,13 @@ namespace Nager.Country.Translation.LanguageTranslations
     /// </summary>
     public class AbkhazianLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Abkhazian";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string OfficialName => "аҧсуа бызшәа, аҧсшәа";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Abchazische"),
@@ -99,7 +100,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "阿布哈兹"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.AB;
     }
 }

@@ -5,22 +5,22 @@
     /// </summary>
     public class CveCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "escudo";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "escudo";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CVE";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "132";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Cape Verdean escudo";
     }
 }

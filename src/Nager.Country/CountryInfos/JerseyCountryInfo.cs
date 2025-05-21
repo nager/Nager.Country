@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class JerseyCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Jersey";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Bailiwick of Jersey";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Jersey";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.JE;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.JEY;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 832;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".je" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Europe;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthernEurope;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new GbpCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "44" };
     }
 }

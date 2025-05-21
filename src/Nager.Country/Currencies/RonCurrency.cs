@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class RonCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "lei";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "RON";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "946";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Romanian Leu";
     }
 }

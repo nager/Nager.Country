@@ -5,22 +5,22 @@
     /// </summary>
     public class ErnCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Nfk";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "nakfa";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "nakfa";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "ERN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "232";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Eritrean nakfa";
     }
 }

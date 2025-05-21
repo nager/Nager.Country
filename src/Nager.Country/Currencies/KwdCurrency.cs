@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class KwdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "د.ك.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "KWD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "414";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Kuwaiti Dinar";
     }
 }

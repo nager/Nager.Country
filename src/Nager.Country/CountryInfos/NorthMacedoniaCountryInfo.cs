@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class NorthMacedoniaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "North Macedonia";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Republic of North Macedonia";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Северна Македонија";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MK;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MKD;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 807;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".mk" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Europe;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthernEurope;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.AL,
@@ -36,9 +36,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.RS,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] {new MkdCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "389" };
     }
 }

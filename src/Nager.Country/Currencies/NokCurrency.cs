@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class NokCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "kr";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "NOK";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "578";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Norwegian Krone";
     }
 }

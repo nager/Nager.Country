@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class UyuCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "UYU";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "858";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Uruguayan Peso";
     }
 }

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class GydCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "GYD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "328";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Guyanese dollar";
     }
 }

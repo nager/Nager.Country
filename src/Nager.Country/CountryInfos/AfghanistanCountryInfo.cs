@@ -7,26 +7,26 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class AfghanistanCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Afghanistan";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Islamic Republic of Afghanistan";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "افغانستان";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AF;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.AFG;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 004;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".af" };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Asia;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthernAsia;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.IR,
@@ -37,10 +37,10 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.CN,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new AfnCurrency() };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "93" };
     }
 }

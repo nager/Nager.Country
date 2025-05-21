@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class PhpCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₱";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "PHP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "608";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Philippine Piso";
     }
 }

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class ZmwCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "K";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "kwacha";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "ZMW";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "967";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Zambian kwacha";
     }
 }

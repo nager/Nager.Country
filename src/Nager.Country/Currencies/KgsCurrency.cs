@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class KgsCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "сом";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "KGS";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "417";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Kyrgystani Som";
     }
 }

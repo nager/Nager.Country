@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MxnCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MXN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "484";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Mexican Peso";
     }
 }

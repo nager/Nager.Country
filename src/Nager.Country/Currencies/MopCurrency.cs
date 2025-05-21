@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MopCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "MOP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MOP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "446";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Macanese Pataca";
     }
 }

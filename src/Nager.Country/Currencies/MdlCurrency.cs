@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MdlCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "L";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MDL";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "498";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Moldovan Leu";
     }
 }

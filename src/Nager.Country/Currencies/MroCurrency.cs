@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MroCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "UM";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MRO";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "478";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "	Mauritanian ouguiya";
     }
 }

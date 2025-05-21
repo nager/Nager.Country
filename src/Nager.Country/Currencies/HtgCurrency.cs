@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class HtgCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "G";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "HTG";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "332";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Haitian Gourde";
     }
 }

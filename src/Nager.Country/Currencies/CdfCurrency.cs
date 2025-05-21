@@ -5,22 +5,22 @@
     /// </summary>
     public class CdfCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "FC";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "franc";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "francs";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CDF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "976";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Congolese franc";
     }
 }

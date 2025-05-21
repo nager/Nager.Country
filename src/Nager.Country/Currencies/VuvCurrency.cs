@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class VuvCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "VT";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "vatu";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "VUV";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "548";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Vanuatu vatu";
     }
 }

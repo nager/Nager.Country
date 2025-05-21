@@ -5,22 +5,22 @@
     /// </summary>
     public class FkpCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "£";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "pound";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "pence";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "FKP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "238";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Falkland Islands pound";
     }
 }

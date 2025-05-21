@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class GnfCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "FG";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "GNF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "324";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Guinean franc";
     }
 }

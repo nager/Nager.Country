@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MgaCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Ar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MGA";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "969";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Malagasy ariary";
     }
 }

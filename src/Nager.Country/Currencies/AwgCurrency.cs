@@ -5,22 +5,22 @@
     /// </summary>
     public class AwgCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Afl";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "florin";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "florin";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "AWG";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "533";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Aruban florin";
     }
 }

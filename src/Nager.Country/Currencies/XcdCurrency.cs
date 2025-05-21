@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class XcdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "EC$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "XCD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "951";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "East Caribbean Dollar";
     }
 }

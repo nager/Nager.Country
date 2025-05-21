@@ -5,22 +5,22 @@
     /// </summary>
     public class MurCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₨";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MUR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "480";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Mauritian rupee";
     }
 }

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class HkdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "HKD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "344";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Hong Kong Dollar";
     }
 }

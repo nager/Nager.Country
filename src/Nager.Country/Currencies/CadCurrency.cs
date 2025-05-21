@@ -5,22 +5,22 @@
     /// </summary>
     public class CadCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dollars";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CAD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "124";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Canadian dollar";
     }
 }

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class ScrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "SCR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "rupee";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "SCR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "690";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Seychelles rupee";
     }
 }

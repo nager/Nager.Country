@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MwkCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "K";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "kwacha";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "kwacha";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MWK";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "454";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Malawian kwacha";
     }
 }

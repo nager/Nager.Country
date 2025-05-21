@@ -5,22 +5,22 @@
     /// </summary>
     public class SvcCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₡";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "colón";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "colón";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "SVC";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "222";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Salvadoran colón";
     }
 }

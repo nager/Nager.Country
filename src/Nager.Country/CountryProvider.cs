@@ -281,13 +281,13 @@ namespace Nager.Country
             #endregion
         }
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public IEnumerable<ICountryInfo> GetCountries()
         {
             return this._alpha2Code2CountryInfo.Values;
         }
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICountryInfo GetCountry(string alpha2or3Code)
         {
             if (Enum.TryParse(alpha2or3Code, true, out Alpha2Code alpha2Code))
@@ -303,7 +303,7 @@ namespace Nager.Country
             throw new UnknownCountryException($"Cannot found a country for code {alpha2or3Code}");
         }
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public bool TryGetCountry(string alpha2or3Code, out ICountryInfo countryInfo)
         {
             if (Enum.TryParse(alpha2or3Code, true, out Alpha2Code alpha2Code))
@@ -322,7 +322,7 @@ namespace Nager.Country
             return false;
         }
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICountryInfo GetCountry(Alpha2Code alpha2Code)
         {
             if (this._alpha2Code2CountryInfo.TryGetValue(alpha2Code, out ICountryInfo countryInfo))
@@ -333,7 +333,7 @@ namespace Nager.Country
             throw new UnknownCountryException($"Cannot found a country for code {alpha2Code}");
         }
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICountryInfo GetCountry(Alpha3Code alpha3Code)
         {
             if (this._alpha3Code2CountryInfo.TryGetValue(alpha3Code, out ICountryInfo countryInfo))
@@ -344,7 +344,7 @@ namespace Nager.Country
             throw new UnknownCountryException($"Cannot found a country for code {alpha3Code}");
         }
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICountryInfo GetCountryByName(string countryName)
         {
             foreach (var countryInfo in this._alpha2Code2CountryInfo.Values)

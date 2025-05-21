@@ -7,35 +7,35 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class DominicanRepublicCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Dominican Republic";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Dominican Republic";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "República Dominicana";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.DO;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.DOM;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 214;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".do" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Americas;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.Caribbean;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.HT,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new DopCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "1809", "1829", "1849" };
     }
 }

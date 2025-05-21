@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class GtqCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Q";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "GTQ";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "320";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Guatemalan Quetzal";
     }
 }

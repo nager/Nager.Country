@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MadCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "د.م.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MAD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "504";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Moroccan Dirham";
     }
 }

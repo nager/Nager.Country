@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class KrwCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₩";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "KRW";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "410";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "South Korean Won";
     }
 }

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class TmtCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "m.";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "TMT";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "934";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Turkmenistani Manat";
     }
 }

@@ -5,22 +5,22 @@
     /// </summary>
     public class AedCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "د.إ.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dirham";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "AED";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "784";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "United Arab Emirates dirham";
     }
 }

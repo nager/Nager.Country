@@ -1,11 +1,11 @@
-namespace Nager.Country.Translation.CountryInfos
+namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// French Southern and Antarctic Lands
     /// </summary>
     public class FrenchSouthernAndAntarcticLandsCountryTranslation : ICountryTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AR, "أراض فرنسية جنوبية وأنتارتيكية"),

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class LakCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₭";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "LAK";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "418";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Laotian Kip";
     }
 }

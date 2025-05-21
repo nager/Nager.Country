@@ -7,27 +7,27 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class WesternSaharaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Western Sahara";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Sahrawi Arab Democratic Republic";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "الصحراء الغربية";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.EH;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ESH;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 732;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".eh" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Africa;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthernAfrica;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.DZ,
@@ -35,9 +35,9 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.MA,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new ICurrency[] { new MadCurrency(), new DzdCurrency(), new MroCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "212" };
     }
 }

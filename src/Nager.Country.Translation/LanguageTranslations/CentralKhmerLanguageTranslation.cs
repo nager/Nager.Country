@@ -1,13 +1,16 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Central Khmer
+    /// </summary>
     public class CentralKhmerLanguageTranslation : ILanguageTranslation
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "CentralKhmer";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "ខ្មែរ, ខេមរភាសា, ភាសាខ្មែរ";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
             new TranslationInfo(LanguageCode.AF, "Khmer"),
@@ -96,7 +99,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.ZH, "高棉"),
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public LanguageCode LanguageCode => LanguageCode.KM;
     }
 }

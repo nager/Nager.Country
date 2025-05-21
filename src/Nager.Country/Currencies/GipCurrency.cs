@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class GipCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "£";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "GIP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "292";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Gibraltar pound";
     }
 }

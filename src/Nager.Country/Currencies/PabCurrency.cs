@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class PabCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "B/.";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "PAB";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "590";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Panamanian Balboa";
     }
 }

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class LslCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "L";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "Loti";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "Maloti";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "LSL";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "426";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Lesotho loti";
     }
 }

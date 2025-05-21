@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class XdrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "XDR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "XDR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "960";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Special Drawing Rights";
     }
 }

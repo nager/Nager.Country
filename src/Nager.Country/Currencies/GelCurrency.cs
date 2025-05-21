@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class GelCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₾";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "GEL";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "981";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Georgian Lari";
     }
 }

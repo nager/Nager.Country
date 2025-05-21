@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class HrkCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "kn";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "HRK";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "191";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Croatian Kuna";
     }
 }

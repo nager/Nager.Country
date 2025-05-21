@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class NprCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "रु";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "NPR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "524";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Nepalese Rupee";
     }
 }

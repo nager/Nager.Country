@@ -5,22 +5,22 @@
     /// </summary>
     public class BifCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "FBu";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "franc";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BIF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "108";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Burundian franc";
     }
 }

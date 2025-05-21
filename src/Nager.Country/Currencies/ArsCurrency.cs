@@ -5,22 +5,22 @@
     /// </summary>
     public class ArsCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dollars";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "ARS";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "032";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Argentine peso";
     }
 }

@@ -5,22 +5,22 @@
     /// </summary>
     public class BbdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dollars";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BBD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "052";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Barbadian dollar";
     }
 }

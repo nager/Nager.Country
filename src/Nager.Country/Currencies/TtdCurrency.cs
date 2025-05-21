@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class TtdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "TTD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "780";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Trinidad and Tobago Dollar";
     }
 }

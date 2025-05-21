@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class NzdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "NZD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "554";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "New Zealand Dollar";
     }
 }

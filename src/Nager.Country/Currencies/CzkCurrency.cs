@@ -5,22 +5,22 @@
     /// </summary>
     public class CzkCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Kč";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "koruna";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "koruna";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CZK";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "203";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Czech koruna";
     }
 }

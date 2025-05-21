@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class RubCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₽";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "RUB";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "643";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Russian Ruble";
     }
 }

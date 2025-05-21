@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class SzlCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "L";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "SZL";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "748";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Swazi lilangeni";
     }
 }

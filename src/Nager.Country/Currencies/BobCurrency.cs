@@ -5,22 +5,22 @@
     /// </summary>
     public class BobCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Bs";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "boliviano";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BOB";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "068";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Bolivian boliviano";
     }
 }

@@ -1,4 +1,4 @@
-﻿using Nager.Country.Translation.CountryInfos;
+﻿using Nager.Country.Translation.CountryTranslations;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -13,7 +13,7 @@ namespace Nager.Country.Translation
 
         private readonly ICountryProvider _countryProvider;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public TranslationProvider()
         {
             this._countryProvider = new CountryProvider();

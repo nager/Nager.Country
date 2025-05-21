@@ -5,22 +5,22 @@
     /// </summary>
     public class BynCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Br";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "rouble";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BYN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "933";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Belarusian ruble";
     }
 }

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class RsdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "дин.";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "RSD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "941";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Serbian Dinar";
     }
 }

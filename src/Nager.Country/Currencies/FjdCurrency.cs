@@ -5,22 +5,22 @@
     /// </summary>
     public class FjdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "FJ$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "FJD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "242";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Fiji dollar";
     }
 }

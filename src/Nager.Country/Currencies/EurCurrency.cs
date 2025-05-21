@@ -5,22 +5,22 @@
     /// </summary>
     public class EurCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "€";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "euro";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "euro";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "EUR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "978";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Euro";
     }
 }

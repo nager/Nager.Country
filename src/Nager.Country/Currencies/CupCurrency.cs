@@ -5,22 +5,22 @@
     /// </summary>
     public class CupCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "peso";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "peso";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CUP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "192";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Cuban peso";
     }
 }

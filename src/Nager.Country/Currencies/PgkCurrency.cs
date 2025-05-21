@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class PgkCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "K";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "kina";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "kina";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "PGK";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "598";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Papua New Guinean kina";
     }
 }

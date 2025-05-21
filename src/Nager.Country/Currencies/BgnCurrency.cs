@@ -5,22 +5,22 @@
     /// </summary>
     public class BgnCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "лв.";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "lev";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "levove";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BGN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "975";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Bulgarian lev";
     }
 }

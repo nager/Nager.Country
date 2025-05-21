@@ -5,22 +5,22 @@
     /// </summary>
     public class AoaCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Kz";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "kwanza";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "AOA";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "973";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Angolan kwanza";
     }
 }

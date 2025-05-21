@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class KesCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Ksh";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "KES";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "404";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Kenyan Shilling";
     }
 }

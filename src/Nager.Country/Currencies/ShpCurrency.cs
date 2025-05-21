@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class ShpCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "£";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "SHP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "654";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Saint Helena pound";
     }
 }

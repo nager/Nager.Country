@@ -5,22 +5,22 @@
     /// </summary>
     public class ClpCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "peso";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "peso";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CLP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "152";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Chilean peso";
     }
 }

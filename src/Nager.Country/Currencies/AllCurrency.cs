@@ -5,22 +5,22 @@
     /// </summary>
     public class AllCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "L";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "lek";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "leke";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "ALL";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "008";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Albanian lek";
     }
 }

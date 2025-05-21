@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class TryCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₺";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "TRY";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "949";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Turkish Lira";
     }
 }

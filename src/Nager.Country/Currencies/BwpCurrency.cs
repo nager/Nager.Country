@@ -5,22 +5,22 @@
     /// </summary>
     public class BwpCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "P";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "Pula";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BWP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "072";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Botswana pula";
     }
 }

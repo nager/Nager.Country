@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class NioCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "C$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "NIO";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "558";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Nicaraguan Córdoba";
     }
 }

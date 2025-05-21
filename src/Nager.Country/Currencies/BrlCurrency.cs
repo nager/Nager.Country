@@ -5,22 +5,22 @@
     /// </summary>
     public class BrlCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "R$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "real";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "reais";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BRL";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "986";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Brazilian real";
     }
 }

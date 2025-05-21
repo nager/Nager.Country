@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class WstCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "WS$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "WST";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "882";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Samoan tala";
     }
 }

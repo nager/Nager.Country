@@ -5,22 +5,22 @@
     /// </summary>
     public class TopCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "T$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "paʻanga";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "paʻanga";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "TOP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "776";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Tongan paʻanga";
     }
 }

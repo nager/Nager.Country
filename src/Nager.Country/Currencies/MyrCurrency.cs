@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MyrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "RM";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MYR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "458";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Malaysian Ringgit";
     }
 }

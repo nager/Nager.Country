@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class UzsCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "сўм";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "UZS";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "860";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Uzbekistani Som";
     }
 }

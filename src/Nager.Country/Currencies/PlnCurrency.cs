@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class PlnCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "zł";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "PLN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "985";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Polish Zloty";
     }
 }

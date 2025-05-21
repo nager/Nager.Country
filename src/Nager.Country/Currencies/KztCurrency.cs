@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class KztCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₸";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "KZT";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "398";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Kazakhstani Tenge";
     }
 }

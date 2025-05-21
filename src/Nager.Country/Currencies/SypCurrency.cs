@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class SypCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ل.س.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "SYP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "760";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Syrian Pound";
     }
 }

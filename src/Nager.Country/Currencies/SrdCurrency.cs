@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class SrdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "S";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "SOS";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "706";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Somali Shilling";
     }
 }

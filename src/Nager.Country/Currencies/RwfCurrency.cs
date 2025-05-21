@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class RwfCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "RF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "RWF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "646";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Rwandan Franc";
     }
 }

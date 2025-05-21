@@ -4,7 +4,7 @@ using System.Globalization;
 namespace Nager.Country.Translation
 {
     /// <summary>
-    /// ITranslationProvider
+    /// Translation Provider Interface
     /// </summary>
     public interface ITranslationProvider
     {

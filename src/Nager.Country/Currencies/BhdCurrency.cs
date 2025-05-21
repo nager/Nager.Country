@@ -5,22 +5,22 @@
     /// </summary>
     public class BhdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "د.ب.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dinar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BHD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "048";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Bahraini dinar";
     }
 }

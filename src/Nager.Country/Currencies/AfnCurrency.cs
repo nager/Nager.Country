@@ -5,22 +5,22 @@
     /// </summary>
     public class AfnCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "؋";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "Af";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "Afs";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "AFN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "971";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Afghan afghani";
     }
 }

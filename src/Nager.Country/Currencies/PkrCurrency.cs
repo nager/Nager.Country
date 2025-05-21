@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class PkrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Rs";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "PKR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "586";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Pakistani Rupee";
     }
 }

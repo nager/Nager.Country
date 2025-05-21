@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class VesCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Bs.S";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "VES";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "928";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Venezuelan Bolívar";
     }
 }

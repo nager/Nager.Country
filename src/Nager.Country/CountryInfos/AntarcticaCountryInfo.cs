@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class AntarcticaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Antarctica";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Antarctica";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Antarctica";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AQ;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ATA;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 010;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".aq" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Antarctic;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.None;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new ICurrency[0];
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new string[0];
     }
 }

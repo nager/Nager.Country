@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class UahCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₴";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "UAH";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "980";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Ukrainian Hryvnia";
     }
 }

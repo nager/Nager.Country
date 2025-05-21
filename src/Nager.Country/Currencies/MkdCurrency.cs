@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MkdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ден";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MKD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "807";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Macedonian Denar";
     }
 }

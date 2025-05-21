@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class JmdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "JMD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "388";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Jamaican Dollar";
     }
 }

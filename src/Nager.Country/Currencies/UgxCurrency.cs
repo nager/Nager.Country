@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class UgxCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "USh";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "shilling";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "shilling";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "UGX";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "800";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Ugandan shilling";
     }
 }

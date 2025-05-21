@@ -5,22 +5,22 @@
     /// </summary>
     public class CrcCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₡";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "colón";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "cólones";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CRC";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "188";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Costa Rican colon";
     }
 }

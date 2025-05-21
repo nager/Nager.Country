@@ -5,22 +5,22 @@
     /// </summary>
     public class AngCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "NAƒ";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "guilder";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "guilders";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "ANG";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "532";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Netherlands Antillean guilder";
     }
 }

@@ -5,22 +5,22 @@
     /// </summary>
     public class ChfCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "CHF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "franc";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "francs";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "CHF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "756";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Swiss franc";
     }
 }

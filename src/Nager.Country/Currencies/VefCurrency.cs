@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class VefCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Bs.S";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "bolívar soberano";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "VEF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "937";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Venezuelan bolívar fuerte";
     }
 }

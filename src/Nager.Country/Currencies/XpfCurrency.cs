@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class XpfCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "R";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "rand";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "rand";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "ZAR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "710";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "South African Rand";
     }
 }

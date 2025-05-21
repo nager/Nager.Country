@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class LkrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "රු.";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "LKR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "144";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Sri Lankan Rupee";
     }
 }

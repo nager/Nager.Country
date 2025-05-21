@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class ThbCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "฿";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "THB";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "764";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Thai Baht";
     }
 }

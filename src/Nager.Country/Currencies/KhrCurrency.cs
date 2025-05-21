@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class KhrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "៛";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "KHR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "116";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Cambodian Riel";
     }
 }

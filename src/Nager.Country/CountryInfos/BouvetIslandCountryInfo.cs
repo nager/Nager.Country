@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class BouvetIslandCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Bouvet Island";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Bouvet Island";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Bouvetøya";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BV;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BVT;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 074;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".bv" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Antarctic;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.None;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new NokCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new string[0];
     }
 }

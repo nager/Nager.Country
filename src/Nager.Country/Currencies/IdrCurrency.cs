@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class IdrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Rp";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "IDR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "360";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Indonesian Rupiah";
     }
 }

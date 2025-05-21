@@ -5,22 +5,22 @@
     /// </summary>
     public class DzdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "د.ج.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dinar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dinar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "DZD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "012";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Algerian dinar";
     }
 }

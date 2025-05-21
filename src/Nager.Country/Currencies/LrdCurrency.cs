@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class LrdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "LRD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "430";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Liberian dollar";
     }
 }

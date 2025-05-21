@@ -7,34 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class FrenchSouthernAndAntarcticLandsCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "French Southern and Antarctic Lands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string OfficialName => "Territory of the French Southern and Antarctic Lands";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NativeName => "Territoire des Terres australes et antarctiques françaises";
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TF;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ATF;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public int NumericCode => 260;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".tf" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Antarctic;
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.None;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new EurCurrency() };
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string[] CallingCodes => new string[0];
     }
 }

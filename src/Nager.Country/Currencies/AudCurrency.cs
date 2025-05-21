@@ -5,22 +5,22 @@
     /// </summary>
     public class AudCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "$";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dollar";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dollars";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "AUD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "036";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Australian dollar";
     }
 }

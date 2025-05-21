@@ -5,22 +5,22 @@
     /// </summary>
     public class BamCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "КМ";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "mark";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "marks";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BAM";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "977";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Bosnia and Herzegovina convertible mark";
     }
 }

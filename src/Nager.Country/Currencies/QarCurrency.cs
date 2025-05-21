@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class QarCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ر.ق.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "QAR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "634";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Qatari Rial";
     }
 }

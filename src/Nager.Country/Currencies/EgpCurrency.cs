@@ -5,22 +5,22 @@
     /// </summary>
     public class EgpCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ج.م.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "pound";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "pound";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "EGP";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "818";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Egyptian pound";
     }
 }

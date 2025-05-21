@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class KmfCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "CF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "KMF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "174";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Comoro franc";
     }
 }

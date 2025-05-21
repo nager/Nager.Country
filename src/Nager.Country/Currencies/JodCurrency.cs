@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class JodCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "د.ا.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "JOD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "400";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Jordanian Dinar";
     }
 }

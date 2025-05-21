@@ -5,22 +5,22 @@
     /// </summary>
     public class BtnCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Nu.";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "ngultrum";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BTN";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "064";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Bhutanese ngultrum";
     }
 }

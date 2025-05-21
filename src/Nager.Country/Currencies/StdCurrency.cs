@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class StdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Db";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dobra";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "dobra";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "STD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "678";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "São Tomé and Príncipe dobra";
     }
 }

@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class ZarCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "XPF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "953";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "CFP franc";
     }
 }

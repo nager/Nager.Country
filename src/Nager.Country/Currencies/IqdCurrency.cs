@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class IqdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "د.ع.‏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "IQD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "368";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Iraqi Dinar";
     }
 }

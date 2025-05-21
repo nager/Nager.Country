@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class HufCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Ft";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "HUF";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "348";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Hungarian Forint";
     }
 }

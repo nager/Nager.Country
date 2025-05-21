@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MvrCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ރ.";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MVR";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "462";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Maldivian Rufiyaa";
     }
 }

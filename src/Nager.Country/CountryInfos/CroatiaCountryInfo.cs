@@ -7,27 +7,34 @@ namespace Nager.Country.CountryInfos
     /// </summary>
     public class CroatiaCountryInfo : ICountryInfo
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string CommonName => "Croatia";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string OfficialName => "Republic of Croatia";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string NativeName => "Hrvatska";
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HR;
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.HRV;
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public int NumericCode => 191;
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string[] TLD => new [] { ".hr" };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Region Region => Region.Europe;
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => new Alpha2Code[]
         {
             Alpha2Code.BA,
@@ -37,9 +44,10 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.SI,
         };
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new EurCurrency() };
-        ///<inheritdoc/>
+
+        /// <inheritdoc/>
         public string[] CallingCodes => new [] { "385" };
     }
 }

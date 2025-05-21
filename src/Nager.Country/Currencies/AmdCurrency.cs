@@ -5,22 +5,22 @@
     /// </summary>
     public class AmdCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "֏";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "dram";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "AMD";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "051";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Armenian dram";
     }
 }

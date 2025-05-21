@@ -5,22 +5,22 @@
     /// </summary>
     public class EtbCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "ብር";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "birr";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "birr";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "ETB";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "230";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Ethiopian birr";
     }
 }

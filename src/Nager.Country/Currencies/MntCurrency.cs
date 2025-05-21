@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class MntCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "₮";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "MNT";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "496";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Mongolian Tugrik";
     }
 }

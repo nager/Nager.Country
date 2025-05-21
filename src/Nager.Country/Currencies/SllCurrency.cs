@@ -5,22 +5,22 @@ namespace Nager.Country.Currencies
     /// </summary>
     public class SllCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => "Le";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => "leone";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => "leones";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "SLL";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "694";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Sierra Leonean leone";
     }
 }

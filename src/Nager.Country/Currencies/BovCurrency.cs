@@ -5,22 +5,22 @@
     /// </summary>
     public class BovCurrency : ICurrency
     {
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Symbol => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Singular => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Plural => null;
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string IsoCode => "BOV";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string NumericCode => "984";
 
-        ///<inheritdoc/>
+        /// <inheritdoc/>
         public string Name => "Bolivian Mvdol (funds code)";
     }
 }
