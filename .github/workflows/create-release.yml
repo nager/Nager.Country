@@ -38,4 +38,12 @@ jobs:
         asset_name: countries.zip
         tag: ${{ github.ref }}-${{ github.run_id }}
         overwrite: true
-        body: "A new version of the JSON country dataset is now available"
+        body: |
+          A new version of the JSON Country Dataset is now available
+          - Country Names
+          - Country Codes (ISO Alpha-2 code, ISO Alpha-3 code, Numeric ISO code)
+          - Top-Level Domains
+          - Geographical Classification
+          - Bordering Countries
+          - Currencies
+          - Calling Codes
