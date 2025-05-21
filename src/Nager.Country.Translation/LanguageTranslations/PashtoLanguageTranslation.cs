@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Pashto
+    /// </summary>
     public class PashtoLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Pashto";
+
         /// <inheritdoc/>
         public string OfficialName => "پښتو";
 

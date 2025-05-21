@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Punjabi
+    /// </summary>
     public class PunjabiLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Punjabi";
+
         /// <inheritdoc/>
         public string OfficialName => "ਪੰਜਾਬੀ, پنجابی‎";
 

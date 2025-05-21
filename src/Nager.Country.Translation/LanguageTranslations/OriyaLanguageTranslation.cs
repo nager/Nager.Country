@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Oriya
+    /// </summary>
     public class OriyaLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Oriya";
+
         /// <inheritdoc/>
         public string OfficialName => "ଓଡ଼ିଆ";
 

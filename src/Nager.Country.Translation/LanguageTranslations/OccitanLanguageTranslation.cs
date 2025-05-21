@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Occitan
+    /// </summary>
     public class OccitanLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Occitan";
+
         /// <inheritdoc/>
         public string OfficialName => "occitan, lenga d'òc";
 

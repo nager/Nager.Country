@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Persian
+    /// </summary>
     public class PersianLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Persian";
+
         /// <inheritdoc/>
         public string OfficialName => "فارسی";
 

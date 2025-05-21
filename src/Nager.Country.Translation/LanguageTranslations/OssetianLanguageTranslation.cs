@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Ossetian
+    /// </summary>
     public class OssetianLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Ossetian";
+
         /// <inheritdoc/>
         public string OfficialName => "ирон æвзаг";
 
