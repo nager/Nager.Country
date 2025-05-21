@@ -22,10 +22,9 @@ jobs:
       run: dotnet restore
     - name: Build
       working-directory: ./src
-      run: dotnet build --configuration Release --no-restore --output ${{ runner.temp }}
+      run: dotnet build Nager.Country.Export/Nager.Country.Export.csproj --configuration Release --no-restore --output ${{ runner.temp }}
     - name: Export Countries
       shell: pwsh
-      working-directory: $RUNNER_TEMP
       run: |
         cd $env:RUNNER_TEMP
         ./Nager.Country.Export.exe
