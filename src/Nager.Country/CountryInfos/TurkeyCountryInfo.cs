@@ -8,9 +8,9 @@ namespace Nager.Country.CountryInfos
     public class TurkeyCountryInfo : ICountryInfo
     {
         ///<inheritdoc/>
-        public string CommonName => "Turkey";
+        public string CommonName => "Türkiye";
         ///<inheritdoc/>
-        public string OfficialName => "Republic of Turkey";
+        public string OfficialName => "Republic of Türkiye";
         ///<inheritdoc/>
         public string NativeName => "Türkiye";
         ///<inheritdoc/>
