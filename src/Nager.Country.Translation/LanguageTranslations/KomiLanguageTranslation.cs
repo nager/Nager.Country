@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Komi
+    /// </summary>
     public class KomiLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Komi";
+
         /// <inheritdoc/>
         public string OfficialName => "коми кыв";
 

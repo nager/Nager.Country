@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Tibetan
+    /// </summary>
     public class TibetanLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Tibetan";
+
         /// <inheritdoc/>
         public string OfficialName => "བོད་ཡིག";
 

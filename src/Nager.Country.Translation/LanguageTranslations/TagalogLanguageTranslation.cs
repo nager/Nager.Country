@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Tagalog
+    /// </summary>
     public class TagalogLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Tagalog";
+
         /// <inheritdoc/>
         public string OfficialName => "Wikang Tagalog";
 

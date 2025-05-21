@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Tamil
+    /// </summary>
     public class TamilLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Tamil";
+
         /// <inheritdoc/>
         public string OfficialName => "தமிழ்";
 

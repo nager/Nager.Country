@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Kalaallisut
+    /// </summary>
     public class KalaallisutLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Kalaallisut";
+
         /// <inheritdoc/>
         public string OfficialName => "kalaallisut, kalaallit oqaasii";
 

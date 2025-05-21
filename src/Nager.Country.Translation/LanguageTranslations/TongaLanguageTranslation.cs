@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Tonga
+    /// </summary>
     public class TongaLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Tonga";
+
         /// <inheritdoc/>
         public string OfficialName => "Faka Tonga";
 

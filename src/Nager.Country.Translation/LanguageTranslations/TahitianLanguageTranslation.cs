@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Tahitian
+    /// </summary>
     public class TahitianLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>

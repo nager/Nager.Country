@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Kannada
+    /// </summary>
     public class KannadaLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Kannada";
+
         /// <inheritdoc/>
         public string OfficialName => "ಕನ್ನಡ";
 

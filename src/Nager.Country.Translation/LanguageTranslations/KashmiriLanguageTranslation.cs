@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Kashmiri
+    /// </summary>
     public class KashmiriLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Kashmiri";
+
         /// <inheritdoc/>
         public string OfficialName => "कश्मीरी, كشميري‎";
 

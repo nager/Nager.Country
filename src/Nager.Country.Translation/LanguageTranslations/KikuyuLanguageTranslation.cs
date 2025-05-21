@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Kikuyu
+    /// </summary>
     public class KikuyuLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>

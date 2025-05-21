@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Kongo
+    /// </summary>
     public class KongoLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Kongo";
+
         /// <inheritdoc/>
         public string OfficialName => "Kikongo";
 

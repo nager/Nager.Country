@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Twi
+    /// </summary>
     public class TwiLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Twi";
+
         /// <inheritdoc/>
         public string OfficialName => "Twi";
 

@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Kanuri
+    /// </summary>
     public class KanuriLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Kanuri";
+
         /// <inheritdoc/>
         public string OfficialName => "Kanuri";
 
