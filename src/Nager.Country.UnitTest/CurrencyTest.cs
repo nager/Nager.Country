@@ -53,10 +53,12 @@ namespace Nager.Country.UnitTest
         [TestMethod]
         public void CompareCurrencyInfoWithNetFrameworkTest()
         {
+            //Compare with https://en.wikipedia.org/wiki/Currency_symbol
+
             var currenies = this.GetCurrencies();
 
             var frameworkCurrencies = CultureInfo.GetCultures(CultureTypes.SpecificCultures)
-                .Select(ci => ci.LCID).Distinct()
+                .Select(ci => ci.Name).Distinct()
                 .Select(id => new RegionInfo(id))
                 .GroupBy(r => r.ISOCurrencySymbol)
                 .Select(g => g.ToList())
@@ -68,6 +70,8 @@ namespace Nager.Country.UnitTest
                     r.First().CurrencySymbol,
                 }).ToList();
 
+            var counter = 0;
+
             foreach (var frameworkCurrency in frameworkCurrencies)
             {
                 var currency = currenies.SingleOrDefault(curreny => curreny.IsoCode == frameworkCurrency.ISOCurrencySymbol);
@@ -78,9 +82,12 @@ namespace Nager.Country.UnitTest
 
                 if (currency.Symbol != frameworkCurrency.CurrencySymbol)
                 {
+                    counter++;
                     Trace.WriteLine($"Detect currency distinction IsoCode:{currency.IsoCode} Symbol:{currency.Symbol} .net framework symbol:{frameworkCurrency.CurrencySymbol}");
                 }
             }
+
+            Trace.WriteLine($"Found {counter} distinctions");
         }
     }
 }
