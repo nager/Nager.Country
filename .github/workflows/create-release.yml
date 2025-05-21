@@ -24,7 +24,7 @@ jobs:
       working-directory: ./src
       run: dotnet build --configuration Release --no-restore
     - name: Export Countries
-      working-directory: ./src/Nager.Country.Export/bin/Release/net6.0
+      working-directory: ./src/Nager.Country.Export/bin/Release/net8.0
       run: |
         ./Nager.Country.Export.exe
         Compress-Archive -Path export/*.json -DestinationPath countries.zip
