@@ -39,9 +39,17 @@ jobs:
         tag: ${{ github.ref }}-${{ github.run_id }}
         overwrite: true
         body: |
+          # New Release of Nager.Country
           A new version of the JSON Country Dataset is now available
           - Country Names
-          - Country Codes (ISO Alpha-2 code, ISO Alpha-3 code, Numeric ISO code)
+            - Common name
+            - Official name
+            - Native name
+            - Translations into multiple languages
+          - Country Codes
+            - ISO Alpha-2 code
+            - ISO Alpha-3 code
+            - Numeric ISO code
           - Top-Level Domains
           - Geographical Classification
           - Bordering Countries
