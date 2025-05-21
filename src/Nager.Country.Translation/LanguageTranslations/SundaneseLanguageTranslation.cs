@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Sundanese
+    /// </summary>
     public class SundaneseLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Sundanese";
+
         /// <inheritdoc/>
         public string OfficialName => "Basa Sunda";
 

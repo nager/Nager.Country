@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Somali
+    /// </summary>
     public class SomaliLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Somali";
+
         /// <inheritdoc/>
         public string OfficialName => "Soomaaliga, af Soomaali";
 

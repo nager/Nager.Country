@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Sindhi
+    /// </summary>
     public class SindhiLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Sindhi";
+
         /// <inheritdoc/>
         public string OfficialName => "सिन्धी, سنڌي، سندھی‎";
 

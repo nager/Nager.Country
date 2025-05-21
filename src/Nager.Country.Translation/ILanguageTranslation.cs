@@ -1,7 +1,7 @@
 ﻿namespace Nager.Country.Translation
 {
     /// <summary>
-    /// ILanguageTranslation
+    /// Language Translation Interface
     /// </summary>
     public interface ILanguageTranslation
     {
@@ -9,10 +9,15 @@
         /// CommonName
         /// </summary>
         string CommonName { get; }
+
         /// <summary>
         /// OfficialName
         /// </summary>
         string OfficialName { get; }
+
+        /// <summary>
+        /// Translations
+        /// </summary>
         TranslationInfo[] Translations { get; }
 
         /// <summary>

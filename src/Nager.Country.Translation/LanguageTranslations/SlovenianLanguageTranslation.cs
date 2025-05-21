@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Slovenian
+    /// </summary>
     public class SlovenianLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Slovenian";
+
         /// <inheritdoc/>
         public string OfficialName => "Slovenski jezik, Slovenščina";
 

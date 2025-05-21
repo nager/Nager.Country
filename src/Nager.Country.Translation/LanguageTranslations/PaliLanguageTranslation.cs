@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Pali
+    /// </summary>
     public class PaliLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Pali";
+
         /// <inheritdoc/>
         public string OfficialName => "पालि, पाळि";
 

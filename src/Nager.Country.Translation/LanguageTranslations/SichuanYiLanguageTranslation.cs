@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Sichuan Yi
+    /// </summary>
     public class SichuanYiLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "SichuanYi";
+
         /// <inheritdoc/>
         public string OfficialName => "ꆈꌠ꒿ Nuosuhxop";
 

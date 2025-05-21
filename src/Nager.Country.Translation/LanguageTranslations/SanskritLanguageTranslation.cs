@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Sanskrit
+    /// </summary>
     public class SanskritLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Sanskrit";
+
         /// <inheritdoc/>
         public string OfficialName => "संस्कृतम्";
 

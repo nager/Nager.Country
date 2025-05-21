@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Rundi
+    /// </summary>
     public class RundiLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Rundi";
+
         /// <inheritdoc/>
         public string OfficialName => "Ikirundi";
 

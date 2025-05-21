@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Sango
+    /// </summary>
     public class SangoLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Sango";
+
         /// <inheritdoc/>
         public string OfficialName => "yângâ tî sängö";
 

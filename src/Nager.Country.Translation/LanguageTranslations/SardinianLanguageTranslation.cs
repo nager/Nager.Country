@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Sardinian
+    /// </summary>
     public class SardinianLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Sardinian";
+
         /// <inheritdoc/>
         public string OfficialName => "sardu";
 

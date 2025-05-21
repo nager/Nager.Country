@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Shona
+    /// </summary>
     public class ShonaLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>

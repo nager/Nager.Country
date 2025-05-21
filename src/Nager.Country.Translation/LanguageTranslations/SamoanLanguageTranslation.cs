@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Samoan
+    /// </summary>
     public class SamoanLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Samoan";
+
         /// <inheritdoc/>
         public string OfficialName => "gagana fa'a Samoa";
 
