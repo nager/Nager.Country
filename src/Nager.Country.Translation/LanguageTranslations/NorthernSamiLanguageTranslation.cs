@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Northern Sami
+    /// </summary>
     public class NorthernSamiLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "NorthernSami";
+
         /// <inheritdoc/>
         public string OfficialName => "Davvisámegiella";
 

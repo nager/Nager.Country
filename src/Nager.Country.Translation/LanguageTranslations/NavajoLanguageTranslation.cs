@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Navajo
+    /// </summary>
     public class NavajoLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>

@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Norwegian Bokmal
+    /// </summary>
     public class NorwegianBokmalLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "NorwegianBokmal";
+
         /// <inheritdoc/>
         public string OfficialName => "Norsk Bokmål";
 

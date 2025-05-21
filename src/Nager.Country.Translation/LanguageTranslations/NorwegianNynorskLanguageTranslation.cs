@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Norwegian Nynorsk
+    /// </summary>
     public class NorwegianNynorskLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "NorwegianNynorsk";
+
         /// <inheritdoc/>
         public string OfficialName => "Norsk Nynorsk";
 

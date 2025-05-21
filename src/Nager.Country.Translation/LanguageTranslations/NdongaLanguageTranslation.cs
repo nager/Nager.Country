@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Ndonga
+    /// </summary>
     public class NdongaLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Ndonga";
+
         /// <inheritdoc/>
         public string OfficialName => "Owambo";
 

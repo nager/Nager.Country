@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Nauru
+    /// </summary>
     public class NauruLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Nauru";
+
         /// <inheritdoc/>
         public string OfficialName => "Dorerin Naoero";
 
