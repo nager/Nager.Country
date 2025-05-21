@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Lao
+    /// </summary>
     public class LaoLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Lao";
+
         /// <inheritdoc/>
         public string OfficialName => "ພາສາລາວ";
 

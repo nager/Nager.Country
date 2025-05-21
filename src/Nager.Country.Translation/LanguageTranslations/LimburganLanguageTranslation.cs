@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Limburgan
+    /// </summary>
     public class LimburganLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Limburgan";
+
         /// <inheritdoc/>
         public string OfficialName => "Limburgs";
 
