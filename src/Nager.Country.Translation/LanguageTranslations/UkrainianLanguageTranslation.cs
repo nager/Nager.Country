@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Ukrainian
+    /// </summary>
     public class UkrainianLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Ukrainian";
+
         /// <inheritdoc/>
         public string OfficialName => "Українська";
 

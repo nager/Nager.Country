@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Uighur
+    /// </summary>
     public class UighurLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Uighur";
+
         /// <inheritdoc/>
         public string OfficialName => "ئۇيغۇرچە‎, Uyghurche";
 

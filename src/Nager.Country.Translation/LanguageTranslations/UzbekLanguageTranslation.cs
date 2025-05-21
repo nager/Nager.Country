@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Uzbek
+    /// </summary>
     public class UzbekLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Uzbek";
+
         /// <inheritdoc/>
         public string OfficialName => "Oʻzbek, Ўзбек, أۇزبېك‎";
 
