@@ -22,10 +22,12 @@ jobs:
       run: dotnet restore
     - name: Build
       working-directory: ./src
-      run: dotnet build --configuration Release --no-restore --output $RUNNER_TEMP
+      run: dotnet build --configuration Release --no-restore --output ${{ runner.temp }}
     - name: Export Countries
+      shell: pwsh
       working-directory: $RUNNER_TEMP
       run: |
+        cd $env:RUNNER_TEMP
         ./Nager.Country.Export.exe
         Compress-Archive -Path export/*.json -DestinationPath countries.zip
     - name: Upload binaries to release
@@ -33,7 +35,7 @@ jobs:
       with:
         repo_name: nager/Nager.Country
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: $RUNNER_TEMP/countries.zip
+        file: ${{ runner.temp }}/countries.zip
         asset_name: countries.zip
         tag: ${{ github.ref }}-${{ github.run_id }}
         overwrite: true
