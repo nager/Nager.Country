@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Macedonian
+    /// </summary>
     public class MacedonianLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Macedonian";
+
         /// <inheritdoc/>
         public string OfficialName => "македонски јазик";
 

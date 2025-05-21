@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Manx
+    /// </summary>
     public class ManxLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Manx";
+
         /// <inheritdoc/>
         public string OfficialName => "Gaelg, Gailck";
 

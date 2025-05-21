@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Marathi
+    /// </summary>
     public class MarathiLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Marathi";
+
         /// <inheritdoc/>
         public string OfficialName => "मराठी";
 

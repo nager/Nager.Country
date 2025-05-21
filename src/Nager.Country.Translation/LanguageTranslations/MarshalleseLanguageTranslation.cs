@@ -1,5 +1,8 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Marshallese
+    /// </summary>
     public class MarshalleseLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>

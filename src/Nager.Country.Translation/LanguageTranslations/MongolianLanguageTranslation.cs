@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Mongolian
+    /// </summary>
     public class MongolianLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Mongolian";
+
         /// <inheritdoc/>
         public string OfficialName => "Монгол хэл";
 

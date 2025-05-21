@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Maori
+    /// </summary>
     public class MaoriLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Maori";
+
         /// <inheritdoc/>
         public string OfficialName => "te reo Māori";
 

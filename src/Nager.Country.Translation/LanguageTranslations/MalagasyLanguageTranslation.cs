@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Malagasy
+    /// </summary>
     public class MalagasyLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Malagasy";
+
         /// <inheritdoc/>
         public string OfficialName => "fiteny malagasy";
 

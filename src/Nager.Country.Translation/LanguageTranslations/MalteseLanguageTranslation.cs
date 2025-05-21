@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Maltese
+    /// </summary>
     public class MalteseLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Maltese";
+
         /// <inheritdoc/>
         public string OfficialName => "Malti";
 

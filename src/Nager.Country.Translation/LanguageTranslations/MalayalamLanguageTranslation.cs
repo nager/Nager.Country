@@ -1,9 +1,13 @@
 namespace Nager.Country.Translation.LanguageTranslations
 {
+    /// <summary>
+    /// Malayalam
+    /// </summary>
     public class MalayalamLanguageTranslation : ILanguageTranslation
     {
         /// <inheritdoc/>
         public string CommonName => "Malayalam";
+
         /// <inheritdoc/>
         public string OfficialName => "മലയാളം";
 
