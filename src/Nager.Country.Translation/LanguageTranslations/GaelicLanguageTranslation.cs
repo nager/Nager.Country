@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.BA, "Гэль Теле, Гульсум"),
             new TranslationInfo(LanguageCode.BE, "Гэльская, Гэльская"),
             new TranslationInfo(LanguageCode.BG, "Келтски, Гэльском"),
-            new TranslationInfo(LanguageCode.BN, "স্কটস-গ্যেলিক, - গ্যেলিক"),
+            new TranslationInfo(LanguageCode.BN, "স্কটস-গ্যেলিক,-গ্যেলিক"),
             new TranslationInfo(LanguageCode.BS, "Slovački, Jazbina"),
             new TranslationInfo(LanguageCode.CA, "Escocès Gaèlic, Gaèlic"),
             new TranslationInfo(LanguageCode.CS, "Skotské Gaelštině, Gaelštině"),

@@ -84,7 +84,7 @@ namespace Nager.Country.Translation.LanguageTranslations
             new TranslationInfo(LanguageCode.SU, "Haitian, Haitian Creole"),
             new TranslationInfo(LanguageCode.SV, "Haitiska, Haitisk Kreol"),
             new TranslationInfo(LanguageCode.SW, "Haitian, Haitian Creole"),
-            new TranslationInfo(LanguageCode.TA, "ஹைத்தியன், - ஹெய்டியன் கிரியோல்"),
+            new TranslationInfo(LanguageCode.TA, "ஹைத்தியன்,-ஹெய்டியன் கிரியோல்"),
             new TranslationInfo(LanguageCode.TE, "Haitian, Haitian Creole"),
             new TranslationInfo(LanguageCode.TG, "Гаити, Гаитянский Креольский"),
             new TranslationInfo(LanguageCode.TH, "เฮเตี้ยนชาวเฮติ Creole"),

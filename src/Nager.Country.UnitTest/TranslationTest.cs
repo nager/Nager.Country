@@ -127,5 +127,49 @@ namespace Nager.Country.UnitTest
                 }
             }
         }
+
+        [TestMethod]
+        public void CheckHyphenTest()
+        {
+            var searchValues = new string[] { "–", " - " };
+
+            ITranslationProvider translationProvider = new TranslationProvider();
+
+            foreach (var countryCode in Enum.GetValues<Alpha2Code>())
+            {
+                var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
+                if (countryTranslation is null)
+                {
+                    continue;
+                }
+
+                foreach (var translation in countryTranslation.Translations)
+                {
+                    var x = searchValues.Select(searchValue => translation.Name.Contains(searchValue)).ToList();
+
+                    if (searchValues.Where(searchValue => translation.Name.Contains(searchValue)).Any())
+                    {
+                        Assert.Fail($"Check hyphen in country:{countryCode}, {translation.Name}");
+                    }
+                }
+            }
+
+            foreach (var languageCode in Enum.GetValues<LanguageCode>())
+            {
+                var languageTranslation = translationProvider.GetLanguage(languageCode);
+                if (languageTranslation is null)
+                {
+                    continue;
+                }
+
+                foreach (var translation in languageTranslation.Translations)
+                {
+                    if (searchValues.Where(searchValue => translation.Name.Contains(searchValue)).Any())
+                    {
+                        Assert.Fail($"Check hyphen in language:{languageCode}, {translation.Name}");
+                    }
+                }
+            }
+        }
     }
 }
