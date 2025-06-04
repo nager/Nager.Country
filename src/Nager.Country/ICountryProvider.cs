@@ -26,7 +26,7 @@ namespace Nager.Country
         /// <param name="alpha2or3Code"></param>
         /// <param name="countryInfo"></param>
         /// <returns></returns>
-        bool TryGetCountry(string alpha2or3Code, out ICountryInfo countryInfo);
+        bool TryGetCountry(string alpha2or3Code, out ICountryInfo? countryInfo);
 
         /// <summary>
         /// Get country by alpha2 code
