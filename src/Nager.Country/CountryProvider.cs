@@ -304,7 +304,7 @@ namespace Nager.Country
         }
 
         /// <inheritdoc/>
-        public bool TryGetCountry(string alpha2or3Code, out ICountryInfo countryInfo)
+        public bool TryGetCountry(string alpha2or3Code, out ICountryInfo? countryInfo)
         {
             if (Enum.TryParse(alpha2or3Code, true, out Alpha2Code alpha2Code))
             {
