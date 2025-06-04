@@ -8,7 +8,7 @@ namespace Nager.Country.CountryInfos
     public class RepublicOfTheCongoCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
-        public string CommonName => "Republic of the Congo";
+        public string CommonName => "Congo";
         /// <inheritdoc/>
         public string OfficialName => "Republic of the Congo";
         /// <inheritdoc/>
