@@ -32,7 +32,7 @@ namespace Nager.Country.UnitTest
         {
             var currenies = this.GetCurrencies();
 
-            //var items = currenies.Where(currency => currency.IsoCode != null)
+            //var items = currenies.Where(currency => currency.IsoCode is not null)
             //    .GroupBy(currency => currency.IsoCode)
             //    .Select(grouped => new { grouped.Key, Count = grouped.Count() })
             //    .Where(o => o.Count > 1);
@@ -75,7 +75,7 @@ namespace Nager.Country.UnitTest
             foreach (var frameworkCurrency in frameworkCurrencies)
             {
                 var currency = currenies.SingleOrDefault(curreny => curreny.IsoCode == frameworkCurrency.ISOCurrencySymbol);
-                if (currency == null)
+                if (currency is null)
                 {
                     continue;
                 }

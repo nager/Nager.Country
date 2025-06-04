@@ -27,13 +27,13 @@ namespace Nager.Country.UnitTest
                 {
                     var countryInfo = countryProvider.GetCountry(countryCode);
                     Trace.WriteLine($"check {countryInfo.CommonName}");
-                    if (countryInfo == null)
+                    if (countryInfo is null)
                     {
                         Assert.Fail($"countryInfo is null for {countryCode}");
                     }
 
                     var compareCountry = items.FirstOrDefault(o => o.Cca2.Equals(countryInfo.Alpha2Code.ToString()));
-                    if (compareCountry == null)
+                    if (compareCountry is null)
                     {
                         Assert.Inconclusive(countryCode.ToString());
                         continue;

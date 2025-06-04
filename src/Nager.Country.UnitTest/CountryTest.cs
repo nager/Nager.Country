@@ -20,7 +20,7 @@ namespace Nager.Country.UnitTest
             ICountryProvider countryProvider = new CountryProvider();
 
             var countryInfo = countryProvider.GetCountry(countryCode);
-            if (countryInfo == null)
+            if (countryInfo is null)
             {
                 Assert.Fail($"Cannot found countryCode: {countryCode}");
             }

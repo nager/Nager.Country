@@ -29,7 +29,7 @@ namespace Nager.Country.UnitTest
             foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
             {
                 var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
-                if (countryTranslation == null)
+                if (countryTranslation is null)
                 {
                     continue;
                 }
@@ -65,7 +65,7 @@ namespace Nager.Country.UnitTest
             foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
             {
                 var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
-                if (countryTranslation == null)
+                if (countryTranslation is null)
                     continue;
 
                 var expectedLanguages = countryTranslation.Translations.Select(x => x.LanguageCode).ToList();
@@ -99,7 +99,7 @@ namespace Nager.Country.UnitTest
             foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
             {
                 var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
-                if (countryTranslation == null)
+                if (countryTranslation is null)
                     continue;
 
                 var expectedLanguages = countryTranslation.Translations.Select(x => x.LanguageCode).ToList();

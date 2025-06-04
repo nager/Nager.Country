@@ -30,7 +30,12 @@ namespace Nager.Country.Translation
 
             foreach (var type in types)
             {
-                var languageTranslation = (ILanguageTranslation)Activator.CreateInstance(type);
+                var languageTranslation = (ILanguageTranslation?)Activator.CreateInstance(type);
+                if (languageTranslation is null)
+                {
+                    continue;
+                }
+
                 this._languageCode2LanguageTranslation.Add(languageTranslation.LanguageCode, languageTranslation);
             }
 
@@ -296,7 +301,7 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public ILanguageTranslation GetLanguage(string languageCode)
+        public ILanguageTranslation? GetLanguage(string languageCode)
         {
             if (Enum.TryParse(languageCode, true, out LanguageCode languageCodeParsed))
             {
@@ -307,9 +312,9 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public ILanguageTranslation GetLanguage(LanguageCode languageCode)
+        public ILanguageTranslation? GetLanguage(LanguageCode languageCode)
         {
-            if (this._languageCode2LanguageTranslation.TryGetValue(languageCode, out ILanguageTranslation languageInfo))
+            if (this._languageCode2LanguageTranslation.TryGetValue(languageCode, out ILanguageTranslation? languageInfo))
             {
                 return languageInfo;
             }
@@ -318,9 +323,9 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public ICountryTranslation GetCountryTranslation(Alpha2Code alpha2Code)
+        public ICountryTranslation? GetCountryTranslation(Alpha2Code alpha2Code)
         {
-            if (this._alpha2Code2CountryTranslation.TryGetValue(alpha2Code, out ICountryTranslation countryTranslation))
+            if (this._alpha2Code2CountryTranslation.TryGetValue(alpha2Code, out ICountryTranslation? countryTranslation))
             {
                 return countryTranslation;
             }
@@ -329,14 +334,14 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, LanguageCode languageCode)
+        public string? GetCountryTranslatedName(Alpha2Code alpha2Code, LanguageCode languageCode)
         {
             var countryInfo = this._countryProvider.GetCountry(alpha2Code);
             return this.GetCountryTranslatedName(countryInfo, languageCode);
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, string languageCode)
+        public string? GetCountryTranslatedName(Alpha2Code alpha2Code, string languageCode)
         {
             if (Enum.TryParse(languageCode, true, out LanguageCode code))
             {
@@ -347,14 +352,14 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, LanguageCode languageCode)
+        public string? GetCountryTranslatedName(Alpha3Code alpha3Code, LanguageCode languageCode)
         {
             var countryInfo = this._countryProvider.GetCountry(alpha3Code);
             return this.GetCountryTranslatedName(countryInfo, languageCode);
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, string languageCode)
+        public string? GetCountryTranslatedName(Alpha3Code alpha3Code, string languageCode)
         {
             if (Enum.TryParse(languageCode, true, out LanguageCode code))
             {
@@ -365,14 +370,14 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(string alpha2or3Code, LanguageCode languageCode)
+        public string? GetCountryTranslatedName(string alpha2or3Code, LanguageCode languageCode)
         {
             var countryInfo = this._countryProvider.GetCountry(alpha2or3Code);
             return this.GetCountryTranslatedName(countryInfo, languageCode);
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(string alpha2or3Code, string languageCode)
+        public string? GetCountryTranslatedName(string alpha2or3Code, string languageCode)
         {
             if (Enum.TryParse(languageCode, true, out LanguageCode code))
             {
@@ -382,11 +387,14 @@ namespace Nager.Country.Translation
             return null;
         }
 
-        private string GetCountryTranslatedName(ICountryInfo countryInfo, LanguageCode languageCode)
+        private string? GetCountryTranslatedName(ICountryInfo countryInfo, LanguageCode languageCode)
         {
-            this._alpha2Code2CountryTranslation.TryGetValue(countryInfo.Alpha2Code, out var countryTranslation);
+            if (!this._alpha2Code2CountryTranslation.TryGetValue(countryInfo.Alpha2Code, out var countryTranslation))
+            {
+                return null;
+            }
 
-            if (countryTranslation.Translations != null && countryTranslation.Translations.Length > 0)
+            if (countryTranslation.Translations is not null && countryTranslation.Translations.Length > 0)
             {
                 return countryTranslation.Translations.Where(x => x.LanguageCode == languageCode).Select(x => x.Name).FirstOrDefault();
             }
@@ -395,25 +403,25 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture)
+        public string? GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture)
         {
             return this.GetCountryTranslatedName(alpha2or3Code, culture.TwoLetterISOLanguageName);
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture)
+        public string? GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture)
         {
             return this.GetCountryTranslatedName(alpha2Code, culture.TwoLetterISOLanguageName);
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture)
+        public string? GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture)
         {
             return this.GetCountryTranslatedName(alpha3Code, culture.TwoLetterISOLanguageName);
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
+        public string? GetCountryTranslatedName(string alpha2or3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
             var name = this.GetCountryTranslatedName(alpha2or3Code, culture);
             if (string.IsNullOrWhiteSpace(name))
@@ -424,7 +432,7 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture, LanguageCode defaultLanguageCode)
+        public string? GetCountryTranslatedName(Alpha2Code alpha2Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
             var name = this.GetCountryTranslatedName(alpha2Code, culture);
             if (string.IsNullOrWhiteSpace(name))
@@ -435,7 +443,7 @@ namespace Nager.Country.Translation
         }
 
         /// <inheritdoc/>
-        public string GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
+        public string? GetCountryTranslatedName(Alpha3Code alpha3Code, CultureInfo culture, LanguageCode defaultLanguageCode)
         {
             var name = this.GetCountryTranslatedName(alpha3Code, culture);
             if (string.IsNullOrWhiteSpace(name))

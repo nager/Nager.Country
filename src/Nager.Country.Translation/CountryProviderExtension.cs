@@ -11,7 +11,7 @@ namespace Nager.Country.Translation
         private static readonly Lazy<TranslationProvider> TranslationProvider = new Lazy<TranslationProvider>();
 
         /// <inheritdoc/>
-        public static ICountryInfo GetCountryByNameConsiderTranslation(
+        public static ICountryInfo? GetCountryByNameConsiderTranslation(
             this ICountryProvider countryProvider,
             string countryName)
         {
@@ -30,6 +30,11 @@ namespace Nager.Country.Translation
                 }
 
                 var countryTanslation = TranslationProvider.Value.GetCountryTranslation(country.Alpha2Code);
+                if (countryTanslation is null)
+                {
+                    continue;
+                }
+
                 if (countryTanslation.Translations.Any(translation => translation.Name.Equals(countryName, StringComparison.OrdinalIgnoreCase)))
                 {
                     return country;

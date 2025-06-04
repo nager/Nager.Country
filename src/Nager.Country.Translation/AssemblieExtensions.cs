@@ -7,9 +7,9 @@ namespace Nager.Country.Translation
 {
     internal static class AssemblieExtensions
     {
-        public static IEnumerable<Type> GetLoadableTypes(this Assembly assembly)
+        public static IEnumerable<Type?> GetLoadableTypes(this Assembly assembly)
         {
-            if (assembly == null)
+            if (assembly is null)
             {
                 throw new ArgumentNullException(nameof(assembly));
             }
@@ -20,7 +20,7 @@ namespace Nager.Country.Translation
             }
             catch (ReflectionTypeLoadException e)
             {
-                return e.Types.Where(t => t != null);
+                return e.Types.Where(t => t is not null);
             }
         }
     }
