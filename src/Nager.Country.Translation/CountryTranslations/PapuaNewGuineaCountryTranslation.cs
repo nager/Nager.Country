@@ -46,14 +46,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Papua-Nowa Gwinea"),
             new TranslationInfo(LanguageCode.PT, "Papua-Nova Guiné"),
             new TranslationInfo(LanguageCode.RO, "Papua-Noua Guinee"),
-            new TranslationInfo(LanguageCode.RU, "Папуа — Новая Гвинея"),
+            new TranslationInfo(LanguageCode.RU, "Папуа-Новая Гвинея"),
             new TranslationInfo(LanguageCode.SK, "Papua Nová Guinea"),
             new TranslationInfo(LanguageCode.SL, "Papua Nova Gvineja"),
             new TranslationInfo(LanguageCode.SR, "Папуа Нова Гвинеја"),
             new TranslationInfo(LanguageCode.SV, "Papua Nya Guinea"),
             new TranslationInfo(LanguageCode.TR, "Papua Yeni Gine"),
             new TranslationInfo(LanguageCode.UK, "Папуа Нова Гвінея"),
-            new TranslationInfo(LanguageCode.UZ, "Papua – Yangi Gvineya"),
+            new TranslationInfo(LanguageCode.UZ, "Papua-Yangi Gvineya"),
             new TranslationInfo(LanguageCode.ZH, "巴布亚新几内亚"),
         };
     }
