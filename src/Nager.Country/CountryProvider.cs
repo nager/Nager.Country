@@ -268,6 +268,7 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.YE, new YemenCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.ZM, new ZambiaCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.ZW, new ZimbabweCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.XK, new KosovoCountryInfo());
 
             #endregion
 

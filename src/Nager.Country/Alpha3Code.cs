@@ -477,12 +477,10 @@
         /// Korea, South
         /// </summary>
         KOR,
-        /*
         /// <summary>
         /// Kosovo
         /// </summary>
         XKX,
-        */
         /// <summary>
         /// Kuwait
         /// </summary>
