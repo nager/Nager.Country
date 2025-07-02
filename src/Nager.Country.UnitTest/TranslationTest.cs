@@ -16,6 +16,10 @@ namespace Nager.Country.UnitTest
             foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
             {
                 var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
+                if (countryTranslation is null)
+                {
+                    Assert.Fail($"Missing country translation for {countryCode}");
+                }
 
                 var duplicateTranslation = countryTranslation.Translations.GroupBy(o => o.LanguageCode).Any(o => o.Count() > 1);
                 Assert.IsFalse(duplicateTranslation);
