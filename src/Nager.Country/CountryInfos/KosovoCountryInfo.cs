@@ -6,7 +6,7 @@ namespace Nager.Country.CountryInfos
     /// Kosovo (partially recognized; not a UN member state)
     /// </summary>
     public class KosovoCountryInfo : ICountryInfo
-	{
+    {
         /// <inheritdoc/>
         public string CommonName => "Kosovo";
         /// <inheritdoc/>
@@ -24,23 +24,23 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 0;
         /// <inheritdoc/>
         /// <remarks>Reserved, unofficial</remarks>
-		public string[] TLD => new[] { ".xk" };
+        public string[] TLD => new[] { ".xk" };
         /// <inheritdoc/>
-		public Region Region => Region.Europe;
+        public Region Region => Region.Europe;
         /// <inheritdoc/>
-		public SubRegion SubRegion => SubRegion.SouthernEurope;
+        public SubRegion SubRegion => SubRegion.SouthernEurope;
         /// <inheritdoc/>
-		public Alpha2Code[] BorderCountries => new[]
-		{
-			Alpha2Code.AL,
-			Alpha2Code.ME,
-			Alpha2Code.MK,
-			Alpha2Code.RS
-		};
+        public Alpha2Code[] BorderCountries => new[]
+        {
+            Alpha2Code.AL,
+            Alpha2Code.ME,
+            Alpha2Code.MK,
+            Alpha2Code.RS
+        };
         /// <inheritdoc/>
         /// <remarks>Euro used unilaterally</remarks>
-		public ICurrency[] Currencies => new[] { new EurCurrency() };
+        public ICurrency[] Currencies => new[] { new EurCurrency() };
         /// <inheritdoc/>
-		public string[] CallingCodes => new[] { "383" };
-	}
+        public string[] CallingCodes => new[] { "383" };
+    }
 }
