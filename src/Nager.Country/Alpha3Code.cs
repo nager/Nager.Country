@@ -478,7 +478,7 @@
         /// </summary>
         KOR,
         /// <summary>
-        /// Kosovo
+        /// Kosovo (partially recognized; not a UN member state)
         /// </summary>
         XKX,
         /// <summary>
