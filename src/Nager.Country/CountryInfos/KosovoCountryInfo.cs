@@ -5,7 +5,7 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Kosovo (partially recognized; not a UN member state)
     /// </summary>
-    public class KosovoCountryInfo : ICountryInfo
+    public sealed class KosovoCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Kosovo";
