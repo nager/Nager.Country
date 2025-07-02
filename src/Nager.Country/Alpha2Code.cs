@@ -477,12 +477,10 @@
         /// Korea, South
         /// </summary>
         KR,
-        /*
         /// <summary>
-        /// Kosovo
+        /// Kosovo (partially recognized; not a UN member state)
         /// </summary>
         XK,
-        */
         /// <summary>
         /// Kuwait
         /// </summary>

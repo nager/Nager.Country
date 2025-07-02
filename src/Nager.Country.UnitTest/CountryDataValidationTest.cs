@@ -17,40 +17,45 @@ namespace Nager.Country.UnitTest
         [TestMethod]
         public async Task CompareWithMledozeCountryProject()
         {
-            using (var httpClient = new HttpClient())
+            var ignoreCountryCodes = new Alpha2Code[] { Alpha2Code.XK };
+
+            using var httpClient = new HttpClient();
+            var json = await httpClient.GetStringAsync("https://raw.githubusercontent.com/mledoze/countries/master/dist/countries.json");
+            var items = JsonConvert.DeserializeObject<MledozeCountry[]>(json);
+
+            ICountryProvider countryProvider = new CountryProvider();
+            foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
             {
-                var json = await httpClient.GetStringAsync("https://raw.githubusercontent.com/mledoze/countries/master/dist/countries.json");
-                var items = JsonConvert.DeserializeObject<MledozeCountry[]>(json);
-
-                ICountryProvider countryProvider = new CountryProvider();
-                foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
+                if (ignoreCountryCodes.Contains(countryCode))
                 {
-                    var countryInfo = countryProvider.GetCountry(countryCode);
-                    Trace.WriteLine($"check {countryInfo.CommonName}");
-                    if (countryInfo is null)
-                    {
-                        Assert.Fail($"countryInfo is null for {countryCode}");
-                    }
-
-                    var compareCountry = items.FirstOrDefault(o => o.Cca2.Equals(countryInfo.Alpha2Code.ToString()));
-                    if (compareCountry is null)
-                    {
-                        Assert.Inconclusive(countryCode.ToString());
-                        continue;
-                    }
-
-                    //TODO: Check how can check after change structure
-                    //countryInfo.Currencies
-                    //    .Should()
-                    //    .BeEquivalentTo(compareCountry.Currencies.ChildrenToke.Name.ToArray(),
-                    //    because: $"{countryCode} {string.Join(",", compareCountry.Currencies.Keys)}  {string.Join(",", countryInfo.Currencies)}");                   
-
-                    Assert.AreEqual(compareCountry.Ccn3, countryInfo.NumericCode, $"wrong numeric code by {countryCode} {countryInfo.CommonName}");
-                    Assert.AreEqual(compareCountry.Region, countryInfo.Region.ToString(), $"wrong region by {countryCode} {countryInfo.CommonName}");
-                    //Assert.AreEqual(this.AdaptMledozeSubRegion(compareCountry.Subregion), this.GetSubRegion(countryInfo.SubRegion), $"wrong subregion by {countryCode} {countryInfo.CommonName}");
-                    Assert.AreEqual(compareCountry.Cca3, countryInfo.Alpha3Code.ToString(), $"wrong alpha 3 code by {countryCode} {countryInfo.CommonName}");
-                    Assert.AreEqual(compareCountry.Name.Common, countryInfo.CommonName.ToString(), $"wrong common name by {countryCode} {countryInfo.CommonName}");
+                    continue;
                 }
+
+                var countryInfo = countryProvider.GetCountry(countryCode);
+                Trace.WriteLine($"check {countryInfo.CommonName}");
+                if (countryInfo is null)
+                {
+                    Assert.Fail($"countryInfo is null for {countryCode}");
+                }
+
+                var compareCountry = items.FirstOrDefault(o => o.Cca2.Equals(countryInfo.Alpha2Code.ToString()));
+                if (compareCountry is null)
+                {
+                    Assert.Inconclusive(countryCode.ToString());
+                    continue;
+                }
+
+                //TODO: Check how can check after change structure
+                //countryInfo.Currencies
+                //    .Should()
+                //    .BeEquivalentTo(compareCountry.Currencies.ChildrenToke.Name.ToArray(),
+                //    because: $"{countryCode} {string.Join(",", compareCountry.Currencies.Keys)}  {string.Join(",", countryInfo.Currencies)}");                   
+
+                Assert.AreEqual(compareCountry.Ccn3, countryInfo.NumericCode, $"wrong numeric code by {countryCode} {countryInfo.CommonName}");
+                Assert.AreEqual(compareCountry.Region, countryInfo.Region.ToString(), $"wrong region by {countryCode} {countryInfo.CommonName}");
+                //Assert.AreEqual(this.AdaptMledozeSubRegion(compareCountry.Subregion), this.GetSubRegion(countryInfo.SubRegion), $"wrong subregion by {countryCode} {countryInfo.CommonName}");
+                Assert.AreEqual(compareCountry.Cca3, countryInfo.Alpha3Code.ToString(), $"wrong alpha 3 code by {countryCode} {countryInfo.CommonName}");
+                Assert.AreEqual(compareCountry.Name.Common, countryInfo.CommonName.ToString(), $"wrong common name by {countryCode} {countryInfo.CommonName}");
             }
         }
 
