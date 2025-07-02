@@ -157,6 +157,7 @@ namespace Nager.Country.Translation
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.KZ, new KazakhstanCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.KE, new KenyaCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.KI, new KiribatiCountryTranslation());
+            this._alpha2Code2CountryTranslation.Add(Alpha2Code.XK, new KosovoCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.KW, new KuwaitCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.KG, new KyrgyzstanCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.LA, new LaosCountryTranslation());

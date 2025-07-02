@@ -8,8 +8,12 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.EN, "Kosovo"),
             new TranslationInfo(LanguageCode.DE, "Kosovo"),
+            new TranslationInfo(LanguageCode.EN, "Kosovo"),
+            new TranslationInfo(LanguageCode.ES, "Kosovo"),
+            new TranslationInfo(LanguageCode.FR, "Kosovo"),
+            new TranslationInfo(LanguageCode.IT, "Kosovo"),
+            new TranslationInfo(LanguageCode.PT, "Kosovo"),
         };
     }
 }
