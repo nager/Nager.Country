@@ -3,16 +3,16 @@
     /// <summary>
     /// Ern Currency
     /// </summary>
-    public class ErnCurrency : ICurrency
+    public sealed class ErnCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "Nfk";
+        public string? Symbol => "Nfk";
 
         /// <inheritdoc/>
-        public string Singular => "nakfa";
+        public string? Singular => "nakfa";
 
         /// <inheritdoc/>
-        public string Plural => "nakfa";
+        public string? Plural => "nakfa";
 
         /// <inheritdoc/>
         public string IsoCode => "ERN";

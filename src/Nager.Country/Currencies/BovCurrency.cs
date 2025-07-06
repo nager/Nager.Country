@@ -3,16 +3,16 @@
     /// <summary>
     /// Bov Currency
     /// </summary>
-    public class BovCurrency : ICurrency
+    public sealed class BovCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => null;
+        public string? Symbol => null;
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "BOV";

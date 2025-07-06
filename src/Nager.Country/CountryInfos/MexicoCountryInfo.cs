@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Mexico
     /// </summary>
-    public class MexicoCountryInfo : ICountryInfo
+    public sealed class MexicoCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Mexico";
+
         /// <inheritdoc/>
         public string OfficialName => "United Mexican States";
+
         /// <inheritdoc/>
         public string NativeName => "México";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MX;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MEX;
+
         /// <inheritdoc/>
         public int NumericCode => 484;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".mx" };
 
         /// <inheritdoc/>
         public Region Region => Region.Americas;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthAmerica;
 
@@ -37,6 +44,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new MxnCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "52" };
     }

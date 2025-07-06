@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Mdl Currency
     /// </summary>
-    public class MdlCurrency : ICurrency
+    public sealed class MdlCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "L";
+        public string? Symbol => "L";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "MDL";

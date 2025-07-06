@@ -3,16 +3,16 @@
     /// <summary>
     /// Armenian dram
     /// </summary>
-    public class AmdCurrency : ICurrency
+    public sealed class AmdCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "֏";
+        public string? Symbol => "֏";
 
         /// <inheritdoc/>
-        public string Singular => "dram";
+        public string? Singular => "dram";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "AMD";

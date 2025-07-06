@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Turkey
     /// </summary>
-    public class TurkeyCountryInfo : ICountryInfo
+    public sealed class TurkeyCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Türkiye";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of Türkiye";
+
         /// <inheritdoc/>
         public string NativeName => "Türkiye";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TR;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.TUR;
+
         /// <inheritdoc/>
         public int NumericCode => 792;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".tr" };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAsia;
 
@@ -42,6 +49,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new TryCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "90" };
     }

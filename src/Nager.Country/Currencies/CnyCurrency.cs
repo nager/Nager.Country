@@ -3,16 +3,16 @@
     /// <summary>
     /// Cny Currency
     /// </summary>
-    public class CnyCurrency : ICurrency
+    public sealed class CnyCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "¥";
+        public string? Symbol => "¥";
 
         /// <inheritdoc/>
-        public string Singular => "renminbi";
+        public string? Singular => "renminbi";
 
         /// <inheritdoc/>
-        public string Plural => "renminbi";
+        public string? Plural => "renminbi";
 
         /// <inheritdoc/>
         public string IsoCode => "CNY";

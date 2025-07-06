@@ -3,16 +3,16 @@
     /// <summary>
     /// Ang Currency
     /// </summary>
-    public class AngCurrency : ICurrency
+    public sealed class AngCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "NAƒ";
+        public string? Symbol => "NAƒ";
 
         /// <inheritdoc/>
-        public string Singular => "guilder";
+        public string? Singular => "guilder";
 
         /// <inheritdoc/>
-        public string Plural => "guilders";
+        public string? Plural => "guilders";
 
         /// <inheritdoc/>
         public string IsoCode => "ANG";

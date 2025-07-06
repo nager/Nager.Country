@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Republic of the Congo
     /// </summary>
-    public class RepublicOfTheCongoCountryInfo : ICountryInfo
+    public sealed class RepublicOfTheCongoCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Congo";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of the Congo";
+
         /// <inheritdoc/>
         public string NativeName => "République démocratique du Congo";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CG;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.COG;
+
         /// <inheritdoc/>
         public int NumericCode => 178;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".cg" };
 
         /// <inheritdoc/>
         public Region Region => Region.Africa;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.MiddleAfrica;
 
@@ -39,6 +46,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new XafCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "242" };
     }

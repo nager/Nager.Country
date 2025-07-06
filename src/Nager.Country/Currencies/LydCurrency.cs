@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Lyd Currency
     /// </summary>
-    public class LydCurrency : ICurrency
+    public sealed class LydCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "د.ل.‏";
+        public string? Symbol => "د.ل.‏";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "LYD";

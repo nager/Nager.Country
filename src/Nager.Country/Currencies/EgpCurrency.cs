@@ -3,16 +3,16 @@
     /// <summary>
     /// Egp Currency
     /// </summary>
-    public class EgpCurrency : ICurrency
+    public sealed class EgpCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "ج.م.‏";
+        public string? Symbol => "ج.م.‏";
 
         /// <inheritdoc/>
-        public string Singular => "pound";
+        public string? Singular => "pound";
 
         /// <inheritdoc/>
-        public string Plural => "pound";
+        public string? Plural => "pound";
 
         /// <inheritdoc/>
         public string IsoCode => "EGP";

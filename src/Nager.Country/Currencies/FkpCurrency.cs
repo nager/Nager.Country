@@ -3,16 +3,16 @@
     /// <summary>
     /// Fkp Currency
     /// </summary>
-    public class FkpCurrency : ICurrency
+    public sealed class FkpCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "£";
+        public string? Symbol => "£";
 
         /// <inheritdoc/>
-        public string Singular => "pound";
+        public string? Singular => "pound";
 
         /// <inheritdoc/>
-        public string Plural => "pence";
+        public string? Plural => "pence";
 
         /// <inheritdoc/>
         public string IsoCode => "FKP";

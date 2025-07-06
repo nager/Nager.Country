@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// North Korea
     /// </summary>
-    public class NorthKoreaCountryInfo : ICountryInfo
+    public sealed class NorthKoreaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "North Korea";
+
         /// <inheritdoc/>
         public string OfficialName => "Democratic People's Republic of Korea";
+
         /// <inheritdoc/>
         public string NativeName => "북한";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KP;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PRK;
+
         /// <inheritdoc/>
         public int NumericCode => 408;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".kp" };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternAsia;
 
@@ -37,6 +44,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new KpwCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "850" };
     }

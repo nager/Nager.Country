@@ -3,16 +3,16 @@
     /// <summary>
     /// Bgn Currency
     /// </summary>
-    public class BgnCurrency : ICurrency
+    public sealed class BgnCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "лв.";
+        public string? Symbol => "лв.";
 
         /// <inheritdoc/>
-        public string Singular => "lev";
+        public string? Singular => "lev";
 
         /// <inheritdoc/>
-        public string Plural => "levove";
+        public string? Plural => "levove";
 
         /// <inheritdoc/>
         public string IsoCode => "BGN";

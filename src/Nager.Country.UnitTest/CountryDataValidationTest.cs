@@ -23,6 +23,11 @@ namespace Nager.Country.UnitTest
             var json = await httpClient.GetStringAsync("https://raw.githubusercontent.com/mledoze/countries/master/dist/countries.json");
             var items = JsonConvert.DeserializeObject<MledozeCountry[]>(json);
 
+            if (items is null)
+            {
+                Assert.Fail("Failure deserialize");
+            }
+
             ICountryProvider countryProvider = new CountryProvider();
             foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
             {
@@ -76,47 +81,47 @@ namespace Nager.Country.UnitTest
 
         public class MledozeCountry
         {
-            public Name Name { get; set; }
-            public string[] Tld { get; set; }
-            public string Cca2 { get; set; }
+            public required Name Name { get; set; }
+            public required string[] Tld { get; set; }
+            public required string Cca2 { get; set; }
             public int? Ccn3 { get; set; }
-            public string Cca3 { get; set; }
-            public string Cioc { get; set; }
+            public required string Cca3 { get; set; }
+            public required string Cioc { get; set; }
             public bool? Independent { get; set; }
-            public string Status { get; set; }
-            public dynamic Currencies { get; set; }
-            public string[] CallingCode { get; set; }
-            public string[] Capital { get; set; }
-            public string[] AltSpellings { get; set; }
-            public string Region { get; set; }
-            public string Subregion { get; set; }
+            public required string Status { get; set; }
+            public required dynamic Currencies { get; set; }
+            public string[] CallingCode { get; set; } = [];
+            public string[] Capital { get; set; } = [];
+            public string[] AltSpellings { get; set; } = [];
+            public required string Region { get; set; }
+            public required string Subregion { get; set; }
             //public Languages languages { get; set; }
             //public Dictionary<string, NameNative> translations { get; set; }
-            public List<double> LatLng { get; set; }
-            public string Demonym { get; set; }
+            public required List<double> LatLng { get; set; }
+            public string? Demonym { get; set; }
             public bool Landlocked { get; set; }
-            public string[] Borders { get; set; }
+            public string[] Borders { get; set; } = [];
             public double Area { get; set; }
-            public string Flag { get; set; }
+            public required string Flag { get; set; }
         }
 
         public class Name
         {
-            public string Common { get; set; }
-            public string Official { get; set; }
-            public Dictionary<string, NameNative> Native { get; set; }
+            public required string Common { get; set; }
+            public required string Official { get; set; }
+            public required Dictionary<string, NameNative> Native { get; set; }
         }
 
         public class NameNative
         {
-            public string Common { get; set; }
-            public string Official { get; set; }
+            public required string Common { get; set; }
+            public required string Official { get; set; }
         }
 
         public class Currency
         {
-            public string Name { get; set; }
-            public string Symbol { get; set; }
+            public required string Name { get; set; }
+            public string? Symbol { get; set; }
         }
     }
 }

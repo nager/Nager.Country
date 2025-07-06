@@ -3,16 +3,16 @@
     /// <summary>
     /// Czk Currency
     /// </summary>
-    public class CzkCurrency : ICurrency
+    public sealed class CzkCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "Kč";
+        public string? Symbol => "Kč";
 
         /// <inheritdoc/>
-        public string Singular => "koruna";
+        public string? Singular => "koruna";
 
         /// <inheritdoc/>
-        public string Plural => "koruna";
+        public string? Plural => "koruna";
 
         /// <inheritdoc/>
         public string IsoCode => "CZK";

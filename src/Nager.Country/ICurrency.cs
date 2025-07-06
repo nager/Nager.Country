@@ -9,17 +9,17 @@
         /// <summary>
         /// Symbol
         /// </summary>
-        string Symbol { get; }
+        string? Symbol { get; }
 
         /// <summary>
         /// Singular
         /// </summary>
-        string Singular { get; }
+        string? Singular { get; }
 
         /// <summary>
         /// Plural
         /// </summary>
-        string Plural { get; }
+        string? Plural { get; }
 
         /// <summary>
         /// IsoCode

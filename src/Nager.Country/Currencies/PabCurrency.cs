@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Pab Currency
     /// </summary>
-    public class PabCurrency : ICurrency
+    public sealed class PabCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "B/.";
+        public string? Symbol => "B/.";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "PAB";

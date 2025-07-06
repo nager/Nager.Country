@@ -3,16 +3,16 @@
     /// <summary>
     /// Bwp Currency
     /// </summary>
-    public class BwpCurrency : ICurrency
+    public sealed class BwpCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "P";
+        public string? Symbol => "P";
 
         /// <inheritdoc/>
-        public string Singular => "Pula";
+        public string? Singular => "Pula";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "BWP";

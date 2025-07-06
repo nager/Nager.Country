@@ -3,16 +3,16 @@
     /// <summary>
     /// Top Currency
     /// </summary>
-    public class TopCurrency : ICurrency
+    public sealed class TopCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "T$";
+        public string? Symbol => "T$";
 
         /// <inheritdoc/>
-        public string Singular => "paʻanga";
+        public string? Singular => "paʻanga";
 
         /// <inheritdoc/>
-        public string Plural => "paʻanga";
+        public string? Plural => "paʻanga";
 
         /// <inheritdoc/>
         public string IsoCode => "TOP";

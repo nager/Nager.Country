@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Jordan
     /// </summary>
-    public class JordanCountryInfo : ICountryInfo
+    public sealed class JordanCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Jordan";
+
         /// <inheritdoc/>
         public string OfficialName => "Hashemite Kingdom of Jordan";
+
         /// <inheritdoc/>
         public string NativeName => "الأردن";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.JO;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.JOR;
+
         /// <inheritdoc/>
         public int NumericCode => 400;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".jo", "الاردن." };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAsia;
 
@@ -38,6 +45,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new JodCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "962" };
     }

@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Laos
     /// </summary>
-    public class LaosCountryInfo : ICountryInfo
+    public sealed class LaosCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Laos";
+
         /// <inheritdoc/>
         public string OfficialName => "Lao People's Democratic Republic";
+
         /// <inheritdoc/>
         public string NativeName => "ສປປລາວ";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LA;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LAO;
+
         /// <inheritdoc/>
         public int NumericCode => 418;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".la" };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthEasternAsia;
 
@@ -39,6 +46,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new LakCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "856" };
     }

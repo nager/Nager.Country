@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Ukraine
     /// </summary>
-    public class UkraineCountryInfo : ICountryInfo
+    public sealed class UkraineCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Ukraine";
+
         /// <inheritdoc/>
         public string OfficialName => "Ukraine";
+
         /// <inheritdoc/>
         public string NativeName => "Україна";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.UA;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.UKR;
+
         /// <inheritdoc/>
         public int NumericCode => 804;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".ua", ".укр" };
 
         /// <inheritdoc/>
         public Region Region => Region.Europe;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
@@ -41,6 +48,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new UahCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "380" };
     }

@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Mzn Currency
     /// </summary>
-    public class MznCurrency : ICurrency
+    public sealed class MznCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "MT";
+        public string? Symbol => "MT";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "MZN";

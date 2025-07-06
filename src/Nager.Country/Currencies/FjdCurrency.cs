@@ -3,16 +3,16 @@
     /// <summary>
     /// Fjd Currency
     /// </summary>
-    public class FjdCurrency : ICurrency
+    public sealed class FjdCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "FJ$";
+        public string? Symbol => "FJ$";
 
         /// <inheritdoc/>
-        public string Singular => "dollar";
+        public string? Singular => "dollar";
 
         /// <inheritdoc/>
-        public string Plural => "dollar";
+        public string? Plural => "dollar";
 
         /// <inheritdoc/>
         public string IsoCode => "FJD";

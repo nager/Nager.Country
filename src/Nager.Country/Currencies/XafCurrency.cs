@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Xaf Currency
     /// </summary>
-    public class XafCurrency : ICurrency
+    public sealed class XafCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "FCFA";
+        public string? Symbol => "FCFA";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "XAF";

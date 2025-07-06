@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Kmf Currency
     /// </summary>
-    public class KmfCurrency : ICurrency
+    public sealed class KmfCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "CF";
+        public string? Symbol => "CF";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "KMF";

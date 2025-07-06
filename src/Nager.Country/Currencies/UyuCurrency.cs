@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Uyu Currency
     /// </summary>
-    public class UyuCurrency : ICurrency
+    public sealed class UyuCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "$";
+        public string? Symbol => "$";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "UYU";

@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Kazakhstan
     /// </summary>
-    public class KazakhstanCountryInfo : ICountryInfo
+    public sealed class KazakhstanCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Kazakhstan";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of Kazakhstan";
+
         /// <inheritdoc/>
         public string NativeName => "Қазақстан";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KZ;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.KAZ;
+
         /// <inheritdoc/>
         public int NumericCode => 398;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".kz", ".қаз" };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.CentralAsia;
 
@@ -39,6 +46,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new KztCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "76", "77" };
     }

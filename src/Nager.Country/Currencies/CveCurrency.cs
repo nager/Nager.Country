@@ -3,16 +3,16 @@
     /// <summary>
     /// Cve Currency
     /// </summary>
-    public class CveCurrency : ICurrency
+    public sealed class CveCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "$";
+        public string? Symbol => "$";
 
         /// <inheritdoc/>
-        public string Singular => "escudo";
+        public string? Singular => "escudo";
 
         /// <inheritdoc/>
-        public string Plural => "escudo";
+        public string? Plural => "escudo";
 
         /// <inheritdoc/>
         public string IsoCode => "CVE";

@@ -3,16 +3,16 @@
     /// <summary>
     /// Btn Currency
     /// </summary>
-    public class BtnCurrency : ICurrency
+    public sealed class BtnCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "Nu.";
+        public string? Symbol => "Nu.";
 
         /// <inheritdoc/>
-        public string Singular => "ngultrum";
+        public string? Singular => "ngultrum";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "BTN";

@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Palestine
     /// </summary>
-    public class PalestineCountryInfo : ICountryInfo
+    public sealed class PalestineCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Palestine";
+
         /// <inheritdoc/>
         public string OfficialName => "State of Palestine";
+
         /// <inheritdoc/>
         public string NativeName => "فلسطين";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PS;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PSE;
+
         /// <inheritdoc/>
         public int NumericCode => 275;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".ps", "فلسطين." };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAsia;
 
@@ -37,6 +44,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new IlsCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "970" };
     }

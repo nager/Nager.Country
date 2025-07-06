@@ -3,16 +3,16 @@
     /// <summary>
     /// Azn Currency
     /// </summary>
-    public class AznCurrency : ICurrency
+    public sealed class AznCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "₼";
+        public string? Symbol => "₼";
 
         /// <inheritdoc/>
-        public string Singular => "manat";
+        public string? Singular => "manat";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "AZN";

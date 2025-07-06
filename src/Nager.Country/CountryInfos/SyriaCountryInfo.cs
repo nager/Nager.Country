@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Syria
     /// </summary>
-    public class SyriaCountryInfo : ICountryInfo
+    public sealed class SyriaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Syria";
+
         /// <inheritdoc/>
         public string OfficialName => "Syrian Arab Republic";
+
         /// <inheritdoc/>
         public string NativeName => "سوريا";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SY;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SYR;
+
         /// <inheritdoc/>
         public int NumericCode => 760;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".sy", "سوريا." };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAsia;
 
@@ -39,6 +46,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new SypCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "963" };
     }

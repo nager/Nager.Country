@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Wst Currency
     /// </summary>
-    public class WstCurrency : ICurrency
+    public sealed class WstCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "WS$";
+        public string? Symbol => "WS$";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "WST";

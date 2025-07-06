@@ -3,16 +3,16 @@
     /// <summary>
     /// Bam Currency
     /// </summary>
-    public class BamCurrency : ICurrency
+    public sealed class BamCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "КМ";
+        public string? Symbol => "КМ";
 
         /// <inheritdoc/>
-        public string Singular => "mark";
+        public string? Singular => "mark";
 
         /// <inheritdoc/>
-        public string Plural => "marks";
+        public string? Plural => "marks";
 
         /// <inheritdoc/>
         public string IsoCode => "BAM";

@@ -3,16 +3,16 @@
     /// <summary>
     /// Cup Currency
     /// </summary>
-    public class CupCurrency : ICurrency
+    public sealed class CupCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "$";
+        public string? Symbol => "$";
 
         /// <inheritdoc/>
-        public string Singular => "peso";
+        public string? Singular => "peso";
 
         /// <inheritdoc/>
-        public string Plural => "peso";
+        public string? Plural => "peso";
 
         /// <inheritdoc/>
         public string IsoCode => "CUP";

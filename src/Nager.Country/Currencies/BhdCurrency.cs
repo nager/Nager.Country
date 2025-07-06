@@ -3,16 +3,16 @@
     /// <summary>
     /// Bhd Currency
     /// </summary>
-    public class BhdCurrency : ICurrency
+    public sealed class BhdCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "د.ب.‏";
+        public string? Symbol => "د.ب.‏";
 
         /// <inheritdoc/>
-        public string Singular => "dinar";
+        public string? Singular => "dinar";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "BHD";

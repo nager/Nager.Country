@@ -20,11 +20,16 @@ namespace Nager.Country.UnitTest
             var currenies = new List<ICurrency>();
             foreach (var currencyClass in currencyClasses)
             {
-                var currency = (ICurrency)Activator.CreateInstance(currencyClass);
+                var currency = (ICurrency?)Activator.CreateInstance(currencyClass);
+                if (currency is null)
+                {
+                    continue;
+                }
+
                 currenies.Add(currency);
             }
 
-            return currenies.ToArray();
+            return [.. currenies];
         }
 
         [TestMethod]

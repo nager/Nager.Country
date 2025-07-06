@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Kwd Currency
     /// </summary>
-    public class KwdCurrency : ICurrency
+    public sealed class KwdCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "د.ك.‏";
+        public string? Symbol => "د.ك.‏";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "KWD";

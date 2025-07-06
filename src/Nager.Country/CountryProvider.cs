@@ -326,7 +326,7 @@ namespace Nager.Country
         /// <inheritdoc/>
         public ICountryInfo GetCountry(Alpha2Code alpha2Code)
         {
-            if (this._alpha2Code2CountryInfo.TryGetValue(alpha2Code, out ICountryInfo countryInfo))
+            if (this._alpha2Code2CountryInfo.TryGetValue(alpha2Code, out ICountryInfo? countryInfo))
             {
                 return countryInfo;
             }
@@ -337,7 +337,7 @@ namespace Nager.Country
         /// <inheritdoc/>
         public ICountryInfo GetCountry(Alpha3Code alpha3Code)
         {
-            if (this._alpha3Code2CountryInfo.TryGetValue(alpha3Code, out ICountryInfo countryInfo))
+            if (this._alpha3Code2CountryInfo.TryGetValue(alpha3Code, out ICountryInfo? countryInfo))
             {
                 return countryInfo;
             }

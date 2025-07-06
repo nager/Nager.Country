@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Myanmar
     /// </summary>
-    public class MyanmarCountryInfo : ICountryInfo
+    public sealed class MyanmarCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Myanmar";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of the Union of Myanmar";
+
         /// <inheritdoc/>
         public string NativeName => "Myanma";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MM;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.MMR;
+
         /// <inheritdoc/>
         public int NumericCode => 104;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".mm" };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthEasternAsia;
 
@@ -39,6 +46,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new MmkCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "95" };
     }

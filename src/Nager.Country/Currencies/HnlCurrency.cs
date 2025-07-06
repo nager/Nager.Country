@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Hnl Currency
     /// </summary>
-    public class HnlCurrency : ICurrency
+    public sealed class HnlCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "L";
+        public string? Symbol => "L";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "HNL";

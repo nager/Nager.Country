@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Rsd Currency
     /// </summary>
-    public class RsdCurrency : ICurrency
+    public sealed class RsdCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "дин.";
+        public string? Symbol => "дин.";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "RSD";

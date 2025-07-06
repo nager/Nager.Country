@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Pakistan
     /// </summary>
-    public class PakistanCountryInfo : ICountryInfo
+    public sealed class PakistanCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Pakistan";
+
         /// <inheritdoc/>
         public string OfficialName => "Islamic Republic of Pakistan";
+
         /// <inheritdoc/>
         public string NativeName => "Pakistan";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PK;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.PAK;
+
         /// <inheritdoc/>
         public int NumericCode => 586;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".pk" };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthernAsia;
 
@@ -38,6 +45,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new PkrCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "92" };
     }

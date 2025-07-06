@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Mro Currency
     /// </summary>
-    public class MroCurrency : ICurrency
+    public sealed class MroCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "UM";
+        public string? Symbol => "UM";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "MRO";

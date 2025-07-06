@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Jod Currency
     /// </summary>
-    public class JodCurrency : ICurrency
+    public sealed class JodCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "د.ا.‏";
+        public string? Symbol => "د.ا.‏";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "JOD";

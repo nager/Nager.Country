@@ -5,7 +5,7 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Croatia
     /// </summary>
-    public class CroatiaCountryInfo : ICountryInfo
+    public sealed class CroatiaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Croatia";

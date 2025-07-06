@@ -3,16 +3,16 @@
     /// <summary>
     /// Eur Currency
     /// </summary>
-    public class EurCurrency : ICurrency
+    public sealed class EurCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "€";
+        public string? Symbol => "€";
 
         /// <inheritdoc/>
-        public string Singular => "euro";
+        public string? Singular => "euro";
 
         /// <inheritdoc/>
-        public string Plural => "euro";
+        public string? Plural => "euro";
 
         /// <inheritdoc/>
         public string IsoCode => "EUR";

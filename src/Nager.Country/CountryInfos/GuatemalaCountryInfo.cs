@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Guatemala
     /// </summary>
-    public class GuatemalaCountryInfo : ICountryInfo
+    public sealed class GuatemalaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Guatemala";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of Guatemala";
+
         /// <inheritdoc/>
         public string NativeName => "Guatemala";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GT;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GTM;
+
         /// <inheritdoc/>
         public int NumericCode => 320;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".gt" };
 
         /// <inheritdoc/>
         public Region Region => Region.Americas;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.CentralAmerica;
 
@@ -38,6 +45,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new GtqCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "502" };
     }

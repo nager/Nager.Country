@@ -75,6 +75,11 @@ namespace Nager.Country.UnitTest
             ICountryProvider countryProvider = new CountryProvider();
 
             var countryInfo = countryProvider.GetCountryByNameConsiderTranslation(countryName);
+            if (countryInfo is null)
+            {
+                Assert.Fail("CountryInfo is null");
+            }
+
             Assert.AreEqual(Alpha2Code.AT, countryInfo.Alpha2Code);
         }
 

@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Php Currency
     /// </summary>
-    public class PhpCurrency : ICurrency
+    public sealed class PhpCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "₱";
+        public string? Symbol => "₱";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "PHP";

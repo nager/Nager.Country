@@ -3,16 +3,16 @@
     /// <summary>
     /// Afghan afghani
     /// </summary>
-    public class AfnCurrency : ICurrency
+    public sealed class AfnCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "؋";
+        public string? Symbol => "؋";
 
         /// <inheritdoc/>
-        public string Singular => "Af";
+        public string? Singular => "Af";
 
         /// <inheritdoc/>
-        public string Plural => "Afs";
+        public string? Plural => "Afs";
 
         /// <inheritdoc/>
         public string IsoCode => "AFN";

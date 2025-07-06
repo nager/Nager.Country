@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Ron Currency
     /// </summary>
-    public class RonCurrency : ICurrency
+    public sealed class RonCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "lei";
+        public string? Symbol => "lei";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "RON";

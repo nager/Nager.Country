@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Gmd Currency
     /// </summary>
-    public class GmdCurrency : ICurrency
+    public sealed class GmdCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "D";
+        public string? Symbol => "D";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "GMD";

@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// India
     /// </summary>
-    public class IndiaCountryInfo : ICountryInfo
+    public sealed class IndiaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "India";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of India";
+
         /// <inheritdoc/>
         public string NativeName => "भारत";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.IN;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.IND;
+
         /// <inheritdoc/>
         public int NumericCode => 356;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".in" };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthernAsia;
 
@@ -42,6 +49,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new InrCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "91" };
     }

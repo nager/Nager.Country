@@ -3,16 +3,16 @@
     /// <summary>
     /// Dzd Currency
     /// </summary>
-    public class DzdCurrency : ICurrency
+    public sealed class DzdCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "د.ج.‏";
+        public string? Symbol => "د.ج.‏";
 
         /// <inheritdoc/>
-        public string Singular => "dinar";
+        public string? Singular => "dinar";
 
         /// <inheritdoc/>
-        public string Plural => "dinar";
+        public string? Plural => "dinar";
 
         /// <inheritdoc/>
         public string IsoCode => "DZD";

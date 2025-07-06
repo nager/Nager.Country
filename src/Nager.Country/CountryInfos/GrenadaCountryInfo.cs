@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Grenada
     /// </summary>
-    public class GrenadaCountryInfo : ICountryInfo
+    public sealed class GrenadaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Grenada";
+
         /// <inheritdoc/>
         public string OfficialName => "Grenada";
+
         /// <inheritdoc/>
         public string NativeName => "Grenada";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GD;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GRD;
+
         /// <inheritdoc/>
         public int NumericCode => 308;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".gd" };
 
         /// <inheritdoc/>
         public Region Region => Region.Americas;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.Caribbean;
 
@@ -34,6 +41,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new XcdCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "1473" };
     }

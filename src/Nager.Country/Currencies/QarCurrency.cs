@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Qar Currency
     /// </summary>
-    public class QarCurrency : ICurrency
+    public sealed class QarCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "ر.ق.‏";
+        public string? Symbol => "ر.ق.‏";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "QAR";

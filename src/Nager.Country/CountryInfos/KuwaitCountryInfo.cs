@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Kuwait
     /// </summary>
-    public class KuwaitCountryInfo : ICountryInfo
+    public sealed class KuwaitCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Kuwait";
+
         /// <inheritdoc/>
         public string OfficialName => "State of Kuwait";
+
         /// <inheritdoc/>
         public string NativeName => "الكويت";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KW;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.KWT;
+
         /// <inheritdoc/>
         public int NumericCode => 414;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".kw" };
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAsia;
 
@@ -36,6 +43,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new KwdCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "965" };
     }

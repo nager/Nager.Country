@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// New Zealand
     /// </summary>
-    public class NewZealandCountryInfo : ICountryInfo
+    public sealed class NewZealandCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "New Zealand";
+
         /// <inheritdoc/>
         public string OfficialName => "New Zealand";
+
         /// <inheritdoc/>
         public string NativeName => "New Zealand";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.NZ;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.NZL;
+
         /// <inheritdoc/>
         public int NumericCode => 554;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".nz" };
 
         /// <inheritdoc/>
         public Region Region => Region.Oceania;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.AustraliaAndNewZealand;
 
@@ -34,6 +41,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new NzdCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "64" };
     }

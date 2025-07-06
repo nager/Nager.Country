@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Niger
     /// </summary>
-    public class NigerCountryInfo : ICountryInfo
+    public sealed class NigerCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Niger";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of Niger";
+
         /// <inheritdoc/>
         public string NativeName => "Niger";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.NE;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.NER;
+
         /// <inheritdoc/>
         public int NumericCode => 562;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".ne" };
 
         /// <inheritdoc/>
         public Region Region => Region.Africa;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.WesternAfrica;
 
@@ -41,6 +48,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new XofCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "227" };
     }

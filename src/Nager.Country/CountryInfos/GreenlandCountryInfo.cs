@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Greenland
     /// </summary>
-    public class GreenlandCountryInfo : ICountryInfo
+    public sealed class GreenlandCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Greenland";
+
         /// <inheritdoc/>
         public string OfficialName => "Greenland";
+
         /// <inheritdoc/>
         public string NativeName => "Kalaallit Nunaat";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GL;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GRL;
+
         /// <inheritdoc/>
         public int NumericCode => 304;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".gl" };
 
         /// <inheritdoc/>
         public Region Region => Region.Americas;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthAmerica;
 
@@ -34,6 +41,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new DkkCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "299" };
     }

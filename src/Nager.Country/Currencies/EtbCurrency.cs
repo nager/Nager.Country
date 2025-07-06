@@ -3,16 +3,16 @@
     /// <summary>
     /// Etb Currency
     /// </summary>
-    public class EtbCurrency : ICurrency
+    public sealed class EtbCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "ብር";
+        public string? Symbol => "ብር";
 
         /// <inheritdoc/>
-        public string Singular => "birr";
+        public string? Singular => "birr";
 
         /// <inheritdoc/>
-        public string Plural => "birr";
+        public string? Plural => "birr";
 
         /// <inheritdoc/>
         public string IsoCode => "ETB";

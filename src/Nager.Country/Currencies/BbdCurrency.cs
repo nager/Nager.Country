@@ -3,16 +3,16 @@
     /// <summary>
     /// Bbd Currency
     /// </summary>
-    public class BbdCurrency : ICurrency
+    public sealed class BbdCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "$";
+        public string? Symbol => "$";
 
         /// <inheritdoc/>
-        public string Singular => "dollar";
+        public string? Singular => "dollar";
 
         /// <inheritdoc/>
-        public string Plural => "dollars";
+        public string? Plural => "dollars";
 
         /// <inheritdoc/>
         public string IsoCode => "BBD";

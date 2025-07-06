@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Pkr Currency
     /// </summary>
-    public class PkrCurrency : ICurrency
+    public sealed class PkrCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "Rs";
+        public string? Symbol => "Rs";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "PKR";

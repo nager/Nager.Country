@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Krw Currency
     /// </summary>
-    public class KrwCurrency : ICurrency
+    public sealed class KrwCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "₩";
+        public string? Symbol => "₩";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "KRW";

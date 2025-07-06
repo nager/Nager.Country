@@ -3,16 +3,16 @@
     /// <summary>
     /// Awg Currency
     /// </summary>
-    public class AwgCurrency : ICurrency
+    public sealed class AwgCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "Afl";
+        public string? Symbol => "Afl";
 
         /// <inheritdoc/>
-        public string Singular => "florin";
+        public string? Singular => "florin";
 
         /// <inheritdoc/>
-        public string Plural => "florin";
+        public string? Plural => "florin";
 
         /// <inheritdoc/>
         public string IsoCode => "AWG";

@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Romania
     /// </summary>
-    public class RomaniaCountryInfo : ICountryInfo
+    public sealed class RomaniaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Romania";
+
         /// <inheritdoc/>
         public string OfficialName => "Romania";
+
         /// <inheritdoc/>
         public string NativeName => "România";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.RO;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.ROU;
+
         /// <inheritdoc/>
         public int NumericCode => 642;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".ro" };
 
         /// <inheritdoc/>
         public Region Region => Region.Europe;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
@@ -39,6 +46,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new RonCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "40" };
     }

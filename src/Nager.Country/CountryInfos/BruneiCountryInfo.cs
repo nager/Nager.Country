@@ -5,37 +5,45 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Brunei
     /// </summary>
-    public class BruneiCountryInfo : ICountryInfo
+    public sealed class BruneiCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Brunei";
+
         /// <inheritdoc/>
         public string OfficialName => "Nation of Brunei, Abode of Peace";
+
         /// <inheritdoc/>
         public string NativeName => "Negara Brunei Darussalam";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BN;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BRN;
+
         /// <inheritdoc/>
         public int NumericCode => 096;
+
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".bn" };
+        public string[] TLD => [".bn"];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.SouthEasternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.MY,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new BndCurrency() };
+        public ICurrency[] Currencies => [new BndCurrency()];
+
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "673" };
+        public string[] CallingCodes => ["673"];
     }
 }

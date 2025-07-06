@@ -3,16 +3,16 @@
     /// <summary>
     /// Crc Currency
     /// </summary>
-    public class CrcCurrency : ICurrency
+    public sealed class CrcCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "₡";
+        public string? Symbol => "₡";
 
         /// <inheritdoc/>
-        public string Singular => "colón";
+        public string? Singular => "colón";
 
         /// <inheritdoc/>
-        public string Plural => "cólones";
+        public string? Plural => "cólones";
 
         /// <inheritdoc/>
         public string IsoCode => "CRC";

@@ -5,41 +5,49 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Bulgaria
     /// </summary>
-    public class BulgariaCountryInfo : ICountryInfo
+    public sealed class BulgariaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Bulgaria";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of Bulgaria";
+
         /// <inheritdoc/>
         public string NativeName => "България";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BG;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.BGR;
+
         /// <inheritdoc/>
         public int NumericCode => 100;
+
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".bg" };
+        public string[] TLD => [".bg"];
 
         /// <inheritdoc/>
         public Region Region => Region.Europe;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.GR,
             Alpha2Code.MK,
             Alpha2Code.RO,
             Alpha2Code.RS,
             Alpha2Code.TR,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new BgnCurrency() };
+        public ICurrency[] Currencies => [new BgnCurrency()];
+
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "359" };
+        public string[] CallingCodes => ["359"];
     }
 }

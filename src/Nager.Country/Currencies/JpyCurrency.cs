@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Jpy Currency
     /// </summary>
-    public class JpyCurrency : ICurrency
+    public sealed class JpyCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "¥";
+        public string? Symbol => "¥";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "JPY";

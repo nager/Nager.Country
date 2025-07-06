@@ -3,16 +3,16 @@
     /// <summary>
     /// Bif Currency
     /// </summary>
-    public class BifCurrency : ICurrency
+    public sealed class BifCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "FBu";
+        public string? Symbol => "FBu";
 
         /// <inheritdoc/>
-        public string Singular => "franc";
+        public string? Singular => "franc";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "BIF";

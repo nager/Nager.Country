@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Libya
     /// </summary>
-    public class LibyaCountryInfo : ICountryInfo
+    public sealed class LibyaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Libya";
+
         /// <inheritdoc/>
         public string OfficialName => "State of Libya";
+
         /// <inheritdoc/>
         public string NativeName => "ليبيا";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LY;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.LBY;
+
         /// <inheritdoc/>
         public int NumericCode => 434;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".ly" };
 
         /// <inheritdoc/>
         public Region Region => Region.Africa;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthernAfrica;
 
@@ -40,6 +47,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new LydCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "218" };
     }

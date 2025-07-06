@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Sudan
     /// </summary>
-    public class SudanCountryInfo : ICountryInfo
+    public sealed class SudanCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Sudan";
+
         /// <inheritdoc/>
         public string OfficialName => "Republic of the Sudan";
+
         /// <inheritdoc/>
         public string NativeName => "السودان";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SD;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.SDN;
+
         /// <inheritdoc/>
         public int NumericCode => 729;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".sd" };
 
         /// <inheritdoc/>
         public Region Region => Region.Africa;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthernAfrica;
 
@@ -41,6 +48,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new SdgCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "249" };
     }

@@ -3,16 +3,16 @@
     /// <summary>
     /// United Arab Emirates dirham
     /// </summary>
-    public class AedCurrency : ICurrency
+    public sealed class AedCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "د.إ.‏";
+        public string? Symbol => "د.إ.‏";
 
         /// <inheritdoc/>
-        public string Singular => "dirham";
+        public string? Singular => "dirham";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "AED";

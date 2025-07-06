@@ -3,16 +3,16 @@
     /// <summary>
     /// Svc Currency
     /// </summary>
-    public class SvcCurrency : ICurrency
+    public sealed class SvcCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "₡";
+        public string? Symbol => "₡";
 
         /// <inheritdoc/>
-        public string Singular => "colón";
+        public string? Singular => "colón";
 
         /// <inheritdoc/>
-        public string Plural => "colón";
+        public string? Plural => "colón";
 
         /// <inheritdoc/>
         public string IsoCode => "SVC";

@@ -3,16 +3,16 @@
     /// <summary>
     /// Dkk Currency
     /// </summary>
-    public class DkkCurrency : ICurrency
+    public sealed class DkkCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "kr.";
+        public string? Symbol => "kr.";
 
         /// <inheritdoc/>
-        public string Singular => "krone";
+        public string? Singular => "krone";
 
         /// <inheritdoc/>
-        public string Plural => "kroner";
+        public string? Plural => "kroner";
 
         /// <inheritdoc/>
         public string IsoCode => "DKK";

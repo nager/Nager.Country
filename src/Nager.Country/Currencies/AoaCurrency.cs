@@ -3,16 +3,16 @@
     /// <summary>
     /// Aoa Currency
     /// </summary>
-    public class AoaCurrency : ICurrency
+    public sealed class AoaCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "Kz";
+        public string? Symbol => "Kz";
 
         /// <inheritdoc/>
-        public string Singular => "kwanza";
+        public string? Singular => "kwanza";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "AOA";

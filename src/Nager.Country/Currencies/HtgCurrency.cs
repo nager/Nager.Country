@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Htg Currency
     /// </summary>
-    public class HtgCurrency : ICurrency
+    public sealed class HtgCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "G";
+        public string? Symbol => "G";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "HTG";

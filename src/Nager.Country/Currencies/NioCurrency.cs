@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Nio Currency
     /// </summary>
-    public class NioCurrency : ICurrency
+    public sealed class NioCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "C$";
+        public string? Symbol => "C$";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "NIO";

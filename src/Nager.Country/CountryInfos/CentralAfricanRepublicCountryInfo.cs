@@ -5,25 +5,32 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Central African Republic
     /// </summary>
-    public class CentralAfricanRepublicCountryInfo : ICountryInfo
+    public sealed class CentralAfricanRepublicCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Central African Republic";
+
         /// <inheritdoc/>
         public string OfficialName => "Central African Republic";
+
         /// <inheritdoc/>
         public string NativeName => "Ködörösêse tî Bêafrîka";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CF;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CAF;
+
         /// <inheritdoc/>
         public int NumericCode => 140;
+
         /// <inheritdoc/>
         public string[] TLD => new [] { ".cf" };
 
         /// <inheritdoc/>
         public Region Region => Region.Africa;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.MiddleAfrica;
 
@@ -40,6 +47,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => new [] { new XafCurrency() };
+
         /// <inheritdoc/>
         public string[] CallingCodes => new [] { "236" };
     }

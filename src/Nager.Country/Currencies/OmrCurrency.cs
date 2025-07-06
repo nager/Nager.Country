@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Omr Currency
     /// </summary>
-    public class OmrCurrency : ICurrency
+    public sealed class OmrCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "ر.ع.‏";
+        public string? Symbol => "ر.ع.‏";
 
         /// <inheritdoc/>
-        public string Singular => null;
+        public string? Singular => null;
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "OMR";

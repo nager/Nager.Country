@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Mwk Currency
     /// </summary>
-    public class MwkCurrency : ICurrency
+    public sealed class MwkCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "K";
+        public string? Symbol => "K";
 
         /// <inheritdoc/>
-        public string Singular => "kwacha";
+        public string? Singular => "kwacha";
 
         /// <inheritdoc/>
-        public string Plural => "kwacha";
+        public string? Plural => "kwacha";
 
         /// <inheritdoc/>
         public string IsoCode => "MWK";

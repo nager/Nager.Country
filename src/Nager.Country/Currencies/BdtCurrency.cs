@@ -3,16 +3,16 @@
     /// <summary>
     /// Bdt Currency
     /// </summary>
-    public class BdtCurrency : ICurrency
+    public sealed class BdtCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "৳";
+        public string? Symbol => "৳";
 
         /// <inheritdoc/>
-        public string Singular => "taka";
+        public string? Singular => "taka";
 
         /// <inheritdoc/>
-        public string Plural => null;
+        public string? Plural => null;
 
         /// <inheritdoc/>
         public string IsoCode => "BDT";

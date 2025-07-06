@@ -3,16 +3,16 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Xpf Currency
     /// </summary>
-    public class XpfCurrency : ICurrency
+    public sealed class XpfCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "R";
+        public string? Symbol => "R";
 
         /// <inheritdoc/>
-        public string Singular => "rand";
+        public string? Singular => "rand";
 
         /// <inheritdoc/>
-        public string Plural => "rand";
+        public string? Plural => "rand";
 
         /// <inheritdoc/>
         public string IsoCode => "ZAR";

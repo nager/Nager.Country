@@ -3,16 +3,16 @@
     /// <summary>
     /// Albanian lek
     /// </summary>
-    public class AllCurrency : ICurrency
+    public sealed class AllCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "L";
+        public string? Symbol => "L";
 
         /// <inheritdoc/>
-        public string Singular => "lek";
+        public string? Singular => "lek";
 
         /// <inheritdoc/>
-        public string Plural => "leke";
+        public string? Plural => "leke";
 
         /// <inheritdoc/>
         public string IsoCode => "ALL";

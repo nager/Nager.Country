@@ -5,31 +5,38 @@ namespace Nager.Country.CountryInfos
     /// <summary>
     /// Algeria
     /// </summary>
-    public class AlgeriaCountryInfo : ICountryInfo
+    public sealed class AlgeriaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Algeria";
+
         /// <inheritdoc/>
         public string OfficialName => "People's Democratic Republic of Algeria";
+
         /// <inheritdoc/>
         public string NativeName => "الجزائر";
+
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.DZ;
+
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.DZA;
+
         /// <inheritdoc/>
         public int NumericCode => 012;
+
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".dz", "الجزائر." };
+        public string[] TLD => [".dz", "الجزائر."];
 
         /// <inheritdoc/>
         public Region Region => Region.Africa;
+
         /// <inheritdoc/>
         public SubRegion SubRegion => SubRegion.NorthernAfrica;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.TN,
             Alpha2Code.LY,
             Alpha2Code.NE,
@@ -37,11 +44,12 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.MR,
             Alpha2Code.ML,
             Alpha2Code.MA,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new DzdCurrency() };
+        public ICurrency[] Currencies => [new DzdCurrency()];
+
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "213" };
+        public string[] CallingCodes => ["213"];
     }
 }

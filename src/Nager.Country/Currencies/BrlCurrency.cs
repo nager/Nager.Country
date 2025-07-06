@@ -3,16 +3,16 @@
     /// <summary>
     /// Brl Currency
     /// </summary>
-    public class BrlCurrency : ICurrency
+    public sealed class BrlCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "R$";
+        public string? Symbol => "R$";
 
         /// <inheritdoc/>
-        public string Singular => "real";
+        public string? Singular => "real";
 
         /// <inheritdoc/>
-        public string Plural => "reais";
+        public string? Plural => "reais";
 
         /// <inheritdoc/>
         public string IsoCode => "BRL";

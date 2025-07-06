@@ -3,16 +3,16 @@
     /// <summary>
     /// Chf Currency
     /// </summary>
-    public class ChfCurrency : ICurrency
+    public sealed class ChfCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string Symbol => "CHF";
+        public string? Symbol => "CHF";
 
         /// <inheritdoc/>
-        public string Singular => "franc";
+        public string? Singular => "franc";
 
         /// <inheritdoc/>
-        public string Plural => "francs";
+        public string? Plural => "francs";
 
         /// <inheritdoc/>
         public string IsoCode => "CHF";

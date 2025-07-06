@@ -26,10 +26,17 @@ namespace Nager.Country.Translation
             var interfaceType = typeof(ILanguageTranslation);
             var types = AppDomain.CurrentDomain.GetAssemblies()
                 .SelectMany(s => s.GetLoadableTypes())
-                .Where(p => interfaceType.IsAssignableFrom(p) && p.IsClass);
+                .Where(p => p is not null && 
+                    interfaceType.IsAssignableFrom(p) &&
+                    p.IsClass);
 
             foreach (var type in types)
             {
+                if (type is null)
+                {
+                    continue;
+                }
+
                 var languageTranslation = (ILanguageTranslation?)Activator.CreateInstance(type);
                 if (languageTranslation is null)
                 {
