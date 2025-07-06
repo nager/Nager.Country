@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 140;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".cf" };
+        public string[] TLD => [".cf"];
 
         /// <inheritdoc/>
         public Region Region => Region.Africa;
@@ -35,20 +35,20 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.MiddleAfrica;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.CM,
             Alpha2Code.TD,
             Alpha2Code.CD,
             Alpha2Code.CG,
             Alpha2Code.SS,
             Alpha2Code.SD,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new XafCurrency() };
+        public ICurrency[] Currencies => [new XafCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "236" };
+        public string[] CallingCodes => ["236"];
     }
 }

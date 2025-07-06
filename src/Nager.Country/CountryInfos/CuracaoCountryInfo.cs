@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 531;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".cw" };
+        public string[] TLD => [".cw"];
 
         /// <inheritdoc/>
         public Region Region => Region.Americas;
@@ -35,14 +35,12 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.Caribbean;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
-        };
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new AngCurrency() };
+        public ICurrency[] Currencies => [new AngCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "5999" };
+        public string[] CallingCodes => ["5999"];
     }
 }

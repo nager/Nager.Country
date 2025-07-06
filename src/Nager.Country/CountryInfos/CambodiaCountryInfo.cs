@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 116;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".kh" };
+        public string[] TLD => [".kh"];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
@@ -43,9 +43,9 @@ namespace Nager.Country.CountryInfos
         };
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new KhrCurrency() };
+        public ICurrency[] Currencies => [new KhrCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "855" };
+        public string[] CallingCodes => ["855"];
     }
 }
