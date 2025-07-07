@@ -26,7 +26,11 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 392;
 
         /// <inheritdoc/>
-        public string[] TLD => [".jp", ".みんな"];
+        public string[] TLD =>
+        [
+            ".jp",
+            ".みんな"
+        ];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
