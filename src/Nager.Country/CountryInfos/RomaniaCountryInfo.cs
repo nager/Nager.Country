@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 642;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".ro" };
+        public string[] TLD => [".ro"];
 
         /// <inheritdoc/>
         public Region Region => Region.Europe;
@@ -35,19 +35,19 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.BG,
             Alpha2Code.HU,
             Alpha2Code.MD,
             Alpha2Code.RS,
             Alpha2Code.UA,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new RonCurrency() };
+        public ICurrency[] Currencies => [new RonCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "40" };
+        public string[] CallingCodes => ["40"];
     }
 }

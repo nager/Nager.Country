@@ -26,7 +26,12 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 158;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".tw", ".台湾", ".台灣" };
+        public string[] TLD =>
+        [
+            ".tw",
+            ".台湾",
+            ".台灣",
+        ];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
@@ -35,14 +40,12 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.EasternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
-        };
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new TwdCurrency() };
+        public ICurrency[] Currencies => [new TwdCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "886" };
+        public string[] CallingCodes => ["886"];
     }
 }

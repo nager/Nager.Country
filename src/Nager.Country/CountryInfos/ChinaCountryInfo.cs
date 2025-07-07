@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 156;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".cn", ".中国", ".中國", ".公司", ".网络" };
+        public string[] TLD => [".cn", ".中国", ".中國", ".公司", ".网络"];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
@@ -35,8 +35,8 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.EasternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.AF,
             Alpha2Code.BT,
             Alpha2Code.MM,
@@ -52,12 +52,12 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.RU,
             Alpha2Code.TJ,
             Alpha2Code.VN,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new CnyCurrency() };
+        public ICurrency[] Currencies => [new CnyCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "86" };
+        public string[] CallingCodes => ["86"];
     }
 }

@@ -26,7 +26,12 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 643;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".ru", ".su", ".рф" };
+        public string[] TLD =>
+        [
+            ".ru",
+            ".su",
+            ".рф",
+        ];
 
         /// <inheritdoc/>
         public Region Region => Region.Europe;
@@ -35,8 +40,8 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.AZ,
             Alpha2Code.BY,
             Alpha2Code.CN,
@@ -51,12 +56,12 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.NO,
             Alpha2Code.PL,
             Alpha2Code.UA,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new RubCurrency() };
+        public ICurrency[] Currencies => [new RubCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "7" };
+        public string[] CallingCodes => ["7"];
     }
 }

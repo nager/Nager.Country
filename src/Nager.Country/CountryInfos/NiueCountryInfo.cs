@@ -35,14 +35,12 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.Polynesia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
-        };
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new NzdCurrency() };
+        public ICurrency[] Currencies => [new NzdCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "683" };
+        public string[] CallingCodes => ["683"];
     }
 }

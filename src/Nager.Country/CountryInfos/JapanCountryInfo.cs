@@ -26,7 +26,11 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 392;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".jp", ".みんな" };
+        public string[] TLD =>
+        [
+            ".jp",
+            ".みんな"
+        ];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
@@ -35,14 +39,12 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.EasternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
-        };
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new JpyCurrency() };
+        public ICurrency[] Currencies => [new JpyCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "81" };
+        public string[] CallingCodes => ["81"];
     }
 }
