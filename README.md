@@ -34,7 +34,7 @@ Perfect for projects that require up-to-date and standardized country data, such
 Below is a sample JSON structure returned for the country **Austria** (`AT`).  
 This data is available via the NuGet package or as part of the JSON export.
 
-```
+```json
 {
   "commonName": "Austria",
   "officialName": "Republic of Austria",
