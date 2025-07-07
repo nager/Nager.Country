@@ -35,12 +35,12 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.SouthEasternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.LA,
             Alpha2Code.TH,
             Alpha2Code.VN,
-        };
+        ];
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => [new KhrCurrency()];
