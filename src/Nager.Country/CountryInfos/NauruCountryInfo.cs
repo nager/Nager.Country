@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 520;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".nr" };
+        public string[] TLD => [".nr"];
 
         /// <inheritdoc/>
         public Region Region => Region.Oceania;
@@ -35,14 +35,12 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.Micronesia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
-        };
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new AudCurrency() };
+        public ICurrency[] Currencies => [new AudCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "674" };
+        public string[] CallingCodes => ["674"];
     }
 }

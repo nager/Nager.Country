@@ -26,7 +26,12 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 702;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".sg", ".新加坡", ".சிங்கப்பூர்" };
+        public string[] TLD =>
+        [
+            ".sg",
+            ".新加坡",
+            ".சிங்கப்பூர்",
+        ];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
@@ -35,14 +40,12 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.SouthEasternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
-        };
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new SgdCurrency() };
+        public ICurrency[] Currencies => [new SgdCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "65" };
+        public string[] CallingCodes => ["65"];
     }
 }

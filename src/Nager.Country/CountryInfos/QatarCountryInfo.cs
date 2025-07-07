@@ -26,7 +26,11 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 634;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".qa", "قطر." };
+        public string[] TLD =>
+        [
+            ".qa",
+            "قطر.",
+        ];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
@@ -35,15 +39,15 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.WesternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.SA,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new QarCurrency() };
+        public ICurrency[] Currencies => [new QarCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "974" };
+        public string[] CallingCodes => ["974"];
     }
 }

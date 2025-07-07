@@ -26,7 +26,11 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 410;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".kr", ".한국" };
+        public string[] TLD =>
+        [
+            ".kr",
+            ".한국",
+        ];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
@@ -35,15 +39,15 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.EasternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.KP,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new KrwCurrency() };
+        public ICurrency[] Currencies => [new KrwCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "82" };
+        public string[] CallingCodes => ["82"];
     }
 }
