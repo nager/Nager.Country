@@ -1,8 +1,39 @@
-# Nager.Country
+# 🌍 Nager.Country – Worldwide Country Information
 
-The Worldwide Country Informations are available over the `nuget` package or as `json` in the [zip package](https://github.com/nager/Nager.Country/releases/latest/download/countries.zip). The collection contains the Informations for 250 Countries.
+**Nager.Country** provides a comprehensive dataset of **worldwide country information**, designed for developers who need reliable and structured country-related data.
 
-**Example Data**
+The dataset includes **250 countries and territories** with detailed information such as:
+
+- ✅ Official country names  
+- 🌐 ISO 3166 Alpha-2, Alpha-3, and numeric country codes  
+- 💱 Associated currencies and ISO 4217 currency codes  
+- 🗣️ Official and spoken languages (ISO 639)  
+- 🌍 Continent and subregion classification  
+- 🌐 Country borders
+- 🌏 Translations in multiple languages
+
+## 📦 Access
+
+You can access the data in two formats:
+
+- Via [NuGet package](https://www.nuget.org/packages/Nager.Country) – ideal for .NET applications  
+- As a downloadable ZIP archive containing structured JSON files ([latest zip package](https://github.com/nager/Nager.Country/releases/latest/download/countries.zip))
+
+## 🎯 Use Cases
+
+Perfect for projects that require up-to-date and standardized country data, such as:
+
+- International e-commerce systems  
+- Travel and booking platforms  
+- Localization (i18n) features  
+- Data validation and enrichment  
+- Geographic analytics and reporting
+
+## 📄 Example Country Data (JSON)
+
+Below is a sample JSON structure returned for the country **Austria** (`AT`).  
+This data is available via the NuGet package or as part of the JSON export.
+
 ```
 {
   "commonName": "Austria",
@@ -58,21 +89,42 @@ The Worldwide Country Informations are available over the `nuget` package or as 
 ```
 
 ## nuget [![nuget.org download count](https://img.shields.io/nuget/dt/nager.country.svg)](https://www.nuget.org/packages/Nager.Country/)
-The package is available via [NuGet](https://www.nuget.org/packages/Nager.Country)
+
+The project is available as NuGet packages for easy integration into any .NET application.
+
+### 📚 Core Package –  `Nager.Country`
+
+🔗 [View on NuGet.org →](https://www.nuget.org/packages/Nager.Country)
+
 ```
 PM> install-package Nager.Country
+```
+
+### 🌐 Optional Package – `Nager.Country.Translation`
+
+Provides localized country names (translations in multiple languages).
+
+🔗 [View on NuGet.org →](https://www.nuget.org/packages/Nager.Country.Translation)
+
+```
 PM> install-package Nager.Country.Translation
 ```
 
 ## Examples of use
 
-### Get all countries
+### Get all available countries
+
+Retrieve a full list of all 250 countries and territories.
+
 ```cs
 var countryProvider = new CountryProvider();
 var countries = countryProvider.GetCountries();
 ```
 
-### Get country via CountryName
+### Lookup a country by its English name
+
+Get detailed information by specifying the official English country name.
+
 ```cs
 var countryProvider = new CountryProvider();
 var countryInfo = countryProvider.GetCountryByName("Germany");
@@ -84,9 +136,11 @@ var countryInfo = countryProvider.GetCountryByName("Germany");
 //countryInfo...
 ```
 
-### Get country via CountryName and consider Country Translation
+### Lookup a country by localized name (with translation support)
 
-Require the translation package `Install-Package Nager.Country.Translation`
+Enables country name lookup using translations (e.g. "Germania" instead of "Germany").
+
+➡️ Requires the translation package [Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation)
 
 ```cs
 var countryProvider = new CountryProvider();
@@ -99,21 +153,31 @@ var countryInfo = countryProvider.GetCountryByNameConsiderTranslation("Germania"
 //countryInfo...
 ```
 
-### Get the name of the country in the requested language ([nuget -> Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation))
+### Get a country's name in a specific language
+
+Translate the official country name into a desired language.
+
+➡️ Requires the translation package [Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation)
+
 ```cs
 var translationProvider = new TranslationProvider();
 var translatedCountryName = translationProvider.GetCountryTranslatedName(Alpha2Code.DE, LanguageCode.EN);
 //translatedCountryName -> Germany
 ```
 
-### Get all Languages ([nuget -> Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation))
+### Get all supported languages
+
+List all language codes available for translation purposes.
+➡️ Requires the translation package [Nager.Country.Translation](https://www.nuget.org/packages/Nager.Country.Translation)
+
 ```cs
 var translationProvider = new TranslationProvider();
 var languages = translationProvider.GetLanguages();
 ```
 
+## 🌐 Related & Interesting Projects
 
-## Interesting projects
+Here are some useful projects that also provide country-related data, validation, or localization features:
 
 | Language | Project | 
 | ------------- | ------------- | 
