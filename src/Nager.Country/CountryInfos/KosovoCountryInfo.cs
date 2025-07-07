@@ -30,7 +30,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         /// <remarks>Reserved, unofficial</remarks>
-        public string[] TLD => new[] { ".xk" };
+        public string[] TLD => [".xk"];
 
         /// <inheritdoc/>
         public Region Region => Region.Europe;
@@ -39,19 +39,19 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.SouthernEurope;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.AL,
             Alpha2Code.ME,
             Alpha2Code.MK,
             Alpha2Code.RS
-        };
+        ];
 
         /// <inheritdoc/>
         /// <remarks>Euro used unilaterally</remarks>
-        public ICurrency[] Currencies => new[] { new EurCurrency() };
+        public ICurrency[] Currencies => [new EurCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new[] { "383" };
+        public string[] CallingCodes => ["383"];
     }
 }
