@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 704;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".vn" };
+        public string[] TLD => [".vn"];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;
@@ -35,17 +35,17 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.SouthEasternAsia;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries => new Alpha2Code[]
-        {
+        public Alpha2Code[] BorderCountries =>
+        [
             Alpha2Code.KH,
             Alpha2Code.CN,
             Alpha2Code.LA,
-        };
+        ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => new [] { new VndCurrency() };
+        public ICurrency[] Currencies => [new VndCurrency()];
 
         /// <inheritdoc/>
-        public string[] CallingCodes => new [] { "84" };
+        public string[] CallingCodes => ["84"];
     }
 }
