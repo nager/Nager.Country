@@ -1,45 +1,78 @@
 ﻿using System.Collections.Generic;
 
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_0_OR_GREATER
+using System.Diagnostics.CodeAnalysis;
+#endif
+
 namespace Nager.Country
 {
     /// <summary>
-    /// ICountryProvider
+    /// CountryProvider Interface
     /// </summary>
     public interface ICountryProvider
     {
         /// <summary>
-        /// Get all country informations
+        /// Retrieves information for all available countries.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>An <see cref="IEnumerable{ICountryInfo}"/> containing all country information.</returns>
         IEnumerable<ICountryInfo> GetCountries();
 
         /// <summary>
-        /// Get country by alpha2 or alpha3 code
+        /// Retrieves information for a specific country by its ISO alpha-2 or alpha-3 code.
         /// </summary>
-        /// <param name="alpha2or3Code"></param>
-        /// <returns></returns>
+        /// <param name="alpha2or3Code">The ISO alpha-2 or alpha-3 code of the country.</param>
+        /// <returns>The <see cref="ICountryInfo"/> corresponding to the specified code.</returns>
+        /// <exception cref="UnknownCountryException">Thrown if no country matches the provided code.</exception>
         ICountryInfo GetCountry(string alpha2or3Code);
 
-        /// <summary>
-        /// Try get country by alpha2 or alpha3 code
-        /// </summary>
-        /// <param name="alpha2or3Code"></param>
-        /// <param name="countryInfo"></param>
-        /// <returns></returns>
-        bool TryGetCountry(string alpha2or3Code, out ICountryInfo? countryInfo);
+#if NETSTANDARD2_0 || NET48
 
         /// <summary>
-        /// Get country by alpha2 code
+        /// Attempts to retrieve country information by its ISO alpha-2 or alpha-3 code.
         /// </summary>
-        /// <param name="alpha2Code"></param>
-        /// <returns></returns>
+        /// <param name="alpha2or3Code">The ISO alpha-2 or alpha-3 code of the country.</param>
+        /// <param name="countryInfo">
+        /// When this method returns, contains the <see cref="ICountryInfo"/> 
+        /// for the specified code if found; otherwise, null.
+        /// </param>
+        /// <returns>
+        /// <c>true</c> if a country matching the specified code was found; otherwise, <c>false</c>.
+        /// </returns>
+        bool TryGetCountry(string alpha2or3Code, out ICountryInfo? countryInfo);
+
+#endif
+
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_0_OR_GREATER
+
+        /// <summary>
+        /// Attempts to retrieve country information by its ISO alpha-2 or alpha-3 code.
+        /// </summary>
+        /// <param name="alpha2or3Code">The ISO alpha-2 or alpha-3 code of the country.</param>
+        /// <param name="countryInfo">
+        /// When this method returns, contains the <see cref="ICountryInfo"/> 
+        /// for the specified code if found; otherwise, null.
+        /// </param>
+        /// <returns>
+        /// <c>true</c> if a country matching the specified code was found; otherwise, <c>false</c>.
+        /// </returns>
+        bool TryGetCountry(string alpha2or3Code, [NotNullWhen(true)] out ICountryInfo? countryInfo);
+
+#endif
+
+        /// <summary>
+        /// Retrieves information about a country using its ISO 3166-1 alpha-2 code.
+        /// </summary>
+        /// <param name="alpha2Code">The ISO alpha-2 code of the country.</param>
+        /// <returns>The <see cref="ICountryInfo"/> corresponding to the specified code.</returns>
+        /// <exception cref="UnknownCountryException">Thrown if no country matches the provided code.</exception>
         ICountryInfo GetCountry(Alpha2Code alpha2Code);
 
         /// <summary>
-        /// Get country by alpha3 code
+        /// Retrieves information about a country using its ISO 3166-1 alpha-3 code.
         /// </summary>
-        /// <param name="alpha3Code"></param>
-        /// <returns></returns>
+        /// <param name="alpha3Code">The ISO alpha-3 code of the country.</param>
+        /// <returns>The <see cref="ICountryInfo"/> corresponding to the specified code.</returns>
+        /// <exception cref="UnknownCountryException">Thrown if no country matches the provided code.</exception>
         ICountryInfo GetCountry(Alpha3Code alpha3Code);
 
         /// <summary>
@@ -50,7 +83,8 @@ namespace Nager.Country
         /// GetCountryByNameConsiderTranslation -> <see href="https://github.com/nager/Nager.Country/blob/master/src/Nager.Country.Translation/CountryProviderExtension.cs>">CountryProviderExtension</see>
         /// </remarks>
         /// <param name="countryName"></param>
-        /// <returns></returns>
+        /// <returns>The <see cref="ICountryInfo"/> corresponding to the specified code.</returns>
+        /// <exception cref="UnknownCountryException">Thrown if no country matches the provided code.</exception>
         ICountryInfo GetCountryByName(string countryName);
     }
 }
