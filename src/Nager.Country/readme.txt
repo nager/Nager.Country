@@ -20,6 +20,18 @@ Project Source: https://github.com/nager/Nager.Country
 
 Examples of use:
 
+Get CountryInfo for Germany via ISO-3166-1 Alpha-2
+══════════════════════════════════════════════════════════════════════════════════════════════════════
+
+    ICountryProvider countryProvider = new CountryProvider();
+    var countryInfo = countryProvider.GetCountry("de");
+    //countryInfo.CommonName -> Germany
+    //countryInfo.Alpha3Code -> DEU
+    //countryInfo.NumericCode -> 276
+    //countryInfo.Region -> Europe
+    //countryInfo.SubRegion -> WesternEurope
+    //countryInfo...
+
 Get CountryInfo for Germany via Alpha2Code
 ══════════════════════════════════════════════════════════════════════════════════════════════════════
 
