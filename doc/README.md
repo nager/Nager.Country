@@ -19,7 +19,6 @@ The dataset includes **250 countries and territories** with detailed information
 ## Code Examples
 
 ### Get CountryInfo for Germany via ISO-3166-1 Alpha-2
-══════════════════════════════════════════════════════════════════════════════════════════════════════
 
 ```cs
 ICountryProvider countryProvider = new CountryProvider();
