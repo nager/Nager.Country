@@ -28,7 +28,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HR, "Američka Samoa"),
             new TranslationInfo(LanguageCode.HU, "Amerikai Szamoa"),
             new TranslationInfo(LanguageCode.HY, "Ամերիկյան Սամոա"),
-            new TranslationInfo(LanguageCode.ID, "Amerika Serikat"),
+            new TranslationInfo(LanguageCode.ID, "Samoa Amerika"),
             new TranslationInfo(LanguageCode.IS, "Bandaríska Samóa"),
             new TranslationInfo(LanguageCode.IT, "Samoa Americane"),
             new TranslationInfo(LanguageCode.JA, "アメリカ領サモア"),
