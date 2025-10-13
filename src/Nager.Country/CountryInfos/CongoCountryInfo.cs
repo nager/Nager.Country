@@ -14,7 +14,7 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Democratic Republic of the Congo";
 
         /// <inheritdoc/>
-        public string NativeName => "République du Congo";
+        public string NativeName => "République démocratique du Congo";
 
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CD;
