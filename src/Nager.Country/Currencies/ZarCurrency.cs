@@ -6,21 +6,21 @@ namespace Nager.Country.Currencies
     public sealed class ZarCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => null;
+        public string? Symbol => "R";
 
         /// <inheritdoc/>
-        public string? Singular => null;
+        public string? Singular => "rand";
 
         /// <inheritdoc/>
-        public string? Plural => null;
+        public string? Plural => "rand";
 
         /// <inheritdoc/>
-        public string IsoCode => "XPF";
+        public string IsoCode => "ZAR";
 
         /// <inheritdoc/>
-        public string NumericCode => "953";
+        public string NumericCode => "710";
 
         /// <inheritdoc/>
-        public string Name => "CFP franc";
+        public string Name => "South African Rand";
     }
 }
