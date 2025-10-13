@@ -11,7 +11,7 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "French Guiana";
 
         /// <inheritdoc/>
-        public string OfficialName => "Guiana";
+        public string OfficialName => "Guyane française";
 
         /// <inheritdoc/>
         public string NativeName => "Guyane française";
