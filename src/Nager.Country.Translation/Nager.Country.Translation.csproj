@@ -23,6 +23,10 @@
     <TargetFrameworks>net48;netstandard2.0;netstandard2.1;net8;net9</TargetFrameworks>
 	  
     <Version>4.3.3</Version>
+	  
+    <SignAssembly>True</SignAssembly>
+	  
+    <AssemblyOriginatorKeyFile>Nager.Country.Translation.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
