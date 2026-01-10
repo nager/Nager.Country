@@ -1,8 +1,11 @@
-﻿namespace Nager.Country.Currencies
+﻿using System;
+
+namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Bgn Currency
     /// </summary>
+    [Obsolete("Replaced with ECurrency. Use EurCurrency instead.")]
     public sealed class BgnCurrency : ICurrency
     {
         /// <inheritdoc/>
