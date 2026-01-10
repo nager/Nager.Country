@@ -21,9 +21,9 @@
 
     <RepositoryUrl>https://github.com/nager/Nager.Country</RepositoryUrl>
 
-    <TargetFrameworks>net48;netstandard2.0;netstandard2.1;net8;net9</TargetFrameworks>
+    <TargetFrameworks>net48;netstandard2.0;netstandard2.1;net9.0;net10.0</TargetFrameworks>
 
-    <Version>4.3.4</Version>
+    <Version>4.3.5</Version>
   </PropertyGroup>
 
   <ItemGroup>

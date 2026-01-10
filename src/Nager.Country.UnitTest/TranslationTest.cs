@@ -30,7 +30,7 @@ namespace Nager.Country.UnitTest
         public void CheckTranslationsAvailableTest()
         {
             ITranslationProvider translationProvider = new TranslationProvider();
-            foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
+            foreach (var countryCode in Enum.GetValues<Alpha2Code>())
             {
                 var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
                 if (countryTranslation is null)
@@ -39,7 +39,7 @@ namespace Nager.Country.UnitTest
                 }
 
                 var translationCount = countryTranslation.Translations.Length;
-                Assert.IsTrue(translationCount > 5, $"Missing translations for countryCode: {countryCode}");
+                Assert.IsGreaterThan(5, translationCount, $"Missing translations for countryCode: {countryCode}");
             }
         }
 
@@ -53,11 +53,14 @@ namespace Nager.Country.UnitTest
         }
 
         [TestMethod]
-        [ExpectedException(typeof(UnknownCountryException), "Cannot found a country for code XX")]
         public void GetCountryTranslatedName_InvalidAlphaCode_ThrowException()
         {
             ITranslationProvider translationProvider = new TranslationProvider();
-            translationProvider.GetCountryTranslatedName("XX", LanguageCode.EN);
+
+            var exception = Assert.ThrowsExactly<UnknownCountryException>(() =>
+                translationProvider.GetCountryTranslatedName("XX", LanguageCode.EN));
+
+            Assert.AreEqual("Cannot found a country for code XX", exception.Message);
         }
 
         [TestMethod]
@@ -66,7 +69,7 @@ namespace Nager.Country.UnitTest
             ITranslationProvider translationProvider = new TranslationProvider();
             CultureInfo[] cultures = CultureInfo.GetCultures(CultureTypes.AllCultures);
 
-            foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
+            foreach (var countryCode in Enum.GetValues<Alpha2Code>())
             {
                 var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
                 if (countryTranslation is null)
@@ -100,11 +103,13 @@ namespace Nager.Country.UnitTest
             ITranslationProvider translationProvider = new TranslationProvider();
             CultureInfo[] cultures = CultureInfo.GetCultures(CultureTypes.AllCultures);
 
-            foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
+            foreach (var countryCode in Enum.GetValues<Alpha2Code>())
             {
                 var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
                 if (countryTranslation is null)
+                {
                     continue;
+                }
 
                 var expectedLanguages = countryTranslation.Translations.Select(x => x.LanguageCode).ToList();
                 foreach (var culture in cultures)
