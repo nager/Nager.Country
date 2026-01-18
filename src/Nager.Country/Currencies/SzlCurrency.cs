@@ -22,5 +22,12 @@ namespace Nager.Country.Currencies
 
         /// <inheritdoc/>
         public string Name => "Swazi lilangeni";
+
+        private SzlCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new SzlCurrency();
     }
 }

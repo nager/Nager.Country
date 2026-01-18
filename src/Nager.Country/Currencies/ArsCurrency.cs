@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Argentine peso";
+
+        private ArsCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new ArsCurrency();
     }
 }

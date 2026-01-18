@@ -22,5 +22,12 @@ namespace Nager.Country.Currencies
 
         /// <inheritdoc/>
         public string Name => "Indian Rupee";
+
+        private InrCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new InrCurrency();
     }
 }

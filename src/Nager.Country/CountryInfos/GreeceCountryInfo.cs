@@ -14,7 +14,7 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Hellenic Republic";
 
         /// <inheritdoc/>
-        public string NativeName => "ÅëëÜäá";
+        public string NativeName => "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GR;
@@ -44,7 +44,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new EurCurrency()];
+        public ICurrency[] Currencies => [EurCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["30"];

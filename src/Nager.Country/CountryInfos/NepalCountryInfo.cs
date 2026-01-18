@@ -42,7 +42,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new NprCurrency()];
+        public ICurrency[] Currencies => [NprCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["977"];

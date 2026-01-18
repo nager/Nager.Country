@@ -43,7 +43,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new OmrCurrency()];
+        public ICurrency[] Currencies => [OmrCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["968"];

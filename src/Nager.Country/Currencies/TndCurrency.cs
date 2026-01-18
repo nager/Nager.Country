@@ -22,5 +22,12 @@ namespace Nager.Country.Currencies
 
         /// <inheritdoc/>
         public string Name => "Tunisian Dinar";
+
+        private TndCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new TndCurrency();
     }
 }

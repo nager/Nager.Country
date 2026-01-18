@@ -49,7 +49,7 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         /// <remarks>Euro used unilaterally</remarks>
-        public ICurrency[] Currencies => [new EurCurrency()];
+        public ICurrency[] Currencies => [EurCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["383"];

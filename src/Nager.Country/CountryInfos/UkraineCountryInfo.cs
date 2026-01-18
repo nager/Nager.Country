@@ -51,7 +51,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new UahCurrency()];
+        public ICurrency[] Currencies => [UahCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["380"];

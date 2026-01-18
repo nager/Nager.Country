@@ -274,7 +274,7 @@ namespace Nager.Country
                     { Alpha2Code.YT, new MayotteCountryInfo() },
                     { Alpha2Code.ZA, new SouthAfricaCountryInfo() },
                     { Alpha2Code.ZM, new ZambiaCountryInfo() },
-                    { Alpha2Code.ZW, new ZimbabweCountryInfo() },                    
+                    { Alpha2Code.ZW, new ZimbabweCountryInfo() },
                 }
             );
 

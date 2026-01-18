@@ -51,8 +51,8 @@ namespace Nager.Country.CountryInfos
         /// <inheritdoc/>
         public ICurrency[] Currencies =>
         [
-            new ShpCurrency(),
-            new GbpCurrency(),
+            ShpCurrency.Instance,
+            GbpCurrency.Instance,
         ];
 
         /// <inheritdoc/>

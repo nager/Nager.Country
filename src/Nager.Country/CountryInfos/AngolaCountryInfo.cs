@@ -44,7 +44,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new AoaCurrency()];
+        public ICurrency[] Currencies => [AoaCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["244"];

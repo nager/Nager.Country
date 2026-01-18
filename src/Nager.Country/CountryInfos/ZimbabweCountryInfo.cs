@@ -46,7 +46,7 @@ namespace Nager.Country.CountryInfos
         /// <inheritdoc/>
         public ICurrency[] Currencies =>
         [
-            new ZwlCurrency(),
+            ZwlCurrency.Instance,
         ];
 
         /// <inheritdoc/>

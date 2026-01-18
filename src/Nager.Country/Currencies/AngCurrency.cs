@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Netherlands Antillean guilder";
+
+        private AngCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new AngCurrency();
     }
 }

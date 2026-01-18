@@ -41,7 +41,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new AngCurrency()];
+        public ICurrency[] Currencies => [AngCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["1721"];

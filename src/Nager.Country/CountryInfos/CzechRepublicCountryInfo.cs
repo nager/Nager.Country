@@ -44,7 +44,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new CzkCurrency()];
+        public ICurrency[] Currencies => [CzkCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["420"];

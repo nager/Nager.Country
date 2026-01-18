@@ -41,7 +41,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new GipCurrency()];
+        public ICurrency[] Currencies => [GipCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["350"];

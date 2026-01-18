@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Bosnia and Herzegovina convertible mark";
+
+        private BamCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new BamCurrency();
     }
 }

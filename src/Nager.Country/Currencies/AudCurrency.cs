@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Australian dollar";
+
+        private AudCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new AudCurrency();
     }
 }

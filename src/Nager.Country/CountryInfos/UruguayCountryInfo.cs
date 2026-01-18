@@ -42,7 +42,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new UyuCurrency()];
+        public ICurrency[] Currencies => [UyuCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["598"];

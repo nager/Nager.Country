@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Costa Rican colon";
+
+        private CrcCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new CrcCurrency();
     }
 }

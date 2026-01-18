@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 334;
 
         /// <inheritdoc/>
-        public string[] TLD => 
+        public string[] TLD =>
         [
             ".hm",
             ".aq",
@@ -42,7 +42,7 @@ namespace Nager.Country.CountryInfos
         public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new AudCurrency()];
+        public ICurrency[] Currencies => [AudCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => [];

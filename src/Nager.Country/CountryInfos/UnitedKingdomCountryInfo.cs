@@ -41,7 +41,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new GbpCurrency()];
+        public ICurrency[] Currencies => [GbpCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["44"];

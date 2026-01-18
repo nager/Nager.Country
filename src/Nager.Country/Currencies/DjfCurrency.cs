@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Djiboutian franc";
+
+        private DjfCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new DjfCurrency();
     }
 }

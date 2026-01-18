@@ -45,7 +45,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new QarCurrency()];
+        public ICurrency[] Currencies => [QarCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["974"];

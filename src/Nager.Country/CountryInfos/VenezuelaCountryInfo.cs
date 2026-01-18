@@ -43,7 +43,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new VefCurrency()];
+        public ICurrency[] Currencies => [VefCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["58"];

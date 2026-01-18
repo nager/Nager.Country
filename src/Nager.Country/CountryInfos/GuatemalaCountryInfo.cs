@@ -44,7 +44,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new GtqCurrency()];
+        public ICurrency[] Currencies => [GtqCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["502"];

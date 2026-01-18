@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Dominican peso";
+
+        private DopCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new DopCurrency();
     }
 }

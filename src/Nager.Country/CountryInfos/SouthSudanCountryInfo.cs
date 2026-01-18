@@ -46,7 +46,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new SspCurrency()];
+        public ICurrency[] Currencies => [SspCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["211"];

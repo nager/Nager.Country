@@ -42,7 +42,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new NioCurrency()];
+        public ICurrency[] Currencies => [NioCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["505"];

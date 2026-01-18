@@ -26,7 +26,7 @@ namespace Nager.Country.CountryInfos
         public int NumericCode => 570;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".nu" };
+        public string[] TLD => new[] { ".nu" };
 
         /// <inheritdoc/>
         public Region Region => Region.Oceania;
@@ -38,7 +38,7 @@ namespace Nager.Country.CountryInfos
         public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new NzdCurrency()];
+        public ICurrency[] Currencies => [NzdCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["683"];

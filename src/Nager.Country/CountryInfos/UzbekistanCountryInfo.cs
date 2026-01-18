@@ -14,7 +14,7 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Republic of Uzbekistan";
 
         /// <inheritdoc/>
-        public string NativeName => "O‘zbekiston";
+        public string NativeName => "Oï¿½zbekiston";
 
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.UZ;
@@ -45,7 +45,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new UzsCurrency()];
+        public ICurrency[] Currencies => [UzsCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["998"];

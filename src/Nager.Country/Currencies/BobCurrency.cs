@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Bolivian boliviano";
+
+        private BobCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new BobCurrency();
     }
 }

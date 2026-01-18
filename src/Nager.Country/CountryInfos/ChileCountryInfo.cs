@@ -43,7 +43,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new ClpCurrency()];
+        public ICurrency[] Currencies => [ClpCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["56"];

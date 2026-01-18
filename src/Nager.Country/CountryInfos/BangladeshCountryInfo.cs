@@ -42,7 +42,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new BdtCurrency()];
+        public ICurrency[] Currencies => [BdtCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["880"];

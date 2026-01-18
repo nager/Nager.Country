@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "United Arab Emirates dirham";
+
+        private AedCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new AedCurrency();
     }
 }

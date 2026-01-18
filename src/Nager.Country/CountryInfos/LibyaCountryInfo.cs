@@ -46,7 +46,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new LydCurrency()];
+        public ICurrency[] Currencies => [LydCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["218"];

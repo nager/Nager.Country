@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Euro";
+
+        private EurCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new EurCurrency();
     }
 }
