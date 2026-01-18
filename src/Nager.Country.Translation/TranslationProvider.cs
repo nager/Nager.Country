@@ -1,6 +1,7 @@
 ﻿using Nager.Country.Translation.CountryTranslations;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Linq;
 
@@ -11,8 +12,8 @@ namespace Nager.Country.Translation
     /// </summary>
     public class TranslationProvider : ITranslationProvider
     {
-        private readonly Dictionary<LanguageCode, ILanguageTranslation> _languageCode2LanguageTranslation = new Dictionary<LanguageCode, ILanguageTranslation>();
-        private readonly Dictionary<Alpha2Code, ICountryTranslation> _alpha2Code2CountryTranslation = new Dictionary<Alpha2Code, ICountryTranslation>();
+        private readonly ReadOnlyDictionary<LanguageCode, ILanguageTranslation> _languageCode2LanguageTranslation;
+        private readonly ReadOnlyDictionary<Alpha2Code, ICountryTranslation> _alpha2Code2CountryTranslation;
 
         private readonly ICountryProvider _countryProvider;
 
@@ -24,280 +25,272 @@ namespace Nager.Country.Translation
             this._countryProvider = new CountryProvider();
 
             var interfaceType = typeof(ILanguageTranslation);
-            var types = AppDomain.CurrentDomain.GetAssemblies()
-                .SelectMany(s => s.GetLoadableTypes())
-                .Where(p => p is not null && 
-                    interfaceType.IsAssignableFrom(p) &&
-                    p.IsClass);
 
-            foreach (var type in types)
-            {
-                if (type is null)
-                {
-                    continue;
-                }
-
-                var languageTranslation = (ILanguageTranslation?)Activator.CreateInstance(type);
-                if (languageTranslation is null)
-                {
-                    continue;
-                }
-
-                this._languageCode2LanguageTranslation.Add(languageTranslation.LanguageCode, languageTranslation);
-            }
+            _languageCode2LanguageTranslation = AppDomain.CurrentDomain.GetAssemblies()
+                .SelectMany(a => a.GetLoadableTypes())
+                .Where(t => t?.IsClass == true && interfaceType.IsAssignableFrom(t))
+                .Select(t => (ILanguageTranslation?)Activator.CreateInstance(t!))
+                .Where(x => x is not null)
+                .ToDictionary(x => x!.LanguageCode, x => x!)
+                .AsReadOnly();
 
             #region Country translation
 
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AF, new AfghanistanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AX, new AlandIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AL, new AlbaniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.DZ, new AlgeriaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AS, new AmericanSamoaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AD, new AndorraCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AO, new AngolaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AI, new AnguillaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AQ, new AntarcticaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AG, new AntiguaAndBarbudaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AR, new ArgentinaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AM, new ArmeniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AW, new ArubaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AU, new AustraliaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AT, new AustriaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AZ, new AzerbaijanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BS, new BahamasCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BH, new BahrainCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BD, new BangladeshCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BB, new BarbadosCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BY, new BelarusCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BE, new BelgiumCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BZ, new BelizeCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BJ, new BeninCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BM, new BermudaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BT, new BhutanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BO, new BoliviaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BA, new BosniaandHerzegovinaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BW, new BotswanaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BV, new BouvetIslandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BR, new BrazilCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IO, new BritishIndianOceanTerritoryCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.VG, new BritishVirginIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BN, new BruneiCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BG, new BulgariaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BF, new BurkinaFasoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BI, new BurundiCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KH, new CambodiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CM, new CameroonCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CA, new CanadaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CV, new CapeVerdeCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BQ, new CaribbeanNetherlandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KY, new CaymanIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CF, new CentralAfricanRepublicCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TD, new ChadCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CL, new ChileCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CN, new ChinaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CX, new ChristmasIslandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CC, new CocosIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CO, new ColombiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KM, new ComorosCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CD, new CongoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CK, new CookIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CR, new CostaRicaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.HR, new CroatiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CU, new CubaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CW, new CuracaoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CY, new CyprusCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CZ, new CzechRepublicCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.DK, new DenmarkCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.DJ, new DjiboutiCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.DM, new DominicaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.DO, new DominicanRepublicCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.EC, new EcuadorCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.EG, new EgyptCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SV, new ElSalvadorCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GQ, new EquatorialGuineaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ER, new EritreaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.EE, new EstoniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ET, new EthiopiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.FK, new FalklandIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.FO, new FaroeIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.FJ, new FijiCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.FI, new FinlandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.FR, new FranceCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GF, new FrenchGuianaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PF, new FrenchPolynesiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TF, new FrenchSouthernAndAntarcticLandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GA, new GabonCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GM, new GambiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GE, new GeorgiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.DE, new GermanyCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GH, new GhanaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GI, new GibraltarCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GR, new GreeceCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GL, new GreenlandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GD, new GrenadaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GP, new GuadeloupeCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GU, new GuamCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GT, new GuatemalaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GG, new GuernseyCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GW, new GuineaBissauCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GN, new GuineaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GY, new GuyanaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.HT, new HaitiCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.HM, new HeardIslandAndMcDonaldIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.HN, new HondurasCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.HK, new HongKongCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.HU, new HungaryCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IS, new IcelandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IN, new IndiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ID, new IndonesiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IR, new IranCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IQ, new IraqCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IE, new IrelandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IM, new IsleofManCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IL, new IsraelCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IT, new ItalyCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CI, new IvoryCoastCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.JM, new JamaicaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.JP, new JapanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.JE, new JerseyCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.JO, new JordanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KZ, new KazakhstanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KE, new KenyaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KI, new KiribatiCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.XK, new KosovoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KW, new KuwaitCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KG, new KyrgyzstanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LA, new LaosCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LV, new LatviaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LB, new LebanonCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LS, new LesothoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LR, new LiberiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LY, new LibyaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LI, new LiechtensteinCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LT, new LithuaniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LU, new LuxembourgCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MO, new MacauCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MG, new MadagascarCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MW, new MalawiCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MY, new MalaysiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MV, new MaldivesCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ML, new MaliCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MT, new MaltaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MH, new MarshallIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MQ, new MartiniqueCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MR, new MauritaniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MU, new MauritiusCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.YT, new MayotteCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MX, new MexicoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.FM, new MicronesiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MD, new MoldovaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MC, new MonacoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MN, new MongoliaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ME, new MontenegroCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MS, new MontserratCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MA, new MoroccoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MZ, new MozambiqueCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MM, new MyanmarCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NA, new NamibiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NR, new NauruCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NP, new NepalCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NL, new NetherlandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NC, new NewCaledoniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NZ, new NewZealandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NI, new NicaraguaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NG, new NigeriaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NE, new NigerCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NU, new NiueCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NF, new NorfolkIslandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MP, new NorthernMarianaIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KP, new NorthKoreaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MK, new NorthMacedoniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.NO, new NorwayCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.OM, new OmanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PK, new PakistanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PW, new PalauCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PS, new PalestineCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PA, new PanamaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PG, new PapuaNewGuineaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PY, new ParaguayCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PE, new PeruCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PH, new PhilippinesCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PN, new PitcairnIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PL, new PolandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PT, new PortugalCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PR, new PuertoRicoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.QA, new QatarCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CG, new RepublicOfTheCongoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.RE, new ReunionCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.RO, new RomaniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.RU, new RussiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.RW, new RwandaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BL, new SaintBarthelemyCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SH, new SaintHelenaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KN, new SaintKittsAndNevisCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LC, new SaintLuciaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.MF, new SaintMartinCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.PM, new SaintPierreAndMiquelonCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.VC, new SaintVincentAndTheGrenadinesCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.WS, new SamoaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SM, new SanMarinoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ST, new SaoTomeAndPrincipeCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SA, new SaudiArabiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SN, new SenegalCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.RS, new SerbiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SC, new SeychellesCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SL, new SierraLeoneCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SG, new SingaporeCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SX, new SintMaartenCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SK, new SlovakiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SI, new SloveniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SB, new SolomonIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SO, new SomaliaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ZA, new SouthAfricaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GS, new SouthGeorgiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.KR, new SouthKoreaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SS, new SouthSudanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ES, new SpainCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.LK, new SriLankaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SD, new SudanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SR, new SurinameCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SJ, new SvalbardAndJanMayenCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SZ, new SwazilandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SE, new SwedenCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.CH, new SwitzerlandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SY, new SyriaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TW, new TaiwanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TJ, new TajikistanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TZ, new TanzaniaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TH, new ThailandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TL, new TimorLesteCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TG, new TogoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TK, new TokelauCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TO, new TongaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TT, new TrinidadAndTobagoCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TN, new TunisiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TR, new TurkeyCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TM, new TurkmenistanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TC, new TurksAndCaicosIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.TV, new TuvaluCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.UG, new UgandaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.UA, new UkraineCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.AE, new UnitedArabEmiratesCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.GB, new UnitedKingdomCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.US, new UnitedStatesCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.UM, new UnitedStatesMinorOutlyingIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.VI, new UnitedStatesVirginIslandsCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.UY, new UruguayCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.UZ, new UzbekistanCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.VU, new VanuatuCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.VA, new VaticanCityCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.VE, new VenezuelaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.VN, new VietnamCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.WF, new WallisAndFutunaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.EH, new WesternSaharaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.YE, new YemenCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ZM, new ZambiaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.ZW, new ZimbabweCountryTranslation());
+            _alpha2Code2CountryTranslation = new(
+                new Dictionary<Alpha2Code, ICountryTranslation>
+                {
+                    { Alpha2Code.AF, new AfghanistanCountryTranslation() },
+                    { Alpha2Code.AX, new AlandIslandsCountryTranslation() },
+                    { Alpha2Code.AL, new AlbaniaCountryTranslation() },
+                    { Alpha2Code.DZ, new AlgeriaCountryTranslation() },
+                    { Alpha2Code.AS, new AmericanSamoaCountryTranslation() },
+                    { Alpha2Code.AD, new AndorraCountryTranslation() },
+                    { Alpha2Code.AO, new AngolaCountryTranslation() },
+                    { Alpha2Code.AI, new AnguillaCountryTranslation() },
+                    { Alpha2Code.AQ, new AntarcticaCountryTranslation() },
+                    { Alpha2Code.AG, new AntiguaAndBarbudaCountryTranslation() },
+                    { Alpha2Code.AR, new ArgentinaCountryTranslation() },
+                    { Alpha2Code.AM, new ArmeniaCountryTranslation() },
+                    { Alpha2Code.AW, new ArubaCountryTranslation() },
+                    { Alpha2Code.AU, new AustraliaCountryTranslation() },
+                    { Alpha2Code.AT, new AustriaCountryTranslation() },
+                    { Alpha2Code.AZ, new AzerbaijanCountryTranslation() },
+                    { Alpha2Code.BS, new BahamasCountryTranslation() },
+                    { Alpha2Code.BH, new BahrainCountryTranslation() },
+                    { Alpha2Code.BD, new BangladeshCountryTranslation() },
+                    { Alpha2Code.BB, new BarbadosCountryTranslation() },
+                    { Alpha2Code.BY, new BelarusCountryTranslation() },
+                    { Alpha2Code.BE, new BelgiumCountryTranslation() },
+                    { Alpha2Code.BZ, new BelizeCountryTranslation() },
+                    { Alpha2Code.BJ, new BeninCountryTranslation() },
+                    { Alpha2Code.BM, new BermudaCountryTranslation() },
+                    { Alpha2Code.BT, new BhutanCountryTranslation() },
+                    { Alpha2Code.BO, new BoliviaCountryTranslation() },
+                    { Alpha2Code.BA, new BosniaandHerzegovinaCountryTranslation() },
+                    { Alpha2Code.BW, new BotswanaCountryTranslation() },
+                    { Alpha2Code.BV, new BouvetIslandCountryTranslation() },
+                    { Alpha2Code.BR, new BrazilCountryTranslation() },
+                    { Alpha2Code.IO, new BritishIndianOceanTerritoryCountryTranslation() },
+                    { Alpha2Code.VG, new BritishVirginIslandsCountryTranslation() },
+                    { Alpha2Code.BN, new BruneiCountryTranslation() },
+                    { Alpha2Code.BG, new BulgariaCountryTranslation() },
+                    { Alpha2Code.BF, new BurkinaFasoCountryTranslation() },
+                    { Alpha2Code.BI, new BurundiCountryTranslation() },
+                    { Alpha2Code.KH, new CambodiaCountryTranslation() },
+                    { Alpha2Code.CM, new CameroonCountryTranslation() },
+                    { Alpha2Code.CA, new CanadaCountryTranslation() },
+                    { Alpha2Code.CV, new CapeVerdeCountryTranslation() },
+                    { Alpha2Code.BQ, new CaribbeanNetherlandsCountryTranslation() },
+                    { Alpha2Code.KY, new CaymanIslandsCountryTranslation() },
+                    { Alpha2Code.CF, new CentralAfricanRepublicCountryTranslation() },
+                    { Alpha2Code.TD, new ChadCountryTranslation() },
+                    { Alpha2Code.CL, new ChileCountryTranslation() },
+                    { Alpha2Code.CN, new ChinaCountryTranslation() },
+                    { Alpha2Code.CX, new ChristmasIslandCountryTranslation() },
+                    { Alpha2Code.CC, new CocosIslandsCountryTranslation() },
+                    { Alpha2Code.CO, new ColombiaCountryTranslation() },
+                    { Alpha2Code.KM, new ComorosCountryTranslation() },
+                    { Alpha2Code.CD, new CongoCountryTranslation() },
+                    { Alpha2Code.CK, new CookIslandsCountryTranslation() },
+                    { Alpha2Code.CR, new CostaRicaCountryTranslation() },
+                    { Alpha2Code.HR, new CroatiaCountryTranslation() },
+                    { Alpha2Code.CU, new CubaCountryTranslation() },
+                    { Alpha2Code.CW, new CuracaoCountryTranslation() },
+                    { Alpha2Code.CY, new CyprusCountryTranslation() },
+                    { Alpha2Code.CZ, new CzechRepublicCountryTranslation() },
+                    { Alpha2Code.DK, new DenmarkCountryTranslation() },
+                    { Alpha2Code.DJ, new DjiboutiCountryTranslation() },
+                    { Alpha2Code.DM, new DominicaCountryTranslation() },
+                    { Alpha2Code.DO, new DominicanRepublicCountryTranslation() },
+                    { Alpha2Code.EC, new EcuadorCountryTranslation() },
+                    { Alpha2Code.EG, new EgyptCountryTranslation() },
+                    { Alpha2Code.SV, new ElSalvadorCountryTranslation() },
+                    { Alpha2Code.GQ, new EquatorialGuineaCountryTranslation() },
+                    { Alpha2Code.ER, new EritreaCountryTranslation() },
+                    { Alpha2Code.EE, new EstoniaCountryTranslation() },
+                    { Alpha2Code.ET, new EthiopiaCountryTranslation() },
+                    { Alpha2Code.FK, new FalklandIslandsCountryTranslation() },
+                    { Alpha2Code.FO, new FaroeIslandsCountryTranslation() },
+                    { Alpha2Code.FJ, new FijiCountryTranslation() },
+                    { Alpha2Code.FI, new FinlandCountryTranslation() },
+                    { Alpha2Code.FR, new FranceCountryTranslation() },
+                    { Alpha2Code.GF, new FrenchGuianaCountryTranslation() },
+                    { Alpha2Code.PF, new FrenchPolynesiaCountryTranslation() },
+                    { Alpha2Code.TF, new FrenchSouthernAndAntarcticLandsCountryTranslation() },
+                    { Alpha2Code.GA, new GabonCountryTranslation() },
+                    { Alpha2Code.GM, new GambiaCountryTranslation() },
+                    { Alpha2Code.GE, new GeorgiaCountryTranslation() },
+                    { Alpha2Code.DE, new GermanyCountryTranslation() },
+                    { Alpha2Code.GH, new GhanaCountryTranslation() },
+                    { Alpha2Code.GI, new GibraltarCountryTranslation() },
+                    { Alpha2Code.GR, new GreeceCountryTranslation() },
+                    { Alpha2Code.GL, new GreenlandCountryTranslation() },
+                    { Alpha2Code.GD, new GrenadaCountryTranslation() },
+                    { Alpha2Code.GP, new GuadeloupeCountryTranslation() },
+                    { Alpha2Code.GU, new GuamCountryTranslation() },
+                    { Alpha2Code.GT, new GuatemalaCountryTranslation() },
+                    { Alpha2Code.GG, new GuernseyCountryTranslation() },
+                    { Alpha2Code.GW, new GuineaBissauCountryTranslation() },
+                    { Alpha2Code.GN, new GuineaCountryTranslation() },
+                    { Alpha2Code.GY, new GuyanaCountryTranslation() },
+                    { Alpha2Code.HT, new HaitiCountryTranslation() },
+                    { Alpha2Code.HM, new HeardIslandAndMcDonaldIslandsCountryTranslation() },
+                    { Alpha2Code.HN, new HondurasCountryTranslation() },
+                    { Alpha2Code.HK, new HongKongCountryTranslation() },
+                    { Alpha2Code.HU, new HungaryCountryTranslation() },
+                    { Alpha2Code.IS, new IcelandCountryTranslation() },
+                    { Alpha2Code.IN, new IndiaCountryTranslation() },
+                    { Alpha2Code.ID, new IndonesiaCountryTranslation() },
+                    { Alpha2Code.IR, new IranCountryTranslation() },
+                    { Alpha2Code.IQ, new IraqCountryTranslation() },
+                    { Alpha2Code.IE, new IrelandCountryTranslation() },
+                    { Alpha2Code.IM, new IsleofManCountryTranslation() },
+                    { Alpha2Code.IL, new IsraelCountryTranslation() },
+                    { Alpha2Code.IT, new ItalyCountryTranslation() },
+                    { Alpha2Code.CI, new IvoryCoastCountryTranslation() },
+                    { Alpha2Code.JM, new JamaicaCountryTranslation() },
+                    { Alpha2Code.JP, new JapanCountryTranslation() },
+                    { Alpha2Code.JE, new JerseyCountryTranslation() },
+                    { Alpha2Code.JO, new JordanCountryTranslation() },
+                    { Alpha2Code.KZ, new KazakhstanCountryTranslation() },
+                    { Alpha2Code.KE, new KenyaCountryTranslation() },
+                    { Alpha2Code.KI, new KiribatiCountryTranslation() },
+                    { Alpha2Code.XK, new KosovoCountryTranslation() },
+                    { Alpha2Code.KW, new KuwaitCountryTranslation() },
+                    { Alpha2Code.KG, new KyrgyzstanCountryTranslation() },
+                    { Alpha2Code.LA, new LaosCountryTranslation() },
+                    { Alpha2Code.LV, new LatviaCountryTranslation() },
+                    { Alpha2Code.LB, new LebanonCountryTranslation() },
+                    { Alpha2Code.LS, new LesothoCountryTranslation() },
+                    { Alpha2Code.LR, new LiberiaCountryTranslation() },
+                    { Alpha2Code.LY, new LibyaCountryTranslation() },
+                    { Alpha2Code.LI, new LiechtensteinCountryTranslation() },
+                    { Alpha2Code.LT, new LithuaniaCountryTranslation() },
+                    { Alpha2Code.LU, new LuxembourgCountryTranslation() },
+                    { Alpha2Code.MO, new MacauCountryTranslation() },
+                    { Alpha2Code.MG, new MadagascarCountryTranslation() },
+                    { Alpha2Code.MW, new MalawiCountryTranslation() },
+                    { Alpha2Code.MY, new MalaysiaCountryTranslation() },
+                    { Alpha2Code.MV, new MaldivesCountryTranslation() },
+                    { Alpha2Code.ML, new MaliCountryTranslation() },
+                    { Alpha2Code.MT, new MaltaCountryTranslation() },
+                    { Alpha2Code.MH, new MarshallIslandsCountryTranslation() },
+                    { Alpha2Code.MQ, new MartiniqueCountryTranslation() },
+                    { Alpha2Code.MR, new MauritaniaCountryTranslation() },
+                    { Alpha2Code.MU, new MauritiusCountryTranslation() },
+                    { Alpha2Code.YT, new MayotteCountryTranslation() },
+                    { Alpha2Code.MX, new MexicoCountryTranslation() },
+                    { Alpha2Code.FM, new MicronesiaCountryTranslation() },
+                    { Alpha2Code.MD, new MoldovaCountryTranslation() },
+                    { Alpha2Code.MC, new MonacoCountryTranslation() },
+                    { Alpha2Code.MN, new MongoliaCountryTranslation() },
+                    { Alpha2Code.ME, new MontenegroCountryTranslation() },
+                    { Alpha2Code.MS, new MontserratCountryTranslation() },
+                    { Alpha2Code.MA, new MoroccoCountryTranslation() },
+                    { Alpha2Code.MZ, new MozambiqueCountryTranslation() },
+                    { Alpha2Code.MM, new MyanmarCountryTranslation() },
+                    { Alpha2Code.NA, new NamibiaCountryTranslation() },
+                    { Alpha2Code.NR, new NauruCountryTranslation() },
+                    { Alpha2Code.NP, new NepalCountryTranslation() },
+                    { Alpha2Code.NL, new NetherlandsCountryTranslation() },
+                    { Alpha2Code.NC, new NewCaledoniaCountryTranslation() },
+                    { Alpha2Code.NZ, new NewZealandCountryTranslation() },
+                    { Alpha2Code.NI, new NicaraguaCountryTranslation() },
+                    { Alpha2Code.NG, new NigeriaCountryTranslation() },
+                    { Alpha2Code.NE, new NigerCountryTranslation() },
+                    { Alpha2Code.NU, new NiueCountryTranslation() },
+                    { Alpha2Code.NF, new NorfolkIslandCountryTranslation() },
+                    { Alpha2Code.MP, new NorthernMarianaIslandsCountryTranslation() },
+                    { Alpha2Code.KP, new NorthKoreaCountryTranslation() },
+                    { Alpha2Code.MK, new NorthMacedoniaCountryTranslation() },
+                    { Alpha2Code.NO, new NorwayCountryTranslation() },
+                    { Alpha2Code.OM, new OmanCountryTranslation() },
+                    { Alpha2Code.PK, new PakistanCountryTranslation() },
+                    { Alpha2Code.PW, new PalauCountryTranslation() },
+                    { Alpha2Code.PS, new PalestineCountryTranslation() },
+                    { Alpha2Code.PA, new PanamaCountryTranslation() },
+                    { Alpha2Code.PG, new PapuaNewGuineaCountryTranslation() },
+                    { Alpha2Code.PY, new ParaguayCountryTranslation() },
+                    { Alpha2Code.PE, new PeruCountryTranslation() },
+                    { Alpha2Code.PH, new PhilippinesCountryTranslation() },
+                    { Alpha2Code.PN, new PitcairnIslandsCountryTranslation() },
+                    { Alpha2Code.PL, new PolandCountryTranslation() },
+                    { Alpha2Code.PT, new PortugalCountryTranslation() },
+                    { Alpha2Code.PR, new PuertoRicoCountryTranslation() },
+                    { Alpha2Code.QA, new QatarCountryTranslation() },
+                    { Alpha2Code.CG, new RepublicOfTheCongoCountryTranslation() },
+                    { Alpha2Code.RE, new ReunionCountryTranslation() },
+                    { Alpha2Code.RO, new RomaniaCountryTranslation() },
+                    { Alpha2Code.RU, new RussiaCountryTranslation() },
+                    { Alpha2Code.RW, new RwandaCountryTranslation() },
+                    { Alpha2Code.BL, new SaintBarthelemyCountryTranslation() },
+                    { Alpha2Code.SH, new SaintHelenaCountryTranslation() },
+                    { Alpha2Code.KN, new SaintKittsAndNevisCountryTranslation() },
+                    { Alpha2Code.LC, new SaintLuciaCountryTranslation() },
+                    { Alpha2Code.MF, new SaintMartinCountryTranslation() },
+                    { Alpha2Code.PM, new SaintPierreAndMiquelonCountryTranslation() },
+                    { Alpha2Code.VC, new SaintVincentAndTheGrenadinesCountryTranslation() },
+                    { Alpha2Code.WS, new SamoaCountryTranslation() },
+                    { Alpha2Code.SM, new SanMarinoCountryTranslation() },
+                    { Alpha2Code.ST, new SaoTomeAndPrincipeCountryTranslation() },
+                    { Alpha2Code.SA, new SaudiArabiaCountryTranslation() },
+                    { Alpha2Code.SN, new SenegalCountryTranslation() },
+                    { Alpha2Code.RS, new SerbiaCountryTranslation() },
+                    { Alpha2Code.SC, new SeychellesCountryTranslation() },
+                    { Alpha2Code.SL, new SierraLeoneCountryTranslation() },
+                    { Alpha2Code.SG, new SingaporeCountryTranslation() },
+                    { Alpha2Code.SX, new SintMaartenCountryTranslation() },
+                    { Alpha2Code.SK, new SlovakiaCountryTranslation() },
+                    { Alpha2Code.SI, new SloveniaCountryTranslation() },
+                    { Alpha2Code.SB, new SolomonIslandsCountryTranslation() },
+                    { Alpha2Code.SO, new SomaliaCountryTranslation() },
+                    { Alpha2Code.ZA, new SouthAfricaCountryTranslation() },
+                    { Alpha2Code.GS, new SouthGeorgiaCountryTranslation() },
+                    { Alpha2Code.KR, new SouthKoreaCountryTranslation() },
+                    { Alpha2Code.SS, new SouthSudanCountryTranslation() },
+                    { Alpha2Code.ES, new SpainCountryTranslation() },
+                    { Alpha2Code.LK, new SriLankaCountryTranslation() },
+                    { Alpha2Code.SD, new SudanCountryTranslation() },
+                    { Alpha2Code.SR, new SurinameCountryTranslation() },
+                    { Alpha2Code.SJ, new SvalbardAndJanMayenCountryTranslation() },
+                    { Alpha2Code.SZ, new SwazilandCountryTranslation() },
+                    { Alpha2Code.SE, new SwedenCountryTranslation() },
+                    { Alpha2Code.CH, new SwitzerlandCountryTranslation() },
+                    { Alpha2Code.SY, new SyriaCountryTranslation() },
+                    { Alpha2Code.TW, new TaiwanCountryTranslation() },
+                    { Alpha2Code.TJ, new TajikistanCountryTranslation() },
+                    { Alpha2Code.TZ, new TanzaniaCountryTranslation() },
+                    { Alpha2Code.TH, new ThailandCountryTranslation() },
+                    { Alpha2Code.TL, new TimorLesteCountryTranslation() },
+                    { Alpha2Code.TG, new TogoCountryTranslation() },
+                    { Alpha2Code.TK, new TokelauCountryTranslation() },
+                    { Alpha2Code.TO, new TongaCountryTranslation() },
+                    { Alpha2Code.TT, new TrinidadAndTobagoCountryTranslation() },
+                    { Alpha2Code.TN, new TunisiaCountryTranslation() },
+                    { Alpha2Code.TR, new TurkeyCountryTranslation() },
+                    { Alpha2Code.TM, new TurkmenistanCountryTranslation() },
+                    { Alpha2Code.TC, new TurksAndCaicosIslandsCountryTranslation() },
+                    { Alpha2Code.TV, new TuvaluCountryTranslation() },
+                    { Alpha2Code.UG, new UgandaCountryTranslation() },
+                    { Alpha2Code.UA, new UkraineCountryTranslation() },
+                    { Alpha2Code.AE, new UnitedArabEmiratesCountryTranslation() },
+                    { Alpha2Code.GB, new UnitedKingdomCountryTranslation() },
+                    { Alpha2Code.US, new UnitedStatesCountryTranslation() },
+                    { Alpha2Code.UM, new UnitedStatesMinorOutlyingIslandsCountryTranslation() },
+                    { Alpha2Code.VI, new UnitedStatesVirginIslandsCountryTranslation() },
+                    { Alpha2Code.UY, new UruguayCountryTranslation() },
+                    { Alpha2Code.UZ, new UzbekistanCountryTranslation() },
+                    { Alpha2Code.VU, new VanuatuCountryTranslation() },
+                    { Alpha2Code.VA, new VaticanCityCountryTranslation() },
+                    { Alpha2Code.VE, new VenezuelaCountryTranslation() },
+                    { Alpha2Code.VN, new VietnamCountryTranslation() },
+                    { Alpha2Code.WF, new WallisAndFutunaCountryTranslation() },
+                    { Alpha2Code.EH, new WesternSaharaCountryTranslation() },
+                    { Alpha2Code.YE, new YemenCountryTranslation() },
+                    { Alpha2Code.ZM, new ZambiaCountryTranslation() },
+                    { Alpha2Code.ZW, new ZimbabweCountryTranslation() },
+                }
+            );
 
             #endregion
         }
