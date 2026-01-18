@@ -1,10 +1,7 @@
 ﻿using Nager.Country.CountryInfos;
 using System;
 using System.Collections.Generic;
-
-#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_0_OR_GREATER
 using System.Diagnostics.CodeAnalysis;
-#endif
 
 namespace Nager.Country
 {
@@ -308,31 +305,6 @@ namespace Nager.Country
             throw new UnknownCountryException($"Cannot found a country for code {alpha2or3Code}");
         }
 
-#if NETSTANDARD2_0 || NET48
-
-        /// <inheritdoc/>
-        public bool TryGetCountry(string alpha2or3Code, out ICountryInfo? countryInfo)
-        {
-            if (Enum.TryParse(alpha2or3Code, true, out Alpha2Code alpha2Code))
-            {
-                countryInfo = this.GetCountry(alpha2Code);
-                return true;
-            }
-
-            if (Enum.TryParse(alpha2or3Code, true, out Alpha3Code alpha3Code))
-            {
-                countryInfo = this.GetCountry(alpha3Code);
-                return true;
-            }
-
-            countryInfo = null;
-            return false;
-        }
-
-#endif
-
-#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_0_OR_GREATER
-
         /// <inheritdoc/>
         public bool TryGetCountry(string alpha2or3Code, [NotNullWhen(true)] out ICountryInfo? countryInfo)
         {
@@ -351,8 +323,6 @@ namespace Nager.Country
             countryInfo = null;
             return false;
         }
-
-#endif
 
         /// <inheritdoc/>
         public ICountryInfo GetCountry(Alpha2Code alpha2Code)
