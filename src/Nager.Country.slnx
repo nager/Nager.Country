@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Nager.Country.Export/Nager.Country.Export.csproj" />
+  <Project Path="Nager.Country.Translation/Nager.Country.Translation.csproj" />
+  <Project Path="Nager.Country.UnitTest/Nager.Country.UnitTest.csproj" />
+  <Project Path="Nager.Country/Nager.Country.csproj" />
+</Solution>
