@@ -50,7 +50,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new BrlCurrency()];
+        public ICurrency[] Currencies => [BrlCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["55"];

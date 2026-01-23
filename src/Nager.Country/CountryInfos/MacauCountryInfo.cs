@@ -41,7 +41,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new MopCurrency()];
+        public ICurrency[] Currencies => [MopCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["853"];

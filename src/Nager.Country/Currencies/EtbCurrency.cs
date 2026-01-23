@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Ethiopian birr";
+
+        private EtbCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new EtbCurrency();
     }
 }

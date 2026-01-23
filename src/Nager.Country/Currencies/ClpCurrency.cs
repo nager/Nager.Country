@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Chilean peso";
+
+        private ClpCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new ClpCurrency();
     }
 }

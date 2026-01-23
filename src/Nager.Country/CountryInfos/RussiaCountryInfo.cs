@@ -59,7 +59,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new RubCurrency()];
+        public ICurrency[] Currencies => [RubCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["7"];

@@ -38,7 +38,7 @@ namespace Nager.Country.CountryInfos
         public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new BmdCurrency()];
+        public ICurrency[] Currencies => [BmdCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["1441"];

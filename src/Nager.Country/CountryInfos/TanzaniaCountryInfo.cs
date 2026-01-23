@@ -48,7 +48,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new TzsCurrency()];
+        public ICurrency[] Currencies => [TzsCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["255"];

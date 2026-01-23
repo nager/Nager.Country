@@ -6,7 +6,7 @@ namespace Nager.Country.Currencies
     public sealed class SspCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => "SS£";
+        public string? Symbol => "SSï¿½";
 
         /// <inheritdoc/>
         public string? Singular => null;
@@ -22,5 +22,12 @@ namespace Nager.Country.Currencies
 
         /// <inheritdoc/>
         public string Name => "South Sudanese pound";
+
+        private SspCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new SspCurrency();
     }
 }

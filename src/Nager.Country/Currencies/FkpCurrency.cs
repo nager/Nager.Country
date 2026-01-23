@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Falkland Islands pound";
+
+        private FkpCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new FkpCurrency();
     }
 }

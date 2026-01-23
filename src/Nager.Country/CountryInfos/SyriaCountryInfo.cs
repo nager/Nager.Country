@@ -49,7 +49,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new SypCurrency()];
+        public ICurrency[] Currencies => [SypCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["963"];

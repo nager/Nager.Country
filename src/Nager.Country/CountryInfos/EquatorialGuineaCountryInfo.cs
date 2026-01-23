@@ -42,7 +42,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new XafCurrency()];
+        public ICurrency[] Currencies => [XafCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["240"];

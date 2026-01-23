@@ -45,7 +45,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new UgxCurrency()];
+        public ICurrency[] Currencies => [UgxCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["256"];

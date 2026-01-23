@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Mauritian rupee";
+
+        private MurCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new MurCurrency();
     }
 }

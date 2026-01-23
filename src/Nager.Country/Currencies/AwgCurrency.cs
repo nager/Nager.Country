@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Aruban florin";
+
+        private AwgCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new AwgCurrency();
     }
 }

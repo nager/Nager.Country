@@ -49,7 +49,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new KztCurrency()];
+        public ICurrency[] Currencies => [KztCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes =>

@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Bangladeshi taka";
+
+        private BdtCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new BdtCurrency();
     }
 }

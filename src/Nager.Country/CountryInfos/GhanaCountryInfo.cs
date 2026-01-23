@@ -43,7 +43,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new GhsCurrency()];
+        public ICurrency[] Currencies => [GhsCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["233"];

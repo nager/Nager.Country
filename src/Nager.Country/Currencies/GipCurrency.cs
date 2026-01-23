@@ -6,7 +6,7 @@ namespace Nager.Country.Currencies
     public sealed class GipCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => "£";
+        public string? Symbol => "ï¿½";
 
         /// <inheritdoc/>
         public string? Singular => null;
@@ -22,5 +22,12 @@ namespace Nager.Country.Currencies
 
         /// <inheritdoc/>
         public string Name => "Gibraltar pound";
+
+        private GipCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new GipCurrency();
     }
 }

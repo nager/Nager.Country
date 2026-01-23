@@ -41,7 +41,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new GmdCurrency()];
+        public ICurrency[] Currencies => [GmdCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["220"];

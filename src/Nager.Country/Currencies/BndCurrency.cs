@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Brunei dollar";
+
+        private BndCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new BndCurrency();
     }
 }

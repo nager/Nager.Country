@@ -43,7 +43,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new DjfCurrency()];
+        public ICurrency[] Currencies => [DjfCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["253"];

@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Bhutanese ngultrum";
+
+        private BtnCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new BtnCurrency();
     }
 }

@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Afghan afghani";
+
+        private AfnCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new AfnCurrency();
     }
 }

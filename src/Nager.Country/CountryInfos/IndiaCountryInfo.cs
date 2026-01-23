@@ -48,7 +48,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new InrCurrency()];
+        public ICurrency[] Currencies => [InrCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["91"];

@@ -43,11 +43,11 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => 
+        public ICurrency[] Currencies =>
         [
-            new MadCurrency(),
-            new DzdCurrency(),
-            new MroCurrency(),
+            MadCurrency.Instance,
+            DzdCurrency.Instance,
+            MroCurrency.Instance,
         ];
 
         /// <inheritdoc/>

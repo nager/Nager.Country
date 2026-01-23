@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Canadian dollar";
+
+        private CadCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new CadCurrency();
     }
 }

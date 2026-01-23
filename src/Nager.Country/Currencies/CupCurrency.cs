@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Cuban peso";
+
+        private CupCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new CupCurrency();
     }
 }

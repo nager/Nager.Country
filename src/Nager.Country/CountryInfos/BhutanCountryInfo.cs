@@ -44,8 +44,8 @@ namespace Nager.Country.CountryInfos
         /// <inheritdoc/>
         public ICurrency[] Currencies =>
         [
-            new BtnCurrency(),
-            new InrCurrency(),
+            BtnCurrency.Instance,
+            InrCurrency.Instance,
         ];
 
         /// <inheritdoc/>

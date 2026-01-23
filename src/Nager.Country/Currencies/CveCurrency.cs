@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Cape Verdean escudo";
+
+        private CveCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new CveCurrency();
     }
 }

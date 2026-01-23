@@ -14,7 +14,7 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Republic of Cyprus";
 
         /// <inheritdoc/>
-        public string NativeName => "Êýðñïò";
+        public string NativeName => "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CY;
@@ -41,7 +41,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new EurCurrency()];
+        public ICurrency[] Currencies => [EurCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["357"];

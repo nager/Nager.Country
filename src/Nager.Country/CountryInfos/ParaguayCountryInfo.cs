@@ -43,7 +43,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new PygCurrency()];
+        public ICurrency[] Currencies => [PygCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["595"];

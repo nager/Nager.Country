@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Tongan paʻanga";
+
+        private TopCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new TopCurrency();
     }
 }

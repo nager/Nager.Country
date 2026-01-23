@@ -42,7 +42,7 @@ namespace Nager.Country.CountryInfos
         public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new JpyCurrency()];
+        public ICurrency[] Currencies => [JpyCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["81"];

@@ -48,7 +48,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new JodCurrency()];
+        public ICurrency[] Currencies => [JodCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["962"];

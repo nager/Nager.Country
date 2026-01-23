@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Salvadoran colón";
+
+        private SvcCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new SvcCurrency();
     }
 }

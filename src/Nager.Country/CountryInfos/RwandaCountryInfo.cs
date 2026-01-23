@@ -44,7 +44,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new RwfCurrency()];
+        public ICurrency[] Currencies => [RwfCurrency.Instance];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["250"];

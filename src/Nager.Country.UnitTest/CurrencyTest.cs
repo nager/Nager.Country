@@ -13,23 +13,15 @@ namespace Nager.Country.UnitTest
         private ICurrency[] GetCurrencies()
         {
             var type = typeof(ICurrency);
-            var currencyClasses = AppDomain.CurrentDomain.GetAssemblies()
+            var currencies = AppDomain.CurrentDomain.GetAssemblies()
                 .SelectMany(s => s.GetTypes())
-                .Where(p => type.IsAssignableFrom(p) && !p.IsInterface);
+                .Where(p => type.IsAssignableFrom(p) && !p.IsInterface)
+                .Select(p => p.GetProperty("Instance", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Static)?.GetValue(null))
+                .Where(c => c is not null)
+                .Cast<ICurrency>()
+                .ToArray();
 
-            var currenies = new List<ICurrency>();
-            foreach (var currencyClass in currencyClasses)
-            {
-                var currency = (ICurrency?)Activator.CreateInstance(currencyClass);
-                if (currency is null)
-                {
-                    continue;
-                }
-
-                currenies.Add(currency);
-            }
-
-            return [.. currenies];
+            return currencies;
         }
 
         [TestMethod]

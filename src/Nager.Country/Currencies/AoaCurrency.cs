@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Angolan kwanza";
+
+        private AoaCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new AoaCurrency();
     }
 }

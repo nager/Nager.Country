@@ -22,5 +22,12 @@
 
         /// <inheritdoc/>
         public string Name => "Bahamian dollar";
+
+        private BsdCurrency() { }
+
+        /// <summary>
+        /// Singleton instance of the currency.
+        /// </summary>
+        public static ICurrency Instance { get; } = new BsdCurrency();
     }
 }
