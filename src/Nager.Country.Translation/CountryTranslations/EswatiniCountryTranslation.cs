@@ -1,9 +1,9 @@
 namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
-    /// Swaziland
+    /// Eswatini
     /// </summary>
-    public class SwazilandCountryTranslation : ICountryTranslation
+    public class EswatiniCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []

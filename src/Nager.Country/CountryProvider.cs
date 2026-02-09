@@ -235,7 +235,7 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.SV, new ElSalvadorCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.SX, new SintMaartenCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.SY, new SyriaCountryInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.SZ, new SwazilandCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.SZ, new EswatiniCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.TC, new TurksAndCaicosIslandsCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.TD, new ChadCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.TF, new FrenchSouthernAndAntarcticLandsCountryInfo());
