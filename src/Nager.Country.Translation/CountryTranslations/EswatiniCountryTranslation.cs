@@ -37,7 +37,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.KO, "에스와티니"),
             new TranslationInfo(LanguageCode.KY, "Эсватини"),
             new TranslationInfo(LanguageCode.LT, "Esvatinis"),
-            new TranslationInfo(LanguageCode.LV, "Svatini"),
+            new TranslationInfo(LanguageCode.LV, "Esvatini"),
             new TranslationInfo(LanguageCode.MK, "Есватини"),
             new TranslationInfo(LanguageCode.MN, "Эсватини"),
             new TranslationInfo(LanguageCode.NB, "Eswatini"),
