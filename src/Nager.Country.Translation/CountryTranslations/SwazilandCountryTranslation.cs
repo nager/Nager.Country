@@ -18,7 +18,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DA, "Swaziland"),
             new TranslationInfo(LanguageCode.DE, "Swasiland"),
             new TranslationInfo(LanguageCode.EL, "Σουαζιλάνδη"),
-            new TranslationInfo(LanguageCode.EN, "Swaziland"),
+            new TranslationInfo(LanguageCode.EN, "Eswatini"),
             new TranslationInfo(LanguageCode.ES, "Swazilandia"),
             new TranslationInfo(LanguageCode.ET, "Svaasimaa"),
             new TranslationInfo(LanguageCode.FA, "سوازیلند"),

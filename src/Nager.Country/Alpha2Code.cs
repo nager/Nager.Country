@@ -862,7 +862,7 @@
         /// </summary>
         SJ = 8374,
         /// <summary>
-        /// Swaziland
+        /// Eswatini
         /// </summary>
         SZ = 8390,
         /// <summary>

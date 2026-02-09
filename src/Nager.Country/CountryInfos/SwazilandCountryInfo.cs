@@ -11,7 +11,7 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Eswatini";
 
         /// <inheritdoc/>
-        public string OfficialName => "Kingdom of Swaziland";
+        public string OfficialName => "Kingdom of Eswatini";
 
         /// <inheritdoc/>
         public string NativeName => "Swaziland";
