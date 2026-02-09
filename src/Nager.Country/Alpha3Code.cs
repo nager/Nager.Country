@@ -3,1007 +3,1011 @@
     /// <summary>
     /// Alpha3 code (ISO-3166-1)
     /// </summary>
-    public enum Alpha3Code
+    /// <remarks>
+    /// The numeric value is built by concatenating the ASCII codes of the three characters. 
+    /// Example: "AFG" → 'A' (65) + 'F' (70) + 'G' (71) = 657071
+    /// </remarks>
+    public enum Alpha3Code : int
     {
         /// <summary>
         /// Afghanistan
         /// </summary>
-        AFG,
+        AFG = 657071,
         /// <summary>
         /// Åland
         /// </summary>
-        ALA,
+        ALA = 657665,
         /// <summary>
         /// Albania
         /// </summary>
-        ALB,
+        ALB = 657666,
         /// <summary>
         /// Algeria
         /// </summary>
-        DZA,
+        DZA = 689065,
         /// <summary>
         /// American Samoa
         /// </summary>
-        ASM,
+        ASM = 658377,
         /// <summary>
         /// Andorra
         /// </summary>
-        AND,
+        AND = 657868,
         /// <summary>
         /// Angola
         /// </summary>
-        AGO,
+        AGO = 657179,
         /// <summary>
         /// Anguilla
         /// </summary>
-        AIA,
+        AIA = 657365,
         /// <summary>
         /// Antarctica
         /// </summary>
-        ATA,
+        ATA = 658465,
         /// <summary>
         /// Antigua and Barbuda
         /// </summary>
-        ATG,
+        ATG = 658471,
         /// <summary>
         /// Argentina
         /// </summary>
-        ARG,
+        ARG = 658271,
         /// <summary>
         /// Armenia
         /// </summary>
-        ARM,
+        ARM = 658277,
         /// <summary>
         /// Aruba
         /// </summary>
-        ABW,
+        ABW = 656687,
         /// <summary>
         /// Australia
         /// </summary>
-        AUS,
+        AUS = 658583,
         /// <summary>
         /// Austria
         /// </summary>
-        AUT,
+        AUT = 658584,
         /// <summary>
         /// Azerbaijan
         /// </summary>
-        AZE,
+        AZE = 659069,
         /// <summary>
         /// Bahamas
         /// </summary>
-        BHS,
+        BHS = 667283,
         /// <summary>
         /// Bahrain
         /// </summary>
-        BHR,
+        BHR = 667282,
         /// <summary>
         /// Bangladesh
         /// </summary>
-        BGD,
+        BGD = 667168,
         /// <summary>
         /// Barbados
         /// </summary>
-        BRB,
+        BRB = 668266,
         /// <summary>
         /// Belarus
         /// </summary>
-        BLR,
+        BLR = 667682,
         /// <summary>
         /// Belgium
         /// </summary>
-        BEL,
+        BEL = 666976,
         /// <summary>
         /// Belize
         /// </summary>
-        BLZ,
+        BLZ = 667690,
         /// <summary>
         /// Benin
         /// </summary>
-        BEN,
+        BEN = 666978,
         /// <summary>
         /// Bermuda
         /// </summary>
-        BMU,
+        BMU = 667785,
         /// <summary>
         /// Bhutan
         /// </summary>
-        BTN,
+        BTN = 668478,
         /// <summary>
         /// Bolivia
         /// </summary>
-        BOL,
+        BOL = 667976,
         /// <summary>
         /// Bonaire, Sint Eustatius and Saba
         /// </summary>
-        BES,
+        BES = 666983,
         /// <summary>
         /// Bosnia and Herzegovina
         /// </summary>
-        BIH,
+        BIH = 667372,
         /// <summary>
         /// Botswana
         /// </summary>
-        BWA,
+        BWA = 668765,
         /// <summary>
         /// Bouvet Island
         /// </summary>
-        BVT,
+        BVT = 668684,
         /// <summary>
         /// Brazil
         /// </summary>
-        BRA,
+        BRA = 668265,
         /// <summary>
         /// British Indian Ocean Territory
         /// </summary>
-        IOT,
+        IOT = 737984,
         /// <summary>
         /// Brunei Darussalam
         /// </summary>
-        BRN,
+        BRN = 668278,
         /// <summary>
         /// Bulgaria
         /// </summary>
-        BGR,
+        BGR = 667182,
         /// <summary>
         /// Burkina Faso
         /// </summary>
-        BFA,
+        BFA = 667065,
         /// <summary>
         /// Burundi
         /// </summary>
-        BDI,
+        BDI = 666873,
         /// <summary>
         /// Cambodia
         /// </summary>
-        KHM,
+        KHM = 757277,
         /// <summary>
         /// Cameroon
         /// </summary>
-        CMR,
+        CMR = 677782,
         /// <summary>
         /// Canada
         /// </summary>
-        CAN,
+        CAN = 676578,
         /// <summary>
         /// Cape Verde
         /// </summary>
-        CPV,
+        CPV = 678086,
         /// <summary>
         /// Cayman Islands
         /// </summary>
-        CYM,
+        CYM = 678977,
         /// <summary>
         /// Central African Republic
         /// </summary>
-        CAF,
+        CAF = 676570,
         /// <summary>
         /// Chad
         /// </summary>
-        TCD,
+        TCD = 846768,
         /// <summary>
         /// Chile
         /// </summary>
-        CHL,
+        CHL = 677276,
         /// <summary>
         /// China
         /// </summary>
-        CHN,
+        CHN = 677278,
         /// <summary>
         /// Christmas Island
         /// </summary>
-        CXR,
+        CXR = 678882,
         /// <summary>
         /// Cocos (Keeling) Islands
         /// </summary>
-        CCK,
+        CCK = 676775,
         /// <summary>
         /// Colombia
         /// </summary>
-        COL,
+        COL = 677976,
         /// <summary>
         /// Comoros
         /// </summary>
-        COM,
+        COM = 677977,
         /// <summary>
         /// Congo (Brazzaville)
         /// </summary>
-        COG,
+        COG = 677971,
         /// <summary>
         /// Congo (Kinshasa)
         /// </summary>
-        COD,
+        COD = 677968,
         /// <summary>
         /// Cook Islands
         /// </summary>
-        COK,
+        COK = 677975,
         /// <summary>
         /// Costa Rica
         /// </summary>
-        CRI,
+        CRI = 678273,
         /// <summary>
         /// Côte d'Ivoire
         /// </summary>
-        CIV,
+        CIV = 677386,
         /// <summary>
         /// Croatia
         /// </summary>
-        HRV,
+        HRV = 728286,
         /// <summary>
         /// Cuba
         /// </summary>
-        CUB,
+        CUB = 678566,
         /// <summary>
         /// Curaçao
         /// </summary>
-        CUW,
+        CUW = 678587,
         /// <summary>
         /// Cyprus
         /// </summary>
-        CYP,
+        CYP = 678980,
         /// <summary>
         /// Czech Republic
         /// </summary>
-        CZE,
+        CZE = 679069,
         /// <summary>
         /// Denmark
         /// </summary>
-        DNK,
+        DNK = 687875,
         /// <summary>
         /// Djibouti
         /// </summary>
-        DJI,
+        DJI = 687473,
         /// <summary>
         /// Dominica
         /// </summary>
-        DMA,
+        DMA = 687765,
         /// <summary>
         /// Dominican Republic
         /// </summary>
-        DOM,
+        DOM = 687977,
         /// <summary>
         /// Ecuador
         /// </summary>
-        ECU,
+        ECU = 696785,
         /// <summary>
         /// Egypt
         /// </summary>
-        EGY,
+        EGY = 697189,
         /// <summary>
         /// El Salvador
         /// </summary>
-        SLV,
+        SLV = 837686,
         /// <summary>
         /// Equatorial Guinea
         /// </summary>
-        GNQ,
+        GNQ = 717881,
         /// <summary>
         /// Eritrea
         /// </summary>
-        ERI,
+        ERI = 698273,
         /// <summary>
         /// Estonia
         /// </summary>
-        EST,
+        EST = 698384,
         /// <summary>
         /// Ethiopia
         /// </summary>
-        ETH,
+        ETH = 698472,
         /// <summary>
         /// Falkland Islands
         /// </summary>
-        FLK,
+        FLK = 707675,
         /// <summary>
         /// Faroe Islands
         /// </summary>
-        FRO,
+        FRO = 708279,
         /// <summary>
         /// Fiji
         /// </summary>
-        FJI,
+        FJI = 707473,
         /// <summary>
         /// Finland
         /// </summary>
-        FIN,
+        FIN = 707378,
         /// <summary>
         /// France
         /// </summary>
-        FRA,
+        FRA = 708265,
         /// <summary>
         /// French Guiana
         /// </summary>
-        GUF,
+        GUF = 718570,
         /// <summary>
         /// French Polynesia
         /// </summary>
-        PYF,
+        PYF = 808970,
         /// <summary>
         /// French Southern Lands
         /// </summary>
-        ATF,
+        ATF = 658470,
         /// <summary>
         /// Gabon
         /// </summary>
-        GAB,
+        GAB = 716566,
         /// <summary>
         /// Gambia
         /// </summary>
-        GMB,
+        GMB = 717766,
         /// <summary>
         /// Georgia
         /// </summary>
-        GEO,
+        GEO = 716979,
         /// <summary>
         /// Germany
         /// </summary>
-        DEU,
+        DEU = 686985,
         /// <summary>
         /// Ghana
         /// </summary>
-        GHA,
+        GHA = 717265,
         /// <summary>
         /// Gibraltar
         /// </summary>
-        GIB,
+        GIB = 717366,
         /// <summary>
         /// Greece
         /// </summary>
-        GRC,
+        GRC = 718267,
         /// <summary>
         /// Greenland
         /// </summary>
-        GRL,
+        GRL = 718276,
         /// <summary>
         /// Grenada
         /// </summary>
-        GRD,
+        GRD = 718268,
         /// <summary>
         /// Guadeloupe
         /// </summary>
-        GLP,
+        GLP = 717680,
         /// <summary>
         /// Guam
         /// </summary>
-        GUM,
+        GUM = 718577,
         /// <summary>
         /// Guatemala
         /// </summary>
-        GTM,
+        GTM = 718477,
         /// <summary>
         /// Guernsey
         /// </summary>
-        GGY,
+        GGY = 717189,
         /// <summary>
         /// Guinea
         /// </summary>
-        GIN,
+        GIN = 717378,
         /// <summary>
         /// Guinea-Bissau
         /// </summary>
-        GNB,
+        GNB = 717866,
         /// <summary>
         /// Guyana
         /// </summary>
-        GUY,
+        GUY = 718589,
         /// <summary>
         /// Haiti
         /// </summary>
-        HTI,
+        HTI = 728473,
         /// <summary>
         /// Heard and McDonald Islands
         /// </summary>
-        HMD,
+        HMD = 727768,
         /// <summary>
         /// Honduras
         /// </summary>
-        HND,
+        HND = 727868,
         /// <summary>
         /// Hong Kong
         /// </summary>
-        HKG,
+        HKG = 727571,
         /// <summary>
         /// Hungary
         /// </summary>
-        HUN,
+        HUN = 728578,
         /// <summary>
         /// Iceland
         /// </summary>
-        ISL,
+        ISL = 738376,
         /// <summary>
         /// India
         /// </summary>
-        IND,
+        IND = 737868,
         /// <summary>
         /// Indonesia
         /// </summary>
-        IDN,
+        IDN = 736878,
         /// <summary>
         /// Iran
         /// </summary>
-        IRN,
+        IRN = 738278,
         /// <summary>
         /// Iraq
         /// </summary>
-        IRQ,
+        IRQ = 738281,
         /// <summary>
         /// Ireland
         /// </summary>
-        IRL,
+        IRL = 738276,
         /// <summary>
         /// Isle of Man
         /// </summary>
-        IMN,
+        IMN = 737778,
         /// <summary>
         /// Israel
         /// </summary>
-        ISR,
+        ISR = 738382,
         /// <summary>
         /// Italy
         /// </summary>
-        ITA,
+        ITA = 738465,
         /// <summary>
         /// Jamaica
         /// </summary>
-        JAM,
+        JAM = 746577,
         /// <summary>
         /// Japan
         /// </summary>
-        JPN,
+        JPN = 748078,
         /// <summary>
         /// Jersey
         /// </summary>
-        JEY,
+        JEY = 746989,
         /// <summary>
         /// Jordan
         /// </summary>
-        JOR,
+        JOR = 747982,
         /// <summary>
         /// Kazakhstan
         /// </summary>
-        KAZ,
+        KAZ = 756590,
         /// <summary>
         /// Kenya
         /// </summary>
-        KEN,
+        KEN = 756978,
         /// <summary>
         /// Kiribati
         /// </summary>
-        KIR,
+        KIR = 757382,
         /// <summary>
         /// Korea, North
         /// </summary>
-        PRK,
+        PRK = 808275,
         /// <summary>
         /// Korea, South
         /// </summary>
-        KOR,
+        KOR = 757982,
         /// <summary>
         /// Kosovo (partially recognized; not a UN member state)
         /// </summary>
-        XKX,
+        XKX = 887588,
         /// <summary>
         /// Kuwait
         /// </summary>
-        KWT,
+        KWT = 758784,
         /// <summary>
         /// Kyrgyzstan
         /// </summary>
-        KGZ,
+        KGZ = 757190,
         /// <summary>
         /// Laos
         /// </summary>
-        LAO,
+        LAO = 766579,
         /// <summary>
         /// Latvia
         /// </summary>
-        LVA,
+        LVA = 768665,
         /// <summary>
         /// Lebanon
         /// </summary>
-        LBN,
+        LBN = 766678,
         /// <summary>
         /// Lesotho
         /// </summary>
-        LSO,
+        LSO = 768379,
         /// <summary>
         /// Liberia
         /// </summary>
-        LBR,
+        LBR = 766682,
         /// <summary>
         /// Libya
         /// </summary>
-        LBY,
+        LBY = 766689,
         /// <summary>
         /// Liechtenstein
         /// </summary>
-        LIE,
+        LIE = 767369,
         /// <summary>
         /// Lithuania
         /// </summary>
-        LTU,
+        LTU = 768485,
         /// <summary>
         /// Luxembourg
         /// </summary>
-        LUX,
+        LUX = 768588,
         /// <summary>
         /// Macau
         /// </summary>
-        MAC,
+        MAC = 776567,
         /// <summary>
         /// North Macedonia
         /// </summary>
-        MKD,
+        MKD = 777568,
         /// <summary>
         /// Madagascar
         /// </summary>
-        MDG,
+        MDG = 776871,
         /// <summary>
         /// Malawi
         /// </summary>
-        MWI,
+        MWI = 778773,
         /// <summary>
         /// Malaysia
         /// </summary>
-        MYS,
+        MYS = 778983,
         /// <summary>
         /// Maldives
         /// </summary>
-        MDV,
+        MDV = 776886,
         /// <summary>
         /// Mali
         /// </summary>
-        MLI,
+        MLI = 777673,
         /// <summary>
         /// Malta
         /// </summary>
-        MLT,
+        MLT = 777684,
         /// <summary>
         /// Marshall Islands
         /// </summary>
-        MHL,
+        MHL = 777276,
         /// <summary>
         /// Martinique
         /// </summary>
-        MTQ,
+        MTQ = 778481,
         /// <summary>
         /// Mauritania
         /// </summary>
-        MRT,
+        MRT = 778284,
         /// <summary>
         /// Mauritius
         /// </summary>
-        MUS,
+        MUS = 778583,
         /// <summary>
         /// Mayotte
         /// </summary>
-        MYT,
+        MYT = 778984,
         /// <summary>
         /// Mexico
         /// </summary>
-        MEX,
+        MEX = 776988,
         /// <summary>
         /// Micronesia
         /// </summary>
-        FSM,
+        FSM = 708377,
         /// <summary>
         /// Moldova
         /// </summary>
-        MDA,
+        MDA = 776865,
         /// <summary>
         /// Monaco
         /// </summary>
-        MCO,
+        MCO = 776779,
         /// <summary>
         /// Mongolia
         /// </summary>
-        MNG,
+        MNG = 777871,
         /// <summary>
         /// Montenegro
         /// </summary>
-        MNE,
+        MNE = 777869,
         /// <summary>
         /// Montserrat
         /// </summary>
-        MSR,
+        MSR = 778382,
         /// <summary>
         /// Morocco
         /// </summary>
-        MAR,
+        MAR = 776582,
         /// <summary>
         /// Mozambique
         /// </summary>
-        MOZ,
+        MOZ = 777990,
         /// <summary>
         /// Myanmar
         /// </summary>
-        MMR,
+        MMR = 777782,
         /// <summary>
         /// Namibia
         /// </summary>
-        NAM,
+        NAM = 786577,
         /// <summary>
         /// Nauru
         /// </summary>
-        NRU,
+        NRU = 788285,
         /// <summary>
         /// Nepal
         /// </summary>
-        NPL,
+        NPL = 788076,
         /// <summary>
         /// Netherlands
         /// </summary>
-        NLD,
+        NLD = 787668,
         /// <summary>
         /// New Caledonia
         /// </summary>
-        NCL,
+        NCL = 786776,
         /// <summary>
         /// New Zealand
         /// </summary>
-        NZL,
+        NZL = 789076,
         /// <summary>
         /// Nicaragua
         /// </summary>
-        NIC,
+        NIC = 787367,
         /// <summary>
         /// Niger
         /// </summary>
-        NER,
+        NER = 786982,
         /// <summary>
         /// Nigeria
         /// </summary>
-        NGA,
+        NGA = 787165,
         /// <summary>
         /// Niue
         /// </summary>
-        NIU,
+        NIU = 787385,
         /// <summary>
         /// Norfolk Island
         /// </summary>
-        NFK,
+        NFK = 787075,
         /// <summary>
         /// Northern Mariana Islands
         /// </summary>
-        MNP,
+        MNP = 777880,
         /// <summary>
         /// Norway
         /// </summary>
-        NOR,
+        NOR = 787982,
         /// <summary>
         /// Oman
         /// </summary>
-        OMN,
+        OMN = 797778,
         /// <summary>
         /// Pakistan
         /// </summary>
-        PAK,
+        PAK = 806575,
         /// <summary>
         /// Palau
         /// </summary>
-        PLW,
+        PLW = 807687,
         /// <summary>
         /// Palestine
         /// </summary>
-        PSE,
+        PSE = 808369,
         /// <summary>
         /// Panama
         /// </summary>
-        PAN,
+        PAN = 806578,
         /// <summary>
         /// Papua New Guinea
         /// </summary>
-        PNG,
+        PNG = 807871,
         /// <summary>
         /// Paraguay
         /// </summary>
-        PRY,
+        PRY = 808289,
         /// <summary>
         /// Peru
         /// </summary>
-        PER,
+        PER = 806982,
         /// <summary>
         /// Philippines
         /// </summary>
-        PHL,
+        PHL = 807276,
         /// <summary>
         /// Pitcairn
         /// </summary>
-        PCN,
+        PCN = 806778,
         /// <summary>
         /// Poland
         /// </summary>
-        POL,
+        POL = 807976,
         /// <summary>
         /// Portugal
         /// </summary>
-        PRT,
+        PRT = 808284,
         /// <summary>
         /// Puerto Rico
         /// </summary>
-        PRI,
+        PRI = 808273,
         /// <summary>
         /// Qatar
         /// </summary>
-        QAT,
+        QAT = 816584,
         /// <summary>
         /// Reunion
         /// </summary>
-        REU,
+        REU = 826985,
         /// <summary>
         /// Romania
         /// </summary>
-        ROU,
+        ROU = 827985,
         /// <summary>
         /// Russian Federation
         /// </summary>
-        RUS,
+        RUS = 828583,
         /// <summary>
         /// Rwanda
         /// </summary>
-        RWA,
+        RWA = 828765,
         /// <summary>
         /// Saint Barthélemy
         /// </summary>
-        BLM,
+        BLM = 667677,
         /// <summary>
         /// Saint Helena
         /// </summary>
-        SHN,
+        SHN = 837278,
         /// <summary>
         /// Saint Kitts and Nevis
         /// </summary>
-        KNA,
+        KNA = 757865,
         /// <summary>
         /// Saint Lucia
         /// </summary>
-        LCA,
+        LCA = 766765,
         /// <summary>
         /// Saint Martin (French part)
         /// </summary>
-        MAF,
+        MAF = 776570,
         /// <summary>
         /// Saint Pierre and Miquelon
         /// </summary>
-        SPM,
+        SPM = 838077,
         /// <summary>
         /// Saint Vincent and the Grenadines
         /// </summary>
-        VCT,
+        VCT = 866784,
         /// <summary>
         /// Samoa
         /// </summary>
-        WSM,
+        WSM = 878377,
         /// <summary>
         /// San Marino
         /// </summary>
-        SMR,
+        SMR = 837782,
         /// <summary>
         /// Sao Tome and Principe
         /// </summary>
-        STP,
+        STP = 838480,
         /// <summary>
         /// Saudi Arabia
         /// </summary>
-        SAU,
+        SAU = 836585,
         /// <summary>
         /// Senegal
         /// </summary>
-        SEN,
+        SEN = 836978,
         /// <summary>
         /// Serbia
         /// </summary>
-        SRB,
+        SRB = 838266,
         /// <summary>
         /// Seychelles
         /// </summary>
-        SYC,
+        SYC = 838967,
         /// <summary>
         /// Sierra Leone
         /// </summary>
-        SLE,
+        SLE = 837669,
         /// <summary>
         /// Singapore
         /// </summary>
-        SGP,
+        SGP = 837180,
         /// <summary>
         /// Sint Maarten (Dutch part)
         /// </summary>
-        SXM,
+        SXM = 838877,
         /// <summary>
         /// Slovakia
         /// </summary>
-        SVK,
+        SVK = 838675,
         /// <summary>
         /// Slovenia
         /// </summary>
-        SVN,
+        SVN = 838678,
         /// <summary>
         /// Solomon Islands
         /// </summary>
-        SLB,
+        SLB = 837666,
         /// <summary>
         /// Somalia
         /// </summary>
-        SOM,
+        SOM = 837977,
         /// <summary>
         /// South Africa
         /// </summary>
-        ZAF,
+        ZAF = 906570,
         /// <summary>
         /// South Georgia and South Sandwich Islands
         /// </summary>
-        SGS,
+        SGS = 837183,
         /// <summary>
         /// South Sudan
         /// </summary>
-        SSD,
+        SSD = 838368,
         /// <summary>
         /// Spain
         /// </summary>
-        ESP,
+        ESP = 698380,
         /// <summary>
         /// Sri Lanka
         /// </summary>
-        LKA,
+        LKA = 767565,
         /// <summary>
         /// Sudan
         /// </summary>
-        SDN,
+        SDN = 836878,
         /// <summary>
         /// Suriname
         /// </summary>
-        SUR,
+        SUR = 838582,
         /// <summary>
         /// Svalbard and Jan Mayen Islands
         /// </summary>
-        SJM,
+        SJM = 837477,
         /// <summary>
         /// Swaziland
         /// </summary>
-        SWZ,
+        SWZ = 838790,
         /// <summary>
         /// Sweden
         /// </summary>
-        SWE,
+        SWE = 838769,
         /// <summary>
         /// Switzerland
         /// </summary>
-        CHE,
+        CHE = 677269,
         /// <summary>
         /// Syria
         /// </summary>
-        SYR,
+        SYR = 838982,
         /// <summary>
         /// Taiwan
         /// </summary>
-        TWN,
+        TWN = 848778,
         /// <summary>
         /// Tajikistan
         /// </summary>
-        TJK,
+        TJK = 847475,
         /// <summary>
         /// Tanzania
         /// </summary>
-        TZA,
+        TZA = 849065,
         /// <summary>
         /// Thailand
         /// </summary>
-        THA,
+        THA = 847265,
         /// <summary>
         /// Timor-Leste
         /// </summary>
-        TLS,
+        TLS = 847683,
         /// <summary>
         /// Togo
         /// </summary>
-        TGO,
+        TGO = 847179,
         /// <summary>
         /// Tokelau
         /// </summary>
-        TKL,
+        TKL = 847576,
         /// <summary>
         /// Tonga
         /// </summary>
-        TON,
+        TON = 847978,
         /// <summary>
         /// Trinidad and Tobago
         /// </summary>
-        TTO,
+        TTO = 848479,
         /// <summary>
         /// Tunisia
         /// </summary>
-        TUN,
+        TUN = 848578,
         /// <summary>
         /// Turkey
         /// </summary>
-        TUR,
+        TUR = 848582,
         /// <summary>
         /// Turkmenistan
         /// </summary>
-        TKM,
+        TKM = 847577,
         /// <summary>
         /// Turks and Caicos Islands
         /// </summary>
-        TCA,
+        TCA = 846765,
         /// <summary>
         /// Tuvalu
         /// </summary>
-        TUV,
+        TUV = 848586,
         /// <summary>
         /// Uganda
         /// </summary>
-        UGA,
+        UGA = 857165,
         /// <summary>
         /// Ukraine
         /// </summary>
-        UKR,
+        UKR = 857582,
         /// <summary>
         /// United Arab Emirates
         /// </summary>
-        ARE,
+        ARE = 658269,
         /// <summary>
         /// United Kingdom
         /// </summary>
-        GBR,
+        GBR = 716682,
         /// <summary>
         /// United States Minor Outlying Islands
         /// </summary>
-        UMI,
+        UMI = 857773,
         /// <summary>
         /// United States of America
         /// </summary>
-        USA,
+        USA = 858365,
         /// <summary>
         /// Uruguay
         /// </summary>
-        URY,
+        URY = 858289,
         /// <summary>
         /// Uzbekistan
         /// </summary>
-        UZB,
+        UZB = 859066,
         /// <summary>
         /// Vanuatu
         /// </summary>
-        VUT,
+        VUT = 868584,
         /// <summary>
         /// Vatican City
         /// </summary>
-        VAT,
+        VAT = 866584,
         /// <summary>
         /// Venezuela
         /// </summary>
-        VEN,
+        VEN = 866978,
         /// <summary>
         /// Vietnam
         /// </summary>
-        VNM,
+        VNM = 867877,
         /// <summary>
         /// Virgin Islands, British
         /// </summary>
-        VGB,
+        VGB = 867166,
         /// <summary>
         /// Virgin Islands, U.S.
         /// </summary>
-        VIR,
+        VIR = 867382,
         /// <summary>
         /// Wallis and Futuna Islands
         /// </summary>
-        WLF,
+        WLF = 877670,
         /// <summary>
         /// Western Sahara
         /// </summary>
-        ESH,
+        ESH = 698372,
         /// <summary>
         /// Yemen
         /// </summary>
-        YEM,
+        YEM = 896977,
         /// <summary>
         /// Zambia
         /// </summary>
-        ZMB,
+        ZMB = 907766,
         /// <summary>
         /// Zimbabwe
         /// </summary>
-        ZWE
+        ZWE = 908769
     }
 }

@@ -97,5 +97,16 @@ namespace Nager.Country.UnitTest
                 }
             }
         }
+
+        [TestMethod]
+        public void Alpha3CodeHasCorrectAsciiValue()
+        {
+            foreach (var alpha3Code in (Alpha3Code[])Enum.GetValues(typeof(Alpha3Code)))
+            {
+                var name = alpha3Code.ToString();
+                var expectedValue = int.Parse(string.Concat(name.Select(c => ((int)c).ToString())));
+                Assert.AreEqual(expectedValue, (int)alpha3Code, $"Alpha3Code.{name} has wrong int value");
+            }
+        }
     }
 }
