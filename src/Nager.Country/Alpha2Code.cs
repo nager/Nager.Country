@@ -1008,6 +1008,6 @@
         /// <summary>
         /// Zimbabwe
         /// </summary>
-        ZW
+        ZW = 9087
     }
 }

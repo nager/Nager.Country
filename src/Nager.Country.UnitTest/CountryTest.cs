@@ -8,7 +8,7 @@ namespace Nager.Country.UnitTest
     [TestClass]
     public class CountryTest
     {
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("DE")]
         [DataRow("de")]
         [DataRow("De")]
@@ -26,7 +26,8 @@ namespace Nager.Country.UnitTest
             }
         }
 
-        [DataTestMethod]
+        [TestMethod]
+        [DataRow("0", false)]
         [DataRow("DE", true)]
         [DataRow("de", true)]
         [DataRow("De", true)]
@@ -41,17 +42,19 @@ namespace Nager.Country.UnitTest
             var successful = countryProvider.TryGetCountry(countryCode, out var countryInfo);
             if (isSuccessful)
             {
-                Assert.IsTrue(successful);
+                Assert.IsTrue(successful, "The assignment should be possible.");
                 Assert.IsNotNull(countryInfo);
+
+                Assert.AreEqual(Alpha2Code.DE, countryInfo.Alpha2Code);
             }
             else
             {
-                Assert.IsFalse(successful);
+                Assert.IsFalse(successful, "The assignment should not be possible.");
                 Assert.IsNull(countryInfo);
             }
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("Austria")]
         [DataRow("Republic of Austria")]
         public void GetCountryByName(string countryName)
@@ -62,7 +65,7 @@ namespace Nager.Country.UnitTest
             Assert.AreEqual(Alpha2Code.AT, countryInfo.Alpha2Code);
         }
 
-        [DataTestMethod]
+        [TestMethod]
         [DataRow("Austria")]
         [DataRow("Republic of Austria")]
         [DataRow("austria")]
