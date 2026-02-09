@@ -262,7 +262,7 @@ namespace Nager.Country.Translation
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.SD, new SudanCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.SR, new SurinameCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.SJ, new SvalbardAndJanMayenCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SZ, new SwazilandCountryTranslation());
+            this._alpha2Code2CountryTranslation.Add(Alpha2Code.SZ, new EswatiniCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.SE, new SwedenCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.CH, new SwitzerlandCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.SY, new SyriaCountryTranslation());

@@ -862,7 +862,7 @@
         /// </summary>
         SJM = 837477,
         /// <summary>
-        /// Swaziland
+        /// Eswatini
         /// </summary>
         SWZ = 838790,
         /// <summary>

@@ -3,15 +3,15 @@ using Nager.Country.Currencies;
 namespace Nager.Country.CountryInfos
 {
     /// <summary>
-    /// Swaziland
+    /// Eswatini
     /// </summary>
-    public sealed class SwazilandCountryInfo : ICountryInfo
+    public sealed class EswatiniCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Eswatini";
 
         /// <inheritdoc/>
-        public string OfficialName => "Kingdom of Swaziland";
+        public string OfficialName => "Kingdom of Eswatini";
 
         /// <inheritdoc/>
         public string NativeName => "Swaziland";
