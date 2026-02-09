@@ -16,7 +16,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Verges Britàniques, illes"),
             new TranslationInfo(LanguageCode.CS, "Britské Panenské ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Britiske Jomfruøer"),
-            new TranslationInfo(LanguageCode.DE, "Britische Jungferninseln"),
+            new TranslationInfo(LanguageCode.DE, "Jungferninseln (UK)"),
             new TranslationInfo(LanguageCode.EL, "Βρετανικές Παρθένοι Νήσοι"),
             new TranslationInfo(LanguageCode.EN, "Virgin Islands, British"),
             new TranslationInfo(LanguageCode.ES, "Islas Vírgenes británicas"),

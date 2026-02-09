@@ -16,7 +16,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Verges Nord-americanes, illes"),
             new TranslationInfo(LanguageCode.CS, "Americké Panenské ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Amerikanske Jomfruøer"),
-            new TranslationInfo(LanguageCode.DE, "Amerikanische Jungferninseln"),
+            new TranslationInfo(LanguageCode.DE, "Jungferninseln (USA)"),
             new TranslationInfo(LanguageCode.EL, "Αμερικανικές Παρθένοι Νήσοι"),
             new TranslationInfo(LanguageCode.EN, "Virgin Islands, U.S."),
             new TranslationInfo(LanguageCode.ES, "Islas Vírgenes de los Estados Unidos"),
