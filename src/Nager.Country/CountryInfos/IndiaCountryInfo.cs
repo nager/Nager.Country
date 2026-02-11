@@ -37,14 +37,12 @@ namespace Nager.Country.CountryInfos
         /// <inheritdoc/>
         public Alpha2Code[] BorderCountries =>
         [
-            Alpha2Code.AF,
             Alpha2Code.BD,
             Alpha2Code.BT,
-            Alpha2Code.MM,
             Alpha2Code.CN,
+            Alpha2Code.MM,
             Alpha2Code.NP,
             Alpha2Code.PK,
-            Alpha2Code.LK,
         ];
 
         /// <inheritdoc/>
