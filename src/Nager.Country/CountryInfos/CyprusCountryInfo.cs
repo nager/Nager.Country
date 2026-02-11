@@ -14,7 +14,7 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Republic of Cyprus";
 
         /// <inheritdoc/>
-        public string NativeName => "Êýðñïò";
+        public string NativeName => "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CY;
@@ -32,13 +32,10 @@ namespace Nager.Country.CountryInfos
         public Region Region => Region.Europe;
 
         /// <inheritdoc/>
-        public SubRegion SubRegion => SubRegion.EasternEurope;
+        public SubRegion SubRegion => SubRegion.SouthernEurope;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries =>
-        [
-            Alpha2Code.GB,
-        ];
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => [new EurCurrency()];

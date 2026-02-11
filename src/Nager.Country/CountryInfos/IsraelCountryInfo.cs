@@ -40,6 +40,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.EG,
             Alpha2Code.JO,
             Alpha2Code.LB,
+            Alpha2Code.PS,
             Alpha2Code.SY,
         ];
 

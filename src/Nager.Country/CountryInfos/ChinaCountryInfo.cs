@@ -48,6 +48,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.LA,
             Alpha2Code.MO,
             Alpha2Code.MN,
+            Alpha2Code.NP,
             Alpha2Code.PK,
             Alpha2Code.RU,
             Alpha2Code.TJ,

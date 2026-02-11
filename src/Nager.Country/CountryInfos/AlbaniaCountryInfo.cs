@@ -32,7 +32,7 @@ namespace Nager.Country.CountryInfos
         public Region Region => Region.Europe;
 
         /// <inheritdoc/>
-        public SubRegion SubRegion => SubRegion.SouthernEurope;
+        public SubRegion SubRegion => SubRegion.SoutheastEurope;
 
         /// <inheritdoc/>
         public Alpha2Code[] BorderCountries =>
@@ -40,6 +40,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ME,
             Alpha2Code.GR,
             Alpha2Code.MK,
+            Alpha2Code.XK,
         ];
 
         /// <inheritdoc/>
