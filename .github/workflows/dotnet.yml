@@ -14,7 +14,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v6
@@ -34,10 +34,13 @@ jobs:
         dotnet test --configuration Release --no-restore --no-build --verbosity normal
     - name: Build project and generate NuGet package
       run: |
-        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country/Nager.Country.csproj
-        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country.Translation/Nager.Country.Translation.csproj
+        dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Moco/Nager.Moco.csproj
+    - name: NuGet login
+      uses: NuGet/login@v1
+      id: login
+      with:
+        user: ${{secrets.NUGET_USER}}
     - name: Push NuGet package
-      if: github.event_name != 'pull_request'
       run: |
         cd $GITHUB_WORKSPACE/out
-        dotnet nuget push *.nupkg --source https://www.nuget.org/api/v2/package --api-key ${{secrets.NUGET_TOKEN}} --skip-duplicate --no-symbols
+        dotnet nuget push *.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{steps.login.outputs.NUGET_API_KEY}} --skip-duplicate --no-symbols
