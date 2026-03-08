@@ -11,7 +11,7 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Netherlands";
 
         /// <inheritdoc/>
-        public string OfficialName => "Netherlands";
+        public string OfficialName => "Kingdom of the Netherlands";
 
         /// <inheritdoc/>
         public string NativeName => "Nederland";

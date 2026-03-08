@@ -11,7 +11,7 @@ namespace Nager.Country.CountryInfos
         public string CommonName => "Caribbean Netherlands";
 
         /// <inheritdoc/>
-        public string OfficialName => "Caribbean Netherlands";
+        public string OfficialName => "Bonaire, Sint Eustatius and Saba";
 
         /// <inheritdoc/>
         public string NativeName => "Caribbean Netherlands";

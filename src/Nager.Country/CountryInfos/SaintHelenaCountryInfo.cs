@@ -39,14 +39,7 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.WesternAfrica;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries =>
-        [
-            Alpha2Code.AR,
-            Alpha2Code.BR,
-            Alpha2Code.CL,
-            Alpha2Code.PY,
-            Alpha2Code.PE,
-        ];
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
         public ICurrency[] Currencies =>

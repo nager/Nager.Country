@@ -37,6 +37,18 @@ namespace Nager.Country
         EasternEurope,
 
         /// <summary>
+        /// Southeast Europe
+        /// </summary>
+        [Description("Southeast Europe")]
+        SoutheastEurope,
+
+        /// <summary>
+        /// Central Europe
+        /// </summary>
+        [Description("Central Europe")]
+        CentralEurope,
+
+        /// <summary>
         /// Central America
         /// </summary>
         [Description("Central America")]
@@ -75,7 +87,7 @@ namespace Nager.Country
         /// <summary>
         /// Southern Africa
         /// </summary>
-        [Description("SouthernAfrica")]
+        [Description("Southern Africa")]
         SouthernAfrica,
 
         /// <summary>
