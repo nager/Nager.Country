@@ -76,7 +76,7 @@ namespace Nager.Country
         ICountryInfo GetCountry(Alpha3Code alpha3Code);
 
         /// <summary>
-        /// Get country by Name, check CommonName and OfficialName.<br/>
+        /// Get country by Name, check CommonName, OfficialName and NativeName.<br/>
         /// If you also need all translations then you can install the Nuget package <see href="https://www.nuget.org/packages/Nager.Country.Translation">Nager.Country.Translation</see>
         /// </summary>
         /// <remarks>
@@ -86,5 +86,22 @@ namespace Nager.Country
         /// <returns>The <see cref="ICountryInfo"/> corresponding to the specified code.</returns>
         /// <exception cref="UnknownCountryException">Thrown if no country matches the provided code.</exception>
         ICountryInfo GetCountryByName(string countryName);
+
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_0_OR_GREATER
+
+        /// <summary>
+        /// Attempts to retrieve country information by its name, checking both CommonName, OfficialName and NativeName.
+        /// </summary>
+        /// <param name="countryName">The name of the country.</param>
+        /// <param name="countryInfo">
+        /// When this method returns, contains the <see cref="ICountryInfo"/> 
+        /// for the specified name if found; otherwise, null.
+        /// </param>
+        /// <returns>
+        /// <c>true</c> if a country matching the specified name was found; otherwise, <c>false</c>.
+        /// </returns>
+        bool TryGetCountryByName(string countryName, [NotNullWhen(true)] out ICountryInfo? countryInfo);
+
+#endif
     }
 }

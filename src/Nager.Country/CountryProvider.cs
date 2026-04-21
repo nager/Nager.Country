@@ -377,14 +377,24 @@ namespace Nager.Country
         /// <inheritdoc/>
         public ICountryInfo GetCountryByName(string countryName)
         {
+            var searchValue = countryName.Replace("-", " ");
+
             foreach (var countryInfo in this._alpha2Code2CountryInfo.Values)
             {
-                if (countryInfo.CommonName.Equals(countryName, StringComparison.OrdinalIgnoreCase))
+                var commonName = countryInfo.CommonName.Replace("-", " ");
+                if (commonName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
                 {
                     return countryInfo;
                 }
 
-                if (countryInfo.OfficialName.Equals(countryName, StringComparison.OrdinalIgnoreCase))
+                var officialName = countryInfo.OfficialName.Replace("-", " ");
+                if (officialName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
+                {
+                    return countryInfo;
+                }
+
+                var nativeName = countryInfo.NativeName.Replace("-", " ");
+                if (nativeName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
                 {
                     return countryInfo;
                 }
@@ -392,5 +402,42 @@ namespace Nager.Country
 
             throw new UnknownCountryException($"Cannot found a country for countryName {countryName}");
         }
+
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_0_OR_GREATER
+        /// <inheritdoc/>
+        public bool TryGetCountryByName(
+            string countryName,
+            [NotNullWhen(true)] out ICountryInfo? countryInfo)
+        {
+            var searchValue = countryName.Replace("-", " ");
+
+            foreach (var countryInfo1 in this._alpha2Code2CountryInfo.Values)
+            {
+                var commonName = countryInfo1.CommonName.Replace("-", " ");
+                if (commonName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
+                {
+                    countryInfo = countryInfo1;
+                    return true;
+                }
+
+                var officialName = countryInfo1.OfficialName.Replace("-", " ");
+                if (officialName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
+                {
+                    countryInfo = countryInfo1;
+                    return true;
+                }
+
+                var nativeName = countryInfo1.NativeName.Replace("-", " ");
+                if (nativeName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
+                {
+                    countryInfo = countryInfo1;
+                    return true;
+                }
+            }
+
+            countryInfo = null;
+            return false;
+        }
+#endif
     }
 }

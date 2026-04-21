@@ -57,12 +57,50 @@ namespace Nager.Country.UnitTest
         [TestMethod]
         [DataRow("Austria")]
         [DataRow("Republic of Austria")]
-        public void GetCountryByName(string countryName)
+        public void GetCountryByName1(string countryName)
         {
             ICountryProvider countryProvider = new CountryProvider();
 
             var countryInfo = countryProvider.GetCountryByName(countryName);
             Assert.AreEqual(Alpha2Code.AT, countryInfo.Alpha2Code);
+        }
+
+        [TestMethod]
+        [DataRow("Guinea-Bissau")]
+        [DataRow("Guinea Bissau")]
+        public void GetCountryByName2(string countryName)
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+
+            var countryInfo = countryProvider.GetCountryByName(countryName);
+            Assert.AreEqual(Alpha2Code.GW, countryInfo.Alpha2Code);
+        }
+
+        [TestMethod]
+        [DataRow("Guinea-Bissau")]
+        [DataRow("Guinea Bissau")]
+        public void TryGetCountryByName1(string countryName)
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+
+            var countryFound = countryProvider.TryGetCountryByName(countryName, out var countryInfo);
+
+            Assert.IsTrue(countryFound);
+            Assert.IsNotNull(countryInfo);
+            Assert.AreEqual(Alpha2Code.GW, countryInfo.Alpha2Code);
+        }
+
+        [TestMethod]
+        [DataRow("Invalid")]
+        [DataRow("Corrupt Data")]
+        public void TryGetCountryByName2(string countryName)
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+
+            var countryFound = countryProvider.TryGetCountryByName(countryName, out var countryInfo);
+
+            Assert.IsFalse(countryFound);
+            Assert.IsNull(countryInfo);
         }
 
         [TestMethod]
