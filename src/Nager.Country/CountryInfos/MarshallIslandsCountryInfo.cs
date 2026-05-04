@@ -14,7 +14,7 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Republic of the Marshall Islands";
 
         /// <inheritdoc/>
-        public string NativeName => "M̧ajeļ";
+        public string NativeName => "M̧ajeļ";
 
         /// <inheritdoc/>
         public string Slug => "marshall-islands";

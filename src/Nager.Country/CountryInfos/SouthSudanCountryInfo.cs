@@ -45,7 +45,6 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.ET,
             Alpha2Code.KE,
             Alpha2Code.SD,
-            Alpha2Code.TD,
             Alpha2Code.UG,
         ];
 
