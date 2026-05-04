@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Sint Maarten";
 
         /// <inheritdoc/>
+        public string Slug => "sint-maarten";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SX;
 
         /// <inheritdoc/>

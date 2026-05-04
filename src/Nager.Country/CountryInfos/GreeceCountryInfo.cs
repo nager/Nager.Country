@@ -14,10 +14,11 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Hellenic Republic";
 
         /// <inheritdoc/>
-        public string NativeName => "ÅëëÜäá";
+        public string NativeName => "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 
-        /// <inheritdoc/>
-        public Alpha2Code Alpha2Code => Alpha2Code.GR;
+        /// <inheritdoc/>        public string Slug => "greece";
+
+        /// <inheritdoc/>        public Alpha2Code Alpha2Code => Alpha2Code.GR;
 
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.GRC;

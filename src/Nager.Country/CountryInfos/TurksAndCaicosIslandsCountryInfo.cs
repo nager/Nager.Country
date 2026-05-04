@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Turks and Caicos Islands";
 
         /// <inheritdoc/>
+        public string Slug => "turks-and-caicos-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TC;
 
         /// <inheritdoc/>

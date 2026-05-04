@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Timor-Leste";
 
         /// <inheritdoc/>
+        public string Slug => "timor-leste";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TL;
 
         /// <inheritdoc/>

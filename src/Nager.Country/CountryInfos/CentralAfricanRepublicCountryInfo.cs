@@ -16,8 +16,9 @@ namespace Nager.Country.CountryInfos
         /// <inheritdoc/>
         public string NativeName => "Ködörösêse tî Bêafrîka";
 
-        /// <inheritdoc/>
-        public Alpha2Code Alpha2Code => Alpha2Code.CF;
+        /// <inheritdoc/>        public string Slug => "central-african-republic";
+
+        /// <inheritdoc/>        public Alpha2Code Alpha2Code => Alpha2Code.CF;
 
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CAF;

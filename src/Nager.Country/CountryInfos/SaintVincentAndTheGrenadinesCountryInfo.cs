@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Saint Vincent and the Grenadines";
 
         /// <inheritdoc/>
+        public string Slug => "saint-vincent-and-the-grenadines";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.VC;
 
         /// <inheritdoc/>

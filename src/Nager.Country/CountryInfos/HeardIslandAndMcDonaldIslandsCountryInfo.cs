@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Heard Island and McDonald Islands";
 
         /// <inheritdoc/>
+        public string Slug => "heard-island-and-mcdonald-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HM;
 
         /// <inheritdoc/>

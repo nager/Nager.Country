@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Wallis et Futuna";
 
         /// <inheritdoc/>
+        public string Slug => "wallis-and-futuna";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.WF;
 
         /// <inheritdoc/>

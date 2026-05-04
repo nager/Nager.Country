@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "دولة الإمارات العربية المتحدة";
 
         /// <inheritdoc/>
+        public string Slug => "united-arab-emirates";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AE;
 
         /// <inheritdoc/>

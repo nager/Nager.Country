@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Cocos (Keeling) Islands";
 
         /// <inheritdoc/>
+        public string Slug => "cocos-keeling-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CC;
 
         /// <inheritdoc/>

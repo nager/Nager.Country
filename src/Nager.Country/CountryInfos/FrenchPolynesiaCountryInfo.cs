@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Polynésie française";
 
         /// <inheritdoc/>
+        public string Slug => "french-polynesia";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PF;
 
         /// <inheritdoc/>

@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Northern Mariana Islands";
 
         /// <inheritdoc/>
+        public string Slug => "northern-mariana-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MP;
 
         /// <inheritdoc/>

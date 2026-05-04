@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "الصحراء الغربية";
 
         /// <inheritdoc/>
+        public string Slug => "western-sahara";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.EH;
 
         /// <inheritdoc/>

@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Bouvetøya";
 
         /// <inheritdoc/>
+        public string Slug => "bouvet-island";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.BV;
 
         /// <inheritdoc/>

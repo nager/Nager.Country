@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "La Réunion";
 
         /// <inheritdoc/>
+        public string Slug => "reunion";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.RE;
 
         /// <inheritdoc/>

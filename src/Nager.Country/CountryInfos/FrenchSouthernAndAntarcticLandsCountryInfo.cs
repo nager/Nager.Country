@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Territoire des Terres australes et antarctiques françaises";
 
         /// <inheritdoc/>
+        public string Slug => "french-southern-and-antarctic-lands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TF;
 
         /// <inheritdoc/>

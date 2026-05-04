@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "العربية السعودية";
 
         /// <inheritdoc/>
+        public string Slug => "saudi-arabia";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SA;
 
         /// <inheritdoc/>

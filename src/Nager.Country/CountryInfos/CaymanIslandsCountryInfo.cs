@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Cayman Islands";
 
         /// <inheritdoc/>
+        public string Slug => "cayman-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KY;
 
         /// <inheritdoc/>

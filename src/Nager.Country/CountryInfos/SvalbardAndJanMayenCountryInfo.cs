@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Svalbard og Jan Mayen";
 
         /// <inheritdoc/>
+        public string Slug => "svalbard-and-jan-mayen";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SJ;
 
         /// <inheritdoc/>

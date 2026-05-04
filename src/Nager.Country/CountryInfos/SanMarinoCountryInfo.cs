@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "San Marino";
 
         /// <inheritdoc/>
+        public string Slug => "san-marino";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SM;
 
         /// <inheritdoc/>

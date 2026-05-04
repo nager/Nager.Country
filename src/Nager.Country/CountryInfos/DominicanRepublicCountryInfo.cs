@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "República Dominicana";
 
         /// <inheritdoc/>
+        public string Slug => "dominican-republic";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.DO;
 
         /// <inheritdoc/>

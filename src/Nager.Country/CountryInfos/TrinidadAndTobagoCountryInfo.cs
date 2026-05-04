@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Trinidad and Tobago";
 
         /// <inheritdoc/>
+        public string Slug => "trinidad-and-tobago";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.TT;
 
         /// <inheritdoc/>

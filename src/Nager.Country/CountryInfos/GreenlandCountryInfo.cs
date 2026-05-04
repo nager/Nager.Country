@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Kalaallit Nunaat";
 
         /// <inheritdoc/>
+        public string Slug => "greenland";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GL;
 
         /// <inheritdoc/>

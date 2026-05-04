@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "British Virgin Islands";
 
         /// <inheritdoc/>
+        public string Slug => "british-virgin-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.VG;
 
         /// <inheritdoc/>

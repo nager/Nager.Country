@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Stato della Città del Vaticano";
 
         /// <inheritdoc/>
+        public string Slug => "vatican-city";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.VA;
 
         /// <inheritdoc/>

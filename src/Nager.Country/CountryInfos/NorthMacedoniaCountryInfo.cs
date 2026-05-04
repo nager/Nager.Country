@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Северна Македонија";
 
         /// <inheritdoc/>
+        public string Slug => "north-macedonia";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MK;
 
         /// <inheritdoc/>

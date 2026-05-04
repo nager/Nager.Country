@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Česká republika";
 
         /// <inheritdoc/>
+        public string Slug => "czechia";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CZ;
 
         /// <inheritdoc/>

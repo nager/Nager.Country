@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Saint Pierre et Miquelon";
 
         /// <inheritdoc/>
+        public string Slug => "saint-pierre-and-miquelon";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PM;
 
         /// <inheritdoc/>

@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Saint Lucia";
 
         /// <inheritdoc/>
+        public string Slug => "saint-lucia";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LC;
 
         /// <inheritdoc/>

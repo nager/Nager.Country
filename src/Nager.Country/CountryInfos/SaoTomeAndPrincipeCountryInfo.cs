@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "São Tomé e Príncipe";
 
         /// <inheritdoc/>
+        public string Slug => "sao-tome-and-principe";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.ST;
 
         /// <inheritdoc/>

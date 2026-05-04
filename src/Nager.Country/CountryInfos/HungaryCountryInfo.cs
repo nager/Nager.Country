@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Magyarország";
 
         /// <inheritdoc/>
+        public string Slug => "hungary";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HU;
 
         /// <inheritdoc/>

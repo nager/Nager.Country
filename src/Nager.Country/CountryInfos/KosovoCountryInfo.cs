@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Republika e Kosovës";
 
         /// <inheritdoc/>
+        public string Slug => "kosovo";
+
+        /// <inheritdoc/>
         /// <remarks>User-assigned placeholder</remarks>
         public Alpha2Code Alpha2Code => Alpha2Code.XK;
 

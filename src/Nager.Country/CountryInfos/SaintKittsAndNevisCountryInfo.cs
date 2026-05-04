@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Saint Kitts and Nevis";
 
         /// <inheritdoc/>
+        public string Slug => "saint-kitts-and-nevis";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KN;
 
         /// <inheritdoc/>

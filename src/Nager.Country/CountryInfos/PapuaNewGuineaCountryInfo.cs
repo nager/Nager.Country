@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Papua Niugini";
 
         /// <inheritdoc/>
+        public string Slug => "papua-new-guinea";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PG;
 
         /// <inheritdoc/>

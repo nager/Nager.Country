@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "South Georgia";
 
         /// <inheritdoc/>
+        public string Slug => "south-georgia";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.GS;
 
         /// <inheritdoc/>

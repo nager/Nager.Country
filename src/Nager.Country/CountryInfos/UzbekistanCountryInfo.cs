@@ -14,10 +14,11 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Republic of Uzbekistan";
 
         /// <inheritdoc/>
-        public string NativeName => "O‘zbekiston";
+        public string NativeName => "Oï¿½zbekiston";
 
-        /// <inheritdoc/>
-        public Alpha2Code Alpha2Code => Alpha2Code.UZ;
+        /// <inheritdoc/>        public string Slug => "uzbekistan";
+
+        /// <inheritdoc/>        public Alpha2Code Alpha2Code => Alpha2Code.UZ;
 
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.UZB;

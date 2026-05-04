@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "香港";
 
         /// <inheritdoc/>
+        public string Slug => "hong-kong";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.HK;
 
         /// <inheritdoc/>

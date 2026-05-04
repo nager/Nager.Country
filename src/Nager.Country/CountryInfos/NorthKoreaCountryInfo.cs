@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "북한";
 
         /// <inheritdoc/>
+        public string Slug => "north-korea";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.KP;
 
         /// <inheritdoc/>

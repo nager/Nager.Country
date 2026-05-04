@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "ສປປລາວ";
 
         /// <inheritdoc/>
+        public string Slug => "laos";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.LA;
 
         /// <inheritdoc/>

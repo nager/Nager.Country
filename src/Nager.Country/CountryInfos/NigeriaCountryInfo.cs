@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Nigeria";
 
         /// <inheritdoc/>
+        public string Slug => "nigeria";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.NG;
 
         /// <inheritdoc/>

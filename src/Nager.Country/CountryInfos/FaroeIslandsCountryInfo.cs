@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Føroyar";
 
         /// <inheritdoc/>
+        public string Slug => "faroe-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.FO;
 
         /// <inheritdoc/>

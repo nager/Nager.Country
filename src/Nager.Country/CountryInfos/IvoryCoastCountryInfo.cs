@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Côte d'Ivoire";
 
         /// <inheritdoc/>
+        public string Slug => "ivory-coast";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CI;
 
         /// <inheritdoc/>

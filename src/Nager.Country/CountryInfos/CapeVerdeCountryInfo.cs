@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Cabo Verde";
 
         /// <inheritdoc/>
+        public string Slug => "cape-verde";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.CV;
 
         /// <inheritdoc/>

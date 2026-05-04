@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "United States Minor Outlying Islands";
 
         /// <inheritdoc/>
+        public string Slug => "united-states-minor-outlying-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.UM;
 
         /// <inheritdoc/>

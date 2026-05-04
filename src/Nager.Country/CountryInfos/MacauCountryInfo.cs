@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "澳門";
 
         /// <inheritdoc/>
+        public string Slug => "macau";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.MO;
 
         /// <inheritdoc/>

@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "Pitcairn Islands";
 
         /// <inheritdoc/>
+        public string Slug => "pitcairn-islands";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.PN;
 
         /// <inheritdoc/>

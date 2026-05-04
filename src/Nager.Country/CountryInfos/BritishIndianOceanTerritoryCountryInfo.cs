@@ -17,6 +17,9 @@ namespace Nager.Country.CountryInfos
         public string NativeName => "British Indian Ocean Territory";
 
         /// <inheritdoc/>
+        public string Slug => "british-indian-ocean-territory";
+
+        /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.IO;
 
         /// <inheritdoc/>
