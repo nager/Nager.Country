@@ -14,11 +14,13 @@ namespace Nager.Country.CountryInfos
         public string OfficialName => "Republic of Cyprus";
 
         /// <inheritdoc/>
-        public string NativeName => "������";
+        public string NativeName => "Κύπρος";
 
-        /// <inheritdoc/>        public string Slug => "cyprus";
+        /// <inheritdoc/>
+        public string Slug => "cyprus";
 
-        /// <inheritdoc/>        public Alpha2Code Alpha2Code => Alpha2Code.CY;
+        /// <inheritdoc/>
+        public Alpha2Code Alpha2Code => Alpha2Code.CY;
 
         /// <inheritdoc/>
         public Alpha3Code Alpha3Code => Alpha3Code.CYP;
