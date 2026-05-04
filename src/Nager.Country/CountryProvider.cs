@@ -411,26 +411,44 @@ namespace Nager.Country
         {
             var searchValue = countryName.Replace("-", " ");
 
-            foreach (var countryInfo1 in this._alpha2Code2CountryInfo.Values)
+            foreach (var countryInfoItem in this._alpha2Code2CountryInfo.Values)
             {
-                var commonName = countryInfo1.CommonName.Replace("-", " ");
+                var commonName = countryInfoItem.CommonName.Replace("-", " ");
                 if (commonName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
                 {
-                    countryInfo = countryInfo1;
+                    countryInfo = countryInfoItem;
                     return true;
                 }
 
-                var officialName = countryInfo1.OfficialName.Replace("-", " ");
+                var officialName = countryInfoItem.OfficialName.Replace("-", " ");
                 if (officialName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
                 {
-                    countryInfo = countryInfo1;
+                    countryInfo = countryInfoItem;
                     return true;
                 }
 
-                var nativeName = countryInfo1.NativeName.Replace("-", " ");
+                var nativeName = countryInfoItem.NativeName.Replace("-", " ");
                 if (nativeName.Equals(searchValue, StringComparison.OrdinalIgnoreCase))
                 {
-                    countryInfo = countryInfo1;
+                    countryInfo = countryInfoItem;
+                    return true;
+                }
+            }
+
+            countryInfo = null;
+            return false;
+        }
+
+        /// <inheritdoc/>
+        public bool TryGetCountryBySlug(
+                    string slug,
+                    [NotNullWhen(true)] out ICountryInfo? countryInfo)
+        {
+            foreach (var countryInfoItem in this._alpha2Code2CountryInfo.Values)
+            {
+                if (slug.Equals(countryInfoItem.Slug, StringComparison.OrdinalIgnoreCase))
+                {
+                    countryInfo = countryInfoItem;
                     return true;
                 }
             }

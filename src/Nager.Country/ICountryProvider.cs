@@ -102,6 +102,18 @@ namespace Nager.Country
         /// </returns>
         bool TryGetCountryByName(string countryName, [NotNullWhen(true)] out ICountryInfo? countryInfo);
 
+        /// <summary>
+        /// Attempts to retrieve country information by its slug identifier.
+        /// </summary>
+        /// <param name="slug">The normalized slug of the country (e.g. "austria", "united-states").</param>
+        /// <param name="countryInfo">
+        /// When this method returns, contains the <see cref="ICountryInfo"/>
+        /// associated with the specified slug if found; otherwise, <c>null</c>.
+        /// </param>
+        /// <returns>
+        /// <c>true</c> if a country with the specified slug was found; otherwise, <c>false</c>.
+        /// </returns>
+        bool TryGetCountryBySlug(string slug, [NotNullWhen(true)] out ICountryInfo? countryInfo);
 #endif
     }
 }
