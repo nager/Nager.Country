@@ -42,6 +42,7 @@ namespace Nager.Country.CountryInfos
         [
             Alpha2Code.IL,
             Alpha2Code.LY,
+            Alpha2Code.PS,
             Alpha2Code.SD,
         ];
 

@@ -75,7 +75,7 @@ namespace Nager.Country
         /// <summary>
         /// Southern Africa
         /// </summary>
-        [Description("SouthernAfrica")]
+        [Description("Southern Africa")]
         SouthernAfrica,
 
         /// <summary>

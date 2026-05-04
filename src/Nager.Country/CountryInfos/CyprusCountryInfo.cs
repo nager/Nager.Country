@@ -38,10 +38,7 @@ namespace Nager.Country.CountryInfos
         public SubRegion SubRegion => SubRegion.EasternEurope;
 
         /// <inheritdoc/>
-        public Alpha2Code[] BorderCountries =>
-        [
-            Alpha2Code.GB,
-        ];
+        public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => [new EurCurrency()];

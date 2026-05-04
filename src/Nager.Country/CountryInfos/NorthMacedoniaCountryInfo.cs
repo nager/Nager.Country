@@ -44,6 +44,7 @@ namespace Nager.Country.CountryInfos
             Alpha2Code.BG,
             Alpha2Code.GR,
             Alpha2Code.RS,
+            Alpha2Code.XK,
         ];
 
         /// <inheritdoc/>
