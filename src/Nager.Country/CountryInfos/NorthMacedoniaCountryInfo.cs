@@ -48,7 +48,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new MkdCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Mkd];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["389"];

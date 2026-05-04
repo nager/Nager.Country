@@ -45,7 +45,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new YerCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Yer];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["967"];

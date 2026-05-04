@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -54,7 +54,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new UahCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Uah];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["380"];

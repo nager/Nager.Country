@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -47,7 +47,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new EgpCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Egp];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["20"];

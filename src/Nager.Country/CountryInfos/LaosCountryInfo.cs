@@ -48,7 +48,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new LakCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Lak];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["856"];

@@ -50,7 +50,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new SdgCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Sdg];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["249"];

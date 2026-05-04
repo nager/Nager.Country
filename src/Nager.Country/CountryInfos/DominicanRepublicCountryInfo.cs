@@ -44,7 +44,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new DopCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Dop];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["1809", "1829", "1849"];

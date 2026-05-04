@@ -49,7 +49,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new MznCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Mzn];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["258"];

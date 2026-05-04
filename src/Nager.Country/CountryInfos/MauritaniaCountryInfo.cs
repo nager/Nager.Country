@@ -47,7 +47,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new MroCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Mro];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["222"];

@@ -1,4 +1,4 @@
-using Nager.Country.Currencies;
+﻿using Nager.Country.Currencies;
 
 namespace Nager.Country.CountryInfos
 {
@@ -42,8 +42,8 @@ namespace Nager.Country.CountryInfos
 
         /// <inheritdoc/>
         public ICurrency[] Currencies => [
-            new CucCurrency(),
-            new CupCurrency(),
+            CurrencyProvider.Cuc,
+            CurrencyProvider.Cup,
         ];
 
         /// <inheritdoc/>

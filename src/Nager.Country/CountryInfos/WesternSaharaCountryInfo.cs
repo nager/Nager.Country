@@ -48,9 +48,9 @@ namespace Nager.Country.CountryInfos
         /// <inheritdoc/>
         public ICurrency[] Currencies => 
         [
-            new MadCurrency(),
-            new DzdCurrency(),
-            new MroCurrency(),
+            CurrencyProvider.Mad,
+            CurrencyProvider.Dzd,
+            CurrencyProvider.Mro,
         ];
 
         /// <inheritdoc/>

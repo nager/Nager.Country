@@ -49,7 +49,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new AfnCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Afn];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["93"];

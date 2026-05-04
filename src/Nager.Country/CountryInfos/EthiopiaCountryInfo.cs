@@ -49,7 +49,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new EtbCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Etb];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["251"];

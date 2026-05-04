@@ -41,7 +41,7 @@ namespace Nager.Country.CountryInfos
         public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new BhdCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Bhd];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["973"];

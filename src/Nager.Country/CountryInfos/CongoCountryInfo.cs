@@ -52,7 +52,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new CdfCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Cdf];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["243"];

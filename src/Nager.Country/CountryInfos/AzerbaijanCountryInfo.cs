@@ -48,7 +48,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new AznCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Azn];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["994"];

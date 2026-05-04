@@ -46,7 +46,7 @@ namespace Nager.Country.CountryInfos
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [new KpwCurrency()];
+        public ICurrency[] Currencies => [CurrencyProvider.Kpw];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["850"];
