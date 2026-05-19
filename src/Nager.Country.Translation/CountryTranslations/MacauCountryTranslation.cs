@@ -41,7 +41,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Макао САР"),
             new TranslationInfo(LanguageCode.MN, "Макао"),
             new TranslationInfo(LanguageCode.NB, "Macao"),
-            new TranslationInfo(LanguageCode.NL, "Macao"),
+            new TranslationInfo(LanguageCode.NL, "Macau"),
             new TranslationInfo(LanguageCode.NN, "Macao"),
             new TranslationInfo(LanguageCode.PL, "Makau"),
             new TranslationInfo(LanguageCode.PT, "Macau, RAE da China"),
