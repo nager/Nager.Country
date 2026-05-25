@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Montserrat"),
             new TranslationInfo(LanguageCode.FR, "Montserrat"),
             new TranslationInfo(LanguageCode.HE, "מונסראט"),
+            new TranslationInfo(LanguageCode.HI, "मोंटसेरात"),
             new TranslationInfo(LanguageCode.HR, "Montserrat"),
             new TranslationInfo(LanguageCode.HU, "Montserrat"),
             new TranslationInfo(LanguageCode.HY, "Մոնսեռատ"),

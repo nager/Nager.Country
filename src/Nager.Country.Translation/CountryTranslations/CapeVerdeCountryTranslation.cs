@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Kap Verde"),
             new TranslationInfo(LanguageCode.FR, "Cap-Vert"),
             new TranslationInfo(LanguageCode.HE, "כף ורדה"),
+            new TranslationInfo(LanguageCode.HI, "केप वर्डे"),
             new TranslationInfo(LanguageCode.HR, "Zelenortska Republika"),
             new TranslationInfo(LanguageCode.HU, "Zöld-foki Köztársaság"),
             new TranslationInfo(LanguageCode.HY, "Կաբո Վերդե"),

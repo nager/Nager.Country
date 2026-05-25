@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Eswatini"),
             new TranslationInfo(LanguageCode.FR, "Eswatini"),
             new TranslationInfo(LanguageCode.HE, "אסוואטיני"),
+            new TranslationInfo(LanguageCode.HI, "एस्वातिनी"),
             new TranslationInfo(LanguageCode.HR, "Esvatini"),
             new TranslationInfo(LanguageCode.HU, "Eswatini"),
             new TranslationInfo(LanguageCode.HY, "Էսվատինի"),

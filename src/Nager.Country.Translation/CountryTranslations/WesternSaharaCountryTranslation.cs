@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Länsi-Sahara"),
             new TranslationInfo(LanguageCode.FR, "Sahara occidental"),
             new TranslationInfo(LanguageCode.HE, "סהרה המערבית"),
+            new TranslationInfo(LanguageCode.HI, "पश्चिमी सहारा"),
             new TranslationInfo(LanguageCode.HR, "Zapadna Sahara"),
             new TranslationInfo(LanguageCode.HU, "Nyugat-Szahara"),
             new TranslationInfo(LanguageCode.HY, "Արևմտյան Սահարա"),

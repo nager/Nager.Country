@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Oman"),
             new TranslationInfo(LanguageCode.FR, "Oman"),
             new TranslationInfo(LanguageCode.HE, "עומאן"),
+            new TranslationInfo(LanguageCode.HI, "ओमान"),
             new TranslationInfo(LanguageCode.HR, "Oman"),
             new TranslationInfo(LanguageCode.HU, "Omán"),
             new TranslationInfo(LanguageCode.HY, "Օման"),

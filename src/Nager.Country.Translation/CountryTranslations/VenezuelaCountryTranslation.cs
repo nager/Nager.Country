@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Venezuela"),
             new TranslationInfo(LanguageCode.FR, "Venezuela"),
             new TranslationInfo(LanguageCode.HE, "ונצואלה"),
+            new TranslationInfo(LanguageCode.HI, "वेनेज़ुएला"),
             new TranslationInfo(LanguageCode.HR, "Venezuela"),
             new TranslationInfo(LanguageCode.HU, "Venezuela"),
             new TranslationInfo(LanguageCode.HY, "Վենեսուելա"),

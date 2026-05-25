@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Kuwait"),
             new TranslationInfo(LanguageCode.FR, "Koweit"),
             new TranslationInfo(LanguageCode.HE, "כווית"),
+            new TranslationInfo(LanguageCode.HI, "कुवैत"),
             new TranslationInfo(LanguageCode.HR, "Kuvajt"),
             new TranslationInfo(LanguageCode.HU, "Kuvait"),
             new TranslationInfo(LanguageCode.HY, "Քուվեյթ"),

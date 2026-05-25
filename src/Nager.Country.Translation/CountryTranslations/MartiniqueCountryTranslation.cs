@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Martinique"),
             new TranslationInfo(LanguageCode.FR, "Martinique"),
             new TranslationInfo(LanguageCode.HE, "מרטיניק"),
+            new TranslationInfo(LanguageCode.HI, "मार्टिनिक"),
             new TranslationInfo(LanguageCode.HR, "Martinique"),
             new TranslationInfo(LanguageCode.HU, "Martinique"),
             new TranslationInfo(LanguageCode.HY, "Մարտինիկա"),

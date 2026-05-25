@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Ahvenanmaa"),
             new TranslationInfo(LanguageCode.FR, "Åland"),
             new TranslationInfo(LanguageCode.HE, "איי אולנד"),
+            new TranslationInfo(LanguageCode.HI, "ऑलैंड द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Ålandski otoci"),
             new TranslationInfo(LanguageCode.HU, "Åland"),
             new TranslationInfo(LanguageCode.HY, "Ալանդյան կղզիներ"),

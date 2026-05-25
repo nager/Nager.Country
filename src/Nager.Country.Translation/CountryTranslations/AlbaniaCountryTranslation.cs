@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Albania"),
             new TranslationInfo(LanguageCode.FR, "Albanie"),
             new TranslationInfo(LanguageCode.HE, "אלבניה"),
+            new TranslationInfo(LanguageCode.HI, "अल्बानिया"),
             new TranslationInfo(LanguageCode.HR, "Albanija"),
             new TranslationInfo(LanguageCode.HU, "Albánia"),
             new TranslationInfo(LanguageCode.HY, "Ալբանիա"),

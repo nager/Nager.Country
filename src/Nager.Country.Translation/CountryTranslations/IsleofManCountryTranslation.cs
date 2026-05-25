@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Mansaari"),
             new TranslationInfo(LanguageCode.FR, "Île de Man"),
             new TranslationInfo(LanguageCode.HE, "האי מאן"),
+            new TranslationInfo(LanguageCode.HI, "आइल ऑफ मैन"),
             new TranslationInfo(LanguageCode.HR, "Otok Man"),
             new TranslationInfo(LanguageCode.HU, "Man-sziget"),
             new TranslationInfo(LanguageCode.HY, "Մեն կղզի"),

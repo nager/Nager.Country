@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Bouvet’nsaari"),
             new TranslationInfo(LanguageCode.FR, "Île Bouvet"),
             new TranslationInfo(LanguageCode.HE, "איי בובה"),
+            new TranslationInfo(LanguageCode.HI, "बुवे द्वीप"),
             new TranslationInfo(LanguageCode.HR, "Otok Bouvet"),
             new TranslationInfo(LanguageCode.HU, "Bouvet-sziget"),
             new TranslationInfo(LanguageCode.HY, "Բուվե կղզի"),

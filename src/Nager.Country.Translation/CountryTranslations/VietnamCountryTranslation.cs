@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Vietnam"),
             new TranslationInfo(LanguageCode.FR, "Vietnam"),
             new TranslationInfo(LanguageCode.HE, "וייטנאם"),
+            new TranslationInfo(LanguageCode.HI, "वियतनाम"),
             new TranslationInfo(LanguageCode.HR, "Vijetnam"),
             new TranslationInfo(LanguageCode.HU, "Vietnam"),
             new TranslationInfo(LanguageCode.HY, "Վիետնամ"),

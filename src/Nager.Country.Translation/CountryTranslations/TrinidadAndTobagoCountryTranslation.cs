@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Trinidad ja Tobago"),
             new TranslationInfo(LanguageCode.FR, "Trinidad et Tobago"),
             new TranslationInfo(LanguageCode.HE, "טרינידד וטובגו"),
+            new TranslationInfo(LanguageCode.HI, "त्रिनिदाद और टोबैगो"),
             new TranslationInfo(LanguageCode.HR, "Trinidad i Tobago"),
             new TranslationInfo(LanguageCode.HU, "Trinidad és Tobago"),
             new TranslationInfo(LanguageCode.HY, "Տրինիդադ և Տոբագո"),

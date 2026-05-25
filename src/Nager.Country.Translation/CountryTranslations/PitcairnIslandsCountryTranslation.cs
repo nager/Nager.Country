@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Pitcairn"),
             new TranslationInfo(LanguageCode.FR, "Pitcairn"),
             new TranslationInfo(LanguageCode.HE, "איי פיטקרן"),
+            new TranslationInfo(LanguageCode.HI, "पिटकेर्न द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Otoci Pitcairn"),
             new TranslationInfo(LanguageCode.HU, "Pitcairn-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Պիտկեռն կղզիներ"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Kreikka"),
             new TranslationInfo(LanguageCode.FR, "Grèce"),
             new TranslationInfo(LanguageCode.HE, "יוון"),
+            new TranslationInfo(LanguageCode.HI, "यूनान"),
             new TranslationInfo(LanguageCode.HR, "Grčka"),
             new TranslationInfo(LanguageCode.HU, "Görögország"),
             new TranslationInfo(LanguageCode.HY, "Հունաստան"),

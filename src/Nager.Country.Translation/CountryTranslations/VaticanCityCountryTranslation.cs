@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Vatikaanivaltio"),
             new TranslationInfo(LanguageCode.FR, "Saint-Siège"),
             new TranslationInfo(LanguageCode.HE, "הוותיקן"),
+            new TranslationInfo(LanguageCode.HI, "वेटिकन सिटी"),
             new TranslationInfo(LanguageCode.HR, "Vatikanski Grad"),
             new TranslationInfo(LanguageCode.HU, "Vatikán"),
             new TranslationInfo(LanguageCode.HY, "Վատիկան"),

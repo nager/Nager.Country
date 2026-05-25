@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Anguilla"),
             new TranslationInfo(LanguageCode.FR, "Anguilla"),
             new TranslationInfo(LanguageCode.HE, "אנגילה"),
+            new TranslationInfo(LanguageCode.HI, "एंगुइला"),
             new TranslationInfo(LanguageCode.HR, "Angvila"),
             new TranslationInfo(LanguageCode.HU, "Anguilla"),
             new TranslationInfo(LanguageCode.HY, "Անգուիլա"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Brittiläinen Intian valtameren alue"),
             new TranslationInfo(LanguageCode.FR, "Océan Indien Britannique"),
             new TranslationInfo(LanguageCode.HE, "הטריטוריה הבריטית באוקיינוס ההודי"),
+            new TranslationInfo(LanguageCode.HI, "ब्रिटिश हिंद महासागर क्षेत्र"),
             new TranslationInfo(LanguageCode.HR, "Britanski Indijskooceanski teritorij"),
             new TranslationInfo(LanguageCode.HU, "Brit Indiai-óceáni Terület"),
             new TranslationInfo(LanguageCode.HY, "Բրիտանական Տարածք Հնդկական Օվկիանոսում"),

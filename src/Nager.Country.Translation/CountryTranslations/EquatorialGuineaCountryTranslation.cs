@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Päiväntasaajan Guinea"),
             new TranslationInfo(LanguageCode.FR, "Guinée équatoriale"),
             new TranslationInfo(LanguageCode.HE, "גינאה המשוונית"),
+            new TranslationInfo(LanguageCode.HI, "भूमध्यरेखीय गिनी"),
             new TranslationInfo(LanguageCode.HR, "Ekvatorska Gvineja"),
             new TranslationInfo(LanguageCode.HU, "Egyenlítői-Guinea"),
             new TranslationInfo(LanguageCode.HY, "Հասարակածային Գվինեա"),

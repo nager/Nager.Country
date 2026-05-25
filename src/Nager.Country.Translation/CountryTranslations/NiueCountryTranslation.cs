@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Niue"),
             new TranslationInfo(LanguageCode.FR, "Niué"),
             new TranslationInfo(LanguageCode.HE, "ניווה"),
+            new TranslationInfo(LanguageCode.HI, "नीयू"),
             new TranslationInfo(LanguageCode.HR, "Niue"),
             new TranslationInfo(LanguageCode.HU, "Niue"),
             new TranslationInfo(LanguageCode.HY, "Նիուե"),

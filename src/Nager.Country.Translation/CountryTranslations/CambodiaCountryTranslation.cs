@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Kambodža"),
             new TranslationInfo(LanguageCode.FR, "Cambodge"),
             new TranslationInfo(LanguageCode.HE, "קמבודיה"),
+            new TranslationInfo(LanguageCode.HI, "कंबोडिया"),
             new TranslationInfo(LanguageCode.HR, "Kambodža"),
             new TranslationInfo(LanguageCode.HU, "Kambodzsa"),
             new TranslationInfo(LanguageCode.HY, "Կամբոջա"),

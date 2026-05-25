@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Vanuatu"),
             new TranslationInfo(LanguageCode.FR, "Vanuatu"),
             new TranslationInfo(LanguageCode.HE, "ונואטו"),
+            new TranslationInfo(LanguageCode.HI, "वानुअतु"),
             new TranslationInfo(LanguageCode.HR, "Vanuatu"),
             new TranslationInfo(LanguageCode.HU, "Vanuatu"),
             new TranslationInfo(LanguageCode.HY, "Վանուատու"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Puola"),
             new TranslationInfo(LanguageCode.FR, "Pologne"),
             new TranslationInfo(LanguageCode.HE, "פולין"),
+            new TranslationInfo(LanguageCode.HI, "पोलैंड"),
             new TranslationInfo(LanguageCode.HR, "Poljska"),
             new TranslationInfo(LanguageCode.HU, "Lengyelország"),
             new TranslationInfo(LanguageCode.HY, "Լեհաստան"),

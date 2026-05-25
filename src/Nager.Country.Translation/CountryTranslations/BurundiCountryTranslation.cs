@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Burundi"),
             new TranslationInfo(LanguageCode.FR, "Burundi"),
             new TranslationInfo(LanguageCode.HE, "בורונדי"),
+            new TranslationInfo(LanguageCode.HI, "बुरुंडी"),
             new TranslationInfo(LanguageCode.HR, "Burundi"),
             new TranslationInfo(LanguageCode.HU, "Burundi"),
             new TranslationInfo(LanguageCode.HY, "Բուրունդի"),

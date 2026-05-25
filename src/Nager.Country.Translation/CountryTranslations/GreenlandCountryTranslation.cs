@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Grönlanti"),
             new TranslationInfo(LanguageCode.FR, "Groenland"),
             new TranslationInfo(LanguageCode.HE, "גרינלנד"),
+            new TranslationInfo(LanguageCode.HI, "ग्रीनलैंड"),
             new TranslationInfo(LanguageCode.HR, "Grenland"),
             new TranslationInfo(LanguageCode.HU, "Grönland"),
             new TranslationInfo(LanguageCode.HY, "Գրենլանդիա"),

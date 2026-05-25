@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Norfolkinsaari"),
             new TranslationInfo(LanguageCode.FR, "Île Norfolk"),
             new TranslationInfo(LanguageCode.HE, "איי נורפוק"),
+            new TranslationInfo(LanguageCode.HI, "नॉरफ़ॉक द्वीप"),
             new TranslationInfo(LanguageCode.HR, "Otok Norfolk"),
             new TranslationInfo(LanguageCode.HU, "Norfolk-sziget"),
             new TranslationInfo(LanguageCode.HY, "Նորֆոլկ կղզի"),

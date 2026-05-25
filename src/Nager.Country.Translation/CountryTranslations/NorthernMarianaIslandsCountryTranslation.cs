@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Pohjois-Mariaanit"),
             new TranslationInfo(LanguageCode.FR, "Mariannes du Nord"),
             new TranslationInfo(LanguageCode.HE, "איי מריאנה הצפוניים"),
+            new TranslationInfo(LanguageCode.HI, "उत्तरी मरियाना द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Sjevernomarijanski otoci"),
             new TranslationInfo(LanguageCode.HU, "Északi-Mariana-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Հյուսիսային Մարիանյան կղզիներ"),

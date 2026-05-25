@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Gibraltar"),
             new TranslationInfo(LanguageCode.FR, "Gibraltar"),
             new TranslationInfo(LanguageCode.HE, "גיברלטר"),
+            new TranslationInfo(LanguageCode.HI, "जिब्राल्टर"),
             new TranslationInfo(LanguageCode.HR, "Gibraltar"),
             new TranslationInfo(LanguageCode.HU, "Gibraltár"),
             new TranslationInfo(LanguageCode.HY, "Ջիբրալթար"),

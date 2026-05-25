@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Yhdysvaltain pienet erillissaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles mineures éloignées des États-Unis"),
             new TranslationInfo(LanguageCode.HE, "האיים המרוחקים הקטנים של ארה״ב"),
+            new TranslationInfo(LanguageCode.HI, "संयुक्त राज्य के छोटे बाहरी द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Mali udaljeni otoci SAD-a"),
             new TranslationInfo(LanguageCode.HU, "Az Amerikai Egyesült Államok lakatlan külbirtokai"),
             new TranslationInfo(LanguageCode.HY, "Արտաքին կղզիներ (ԱՄՆ)"),

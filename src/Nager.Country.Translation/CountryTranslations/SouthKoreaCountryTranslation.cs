@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Korean tasavalta"),
             new TranslationInfo(LanguageCode.FR, "Corée du Sud, République"),
             new TranslationInfo(LanguageCode.HE, "קוריאה הדרומית"),
+            new TranslationInfo(LanguageCode.HI, "दक्षिण कोरिया"),
             new TranslationInfo(LanguageCode.HR, "Južna Koreja"),
             new TranslationInfo(LanguageCode.HU, "Dél-Korea"),
             new TranslationInfo(LanguageCode.HY, "Հարավային Կորեա"),

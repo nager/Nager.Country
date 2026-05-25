@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Jordania"),
             new TranslationInfo(LanguageCode.FR, "Jordanie"),
             new TranslationInfo(LanguageCode.HE, "ירדן"),
+            new TranslationInfo(LanguageCode.HI, "जॉर्डन"),
             new TranslationInfo(LanguageCode.HR, "Jordan"),
             new TranslationInfo(LanguageCode.HU, "Jordánia"),
             new TranslationInfo(LanguageCode.HY, "Հորդանան"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Färsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Féroé"),
             new TranslationInfo(LanguageCode.HE, "איי פארו"),
+            new TranslationInfo(LanguageCode.HI, "फ़ैरो द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Farski otoci"),
             new TranslationInfo(LanguageCode.HU, "Feröer"),
             new TranslationInfo(LanguageCode.HY, "Ֆարերյան կղզիներ"),

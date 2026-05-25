@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Costa Rica"),
             new TranslationInfo(LanguageCode.FR, "Costa Rica"),
             new TranslationInfo(LanguageCode.HE, "קוסטה ריקה"),
+            new TranslationInfo(LanguageCode.HI, "कोस्टा रिका"),
             new TranslationInfo(LanguageCode.HR, "Kostarika"),
             new TranslationInfo(LanguageCode.HU, "Costa Rica"),
             new TranslationInfo(LanguageCode.HY, "Կոստա Ռիկա"),

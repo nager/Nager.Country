@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Myanmar"),
             new TranslationInfo(LanguageCode.FR, "Myanmar"),
             new TranslationInfo(LanguageCode.HE, "מיאנמר (בורמה)"),
+            new TranslationInfo(LanguageCode.HI, "म्यांमार"),
             new TranslationInfo(LanguageCode.HR, "Mjanmar (Burma)"),
             new TranslationInfo(LanguageCode.HU, "Mianmar"),
             new TranslationInfo(LanguageCode.HY, "Մյանմա (Բիրմա)"),

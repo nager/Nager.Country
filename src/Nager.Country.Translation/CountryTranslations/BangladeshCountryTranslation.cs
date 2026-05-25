@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Bangladesh"),
             new TranslationInfo(LanguageCode.FR, "Bangladesh"),
             new TranslationInfo(LanguageCode.HE, "בנגלדש"),
+            new TranslationInfo(LanguageCode.HI, "बांग्लादेश"),
             new TranslationInfo(LanguageCode.HR, "Bangladeš"),
             new TranslationInfo(LanguageCode.HU, "Banglades"),
             new TranslationInfo(LanguageCode.HY, "Բանգլադեշ"),

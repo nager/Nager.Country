@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Brunei"),
             new TranslationInfo(LanguageCode.FR, "Brunei Darussalam"),
             new TranslationInfo(LanguageCode.HE, "ברוניי"),
+            new TranslationInfo(LanguageCode.HI, "ब्रुनेई"),
             new TranslationInfo(LanguageCode.HR, "Brunej"),
             new TranslationInfo(LanguageCode.HU, "Brunei"),
             new TranslationInfo(LanguageCode.HY, "Բրունեյ"),

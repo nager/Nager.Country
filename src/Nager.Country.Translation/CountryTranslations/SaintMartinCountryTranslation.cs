@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Saint-Martin"),
             new TranslationInfo(LanguageCode.FR, "Saint-Martin (partie française)"),
             new TranslationInfo(LanguageCode.HE, "סן מרטן"),
+            new TranslationInfo(LanguageCode.HI, "सेंट मार्टिन"),
             new TranslationInfo(LanguageCode.HR, "Saint Martin"),
             new TranslationInfo(LanguageCode.HU, "Szent Márton-sziget (francia rész)"),
             new TranslationInfo(LanguageCode.HY, "Սեն Մարտեն"),

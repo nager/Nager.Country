@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Guinea"),
             new TranslationInfo(LanguageCode.FR, "Guinée"),
             new TranslationInfo(LanguageCode.HE, "גינאה"),
+            new TranslationInfo(LanguageCode.HI, "गिनी"),
             new TranslationInfo(LanguageCode.HR, "Gvineja"),
             new TranslationInfo(LanguageCode.HU, "Guinea"),
             new TranslationInfo(LanguageCode.HY, "Գվինեա"),

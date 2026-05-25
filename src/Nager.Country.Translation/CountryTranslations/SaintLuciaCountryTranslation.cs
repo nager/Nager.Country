@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Saint Lucia"),
             new TranslationInfo(LanguageCode.FR, "Sainte-Lucie"),
             new TranslationInfo(LanguageCode.HE, "סנט לוסיה"),
+            new TranslationInfo(LanguageCode.HI, "सेंट लूसिया"),
             new TranslationInfo(LanguageCode.HR, "Sveta Lucija"),
             new TranslationInfo(LanguageCode.HU, "Saint Lucia"),
             new TranslationInfo(LanguageCode.HY, "Սենթ Լյուսիա"),

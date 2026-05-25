@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Norsunluurannikko"),
             new TranslationInfo(LanguageCode.FR, "Côte-d'Ivoire"),
             new TranslationInfo(LanguageCode.HE, "חוף השנהב"),
+            new TranslationInfo(LanguageCode.HI, "आइवरी कोस्ट"),
             new TranslationInfo(LanguageCode.HR, "Obala Bjelokosti"),
             new TranslationInfo(LanguageCode.HU, "Elefántcsontpart"),
             new TranslationInfo(LanguageCode.HY, "Կոտ դ’Իվուար"),

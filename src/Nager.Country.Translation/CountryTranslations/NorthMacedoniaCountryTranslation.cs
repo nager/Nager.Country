@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Pohjois-Makedonia"),
             new TranslationInfo(LanguageCode.FR, "Macédoine du Nord"),
             new TranslationInfo(LanguageCode.HE, "צפון מקדוניה"),
+            new TranslationInfo(LanguageCode.HI, "उत्तर मैसेडोनिया"),
             new TranslationInfo(LanguageCode.HR, "Sjeverna Makedonija"),
             new TranslationInfo(LanguageCode.HU, "Észak-Macedónia"),
             new TranslationInfo(LanguageCode.HY, "Հյուսիսային Մակեդոնիա"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Tšad"),
             new TranslationInfo(LanguageCode.FR, "Tchad"),
             new TranslationInfo(LanguageCode.HE, "צ׳אד"),
+            new TranslationInfo(LanguageCode.HI, "चाड"),
             new TranslationInfo(LanguageCode.HR, "Čad"),
             new TranslationInfo(LanguageCode.HU, "Csád"),
             new TranslationInfo(LanguageCode.HY, "Չադ"),

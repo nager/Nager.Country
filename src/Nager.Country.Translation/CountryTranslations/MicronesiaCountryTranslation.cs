@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Mikronesian liittovaltio"),
             new TranslationInfo(LanguageCode.FR, "Micronésie"),
             new TranslationInfo(LanguageCode.HE, "מיקרונזיה"),
+            new TranslationInfo(LanguageCode.HI, "माइक्रोनेशिया"),
             new TranslationInfo(LanguageCode.HR, "Mikronezija"),
             new TranslationInfo(LanguageCode.HU, "Mikronéziai Szövetségi Államok"),
             new TranslationInfo(LanguageCode.HY, "Միկրոնեզիա"),

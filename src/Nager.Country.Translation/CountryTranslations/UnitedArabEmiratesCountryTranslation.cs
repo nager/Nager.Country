@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Arabiemiirikunnat"),
             new TranslationInfo(LanguageCode.FR, "Émirats Arabes Unis"),
             new TranslationInfo(LanguageCode.HE, "איחוד האמירויות הערביות"),
+            new TranslationInfo(LanguageCode.HI, "संयुक्त अरब अमीरात"),
             new TranslationInfo(LanguageCode.HR, "Ujedinjeni Arapski Emirati"),
             new TranslationInfo(LanguageCode.HU, "Egyesült Arab Emírségek"),
             new TranslationInfo(LanguageCode.HY, "Արաբական Միացյալ Էմիրություններ"),

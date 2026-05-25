@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Uusi-Seelanti"),
             new TranslationInfo(LanguageCode.FR, "Nouvelle-Zélande"),
             new TranslationInfo(LanguageCode.HE, "ניו זילנד"),
+            new TranslationInfo(LanguageCode.HI, "न्यूज़ीलैंड"),
             new TranslationInfo(LanguageCode.HR, "Novi Zeland"),
             new TranslationInfo(LanguageCode.HU, "Új-Zéland"),
             new TranslationInfo(LanguageCode.HY, "Նոր Զելանդիա"),

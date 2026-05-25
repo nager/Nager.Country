@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Hongkong"),
             new TranslationInfo(LanguageCode.FR, "Hong Kong"),
             new TranslationInfo(LanguageCode.HE, "הונג קונג (מחוז מנהלי מיוחד של סין)"),
+            new TranslationInfo(LanguageCode.HI, "हांगकांग"),
             new TranslationInfo(LanguageCode.HR, "PUP Hong Kong Kina"),
             new TranslationInfo(LanguageCode.HU, "Hong Kong"),
             new TranslationInfo(LanguageCode.HY, "Հոնկոնգի ՀՎՇ"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Antigua ja Barbuda"),
             new TranslationInfo(LanguageCode.FR, "Antigua et Barbuda"),
             new TranslationInfo(LanguageCode.HE, "אנטיגואה וברבודה"),
+            new TranslationInfo(LanguageCode.HI, "एंटीगुआ और बारबूडा"),
             new TranslationInfo(LanguageCode.HR, "Antigva i Barbuda"),
             new TranslationInfo(LanguageCode.HU, "Antigua és Barbuda"),
             new TranslationInfo(LanguageCode.HY, "Անտիգուա և Բարբուդա"),

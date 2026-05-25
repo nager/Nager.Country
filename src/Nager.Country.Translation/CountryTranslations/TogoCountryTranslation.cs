@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Togo"),
             new TranslationInfo(LanguageCode.FR, "Togo"),
             new TranslationInfo(LanguageCode.HE, "טוגו"),
+            new TranslationInfo(LanguageCode.HI, "टोगो"),
             new TranslationInfo(LanguageCode.HR, "Togo"),
             new TranslationInfo(LanguageCode.HU, "Togo"),
             new TranslationInfo(LanguageCode.HY, "Տոգո"),

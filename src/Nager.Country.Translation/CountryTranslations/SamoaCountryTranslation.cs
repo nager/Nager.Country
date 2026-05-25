@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Samoa"),
             new TranslationInfo(LanguageCode.FR, "Samoa"),
             new TranslationInfo(LanguageCode.HE, "סמואה"),
+            new TranslationInfo(LanguageCode.HI, "समोआ"),
             new TranslationInfo(LanguageCode.HR, "Samoa"),
             new TranslationInfo(LanguageCode.HU, "Szamoa"),
             new TranslationInfo(LanguageCode.HY, "Սամոա"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Wallis ja Futunasaaret"),
             new TranslationInfo(LanguageCode.FR, "Wallis et Futuna"),
             new TranslationInfo(LanguageCode.HE, "איי ווליס ופוטונה"),
+            new TranslationInfo(LanguageCode.HI, "वालिस और फुतुना"),
             new TranslationInfo(LanguageCode.HR, "Wallis i Futuna"),
             new TranslationInfo(LanguageCode.HU, "Wallis és Futuna"),
             new TranslationInfo(LanguageCode.HY, "Ուոլիս և Ֆուտունա"),

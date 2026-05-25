@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Tanska"),
             new TranslationInfo(LanguageCode.FR, "Danemark"),
             new TranslationInfo(LanguageCode.HE, "דנמרק"),
+            new TranslationInfo(LanguageCode.HI, "डेनमार्क"),
             new TranslationInfo(LanguageCode.HR, "Danska"),
             new TranslationInfo(LanguageCode.HU, "Dánia"),
             new TranslationInfo(LanguageCode.HY, "Դանիա"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Islanti"),
             new TranslationInfo(LanguageCode.FR, "Islande"),
             new TranslationInfo(LanguageCode.HE, "איסלנד"),
+            new TranslationInfo(LanguageCode.HI, "आइसलैंड"),
             new TranslationInfo(LanguageCode.HR, "Island"),
             new TranslationInfo(LanguageCode.HU, "Izland"),
             new TranslationInfo(LanguageCode.HY, "Իսլանդիա"),

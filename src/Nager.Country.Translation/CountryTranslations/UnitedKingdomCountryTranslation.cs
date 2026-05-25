@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Yhdistynyt kuningaskunta"),
             new TranslationInfo(LanguageCode.FR, "Royaume-Uni"),
             new TranslationInfo(LanguageCode.HE, "הממלכה המאוחדת"),
+            new TranslationInfo(LanguageCode.HI, "यूनाइटेड किंगडम"),
             new TranslationInfo(LanguageCode.HR, "Ujedinjeno Kraljevstvo"),
             new TranslationInfo(LanguageCode.HU, "Egyesült Királyság"),
             new TranslationInfo(LanguageCode.HY, "Միացյալ Թագավորություն"),

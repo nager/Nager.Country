@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Peru"),
             new TranslationInfo(LanguageCode.FR, "Pérou"),
             new TranslationInfo(LanguageCode.HE, "פרו"),
+            new TranslationInfo(LanguageCode.HI, "पेरू"),
             new TranslationInfo(LanguageCode.HR, "Peru"),
             new TranslationInfo(LanguageCode.HU, "Peru"),
             new TranslationInfo(LanguageCode.HY, "Պերու"),

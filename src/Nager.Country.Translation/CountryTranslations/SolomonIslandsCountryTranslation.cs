@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Salomonsaaret"),
             new TranslationInfo(LanguageCode.FR, "Salomon"),
             new TranslationInfo(LanguageCode.HE, "איי שלמה"),
+            new TranslationInfo(LanguageCode.HI, "सोलोमन द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Salomonski Otoci"),
             new TranslationInfo(LanguageCode.HU, "Salamon-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Սողոմոնյան կղզիներ"),

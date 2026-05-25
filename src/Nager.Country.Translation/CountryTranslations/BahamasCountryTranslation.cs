@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Bahama"),
             new TranslationInfo(LanguageCode.FR, "Bahamas"),
             new TranslationInfo(LanguageCode.HE, "איי בהאמה"),
+            new TranslationInfo(LanguageCode.HI, "बहामास"),
             new TranslationInfo(LanguageCode.HR, "Bahami"),
             new TranslationInfo(LanguageCode.HU, "Bahama-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Բահամաներ"),

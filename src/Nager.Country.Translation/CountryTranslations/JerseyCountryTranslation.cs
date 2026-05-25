@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Jersey"),
             new TranslationInfo(LanguageCode.FR, "Jersey"),
             new TranslationInfo(LanguageCode.HE, "ג׳רסי"),
+            new TranslationInfo(LanguageCode.HI, "जर्सी"),
             new TranslationInfo(LanguageCode.HR, "Jersey"),
             new TranslationInfo(LanguageCode.HU, "Jersey"),
             new TranslationInfo(LanguageCode.HY, "Ջերսի"),

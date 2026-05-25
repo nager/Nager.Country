@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Saksa"),
             new TranslationInfo(LanguageCode.FR, "Allemagne"),
             new TranslationInfo(LanguageCode.HE, "גרמניה"),
+            new TranslationInfo(LanguageCode.HI, "जर्मनी"),
             new TranslationInfo(LanguageCode.HR, "Njemačka"),
             new TranslationInfo(LanguageCode.HU, "Németország"),
             new TranslationInfo(LanguageCode.HY, "Գերմանիա"),

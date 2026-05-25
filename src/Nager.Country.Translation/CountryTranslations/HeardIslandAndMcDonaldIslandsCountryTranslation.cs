@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Heard ja McDonaldinsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Heard-et-MacDonald"),
             new TranslationInfo(LanguageCode.HE, "איי הרד ומקדונלד"),
+            new TranslationInfo(LanguageCode.HI, "हर्ड द्वीप और मैकडोनाल्ड द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Otoci Heard i McDonald"),
             new TranslationInfo(LanguageCode.HU, "Heard-sziget és McDonald-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Հերդ կղզի և ՄակԴոնալդի կղզիներ"),

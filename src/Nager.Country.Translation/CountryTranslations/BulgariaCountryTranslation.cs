@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Bulgaria"),
             new TranslationInfo(LanguageCode.FR, "Bulgarie"),
             new TranslationInfo(LanguageCode.HE, "בולגריה"),
+            new TranslationInfo(LanguageCode.HI, "बुल्गारिया"),
             new TranslationInfo(LanguageCode.HR, "Bugarska"),
             new TranslationInfo(LanguageCode.HU, "Bulgária"),
             new TranslationInfo(LanguageCode.HY, "Բուլղարիա"),

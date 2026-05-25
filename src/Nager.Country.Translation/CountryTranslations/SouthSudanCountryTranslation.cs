@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Etelä-Sudan"),
             new TranslationInfo(LanguageCode.FR, "Sud-Soudan"),
             new TranslationInfo(LanguageCode.HE, "דרום סודן"),
+            new TranslationInfo(LanguageCode.HI, "दक्षिण सूडान"),
             new TranslationInfo(LanguageCode.HR, "Južni Sudan"),
             new TranslationInfo(LanguageCode.HU, "Dél-Szudán"),
             new TranslationInfo(LanguageCode.HY, "Հարավային Սուդան"),

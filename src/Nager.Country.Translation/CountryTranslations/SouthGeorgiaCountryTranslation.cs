@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Etelä-Georgia ja Eteläiset Sandwichsaaret"),
             new TranslationInfo(LanguageCode.FR, "Géorgie du Sud-et-les Îles Sandwich du Sud"),
             new TranslationInfo(LanguageCode.HE, "ג׳ורג׳יה הדרומית ואיי סנדוויץ׳ הדרומיים"),
+            new TranslationInfo(LanguageCode.HI, "दक्षिण जॉर्जिया"),
             new TranslationInfo(LanguageCode.HR, "Južna Georgija i Južni Sendvički Otoci"),
             new TranslationInfo(LanguageCode.HU, "Déli-Georgia és Déli-Sandwich-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Հարավային Ջորջիա և Հարավային Սենդվիչյան կղզիներ"),

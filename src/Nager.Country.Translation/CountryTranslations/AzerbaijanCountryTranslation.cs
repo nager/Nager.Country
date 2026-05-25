@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Azerbaidžan"),
             new TranslationInfo(LanguageCode.FR, "Azerbaidjan"),
             new TranslationInfo(LanguageCode.HE, "אזרבייג׳ן"),
+            new TranslationInfo(LanguageCode.HI, "अज़रबैजान"),
             new TranslationInfo(LanguageCode.HR, "Azerbajdžan"),
             new TranslationInfo(LanguageCode.HU, "Azerbajdzsán"),
             new TranslationInfo(LanguageCode.HY, "Ադրբեջան"),

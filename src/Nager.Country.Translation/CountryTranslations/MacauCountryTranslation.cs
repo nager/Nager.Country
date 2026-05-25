@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Macao"),
             new TranslationInfo(LanguageCode.FR, "Macao"),
             new TranslationInfo(LanguageCode.HE, "מקאו (מחוז מנהלי מיוחד של סין)"),
+            new TranslationInfo(LanguageCode.HI, "मकाऊ"),
             new TranslationInfo(LanguageCode.HR, "PUP Makao Kina"),
             new TranslationInfo(LanguageCode.HU, "Makao"),
             new TranslationInfo(LanguageCode.HY, "Չինաստանի Մակաո ՀՎՇ"),

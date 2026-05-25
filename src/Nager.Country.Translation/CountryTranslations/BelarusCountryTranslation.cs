@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Valko-Venäjä"),
             new TranslationInfo(LanguageCode.FR, "Bielorussie"),
             new TranslationInfo(LanguageCode.HE, "בלארוס"),
+            new TranslationInfo(LanguageCode.HI, "बेलारूस"),
             new TranslationInfo(LanguageCode.HR, "Bjelorusija"),
             new TranslationInfo(LanguageCode.HU, "Fehéroroszország"),
             new TranslationInfo(LanguageCode.HY, "Բելառուս"),

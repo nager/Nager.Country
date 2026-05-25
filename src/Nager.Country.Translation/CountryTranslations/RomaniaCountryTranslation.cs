@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Romania"),
             new TranslationInfo(LanguageCode.FR, "Roumanie"),
             new TranslationInfo(LanguageCode.HE, "רומניה"),
+            new TranslationInfo(LanguageCode.HI, "रोमानिया"),
             new TranslationInfo(LanguageCode.HR, "Rumunjska"),
             new TranslationInfo(LanguageCode.HU, "Románia"),
             new TranslationInfo(LanguageCode.HY, "Ռումինիա"),

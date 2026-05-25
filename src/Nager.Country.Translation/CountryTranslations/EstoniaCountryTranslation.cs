@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Viro"),
             new TranslationInfo(LanguageCode.FR, "Estonie"),
             new TranslationInfo(LanguageCode.HE, "אסטוניה"),
+            new TranslationInfo(LanguageCode.HI, "एस्टोनिया"),
             new TranslationInfo(LanguageCode.HR, "Estonija"),
             new TranslationInfo(LanguageCode.HU, "Észtország"),
             new TranslationInfo(LanguageCode.HY, "Էստոնիա"),

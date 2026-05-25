@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Marshallinsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Marshall"),
             new TranslationInfo(LanguageCode.HE, "איי מרשל"),
+            new TranslationInfo(LanguageCode.HI, "मार्शल द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Maršalovi Otoci"),
             new TranslationInfo(LanguageCode.HU, "Marshall-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Մարշալյան կղզիներ"),

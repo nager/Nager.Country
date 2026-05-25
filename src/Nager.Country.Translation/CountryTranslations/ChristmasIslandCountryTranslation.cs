@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Joulusaari"),
             new TranslationInfo(LanguageCode.FR, "Île Christmas"),
             new TranslationInfo(LanguageCode.HE, "האי כריסטמס"),
+            new TranslationInfo(LanguageCode.HI, "क्रिसमस द्वीप"),
             new TranslationInfo(LanguageCode.HR, "Božićni otok"),
             new TranslationInfo(LanguageCode.HU, "Karácsony-sziget"),
             new TranslationInfo(LanguageCode.HY, "Սուրբ Ծննդյան կղզի"),

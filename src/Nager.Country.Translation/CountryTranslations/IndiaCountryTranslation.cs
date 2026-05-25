@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Intia"),
             new TranslationInfo(LanguageCode.FR, "Inde"),
             new TranslationInfo(LanguageCode.HE, "הודו"),
+            new TranslationInfo(LanguageCode.HI, "भारत"),
             new TranslationInfo(LanguageCode.HR, "Indija"),
             new TranslationInfo(LanguageCode.HU, "India"),
             new TranslationInfo(LanguageCode.HY, "Հնդկաստան"),

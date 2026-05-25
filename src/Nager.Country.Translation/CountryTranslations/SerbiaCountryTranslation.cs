@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Serbia"),
             new TranslationInfo(LanguageCode.FR, "Serbie"),
             new TranslationInfo(LanguageCode.HE, "סרביה"),
+            new TranslationInfo(LanguageCode.HI, "सर्बिया"),
             new TranslationInfo(LanguageCode.HR, "Srbija"),
             new TranslationInfo(LanguageCode.HU, "Szerbia"),
             new TranslationInfo(LanguageCode.HY, "Սերբիա"),

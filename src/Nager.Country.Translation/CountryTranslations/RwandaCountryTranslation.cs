@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Ruanda"),
             new TranslationInfo(LanguageCode.FR, "Rwanda"),
             new TranslationInfo(LanguageCode.HE, "רואנדה"),
+            new TranslationInfo(LanguageCode.HI, "रवांडा"),
             new TranslationInfo(LanguageCode.HR, "Ruanda"),
             new TranslationInfo(LanguageCode.HU, "Ruanda"),
             new TranslationInfo(LanguageCode.HY, "Ռուանդա"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Singapore"),
             new TranslationInfo(LanguageCode.FR, "Singapour"),
             new TranslationInfo(LanguageCode.HE, "סינגפור"),
+            new TranslationInfo(LanguageCode.HI, "सिंगापुर"),
             new TranslationInfo(LanguageCode.HR, "Singapur"),
             new TranslationInfo(LanguageCode.HU, "Szingapúr"),
             new TranslationInfo(LanguageCode.HY, "Սինգապուր"),

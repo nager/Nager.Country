@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Meksiko"),
             new TranslationInfo(LanguageCode.FR, "Mexique"),
             new TranslationInfo(LanguageCode.HE, "מקסיקו"),
+            new TranslationInfo(LanguageCode.HI, "मेक्सिको"),
             new TranslationInfo(LanguageCode.HR, "Meksiko"),
             new TranslationInfo(LanguageCode.HU, "Mexikó"),
             new TranslationInfo(LanguageCode.HY, "Մեքսիկա"),

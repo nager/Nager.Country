@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Bahrain"),
             new TranslationInfo(LanguageCode.FR, "Bahrein"),
             new TranslationInfo(LanguageCode.HE, "בחריין"),
+            new TranslationInfo(LanguageCode.HI, "बहरीन"),
             new TranslationInfo(LanguageCode.HR, "Bahrein"),
             new TranslationInfo(LanguageCode.HU, "Bahrein"),
             new TranslationInfo(LanguageCode.HY, "Բահրեյն"),

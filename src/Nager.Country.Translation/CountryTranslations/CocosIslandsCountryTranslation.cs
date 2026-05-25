@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Kookossaaret"),
             new TranslationInfo(LanguageCode.FR, "Cocos"),
             new TranslationInfo(LanguageCode.HE, "איי קוקוס (קילינג)"),
+            new TranslationInfo(LanguageCode.HI, "कोकोस द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Kokosovi (Keelingovi) otoci"),
             new TranslationInfo(LanguageCode.HU, "Kókusz (Keeling)-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կոկոսյան (Քիլինգ) կղզիներ"),

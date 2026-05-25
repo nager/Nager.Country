@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Libya"),
             new TranslationInfo(LanguageCode.FR, "Libye"),
             new TranslationInfo(LanguageCode.HE, "לוב"),
+            new TranslationInfo(LanguageCode.HI, "लीबिया"),
             new TranslationInfo(LanguageCode.HR, "Libija"),
             new TranslationInfo(LanguageCode.HU, "Líbia"),
             new TranslationInfo(LanguageCode.HY, "Լիբիա"),

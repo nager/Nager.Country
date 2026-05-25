@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Indonesia"),
             new TranslationInfo(LanguageCode.FR, "Indonésie"),
             new TranslationInfo(LanguageCode.HE, "אינדונזיה"),
+            new TranslationInfo(LanguageCode.HI, "इंडोनेशिया"),
             new TranslationInfo(LanguageCode.HR, "Indonezija"),
             new TranslationInfo(LanguageCode.HU, "Indonézia"),
             new TranslationInfo(LanguageCode.HY, "Ինդոնեզիա"),

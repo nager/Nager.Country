@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Falklandinsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Malouines"),
             new TranslationInfo(LanguageCode.HE, "איי פוקלנד"),
+            new TranslationInfo(LanguageCode.HI, "फ़ॉकलैंड द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Falklandski otoci"),
             new TranslationInfo(LanguageCode.HU, "Falkland-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Ֆոլքլենդյան կղզիներ"),

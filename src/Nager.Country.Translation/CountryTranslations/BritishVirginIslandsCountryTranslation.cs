@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Brittiläiset Neitsytsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles vierges britanniques"),
             new TranslationInfo(LanguageCode.HE, "איי הבתולה הבריטיים"),
+            new TranslationInfo(LanguageCode.HI, "ब्रिटिश वर्जिन द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Britanski Djevičanski otoci"),
             new TranslationInfo(LanguageCode.HU, "Brit Virgin-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Բրիտանական Վիրջինյան կղզիներ"),

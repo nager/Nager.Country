@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Yhdysvaltain Neitsytsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles vierges américaines"),
             new TranslationInfo(LanguageCode.HE, "איי הבתולה של ארצות הברית"),
+            new TranslationInfo(LanguageCode.HI, "संयुक्त राज्य वर्जिन द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Američki Djevičanski otoci"),
             new TranslationInfo(LanguageCode.HU, "Amerikai Virgin-szigetek"),
             new TranslationInfo(LanguageCode.HY, "ԱՄՆ Վիրջինյան կղզիներ"),

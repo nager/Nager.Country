@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Guam"),
             new TranslationInfo(LanguageCode.FR, "Guam"),
             new TranslationInfo(LanguageCode.HE, "גואם"),
+            new TranslationInfo(LanguageCode.HI, "गुआम"),
             new TranslationInfo(LanguageCode.HR, "Guam"),
             new TranslationInfo(LanguageCode.HU, "Guam"),
             new TranslationInfo(LanguageCode.HY, "Գուամ"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Kolumbia"),
             new TranslationInfo(LanguageCode.FR, "Colombie"),
             new TranslationInfo(LanguageCode.HE, "קולומביה"),
+            new TranslationInfo(LanguageCode.HI, "कोलंबिया"),
             new TranslationInfo(LanguageCode.HR, "Kolumbija"),
             new TranslationInfo(LanguageCode.HU, "Kolumbia"),
             new TranslationInfo(LanguageCode.HY, "Կոլումբիա"),

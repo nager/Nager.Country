@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Tšekki"),
             new TranslationInfo(LanguageCode.FR, "Tchéquie"),
             new TranslationInfo(LanguageCode.HE, "צ׳כיה"),
+            new TranslationInfo(LanguageCode.HI, "चेक गणराज्य"),
             new TranslationInfo(LanguageCode.HR, "Češka"),
             new TranslationInfo(LanguageCode.HU, "Csehország"),
             new TranslationInfo(LanguageCode.HY, "Չեխիա"),

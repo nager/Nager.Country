@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Etiopia"),
             new TranslationInfo(LanguageCode.FR, "Éthiopie"),
             new TranslationInfo(LanguageCode.HE, "אתיופיה"),
+            new TranslationInfo(LanguageCode.HI, "इथियोपिया"),
             new TranslationInfo(LanguageCode.HR, "Etiopija"),
             new TranslationInfo(LanguageCode.HU, "Etiópia"),
             new TranslationInfo(LanguageCode.HY, "Եթովպիա"),

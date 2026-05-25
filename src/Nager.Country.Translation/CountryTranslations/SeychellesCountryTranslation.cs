@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Seychellit"),
             new TranslationInfo(LanguageCode.FR, "Seychelles"),
             new TranslationInfo(LanguageCode.HE, "איי סיישל"),
+            new TranslationInfo(LanguageCode.HI, "सेशेल्स"),
             new TranslationInfo(LanguageCode.HR, "Sejšeli"),
             new TranslationInfo(LanguageCode.HU, "Seychelle-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Սեյշելներ"),

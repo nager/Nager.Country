@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Italia"),
             new TranslationInfo(LanguageCode.FR, "Italie"),
             new TranslationInfo(LanguageCode.HE, "איטליה"),
+            new TranslationInfo(LanguageCode.HI, "इटली"),
             new TranslationInfo(LanguageCode.HR, "Italija"),
             new TranslationInfo(LanguageCode.HU, "Olaszország"),
             new TranslationInfo(LanguageCode.HY, "Իտալիա"),

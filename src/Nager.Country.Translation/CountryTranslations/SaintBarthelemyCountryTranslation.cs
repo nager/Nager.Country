@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Saint-Barthélemy"),
             new TranslationInfo(LanguageCode.FR, "Saint-Barthélemy"),
             new TranslationInfo(LanguageCode.HE, "סנט ברתולומיאו"),
+            new TranslationInfo(LanguageCode.HI, "सेंट बार्थेलेमी"),
             new TranslationInfo(LanguageCode.HR, "Saint Barthélemy"),
             new TranslationInfo(LanguageCode.HU, "Saint Barthélemy"),
             new TranslationInfo(LanguageCode.HY, "Սեն Բարտելմի"),

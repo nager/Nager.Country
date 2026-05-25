@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Keski-Afrikan tasavalta"),
             new TranslationInfo(LanguageCode.FR, "Centrafricaine, République"),
             new TranslationInfo(LanguageCode.HE, "הרפובליקה של מרכז אפריקה"),
+            new TranslationInfo(LanguageCode.HI, "मध्य अफ़्रीकी गणराज्य"),
             new TranslationInfo(LanguageCode.HR, "Srednjoafrička Republika"),
             new TranslationInfo(LanguageCode.HU, "Közép-afrikai Köztársaság"),
             new TranslationInfo(LanguageCode.HY, "Կենտրոնական Աֆրիկյան Հանրապետություն"),

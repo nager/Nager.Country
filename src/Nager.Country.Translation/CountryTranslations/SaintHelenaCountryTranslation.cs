@@ -16,6 +16,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Saint Helena"),
             new TranslationInfo(LanguageCode.RU, "Острова Святой Елены, Вознесения и Тристан-да-Кунья"),
 			new TranslationInfo(LanguageCode.KO, "세인트헬레나"),
+            new TranslationInfo(LanguageCode.HI, "सेंट हेलेना"),
 		};
         
     }

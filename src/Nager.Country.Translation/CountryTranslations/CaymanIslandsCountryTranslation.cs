@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Caymansaaret"),
             new TranslationInfo(LanguageCode.FR, "Caïmanes"),
             new TranslationInfo(LanguageCode.HE, "איי קיימן"),
+            new TranslationInfo(LanguageCode.HI, "केमैन द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Kajmanski otoci"),
             new TranslationInfo(LanguageCode.HU, "Kajmán-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կայմանյան կղզիներ"),

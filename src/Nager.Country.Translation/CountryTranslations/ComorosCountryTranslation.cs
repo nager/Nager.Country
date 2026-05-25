@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Komorit"),
             new TranslationInfo(LanguageCode.FR, "Comores"),
             new TranslationInfo(LanguageCode.HE, "קומורו"),
+            new TranslationInfo(LanguageCode.HI, "कोमोरोस"),
             new TranslationInfo(LanguageCode.HR, "Komori"),
             new TranslationInfo(LanguageCode.HU, "Comore-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կոմորյան կղզիներ"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Palestiina"),
             new TranslationInfo(LanguageCode.FR, "Palestine"),
             new TranslationInfo(LanguageCode.HE, "השטחים הפלסטיניים"),
+            new TranslationInfo(LanguageCode.HI, "फ़िलिस्तीन"),
             new TranslationInfo(LanguageCode.HR, "Palestinsko Područje"),
             new TranslationInfo(LanguageCode.HU, "Palesztina"),
             new TranslationInfo(LanguageCode.HY, "Պաղեստինյան տարածքներ"),

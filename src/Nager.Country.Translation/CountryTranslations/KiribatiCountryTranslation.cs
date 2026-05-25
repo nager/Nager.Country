@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Kiribati"),
             new TranslationInfo(LanguageCode.FR, "Kiribati"),
             new TranslationInfo(LanguageCode.HE, "קיריבאטי"),
+            new TranslationInfo(LanguageCode.HI, "किरिबाती"),
             new TranslationInfo(LanguageCode.HR, "Kiribati"),
             new TranslationInfo(LanguageCode.HU, "Kiribati"),
             new TranslationInfo(LanguageCode.HY, "Կիրիբատի"),

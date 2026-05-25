@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Réunion"),
             new TranslationInfo(LanguageCode.FR, "Réunion"),
             new TranslationInfo(LanguageCode.HE, "ראוניון"),
+            new TranslationInfo(LanguageCode.HI, "रीयूनियन"),
             new TranslationInfo(LanguageCode.HR, "Réunion"),
             new TranslationInfo(LanguageCode.HU, "Réunion"),
             new TranslationInfo(LanguageCode.HY, "Ռեյունիոն"),

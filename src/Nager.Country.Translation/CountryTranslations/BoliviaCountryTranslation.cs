@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Bolivia"),
             new TranslationInfo(LanguageCode.FR, "Bolivie"),
             new TranslationInfo(LanguageCode.HE, "בוליביה"),
+            new TranslationInfo(LanguageCode.HI, "बोलीविया"),
             new TranslationInfo(LanguageCode.HR, "Bolivija"),
             new TranslationInfo(LanguageCode.HU, "Bolívia"),
             new TranslationInfo(LanguageCode.HY, "Բոլիվիա"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Espanja"),
             new TranslationInfo(LanguageCode.FR, "Espagne"),
             new TranslationInfo(LanguageCode.HE, "ספרד"),
+            new TranslationInfo(LanguageCode.HI, "स्पेन"),
             new TranslationInfo(LanguageCode.HR, "Španjolska"),
             new TranslationInfo(LanguageCode.HU, "Spanyolország"),
             new TranslationInfo(LanguageCode.HY, "Իսպանիա"),

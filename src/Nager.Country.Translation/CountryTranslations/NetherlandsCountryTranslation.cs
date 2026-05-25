@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Alankomaat"),
             new TranslationInfo(LanguageCode.FR, "Pays-Bas"),
             new TranslationInfo(LanguageCode.HE, "הולנד"),
+            new TranslationInfo(LanguageCode.HI, "नीदरलैंड"),
             new TranslationInfo(LanguageCode.HR, "Nizozemska"),
             new TranslationInfo(LanguageCode.HU, "Hollandia"),
             new TranslationInfo(LanguageCode.HY, "Նիդեռլանդներ"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Uruguay"),
             new TranslationInfo(LanguageCode.FR, "Uruguay"),
             new TranslationInfo(LanguageCode.HE, "אורוגוואי"),
+            new TranslationInfo(LanguageCode.HI, "उरुग्वे"),
             new TranslationInfo(LanguageCode.HR, "Urugvaj"),
             new TranslationInfo(LanguageCode.HU, "Uruguay"),
             new TranslationInfo(LanguageCode.HY, "Ուրուգվայ"),

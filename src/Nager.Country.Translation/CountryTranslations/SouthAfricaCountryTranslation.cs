@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Etelä-Afrikka"),
             new TranslationInfo(LanguageCode.FR, "Afrique du Sud"),
             new TranslationInfo(LanguageCode.HE, "דרום אפריקה"),
+            new TranslationInfo(LanguageCode.HI, "दक्षिण अफ़्रीका"),
             new TranslationInfo(LanguageCode.HR, "Južnoafrička Republika"),
             new TranslationInfo(LanguageCode.HU, "Dél-Afrika"),
             new TranslationInfo(LanguageCode.HY, "Հարավաֆրիկյան Հանրապետություն"),

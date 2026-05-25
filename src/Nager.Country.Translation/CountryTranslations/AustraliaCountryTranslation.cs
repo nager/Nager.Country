@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Australia"),
             new TranslationInfo(LanguageCode.FR, "Australie"),
             new TranslationInfo(LanguageCode.HE, "אוסטרליה"),
+            new TranslationInfo(LanguageCode.HI, "ऑस्ट्रेलिया"),
             new TranslationInfo(LanguageCode.HR, "Australija"),
             new TranslationInfo(LanguageCode.HU, "Ausztrália"),
             new TranslationInfo(LanguageCode.HY, "Ավստրալիա"),

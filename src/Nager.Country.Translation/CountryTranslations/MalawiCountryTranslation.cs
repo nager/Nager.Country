@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Malawi"),
             new TranslationInfo(LanguageCode.FR, "Malawi"),
             new TranslationInfo(LanguageCode.HE, "מלאווי"),
+            new TranslationInfo(LanguageCode.HI, "मलावी"),
             new TranslationInfo(LanguageCode.HR, "Malavi"),
             new TranslationInfo(LanguageCode.HU, "Malawi"),
             new TranslationInfo(LanguageCode.HY, "Մալավի"),

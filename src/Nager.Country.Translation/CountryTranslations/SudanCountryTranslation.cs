@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Sudan"),
             new TranslationInfo(LanguageCode.FR, "Soudan"),
             new TranslationInfo(LanguageCode.HE, "סודן"),
+            new TranslationInfo(LanguageCode.HI, "सूडान"),
             new TranslationInfo(LanguageCode.HR, "Sudan"),
             new TranslationInfo(LanguageCode.HU, "Szudán"),
             new TranslationInfo(LanguageCode.HY, "Սուդան"),

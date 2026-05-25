@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Cookinsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Cook"),
             new TranslationInfo(LanguageCode.HE, "איי קוק"),
+            new TranslationInfo(LanguageCode.HI, "कुक द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Cookovi Otoci"),
             new TranslationInfo(LanguageCode.HU, "Cook-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կուկի կղզիներ"),

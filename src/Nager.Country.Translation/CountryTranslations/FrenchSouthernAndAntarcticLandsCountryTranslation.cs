@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Ranskan eteläiset alueet"),
             new TranslationInfo(LanguageCode.FR, "Terres australes françaises"),
             new TranslationInfo(LanguageCode.HE, "הטריטוריות הדרומיות של צרפת"),
+            new TranslationInfo(LanguageCode.HI, "फ्रेंच दक्षिणी और अंटार्कटिक भूमि"),
             new TranslationInfo(LanguageCode.HR, "Francuski južni i antarktički teritoriji"),
             new TranslationInfo(LanguageCode.HU, "Francia déli területek"),
             new TranslationInfo(LanguageCode.HY, "Ֆրանսիական Հարավային Տարածքներ"),

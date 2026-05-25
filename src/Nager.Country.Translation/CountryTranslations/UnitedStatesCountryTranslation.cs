@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Yhdysvallat"),
             new TranslationInfo(LanguageCode.FR, "États-Unis d'Amérique"),
             new TranslationInfo(LanguageCode.HE, "ארצות הברית"),
+            new TranslationInfo(LanguageCode.HI, "संयुक्त राज्य अमेरिका"),
             new TranslationInfo(LanguageCode.HR, "Sjedinjene Američke Države"),
             new TranslationInfo(LanguageCode.HU, "Amerikai Egyesült Államok"),
             new TranslationInfo(LanguageCode.HY, "Միացյալ Նահանգներ"),

@@ -25,6 +25,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FI, "Luxemburg"),
             new TranslationInfo(LanguageCode.FR, "Luxembourg, Grand-Duché"),
             new TranslationInfo(LanguageCode.HE, "לוקסמבורג"),
+            new TranslationInfo(LanguageCode.HI, "लक्ज़मबर्ग"),
             new TranslationInfo(LanguageCode.HR, "Luksemburg"),
             new TranslationInfo(LanguageCode.HU, "Luxemburg"),
             new TranslationInfo(LanguageCode.HY, "Լյուքսեմբուրգ"),
