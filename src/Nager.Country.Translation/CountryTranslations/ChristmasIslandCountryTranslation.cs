@@ -6,8 +6,8 @@
     public class ChristmasIslandCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزيرة كريسماس"),
             new TranslationInfo(LanguageCode.AZ, "Milad adası"),
             new TranslationInfo(LanguageCode.BE, "Востраў Каляд"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Острів Різдва"),
             new TranslationInfo(LanguageCode.UZ, "Rojdestvo oroli"),
             new TranslationInfo(LanguageCode.ZH, "圣诞岛"),
-        };
+        ];
     }
 }

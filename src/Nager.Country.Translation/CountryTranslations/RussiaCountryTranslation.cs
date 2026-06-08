@@ -6,8 +6,8 @@
     public class RussiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "روسيا"),
             new TranslationInfo(LanguageCode.AZ, "Rusiya"),
             new TranslationInfo(LanguageCode.BE, "Расія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Росія"),
             new TranslationInfo(LanguageCode.UZ, "Rossiya"),
             new TranslationInfo(LanguageCode.ZH, "俄罗斯"),
-        };
+        ];
     }
 }

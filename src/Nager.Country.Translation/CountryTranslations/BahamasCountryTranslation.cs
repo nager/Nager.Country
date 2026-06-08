@@ -6,8 +6,8 @@
     public class BahamasCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "البهاما"),
             new TranslationInfo(LanguageCode.AZ, "Baham adaları"),
             new TranslationInfo(LanguageCode.BE, "Багамы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Багами"),
             new TranslationInfo(LanguageCode.UZ, "Bagama orollari"),
             new TranslationInfo(LanguageCode.ZH, "巴哈马"),
-        };
+        ];
     }
 }

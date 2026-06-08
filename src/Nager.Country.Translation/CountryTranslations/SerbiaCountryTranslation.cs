@@ -6,8 +6,8 @@
     public class SerbiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "صيربيا"),
             new TranslationInfo(LanguageCode.AZ, "Serbiya"),
             new TranslationInfo(LanguageCode.BE, "Сербія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сербія"),
             new TranslationInfo(LanguageCode.UZ, "Serbiya"),
             new TranslationInfo(LanguageCode.ZH, "塞尔维亚"),
-        };
+        ];
     }
 }

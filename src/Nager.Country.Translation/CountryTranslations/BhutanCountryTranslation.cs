@@ -6,8 +6,8 @@
     public class BhutanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بوتان"),
             new TranslationInfo(LanguageCode.AZ, "Butan"),
             new TranslationInfo(LanguageCode.BE, "Бутан"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Бутан"),
             new TranslationInfo(LanguageCode.UZ, "Butan"),
             new TranslationInfo(LanguageCode.ZH, "不丹"),
-        };
+        ];
     }
 }

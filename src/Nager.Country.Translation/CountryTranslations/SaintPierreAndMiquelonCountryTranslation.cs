@@ -6,8 +6,8 @@
     public class SaintPierreAndMiquelonCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سان بيير وميكلون"),
             new TranslationInfo(LanguageCode.AZ, "Müqəddəs Pyer və Mikelon"),
             new TranslationInfo(LanguageCode.BE, "Сен-П’ер і Мікелон"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сен-П'єр і Мікелон"),
             new TranslationInfo(LanguageCode.UZ, "Sen-Pyer va Mikelon"),
             new TranslationInfo(LanguageCode.ZH, "圣皮埃尔和密克隆"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class MontenegroCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الجبل الاسود"),
             new TranslationInfo(LanguageCode.AZ, "Monteneqro"),
             new TranslationInfo(LanguageCode.BE, "Чарнагорыя"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Чорногорія"),
             new TranslationInfo(LanguageCode.UZ, "Chernogoriya"),
             new TranslationInfo(LanguageCode.ZH, "黑山"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class UnitedArabEmiratesCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الإمارات"),
             new TranslationInfo(LanguageCode.AZ, "Birləşmiş Ərəb Əmirlikləri"),
             new TranslationInfo(LanguageCode.BE, "Аб’яднаныя Арабскія Эміраты"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Об'єднані Арабські Емірати"),
             new TranslationInfo(LanguageCode.UZ, "Birlashgan Arab Amirliklari"),
             new TranslationInfo(LanguageCode.ZH, "阿拉伯联合酋长国"),
-        };
+        ];
     }
 }

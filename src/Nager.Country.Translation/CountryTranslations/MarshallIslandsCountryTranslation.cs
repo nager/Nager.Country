@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Marshall Islands
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MarshallIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر مارشال"),
             new TranslationInfo(LanguageCode.AZ, "Marşal adaları"),
             new TranslationInfo(LanguageCode.BE, "Маршалавы Астравы"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Маршаллові Острови"),
             new TranslationInfo(LanguageCode.UZ, "Marshall orollari"),
             new TranslationInfo(LanguageCode.ZH, "马绍尔群岛"),
-        };
+        ];
     }
 }

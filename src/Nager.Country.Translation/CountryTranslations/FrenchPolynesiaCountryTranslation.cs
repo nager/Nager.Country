@@ -6,8 +6,8 @@
     public class FrenchPolynesiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بولينزيا الفرنسية"),
             new TranslationInfo(LanguageCode.AZ, "Fransa Polineziyası"),
             new TranslationInfo(LanguageCode.BE, "Французская Палінезія"),
@@ -57,8 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Французька Полінезія"),
             new TranslationInfo(LanguageCode.UZ, "Fransuz Polineziyasi"),
             new TranslationInfo(LanguageCode.ZH, "法属波利尼西亚"),
-        
-       
-       };
+        ];
     }
 }

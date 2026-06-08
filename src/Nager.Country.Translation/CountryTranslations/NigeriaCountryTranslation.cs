@@ -6,8 +6,8 @@
     public class NigeriaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "نيجيريا"),
             new TranslationInfo(LanguageCode.AZ, "Nigeriya"),
             new TranslationInfo(LanguageCode.BE, "Нігерыя"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Нігерія"),
             new TranslationInfo(LanguageCode.UZ, "Nigeriya"),
             new TranslationInfo(LanguageCode.ZH, "尼日利亚"),
-        };
+        ];
     }
 }

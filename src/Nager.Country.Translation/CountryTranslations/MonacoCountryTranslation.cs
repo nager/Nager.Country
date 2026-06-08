@@ -6,8 +6,8 @@
     public class MonacoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "موناكو"),
             new TranslationInfo(LanguageCode.AZ, "Monako"),
             new TranslationInfo(LanguageCode.BE, "Манака"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Монако"),
             new TranslationInfo(LanguageCode.UZ, "Monako"),
             new TranslationInfo(LanguageCode.ZH, "摩纳哥"),
-        };
+        ];
     }
 }

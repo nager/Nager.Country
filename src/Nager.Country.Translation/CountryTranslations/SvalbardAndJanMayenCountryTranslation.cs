@@ -6,8 +6,8 @@
     public class SvalbardAndJanMayenCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سفالبارد ويان ماين"),
             new TranslationInfo(LanguageCode.AZ, "Svalbard və Yan-Mayen"),
             new TranslationInfo(LanguageCode.BE, "Шпіцберген і Ян-Маен"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Свальбард і Ян-Маєн"),
             new TranslationInfo(LanguageCode.UZ, "Svalbard va Yan-Mayen"),
             new TranslationInfo(LanguageCode.ZH, "斯瓦尔巴特"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class GibraltarCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جبل طارق"),
             new TranslationInfo(LanguageCode.AZ, "Cəbəllütariq"),
             new TranslationInfo(LanguageCode.BE, "Гібралтар"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Гібралтар"),
             new TranslationInfo(LanguageCode.UZ, "Gibraltar"),
             new TranslationInfo(LanguageCode.ZH, "直布罗陀"),
-        };
+        ];
     }
 }

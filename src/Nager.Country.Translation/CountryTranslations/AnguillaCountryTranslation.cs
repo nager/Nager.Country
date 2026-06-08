@@ -6,8 +6,8 @@
     public class AnguillaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "أنغويلا"),
             new TranslationInfo(LanguageCode.AZ, "Angilya"),
             new TranslationInfo(LanguageCode.BE, "Ангілья"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ангілья"),
             new TranslationInfo(LanguageCode.UZ, "Angilya"),
             new TranslationInfo(LanguageCode.ZH, "安圭拉"),
-       };
+       ];
     }
 }

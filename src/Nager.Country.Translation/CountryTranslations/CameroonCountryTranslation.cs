@@ -6,8 +6,8 @@
     public class CameroonCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الكاميرون"),
             new TranslationInfo(LanguageCode.AZ, "Kamerun"),
             new TranslationInfo(LanguageCode.BE, "Камерун"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Камерун"),
             new TranslationInfo(LanguageCode.UZ, "Kamerun"),
             new TranslationInfo(LanguageCode.ZH, "喀麦隆"),
-        };
+        ];
     }
 }

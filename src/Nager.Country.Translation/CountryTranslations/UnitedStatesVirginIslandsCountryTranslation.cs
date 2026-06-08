@@ -6,8 +6,8 @@
     public class UnitedStatesVirginIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر العذراء الامريكية"),
             new TranslationInfo(LanguageCode.AZ, "ABŞ Virgin adaları"),
             new TranslationInfo(LanguageCode.BE, "Амерыканскія Віргінскія астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Віргінські Острови (США)"),
             new TranslationInfo(LanguageCode.UZ, "AQSH Virgin orollari"),
             new TranslationInfo(LanguageCode.ZH, "美属维尔京群岛"),
-        };
+        ];
     }
 }

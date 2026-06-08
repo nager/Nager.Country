@@ -6,8 +6,8 @@
     public class MoldovaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مولدوڤا"),
             new TranslationInfo(LanguageCode.AZ, "Moldova"),
             new TranslationInfo(LanguageCode.BE, "Малдова"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Молдова"),
             new TranslationInfo(LanguageCode.UZ, "Moldova"),
             new TranslationInfo(LanguageCode.ZH, "摩尔多瓦"),
-        };
+        ];
     }
 }

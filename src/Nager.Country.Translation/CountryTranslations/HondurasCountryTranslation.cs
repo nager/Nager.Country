@@ -6,8 +6,8 @@
     public class HondurasCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "هندوراس"),
             new TranslationInfo(LanguageCode.AZ, "Honduras"),
             new TranslationInfo(LanguageCode.BE, "Гандурас"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Гондурас"),
             new TranslationInfo(LanguageCode.UZ, "Gonduras"),
             new TranslationInfo(LanguageCode.ZH, "洪都拉斯"),
-        };
+        ];
     }
 }

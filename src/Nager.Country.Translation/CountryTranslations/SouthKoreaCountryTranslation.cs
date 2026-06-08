@@ -6,8 +6,8 @@
     public class SouthKoreaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كوريا الجنوبية"),
             new TranslationInfo(LanguageCode.AZ, "Cənubi Koreya"),
             new TranslationInfo(LanguageCode.BE, "Паўднёвая Карэя"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Південна Корея"),
             new TranslationInfo(LanguageCode.UZ, "Janubiy Koreya"),
             new TranslationInfo(LanguageCode.ZH, "韩国"),
-        };
+        ];
     }
 }

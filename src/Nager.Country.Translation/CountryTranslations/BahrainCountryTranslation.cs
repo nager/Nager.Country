@@ -6,8 +6,8 @@
     public class BahrainCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "البحرين"),
             new TranslationInfo(LanguageCode.AZ, "Bəhreyn"),
             new TranslationInfo(LanguageCode.BE, "Бахрэйн"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Бахрейн"),
             new TranslationInfo(LanguageCode.UZ, "Bahrayn"),
             new TranslationInfo(LanguageCode.ZH, "巴林"),
-        };
+        ];
     }
 }

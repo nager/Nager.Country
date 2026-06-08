@@ -6,8 +6,8 @@
     public class SudanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "السودان"),
             new TranslationInfo(LanguageCode.AZ, "Sudan"),
             new TranslationInfo(LanguageCode.BE, "Судан"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Судан"),
             new TranslationInfo(LanguageCode.UZ, "Sudan"),
             new TranslationInfo(LanguageCode.ZH, "苏丹"),
-        };
+        ];
     }
 }

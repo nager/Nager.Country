@@ -6,8 +6,8 @@
     public class TurkmenistanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تركمانستان"),
             new TranslationInfo(LanguageCode.AZ, "Türkmənistan"),
             new TranslationInfo(LanguageCode.BE, "Туркменістан"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Туркменістан"),
             new TranslationInfo(LanguageCode.UZ, "Turkmaniston"),
             new TranslationInfo(LanguageCode.ZH, "土库曼斯坦"),
-        };
+        ];
     }
 }

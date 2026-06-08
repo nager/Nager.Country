@@ -6,8 +6,8 @@
     public class PitcairnIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر بيتكيرن"),
             new TranslationInfo(LanguageCode.AZ, "Pitkern adaları"),
             new TranslationInfo(LanguageCode.BE, "Астравы Піткэрн"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Піткерн"),
             new TranslationInfo(LanguageCode.UZ, "Pitkern orollari"),
             new TranslationInfo(LanguageCode.ZH, "皮特凯恩群岛"),
-        };
+        ];
     }
 }

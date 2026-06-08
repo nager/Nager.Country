@@ -6,8 +6,8 @@
     public class CapeVerdeCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كابو فيردي"),
             new TranslationInfo(LanguageCode.AZ, "Kabo-Verde"),
             new TranslationInfo(LanguageCode.BE, "Каба-Вердэ"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кабо-Верде"),
             new TranslationInfo(LanguageCode.UZ, "Kabo-Verde"),
             new TranslationInfo(LanguageCode.ZH, "佛得角"),
-        };
+        ];
     }
 }

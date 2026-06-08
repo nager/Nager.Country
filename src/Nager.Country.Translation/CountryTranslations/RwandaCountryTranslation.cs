@@ -6,8 +6,8 @@
     public class RwandaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "رواندا"),
             new TranslationInfo(LanguageCode.AZ, "Ruanda"),
             new TranslationInfo(LanguageCode.BE, "Руанда"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Руанда"),
             new TranslationInfo(LanguageCode.UZ, "Ruanda"),
             new TranslationInfo(LanguageCode.ZH, "卢旺达"),
-        };
+        ];
     }
 }

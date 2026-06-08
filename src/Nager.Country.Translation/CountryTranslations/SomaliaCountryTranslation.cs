@@ -6,8 +6,8 @@
     public class SomaliaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الصومال"),
             new TranslationInfo(LanguageCode.AZ, "Somali"),
             new TranslationInfo(LanguageCode.BE, "Самалі"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сомалі"),
             new TranslationInfo(LanguageCode.UZ, "Somali"),
             new TranslationInfo(LanguageCode.ZH, "索马里"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class MaldivesCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "المالديف"),
             new TranslationInfo(LanguageCode.AZ, "Maldiv adaları"),
             new TranslationInfo(LanguageCode.BE, "Мальдывы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Мальдівы"),
             new TranslationInfo(LanguageCode.UZ, "Maldiv orollari"),
             new TranslationInfo(LanguageCode.ZH, "马尔代夫"),
-        };
+        ];
     }
 }

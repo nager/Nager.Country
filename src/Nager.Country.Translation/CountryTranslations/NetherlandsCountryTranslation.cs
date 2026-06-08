@@ -6,8 +6,8 @@
     public class NetherlandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "هولندا"),
             new TranslationInfo(LanguageCode.AZ, "Niderland"),
             new TranslationInfo(LanguageCode.BE, "Нідэрланды"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Нідерланди"),
             new TranslationInfo(LanguageCode.UZ, "Niderlandiya"),
             new TranslationInfo(LanguageCode.ZH, "荷兰"),
-        };
+        ];
     }
 }

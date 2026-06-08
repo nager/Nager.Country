@@ -6,8 +6,8 @@
     public class CaymanIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر كايمان"),
             new TranslationInfo(LanguageCode.AZ, "Kayman adaları"),
             new TranslationInfo(LanguageCode.BE, "Кайманавы астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кайманові Острови"),
             new TranslationInfo(LanguageCode.UZ, "Kayman orollari"),
             new TranslationInfo(LanguageCode.ZH, "开曼群岛"),
-        };
+        ];
     }
 }

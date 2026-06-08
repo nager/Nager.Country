@@ -6,8 +6,8 @@
     public class LuxembourgCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "لوكسمبورغ"),
             new TranslationInfo(LanguageCode.AZ, "Lüksemburq"),
             new TranslationInfo(LanguageCode.BE, "Люксембург"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Люксембург"),
             new TranslationInfo(LanguageCode.UZ, "Lyuksemburg"),
             new TranslationInfo(LanguageCode.ZH, "卢森堡"),
-        };
+        ];
     }
 }

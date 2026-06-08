@@ -6,8 +6,8 @@
     public class GuadeloupeCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غوادلوب"),
             new TranslationInfo(LanguageCode.AZ, "Qvadelupa"),
             new TranslationInfo(LanguageCode.BE, "Гвадэлупа"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Гваделупа"),
             new TranslationInfo(LanguageCode.UZ, "Gvadelupe"),
             new TranslationInfo(LanguageCode.ZH, "瓜德罗普岛"),
-        };
+        ];
     }
 }

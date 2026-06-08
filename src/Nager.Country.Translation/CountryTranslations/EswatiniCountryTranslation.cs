@@ -6,8 +6,8 @@
     public class EswatiniCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "إسواتيني"),
             new TranslationInfo(LanguageCode.AZ, "Esvatini"),
             new TranslationInfo(LanguageCode.BE, "Эсваціні"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Есватіні"),
             new TranslationInfo(LanguageCode.UZ, "Esvatini"),
             new TranslationInfo(LanguageCode.ZH, "斯威士兰"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class TokelauCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "توكيلاو"),
             new TranslationInfo(LanguageCode.AZ, "Tokelau"),
             new TranslationInfo(LanguageCode.BE, "Такелау"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Токелау"),
             new TranslationInfo(LanguageCode.UZ, "Tokelau"),
             new TranslationInfo(LanguageCode.ZH, "托克劳"),
-        };
+        ];
     }
 }

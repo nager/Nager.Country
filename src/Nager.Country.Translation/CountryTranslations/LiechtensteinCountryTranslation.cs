@@ -6,8 +6,8 @@
     public class LiechtensteinCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليختنشتاين"),
             new TranslationInfo(LanguageCode.AZ, "Lixtenşteyn"),
             new TranslationInfo(LanguageCode.BE, "Ліхтэнштэйн"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ліхтенштейн"),
             new TranslationInfo(LanguageCode.UZ, "Lixtenshteyn"),
             new TranslationInfo(LanguageCode.ZH, "列支敦士登"),
-        };
+        ];
     }
 }

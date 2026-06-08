@@ -6,8 +6,8 @@
     public class GuyanaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غيانا"),
             new TranslationInfo(LanguageCode.AZ, "Qayana"),
             new TranslationInfo(LanguageCode.BE, "Гаяна"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Гаяна"),
             new TranslationInfo(LanguageCode.UZ, "Gayana"),
             new TranslationInfo(LanguageCode.ZH, "圭亚那"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class IsleofManCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزيرة مان"),
             new TranslationInfo(LanguageCode.AZ, "Men adası"),
             new TranslationInfo(LanguageCode.BE, "Востраў Мэн"),
@@ -48,7 +48,7 @@
             new TranslationInfo(LanguageCode.PT, "Ilha de Man"),
             new TranslationInfo(LanguageCode.RO, "Insula Man"),
             new TranslationInfo(LanguageCode.RU, "Остров Мэн"),
-            new TranslationInfo(LanguageCode.SK, "Man"),
+            new TranslationInfo(LanguageCode.SK, "Ostrov Man"),
             new TranslationInfo(LanguageCode.SL, "Otok Man"),
             new TranslationInfo(LanguageCode.SR, "Острво Ман"),
             new TranslationInfo(LanguageCode.SV, "Isle of Man"),
@@ -56,6 +56,6 @@
             new TranslationInfo(LanguageCode.UK, "Острів Мен"),
             new TranslationInfo(LanguageCode.UZ, "Men oroli"),
             new TranslationInfo(LanguageCode.ZH, "马恩岛"),
-        };
+        ];
     }
 }

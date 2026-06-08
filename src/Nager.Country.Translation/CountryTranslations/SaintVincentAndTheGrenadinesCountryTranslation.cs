@@ -6,8 +6,8 @@
     public class SaintVincentAndTheGrenadinesCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سانت فينسنت والغرينادين"),
             new TranslationInfo(LanguageCode.AZ, "Sent-Vinsent və Qrenadinlər"),
             new TranslationInfo(LanguageCode.BE, "Сент-Вінсент і Грэнадзіны"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сент-Вінсент і Гренадини"),
             new TranslationInfo(LanguageCode.UZ, "Sent-Vinsent va Grenadin"),
             new TranslationInfo(LanguageCode.ZH, "圣文森特和格林纳丁斯"),
-        };
+        ];
     }
 }

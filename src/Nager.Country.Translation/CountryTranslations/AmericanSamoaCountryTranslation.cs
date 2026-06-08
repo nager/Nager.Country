@@ -6,8 +6,8 @@
     public class AmericanSamoaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ساموا الأمريكية"),
             new TranslationInfo(LanguageCode.AZ, "Amerika Samoası"),
             new TranslationInfo(LanguageCode.BE, "Амерыканскае Самоа"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Американське Самоа"),
             new TranslationInfo(LanguageCode.UZ, "Amerika Samoasi"),
             new TranslationInfo(LanguageCode.ZH, "美属萨摩亚"),
-       };
+       ];
     }
 }

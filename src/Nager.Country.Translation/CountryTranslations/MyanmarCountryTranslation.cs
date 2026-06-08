@@ -6,8 +6,8 @@
     public class MyanmarCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ميانمار"),
             new TranslationInfo(LanguageCode.AZ, "Myanma"),
             new TranslationInfo(LanguageCode.BE, "М’янма (Бірма)"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "М'янма"),
             new TranslationInfo(LanguageCode.UZ, "Myanma (Birma)"),
             new TranslationInfo(LanguageCode.ZH, "缅甸"),
-        };
+        ];
     }
 }

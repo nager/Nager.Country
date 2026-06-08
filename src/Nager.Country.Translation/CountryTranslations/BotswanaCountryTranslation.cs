@@ -6,8 +6,8 @@
     public class BotswanaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بوتسوانا"),
             new TranslationInfo(LanguageCode.AZ, "Botsvana"),
             new TranslationInfo(LanguageCode.BE, "Батсвана"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ботсвана"),
             new TranslationInfo(LanguageCode.UZ, "Botsvana"),
             new TranslationInfo(LanguageCode.ZH, "博茨瓦纳"),
-        };
+        ];
     }
 }

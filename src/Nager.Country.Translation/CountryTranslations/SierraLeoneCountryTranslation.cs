@@ -6,8 +6,8 @@
     public class SierraLeoneCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سيراليون"),
             new TranslationInfo(LanguageCode.AZ, "Syerra-Leone"),
             new TranslationInfo(LanguageCode.BE, "Сьера-Леонэ"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сьєрра-Леоне"),
             new TranslationInfo(LanguageCode.UZ, "Syerra-Leone"),
             new TranslationInfo(LanguageCode.ZH, "塞拉利昂"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class FijiCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "فيجي"),
             new TranslationInfo(LanguageCode.AZ, "Fici"),
             new TranslationInfo(LanguageCode.BE, "Фіджы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Фіджі"),
             new TranslationInfo(LanguageCode.UZ, "Fiji"),
             new TranslationInfo(LanguageCode.ZH, "斐济"),
-        };
+        ];
     }
 }

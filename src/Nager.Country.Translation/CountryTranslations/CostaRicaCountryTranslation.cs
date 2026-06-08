@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Costa Rica
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class CostaRicaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كوستاريكا"),
             new TranslationInfo(LanguageCode.AZ, "Kosta Rika"),
             new TranslationInfo(LanguageCode.BE, "Коста-Рыка"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Коста-Рика"),
             new TranslationInfo(LanguageCode.UZ, "Kosta-Rika"),
             new TranslationInfo(LanguageCode.ZH, "哥斯达黎加"),
-        };
+        ];
     }
 }

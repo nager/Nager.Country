@@ -6,8 +6,8 @@
     public class CzechRepublicCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "التشيك"),
             new TranslationInfo(LanguageCode.AZ, "Çex Respublikası"),
             new TranslationInfo(LanguageCode.BE, "Чэхія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Чехія"),
             new TranslationInfo(LanguageCode.UZ, "Chexiya"),
             new TranslationInfo(LanguageCode.ZH, "捷克"),
-        };
+        ];
     }
 }

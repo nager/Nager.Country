@@ -6,8 +6,8 @@
     public class NorthKoreaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كوريا الشمالية"),
             new TranslationInfo(LanguageCode.AZ, "Şimali Koreya"),
             new TranslationInfo(LanguageCode.BE, "Паўночная Карэя"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "КНДР (Корейська Народно-Демократична Республіка)"),
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Koreya"),
             new TranslationInfo(LanguageCode.ZH, "朝鲜"),
-        };
+        ];
     }
 }

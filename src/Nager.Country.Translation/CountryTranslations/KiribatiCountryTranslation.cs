@@ -6,8 +6,8 @@
     public class KiribatiCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كيريباتي"),
             new TranslationInfo(LanguageCode.AZ, "Kiribati"),
             new TranslationInfo(LanguageCode.BE, "Кірыбаці"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кірибаті"),
             new TranslationInfo(LanguageCode.UZ, "Kiribati"),
             new TranslationInfo(LanguageCode.ZH, "基里巴斯"),
-        };
+        ];
     }
 }

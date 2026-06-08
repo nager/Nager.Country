@@ -6,8 +6,8 @@
     public class TaiwanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تايوان"),
             new TranslationInfo(LanguageCode.AZ, "Tayvan"),
             new TranslationInfo(LanguageCode.BE, "Тайвань"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Республіка Китай"),
             new TranslationInfo(LanguageCode.UZ, "Tayvan"),
             new TranslationInfo(LanguageCode.ZH, "台灣"),
-        };
+        ];
     }
 }

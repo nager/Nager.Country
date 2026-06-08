@@ -6,8 +6,8 @@
     public class EthiopiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "إثيوبيا"),
             new TranslationInfo(LanguageCode.AZ, "Efiopiya"),
             new TranslationInfo(LanguageCode.BE, "Эфіопія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ефіопія"),
             new TranslationInfo(LanguageCode.UZ, "Efiopiya"),
             new TranslationInfo(LanguageCode.ZH, "埃塞俄比亚"),
-        };
+        ];
     }
 }

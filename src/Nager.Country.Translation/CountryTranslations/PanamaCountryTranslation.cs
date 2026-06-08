@@ -6,8 +6,8 @@
     public class PanamaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بنما"),
             new TranslationInfo(LanguageCode.AZ, "Panama"),
             new TranslationInfo(LanguageCode.BE, "Панама"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Панама"),
             new TranslationInfo(LanguageCode.UZ, "Panama"),
             new TranslationInfo(LanguageCode.ZH, "巴拿马"),
-        };
+        ];
     }
 }

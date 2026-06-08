@@ -6,8 +6,8 @@
     public class AntiguaAndBarbudaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "أنتيغوا وباربودا"),
             new TranslationInfo(LanguageCode.AZ, "Antiqua və Barbuda"),
             new TranslationInfo(LanguageCode.BE, "Антыгуа і Барбуда"),
@@ -59,6 +59,6 @@
             new TranslationInfo(LanguageCode.ZH, "安提瓜和巴布达"),
         
        
-       };
+       ];
     }
 }

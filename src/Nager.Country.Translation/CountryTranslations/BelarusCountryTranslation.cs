@@ -6,8 +6,8 @@
     public class BelarusCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بيلاروسيا"),
             new TranslationInfo(LanguageCode.AZ, "Belarus"),
             new TranslationInfo(LanguageCode.BE, "Беларусь"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Білорусь"),
             new TranslationInfo(LanguageCode.UZ, "Belarus"),
             new TranslationInfo(LanguageCode.ZH, "白俄罗斯"),
-        };
+        ];
     }
 }

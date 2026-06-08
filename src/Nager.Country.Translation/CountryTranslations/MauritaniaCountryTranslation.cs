@@ -6,8 +6,8 @@
     public class MauritaniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "موريتانيا"),
             new TranslationInfo(LanguageCode.AZ, "Mavritaniya"),
             new TranslationInfo(LanguageCode.BE, "Маўрытанія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Мавританія"),
             new TranslationInfo(LanguageCode.UZ, "Mavritaniya"),
             new TranslationInfo(LanguageCode.ZH, "毛里塔尼亚"),
-        };
+        ];
     }
 }

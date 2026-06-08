@@ -6,8 +6,8 @@
     public class SaoTomeAndPrincipeCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ساو تومي وبرينسيب"),
             new TranslationInfo(LanguageCode.AZ, "San-Tome və Prinsipi"),
             new TranslationInfo(LanguageCode.BE, "Сан-Тамэ і Прынсіпі"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сан-Томе і Принсіпі"),
             new TranslationInfo(LanguageCode.UZ, "San-Tome va Prinsipi"),
             new TranslationInfo(LanguageCode.ZH, "圣多美和普林西比"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class SriLankaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سريلانكا"),
             new TranslationInfo(LanguageCode.AZ, "Şri-Lanka"),
             new TranslationInfo(LanguageCode.BE, "Шры-Ланка"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Шрі-Ланка"),
             new TranslationInfo(LanguageCode.UZ, "Shri-Lanka"),
             new TranslationInfo(LanguageCode.ZH, "斯里兰卡"),
-        };
+        ];
     }
 }

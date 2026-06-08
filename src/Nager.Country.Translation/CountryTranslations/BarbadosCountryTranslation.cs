@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class BarbadosCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "باربادوس"),
             new TranslationInfo(LanguageCode.AZ, "Barbados"),
             new TranslationInfo(LanguageCode.BE, "Барбадас"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Барбадос"),
             new TranslationInfo(LanguageCode.UZ, "Barbados"),
             new TranslationInfo(LanguageCode.ZH, "巴巴多斯"),
-        };
+        ];
     }
 }

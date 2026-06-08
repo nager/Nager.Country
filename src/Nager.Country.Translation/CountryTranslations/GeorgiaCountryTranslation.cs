@@ -6,8 +6,8 @@
     public class GeorgiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جورجيا"),
             new TranslationInfo(LanguageCode.AZ, "Gürcüstan"),
             new TranslationInfo(LanguageCode.BE, "Грузія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Грузія"),
             new TranslationInfo(LanguageCode.UZ, "Gruziya"),
             new TranslationInfo(LanguageCode.ZH, "格鲁吉亚"),
-        };
+        ];
     }
 }

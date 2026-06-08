@@ -6,8 +6,8 @@
     public class RepublicOfTheCongoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جمهورية الكونغو"),
             new TranslationInfo(LanguageCode.AZ, "Konqo-Brazzavil"),
             new TranslationInfo(LanguageCode.BE, "Конга-Бразавіль"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Республіка Конго"),
             new TranslationInfo(LanguageCode.UZ, "Kongo-Brazzavil"),
             new TranslationInfo(LanguageCode.ZH, "刚果"),
-        };
+        ];
     }
 }

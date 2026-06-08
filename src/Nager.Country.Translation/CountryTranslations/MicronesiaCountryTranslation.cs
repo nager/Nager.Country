@@ -6,8 +6,8 @@
     public class MicronesiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ميكرونيسيا"),
             new TranslationInfo(LanguageCode.AZ, "Mikroneziya"),
             new TranslationInfo(LanguageCode.BE, "Мікранезія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Мікронезія"),
             new TranslationInfo(LanguageCode.UZ, "Mikroneziya"),
             new TranslationInfo(LanguageCode.ZH, "密克罗尼西亚"),
-        };
+        ];
     }
 }

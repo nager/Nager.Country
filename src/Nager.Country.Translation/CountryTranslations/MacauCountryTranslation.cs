@@ -6,8 +6,8 @@
     public class MacauCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ماكاو"),
             new TranslationInfo(LanguageCode.AZ, "Makao"),
             new TranslationInfo(LanguageCode.BE, "Макаа, САР (Кітай)"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Аоминь"),
             new TranslationInfo(LanguageCode.UZ, "Makao (Xitoy MMH)"),
             new TranslationInfo(LanguageCode.ZH, "澳门"),
-        };
+        ];
     }
 }

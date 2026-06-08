@@ -6,8 +6,8 @@
     public class FalklandIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر فوكلاند"),
             new TranslationInfo(LanguageCode.AZ, "Folklend adaları"),
             new TranslationInfo(LanguageCode.BE, "Фалклендскія астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Фолклендські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Folklend orollari"),
             new TranslationInfo(LanguageCode.ZH, "福克兰群岛"),
-        };
+        ];
     }
 }

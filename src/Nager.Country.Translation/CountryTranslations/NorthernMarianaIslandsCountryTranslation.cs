@@ -6,8 +6,8 @@
     public class NorthernMarianaIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر ماريانا الشمالية"),
             new TranslationInfo(LanguageCode.AZ, "Şimali Marian adaları"),
             new TranslationInfo(LanguageCode.BE, "Паўночныя Марыянскія астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Північні Маріанські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Mariana orollari"),
             new TranslationInfo(LanguageCode.ZH, "北马里亚纳群岛"),
-        };
+        ];
     }
 }

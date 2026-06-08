@@ -6,8 +6,8 @@
     public class BurkinaFasoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بوركينا فاسو"),
             new TranslationInfo(LanguageCode.AZ, "Burkina Faso"),
             new TranslationInfo(LanguageCode.BE, "Буркіна-Фасо"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Буркіна-Фасо"),
             new TranslationInfo(LanguageCode.UZ, "Burkina-Faso"),
             new TranslationInfo(LanguageCode.ZH, "布基纳法索"),
-        };
+        ];
     }
 }

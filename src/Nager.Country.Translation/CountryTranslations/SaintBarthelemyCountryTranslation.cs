@@ -6,8 +6,8 @@
     public class SaintBarthelemyCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سان بارتليمي"),
             new TranslationInfo(LanguageCode.AZ, "Sent-Bartelemi"),
             new TranslationInfo(LanguageCode.BE, "Сен-Бартэльмі"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сен-Бартельмі"),
             new TranslationInfo(LanguageCode.UZ, "Sen-Bartelemi"),
             new TranslationInfo(LanguageCode.ZH, "圣巴泰勒米"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class KuwaitCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الكويت"),
             new TranslationInfo(LanguageCode.AZ, "Küveyt"),
             new TranslationInfo(LanguageCode.BE, "Кувейт"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кувейт"),
             new TranslationInfo(LanguageCode.UZ, "Quvayt"),
             new TranslationInfo(LanguageCode.ZH, "科威特"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class BritishIndianOceanTerritoryCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "إقليم المحيط الهندي البريطاني"),
             new TranslationInfo(LanguageCode.AZ, "Britaniyanın Hind Okeanı Ərazisi"),
             new TranslationInfo(LanguageCode.BE, "Брытанская тэрыторыя ў Індыйскім акіяне"),
@@ -56,6 +56,6 @@
             new TranslationInfo(LanguageCode.UK, "Британська Територія в Індійському Океані"),
             new TranslationInfo(LanguageCode.UZ, "Britaniyaning Hind okeanidagi hududi"),
             new TranslationInfo(LanguageCode.ZH, "英属印度洋领地"),
-        };
+        ];
     }
 }

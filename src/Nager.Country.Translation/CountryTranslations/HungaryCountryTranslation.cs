@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Hungary
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class HungaryCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "المجر"),
             new TranslationInfo(LanguageCode.AZ, "Macarıstan"),
             new TranslationInfo(LanguageCode.BE, "Венгрыя"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Угорщина"),
             new TranslationInfo(LanguageCode.UZ, "Vengriya"),
             new TranslationInfo(LanguageCode.ZH, "匈牙利"),
-        };
+        ];
     }
 }

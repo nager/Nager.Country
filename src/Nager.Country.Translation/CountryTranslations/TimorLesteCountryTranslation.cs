@@ -6,8 +6,8 @@
     public class TimorLesteCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تيمور الشرقية"),
             new TranslationInfo(LanguageCode.AZ, "Şərqi Timor"),
             new TranslationInfo(LanguageCode.BE, "Тымор-Лешці"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Східний Тимор"),
             new TranslationInfo(LanguageCode.UZ, "Timor-Leste"),
             new TranslationInfo(LanguageCode.ZH, "东帝汶"),
-        };
+        ];
     }
 }

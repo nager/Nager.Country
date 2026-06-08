@@ -6,8 +6,8 @@
     public class CocosIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر كوكوس"),
             new TranslationInfo(LanguageCode.AZ, "Kokos (Kilinq) adaları"),
             new TranslationInfo(LanguageCode.BE, "Какосавыя (Кілінг) астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кокосові острови"),
             new TranslationInfo(LanguageCode.UZ, "Kokos (Kiling) orollari"),
             new TranslationInfo(LanguageCode.ZH, "科科斯"),
-        };
+        ];
     }
 }

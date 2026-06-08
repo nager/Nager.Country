@@ -6,8 +6,8 @@
     public class AntarcticaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "أنتارتيكا"),
             new TranslationInfo(LanguageCode.AZ, "Antarktika"),
             new TranslationInfo(LanguageCode.BE, "Антарктыка"),
@@ -58,6 +58,6 @@
             new TranslationInfo(LanguageCode.UZ, "Antarktida"),
             new TranslationInfo(LanguageCode.ZH, "南极洲"),
         
-       };
+       ];
     }
 }

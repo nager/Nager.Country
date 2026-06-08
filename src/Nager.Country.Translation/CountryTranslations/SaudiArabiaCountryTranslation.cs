@@ -6,8 +6,8 @@
     public class SaudiArabiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "السعودية"),
             new TranslationInfo(LanguageCode.AZ, "Səudiyyə Ərəbistanı"),
             new TranslationInfo(LanguageCode.BE, "Саудаўская Аравія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Саудівська Аравія"),
             new TranslationInfo(LanguageCode.UZ, "Saudiya Arabistoni"),
             new TranslationInfo(LanguageCode.ZH, "沙特阿拉伯"),
-        };
+        ];
     }
 }

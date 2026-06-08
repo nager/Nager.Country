@@ -6,8 +6,8 @@
     public class AzerbaijanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "أذربيجان"),
             new TranslationInfo(LanguageCode.AZ, "Azərbaycan"),
             new TranslationInfo(LanguageCode.BE, "Азербайджан"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Азербайджан"),
             new TranslationInfo(LanguageCode.UZ, "Ozarbayjon"),
             new TranslationInfo(LanguageCode.ZH, "阿塞拜疆"),
-        };
+        ];
     }
 }

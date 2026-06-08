@@ -6,8 +6,8 @@
     public class AlandIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر أولاند"),
             new TranslationInfo(LanguageCode.AZ, "Aland adaları"),
             new TranslationInfo(LanguageCode.BE, "Аландскія астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Аландські острови"),
             new TranslationInfo(LanguageCode.UZ, "Aland orollari"),
             new TranslationInfo(LanguageCode.ZH, "奥兰群岛"),
-       };
+        ];
     }
 }

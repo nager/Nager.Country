@@ -6,8 +6,8 @@
     public class DominicanRepublicCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جمهورية الدومينيكان"),
             new TranslationInfo(LanguageCode.AZ, "Dominikan Respublikası"),
             new TranslationInfo(LanguageCode.BE, "Дамініканская Рэспубліка"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Домініканська Республіка"),
             new TranslationInfo(LanguageCode.UZ, "Dominikan Respublikasi"),
             new TranslationInfo(LanguageCode.ZH, "多明尼加"),
-        };
+        ];
     }
 }

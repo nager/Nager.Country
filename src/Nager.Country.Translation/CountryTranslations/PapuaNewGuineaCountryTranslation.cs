@@ -6,8 +6,8 @@
     public class PapuaNewGuineaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بابوا غينيا الجديدة"),
             new TranslationInfo(LanguageCode.AZ, "Papua-Yeni Qvineya"),
             new TranslationInfo(LanguageCode.BE, "Папуа-Новая Гвінея"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Папуа Нова Гвінея"),
             new TranslationInfo(LanguageCode.UZ, "Papua-Yangi Gvineya"),
             new TranslationInfo(LanguageCode.ZH, "巴布亚新几内亚"),
-        };
+        ];
     }
 }

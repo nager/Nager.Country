@@ -6,8 +6,8 @@
     public class GreenlandCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جرينلاند"),
             new TranslationInfo(LanguageCode.AZ, "Qrenlandiya"),
             new TranslationInfo(LanguageCode.BE, "Грэнландыя"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ґренландія"),
             new TranslationInfo(LanguageCode.UZ, "Grenlandiya"),
             new TranslationInfo(LanguageCode.ZH, "格陵兰"),
-        };
+        ];
     }
 }

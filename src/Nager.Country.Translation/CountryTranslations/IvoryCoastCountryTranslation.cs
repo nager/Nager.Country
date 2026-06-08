@@ -6,8 +6,8 @@
     public class IvoryCoastCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ساحل العاج"),
             new TranslationInfo(LanguageCode.AZ, "Kotd’ivuar"),
             new TranslationInfo(LanguageCode.BE, "Кот-д’Івуар"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кот-д'Івуар"),
             new TranslationInfo(LanguageCode.UZ, "Kot-d’Ivuar"),
             new TranslationInfo(LanguageCode.ZH, "科特迪瓦"),
-        };
+        ];
     }
 }

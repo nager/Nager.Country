@@ -6,8 +6,8 @@
     public class LaosCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "لاوس"),
             new TranslationInfo(LanguageCode.AZ, "Laos"),
             new TranslationInfo(LanguageCode.BE, "Лаос"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Лаос"),
             new TranslationInfo(LanguageCode.UZ, "Laos"),
             new TranslationInfo(LanguageCode.ZH, "老挝"),
-        };
+        ];
     }
 }

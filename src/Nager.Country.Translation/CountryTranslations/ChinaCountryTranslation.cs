@@ -6,8 +6,8 @@
     public class ChinaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الصين"),
             new TranslationInfo(LanguageCode.AZ, "Çin"),
             new TranslationInfo(LanguageCode.BE, "Кітай"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "КНР (Китайська Народна Республіка)"),
             new TranslationInfo(LanguageCode.UZ, "Xitoy"),
             new TranslationInfo(LanguageCode.ZH, "中国"),
-        };
+        ];
     }
 }

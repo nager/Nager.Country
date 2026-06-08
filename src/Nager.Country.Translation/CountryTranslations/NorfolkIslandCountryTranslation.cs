@@ -6,8 +6,8 @@
     public class NorfolkIslandCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزيرة نورفولك"),
             new TranslationInfo(LanguageCode.AZ, "Norfolk adası"),
             new TranslationInfo(LanguageCode.BE, "Востраў Норфалк"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Острів Норфолк"),
             new TranslationInfo(LanguageCode.UZ, "Norfolk oroli"),
             new TranslationInfo(LanguageCode.ZH, "诺福克岛"),
-        };
+        ];
     }
 }

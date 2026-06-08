@@ -6,8 +6,8 @@
     public class PalauCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بالاو"),
             new TranslationInfo(LanguageCode.AZ, "Palau"),
             new TranslationInfo(LanguageCode.BE, "Палау"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Палау"),
             new TranslationInfo(LanguageCode.UZ, "Palau"),
             new TranslationInfo(LanguageCode.ZH, "帕劳"),
-        };
+        ];
     }
 }

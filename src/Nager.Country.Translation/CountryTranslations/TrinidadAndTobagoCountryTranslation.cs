@@ -6,8 +6,8 @@
     public class TrinidadAndTobagoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ترينيداد وتوباغو"),
             new TranslationInfo(LanguageCode.AZ, "Trinidad və Tobaqo"),
             new TranslationInfo(LanguageCode.BE, "Трынідад і Табага"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Тринідад і Тобаго"),
             new TranslationInfo(LanguageCode.UZ, "Trinidad va Tobago"),
             new TranslationInfo(LanguageCode.ZH, "特立尼达和多巴哥"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class SlovakiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سلوفاكيا"),
             new TranslationInfo(LanguageCode.AZ, "Slovakiya"),
             new TranslationInfo(LanguageCode.BE, "Славакія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Словаччина"),
             new TranslationInfo(LanguageCode.UZ, "Slovakiya"),
             new TranslationInfo(LanguageCode.ZH, "斯洛伐克"),
-        };
+        ];
     }
 }

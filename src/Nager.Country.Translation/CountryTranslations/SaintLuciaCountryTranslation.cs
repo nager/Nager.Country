@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Saint Lucia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SaintLuciaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سانت لوسيا"),
             new TranslationInfo(LanguageCode.AZ, "Sent-Lusiya"),
             new TranslationInfo(LanguageCode.BE, "Сент-Люсія"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Сент-Люсія"),
             new TranslationInfo(LanguageCode.UZ, "Sent-Lyusiya"),
             new TranslationInfo(LanguageCode.ZH, "圣卢西亚"),
-        };
+        ];
     }
 }

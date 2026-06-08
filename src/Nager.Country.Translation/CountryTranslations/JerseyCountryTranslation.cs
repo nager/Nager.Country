@@ -6,8 +6,8 @@
     public class JerseyCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جيرزي"),
             new TranslationInfo(LanguageCode.AZ, "Cersi"),
             new TranslationInfo(LanguageCode.BE, "Джэрсі"),
@@ -56,6 +56,6 @@
             new TranslationInfo(LanguageCode.UK, "Джерсі"),
             new TranslationInfo(LanguageCode.UZ, "Jersi"),
             new TranslationInfo(LanguageCode.ZH, "泽西岛"),
-        };
+        ];
     }
 }

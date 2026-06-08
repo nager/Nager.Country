@@ -6,8 +6,8 @@
     public class BermudaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "برمودا"),
             new TranslationInfo(LanguageCode.AZ, "Bermud adaları"),
             new TranslationInfo(LanguageCode.BE, "Бермудскія астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Бермуди"),
             new TranslationInfo(LanguageCode.UZ, "Bermuda orollari"),
             new TranslationInfo(LanguageCode.ZH, "百慕大"),
-        };
+        ];
     }
 }

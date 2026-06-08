@@ -6,8 +6,8 @@
     public class HongKongCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "هونغ كونغ"),
             new TranslationInfo(LanguageCode.AZ, "Honq Konq"),
             new TranslationInfo(LanguageCode.BE, "Ганконг, САР (Кітай)"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Гонконг"),
             new TranslationInfo(LanguageCode.UZ, "Gonkong (Xitoy MMH)"),
             new TranslationInfo(LanguageCode.ZH, "香港"),
-        };
+        ];
     }
 }

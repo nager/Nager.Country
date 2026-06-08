@@ -6,8 +6,8 @@
     public class MadagascarCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مدغشقر"),
             new TranslationInfo(LanguageCode.AZ, "Madaqaskar"),
             new TranslationInfo(LanguageCode.BE, "Мадагаскар"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Мадагаскар"),
             new TranslationInfo(LanguageCode.UZ, "Madagaskar"),
             new TranslationInfo(LanguageCode.ZH, "马达加斯加"),
-        };
+        ];
     }
 }

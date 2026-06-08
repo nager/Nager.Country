@@ -6,8 +6,8 @@
     public class LiberiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليبيريا"),
             new TranslationInfo(LanguageCode.AZ, "Liberiya"),
             new TranslationInfo(LanguageCode.BE, "Ліберыя"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ліберія"),
             new TranslationInfo(LanguageCode.UZ, "Liberiya"),
             new TranslationInfo(LanguageCode.ZH, "利比里亚"),
-        };
+        ];
     }
 }

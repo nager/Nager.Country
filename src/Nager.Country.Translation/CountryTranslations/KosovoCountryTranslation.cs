@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Kosovo (partially recognized; not a UN member state)
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class KosovoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.DE, "Kosovo"),
             new TranslationInfo(LanguageCode.EN, "Kosovo"),
             new TranslationInfo(LanguageCode.ES, "Kosovo"),
@@ -23,6 +23,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.RO, "Kosovo"),
             new TranslationInfo(LanguageCode.TR, "Kosova"),
             new TranslationInfo(LanguageCode.UK, "Косово"),
-        };
+        ];
     }
 }

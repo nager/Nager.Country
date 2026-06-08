@@ -6,8 +6,8 @@
     public class SouthAfricaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جنوب أفريقيا"),
             new TranslationInfo(LanguageCode.AZ, "Cənub Afrika"),
             new TranslationInfo(LanguageCode.BE, "Паўднёваафрыканская Рэспубліка"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "ПАР"),
             new TranslationInfo(LanguageCode.UZ, "Janubiy Afrika Respublikasi"),
             new TranslationInfo(LanguageCode.ZH, "南非"),
-        };
+        ];
     }
 }

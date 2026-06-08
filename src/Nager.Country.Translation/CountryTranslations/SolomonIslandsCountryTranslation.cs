@@ -6,8 +6,8 @@
     public class SolomonIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر سليمان"),
             new TranslationInfo(LanguageCode.AZ, "Solomon adaları"),
             new TranslationInfo(LanguageCode.BE, "Саламонавы Астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Соломонові Острови"),
             new TranslationInfo(LanguageCode.UZ, "Solomon orollari"),
             new TranslationInfo(LanguageCode.ZH, "所罗门群岛"),
-        };
+        ];
     }
 }

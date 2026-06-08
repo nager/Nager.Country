@@ -6,8 +6,8 @@
     public class NewCaledoniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كاليدونيا الجديدة"),
             new TranslationInfo(LanguageCode.AZ, "Yeni Kaledoniya"),
             new TranslationInfo(LanguageCode.BE, "Новая Каледонія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Нова Каледонія"),
             new TranslationInfo(LanguageCode.UZ, "Yangi Kaledoniya"),
             new TranslationInfo(LanguageCode.ZH, "新喀里多尼亚"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class CookIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر كوك"),
             new TranslationInfo(LanguageCode.AZ, "Kuk adaları"),
             new TranslationInfo(LanguageCode.BE, "Астравы Кука"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Острови Кука"),
             new TranslationInfo(LanguageCode.UZ, "Kuk orollari"),
             new TranslationInfo(LanguageCode.ZH, "库克群岛"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class SintMaartenCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سينت مارتن"),
             new TranslationInfo(LanguageCode.AZ, "Sint-Marten"),
             new TranslationInfo(LanguageCode.BE, "Сінт-Мартэн"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сінт-Мартен"),
             new TranslationInfo(LanguageCode.UZ, "Sint-Marten"),
             new TranslationInfo(LanguageCode.ZH, "圣马丁岛"),
-        };
+        ];
     }
 }

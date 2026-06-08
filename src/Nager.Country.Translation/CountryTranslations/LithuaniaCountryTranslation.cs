@@ -6,8 +6,8 @@
     public class LithuaniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليتوانيا"),
             new TranslationInfo(LanguageCode.AZ, "Litva"),
             new TranslationInfo(LanguageCode.BE, "Літва"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Литва"),
             new TranslationInfo(LanguageCode.UZ, "Litva"),
             new TranslationInfo(LanguageCode.ZH, "立陶宛"),
-        };
+        ];
     }
 }

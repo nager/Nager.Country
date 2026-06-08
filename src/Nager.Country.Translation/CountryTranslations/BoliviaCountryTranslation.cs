@@ -6,8 +6,8 @@
     public class BoliviaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بوليفيا"),
             new TranslationInfo(LanguageCode.AZ, "Boliviya"),
             new TranslationInfo(LanguageCode.BE, "Балівія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Болівія"),
             new TranslationInfo(LanguageCode.UZ, "Boliviya"),
             new TranslationInfo(LanguageCode.ZH, "玻利维亚"),
-        };
+        ];
     }
 }

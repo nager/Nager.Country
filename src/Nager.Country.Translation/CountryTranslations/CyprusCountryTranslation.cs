@@ -6,8 +6,8 @@
     public class CyprusCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "قبرص"),
             new TranslationInfo(LanguageCode.AZ, "Kipr"),
             new TranslationInfo(LanguageCode.BE, "Кіпр"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кіпр"),
             new TranslationInfo(LanguageCode.UZ, "Kipr"),
             new TranslationInfo(LanguageCode.ZH, "塞浦路斯"),
-        };
+        ];
     }
 }

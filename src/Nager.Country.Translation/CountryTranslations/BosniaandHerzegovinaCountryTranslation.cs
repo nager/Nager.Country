@@ -6,8 +6,8 @@
     public class BosniaandHerzegovinaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "البوسنة والهرسك"),
             new TranslationInfo(LanguageCode.AZ, "Bosniya və Herseqovina"),
             new TranslationInfo(LanguageCode.BE, "Боснія і Герцагавіна"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Боснія і Герцеговина"),
             new TranslationInfo(LanguageCode.UZ, "Bosniya va Gertsegovina"),
             new TranslationInfo(LanguageCode.ZH, "波斯尼亚和黑塞哥维那"),
-        };
+        ];
     }
 }

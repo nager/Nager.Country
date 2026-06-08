@@ -6,8 +6,8 @@
     public class AngolaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جمهورية أنغولا"),
             new TranslationInfo(LanguageCode.AZ, "Anqola"),
             new TranslationInfo(LanguageCode.BE, "Ангола"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ангола"),
             new TranslationInfo(LanguageCode.UZ, "Angola"),
             new TranslationInfo(LanguageCode.ZH, "安哥拉"),
-       };
+       ];
     }
 }

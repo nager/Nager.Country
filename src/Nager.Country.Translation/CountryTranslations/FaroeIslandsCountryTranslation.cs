@@ -6,8 +6,8 @@
     public class FaroeIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر فارو"),
             new TranslationInfo(LanguageCode.AZ, "Farer adaları"),
             new TranslationInfo(LanguageCode.BE, "Фарэрскія астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Фарерські острови"),
             new TranslationInfo(LanguageCode.UZ, "Farer orollari"),
             new TranslationInfo(LanguageCode.ZH, "法罗群岛"),
-        };
+        ];
     }
 }

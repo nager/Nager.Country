@@ -6,8 +6,8 @@
     public class GuamCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غوام"),
             new TranslationInfo(LanguageCode.AZ, "Quam"),
             new TranslationInfo(LanguageCode.BE, "Гуам"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Гуам"),
             new TranslationInfo(LanguageCode.UZ, "Guam"),
             new TranslationInfo(LanguageCode.ZH, "关岛"),
-        };
+        ];
     }
 }

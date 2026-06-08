@@ -6,8 +6,8 @@
     public class ElSalvadorCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "السلفادور"),
             new TranslationInfo(LanguageCode.AZ, "Salvador"),
             new TranslationInfo(LanguageCode.BE, "Сальвадор"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сальвадор"),
             new TranslationInfo(LanguageCode.UZ, "Salvador"),
             new TranslationInfo(LanguageCode.ZH, "萨尔瓦多"),
-        };
+        ];
     }
 }

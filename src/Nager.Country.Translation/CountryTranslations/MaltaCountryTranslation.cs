@@ -6,8 +6,8 @@
     public class MaltaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مالطا"),
             new TranslationInfo(LanguageCode.AZ, "Malta"),
             new TranslationInfo(LanguageCode.BE, "Мальта"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Мальта"),
             new TranslationInfo(LanguageCode.UZ, "Malta"),
             new TranslationInfo(LanguageCode.ZH, "马耳他"),
-        };
+        ];
     }
 }

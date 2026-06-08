@@ -6,8 +6,8 @@
     public class SanMarinoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سان مارينو"),
             new TranslationInfo(LanguageCode.AZ, "San-Marino"),
             new TranslationInfo(LanguageCode.BE, "Сан-Марына"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сан-Маріно"),
             new TranslationInfo(LanguageCode.UZ, "San-Marino"),
             new TranslationInfo(LanguageCode.ZH, "圣马力诺"),
-        };
+        ];
     }
 }

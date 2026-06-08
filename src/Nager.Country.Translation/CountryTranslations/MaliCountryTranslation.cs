@@ -6,8 +6,8 @@
     public class MaliCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مالي"),
             new TranslationInfo(LanguageCode.AZ, "Mali"),
             new TranslationInfo(LanguageCode.BE, "Малі"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Малі"),
             new TranslationInfo(LanguageCode.UZ, "Mali"),
             new TranslationInfo(LanguageCode.ZH, "马里"),
-        };
+        ];
     }
 }

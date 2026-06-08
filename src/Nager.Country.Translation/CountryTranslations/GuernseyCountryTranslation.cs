@@ -6,8 +6,8 @@
     public class GuernseyCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غيرنزي"),
             new TranslationInfo(LanguageCode.AZ, "Gernsi"),
             new TranslationInfo(LanguageCode.BE, "Гернсі"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Гернсі"),
             new TranslationInfo(LanguageCode.UZ, "Gernsi"),
             new TranslationInfo(LanguageCode.ZH, "根西岛"),
-        };
+        ];
     }
 }

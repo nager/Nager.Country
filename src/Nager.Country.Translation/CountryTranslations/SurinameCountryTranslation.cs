@@ -6,8 +6,8 @@
     public class SurinameCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سورينام"),
             new TranslationInfo(LanguageCode.AZ, "Surinam"),
             new TranslationInfo(LanguageCode.BE, "Сурынам"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Суринам"),
             new TranslationInfo(LanguageCode.UZ, "Surinam"),
             new TranslationInfo(LanguageCode.ZH, "苏里南"),
-        };
+        ];
     }
 }

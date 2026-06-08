@@ -6,8 +6,8 @@
     public class NorthMacedoniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "شمال مقدونيا"),
             new TranslationInfo(LanguageCode.AZ, "Şimali Makedoniya"),
             new TranslationInfo(LanguageCode.BE, "Паўночная Македонія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Північна Македонія"),
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Makedoniya"),
             new TranslationInfo(LanguageCode.ZH, "北馬其頓"),
-        };
+        ];
     }
 }

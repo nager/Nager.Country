@@ -6,8 +6,8 @@
     public class NiueCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "نييوي"),
             new TranslationInfo(LanguageCode.AZ, "Niue"),
             new TranslationInfo(LanguageCode.BE, "Ніуэ"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ніуе"),
             new TranslationInfo(LanguageCode.UZ, "Niue"),
             new TranslationInfo(LanguageCode.ZH, "纽埃"),
-        };
+        ];
     }
 }

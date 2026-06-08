@@ -6,8 +6,8 @@
     public class TunisiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تونس"),
             new TranslationInfo(LanguageCode.AZ, "Tunis"),
             new TranslationInfo(LanguageCode.BE, "Туніс"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Туніс"),
             new TranslationInfo(LanguageCode.UZ, "Tunis"),
             new TranslationInfo(LanguageCode.ZH, "突尼斯"),
-        };
+        ];
     }
 }

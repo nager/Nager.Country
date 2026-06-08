@@ -6,8 +6,8 @@
     public class GuatemalaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غواتيمالا"),
             new TranslationInfo(LanguageCode.AZ, "Qvatemala"),
             new TranslationInfo(LanguageCode.BE, "Гватэмала"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Гватемала"),
             new TranslationInfo(LanguageCode.UZ, "Gvatemala"),
             new TranslationInfo(LanguageCode.ZH, "危地马拉"),
-        };
+        ];
     }
 }

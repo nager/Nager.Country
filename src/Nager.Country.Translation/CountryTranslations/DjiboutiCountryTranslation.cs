@@ -6,8 +6,8 @@
     public class DjiboutiCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جيبوتي"),
             new TranslationInfo(LanguageCode.AZ, "Cibuti"),
             new TranslationInfo(LanguageCode.BE, "Джыбуці"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Джибуті"),
             new TranslationInfo(LanguageCode.UZ, "Jibuti"),
             new TranslationInfo(LanguageCode.ZH, "吉布提"),
-        };
+        ];
     }
 }

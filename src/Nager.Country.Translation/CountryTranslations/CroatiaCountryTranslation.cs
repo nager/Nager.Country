@@ -6,8 +6,8 @@
     public class CroatiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كرواتيا"),
             new TranslationInfo(LanguageCode.AZ, "Xorvatiya"),
             new TranslationInfo(LanguageCode.BE, "Харватыя"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Хорватія"),
             new TranslationInfo(LanguageCode.UZ, "Xorvatiya"),
             new TranslationInfo(LanguageCode.ZH, "克罗地亚"),
-        };
+        ];
     }
 }

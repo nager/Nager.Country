@@ -6,8 +6,8 @@
     public class ZimbabweCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "زيمبابوي"),
             new TranslationInfo(LanguageCode.AZ, "Zimbabve"),
             new TranslationInfo(LanguageCode.BE, "Зімбабвэ"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Зімбабве"),
             new TranslationInfo(LanguageCode.UZ, "Zimbabve"),
             new TranslationInfo(LanguageCode.ZH, "津巴布韦"),
-        };
+        ];
     }
 }

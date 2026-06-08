@@ -6,8 +6,8 @@
     public class RomaniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "رومانيا"),
             new TranslationInfo(LanguageCode.AZ, "Rumıniya"),
             new TranslationInfo(LanguageCode.BE, "Румынія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Румунія"),
             new TranslationInfo(LanguageCode.UZ, "Ruminiya"),
             new TranslationInfo(LanguageCode.ZH, "罗马尼亚"),
-        };
+        ];
     }
 }

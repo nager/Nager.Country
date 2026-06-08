@@ -6,8 +6,8 @@
     public class BeninCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بنين"),
             new TranslationInfo(LanguageCode.AZ, "Benin"),
             new TranslationInfo(LanguageCode.BE, "Бенін"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Бенін"),
             new TranslationInfo(LanguageCode.UZ, "Benin"),
             new TranslationInfo(LanguageCode.ZH, "贝宁"),
-        };
+        ];
     }
 }

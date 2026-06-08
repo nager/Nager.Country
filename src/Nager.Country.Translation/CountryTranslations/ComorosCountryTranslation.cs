@@ -6,8 +6,8 @@
     public class ComorosCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر القمر"),
             new TranslationInfo(LanguageCode.AZ, "Komor adaları"),
             new TranslationInfo(LanguageCode.BE, "Каморскія Астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Коморські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Komor orollari"),
             new TranslationInfo(LanguageCode.ZH, "科摩罗"),
-        };
+        ];
     }
 }

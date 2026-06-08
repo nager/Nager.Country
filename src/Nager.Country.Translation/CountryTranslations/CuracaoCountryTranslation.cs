@@ -6,8 +6,8 @@
     public class CuracaoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كوراساو"),
             new TranslationInfo(LanguageCode.AZ, "Kurasao"),
             new TranslationInfo(LanguageCode.BE, "Кюрасаа"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кюрасао"),
             new TranslationInfo(LanguageCode.UZ, "Kyurasao"),
             new TranslationInfo(LanguageCode.ZH, "库拉索"),
-        };
+        ];
     }
 }

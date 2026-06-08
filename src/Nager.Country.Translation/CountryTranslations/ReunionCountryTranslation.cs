@@ -6,8 +6,8 @@
     public class ReunionCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "لا ريونيون"),
             new TranslationInfo(LanguageCode.AZ, "Reyunyon"),
             new TranslationInfo(LanguageCode.BE, "Рэюньён"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Реюньйон"),
             new TranslationInfo(LanguageCode.UZ, "Reyunion"),
             new TranslationInfo(LanguageCode.ZH, "留尼旺岛"),
-        };
+        ];
     }
 }

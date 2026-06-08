@@ -6,8 +6,8 @@
     public class IsraelCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "إسرائيل"),
             new TranslationInfo(LanguageCode.AZ, "İsrail"),
             new TranslationInfo(LanguageCode.BE, "Ізраіль"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ізраїль"),
             new TranslationInfo(LanguageCode.UZ, "Isroil"),
             new TranslationInfo(LanguageCode.ZH, "以色列"),
-        };
+        ];
     }
 }

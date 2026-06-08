@@ -6,8 +6,8 @@
     public class KenyaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كينيا"),
             new TranslationInfo(LanguageCode.AZ, "Keniya"),
             new TranslationInfo(LanguageCode.BE, "Кенія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Кенія"),
             new TranslationInfo(LanguageCode.UZ, "Keniya"),
             new TranslationInfo(LanguageCode.ZH, "肯尼亚"),
-        };
+        ];
     }
 }

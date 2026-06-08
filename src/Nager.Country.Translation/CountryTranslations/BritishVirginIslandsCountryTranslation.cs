@@ -6,8 +6,8 @@
     public class BritishVirginIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر العذراء"),
             new TranslationInfo(LanguageCode.AZ, "Britaniyanın Virgin adaları"),
             new TranslationInfo(LanguageCode.BE, "Брытанскія Віргінскія астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Британські Віргінські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Britaniya Virgin orollari"),
             new TranslationInfo(LanguageCode.ZH, "英属维尔京群岛"),
-        };
+        ];
     }
 }

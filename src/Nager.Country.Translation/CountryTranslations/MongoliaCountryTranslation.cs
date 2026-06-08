@@ -6,8 +6,8 @@
     public class MongoliaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "منغوليا"),
             new TranslationInfo(LanguageCode.AZ, "Monqolustan"),
             new TranslationInfo(LanguageCode.BE, "Манголія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Монголія"),
             new TranslationInfo(LanguageCode.UZ, "Mongoliya"),
             new TranslationInfo(LanguageCode.ZH, "蒙古"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class VaticanCityCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مدينة الفاتيكان"),
             new TranslationInfo(LanguageCode.AZ, "Vatikan"),
             new TranslationInfo(LanguageCode.BE, "Ватыкан"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ватикан"),
             new TranslationInfo(LanguageCode.UZ, "Vatikan"),
             new TranslationInfo(LanguageCode.ZH, "梵蒂冈"),
-        };
+        ];
     }
 }

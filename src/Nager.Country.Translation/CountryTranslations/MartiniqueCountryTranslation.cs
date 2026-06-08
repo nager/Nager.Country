@@ -6,8 +6,8 @@
     public class MartiniqueCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مارتينيك"),
             new TranslationInfo(LanguageCode.AZ, "Martinik"),
             new TranslationInfo(LanguageCode.BE, "Марцініка"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Мартиніка"),
             new TranslationInfo(LanguageCode.UZ, "Martinika"),
             new TranslationInfo(LanguageCode.ZH, "马提尼克"),
-        };
+        ];
     }
 }

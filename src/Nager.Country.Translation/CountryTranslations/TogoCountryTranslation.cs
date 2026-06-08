@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Togo
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class TogoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "توغو"),
             new TranslationInfo(LanguageCode.AZ, "Toqo"),
             new TranslationInfo(LanguageCode.BE, "Тога"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Того"),
             new TranslationInfo(LanguageCode.UZ, "Togo"),
             new TranslationInfo(LanguageCode.ZH, "多哥"),
-        };
+        ];
     }
 }

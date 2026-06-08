@@ -6,8 +6,8 @@
     public class UnitedKingdomCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "المملكة المتحدة"),
             new TranslationInfo(LanguageCode.AZ, "Birləşmiş Krallıq"),
             new TranslationInfo(LanguageCode.BE, "Вялікабрытанія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Великобританія"),
             new TranslationInfo(LanguageCode.UZ, "Buyuk Britaniya"),
             new TranslationInfo(LanguageCode.ZH, "英国"),
-        };
+        ];
     }
 }

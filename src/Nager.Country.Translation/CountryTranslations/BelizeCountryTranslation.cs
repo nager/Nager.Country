@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Belize
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class BelizeCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بليز"),
             new TranslationInfo(LanguageCode.AZ, "Beliz"),
             new TranslationInfo(LanguageCode.BE, "Беліз"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Беліз"),
             new TranslationInfo(LanguageCode.UZ, "Beliz"),
             new TranslationInfo(LanguageCode.ZH, "伯利兹"),
-        };
+        ];
     }
 }

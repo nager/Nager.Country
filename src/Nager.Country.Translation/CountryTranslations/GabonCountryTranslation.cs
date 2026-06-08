@@ -6,8 +6,8 @@
     public class GabonCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الغابون"),
             new TranslationInfo(LanguageCode.AZ, "Qabon"),
             new TranslationInfo(LanguageCode.BE, "Габон"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Габон"),
             new TranslationInfo(LanguageCode.UZ, "Gabon"),
             new TranslationInfo(LanguageCode.ZH, "加蓬"),
-        };
+        ];
     }
 }

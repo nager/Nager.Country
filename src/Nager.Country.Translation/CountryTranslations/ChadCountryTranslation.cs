@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Chad
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class ChadCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تشاد"),
             new TranslationInfo(LanguageCode.AZ, "Çad"),
             new TranslationInfo(LanguageCode.BE, "Чад"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Чад"),
             new TranslationInfo(LanguageCode.UZ, "Chad"),
             new TranslationInfo(LanguageCode.ZH, "乍得"),
-        };
+        ];
     }
 }

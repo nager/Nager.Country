@@ -6,8 +6,8 @@
     public class SingaporeCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سنغافورة"),
             new TranslationInfo(LanguageCode.AZ, "Sinqapur"),
             new TranslationInfo(LanguageCode.BE, "Сінгапур"),
@@ -57,8 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сінгапур"),
             new TranslationInfo(LanguageCode.UZ, "Singapur"),
             new TranslationInfo(LanguageCode.ZH, "新加坡"),
-        
-       
-       };
+        ];
     }
 }

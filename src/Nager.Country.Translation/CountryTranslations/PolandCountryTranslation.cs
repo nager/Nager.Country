@@ -6,8 +6,8 @@
     public class PolandCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بولندا"),
             new TranslationInfo(LanguageCode.AZ, "Polşa"),
             new TranslationInfo(LanguageCode.BE, "Польшча"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Польша"),
             new TranslationInfo(LanguageCode.UZ, "Polsha"),
             new TranslationInfo(LanguageCode.ZH, "波兰"),
-        };
+        ];
     }
 }

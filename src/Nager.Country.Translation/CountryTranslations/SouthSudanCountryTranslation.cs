@@ -6,8 +6,8 @@
     public class SouthSudanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جنوب السودان"),
             new TranslationInfo(LanguageCode.AZ, "Cənubi Sudan"),
             new TranslationInfo(LanguageCode.BE, "Паўднёвы Судан"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Південний Судан"),
             new TranslationInfo(LanguageCode.UZ, "Janubiy Sudan"),
             new TranslationInfo(LanguageCode.ZH, "南苏丹"),
-        };
+        ];
     }
 }

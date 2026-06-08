@@ -6,8 +6,8 @@
     public class SeychellesCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سيشل"),
             new TranslationInfo(LanguageCode.AZ, "Seyşel adaları"),
             new TranslationInfo(LanguageCode.BE, "Сейшэльскія Астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сейшельські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Seyshel orollari"),
             new TranslationInfo(LanguageCode.ZH, "塞舌尔"),
-        };
+        ];
     }
 }

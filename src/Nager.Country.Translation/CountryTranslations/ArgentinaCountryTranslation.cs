@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class ArgentinaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الأرجنتين"),
             new TranslationInfo(LanguageCode.AZ, "Argentina"),
             new TranslationInfo(LanguageCode.BE, "Аргенціна"),
@@ -59,6 +59,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ZH, "阿根廷"),
         
        
-       };
+       ];
     }
 }

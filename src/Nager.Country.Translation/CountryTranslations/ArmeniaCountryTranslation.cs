@@ -6,8 +6,8 @@
     public class ArmeniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "أرمينيا"),
             new TranslationInfo(LanguageCode.AZ, "Ermənistan"),
             new TranslationInfo(LanguageCode.BE, "Арменія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Арменія"),
             new TranslationInfo(LanguageCode.UZ, "Armaniston"),
             new TranslationInfo(LanguageCode.ZH, "亚美尼亚"),
-        };
+        ];
     }
 }

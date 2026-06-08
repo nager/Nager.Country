@@ -6,8 +6,8 @@
     public class EstoniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "إستونيا"),
             new TranslationInfo(LanguageCode.AZ, "Estoniya"),
             new TranslationInfo(LanguageCode.BE, "Эстонія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Естонія"),
             new TranslationInfo(LanguageCode.UZ, "Estoniya"),
             new TranslationInfo(LanguageCode.ZH, "爱沙尼亚"),
-        };
+        ];
     }
 }

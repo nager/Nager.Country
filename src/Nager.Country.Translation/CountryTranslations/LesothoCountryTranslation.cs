@@ -6,8 +6,8 @@
     public class LesothoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليسوتو"),
             new TranslationInfo(LanguageCode.AZ, "Lesoto"),
             new TranslationInfo(LanguageCode.BE, "Лесота"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Лесото"),
             new TranslationInfo(LanguageCode.UZ, "Lesoto"),
             new TranslationInfo(LanguageCode.ZH, "莱索托"),
-        };
+        ];
     }
 }

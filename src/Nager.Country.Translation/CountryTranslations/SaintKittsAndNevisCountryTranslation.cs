@@ -6,8 +6,8 @@
     public class SaintKittsAndNevisCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سانت كيتس ونيفيس"),
             new TranslationInfo(LanguageCode.AZ, "Sent-Kits və Nevis"),
             new TranslationInfo(LanguageCode.BE, "Сент-Кітс і Невіс"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Сент-Кіттс і Невіс"),
             new TranslationInfo(LanguageCode.UZ, "Sent-Kits va Nevis"),
             new TranslationInfo(LanguageCode.ZH, "圣基茨和尼维斯"),
-        };
+        ];
     }
 }

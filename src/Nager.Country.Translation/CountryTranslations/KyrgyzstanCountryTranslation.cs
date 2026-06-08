@@ -6,8 +6,8 @@
     public class KyrgyzstanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "قيرغيزستان"),
             new TranslationInfo(LanguageCode.AZ, "Qırğızıstan"),
             new TranslationInfo(LanguageCode.BE, "Кыргызстан"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Киргизстан"),
             new TranslationInfo(LanguageCode.UZ, "Qirgʻiziston"),
             new TranslationInfo(LanguageCode.ZH, "吉尔吉斯斯坦"),
-        };
+        ];
     }
 }

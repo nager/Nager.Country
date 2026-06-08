@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Paraguay
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class ParaguayCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "باراغواي"),
             new TranslationInfo(LanguageCode.AZ, "Paraqvay"),
             new TranslationInfo(LanguageCode.BE, "Парагвай"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Парагвай"),
             new TranslationInfo(LanguageCode.UZ, "Paragvay"),
             new TranslationInfo(LanguageCode.ZH, "巴拉圭"),
-        };
+        ];
     }
 }

@@ -6,8 +6,8 @@
     public class IraqCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "العراق"),
             new TranslationInfo(LanguageCode.AZ, "İraq"),
             new TranslationInfo(LanguageCode.BE, "Ірак"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ірак"),
             new TranslationInfo(LanguageCode.UZ, "Iroq"),
             new TranslationInfo(LanguageCode.ZH, "伊拉克"),
-        };
+        ];
     }
 }

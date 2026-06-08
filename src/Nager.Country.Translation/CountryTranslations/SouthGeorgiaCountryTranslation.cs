@@ -6,8 +6,8 @@
     public class SouthGeorgiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جورجيا الجنوبية"),
             new TranslationInfo(LanguageCode.AZ, "Cənubi Corciya və Cənubi Sendviç adaları"),
             new TranslationInfo(LanguageCode.BE, "Паўднёвая Джорджыя і Паўднёвыя Сандвічавы астравы"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Південна Джорджія та Південні Сандвічеві Острови"),
             new TranslationInfo(LanguageCode.UZ, "Janubiy Georgiya va Janubiy Sendvich orollari"),
             new TranslationInfo(LanguageCode.ZH, "南乔治亚"),
-        };
+        ];
     }
 }

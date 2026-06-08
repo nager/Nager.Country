@@ -6,8 +6,8 @@
     public class TanzaniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تنزانيا"),
             new TranslationInfo(LanguageCode.AZ, "Tanzaniya"),
             new TranslationInfo(LanguageCode.BE, "Танзанія"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Танзанія"),
             new TranslationInfo(LanguageCode.UZ, "Tanzaniya"),
             new TranslationInfo(LanguageCode.ZH, "坦桑尼亚"),
-        };
+        ];
     }
 }

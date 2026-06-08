@@ -6,8 +6,8 @@
     public class CentralAfricanRepublicCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جمهورية أفريقيا الوسطى"),
             new TranslationInfo(LanguageCode.AZ, "Mərkəzi Afrika Respublikası"),
             new TranslationInfo(LanguageCode.BE, "Цэнтральнаафрыканская Рэспубліка"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Центральноафриканська Республіка"),
             new TranslationInfo(LanguageCode.UZ, "Markaziy Afrika Respublikasi"),
             new TranslationInfo(LanguageCode.ZH, "中非共和国"),
-        };
+        ];
     }
 }

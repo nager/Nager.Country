@@ -6,8 +6,8 @@
     public class BruneiCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بروناي"),
             new TranslationInfo(LanguageCode.AZ, "Bruney"),
             new TranslationInfo(LanguageCode.BE, "Бруней"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Бруней Даруссалам"),
             new TranslationInfo(LanguageCode.UZ, "Bruney"),
             new TranslationInfo(LanguageCode.ZH, "文莱"),
-        };
+        ];
     }
 }

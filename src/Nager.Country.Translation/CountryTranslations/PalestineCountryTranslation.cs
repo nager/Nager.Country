@@ -6,8 +6,8 @@
     public class PalestineCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "فلسطين"),
             new TranslationInfo(LanguageCode.AZ, "Fələstin Əraziləri"),
             new TranslationInfo(LanguageCode.BE, "Палесцінскія Тэрыторыі"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Палестинська держава"),
             new TranslationInfo(LanguageCode.UZ, "Falastin hududi"),
             new TranslationInfo(LanguageCode.ZH, "巴勒斯坦"),
-        };
+        ];
     }
 }

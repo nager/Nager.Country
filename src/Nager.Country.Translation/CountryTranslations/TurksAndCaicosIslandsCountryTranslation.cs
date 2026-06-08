@@ -6,8 +6,8 @@
     public class TurksAndCaicosIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر توركس وكايكوس"),
             new TranslationInfo(LanguageCode.AZ, "Törks və Kaykos adaları"),
             new TranslationInfo(LanguageCode.BE, "Цёркс і Кайкас"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Острови Теркс і Кайкос"),
             new TranslationInfo(LanguageCode.UZ, "Turks va Kaykos orollari"),
             new TranslationInfo(LanguageCode.ZH, "特克斯和凯科斯群岛"),
-        };
+        ];
     }
 }
