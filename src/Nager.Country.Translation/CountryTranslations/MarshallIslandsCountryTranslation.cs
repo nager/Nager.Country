@@ -13,7 +13,7 @@
             new TranslationInfo(LanguageCode.BE, "Маршалавы Астравы"),
             new TranslationInfo(LanguageCode.BG, "Маршалови острови"),
             new TranslationInfo(LanguageCode.BS, "Maršalova Ostrva"),
-            new TranslationInfo(LanguageCode.CA, "Marshall, illes"),
+            new TranslationInfo(LanguageCode.CA, "Illes Marshall"),
             new TranslationInfo(LanguageCode.CS, "Marshallovy ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Marshalløerne"),
             new TranslationInfo(LanguageCode.DE, "Marshallinseln"),
