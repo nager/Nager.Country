@@ -19,7 +19,7 @@
             new TranslationInfo(LanguageCode.DE, "Anguilla"),
             new TranslationInfo(LanguageCode.EL, "Ανγκουίλα"),
             new TranslationInfo(LanguageCode.EN, "Anguilla"),
-            new TranslationInfo(LanguageCode.ES, "Anguilla"),
+            new TranslationInfo(LanguageCode.ES, "Anguila"),
             new TranslationInfo(LanguageCode.ET, "Anguilla"),
             new TranslationInfo(LanguageCode.FA, "آنگویلا"),
             new TranslationInfo(LanguageCode.FI, "Anguilla"),
