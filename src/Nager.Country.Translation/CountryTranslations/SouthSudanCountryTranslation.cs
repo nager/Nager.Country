@@ -45,7 +45,7 @@
             new TranslationInfo(LanguageCode.NO, "Sør-Sudan"),
             new TranslationInfo(LanguageCode.NL, "Zuid-Soedan"),
             new TranslationInfo(LanguageCode.NN, "Sør-Sudan"),
-            new TranslationInfo(LanguageCode.PL, "Sudan"),
+            new TranslationInfo(LanguageCode.PL, "Sudan Południowy"),
             new TranslationInfo(LanguageCode.PT, "Sudão do Sul"),
             new TranslationInfo(LanguageCode.RO, "Sudanul de Sud"),
             new TranslationInfo(LanguageCode.RU, "Южный Судан"),
