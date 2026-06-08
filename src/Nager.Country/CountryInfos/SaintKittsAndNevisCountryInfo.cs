@@ -9,7 +9,7 @@
         public string CommonName => "Saint Kitts and Nevis";
 
         /// <inheritdoc/>
-        public string OfficialName => "Federation of Saint Christopher and Nevis";
+        public string OfficialName => "Federation of Saint Kitts and Nevis";
 
         /// <inheritdoc/>
         public string NativeName => "Saint Kitts and Nevis";
