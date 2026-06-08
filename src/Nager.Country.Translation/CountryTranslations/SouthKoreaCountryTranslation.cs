@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Jižní Korea"),
             new TranslationInfo(LanguageCode.DA, "Sydkorea"),
             new TranslationInfo(LanguageCode.DE, "Südkorea"),
-            new TranslationInfo(LanguageCode.EL, "Δημοκρατία της Κορέας"),
+            new TranslationInfo(LanguageCode.EL, "Νότια Κορέα"),
             new TranslationInfo(LanguageCode.EN, "South Korea"),
             new TranslationInfo(LanguageCode.ES, "Corea del Sur"),
             new TranslationInfo(LanguageCode.ET, "Lõuna-Korea"),

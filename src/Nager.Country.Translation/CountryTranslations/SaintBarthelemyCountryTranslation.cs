@@ -31,7 +31,7 @@
             new TranslationInfo(LanguageCode.HY, "Սեն Բարտելմի"),
             new TranslationInfo(LanguageCode.ID, "Saint Barthélemy"),
             new TranslationInfo(LanguageCode.IS, "Saint Barthélemy"),
-            new TranslationInfo(LanguageCode.IT, "Antille Francesi"),
+            new TranslationInfo(LanguageCode.IT, "Saint-Barthélemy"),
             new TranslationInfo(LanguageCode.JA, "サン・バルテルミー島"),
             new TranslationInfo(LanguageCode.KA, "სენ-ბართელმი"),
             new TranslationInfo(LanguageCode.KK, "Сен-Бартелеми"),

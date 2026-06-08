@@ -22,7 +22,7 @@
             new TranslationInfo(LanguageCode.ES, "Santo Tomé y Príncipe"),
             new TranslationInfo(LanguageCode.ET, "São Tomé ja Príncipe"),
             new TranslationInfo(LanguageCode.FA, "سائوتومه و پرنسیپ"),
-            new TranslationInfo(LanguageCode.FI, "São Téme ja Príncipe"),
+            new TranslationInfo(LanguageCode.FI, "São Tomé ja Príncipe"),
             new TranslationInfo(LanguageCode.FR, "São Tomé et Príncipe"),
             new TranslationInfo(LanguageCode.HE, "סאו טומה ופרינסיפה"),
             new TranslationInfo(LanguageCode.HI, "साओ तोमे और प्रिंसिपे"),

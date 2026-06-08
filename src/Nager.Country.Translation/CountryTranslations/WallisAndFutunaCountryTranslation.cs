@@ -6,8 +6,8 @@
     public class WallisAndFutunaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "واليس وفوتونا"),
             new TranslationInfo(LanguageCode.AZ, "Uollis və Futuna"),
             new TranslationInfo(LanguageCode.BE, "Уоліс і Футуна"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Волліс і Футуна"),
             new TranslationInfo(LanguageCode.UZ, "Uollis va Futuna"),
             new TranslationInfo(LanguageCode.ZH, "瓦利斯和富图纳群岛"),
-        };
+        ];
     }
 }

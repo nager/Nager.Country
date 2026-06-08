@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Rusko"),
             new TranslationInfo(LanguageCode.DA, "Rusland"),
             new TranslationInfo(LanguageCode.DE, "Russland"),
-            new TranslationInfo(LanguageCode.EL, "Ρωσική Ομοσπονδία"),
+            new TranslationInfo(LanguageCode.EL, "Ρωσία"),
             new TranslationInfo(LanguageCode.EN, "Russia"),
             new TranslationInfo(LanguageCode.ES, "Rusia"),
             new TranslationInfo(LanguageCode.ET, "Venemaa"),

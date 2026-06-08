@@ -29,7 +29,7 @@
             new TranslationInfo(LanguageCode.HR, "Švedska"),
             new TranslationInfo(LanguageCode.HU, "Svédország"),
             new TranslationInfo(LanguageCode.HY, "Շվեդիա"),
-            new TranslationInfo(LanguageCode.ID, "Sweden"),
+            new TranslationInfo(LanguageCode.ID, "Swedia"),
             new TranslationInfo(LanguageCode.IS, "Svíþjóð"),
             new TranslationInfo(LanguageCode.IT, "Svezia"),
             new TranslationInfo(LanguageCode.JA, "スウェーデン"),
