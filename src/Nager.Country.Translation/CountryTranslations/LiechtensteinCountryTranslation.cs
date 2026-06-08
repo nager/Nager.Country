@@ -22,7 +22,7 @@
             new TranslationInfo(LanguageCode.ES, "Liechtenstein"),
             new TranslationInfo(LanguageCode.ET, "Liechtenstein"),
             new TranslationInfo(LanguageCode.FA, "لیختن‌اشتاین"),
-            new TranslationInfo(LanguageCode.FI, "Liechenstein"),
+            new TranslationInfo(LanguageCode.FI, "Liechtenstein"),
             new TranslationInfo(LanguageCode.FR, "Liechtenstein"),
             new TranslationInfo(LanguageCode.HE, "ליכטנשטיין"),
             new TranslationInfo(LanguageCode.HI, "लिकटेंस्टाइन"),
