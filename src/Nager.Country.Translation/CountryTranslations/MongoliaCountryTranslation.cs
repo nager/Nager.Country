@@ -35,7 +35,7 @@
             new TranslationInfo(LanguageCode.JA, "モンゴル"),
             new TranslationInfo(LanguageCode.KA, "მონღოლეთი"),
             new TranslationInfo(LanguageCode.KK, "Моңғолия"),
-            new TranslationInfo(LanguageCode.KO, "몽골국"),
+            new TranslationInfo(LanguageCode.KO, "몽골"),
             new TranslationInfo(LanguageCode.KY, "Монголия"),
             new TranslationInfo(LanguageCode.LT, "Mongolija"),
             new TranslationInfo(LanguageCode.LV, "Mongolija"),

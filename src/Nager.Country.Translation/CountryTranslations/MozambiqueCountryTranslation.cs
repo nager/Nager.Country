@@ -43,7 +43,7 @@
             new TranslationInfo(LanguageCode.MN, "Мозамбик"),
             new TranslationInfo(LanguageCode.NB, "Mosambik"),
             new TranslationInfo(LanguageCode.NO, "Mosambik"),
-            new TranslationInfo(LanguageCode.NL, "Mozambique"),
+            new TranslationInfo(LanguageCode.NL, "Mosambiek"),
             new TranslationInfo(LanguageCode.NN, "Mosambik"),
             new TranslationInfo(LanguageCode.PL, "Mozambik"),
             new TranslationInfo(LanguageCode.PT, "Moçambique"),
