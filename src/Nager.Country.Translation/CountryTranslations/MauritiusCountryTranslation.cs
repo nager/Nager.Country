@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mauritius
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Mauritius"),
             new TranslationInfo(LanguageCode.FA, "موریس"),
             new TranslationInfo(LanguageCode.FI, "Mauritius"),
-            new TranslationInfo(LanguageCode.FR, "Maurice"),
+            new TranslationInfo(LanguageCode.FR, "Île Maurice"),
             new TranslationInfo(LanguageCode.HE, "מאוריציוס"),
             new TranslationInfo(LanguageCode.HI, "मॉरीशस"),
             new TranslationInfo(LanguageCode.HR, "Mauricijus"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Mauritius"),
             new TranslationInfo(LanguageCode.UK, "Маврикій"),
             new TranslationInfo(LanguageCode.UZ, "Mavrikiy"),
-            new TranslationInfo(LanguageCode.ZH, "模里西斯"),
+            new TranslationInfo(LanguageCode.ZH, "毛里求斯"),
         };
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mali
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Mali"),
             new TranslationInfo(LanguageCode.EL, "Μαλί"),
             new TranslationInfo(LanguageCode.EN, "Mali"),
-            new TranslationInfo(LanguageCode.ES, "Malí"),
+            new TranslationInfo(LanguageCode.ES, "Mali"),
             new TranslationInfo(LanguageCode.ET, "Mali"),
             new TranslationInfo(LanguageCode.FA, "مالی"),
             new TranslationInfo(LanguageCode.FI, "Mali"),

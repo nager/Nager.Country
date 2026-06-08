@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// El Salvador
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "El Salvador"),
             new TranslationInfo(LanguageCode.FA, "السالوادور"),
             new TranslationInfo(LanguageCode.FI, "El Salvador"),
-            new TranslationInfo(LanguageCode.FR, "El Salvador"),
+            new TranslationInfo(LanguageCode.FR, "Salvador"),
             new TranslationInfo(LanguageCode.HE, "אל סלבדור"),
             new TranslationInfo(LanguageCode.HI, "अल साल्वाडोर"),
             new TranslationInfo(LanguageCode.HR, "Salvador"),

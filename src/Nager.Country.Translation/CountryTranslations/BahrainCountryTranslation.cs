@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Bahrain
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Bahrein"),
             new TranslationInfo(LanguageCode.FA, "بحرین"),
             new TranslationInfo(LanguageCode.FI, "Bahrain"),
-            new TranslationInfo(LanguageCode.FR, "Bahrein"),
+            new TranslationInfo(LanguageCode.FR, "Bahreïn"),
             new TranslationInfo(LanguageCode.HE, "בחריין"),
             new TranslationInfo(LanguageCode.HI, "बहरीन"),
             new TranslationInfo(LanguageCode.HR, "Bahrein"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Բահրեյն"),
             new TranslationInfo(LanguageCode.ID, "Bahrain"),
             new TranslationInfo(LanguageCode.IS, "Barein"),
-            new TranslationInfo(LanguageCode.IT, "Bahrain"),
+            new TranslationInfo(LanguageCode.IT, "Bahrein"),
             new TranslationInfo(LanguageCode.JA, "バーレーン"),
             new TranslationInfo(LanguageCode.KA, "ბაჰრეინი"),
             new TranslationInfo(LanguageCode.KK, "Бахрейн"),

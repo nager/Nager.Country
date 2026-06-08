@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// New Caledonia
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Nieuw-Caledonië"),
             new TranslationInfo(LanguageCode.NN, "Ny-Caledonia"),
             new TranslationInfo(LanguageCode.PL, "Nowa Kaledonia"),
-            new TranslationInfo(LanguageCode.PT, "Nova Caledônia"),
+            new TranslationInfo(LanguageCode.PT, "Nova Caledónia"),
             new TranslationInfo(LanguageCode.RO, "Noua Caledonie"),
             new TranslationInfo(LanguageCode.RU, "Новая Каледония"),
             new TranslationInfo(LanguageCode.SK, "Nová Kaledónia"),

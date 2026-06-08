@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Åland Islands
@@ -19,20 +19,20 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Åland"),
             new TranslationInfo(LanguageCode.EL, "Νήσοι Ώλαντ"),
             new TranslationInfo(LanguageCode.EN, "Åland Islands"),
-            new TranslationInfo(LanguageCode.ES, "Islas Åland"),
+            new TranslationInfo(LanguageCode.ES, "Alandia"),
             new TranslationInfo(LanguageCode.ET, "Ahvenamaa"),
-            new TranslationInfo(LanguageCode.FA, "جزایر آلاند"),
+            new TranslationInfo(LanguageCode.FA, "جزایر الند"),
             new TranslationInfo(LanguageCode.FI, "Ahvenanmaa"),
-            new TranslationInfo(LanguageCode.FR, "Åland"),
+            new TranslationInfo(LanguageCode.FR, "Ahvenanmaa"),
             new TranslationInfo(LanguageCode.HE, "איי אולנד"),
             new TranslationInfo(LanguageCode.HI, "ऑलैंड द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Ålandski otoci"),
-            new TranslationInfo(LanguageCode.HU, "Åland"),
+            new TranslationInfo(LanguageCode.HU, "Åland-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Ալանդյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Åland Islands"),
             new TranslationInfo(LanguageCode.IS, "Álandseyjar"),
-            new TranslationInfo(LanguageCode.IT, "Isole Åland"),
-            new TranslationInfo(LanguageCode.JA, "オーランド諸島"),
+            new TranslationInfo(LanguageCode.IT, "Isole Aland"),
+            new TranslationInfo(LanguageCode.JA, "オーランド"),
             new TranslationInfo(LanguageCode.KA, "ალანდის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Аланд аралдары"),
             new TranslationInfo(LanguageCode.KO, "올란드 제도"),
@@ -43,20 +43,20 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Аландын Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Åland"),
             new TranslationInfo(LanguageCode.NO, "Åland"),
-            new TranslationInfo(LanguageCode.NL, "Åland"),
+            new TranslationInfo(LanguageCode.NL, "Ålandeilanden"),
             new TranslationInfo(LanguageCode.NN, "Åland"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Alandzkie"),
-            new TranslationInfo(LanguageCode.PT, "Ilhas Åland"),
+            new TranslationInfo(LanguageCode.PT, "Alândia"),
             new TranslationInfo(LanguageCode.RO, "Insulele Åland"),
             new TranslationInfo(LanguageCode.RU, "Аландские острова"),
             new TranslationInfo(LanguageCode.SK, "Alandy"),
             new TranslationInfo(LanguageCode.SL, "Ålandski otoki"),
             new TranslationInfo(LanguageCode.SR, "Оландска Острва"),
             new TranslationInfo(LanguageCode.SV, "Åland"),
-            new TranslationInfo(LanguageCode.TR, "Åland Adaları"),
+            new TranslationInfo(LanguageCode.TR, "Åland"),
             new TranslationInfo(LanguageCode.UK, "Аландські острови"),
             new TranslationInfo(LanguageCode.UZ, "Aland orollari"),
-            new TranslationInfo(LanguageCode.ZH, "奥兰"),
+            new TranslationInfo(LanguageCode.ZH, "奥兰群岛"),
        };
     }
 }

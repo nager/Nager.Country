@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Suriname
@@ -19,11 +19,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Suriname"),
             new TranslationInfo(LanguageCode.EL, "Σουρινάμ"),
             new TranslationInfo(LanguageCode.EN, "Suriname"),
-            new TranslationInfo(LanguageCode.ES, "Suriname"),
+            new TranslationInfo(LanguageCode.ES, "Surinam"),
             new TranslationInfo(LanguageCode.ET, "Suriname"),
             new TranslationInfo(LanguageCode.FA, "سورینام"),
             new TranslationInfo(LanguageCode.FI, "Suriname"),
-            new TranslationInfo(LanguageCode.FR, "Suriname"),
+            new TranslationInfo(LanguageCode.FR, "Surinam"),
             new TranslationInfo(LanguageCode.HE, "סורינם"),
             new TranslationInfo(LanguageCode.HI, "सूरीनाम"),
             new TranslationInfo(LanguageCode.HR, "Surinam"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Rwanda
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Ruanda"),
             new TranslationInfo(LanguageCode.EL, "Ρουάντα"),
             new TranslationInfo(LanguageCode.EN, "Rwanda"),
-            new TranslationInfo(LanguageCode.ES, "Rwanda"),
+            new TranslationInfo(LanguageCode.ES, "Ruanda"),
             new TranslationInfo(LanguageCode.ET, "Rwanda"),
             new TranslationInfo(LanguageCode.FA, "رواندا"),
             new TranslationInfo(LanguageCode.FI, "Ruanda"),

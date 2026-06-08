@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Slovakia
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Slovakia"),
             new TranslationInfo(LanguageCode.ES, "Eslovaquia"),
             new TranslationInfo(LanguageCode.ET, "Slovakkia"),
-            new TranslationInfo(LanguageCode.FA, "اسلواکی"),
+            new TranslationInfo(LanguageCode.FA, "اِسلُواکی"),
             new TranslationInfo(LanguageCode.FI, "Slovakia"),
             new TranslationInfo(LanguageCode.FR, "Slovaquie"),
             new TranslationInfo(LanguageCode.HE, "סלובקיה"),

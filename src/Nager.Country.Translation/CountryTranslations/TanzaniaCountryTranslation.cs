@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Tanzania
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "تانزانيا"),
+            new TranslationInfo(LanguageCode.AR, "تنزانيا"),
             new TranslationInfo(LanguageCode.AZ, "Tanzaniya"),
             new TranslationInfo(LanguageCode.BE, "Танзанія"),
             new TranslationInfo(LanguageCode.BG, "Танзания"),
@@ -16,18 +16,18 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Tanzània"),
             new TranslationInfo(LanguageCode.CS, "Tanzanie"),
             new TranslationInfo(LanguageCode.DA, "Tanzania"),
-            new TranslationInfo(LanguageCode.DE, "Tansania, Vereinigte Republik"),
+            new TranslationInfo(LanguageCode.DE, "Tansania"),
             new TranslationInfo(LanguageCode.EL, "Ενωμένη Δημοκρατία της Τανζανίας"),
-            new TranslationInfo(LanguageCode.EN, "Tanzania, United Republic of"),
+            new TranslationInfo(LanguageCode.EN, "Tanzania"),
             new TranslationInfo(LanguageCode.ES, "Tanzania"),
             new TranslationInfo(LanguageCode.ET, "Tansaania"),
             new TranslationInfo(LanguageCode.FA, "تانزانیا"),
             new TranslationInfo(LanguageCode.FI, "Tansania"),
-            new TranslationInfo(LanguageCode.FR, "Tanzanie, République unie"),
+            new TranslationInfo(LanguageCode.FR, "Tanzanie"),
             new TranslationInfo(LanguageCode.HE, "טנזניה"),
             new TranslationInfo(LanguageCode.HI, "तंज़ानिया"),
             new TranslationInfo(LanguageCode.HR, "Tanzanija"),
-            new TranslationInfo(LanguageCode.HU, "Tanzánia"),
+            new TranslationInfo(LanguageCode.HU, "Tádzsikisztán"),
             new TranslationInfo(LanguageCode.HY, "Տանզանիա"),
             new TranslationInfo(LanguageCode.ID, "Tanzania"),
             new TranslationInfo(LanguageCode.IS, "Tansanía"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Танзани"),
             new TranslationInfo(LanguageCode.NB, "Tanzania"),
             new TranslationInfo(LanguageCode.NO, "Tanzania"),
-            new TranslationInfo(LanguageCode.NL, "Tanzania, Verenigde Republiek"),
+            new TranslationInfo(LanguageCode.NL, "Tanzania"),
             new TranslationInfo(LanguageCode.NN, "Tanzania"),
             new TranslationInfo(LanguageCode.PL, "Tanzania"),
             new TranslationInfo(LanguageCode.PT, "Tanzânia"),

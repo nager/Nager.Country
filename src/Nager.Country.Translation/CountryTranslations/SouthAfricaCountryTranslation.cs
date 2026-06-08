@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// South Africa
@@ -21,17 +21,17 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "South Africa"),
             new TranslationInfo(LanguageCode.ES, "Sudáfrica"),
             new TranslationInfo(LanguageCode.ET, "Lõuna-Aafrika Vabariik"),
-            new TranslationInfo(LanguageCode.FA, "افریقای جنوبی"),
+            new TranslationInfo(LanguageCode.FA, "آفریقای جنوبی"),
             new TranslationInfo(LanguageCode.FI, "Etelä-Afrikka"),
             new TranslationInfo(LanguageCode.FR, "Afrique du Sud"),
             new TranslationInfo(LanguageCode.HE, "דרום אפריקה"),
             new TranslationInfo(LanguageCode.HI, "दक्षिण अफ़्रीका"),
             new TranslationInfo(LanguageCode.HR, "Južnoafrička Republika"),
-            new TranslationInfo(LanguageCode.HU, "Dél-Afrika"),
+            new TranslationInfo(LanguageCode.HU, "Dél-afrikai Köztársaság"),
             new TranslationInfo(LanguageCode.HY, "Հարավաֆրիկյան Հանրապետություն"),
             new TranslationInfo(LanguageCode.ID, "Afrika Selatan"),
             new TranslationInfo(LanguageCode.IS, "Suður-Afríka"),
-            new TranslationInfo(LanguageCode.IT, "Sudafrica"),
+            new TranslationInfo(LanguageCode.IT, "Sud Africa"),
             new TranslationInfo(LanguageCode.JA, "南アフリカ"),
             new TranslationInfo(LanguageCode.KA, "სამხრეთ აფრიკის რესპუბლიკა"),
             new TranslationInfo(LanguageCode.KK, "Оңтүстік Африка Республикасы"),
@@ -48,8 +48,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Południowa Afryka"),
             new TranslationInfo(LanguageCode.PT, "África do Sul"),
             new TranslationInfo(LanguageCode.RO, "Africa de Sud"),
-            new TranslationInfo(LanguageCode.RU, "ЮАР"),
-            new TranslationInfo(LanguageCode.SK, "Južná Afrika"),
+            new TranslationInfo(LanguageCode.RU, "Южно-Африканская Республика"),
+            new TranslationInfo(LanguageCode.SK, "Juhoafrická republika"),
             new TranslationInfo(LanguageCode.SL, "Južnoafriška republika"),
             new TranslationInfo(LanguageCode.SR, "Јужноафричка Република"),
             new TranslationInfo(LanguageCode.SV, "Sydafrika"),

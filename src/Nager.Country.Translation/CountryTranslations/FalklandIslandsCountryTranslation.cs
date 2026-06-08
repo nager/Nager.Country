@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Falkland Islands
@@ -14,15 +14,15 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.BG, "Фолклендски острови"),
             new TranslationInfo(LanguageCode.BS, "Folklandska Ostrva"),
             new TranslationInfo(LanguageCode.CA, "Malvines, illes"),
-            new TranslationInfo(LanguageCode.CS, "Falklandy (Malvíny)"),
+            new TranslationInfo(LanguageCode.CS, "Falklandy"),
             new TranslationInfo(LanguageCode.DA, "Falklandsøerne"),
             new TranslationInfo(LanguageCode.DE, "Falklandinseln"),
             new TranslationInfo(LanguageCode.EL, "Νήσοι Φώκλαντ (Μαλβίνας)"),
-            new TranslationInfo(LanguageCode.EN, "Falkland Islands (Malvinas)"),
+            new TranslationInfo(LanguageCode.EN, "Falkland Islands"),
             new TranslationInfo(LanguageCode.ES, "Islas Malvinas"),
             new TranslationInfo(LanguageCode.ET, "Falklandi saared"),
             new TranslationInfo(LanguageCode.FA, "جزایر فالکلند"),
-            new TranslationInfo(LanguageCode.FI, "Falklandinsaaret"),
+            new TranslationInfo(LanguageCode.FI, "Falkandinsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Malouines"),
             new TranslationInfo(LanguageCode.HE, "איי פוקלנד"),
             new TranslationInfo(LanguageCode.HI, "फ़ॉकलैंड द्वीपसमूह"),
@@ -31,11 +31,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Ֆոլքլենդյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Falkland(Malvinas)"),
             new TranslationInfo(LanguageCode.IS, "Falklandseyjar"),
-            new TranslationInfo(LanguageCode.IT, "Isole Falkland"),
-            new TranslationInfo(LanguageCode.JA, "フォークランド（マルビナス）諸島"),
+            new TranslationInfo(LanguageCode.IT, "Isole Falkland o Isole Malvine"),
+            new TranslationInfo(LanguageCode.JA, "フォークランド諸島"),
             new TranslationInfo(LanguageCode.KA, "ფოლკლენდის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Фолкленд аралдары"),
-            new TranslationInfo(LanguageCode.KO, "포클랜드(말비나스) 제도"),
+            new TranslationInfo(LanguageCode.KO, "포클랜드 제도"),
             new TranslationInfo(LanguageCode.KY, "Фолклэнд аралдары"),
             new TranslationInfo(LanguageCode.LT, "Folklando Salos"),
             new TranslationInfo(LanguageCode.LV, "Folklenda salas"),
@@ -53,7 +53,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SL, "Falklandski otoki"),
             new TranslationInfo(LanguageCode.SR, "Фокландска Острва"),
             new TranslationInfo(LanguageCode.SV, "Falklandsöarna"),
-            new TranslationInfo(LanguageCode.TR, "Falkland Adaları"),
+            new TranslationInfo(LanguageCode.TR, "Falkland (Malvina) Adaları"),
             new TranslationInfo(LanguageCode.UK, "Фолклендські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Folklend orollari"),
             new TranslationInfo(LanguageCode.ZH, "福克兰群岛"),

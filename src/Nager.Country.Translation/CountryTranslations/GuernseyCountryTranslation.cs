@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guernsey
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "ガーンジー"),
             new TranslationInfo(LanguageCode.KA, "გერნსი"),
             new TranslationInfo(LanguageCode.KK, "Гернси"),
-            new TranslationInfo(LanguageCode.KO, "건지섬"),
+            new TranslationInfo(LanguageCode.KO, "건지 섬"),
             new TranslationInfo(LanguageCode.KY, "Гернси"),
             new TranslationInfo(LanguageCode.LT, "Gernsis"),
             new TranslationInfo(LanguageCode.LV, "Gērnsija"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Guernsey"),
             new TranslationInfo(LanguageCode.UK, "Гернсі"),
             new TranslationInfo(LanguageCode.UZ, "Gernsi"),
-            new TranslationInfo(LanguageCode.ZH, "根西"),
+            new TranslationInfo(LanguageCode.ZH, "根西岛"),
         };
     }
 }

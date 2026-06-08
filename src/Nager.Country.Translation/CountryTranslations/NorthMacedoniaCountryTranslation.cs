@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Macedonia
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "مقدونيا الشمالية "),
+            new TranslationInfo(LanguageCode.AR, "شمال مقدونيا"),
             new TranslationInfo(LanguageCode.AZ, "Şimali Makedoniya"),
             new TranslationInfo(LanguageCode.BE, "Паўночная Македонія"),
             new TranslationInfo(LanguageCode.BG, "Северна Македония"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Noord-Macedonië"),
             new TranslationInfo(LanguageCode.NN, "Nord-Makedonia"),
             new TranslationInfo(LanguageCode.PL, "Macedonia Północna"),
-            new TranslationInfo(LanguageCode.PT, "Macedônia do Norte"),
+            new TranslationInfo(LanguageCode.PT, "Macedónia do Norte"),
             new TranslationInfo(LanguageCode.RO, "Macedonia de Nord"),
             new TranslationInfo(LanguageCode.RU, "Северная Македония"),
             new TranslationInfo(LanguageCode.SK, "Severné Macedónsko"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Kuzey Makedonya"),
             new TranslationInfo(LanguageCode.UK, "Північна Македонія"),
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Makedoniya"),
-            new TranslationInfo(LanguageCode.ZH, "北马其顿"),
+            new TranslationInfo(LanguageCode.ZH, "北馬其頓"),
         };
     }
 }

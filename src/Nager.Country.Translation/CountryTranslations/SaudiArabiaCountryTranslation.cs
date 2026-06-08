@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Saudi Arabia
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Saudi-Arabien"),
             new TranslationInfo(LanguageCode.EL, "Σαουδική Αραβία"),
             new TranslationInfo(LanguageCode.EN, "Saudi Arabia"),
-            new TranslationInfo(LanguageCode.ES, "Arabia Saudita"),
+            new TranslationInfo(LanguageCode.ES, "Arabia Saudí"),
             new TranslationInfo(LanguageCode.ET, "Saudi Araabia"),
             new TranslationInfo(LanguageCode.FA, "عربستان سعودی"),
             new TranslationInfo(LanguageCode.FI, "Saudi-Arabia"),
@@ -27,7 +27,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HE, "ערב הסעודית"),
             new TranslationInfo(LanguageCode.HI, "सऊदी अरब"),
             new TranslationInfo(LanguageCode.HR, "Saudijska Arabija"),
-            new TranslationInfo(LanguageCode.HU, "Szaudi-Arábia"),
+            new TranslationInfo(LanguageCode.HU, "Szaúd-Arábia"),
             new TranslationInfo(LanguageCode.HY, "Սաուդյան Արաբիա"),
             new TranslationInfo(LanguageCode.ID, "Arab Saudi"),
             new TranslationInfo(LanguageCode.IS, "Sádi-Arabía"),
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "サウジアラビア"),
             new TranslationInfo(LanguageCode.KA, "საუდის არაბეთი"),
             new TranslationInfo(LanguageCode.KK, "Сауд Арабиясы"),
-            new TranslationInfo(LanguageCode.KO, "사우디 아라비아"),
+            new TranslationInfo(LanguageCode.KO, "사우디아라비아"),
             new TranslationInfo(LanguageCode.KY, "Сауд Арабиясы"),
             new TranslationInfo(LanguageCode.LT, "Saudo Arabija"),
             new TranslationInfo(LanguageCode.LV, "Saūda Arābija"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Саудын Араб"),
             new TranslationInfo(LanguageCode.NB, "Saudi-Arabia"),
             new TranslationInfo(LanguageCode.NO, "Saudi-Arabia"),
-            new TranslationInfo(LanguageCode.NL, "Saudi-Arabië"),
+            new TranslationInfo(LanguageCode.NL, "Saoedi-Arabië"),
             new TranslationInfo(LanguageCode.NN, "Saudi-Arabia"),
             new TranslationInfo(LanguageCode.PL, "Arabia Saudyjska"),
             new TranslationInfo(LanguageCode.PT, "Arábia Saudita"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Suudi Arabistan"),
             new TranslationInfo(LanguageCode.UK, "Саудівська Аравія"),
             new TranslationInfo(LanguageCode.UZ, "Saudiya Arabistoni"),
-            new TranslationInfo(LanguageCode.ZH, "沙乌地阿拉伯"),
+            new TranslationInfo(LanguageCode.ZH, "沙特阿拉伯"),
         };
     }
 }

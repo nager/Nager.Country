@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mauritania
@@ -26,7 +26,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FR, "Mauritanie"),
             new TranslationInfo(LanguageCode.HE, "מאוריטניה"),
             new TranslationInfo(LanguageCode.HI, "मॉरिटानिया"),
-            new TranslationInfo(LanguageCode.HR, "Mauretanija"),
+            new TranslationInfo(LanguageCode.HR, "Mauritanija"),
             new TranslationInfo(LanguageCode.HU, "Mauritánia"),
             new TranslationInfo(LanguageCode.HY, "Մավրիտանիա"),
             new TranslationInfo(LanguageCode.ID, "Mauritania"),

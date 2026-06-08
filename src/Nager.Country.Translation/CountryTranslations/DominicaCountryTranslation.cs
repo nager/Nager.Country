@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Dominica
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "ドミニカ国"),
             new TranslationInfo(LanguageCode.KA, "დომინიკა"),
             new TranslationInfo(LanguageCode.KK, "Доминика"),
-            new TranslationInfo(LanguageCode.KO, "도미니카 연방"),
+            new TranslationInfo(LanguageCode.KO, "도미니카 공화국"),
             new TranslationInfo(LanguageCode.KY, "Доминика"),
             new TranslationInfo(LanguageCode.LT, "Dominika"),
             new TranslationInfo(LanguageCode.LV, "Dominika"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Dominika"),
             new TranslationInfo(LanguageCode.UK, "Домініка"),
             new TranslationInfo(LanguageCode.UZ, "Dominika"),
-            new TranslationInfo(LanguageCode.ZH, "多米尼克"),
+            new TranslationInfo(LanguageCode.ZH, "多米尼加"),
         };
     }
 }

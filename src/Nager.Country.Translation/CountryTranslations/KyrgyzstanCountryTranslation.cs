@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Kyrgyzstan
@@ -19,11 +19,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Kirgisistan"),
             new TranslationInfo(LanguageCode.EL, "Κιργιζία"),
             new TranslationInfo(LanguageCode.EN, "Kyrgyzstan"),
-            new TranslationInfo(LanguageCode.ES, "Kirguistán"),
+            new TranslationInfo(LanguageCode.ES, "Kirguizistán"),
             new TranslationInfo(LanguageCode.ET, "Kõrgõzstan"),
             new TranslationInfo(LanguageCode.FA, "قرقیزستان"),
             new TranslationInfo(LanguageCode.FI, "Kirgisia"),
-            new TranslationInfo(LanguageCode.FR, "Kirghistan"),
+            new TranslationInfo(LanguageCode.FR, "Kirghizistan"),
             new TranslationInfo(LanguageCode.HE, "קירגיזסטן"),
             new TranslationInfo(LanguageCode.HI, "किर्गिज़स्तान"),
             new TranslationInfo(LanguageCode.HR, "Kirgistan"),
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "キルギス"),
             new TranslationInfo(LanguageCode.KA, "ყირგიზეთი"),
             new TranslationInfo(LanguageCode.KK, "Қырғызстан"),
-            new TranslationInfo(LanguageCode.KO, "키르기즈스탄"),
+            new TranslationInfo(LanguageCode.KO, "키르기스스탄"),
             new TranslationInfo(LanguageCode.KY, "Кыргызстан"),
             new TranslationInfo(LanguageCode.LT, "Kirgizija"),
             new TranslationInfo(LanguageCode.LV, "Kirgizstāna"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Кыргызстан"),
             new TranslationInfo(LanguageCode.NB, "Kirgisistan"),
             new TranslationInfo(LanguageCode.NO, "Kirgisistan"),
-            new TranslationInfo(LanguageCode.NL, "Kirgizstan"),
+            new TranslationInfo(LanguageCode.NL, "Kirgizië"),
             new TranslationInfo(LanguageCode.NN, "Kirgisistan"),
             new TranslationInfo(LanguageCode.PL, "Kirgistan"),
             new TranslationInfo(LanguageCode.PT, "Quirguistão"),

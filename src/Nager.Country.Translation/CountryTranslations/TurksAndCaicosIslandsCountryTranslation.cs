@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Turks and Caicos Islands
@@ -16,13 +16,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Turks i Caicos, illes"),
             new TranslationInfo(LanguageCode.CS, "Turks a Caicos"),
             new TranslationInfo(LanguageCode.DA, "Turks- og Caicosøerne"),
-            new TranslationInfo(LanguageCode.DE, "Turks- und Caicosinseln"),
+            new TranslationInfo(LanguageCode.DE, "Turks-und Caicosinseln"),
             new TranslationInfo(LanguageCode.EL, "Τερκς και Κέικος"),
             new TranslationInfo(LanguageCode.EN, "Turks and Caicos Islands"),
-            new TranslationInfo(LanguageCode.ES, "Islas Turcas y Caicos"),
+            new TranslationInfo(LanguageCode.ES, "Islas Turks y Caicos"),
             new TranslationInfo(LanguageCode.ET, "Turks ja Caicos"),
             new TranslationInfo(LanguageCode.FA, "جزایر تورکس و کایکوس"),
-            new TranslationInfo(LanguageCode.FI, "Turks- ja Caicossaaret"),
+            new TranslationInfo(LanguageCode.FI, "Turks-ja Caicossaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Turques-et-Caïques"),
             new TranslationInfo(LanguageCode.HE, "איי טורקס וקאיקוס"),
             new TranslationInfo(LanguageCode.HI, "तुर्क्स और कैकोस द्वीपसमूह"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Турк ба Кайкосын Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Turks- og Caicosøyene"),
             new TranslationInfo(LanguageCode.NO, "Turks- og Caicosøyene"),
-            new TranslationInfo(LanguageCode.NL, "Turks- en Caicoseilanden"),
+            new TranslationInfo(LanguageCode.NL, "Turks-en Caicoseilanden"),
             new TranslationInfo(LanguageCode.NN, "Turks- og Caicosøyane"),
             new TranslationInfo(LanguageCode.PL, "Turks i Caicos"),
             new TranslationInfo(LanguageCode.PT, "Ilhas Turks e Caicos"),

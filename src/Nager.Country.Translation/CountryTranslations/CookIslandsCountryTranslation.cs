@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Cook Islands
@@ -26,7 +26,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FR, "Îles Cook"),
             new TranslationInfo(LanguageCode.HE, "איי קוק"),
             new TranslationInfo(LanguageCode.HI, "कुक द्वीपसमूह"),
-            new TranslationInfo(LanguageCode.HR, "Cookovi Otoci"),
+            new TranslationInfo(LanguageCode.HR, "Cookovo Otočje"),
             new TranslationInfo(LanguageCode.HU, "Cook-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կուկի կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Cook"),

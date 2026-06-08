@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Zimbabwe
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Simbabwe"),
             new TranslationInfo(LanguageCode.EL, "Ζιμπάμπουε"),
             new TranslationInfo(LanguageCode.EN, "Zimbabwe"),
-            new TranslationInfo(LanguageCode.ES, "Zimbabwe"),
+            new TranslationInfo(LanguageCode.ES, "Zimbabue"),
             new TranslationInfo(LanguageCode.ET, "Zimbabwe"),
             new TranslationInfo(LanguageCode.FA, "زیمبابوه"),
             new TranslationInfo(LanguageCode.FI, "Zimbabwe"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Zimbabwe"),
             new TranslationInfo(LanguageCode.NN, "Zimbabwe"),
             new TranslationInfo(LanguageCode.PL, "Zimbabwe"),
-            new TranslationInfo(LanguageCode.PT, "Zimbábue"),
+            new TranslationInfo(LanguageCode.PT, "Zimbabwe"),
             new TranslationInfo(LanguageCode.RO, "Zimbabwe"),
             new TranslationInfo(LanguageCode.RU, "Зимбабве"),
             new TranslationInfo(LanguageCode.SK, "Zimbabwe"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Zimbabve"),
             new TranslationInfo(LanguageCode.UK, "Зімбабве"),
             new TranslationInfo(LanguageCode.UZ, "Zimbabve"),
-            new TranslationInfo(LanguageCode.ZH, "辛巴威"),
+            new TranslationInfo(LanguageCode.ZH, "津巴布韦"),
         };
     }
 }

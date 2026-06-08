@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// United Arab Emirates
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "الإمارات العربية المتحدة"),
+            new TranslationInfo(LanguageCode.AR, "الإمارات"),
             new TranslationInfo(LanguageCode.AZ, "Birləşmiş Ərəb Əmirlikləri"),
             new TranslationInfo(LanguageCode.BE, "Аб’яднаныя Арабскія Эміраты"),
             new TranslationInfo(LanguageCode.BG, "Обединени арабски емирства"),
@@ -21,8 +21,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "United Arab Emirates"),
             new TranslationInfo(LanguageCode.ES, "Emiratos Árabes Unidos"),
             new TranslationInfo(LanguageCode.ET, "Araabia Ühendemiraadid"),
-            new TranslationInfo(LanguageCode.FA, "امارات متحدهٔ عربی"),
-            new TranslationInfo(LanguageCode.FI, "Arabiemiirikunnat"),
+            new TranslationInfo(LanguageCode.FA, "امارات"),
+            new TranslationInfo(LanguageCode.FI, "Arabiemiraatit"),
             new TranslationInfo(LanguageCode.FR, "Émirats Arabes Unis"),
             new TranslationInfo(LanguageCode.HE, "איחוד האמירויות הערביות"),
             new TranslationInfo(LanguageCode.HI, "संयुक्त अरब अमीरात"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Uni Emirat Arab"),
             new TranslationInfo(LanguageCode.IS, "Sameinuðu arabísku furstadæmin"),
             new TranslationInfo(LanguageCode.IT, "Emirati Arabi Uniti"),
-            new TranslationInfo(LanguageCode.JA, "アラブ首長国連邦"),
+            new TranslationInfo(LanguageCode.JA, "UAE"),
             new TranslationInfo(LanguageCode.KA, "არაბთა გაერთიანებული საამიროები"),
             new TranslationInfo(LanguageCode.KK, "Біріккен Араб Әмірліктері"),
             new TranslationInfo(LanguageCode.KO, "아랍에미리트"),
@@ -48,7 +48,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Zjednoczone Emiraty Arabskie"),
             new TranslationInfo(LanguageCode.PT, "Emirados Árabes Unidos"),
             new TranslationInfo(LanguageCode.RO, "Emiratele Arabe Unite"),
-            new TranslationInfo(LanguageCode.RU, "ОАЭ"),
+            new TranslationInfo(LanguageCode.RU, "Объединённые Арабские Эмираты"),
             new TranslationInfo(LanguageCode.SK, "Spojené arabské emiráty"),
             new TranslationInfo(LanguageCode.SL, "Združeni arabski emirati"),
             new TranslationInfo(LanguageCode.SR, "Уједињени Арапски Емирати"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Birleşik Arap Emirlikleri"),
             new TranslationInfo(LanguageCode.UK, "Об'єднані Арабські Емірати"),
             new TranslationInfo(LanguageCode.UZ, "Birlashgan Arab Amirliklari"),
-            new TranslationInfo(LanguageCode.ZH, "阿联酋"),
+            new TranslationInfo(LanguageCode.ZH, "阿拉伯联合酋长国"),
         };
     }
 }

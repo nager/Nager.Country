@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Burkina Faso
@@ -27,7 +27,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HE, "בורקינה פאסו"),
             new TranslationInfo(LanguageCode.HI, "बुर्किना फ़ासो"),
             new TranslationInfo(LanguageCode.HR, "Burkina Faso"),
-            new TranslationInfo(LanguageCode.HU, "Burkina Faso"),
+            new TranslationInfo(LanguageCode.HU, "Burkina"),
             new TranslationInfo(LanguageCode.HY, "Բուրկինա Ֆասո"),
             new TranslationInfo(LanguageCode.ID, "Burkina Faso"),
             new TranslationInfo(LanguageCode.IS, "Búrkína Fasó"),
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "ブルキナファソ"),
             new TranslationInfo(LanguageCode.KA, "ბურკინა-ფასო"),
             new TranslationInfo(LanguageCode.KK, "Буркина-Фасо"),
-            new TranslationInfo(LanguageCode.KO, "부르키나 파소"),
+            new TranslationInfo(LanguageCode.KO, "부르키나파소"),
             new TranslationInfo(LanguageCode.KY, "Буркина-Фасо"),
             new TranslationInfo(LanguageCode.LT, "Burkina Fasas"),
             new TranslationInfo(LanguageCode.LV, "Burkinafaso"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Burkina Faso"),
             new TranslationInfo(LanguageCode.NN, "Burkina Faso"),
             new TranslationInfo(LanguageCode.PL, "Burkina Faso"),
-            new TranslationInfo(LanguageCode.PT, "Burquina Faso"),
+            new TranslationInfo(LanguageCode.PT, "Burkina Faso"),
             new TranslationInfo(LanguageCode.RO, "Burkina Faso"),
             new TranslationInfo(LanguageCode.RU, "Буркина-Фасо"),
             new TranslationInfo(LanguageCode.SK, "Burkina Faso"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Burkina Faso"),
             new TranslationInfo(LanguageCode.UK, "Буркіна-Фасо"),
             new TranslationInfo(LanguageCode.UZ, "Burkina-Faso"),
-            new TranslationInfo(LanguageCode.ZH, "布吉纳法索"),
+            new TranslationInfo(LanguageCode.ZH, "布基纳法索"),
         };
     }
 }

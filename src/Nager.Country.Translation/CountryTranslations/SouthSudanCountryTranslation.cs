@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// South Sudan
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Lõuna-Sudaan"),
             new TranslationInfo(LanguageCode.FA, "سودان جنوبی"),
             new TranslationInfo(LanguageCode.FI, "Etelä-Sudan"),
-            new TranslationInfo(LanguageCode.FR, "Sud-Soudan"),
+            new TranslationInfo(LanguageCode.FR, "Soudan du Sud"),
             new TranslationInfo(LanguageCode.HE, "דרום סודן"),
             new TranslationInfo(LanguageCode.HI, "दक्षिण सूडान"),
             new TranslationInfo(LanguageCode.HR, "Južni Sudan"),
@@ -45,7 +45,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NO, "Sør-Sudan"),
             new TranslationInfo(LanguageCode.NL, "Zuid-Soedan"),
             new TranslationInfo(LanguageCode.NN, "Sør-Sudan"),
-            new TranslationInfo(LanguageCode.PL, "Sudan Południowy"),
+            new TranslationInfo(LanguageCode.PL, "Sudan"),
             new TranslationInfo(LanguageCode.PT, "Sudão do Sul"),
             new TranslationInfo(LanguageCode.RO, "Sudanul de Sud"),
             new TranslationInfo(LanguageCode.RU, "Южный Судан"),

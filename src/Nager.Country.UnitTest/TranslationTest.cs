@@ -138,6 +138,32 @@ namespace Nager.Country.UnitTest
         }
 
         [TestMethod]
+        public void EnglishTranslationMatchesCommonNameTest()
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+            ITranslationProvider translationProvider = new TranslationProvider();
+
+            foreach (var countryCode in Enum.GetValues<Alpha2Code>())
+            {
+                var countryInfo = countryProvider.GetCountry(countryCode);
+                var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
+                if (countryTranslation is null)
+                {
+                    continue;
+                }
+
+                var enTranslation = countryTranslation.Translations.FirstOrDefault(t => t.LanguageCode == LanguageCode.EN);
+                if (enTranslation is null)
+                {
+                    continue;
+                }
+
+                Assert.AreEqual(countryInfo.CommonName, enTranslation.Name,
+                    $"EN translation for {countryCode} does not match CommonName. Expected '{countryInfo.CommonName}' but got '{enTranslation.Name}'");
+            }
+        }
+
+        [TestMethod]
         public void CheckHyphenTest()
         {
             var searchValues = new string[] { "–", " - " };

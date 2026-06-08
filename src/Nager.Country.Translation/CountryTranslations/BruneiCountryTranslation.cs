@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Brunei
@@ -16,14 +16,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Brunei"),
             new TranslationInfo(LanguageCode.CS, "Brunej"),
             new TranslationInfo(LanguageCode.DA, "Brunei Darussalam"),
-            new TranslationInfo(LanguageCode.DE, "Brunei Darussalam"),
+            new TranslationInfo(LanguageCode.DE, "Brunei"),
             new TranslationInfo(LanguageCode.EL, "Σουλτανάτο του Μπρουνέι"),
-            new TranslationInfo(LanguageCode.EN, "Brunei Darussalam"),
-            new TranslationInfo(LanguageCode.ES, "Brunei Darussalam"),
+            new TranslationInfo(LanguageCode.EN, "Brunei"),
+            new TranslationInfo(LanguageCode.ES, "Brunei"),
             new TranslationInfo(LanguageCode.ET, "Brunei"),
             new TranslationInfo(LanguageCode.FA, "برونئی"),
             new TranslationInfo(LanguageCode.FI, "Brunei"),
-            new TranslationInfo(LanguageCode.FR, "Brunei Darussalam"),
+            new TranslationInfo(LanguageCode.FR, "Brunei"),
             new TranslationInfo(LanguageCode.HE, "ברוניי"),
             new TranslationInfo(LanguageCode.HI, "ब्रुनेई"),
             new TranslationInfo(LanguageCode.HR, "Brunej"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Brunei Darussalam"),
             new TranslationInfo(LanguageCode.IS, "Brúnei"),
             new TranslationInfo(LanguageCode.IT, "Brunei"),
-            new TranslationInfo(LanguageCode.JA, "ブルネイ・ダルサラーム"),
+            new TranslationInfo(LanguageCode.JA, "ブルネイ"),
             new TranslationInfo(LanguageCode.KA, "ბრუნეი"),
             new TranslationInfo(LanguageCode.KK, "Бруней"),
             new TranslationInfo(LanguageCode.KO, "브루나이"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Бруней"),
             new TranslationInfo(LanguageCode.NB, "Brunei"),
             new TranslationInfo(LanguageCode.NO, "Brunei"),
-            new TranslationInfo(LanguageCode.NL, "Brunei Darussalam"),
+            new TranslationInfo(LanguageCode.NL, "Brunei"),
             new TranslationInfo(LanguageCode.NN, "Brunei"),
             new TranslationInfo(LanguageCode.PL, "Brunei"),
             new TranslationInfo(LanguageCode.PT, "Brunei"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Armenia
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Armenië"),
             new TranslationInfo(LanguageCode.NN, "Armenia"),
             new TranslationInfo(LanguageCode.PL, "Armenia"),
-            new TranslationInfo(LanguageCode.PT, "Armênia"),
+            new TranslationInfo(LanguageCode.PT, "Arménia"),
             new TranslationInfo(LanguageCode.RO, "Armenia"),
             new TranslationInfo(LanguageCode.RU, "Армения"),
             new TranslationInfo(LanguageCode.SK, "Arménsko"),

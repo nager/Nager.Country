@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Luxembourg
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Luksemburg"),
             new TranslationInfo(LanguageCode.FA, "لوکزامبورگ"),
             new TranslationInfo(LanguageCode.FI, "Luxemburg"),
-            new TranslationInfo(LanguageCode.FR, "Luxembourg, Grand-Duché"),
+            new TranslationInfo(LanguageCode.FR, "Luxembourg"),
             new TranslationInfo(LanguageCode.HE, "לוקסמבורג"),
             new TranslationInfo(LanguageCode.HI, "लक्ज़मबर्ग"),
             new TranslationInfo(LanguageCode.HR, "Luksemburg"),

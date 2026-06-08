@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Western Sahara
@@ -48,15 +48,15 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Sahara Zachodnia"),
             new TranslationInfo(LanguageCode.PT, "Saara Ocidental"),
             new TranslationInfo(LanguageCode.RO, "Sahara Occidentală"),
-            new TranslationInfo(LanguageCode.RU, "САДР"),
+            new TranslationInfo(LanguageCode.RU, "Западная Сахара"),
             new TranslationInfo(LanguageCode.SK, "Západná Sahara"),
             new TranslationInfo(LanguageCode.SL, "Zahodna Sahara"),
             new TranslationInfo(LanguageCode.SR, "Западна Сахара"),
             new TranslationInfo(LanguageCode.SV, "Västsahara"),
-            new TranslationInfo(LanguageCode.TR, "Batı Sahara"),
+            new TranslationInfo(LanguageCode.TR, "Sahra Demokratik Arap Cumhuriyeti"),
             new TranslationInfo(LanguageCode.UK, "САДР"),
             new TranslationInfo(LanguageCode.UZ, "G‘arbiy Sahroi Kabir"),
-            new TranslationInfo(LanguageCode.ZH, "阿拉伯撒哈拉民主共和国"),
+            new TranslationInfo(LanguageCode.ZH, "西撒哈拉"),
         };
     }
 }

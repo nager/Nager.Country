@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Iraq
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Irak"),
             new TranslationInfo(LanguageCode.EL, "Ιράκ"),
             new TranslationInfo(LanguageCode.EN, "Iraq"),
-            new TranslationInfo(LanguageCode.ES, "Iraq"),
+            new TranslationInfo(LanguageCode.ES, "Irak"),
             new TranslationInfo(LanguageCode.ET, "Iraak"),
             new TranslationInfo(LanguageCode.FA, "عراق"),
             new TranslationInfo(LanguageCode.FI, "Irak"),

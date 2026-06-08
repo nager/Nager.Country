@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Tunisia
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Tunus"),
             new TranslationInfo(LanguageCode.UK, "Туніс"),
             new TranslationInfo(LanguageCode.UZ, "Tunis"),
-            new TranslationInfo(LanguageCode.ZH, "突尼西亚"),
+            new TranslationInfo(LanguageCode.ZH, "突尼斯"),
         };
     }
 }

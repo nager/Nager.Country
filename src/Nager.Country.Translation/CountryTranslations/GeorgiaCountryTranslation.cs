@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Georgia
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "ジョージア"),
             new TranslationInfo(LanguageCode.KA, "საქართველო"),
             new TranslationInfo(LanguageCode.KK, "Грузия"),
-            new TranslationInfo(LanguageCode.KO, "그루지야"),
+            new TranslationInfo(LanguageCode.KO, "조지아"),
             new TranslationInfo(LanguageCode.KY, "Грузия"),
             new TranslationInfo(LanguageCode.LT, "Gruzija"),
             new TranslationInfo(LanguageCode.LV, "Gruzija"),

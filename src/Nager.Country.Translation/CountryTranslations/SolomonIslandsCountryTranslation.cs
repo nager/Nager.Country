@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Solomon Islands
@@ -23,10 +23,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Saalomoni Saared"),
             new TranslationInfo(LanguageCode.FA, "جزایر سلیمان"),
             new TranslationInfo(LanguageCode.FI, "Salomonsaaret"),
-            new TranslationInfo(LanguageCode.FR, "Salomon"),
+            new TranslationInfo(LanguageCode.FR, "Îles Salomon"),
             new TranslationInfo(LanguageCode.HE, "איי שלמה"),
             new TranslationInfo(LanguageCode.HI, "सोलोमन द्वीपसमूह"),
-            new TranslationInfo(LanguageCode.HR, "Salomonski Otoci"),
+            new TranslationInfo(LanguageCode.HR, "Solomonski Otoci"),
             new TranslationInfo(LanguageCode.HU, "Salamon-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Սողոմոնյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Solomon"),
@@ -49,7 +49,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PT, "Ilhas Salomão"),
             new TranslationInfo(LanguageCode.RO, "Insulele Solomon"),
             new TranslationInfo(LanguageCode.RU, "Соломоновы Острова"),
-            new TranslationInfo(LanguageCode.SK, "Šalamúnove ostrovy"),
+            new TranslationInfo(LanguageCode.SK, "Salomonove ostrovy"),
             new TranslationInfo(LanguageCode.SL, "Salomonovi otoki"),
             new TranslationInfo(LanguageCode.SR, "Соломонска Острва"),
             new TranslationInfo(LanguageCode.SV, "Salomonöarna"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Israel
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Israel"),
             new TranslationInfo(LanguageCode.ES, "Israel"),
             new TranslationInfo(LanguageCode.ET, "Iisrael"),
-            new TranslationInfo(LanguageCode.FA, "اسرائیل"),
+            new TranslationInfo(LanguageCode.FA, "فلسطين اشغالی"),
             new TranslationInfo(LanguageCode.FI, "Israel"),
             new TranslationInfo(LanguageCode.FR, "Israël"),
             new TranslationInfo(LanguageCode.HE, "ישראל"),

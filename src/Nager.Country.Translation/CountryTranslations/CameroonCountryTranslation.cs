@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Cameroon
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Cameroon"),
             new TranslationInfo(LanguageCode.ES, "Camerún"),
             new TranslationInfo(LanguageCode.ET, "Kamerun"),
-            new TranslationInfo(LanguageCode.FA, "کامرون"),
+            new TranslationInfo(LanguageCode.FA, "کامِرون"),
             new TranslationInfo(LanguageCode.FI, "Kamerun"),
             new TranslationInfo(LanguageCode.FR, "Cameroun"),
             new TranslationInfo(LanguageCode.HE, "קמרון"),
@@ -45,8 +45,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NO, "Kamerun"),
             new TranslationInfo(LanguageCode.NL, "Kameroen"),
             new TranslationInfo(LanguageCode.NN, "Kamerun"),
-            new TranslationInfo(LanguageCode.PL, "Kamerun"),
-            new TranslationInfo(LanguageCode.PT, "República dos Camarões"),
+            new TranslationInfo(LanguageCode.PL, "WybrzeŻe Kości Słoniowej"),
+            new TranslationInfo(LanguageCode.PT, "Camarões"),
             new TranslationInfo(LanguageCode.RO, "Camerun"),
             new TranslationInfo(LanguageCode.RU, "Камерун"),
             new TranslationInfo(LanguageCode.SK, "Kamerun"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Venezuela
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Venezuela"),
             new TranslationInfo(LanguageCode.IS, "Venesúela"),
             new TranslationInfo(LanguageCode.IT, "Venezuela"),
-            new TranslationInfo(LanguageCode.JA, "ベネズエラ・ボリバル共和国"),
+            new TranslationInfo(LanguageCode.JA, "ベネズエラ"),
             new TranslationInfo(LanguageCode.KA, "ვენესუელა"),
             new TranslationInfo(LanguageCode.KK, "Венесуэла"),
             new TranslationInfo(LanguageCode.KO, "베네수엘라"),

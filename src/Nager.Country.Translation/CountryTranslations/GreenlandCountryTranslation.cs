@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Greenland
@@ -22,7 +22,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ES, "Groenlandia"),
             new TranslationInfo(LanguageCode.ET, "Gröönimaa"),
             new TranslationInfo(LanguageCode.FA, "گرینلند"),
-            new TranslationInfo(LanguageCode.FI, "Grönlanti"),
+            new TranslationInfo(LanguageCode.FI, "Groönlanti"),
             new TranslationInfo(LanguageCode.FR, "Groenland"),
             new TranslationInfo(LanguageCode.HE, "גרינלנד"),
             new TranslationInfo(LanguageCode.HI, "ग्रीनलैंड"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Groenland"),
             new TranslationInfo(LanguageCode.NN, "Grønland"),
             new TranslationInfo(LanguageCode.PL, "Grenlandia"),
-            new TranslationInfo(LanguageCode.PT, "Groenlândia"),
+            new TranslationInfo(LanguageCode.PT, "Gronelândia"),
             new TranslationInfo(LanguageCode.RO, "Groenlanda"),
             new TranslationInfo(LanguageCode.RU, "Гренландия"),
             new TranslationInfo(LanguageCode.SK, "Grónsko"),

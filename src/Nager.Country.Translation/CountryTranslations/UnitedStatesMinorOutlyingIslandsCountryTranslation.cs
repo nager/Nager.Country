@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// United States Minor Outlying Islands
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
-            new TranslationInfo(LanguageCode.AR, "جزر الولايات المتحدة"),
+            new TranslationInfo(LanguageCode.AR, "جزر الولايات المتحدة الصغيرة النائية"),
             new TranslationInfo(LanguageCode.AZ, "ABŞ-a bağlı kiçik adacıqlar"),
             new TranslationInfo(LanguageCode.BE, "Малыя Аддаленыя астравы ЗША"),
             new TranslationInfo(LanguageCode.BG, "Отдалечени острови на САЩ"),
@@ -16,13 +16,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Illes Perifèriques Menors dels EUA"),
             new TranslationInfo(LanguageCode.CS, "Menší odlehlé ostrovy USA"),
             new TranslationInfo(LanguageCode.DA, "USA's ydre småøer"),
-            new TranslationInfo(LanguageCode.DE, "United States Minor Outlying Islands"),
+            new TranslationInfo(LanguageCode.DE, "Kleinere Inselbesitzungen der Vereinigten Staaten"),
             new TranslationInfo(LanguageCode.EL, "Απομακρυσμένες Νησίδες των Ηνωμένων Πολιτειών"),
             new TranslationInfo(LanguageCode.EN, "United States Minor Outlying Islands"),
-            new TranslationInfo(LanguageCode.ES, "Islas Ultramarinas Menores de los Estados Unidos"),
+            new TranslationInfo(LanguageCode.ES, "Islas Ultramarinas Menores de Estados Unidos"),
             new TranslationInfo(LanguageCode.ET, "Ühendriikide hajasaared"),
-            new TranslationInfo(LanguageCode.FA, "جزایر دورافتادهٔ ایالات متحده"),
-            new TranslationInfo(LanguageCode.FI, "Yhdysvaltain pienet erillissaaret"),
+            new TranslationInfo(LanguageCode.FA, "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا"),
+            new TranslationInfo(LanguageCode.FI, "Yhdysvaltain asumattomat saaret"),
             new TranslationInfo(LanguageCode.FR, "Îles mineures éloignées des États-Unis"),
             new TranslationInfo(LanguageCode.HE, "האיים המרוחקים הקטנים של ארה״ב"),
             new TranslationInfo(LanguageCode.HI, "संयुक्त राज्य के छोटे बाहरी द्वीपसमूह"),
@@ -30,7 +30,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HU, "Az Amerikai Egyesült Államok lakatlan külbirtokai"),
             new TranslationInfo(LanguageCode.HY, "Արտաքին կղզիներ (ԱՄՆ)"),
             new TranslationInfo(LanguageCode.ID, "United States Minor Outlying Islands"),
-            new TranslationInfo(LanguageCode.IT, "Isole minori esterne degli Stati Uniti"),
+            new TranslationInfo(LanguageCode.IT, "Isole minori esterne degli Stati Uniti d'America"),
             new TranslationInfo(LanguageCode.JA, "合衆国領有小離島"),
             new TranslationInfo(LanguageCode.KA, "აშშ-ის შორეული კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "АҚШ-тың сыртқы кіші аралдары"),
@@ -42,17 +42,17 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "АНУ-ын тойрсон арлууд"),
             new TranslationInfo(LanguageCode.NB, "USA, mindre, utenforliggende øyer"),
             new TranslationInfo(LanguageCode.NO, "USA, mindre, utenforliggende øyer"),
-            new TranslationInfo(LanguageCode.NL, "Amerikaanse Kleinere Afgelegen Eilanden"),
+            new TranslationInfo(LanguageCode.NL, "Kleine afgelegen eilanden van de Verenigde Staten"),
             new TranslationInfo(LanguageCode.NN, "USA, mindre, utanforliggande øyar"),
             new TranslationInfo(LanguageCode.PL, "Dalekie Wyspy Mniejsze Stanów Zjednoczonych"),
-            new TranslationInfo(LanguageCode.PT, "Ilhas Distantes dos EUA"),
+            new TranslationInfo(LanguageCode.PT, "Ilhas Menores Distantes dos Estados Unidos"),
             new TranslationInfo(LanguageCode.RO, "Insulele Îndepărtate ale S.U.A."),
-            new TranslationInfo(LanguageCode.RU, "Внешние малые острова (США)"),
+            new TranslationInfo(LanguageCode.RU, "Внешние малые острова США"),
             new TranslationInfo(LanguageCode.SK, "Menšie odľahlé ostrovy USA"),
             new TranslationInfo(LanguageCode.SL, "Stranski zunanji otoki Združenih držav"),
             new TranslationInfo(LanguageCode.SR, "Удаљена острва САД"),
-            new TranslationInfo(LanguageCode.SV, "USA:s yttre öar"),
-            new TranslationInfo(LanguageCode.TR, "ABD Uzak Adaları"),
+            new TranslationInfo(LanguageCode.SV, "Förenta staternas mindre öar i Oceanien och Västindien"),
+            new TranslationInfo(LanguageCode.TR, "Amerika Birleşik Devletleri Küçük Dış Adaları"),
             new TranslationInfo(LanguageCode.UK, "Зовнішні малі острови (США)"),
             new TranslationInfo(LanguageCode.UZ, "AQSH yondosh orollari"),
             new TranslationInfo(LanguageCode.ZH, "美国本土外小岛屿"),

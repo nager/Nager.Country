@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Faroe Islands
@@ -16,12 +16,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Fèroe, illes"),
             new TranslationInfo(LanguageCode.CS, "Faerské ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Færøerne"),
-            new TranslationInfo(LanguageCode.DE, "Färöer"),
+            new TranslationInfo(LanguageCode.DE, "Färöer-Inseln"),
             new TranslationInfo(LanguageCode.EL, "Νήσοι Φερόες"),
             new TranslationInfo(LanguageCode.EN, "Faroe Islands"),
-            new TranslationInfo(LanguageCode.ES, "Islas Feroe"),
+            new TranslationInfo(LanguageCode.ES, "Islas Faroe"),
             new TranslationInfo(LanguageCode.ET, "Fääri saared"),
-            new TranslationInfo(LanguageCode.FA, "جزایر فارو"),
+            new TranslationInfo(LanguageCode.FA, "جزایر فاروئه"),
             new TranslationInfo(LanguageCode.FI, "Färsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Féroé"),
             new TranslationInfo(LanguageCode.HE, "איי פארו"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Ֆարերյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Faroe"),
             new TranslationInfo(LanguageCode.IS, "Færeyjar"),
-            new TranslationInfo(LanguageCode.IT, "Isole Fær Øer"),
+            new TranslationInfo(LanguageCode.IT, "Isole Far Oer"),
             new TranslationInfo(LanguageCode.JA, "フェロー諸島"),
             new TranslationInfo(LanguageCode.KA, "ფარერის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Фарер аралдары"),
@@ -46,9 +46,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Faeröer"),
             new TranslationInfo(LanguageCode.NN, "Færøyane"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Owcze"),
-            new TranslationInfo(LanguageCode.PT, "Ilhas Faroe"),
+            new TranslationInfo(LanguageCode.PT, "Ilhas Faroé"),
             new TranslationInfo(LanguageCode.RO, "Insulele Feroe"),
-            new TranslationInfo(LanguageCode.RU, "Фареры"),
+            new TranslationInfo(LanguageCode.RU, "Фарерские острова"),
             new TranslationInfo(LanguageCode.SK, "Faerské ostrovy"),
             new TranslationInfo(LanguageCode.SL, "Ferski otoki"),
             new TranslationInfo(LanguageCode.SR, "Фарска Острва"),

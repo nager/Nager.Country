@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Kiribati
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Kiribati"),
             new TranslationInfo(LanguageCode.NN, "Kiribati"),
             new TranslationInfo(LanguageCode.PL, "Kiribati"),
-            new TranslationInfo(LanguageCode.PT, "Quiribati"),
+            new TranslationInfo(LanguageCode.PT, "Kiribati"),
             new TranslationInfo(LanguageCode.RO, "Kiribati"),
             new TranslationInfo(LanguageCode.RU, "Кирибати"),
             new TranslationInfo(LanguageCode.SK, "Kiribati"),

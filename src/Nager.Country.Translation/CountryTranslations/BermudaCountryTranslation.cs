@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Bermuda
@@ -48,7 +48,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Bermudy"),
             new TranslationInfo(LanguageCode.PT, "Bermudas"),
             new TranslationInfo(LanguageCode.RO, "Bermuda"),
-            new TranslationInfo(LanguageCode.RU, "Бермуды"),
+            new TranslationInfo(LanguageCode.RU, "Бермудские Острова"),
             new TranslationInfo(LanguageCode.SK, "Bermudy"),
             new TranslationInfo(LanguageCode.SL, "Bermudi"),
             new TranslationInfo(LanguageCode.SR, "Бермуда"),

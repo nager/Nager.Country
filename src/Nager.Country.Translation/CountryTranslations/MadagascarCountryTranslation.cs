@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Madagascar
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Madagaskar"),
             new TranslationInfo(LanguageCode.NN, "Madagaskar"),
             new TranslationInfo(LanguageCode.PL, "Madagaskar"),
-            new TranslationInfo(LanguageCode.PT, "Madagascar"),
+            new TranslationInfo(LanguageCode.PT, "Madagáscar"),
             new TranslationInfo(LanguageCode.RO, "Madagascar"),
             new TranslationInfo(LanguageCode.RU, "Мадагаскар"),
             new TranslationInfo(LanguageCode.SK, "Madagaskar"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Martinique
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Martinique"),
             new TranslationInfo(LanguageCode.EL, "Μαρτινίκα"),
             new TranslationInfo(LanguageCode.EN, "Martinique"),
-            new TranslationInfo(LanguageCode.ES, "Martinique"),
+            new TranslationInfo(LanguageCode.ES, "Martinica"),
             new TranslationInfo(LanguageCode.ET, "Martinique"),
             new TranslationInfo(LanguageCode.FA, "مارتینیک"),
             new TranslationInfo(LanguageCode.FI, "Martinique"),
@@ -49,7 +49,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PT, "Martinica"),
             new TranslationInfo(LanguageCode.RO, "Martinica"),
             new TranslationInfo(LanguageCode.RU, "Мартиника"),
-            new TranslationInfo(LanguageCode.SK, "Martinik"),
+            new TranslationInfo(LanguageCode.SK, "Martinique"),
             new TranslationInfo(LanguageCode.SL, "Martinik"),
             new TranslationInfo(LanguageCode.SR, "Мартиник"),
             new TranslationInfo(LanguageCode.SV, "Martinique"),

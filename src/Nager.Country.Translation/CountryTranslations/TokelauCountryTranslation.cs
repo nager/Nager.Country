@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Tokelau
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Tokelau"),
             new TranslationInfo(LanguageCode.EL, "Τοκελάου"),
             new TranslationInfo(LanguageCode.EN, "Tokelau"),
-            new TranslationInfo(LanguageCode.ES, "Tokelau"),
+            new TranslationInfo(LanguageCode.ES, "Islas Tokelau"),
             new TranslationInfo(LanguageCode.ET, "Tokelau"),
             new TranslationInfo(LanguageCode.FA, "توکلائو"),
             new TranslationInfo(LanguageCode.FI, "Tokelau"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Տոկելաու"),
             new TranslationInfo(LanguageCode.ID, "Tokelau"),
             new TranslationInfo(LanguageCode.IS, "Tókelá"),
-            new TranslationInfo(LanguageCode.IT, "Tokelau"),
+            new TranslationInfo(LanguageCode.IT, "Isole Tokelau"),
             new TranslationInfo(LanguageCode.JA, "トケラウ"),
             new TranslationInfo(LanguageCode.KA, "ტოკელაუ"),
             new TranslationInfo(LanguageCode.KK, "Токелау"),

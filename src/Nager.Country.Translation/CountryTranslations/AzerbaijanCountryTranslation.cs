@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Azerbaijan
@@ -22,8 +22,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ES, "Azerbaiyán"),
             new TranslationInfo(LanguageCode.ET, "Aserbaidžaan"),
             new TranslationInfo(LanguageCode.FA, "جمهوری آذربایجان"),
-            new TranslationInfo(LanguageCode.FI, "Azerbaidžan"),
-            new TranslationInfo(LanguageCode.FR, "Azerbaidjan"),
+            new TranslationInfo(LanguageCode.FI, "Azerbaidzan"),
+            new TranslationInfo(LanguageCode.FR, "Azerbaïdjan"),
             new TranslationInfo(LanguageCode.HE, "אזרבייג׳ן"),
             new TranslationInfo(LanguageCode.HI, "अज़रबैजान"),
             new TranslationInfo(LanguageCode.HR, "Azerbajdžan"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Ադրբեջան"),
             new TranslationInfo(LanguageCode.ID, "Azerbaijan"),
             new TranslationInfo(LanguageCode.IS, "Aserb­aísjan"),
-            new TranslationInfo(LanguageCode.IT, "Azerbaigian"),
+            new TranslationInfo(LanguageCode.IT, "Azerbaijan"),
             new TranslationInfo(LanguageCode.JA, "アゼルバイジャン"),
             new TranslationInfo(LanguageCode.KA, "აზერბაიჯანი"),
             new TranslationInfo(LanguageCode.KK, "Әзірбайжан"),
@@ -46,10 +46,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Azerbeidzjan"),
             new TranslationInfo(LanguageCode.NN, "Aserbajdsjan"),
             new TranslationInfo(LanguageCode.PL, "Azerbejdżan"),
-            new TranslationInfo(LanguageCode.PT, "Azerbaijão"),
+            new TranslationInfo(LanguageCode.PT, "Azerbeijão"),
             new TranslationInfo(LanguageCode.RO, "Azerbaidjan"),
             new TranslationInfo(LanguageCode.RU, "Азербайджан"),
-            new TranslationInfo(LanguageCode.SK, "Azerbajdžan"),
+            new TranslationInfo(LanguageCode.SK, "AzerbajǇan"),
             new TranslationInfo(LanguageCode.SL, "Azerbajdžan"),
             new TranslationInfo(LanguageCode.SR, "Азербејџан"),
             new TranslationInfo(LanguageCode.SV, "Azerbajdzjan"),

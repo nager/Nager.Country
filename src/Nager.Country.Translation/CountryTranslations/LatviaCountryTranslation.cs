@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Latvia
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Letland"),
             new TranslationInfo(LanguageCode.NN, "Latvia"),
             new TranslationInfo(LanguageCode.PL, "Łotwa"),
-            new TranslationInfo(LanguageCode.PT, "Letônia"),
+            new TranslationInfo(LanguageCode.PT, "Letónia"),
             new TranslationInfo(LanguageCode.RO, "Letonia"),
             new TranslationInfo(LanguageCode.RU, "Латвия"),
             new TranslationInfo(LanguageCode.SK, "Lotyšsko"),

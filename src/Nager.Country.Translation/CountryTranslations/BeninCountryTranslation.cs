@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Benin
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Benin"),
             new TranslationInfo(LanguageCode.EL, "Μπενίν"),
             new TranslationInfo(LanguageCode.EN, "Benin"),
-            new TranslationInfo(LanguageCode.ES, "Benin"),
+            new TranslationInfo(LanguageCode.ES, "Benín"),
             new TranslationInfo(LanguageCode.ET, "Benin"),
             new TranslationInfo(LanguageCode.FA, "بنین"),
             new TranslationInfo(LanguageCode.FI, "Benin"),

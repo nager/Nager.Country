@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Honduras
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Honduras"),
             new TranslationInfo(LanguageCode.ES, "Honduras"),
             new TranslationInfo(LanguageCode.ET, "Honduras"),
-            new TranslationInfo(LanguageCode.FA, "هندوراس"),
+            new TranslationInfo(LanguageCode.FA, "هُندوراس"),
             new TranslationInfo(LanguageCode.FI, "Honduras"),
             new TranslationInfo(LanguageCode.FR, "Honduras"),
             new TranslationInfo(LanguageCode.HE, "הונדורס"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Honduras"),
             new TranslationInfo(LanguageCode.UK, "Гондурас"),
             new TranslationInfo(LanguageCode.UZ, "Gonduras"),
-            new TranslationInfo(LanguageCode.ZH, "宏都拉斯"),
+            new TranslationInfo(LanguageCode.ZH, "洪都拉斯"),
         };
     }
 }

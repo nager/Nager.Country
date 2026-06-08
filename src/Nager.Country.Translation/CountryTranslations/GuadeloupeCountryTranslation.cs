@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guadeloupe
@@ -19,19 +19,19 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Guadeloupe"),
             new TranslationInfo(LanguageCode.EL, "Γουαδελούπη"),
             new TranslationInfo(LanguageCode.EN, "Guadeloupe"),
-            new TranslationInfo(LanguageCode.ES, "Guadeloupe"),
+            new TranslationInfo(LanguageCode.ES, "Guadalupe"),
             new TranslationInfo(LanguageCode.ET, "Guadeloupe"),
             new TranslationInfo(LanguageCode.FA, "گوادلوپ"),
             new TranslationInfo(LanguageCode.FI, "Guadeloupe"),
             new TranslationInfo(LanguageCode.FR, "Guadeloupe"),
             new TranslationInfo(LanguageCode.HE, "גוואדלופ"),
             new TranslationInfo(LanguageCode.HI, "गुआदेलोप"),
-            new TranslationInfo(LanguageCode.HR, "Guadalupe"),
+            new TranslationInfo(LanguageCode.HR, "Gvadalupa"),
             new TranslationInfo(LanguageCode.HU, "Guadeloupe"),
             new TranslationInfo(LanguageCode.HY, "Գվադելուպա"),
             new TranslationInfo(LanguageCode.ID, "Guadeloupe"),
             new TranslationInfo(LanguageCode.IS, "Gvadelúpeyjar"),
-            new TranslationInfo(LanguageCode.IT, "Guadalupa"),
+            new TranslationInfo(LanguageCode.IT, "Guadeloupa"),
             new TranslationInfo(LanguageCode.JA, "グアドループ"),
             new TranslationInfo(LanguageCode.KA, "გვადელუპა"),
             new TranslationInfo(LanguageCode.KK, "Гваделупа"),
@@ -53,10 +53,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SL, "Gvadalupe"),
             new TranslationInfo(LanguageCode.SR, "Гваделуп"),
             new TranslationInfo(LanguageCode.SV, "Guadeloupe"),
-            new TranslationInfo(LanguageCode.TR, "Guadalupe"),
+            new TranslationInfo(LanguageCode.TR, "Guadeloupe"),
             new TranslationInfo(LanguageCode.UK, "Гваделупа"),
             new TranslationInfo(LanguageCode.UZ, "Gvadelupe"),
-            new TranslationInfo(LanguageCode.ZH, "瓜德罗普"),
+            new TranslationInfo(LanguageCode.ZH, "瓜德罗普岛"),
         };
     }
 }

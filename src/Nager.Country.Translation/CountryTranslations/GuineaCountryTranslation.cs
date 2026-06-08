@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guinea
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Guinea"),
             new TranslationInfo(LanguageCode.ES, "Guinea"),
             new TranslationInfo(LanguageCode.ET, "Guinea"),
-            new TranslationInfo(LanguageCode.FA, "گینه"),
+            new TranslationInfo(LanguageCode.FA, "پاپوآ گینه نو"),
             new TranslationInfo(LanguageCode.FI, "Guinea"),
             new TranslationInfo(LanguageCode.FR, "Guinée"),
             new TranslationInfo(LanguageCode.HE, "גינאה"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Гвиней"),
             new TranslationInfo(LanguageCode.NB, "Guinea"),
             new TranslationInfo(LanguageCode.NO, "Guinea"),
-            new TranslationInfo(LanguageCode.NL, "Guinea"),
+            new TranslationInfo(LanguageCode.NL, "Guinee"),
             new TranslationInfo(LanguageCode.NN, "Guinea"),
             new TranslationInfo(LanguageCode.PL, "Gwinea"),
             new TranslationInfo(LanguageCode.PT, "Guiné"),

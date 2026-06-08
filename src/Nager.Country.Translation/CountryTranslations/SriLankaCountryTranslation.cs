@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Sri Lanka
@@ -14,7 +14,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.BG, "Шри Ланка"),
             new TranslationInfo(LanguageCode.BS, "Šri Lanka"),
             new TranslationInfo(LanguageCode.CA, "Sri Lanka"),
-            new TranslationInfo(LanguageCode.CS, "Šrí Lanka"),
+            new TranslationInfo(LanguageCode.CS, "Srí Lanka"),
             new TranslationInfo(LanguageCode.DA, "Sri Lanka"),
             new TranslationInfo(LanguageCode.DE, "Sri Lanka"),
             new TranslationInfo(LanguageCode.EL, "Σρι Λάνκα"),
@@ -27,7 +27,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HE, "סרי לנקה"),
             new TranslationInfo(LanguageCode.HI, "श्रीलंका"),
             new TranslationInfo(LanguageCode.HR, "Šri Lanka"),
-            new TranslationInfo(LanguageCode.HU, "Sri Lanka"),
+            new TranslationInfo(LanguageCode.HU, "Srí Lanka"),
             new TranslationInfo(LanguageCode.HY, "Շրի Լանկա"),
             new TranslationInfo(LanguageCode.ID, "Sri Lanka"),
             new TranslationInfo(LanguageCode.IS, "Srí Lanka"),

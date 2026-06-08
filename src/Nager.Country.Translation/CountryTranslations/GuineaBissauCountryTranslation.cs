@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guinea-Bissau
@@ -19,9 +19,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Guinea-Bissau"),
             new TranslationInfo(LanguageCode.EL, "Γουινέα-Μπισσάου"),
             new TranslationInfo(LanguageCode.EN, "Guinea-Bissau"),
-            new TranslationInfo(LanguageCode.ES, "Guinea Bissau"),
+            new TranslationInfo(LanguageCode.ES, "Guinea-Bisáu"),
             new TranslationInfo(LanguageCode.ET, "Guinea-Bissau"),
-            new TranslationInfo(LanguageCode.FA, "گینهٔ بیسائو"),
+            new TranslationInfo(LanguageCode.FA, "گینه بیسائو"),
             new TranslationInfo(LanguageCode.FI, "Guinea-Bissau"),
             new TranslationInfo(LanguageCode.FR, "Guinée-Bissau"),
             new TranslationInfo(LanguageCode.HE, "גינאה ביסאו"),
@@ -46,13 +46,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Guinee-Bissau"),
             new TranslationInfo(LanguageCode.NN, "Guinea-Bissau"),
             new TranslationInfo(LanguageCode.PL, "Gwinea Bissau"),
-            new TranslationInfo(LanguageCode.PT, "Guiné Bissau"),
+            new TranslationInfo(LanguageCode.PT, "Guiné-Bissau"),
             new TranslationInfo(LanguageCode.RO, "Guineea-Bissau"),
             new TranslationInfo(LanguageCode.RU, "Гвинея-Бисау"),
             new TranslationInfo(LanguageCode.SK, "Guinea-Bissau"),
             new TranslationInfo(LanguageCode.SL, "Gvineja Bissau"),
             new TranslationInfo(LanguageCode.SR, "Гвинеја-Бисао"),
-            new TranslationInfo(LanguageCode.SV, "Guinea Bissau"),
+            new TranslationInfo(LanguageCode.SV, "Guinea-Bissau"),
             new TranslationInfo(LanguageCode.TR, "Gine-Bissau"),
             new TranslationInfo(LanguageCode.UK, "Гвінея-Бісау"),
             new TranslationInfo(LanguageCode.UZ, "Gvineya-Bisau"),

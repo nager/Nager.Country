@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Indonesia
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Индонези"),
             new TranslationInfo(LanguageCode.NB, "Indonesia"),
             new TranslationInfo(LanguageCode.NO, "Indonesia"),
-            new TranslationInfo(LanguageCode.NL, "Indonesia"),
+            new TranslationInfo(LanguageCode.NL, "Indonesië"),
             new TranslationInfo(LanguageCode.NN, "Indonesia"),
             new TranslationInfo(LanguageCode.PL, "Indonezja"),
             new TranslationInfo(LanguageCode.PT, "Indonésia"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Endonezya"),
             new TranslationInfo(LanguageCode.UK, "Індонезія"),
             new TranslationInfo(LanguageCode.UZ, "Indoneziya"),
-            new TranslationInfo(LanguageCode.ZH, "印尼"),
+            new TranslationInfo(LanguageCode.ZH, "印度尼西亚"),
         };
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Yemen
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Jemen"),
             new TranslationInfo(LanguageCode.NN, "Jemen"),
             new TranslationInfo(LanguageCode.PL, "Jemen"),
-            new TranslationInfo(LanguageCode.PT, "Iêmen"),
+            new TranslationInfo(LanguageCode.PT, "Iémen"),
             new TranslationInfo(LanguageCode.RO, "Yemen"),
             new TranslationInfo(LanguageCode.RU, "Йемен"),
             new TranslationInfo(LanguageCode.SK, "Jemen"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Yemen"),
             new TranslationInfo(LanguageCode.UK, "Ємен"),
             new TranslationInfo(LanguageCode.UZ, "Yaman"),
-            new TranslationInfo(LanguageCode.ZH, "叶门"),
+            new TranslationInfo(LanguageCode.ZH, "也门"),
         };
     }
 }

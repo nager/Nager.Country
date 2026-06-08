@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Pitcairn Islands
@@ -18,21 +18,21 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DA, "Pitcairn"),
             new TranslationInfo(LanguageCode.DE, "Pitcairninseln"),
             new TranslationInfo(LanguageCode.EL, "Νήσοι Πίτκαιρν"),
-            new TranslationInfo(LanguageCode.EN, "Pitcairn"),
-            new TranslationInfo(LanguageCode.ES, "Pitcairn"),
+            new TranslationInfo(LanguageCode.EN, "Pitcairn Islands"),
+            new TranslationInfo(LanguageCode.ES, "Islas Pitcairn"),
             new TranslationInfo(LanguageCode.ET, "Pitcairn"),
             new TranslationInfo(LanguageCode.FA, "جزایر پیت‌کرن"),
             new TranslationInfo(LanguageCode.FI, "Pitcairn"),
-            new TranslationInfo(LanguageCode.FR, "Pitcairn"),
+            new TranslationInfo(LanguageCode.FR, "Îles Pitcairn"),
             new TranslationInfo(LanguageCode.HE, "איי פיטקרן"),
             new TranslationInfo(LanguageCode.HI, "पिटकेर्न द्वीपसमूह"),
-            new TranslationInfo(LanguageCode.HR, "Otoci Pitcairn"),
+            new TranslationInfo(LanguageCode.HR, "Pitcairnovo otočje"),
             new TranslationInfo(LanguageCode.HU, "Pitcairn-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Պիտկեռն կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Pitcairn"),
             new TranslationInfo(LanguageCode.IS, "Pitcairn"),
             new TranslationInfo(LanguageCode.IT, "Isole Pitcairn"),
-            new TranslationInfo(LanguageCode.JA, "ピトケアン"),
+            new TranslationInfo(LanguageCode.JA, "ピトケアン諸島"),
             new TranslationInfo(LanguageCode.KA, "პიტკერნის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Питкэрн аралдары"),
             new TranslationInfo(LanguageCode.KO, "핏케언 제도"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Питкэрн арлууд"),
             new TranslationInfo(LanguageCode.NB, "Pitcairn"),
             new TranslationInfo(LanguageCode.NO, "Pitcairn"),
-            new TranslationInfo(LanguageCode.NL, "Pitcairn"),
+            new TranslationInfo(LanguageCode.NL, "Pitcairneilanden"),
             new TranslationInfo(LanguageCode.NN, "Pitcairn"),
             new TranslationInfo(LanguageCode.PL, "Pitcairn"),
             new TranslationInfo(LanguageCode.PT, "Ilhas Pitcairn"),

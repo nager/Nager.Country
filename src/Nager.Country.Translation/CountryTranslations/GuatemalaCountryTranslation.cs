@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guatemala
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Guatemala"),
             new TranslationInfo(LanguageCode.ES, "Guatemala"),
             new TranslationInfo(LanguageCode.ET, "Guatemala"),
-            new TranslationInfo(LanguageCode.FA, "گواتمالا"),
+            new TranslationInfo(LanguageCode.FA, "گواتِمالا"),
             new TranslationInfo(LanguageCode.FI, "Guatemala"),
             new TranslationInfo(LanguageCode.FR, "Guatemala"),
             new TranslationInfo(LanguageCode.HE, "גואטמלה"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Ivory Coast
@@ -16,14 +16,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Costa d'Ivori"),
             new TranslationInfo(LanguageCode.CS, "Pobřeží slonoviny"),
             new TranslationInfo(LanguageCode.DA, "Elfenbenskysten"),
-            new TranslationInfo(LanguageCode.DE, "Elfenbeinküste"),
+            new TranslationInfo(LanguageCode.DE, "Côte d'Ivoire"),
             new TranslationInfo(LanguageCode.EL, "Ακτή Ελεφαντοστού"),
-            new TranslationInfo(LanguageCode.EN, "Cote D'Ivoire"),
+            new TranslationInfo(LanguageCode.EN, "Ivory Coast"),
             new TranslationInfo(LanguageCode.ES, "Costa de Marfil"),
-            new TranslationInfo(LanguageCode.ET, "Côte d'Ivoire"),
+            new TranslationInfo(LanguageCode.ET, "Elevandiluurannik"),
             new TranslationInfo(LanguageCode.FA, "ساحل عاج"),
             new TranslationInfo(LanguageCode.FI, "Norsunluurannikko"),
-            new TranslationInfo(LanguageCode.FR, "Côte-d'Ivoire"),
+            new TranslationInfo(LanguageCode.FR, "Côte d'Ivoire"),
             new TranslationInfo(LanguageCode.HE, "חוף השנהב"),
             new TranslationInfo(LanguageCode.HI, "आइवरी कोस्ट"),
             new TranslationInfo(LanguageCode.HR, "Obala Bjelokosti"),
@@ -49,7 +49,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PT, "Costa do Marfim"),
             new TranslationInfo(LanguageCode.RO, "Côte d’Ivoire"),
             new TranslationInfo(LanguageCode.RU, "Кот-д’Ивуар"),
-            new TranslationInfo(LanguageCode.SK, "Pobrežie Slonoviny"),
+            new TranslationInfo(LanguageCode.SK, "Pobržie Slonoviny"),
             new TranslationInfo(LanguageCode.SL, "Slonokoščena obala"),
             new TranslationInfo(LanguageCode.SR, "Обала Слоноваче"),
             new TranslationInfo(LanguageCode.SV, "Elfenbenskusten"),

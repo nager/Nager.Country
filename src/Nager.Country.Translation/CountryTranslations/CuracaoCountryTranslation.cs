@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Curaçao
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Curaçao"),
             new TranslationInfo(LanguageCode.EL, "Κουρασάο"),
             new TranslationInfo(LanguageCode.EN, "Curaçao"),
-            new TranslationInfo(LanguageCode.ES, "Curaçao"),
+            new TranslationInfo(LanguageCode.ES, "Curazao"),
             new TranslationInfo(LanguageCode.ET, "Curaçao"),
             new TranslationInfo(LanguageCode.FA, "کوراسائو"),
             new TranslationInfo(LanguageCode.FI, "Curaçao"),
@@ -46,13 +46,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Curaçao"),
             new TranslationInfo(LanguageCode.NN, "Curaçao"),
             new TranslationInfo(LanguageCode.PL, "Curaçao"),
-            new TranslationInfo(LanguageCode.PT, "Curaçao"),
+            new TranslationInfo(LanguageCode.PT, "ilha da Curação"),
             new TranslationInfo(LanguageCode.RO, "Curaçao"),
             new TranslationInfo(LanguageCode.RU, "Кюрасао"),
-            new TranslationInfo(LanguageCode.SK, "Curaçao"),
+            new TranslationInfo(LanguageCode.SK, "Curacao"),
             new TranslationInfo(LanguageCode.SL, "Curaçao"),
             new TranslationInfo(LanguageCode.SR, "Курасао"),
-            new TranslationInfo(LanguageCode.SV, "Curacao"),
+            new TranslationInfo(LanguageCode.SV, "Curaçao"),
             new TranslationInfo(LanguageCode.TR, "Curaçao"),
             new TranslationInfo(LanguageCode.UK, "Кюрасао"),
             new TranslationInfo(LanguageCode.UZ, "Kyurasao"),

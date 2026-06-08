@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Belarus
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "روسيا البيضاء"),
+            new TranslationInfo(LanguageCode.AR, "بيلاروسيا"),
             new TranslationInfo(LanguageCode.AZ, "Belarus"),
             new TranslationInfo(LanguageCode.BE, "Беларусь"),
             new TranslationInfo(LanguageCode.BG, "Беларус"),
@@ -19,11 +19,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Belarus"),
             new TranslationInfo(LanguageCode.EL, "Λευκορωσία"),
             new TranslationInfo(LanguageCode.EN, "Belarus"),
-            new TranslationInfo(LanguageCode.ES, "Belarús"),
+            new TranslationInfo(LanguageCode.ES, "Bielorrusia"),
             new TranslationInfo(LanguageCode.ET, "Valgevene"),
             new TranslationInfo(LanguageCode.FA, "بلاروس"),
             new TranslationInfo(LanguageCode.FI, "Valko-Venäjä"),
-            new TranslationInfo(LanguageCode.FR, "Bielorussie"),
+            new TranslationInfo(LanguageCode.FR, "Biélorussie"),
             new TranslationInfo(LanguageCode.HE, "בלארוס"),
             new TranslationInfo(LanguageCode.HI, "बेलारूस"),
             new TranslationInfo(LanguageCode.HR, "Bjelorusija"),
@@ -46,14 +46,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Wit-Rusland"),
             new TranslationInfo(LanguageCode.NN, "Kviterussland"),
             new TranslationInfo(LanguageCode.PL, "Białoruś"),
-            new TranslationInfo(LanguageCode.PT, "Bielorrússia"),
+            new TranslationInfo(LanguageCode.PT, "Bielorússia"),
             new TranslationInfo(LanguageCode.RO, "Belarus"),
             new TranslationInfo(LanguageCode.RU, "Беларусь"),
             new TranslationInfo(LanguageCode.SK, "Bielorusko"),
             new TranslationInfo(LanguageCode.SL, "Belorusija"),
             new TranslationInfo(LanguageCode.SR, "Белорусија"),
             new TranslationInfo(LanguageCode.SV, "Belarus"),
-            new TranslationInfo(LanguageCode.TR, "Beyaz Rusya"),
+            new TranslationInfo(LanguageCode.TR, "Belarus"),
             new TranslationInfo(LanguageCode.UK, "Білорусь"),
             new TranslationInfo(LanguageCode.UZ, "Belarus"),
             new TranslationInfo(LanguageCode.ZH, "白俄罗斯"),

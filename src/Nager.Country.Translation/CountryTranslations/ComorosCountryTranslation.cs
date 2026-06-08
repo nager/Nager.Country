@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Comoros
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Comoros"),
             new TranslationInfo(LanguageCode.ES, "Comoras"),
             new TranslationInfo(LanguageCode.ET, "Komoorid"),
-            new TranslationInfo(LanguageCode.FA, "کومورو"),
+            new TranslationInfo(LanguageCode.FA, "اتحاد قُمُر"),
             new TranslationInfo(LanguageCode.FI, "Komorit"),
             new TranslationInfo(LanguageCode.FR, "Comores"),
             new TranslationInfo(LanguageCode.HE, "קומורו"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Komoro"),
             new TranslationInfo(LanguageCode.IS, "Kómorur"),
             new TranslationInfo(LanguageCode.IT, "Comore"),
-            new TranslationInfo(LanguageCode.JA, "小諸"),
+            new TranslationInfo(LanguageCode.JA, "コモロ"),
             new TranslationInfo(LanguageCode.KA, "კომორის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Комор аралдары"),
             new TranslationInfo(LanguageCode.KO, "코모로"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Gibraltar
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Gibraltar"),
             new TranslationInfo(LanguageCode.ES, "Gibraltar"),
             new TranslationInfo(LanguageCode.ET, "Gibraltar"),
-            new TranslationInfo(LanguageCode.FA, "جبل‌الطارق"),
+            new TranslationInfo(LanguageCode.FA, "جبل طارق"),
             new TranslationInfo(LanguageCode.FI, "Gibraltar"),
             new TranslationInfo(LanguageCode.FR, "Gibraltar"),
             new TranslationInfo(LanguageCode.HE, "גיברלטר"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Ethiopia
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Ethiopia"),
             new TranslationInfo(LanguageCode.ES, "Etiopía"),
             new TranslationInfo(LanguageCode.ET, "Etioopia"),
-            new TranslationInfo(LanguageCode.FA, "اتیوپی"),
+            new TranslationInfo(LanguageCode.FA, "اِتیوپی"),
             new TranslationInfo(LanguageCode.FI, "Etiopia"),
             new TranslationInfo(LanguageCode.FR, "Éthiopie"),
             new TranslationInfo(LanguageCode.HE, "אתיופיה"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Etiyopya"),
             new TranslationInfo(LanguageCode.UK, "Ефіопія"),
             new TranslationInfo(LanguageCode.UZ, "Efiopiya"),
-            new TranslationInfo(LanguageCode.ZH, "衣索比亚"),
+            new TranslationInfo(LanguageCode.ZH, "埃塞俄比亚"),
         };
     }
 }

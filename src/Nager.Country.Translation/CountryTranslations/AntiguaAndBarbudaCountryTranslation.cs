@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Antigua and Barbuda
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Antigua ja Barbuda"),
             new TranslationInfo(LanguageCode.FA, "آنتیگوا و باربودا"),
             new TranslationInfo(LanguageCode.FI, "Antigua ja Barbuda"),
-            new TranslationInfo(LanguageCode.FR, "Antigua et Barbuda"),
+            new TranslationInfo(LanguageCode.FR, "Antigua-et-Barbuda"),
             new TranslationInfo(LanguageCode.HE, "אנטיגואה וברבודה"),
             new TranslationInfo(LanguageCode.HI, "एंटीगुआ और बारबूडा"),
             new TranslationInfo(LanguageCode.HR, "Antigva i Barbuda"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Antigua ve Barbuda"),
             new TranslationInfo(LanguageCode.UK, "Антигуа і Барбуда"),
             new TranslationInfo(LanguageCode.UZ, "Antigua va Barbuda"),
-            new TranslationInfo(LanguageCode.ZH, "安地卡及巴布达"),
+            new TranslationInfo(LanguageCode.ZH, "安提瓜和巴布达"),
         
        
        };

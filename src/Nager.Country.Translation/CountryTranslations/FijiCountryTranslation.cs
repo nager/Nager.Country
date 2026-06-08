@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Fiji
@@ -19,14 +19,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Fidschi"),
             new TranslationInfo(LanguageCode.EL, "Δημοκρατία των Φίτζι"),
             new TranslationInfo(LanguageCode.EN, "Fiji"),
-            new TranslationInfo(LanguageCode.ES, "Fiji"),
+            new TranslationInfo(LanguageCode.ES, "Fiyi"),
             new TranslationInfo(LanguageCode.ET, "Fidži"),
             new TranslationInfo(LanguageCode.FA, "فیجی"),
             new TranslationInfo(LanguageCode.FI, "Fidži"),
             new TranslationInfo(LanguageCode.FR, "Fidji"),
             new TranslationInfo(LanguageCode.HE, "פיג׳י"),
             new TranslationInfo(LanguageCode.HI, "फ़िजी"),
-            new TranslationInfo(LanguageCode.HR, "Fidži"),
+            new TranslationInfo(LanguageCode.HR, "Fiđi"),
             new TranslationInfo(LanguageCode.HU, "Fidzsi-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Ֆիջի"),
             new TranslationInfo(LanguageCode.ID, "Fiji"),

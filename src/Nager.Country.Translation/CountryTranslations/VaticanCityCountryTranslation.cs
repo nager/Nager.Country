@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Vatican City
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "الفاتيكان"),
+            new TranslationInfo(LanguageCode.AR, "مدينة الفاتيكان"),
             new TranslationInfo(LanguageCode.AZ, "Vatikan"),
             new TranslationInfo(LanguageCode.BE, "Ватыкан"),
             new TranslationInfo(LanguageCode.BG, "Ватикан"),
@@ -18,24 +18,24 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DA, "Vatikanstaten"),
             new TranslationInfo(LanguageCode.DE, "Vatikanstadt"),
             new TranslationInfo(LanguageCode.EL, "Κράτος της Πόλης του Βατικανού"),
-            new TranslationInfo(LanguageCode.EN, "Holy See (Vatican City State)"),
-            new TranslationInfo(LanguageCode.ES, "Santa Sede"),
+            new TranslationInfo(LanguageCode.EN, "Vatican City"),
+            new TranslationInfo(LanguageCode.ES, "Ciudad del Vaticano"),
             new TranslationInfo(LanguageCode.ET, "Vatikan"),
             new TranslationInfo(LanguageCode.FA, "واتیکان"),
-            new TranslationInfo(LanguageCode.FI, "Vatikaanivaltio"),
-            new TranslationInfo(LanguageCode.FR, "Saint-Siège"),
+            new TranslationInfo(LanguageCode.FI, "Vatikaani"),
+            new TranslationInfo(LanguageCode.FR, "Cité du Vatican"),
             new TranslationInfo(LanguageCode.HE, "הוותיקן"),
             new TranslationInfo(LanguageCode.HI, "वेटिकन सिटी"),
-            new TranslationInfo(LanguageCode.HR, "Vatikanski Grad"),
+            new TranslationInfo(LanguageCode.HR, "Vatikan"),
             new TranslationInfo(LanguageCode.HU, "Vatikán"),
             new TranslationInfo(LanguageCode.HY, "Վատիկան"),
             new TranslationInfo(LanguageCode.ID, "Vatikan"),
             new TranslationInfo(LanguageCode.IS, "Vatíkanið"),
             new TranslationInfo(LanguageCode.IT, "Città del Vaticano"),
-            new TranslationInfo(LanguageCode.JA, "バチカン市国"),
+            new TranslationInfo(LanguageCode.JA, "バチカン"),
             new TranslationInfo(LanguageCode.KA, "ქალაქი ვატიკანი"),
             new TranslationInfo(LanguageCode.KK, "Ватикан"),
-            new TranslationInfo(LanguageCode.KO, "바티칸 시국"),
+            new TranslationInfo(LanguageCode.KO, "바티칸"),
             new TranslationInfo(LanguageCode.KY, "Ватикан"),
             new TranslationInfo(LanguageCode.LT, "Vatikano Miesto Valstybė"),
             new TranslationInfo(LanguageCode.LV, "Vatikāns"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Ватикан хот улс"),
             new TranslationInfo(LanguageCode.NB, "Vatikanstaten"),
             new TranslationInfo(LanguageCode.NO, "Vatikanstaten"),
-            new TranslationInfo(LanguageCode.NL, "Heilige Stoel"),
+            new TranslationInfo(LanguageCode.NL, "Vaticaanstad"),
             new TranslationInfo(LanguageCode.NN, "Vatikanstaten"),
             new TranslationInfo(LanguageCode.PL, "Watykan"),
             new TranslationInfo(LanguageCode.PT, "Cidade do Vaticano"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Northern Mariana Islands
@@ -19,11 +19,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Nördliche Marianen"),
             new TranslationInfo(LanguageCode.EL, "Βόρειες Μαριάνες Νήσοι"),
             new TranslationInfo(LanguageCode.EN, "Northern Mariana Islands"),
-            new TranslationInfo(LanguageCode.ES, "Isla Marianas del Norte"),
+            new TranslationInfo(LanguageCode.ES, "Islas Marianas del Norte"),
             new TranslationInfo(LanguageCode.ET, "Põhja-Mariaanid"),
             new TranslationInfo(LanguageCode.FA, "جزایر ماریانای شمالی"),
             new TranslationInfo(LanguageCode.FI, "Pohjois-Mariaanit"),
-            new TranslationInfo(LanguageCode.FR, "Mariannes du Nord"),
+            new TranslationInfo(LanguageCode.FR, "Îles Mariannes du Nord"),
             new TranslationInfo(LanguageCode.HE, "איי מריאנה הצפוניים"),
             new TranslationInfo(LanguageCode.HI, "उत्तरी मरियाना द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Sjevernomarijanski otoci"),
@@ -43,10 +43,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Хойд Марианы арлууд"),
             new TranslationInfo(LanguageCode.NB, "Nord-Marianene"),
             new TranslationInfo(LanguageCode.NO, "Nord-Marianene"),
-            new TranslationInfo(LanguageCode.NL, "Noordelijke Marianen"),
+            new TranslationInfo(LanguageCode.NL, "Noordelijke Marianeneilanden"),
             new TranslationInfo(LanguageCode.NN, "Nord-Marianane"),
             new TranslationInfo(LanguageCode.PL, "Mariany Północne"),
-            new TranslationInfo(LanguageCode.PT, "Ilhas Marianas do Norte"),
+            new TranslationInfo(LanguageCode.PT, "Marianas Setentrionais"),
             new TranslationInfo(LanguageCode.RO, "Insulele Mariane de Nord"),
             new TranslationInfo(LanguageCode.RU, "Северные Марианские Острова"),
             new TranslationInfo(LanguageCode.SK, "Severné Mariány"),

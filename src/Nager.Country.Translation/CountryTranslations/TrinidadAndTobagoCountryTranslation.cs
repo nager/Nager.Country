@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Trinidad and Tobago
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Trinidad ja Tobago"),
             new TranslationInfo(LanguageCode.FA, "ترینیداد و توباگو"),
             new TranslationInfo(LanguageCode.FI, "Trinidad ja Tobago"),
-            new TranslationInfo(LanguageCode.FR, "Trinidad et Tobago"),
+            new TranslationInfo(LanguageCode.FR, "Trinité-et-Tobago"),
             new TranslationInfo(LanguageCode.HE, "טרינידד וטובגו"),
             new TranslationInfo(LanguageCode.HI, "त्रिनिदाद और टोबैगो"),
             new TranslationInfo(LanguageCode.HR, "Trinidad i Tobago"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Trinidad en Tobago"),
             new TranslationInfo(LanguageCode.NN, "Trinidad og Tobago"),
             new TranslationInfo(LanguageCode.PL, "Trynidad i Tobago"),
-            new TranslationInfo(LanguageCode.PT, "Trinidad e Tobago"),
+            new TranslationInfo(LanguageCode.PT, "Trinidade e Tobago"),
             new TranslationInfo(LanguageCode.RO, "Trinidad și Tobago"),
             new TranslationInfo(LanguageCode.RU, "Тринидад и Тобаго"),
             new TranslationInfo(LanguageCode.SK, "Trinidad a Tobago"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Trinidad ve Tobago"),
             new TranslationInfo(LanguageCode.UK, "Тринідад і Тобаго"),
             new TranslationInfo(LanguageCode.UZ, "Trinidad va Tobago"),
-            new TranslationInfo(LanguageCode.ZH, "千里达及托巴哥"),
+            new TranslationInfo(LanguageCode.ZH, "特立尼达和多巴哥"),
         };
     }
 }

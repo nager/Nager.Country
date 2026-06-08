@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Monaco
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Մոնակո"),
             new TranslationInfo(LanguageCode.ID, "Monako"),
             new TranslationInfo(LanguageCode.IS, "Mónakó"),
-            new TranslationInfo(LanguageCode.IT, "Monaco"),
+            new TranslationInfo(LanguageCode.IT, "Principato di Monaco"),
             new TranslationInfo(LanguageCode.JA, "モナコ"),
             new TranslationInfo(LanguageCode.KA, "მონაკო"),
             new TranslationInfo(LanguageCode.KK, "Монако"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Monaco"),
             new TranslationInfo(LanguageCode.NN, "Monaco"),
             new TranslationInfo(LanguageCode.PL, "Monako"),
-            new TranslationInfo(LanguageCode.PT, "Mônaco"),
+            new TranslationInfo(LanguageCode.PT, "Mónaco"),
             new TranslationInfo(LanguageCode.RO, "Monaco"),
             new TranslationInfo(LanguageCode.RU, "Монако"),
             new TranslationInfo(LanguageCode.SK, "Monako"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Eswatini
@@ -27,7 +27,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HE, "אסוואטיני"),
             new TranslationInfo(LanguageCode.HI, "एस्वातिनी"),
             new TranslationInfo(LanguageCode.HR, "Esvatini"),
-            new TranslationInfo(LanguageCode.HU, "Eswatini"),
+            new TranslationInfo(LanguageCode.HU, "Szváziföld"),
             new TranslationInfo(LanguageCode.HY, "Էսվատինի"),
             new TranslationInfo(LanguageCode.ID, "Eswatini"),
             new TranslationInfo(LanguageCode.IS, "Esvatíní"),
@@ -43,12 +43,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Эсватини"),
             new TranslationInfo(LanguageCode.NB, "Eswatini"),
             new TranslationInfo(LanguageCode.NO, "Eswatini"),
-            new TranslationInfo(LanguageCode.NL, "Eswatini"),
+            new TranslationInfo(LanguageCode.NL, "Swaziland"),
             new TranslationInfo(LanguageCode.NN, "Eswatini"),
             new TranslationInfo(LanguageCode.PL, "Eswatini"),
             new TranslationInfo(LanguageCode.PT, "Essuatíni"),
             new TranslationInfo(LanguageCode.RO, "Eswatini"),
-            new TranslationInfo(LanguageCode.RU, "Эсватини"),
+            new TranslationInfo(LanguageCode.RU, "Свазиленд"),
             new TranslationInfo(LanguageCode.SK, "Eswatini"),
             new TranslationInfo(LanguageCode.SL, "Esvatini"),
             new TranslationInfo(LanguageCode.SR, "Есватини"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Esvatini"),
             new TranslationInfo(LanguageCode.UK, "Есватіні"),
             new TranslationInfo(LanguageCode.UZ, "Esvatini"),
-            new TranslationInfo(LanguageCode.ZH, "斯威士尼"),
+            new TranslationInfo(LanguageCode.ZH, "斯威士兰"),
         };
     }
 }

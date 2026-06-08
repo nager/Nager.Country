@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// São Tomé and Príncipe
@@ -18,12 +18,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DA, "São Tomé og Príncipe"),
             new TranslationInfo(LanguageCode.DE, "São Tomé und Príncipe"),
             new TranslationInfo(LanguageCode.EL, "Σάο Τομέ και Πρίνσιπε"),
-            new TranslationInfo(LanguageCode.EN, "Sao Tome and Principe"),
+            new TranslationInfo(LanguageCode.EN, "São Tomé and Príncipe"),
             new TranslationInfo(LanguageCode.ES, "Santo Tomé y Príncipe"),
             new TranslationInfo(LanguageCode.ET, "São Tomé ja Príncipe"),
-            new TranslationInfo(LanguageCode.FA, "سائوتومه و پرینسیپ"),
-            new TranslationInfo(LanguageCode.FI, "São Tomé ja Príncipe"),
-            new TranslationInfo(LanguageCode.FR, "São Tomé et Principe"),
+            new TranslationInfo(LanguageCode.FA, "سائوتومه و پرنسیپ"),
+            new TranslationInfo(LanguageCode.FI, "São Téme ja Príncipe"),
+            new TranslationInfo(LanguageCode.FR, "São Tomé et Príncipe"),
             new TranslationInfo(LanguageCode.HE, "סאו טומה ופרינסיפה"),
             new TranslationInfo(LanguageCode.HI, "साओ तोमे और प्रिंसिपे"),
             new TranslationInfo(LanguageCode.HR, "Sveti Toma i Princip"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Сан-Томе ба Принсипи"),
             new TranslationInfo(LanguageCode.NB, "São Tomé og Príncipe"),
             new TranslationInfo(LanguageCode.NO, "São Tomé og Príncipe"),
-            new TranslationInfo(LanguageCode.NL, "São Tomé en Principe"),
+            new TranslationInfo(LanguageCode.NL, "Sao Tomé en Principe"),
             new TranslationInfo(LanguageCode.NN, "São Tomé og Príncipe"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Świętego Tomasza i Książęca"),
             new TranslationInfo(LanguageCode.PT, "São Tomé e Príncipe"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Botswana
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Botswana"),
             new TranslationInfo(LanguageCode.NN, "Botswana"),
             new TranslationInfo(LanguageCode.PL, "Botswana"),
-            new TranslationInfo(LanguageCode.PT, "Botsuana"),
+            new TranslationInfo(LanguageCode.PT, "Botswana"),
             new TranslationInfo(LanguageCode.RO, "Botswana"),
             new TranslationInfo(LanguageCode.RU, "Ботсвана"),
             new TranslationInfo(LanguageCode.SK, "Botswana"),

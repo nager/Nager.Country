@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Estonia
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Estonia"),
             new TranslationInfo(LanguageCode.ES, "Estonia"),
             new TranslationInfo(LanguageCode.ET, "Eesti"),
-            new TranslationInfo(LanguageCode.FA, "استونی"),
+            new TranslationInfo(LanguageCode.FA, "اِستونی"),
             new TranslationInfo(LanguageCode.FI, "Viro"),
             new TranslationInfo(LanguageCode.FR, "Estonie"),
             new TranslationInfo(LanguageCode.HE, "אסטוניה"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Estland"),
             new TranslationInfo(LanguageCode.NN, "Estland"),
             new TranslationInfo(LanguageCode.PL, "Estonia"),
-            new TranslationInfo(LanguageCode.PT, "Estônia"),
+            new TranslationInfo(LanguageCode.PT, "Estónia"),
             new TranslationInfo(LanguageCode.RO, "Estonia"),
             new TranslationInfo(LanguageCode.RU, "Эстония"),
             new TranslationInfo(LanguageCode.SK, "Estónsko"),

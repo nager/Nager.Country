@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Somalia
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Somali"),
             new TranslationInfo(LanguageCode.UK, "Сомалі"),
             new TranslationInfo(LanguageCode.UZ, "Somali"),
-            new TranslationInfo(LanguageCode.ZH, "索马利亚"),
+            new TranslationInfo(LanguageCode.ZH, "索马里"),
         };
     }
 }

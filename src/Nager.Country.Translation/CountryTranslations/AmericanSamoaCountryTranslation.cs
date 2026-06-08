@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// American Samoa
@@ -21,13 +21,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "American Samoa"),
             new TranslationInfo(LanguageCode.ES, "Samoa Americana"),
             new TranslationInfo(LanguageCode.ET, "Ameerika Samoa"),
-            new TranslationInfo(LanguageCode.FA, "ساموآی امریکا"),
+            new TranslationInfo(LanguageCode.FA, "ساموآی آمریکا"),
             new TranslationInfo(LanguageCode.FI, "Amerikan Samoa"),
-            new TranslationInfo(LanguageCode.FR, "Samoa américaine"),
+            new TranslationInfo(LanguageCode.FR, "Samoa américaines"),
             new TranslationInfo(LanguageCode.HE, "סמואה האמריקנית"),
             new TranslationInfo(LanguageCode.HI, "अमेरिकी समोआ"),
             new TranslationInfo(LanguageCode.HR, "Američka Samoa"),
-            new TranslationInfo(LanguageCode.HU, "Amerikai Szamoa"),
+            new TranslationInfo(LanguageCode.HU, "Szamoa"),
             new TranslationInfo(LanguageCode.HY, "Ամերիկյան Սամոա"),
             new TranslationInfo(LanguageCode.ID, "Samoa Amerika"),
             new TranslationInfo(LanguageCode.IS, "Bandaríska Samóa"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Америкийн Самоа"),
             new TranslationInfo(LanguageCode.NB, "Amerikansk Samoa"),
             new TranslationInfo(LanguageCode.NO, "Amerikansk Samoa"),
-            new TranslationInfo(LanguageCode.NL, "Amerikaans-Samoa"),
+            new TranslationInfo(LanguageCode.NL, "Amerikaans Samoa"),
             new TranslationInfo(LanguageCode.NN, "Amerikansk Samoa"),
             new TranslationInfo(LanguageCode.PL, "Samoa Amerykańskie"),
             new TranslationInfo(LanguageCode.PT, "Samoa Americana"),

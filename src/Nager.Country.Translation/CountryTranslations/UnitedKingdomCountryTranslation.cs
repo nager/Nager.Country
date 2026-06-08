@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// United Kingdom
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "United Kingdom"),
             new TranslationInfo(LanguageCode.ES, "Reino Unido"),
             new TranslationInfo(LanguageCode.ET, "Suurbritannia"),
-            new TranslationInfo(LanguageCode.FA, "بریتانیا"),
+            new TranslationInfo(LanguageCode.FA, "انگلیس"),
             new TranslationInfo(LanguageCode.FI, "Yhdistynyt kuningaskunta"),
             new TranslationInfo(LanguageCode.FR, "Royaume-Uni"),
             new TranslationInfo(LanguageCode.HE, "הממלכה המאוחדת"),
@@ -45,11 +45,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NO, "Storbritannia"),
             new TranslationInfo(LanguageCode.NL, "Verenigd Koninkrijk"),
             new TranslationInfo(LanguageCode.NN, "Storbritannia"),
-            new TranslationInfo(LanguageCode.PL, "Wielka Brytania"),
+            new TranslationInfo(LanguageCode.PL, "Zjednoczone Królestwo"),
             new TranslationInfo(LanguageCode.PT, "Reino Unido"),
             new TranslationInfo(LanguageCode.RO, "Regatul Unit"),
             new TranslationInfo(LanguageCode.RU, "Великобритания"),
-            new TranslationInfo(LanguageCode.SK, "Spojené kráľovstvo"),
+            new TranslationInfo(LanguageCode.SK, "Veľká Británia (Spojené kráľovstvo)"),
             new TranslationInfo(LanguageCode.SL, "Združeno kraljestvo"),
             new TranslationInfo(LanguageCode.SR, "Уједињено Краљевство"),
             new TranslationInfo(LanguageCode.SV, "Storbritannien"),

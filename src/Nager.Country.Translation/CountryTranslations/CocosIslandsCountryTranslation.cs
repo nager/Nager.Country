@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Cocos (Keeling) Islands
@@ -19,23 +19,23 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Kokosinseln"),
             new TranslationInfo(LanguageCode.EL, "Νησιά Κόκος"),
             new TranslationInfo(LanguageCode.EN, "Cocos (Keeling) Islands"),
-            new TranslationInfo(LanguageCode.ES, "Islas Cocos (Keeling)"),
+            new TranslationInfo(LanguageCode.ES, "Islas Cocos o Islas Keeling"),
             new TranslationInfo(LanguageCode.ET, "Kookossaared"),
             new TranslationInfo(LanguageCode.FA, "جزایر کوکوس"),
             new TranslationInfo(LanguageCode.FI, "Kookossaaret"),
-            new TranslationInfo(LanguageCode.FR, "Cocos"),
+            new TranslationInfo(LanguageCode.FR, "Îles Cocos"),
             new TranslationInfo(LanguageCode.HE, "איי קוקוס (קילינג)"),
             new TranslationInfo(LanguageCode.HI, "कोकोस द्वीपसमूह"),
-            new TranslationInfo(LanguageCode.HR, "Kokosovi (Keelingovi) otoci"),
-            new TranslationInfo(LanguageCode.HU, "Kókusz (Keeling)-szigetek"),
+            new TranslationInfo(LanguageCode.HR, "Kokosovi Otoci"),
+            new TranslationInfo(LanguageCode.HU, "Kókusz-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կոկոսյան (Քիլինգ) կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Cocos (Keeling)"),
             new TranslationInfo(LanguageCode.IS, "Kókoseyjar"),
             new TranslationInfo(LanguageCode.IT, "Isole Cocos e Keeling"),
-            new TranslationInfo(LanguageCode.JA, "ココス（キーリング）諸島"),
+            new TranslationInfo(LanguageCode.JA, "ココス諸島"),
             new TranslationInfo(LanguageCode.KA, "ქოქოსის (კილინგის) კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Кокос (Килинг) аралдары"),
-            new TranslationInfo(LanguageCode.KO, "코코스 군도"),
+            new TranslationInfo(LanguageCode.KO, "코코스 제도"),
             new TranslationInfo(LanguageCode.KY, "Кокос (Килиӊ) аралдары"),
             new TranslationInfo(LanguageCode.LT, "Kokosų (Kilingo) Salos"),
             new TranslationInfo(LanguageCode.LV, "Kokosu (Kīlinga) salas"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Cocos (Keeling) Adaları"),
             new TranslationInfo(LanguageCode.UK, "Кокосові острови"),
             new TranslationInfo(LanguageCode.UZ, "Kokos (Kiling) orollari"),
-            new TranslationInfo(LanguageCode.ZH, "科科斯（基林）群岛"),
+            new TranslationInfo(LanguageCode.ZH, "科科斯"),
         };
     }
 }

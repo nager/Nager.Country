@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guyana
@@ -22,7 +22,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ES, "Guyana"),
             new TranslationInfo(LanguageCode.ET, "Guyana"),
             new TranslationInfo(LanguageCode.FA, "گویان"),
-            new TranslationInfo(LanguageCode.FI, "Guyana"),
+            new TranslationInfo(LanguageCode.FI, "Guayana"),
             new TranslationInfo(LanguageCode.FR, "Guyana"),
             new TranslationInfo(LanguageCode.HE, "גיאנה"),
             new TranslationInfo(LanguageCode.HI, "गुयाना"),
@@ -49,7 +49,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PT, "Guiana"),
             new TranslationInfo(LanguageCode.RO, "Guyana"),
             new TranslationInfo(LanguageCode.RU, "Гайана"),
-            new TranslationInfo(LanguageCode.SK, "Guayana"),
+            new TranslationInfo(LanguageCode.SK, "Guyana"),
             new TranslationInfo(LanguageCode.SL, "Gvajana"),
             new TranslationInfo(LanguageCode.SR, "Гвајана"),
             new TranslationInfo(LanguageCode.SV, "Guyana"),

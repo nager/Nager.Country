@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Liechtenstein
@@ -22,7 +22,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ES, "Liechtenstein"),
             new TranslationInfo(LanguageCode.ET, "Liechtenstein"),
             new TranslationInfo(LanguageCode.FA, "لیختن‌اشتاین"),
-            new TranslationInfo(LanguageCode.FI, "Liechtenstein"),
+            new TranslationInfo(LanguageCode.FI, "Liechenstein"),
             new TranslationInfo(LanguageCode.FR, "Liechtenstein"),
             new TranslationInfo(LanguageCode.HE, "ליכטנשטיין"),
             new TranslationInfo(LanguageCode.HI, "लिकटेंस्टाइन"),
@@ -53,10 +53,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SL, "Lihtenštajn"),
             new TranslationInfo(LanguageCode.SR, "Лихтенштајн"),
             new TranslationInfo(LanguageCode.SV, "Liechtenstein"),
-            new TranslationInfo(LanguageCode.TR, "Liechtenstein"),
+            new TranslationInfo(LanguageCode.TR, "Lihtenştayn"),
             new TranslationInfo(LanguageCode.UK, "Ліхтенштейн"),
             new TranslationInfo(LanguageCode.UZ, "Lixtenshteyn"),
-            new TranslationInfo(LanguageCode.ZH, "列支敦斯登"),
+            new TranslationInfo(LanguageCode.ZH, "列支敦士登"),
         };
     }
 }

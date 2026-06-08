@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guam
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Guam"),
             new TranslationInfo(LanguageCode.ES, "Guam"),
             new TranslationInfo(LanguageCode.ET, "Guam"),
-            new TranslationInfo(LanguageCode.FA, "گوام"),
+            new TranslationInfo(LanguageCode.FA, "گوآم"),
             new TranslationInfo(LanguageCode.FI, "Guam"),
             new TranslationInfo(LanguageCode.FR, "Guam"),
             new TranslationInfo(LanguageCode.HE, "גואם"),

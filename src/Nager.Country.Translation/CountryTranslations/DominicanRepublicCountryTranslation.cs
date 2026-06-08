@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Dominican Republic
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Dominik Cumhuriyeti"),
             new TranslationInfo(LanguageCode.UK, "Домініканська Республіка"),
             new TranslationInfo(LanguageCode.UZ, "Dominikan Respublikasi"),
-            new TranslationInfo(LanguageCode.ZH, "多米尼加"),
+            new TranslationInfo(LanguageCode.ZH, "多明尼加"),
         };
     }
 }

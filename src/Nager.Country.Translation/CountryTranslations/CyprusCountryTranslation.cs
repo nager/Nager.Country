@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Cyprus
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Cyprus"),
             new TranslationInfo(LanguageCode.ES, "Chipre"),
             new TranslationInfo(LanguageCode.ET, "Küpros"),
-            new TranslationInfo(LanguageCode.FA, "قبرس"),
+            new TranslationInfo(LanguageCode.FA, "قِبرِس"),
             new TranslationInfo(LanguageCode.FI, "Kypros"),
             new TranslationInfo(LanguageCode.FR, "Chypre"),
             new TranslationInfo(LanguageCode.HE, "קפריסין"),
@@ -53,10 +53,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SL, "Ciper"),
             new TranslationInfo(LanguageCode.SR, "Кипар"),
             new TranslationInfo(LanguageCode.SV, "Cypern"),
-            new TranslationInfo(LanguageCode.TR, "Güney Kıbrıs Rum Kesimi"),
+            new TranslationInfo(LanguageCode.TR, "Kıbrıs"),
             new TranslationInfo(LanguageCode.UK, "Кіпр"),
             new TranslationInfo(LanguageCode.UZ, "Kipr"),
-            new TranslationInfo(LanguageCode.ZH, "赛普勒斯"),
+            new TranslationInfo(LanguageCode.ZH, "塞浦路斯"),
         };
     }
 }

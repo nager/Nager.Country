@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Lithuania
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Lithuania"),
             new TranslationInfo(LanguageCode.ES, "Lituania"),
             new TranslationInfo(LanguageCode.ET, "Leedu"),
-            new TranslationInfo(LanguageCode.FA, "لیتوانی"),
+            new TranslationInfo(LanguageCode.FA, "لیتوانیایی‌ها"),
             new TranslationInfo(LanguageCode.FI, "Liettua"),
             new TranslationInfo(LanguageCode.FR, "Lituanie"),
             new TranslationInfo(LanguageCode.HE, "ליטא"),

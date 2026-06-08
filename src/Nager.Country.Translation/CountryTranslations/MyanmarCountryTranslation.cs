@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Myanmar
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "بورما"),
+            new TranslationInfo(LanguageCode.AR, "ميانمار"),
             new TranslationInfo(LanguageCode.AZ, "Myanma"),
             new TranslationInfo(LanguageCode.BE, "М’янма (Бірма)"),
             new TranslationInfo(LanguageCode.BG, "Мианмар (Бирма)"),
@@ -21,17 +21,17 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Myanmar"),
             new TranslationInfo(LanguageCode.ES, "Myanmar"),
             new TranslationInfo(LanguageCode.ET, "Myanmar"),
-            new TranslationInfo(LanguageCode.FA, "میانمار (برمه)"),
+            new TranslationInfo(LanguageCode.FA, "میانمار"),
             new TranslationInfo(LanguageCode.FI, "Myanmar"),
-            new TranslationInfo(LanguageCode.FR, "Myanmar"),
+            new TranslationInfo(LanguageCode.FR, "Birmanie"),
             new TranslationInfo(LanguageCode.HE, "מיאנמר (בורמה)"),
             new TranslationInfo(LanguageCode.HI, "म्यांमार"),
-            new TranslationInfo(LanguageCode.HR, "Mjanmar (Burma)"),
+            new TranslationInfo(LanguageCode.HR, "Mijanmar"),
             new TranslationInfo(LanguageCode.HU, "Mianmar"),
             new TranslationInfo(LanguageCode.HY, "Մյանմա (Բիրմա)"),
             new TranslationInfo(LanguageCode.ID, "Myanmar"),
             new TranslationInfo(LanguageCode.IS, "Myanmar"),
-            new TranslationInfo(LanguageCode.IT, "Birmania  Myanmar"),
+            new TranslationInfo(LanguageCode.IT, "Birmania"),
             new TranslationInfo(LanguageCode.JA, "ミャンマー"),
             new TranslationInfo(LanguageCode.KA, "მიანმარი (ბირმა)"),
             new TranslationInfo(LanguageCode.KK, "Мьянма (Бирма)"),
@@ -46,14 +46,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Myanmar"),
             new TranslationInfo(LanguageCode.NN, "Burma"),
             new TranslationInfo(LanguageCode.PL, "Mjanma"),
-            new TranslationInfo(LanguageCode.PT, "Mianmar (Birmânia)"),
+            new TranslationInfo(LanguageCode.PT, "Myanmar"),
             new TranslationInfo(LanguageCode.RO, "Myanmar"),
             new TranslationInfo(LanguageCode.RU, "Мьянма"),
             new TranslationInfo(LanguageCode.SK, "Mjanmarsko"),
             new TranslationInfo(LanguageCode.SL, "Mjanmar (Burma)"),
             new TranslationInfo(LanguageCode.SR, "Мијанмар (Бурма)"),
-            new TranslationInfo(LanguageCode.SV, "Burma"),
-            new TranslationInfo(LanguageCode.TR, "Myanmar (Burma)"),
+            new TranslationInfo(LanguageCode.SV, "Myanmar"),
+            new TranslationInfo(LanguageCode.TR, "Myanmar"),
             new TranslationInfo(LanguageCode.UK, "М'янма"),
             new TranslationInfo(LanguageCode.UZ, "Myanma (Birma)"),
             new TranslationInfo(LanguageCode.ZH, "缅甸"),

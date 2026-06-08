@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// China
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "China"),
             new TranslationInfo(LanguageCode.IS, "Kína"),
             new TranslationInfo(LanguageCode.IT, "Cina"),
-            new TranslationInfo(LanguageCode.JA, "中華人民共和国"),
+            new TranslationInfo(LanguageCode.JA, "中国"),
             new TranslationInfo(LanguageCode.KA, "ჩინეთი"),
             new TranslationInfo(LanguageCode.KK, "Қытай"),
             new TranslationInfo(LanguageCode.KO, "중국"),
@@ -48,7 +48,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Chiny"),
             new TranslationInfo(LanguageCode.PT, "China"),
             new TranslationInfo(LanguageCode.RO, "China"),
-            new TranslationInfo(LanguageCode.RU, "КНР (Китайская Народная Республика)"),
+            new TranslationInfo(LanguageCode.RU, "Китай"),
             new TranslationInfo(LanguageCode.SK, "Čína"),
             new TranslationInfo(LanguageCode.SL, "Kitajska"),
             new TranslationInfo(LanguageCode.SR, "Кина"),

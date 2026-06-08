@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Zambia
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Zambiya"),
             new TranslationInfo(LanguageCode.UK, "Замбія"),
             new TranslationInfo(LanguageCode.UZ, "Zambiya"),
-            new TranslationInfo(LanguageCode.ZH, "尚比亚"),
+            new TranslationInfo(LanguageCode.ZH, "赞比亚"),
         };
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Montenegro
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "الجبل الأسود"),
+            new TranslationInfo(LanguageCode.AR, "الجبل الاسود"),
             new TranslationInfo(LanguageCode.AZ, "Monteneqro"),
             new TranslationInfo(LanguageCode.BE, "Чарнагорыя"),
             new TranslationInfo(LanguageCode.BG, "Черна гора"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Karadağ"),
             new TranslationInfo(LanguageCode.UK, "Чорногорія"),
             new TranslationInfo(LanguageCode.UZ, "Chernogoriya"),
-            new TranslationInfo(LanguageCode.ZH, "蒙特内哥罗"),
+            new TranslationInfo(LanguageCode.ZH, "黑山"),
         };
     }
 }

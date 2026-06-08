@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Bhutan
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Bhutan"),
             new TranslationInfo(LanguageCode.EL, "Μπουτάν"),
             new TranslationInfo(LanguageCode.EN, "Bhutan"),
-            new TranslationInfo(LanguageCode.ES, "Bhután"),
+            new TranslationInfo(LanguageCode.ES, "Bután"),
             new TranslationInfo(LanguageCode.ET, "Bhutan"),
             new TranslationInfo(LanguageCode.FA, "بوتان"),
             new TranslationInfo(LanguageCode.FI, "Bhutan"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Bolivia
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Bolivia"),
             new TranslationInfo(LanguageCode.IS, "Bólivía"),
             new TranslationInfo(LanguageCode.IT, "Bolivia"),
-            new TranslationInfo(LanguageCode.JA, "ボリビア多民族国"),
+            new TranslationInfo(LanguageCode.JA, "ボリビア"),
             new TranslationInfo(LanguageCode.KA, "ბოლივია"),
             new TranslationInfo(LanguageCode.KK, "Боливия"),
             new TranslationInfo(LanguageCode.KO, "볼리비아"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Боливи"),
             new TranslationInfo(LanguageCode.NB, "Bolivia"),
             new TranslationInfo(LanguageCode.NO, "Bolivia"),
-            new TranslationInfo(LanguageCode.NL, "Bolivië"),
+            new TranslationInfo(LanguageCode.NL, "Bolivia"),
             new TranslationInfo(LanguageCode.NN, "Bolivia"),
             new TranslationInfo(LanguageCode.PL, "Boliwia"),
             new TranslationInfo(LanguageCode.PT, "Bolívia"),

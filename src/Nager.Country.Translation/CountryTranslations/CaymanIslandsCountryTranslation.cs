@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Cayman Islands
@@ -21,9 +21,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Cayman Islands"),
             new TranslationInfo(LanguageCode.ES, "Islas Caimán"),
             new TranslationInfo(LanguageCode.ET, "Kaimanisaared"),
-            new TranslationInfo(LanguageCode.FA, "جزایر کِیمن"),
+            new TranslationInfo(LanguageCode.FA, "جزایر کیمن"),
             new TranslationInfo(LanguageCode.FI, "Caymansaaret"),
-            new TranslationInfo(LanguageCode.FR, "Caïmanes"),
+            new TranslationInfo(LanguageCode.FR, "Îles Caïmans"),
             new TranslationInfo(LanguageCode.HE, "איי קיימן"),
             new TranslationInfo(LanguageCode.HI, "केमैन द्वीपसमूह"),
             new TranslationInfo(LanguageCode.HR, "Kajmanski otoci"),
@@ -43,12 +43,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Кайманы Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Caymanøyene"),
             new TranslationInfo(LanguageCode.NO, "Caymanøyene"),
-            new TranslationInfo(LanguageCode.NL, "Kaaimaneilanden"),
+            new TranslationInfo(LanguageCode.NL, "Caymaneilanden"),
             new TranslationInfo(LanguageCode.NN, "Caymanøyane"),
             new TranslationInfo(LanguageCode.PL, "Kajmany"),
-            new TranslationInfo(LanguageCode.PT, "Ilhas Caiman"),
+            new TranslationInfo(LanguageCode.PT, "Ilhas Caimão"),
             new TranslationInfo(LanguageCode.RO, "Insulele Cayman"),
-            new TranslationInfo(LanguageCode.RU, "Острова Кайман"),
+            new TranslationInfo(LanguageCode.RU, "Каймановы острова"),
             new TranslationInfo(LanguageCode.SK, "Kajmanie ostrovy"),
             new TranslationInfo(LanguageCode.SL, "Kajmanski otoki"),
             new TranslationInfo(LanguageCode.SR, "Кајманска Острва"),

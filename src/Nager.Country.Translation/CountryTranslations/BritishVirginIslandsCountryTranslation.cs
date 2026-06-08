@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// British Virgin Islands
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "جزر العذراء البريطانية"),
+            new TranslationInfo(LanguageCode.AR, "جزر العذراء"),
             new TranslationInfo(LanguageCode.AZ, "Britaniyanın Virgin adaları"),
             new TranslationInfo(LanguageCode.BE, "Брытанскія Віргінскія астравы"),
             new TranslationInfo(LanguageCode.BG, "Британски Вирджински острови"),
@@ -16,13 +16,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Verges Britàniques, illes"),
             new TranslationInfo(LanguageCode.CS, "Britské Panenské ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Britiske Jomfruøer"),
-            new TranslationInfo(LanguageCode.DE, "Jungferninseln (UK)"),
+            new TranslationInfo(LanguageCode.DE, "Britische Jungferninseln"),
             new TranslationInfo(LanguageCode.EL, "Βρετανικές Παρθένοι Νήσοι"),
-            new TranslationInfo(LanguageCode.EN, "Virgin Islands, British"),
-            new TranslationInfo(LanguageCode.ES, "Islas Vírgenes británicas"),
+            new TranslationInfo(LanguageCode.EN, "British Virgin Islands"),
+            new TranslationInfo(LanguageCode.ES, "Islas Vírgenes del Reino Unido"),
             new TranslationInfo(LanguageCode.ET, "Briti Neitsisaared"),
             new TranslationInfo(LanguageCode.FA, "جزایر ویرجین بریتانیا"),
-            new TranslationInfo(LanguageCode.FI, "Brittiläiset Neitsytsaaret"),
+            new TranslationInfo(LanguageCode.FI, "Neitsytsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles vierges britanniques"),
             new TranslationInfo(LanguageCode.HE, "איי הבתולה הבריטיים"),
             new TranslationInfo(LanguageCode.HI, "ब्रिटिश वर्जिन द्वीपसमूह"),
@@ -43,17 +43,17 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Британийн Виржиний Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Jomfruøyene (Britisk)"),
             new TranslationInfo(LanguageCode.NO, "Jomfruøyene (Britisk)"),
-            new TranslationInfo(LanguageCode.NL, "Maagdeneilanden, Britse"),
+            new TranslationInfo(LanguageCode.NL, "Britse Maagdeneilanden"),
             new TranslationInfo(LanguageCode.NN, "Jomfruøyane (Britisk)"),
             new TranslationInfo(LanguageCode.PL, "Brytyjskie Wyspy Dziewicze"),
-            new TranslationInfo(LanguageCode.PT, "Ilhas Virgens Britânicas"),
+            new TranslationInfo(LanguageCode.PT, "Ilhas Virgens"),
             new TranslationInfo(LanguageCode.RO, "Insulele Virgine Britanice"),
-            new TranslationInfo(LanguageCode.RU, "Виргинские Острова (Великобритания)"),
-            new TranslationInfo(LanguageCode.SK, "Britské Panenské ostrovy"),
+            new TranslationInfo(LanguageCode.RU, "Британские Виргинские острова"),
+            new TranslationInfo(LanguageCode.SK, "Panenské ostrovy"),
             new TranslationInfo(LanguageCode.SL, "Britanski Deviški otoki"),
             new TranslationInfo(LanguageCode.SR, "Британска Девичанска Острва"),
             new TranslationInfo(LanguageCode.SV, "Brittiska Jungfruöarna"),
-            new TranslationInfo(LanguageCode.TR, "Britanya Virjin Adaları"),
+            new TranslationInfo(LanguageCode.TR, "Virjin Adaları"),
             new TranslationInfo(LanguageCode.UK, "Британські Віргінські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Britaniya Virgin orollari"),
             new TranslationInfo(LanguageCode.ZH, "英属维尔京群岛"),

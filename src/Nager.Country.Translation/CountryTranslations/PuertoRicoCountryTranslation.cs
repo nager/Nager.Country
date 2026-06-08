@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Puerto Rico
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "بورتوريكو"),
+            new TranslationInfo(LanguageCode.AR, "بويرتوريكو"),
             new TranslationInfo(LanguageCode.AZ, "Puerto Riko"),
             new TranslationInfo(LanguageCode.BE, "Пуэрта-Рыка"),
             new TranslationInfo(LanguageCode.BG, "Пуерто Рико"),

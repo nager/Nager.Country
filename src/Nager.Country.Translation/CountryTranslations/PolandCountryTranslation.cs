@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Poland
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Polen"),
             new TranslationInfo(LanguageCode.NN, "Polen"),
             new TranslationInfo(LanguageCode.PL, "Polska"),
-            new TranslationInfo(LanguageCode.PT, "Polônia"),
+            new TranslationInfo(LanguageCode.PT, "Polónia"),
             new TranslationInfo(LanguageCode.RO, "Polonia"),
             new TranslationInfo(LanguageCode.RU, "Польша"),
             new TranslationInfo(LanguageCode.SK, "Poľsko"),

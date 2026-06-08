@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Bahamas
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "باهاماس"),
+            new TranslationInfo(LanguageCode.AR, "البهاما"),
             new TranslationInfo(LanguageCode.AZ, "Baham adaları"),
             new TranslationInfo(LanguageCode.BE, "Багамы"),
             new TranslationInfo(LanguageCode.BG, "Бахами"),
@@ -22,7 +22,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ES, "Bahamas"),
             new TranslationInfo(LanguageCode.ET, "Bahama"),
             new TranslationInfo(LanguageCode.FA, "باهاما"),
-            new TranslationInfo(LanguageCode.FI, "Bahama"),
+            new TranslationInfo(LanguageCode.FI, "Bahamasaaret"),
             new TranslationInfo(LanguageCode.FR, "Bahamas"),
             new TranslationInfo(LanguageCode.HE, "איי בהאמה"),
             new TranslationInfo(LanguageCode.HI, "बहामास"),
@@ -43,12 +43,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Багам"),
             new TranslationInfo(LanguageCode.NB, "Bahamas"),
             new TranslationInfo(LanguageCode.NO, "Bahamas"),
-            new TranslationInfo(LanguageCode.NL, "Bahama's"),
+            new TranslationInfo(LanguageCode.NL, "Bahama’s"),
             new TranslationInfo(LanguageCode.NN, "Bahamas"),
             new TranslationInfo(LanguageCode.PL, "Bahamy"),
             new TranslationInfo(LanguageCode.PT, "Bahamas"),
             new TranslationInfo(LanguageCode.RO, "Bahamas"),
-            new TranslationInfo(LanguageCode.RU, "Багамы"),
+            new TranslationInfo(LanguageCode.RU, "Багамские Острова"),
             new TranslationInfo(LanguageCode.SK, "Bahamy"),
             new TranslationInfo(LanguageCode.SL, "Bahami"),
             new TranslationInfo(LanguageCode.SR, "Бахами"),

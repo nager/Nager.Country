@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Djibouti
@@ -22,7 +22,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ES, "Djibouti"),
             new TranslationInfo(LanguageCode.ET, "Djibouti"),
             new TranslationInfo(LanguageCode.FA, "جیبوتی"),
-            new TranslationInfo(LanguageCode.FI, "Djibouti"),
+            new TranslationInfo(LanguageCode.FI, "Dijibouti"),
             new TranslationInfo(LanguageCode.FR, "Djibouti"),
             new TranslationInfo(LanguageCode.HE, "ג׳יבוטי"),
             new TranslationInfo(LanguageCode.HI, "जिबूती"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Djibouti"),
             new TranslationInfo(LanguageCode.NN, "Djibouti"),
             new TranslationInfo(LanguageCode.PL, "Dżibuti"),
-            new TranslationInfo(LanguageCode.PT, "Djibuti"),
+            new TranslationInfo(LanguageCode.PT, "Djibouti"),
             new TranslationInfo(LanguageCode.RO, "Djibouti"),
             new TranslationInfo(LanguageCode.RU, "Джибути"),
             new TranslationInfo(LanguageCode.SK, "Džibutsko"),

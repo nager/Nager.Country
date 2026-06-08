@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// San Marino
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "San Marino"),
             new TranslationInfo(LanguageCode.ES, "San Marino"),
             new TranslationInfo(LanguageCode.ET, "San Marino"),
-            new TranslationInfo(LanguageCode.FA, "سان‌مارینو"),
+            new TranslationInfo(LanguageCode.FA, "سان مارینو"),
             new TranslationInfo(LanguageCode.FI, "San Marino"),
             new TranslationInfo(LanguageCode.FR, "Saint-Marin"),
             new TranslationInfo(LanguageCode.HE, "סן מרינו"),

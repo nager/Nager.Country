@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Vietnam
@@ -18,16 +18,16 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DA, "Vietnam"),
             new TranslationInfo(LanguageCode.DE, "Vietnam"),
             new TranslationInfo(LanguageCode.EL, "Βιετνάμ"),
-            new TranslationInfo(LanguageCode.EN, "Viet Nam"),
+            new TranslationInfo(LanguageCode.EN, "Vietnam"),
             new TranslationInfo(LanguageCode.ES, "Vietnam"),
             new TranslationInfo(LanguageCode.ET, "Vietnam"),
             new TranslationInfo(LanguageCode.FA, "ویتنام"),
             new TranslationInfo(LanguageCode.FI, "Vietnam"),
-            new TranslationInfo(LanguageCode.FR, "Vietnam"),
+            new TranslationInfo(LanguageCode.FR, "Viêt Nam"),
             new TranslationInfo(LanguageCode.HE, "וייטנאם"),
             new TranslationInfo(LanguageCode.HI, "वियतनाम"),
             new TranslationInfo(LanguageCode.HR, "Vijetnam"),
-            new TranslationInfo(LanguageCode.HU, "Vietnam"),
+            new TranslationInfo(LanguageCode.HU, "Vietnám"),
             new TranslationInfo(LanguageCode.HY, "Վիետնամ"),
             new TranslationInfo(LanguageCode.ID, "Viet Nam"),
             new TranslationInfo(LanguageCode.IS, "Víetnam"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Vietnam"),
             new TranslationInfo(LanguageCode.NN, "Vietnam"),
             new TranslationInfo(LanguageCode.PL, "Wietnam"),
-            new TranslationInfo(LanguageCode.PT, "Vietnã"),
+            new TranslationInfo(LanguageCode.PT, "Vietname"),
             new TranslationInfo(LanguageCode.RO, "Vietnam"),
             new TranslationInfo(LanguageCode.RU, "Вьетнам"),
             new TranslationInfo(LanguageCode.SK, "Vietnam"),

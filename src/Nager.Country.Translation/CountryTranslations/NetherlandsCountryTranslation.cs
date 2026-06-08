@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Netherlands
@@ -49,7 +49,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PT, "Holanda"),
             new TranslationInfo(LanguageCode.RO, "Țările de Jos"),
             new TranslationInfo(LanguageCode.RU, "Нидерланды"),
-            new TranslationInfo(LanguageCode.SK, "Holandsko"),
+            new TranslationInfo(LanguageCode.SK, "Holansko"),
             new TranslationInfo(LanguageCode.SL, "Nizozemska"),
             new TranslationInfo(LanguageCode.SR, "Холандија"),
             new TranslationInfo(LanguageCode.SV, "Nederländerna"),

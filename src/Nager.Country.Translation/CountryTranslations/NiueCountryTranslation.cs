@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Niue
@@ -21,9 +21,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Niue"),
             new TranslationInfo(LanguageCode.ES, "Niue"),
             new TranslationInfo(LanguageCode.ET, "Niue"),
-            new TranslationInfo(LanguageCode.FA, "نیوئه"),
+            new TranslationInfo(LanguageCode.FA, "نیووی"),
             new TranslationInfo(LanguageCode.FI, "Niue"),
-            new TranslationInfo(LanguageCode.FR, "Niué"),
+            new TranslationInfo(LanguageCode.FR, "Niue"),
             new TranslationInfo(LanguageCode.HE, "ניווה"),
             new TranslationInfo(LanguageCode.HI, "नीयू"),
             new TranslationInfo(LanguageCode.HR, "Niue"),

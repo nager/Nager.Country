@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Greece
@@ -49,7 +49,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PT, "Grécia"),
             new TranslationInfo(LanguageCode.RO, "Grecia"),
             new TranslationInfo(LanguageCode.RU, "Греция"),
-            new TranslationInfo(LanguageCode.SK, "Grécko"),
+            new TranslationInfo(LanguageCode.SK, "Greécko"),
             new TranslationInfo(LanguageCode.SL, "Grčija"),
             new TranslationInfo(LanguageCode.SR, "Грчка"),
             new TranslationInfo(LanguageCode.SV, "Grekland"),

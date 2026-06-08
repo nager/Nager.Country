@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Maldives
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "جزر المالديف"),
+            new TranslationInfo(LanguageCode.AR, "المالديف"),
             new TranslationInfo(LanguageCode.AZ, "Maldiv adaları"),
             new TranslationInfo(LanguageCode.BE, "Мальдывы"),
             new TranslationInfo(LanguageCode.BG, "Малдиви"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Maldivler"),
             new TranslationInfo(LanguageCode.UK, "Мальдівы"),
             new TranslationInfo(LanguageCode.UZ, "Maldiv orollari"),
-            new TranslationInfo(LanguageCode.ZH, "马尔地夫"),
+            new TranslationInfo(LanguageCode.ZH, "马尔代夫"),
         };
     }
 }

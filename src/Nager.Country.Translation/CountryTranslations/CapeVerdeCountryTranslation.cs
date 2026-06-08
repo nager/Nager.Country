@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Cape Verde
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "الرأس الأخضر"),
+            new TranslationInfo(LanguageCode.AR, "كابو فيردي"),
             new TranslationInfo(LanguageCode.AZ, "Kabo-Verde"),
             new TranslationInfo(LanguageCode.BE, "Каба-Вердэ"),
             new TranslationInfo(LanguageCode.BG, "Кабо Верде"),
@@ -21,9 +21,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Cape Verde"),
             new TranslationInfo(LanguageCode.ES, "Cabo Verde"),
             new TranslationInfo(LanguageCode.ET, "Roheneemesaared"),
-            new TranslationInfo(LanguageCode.FA, "کیپ‌ورد"),
+            new TranslationInfo(LanguageCode.FA, "دماغهٔ سبز"),
             new TranslationInfo(LanguageCode.FI, "Kap Verde"),
-            new TranslationInfo(LanguageCode.FR, "Cap-Vert"),
+            new TranslationInfo(LanguageCode.FR, "Îles du Cap-Vert"),
             new TranslationInfo(LanguageCode.HE, "כף ורדה"),
             new TranslationInfo(LanguageCode.HI, "केप वर्डे"),
             new TranslationInfo(LanguageCode.HR, "Zelenortska Republika"),
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "カーボベルデ"),
             new TranslationInfo(LanguageCode.KA, "კაბო-ვერდე"),
             new TranslationInfo(LanguageCode.KK, "Кабо-Верде"),
-            new TranslationInfo(LanguageCode.KO, "카보 베르데"),
+            new TranslationInfo(LanguageCode.KO, "카보베르데"),
             new TranslationInfo(LanguageCode.KY, "Капе Верде"),
             new TranslationInfo(LanguageCode.LT, "Žaliasis Kyšulys"),
             new TranslationInfo(LanguageCode.LV, "Kaboverde"),
@@ -53,7 +53,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SL, "Zelenortski otoki"),
             new TranslationInfo(LanguageCode.SR, "Зеленортска Острва"),
             new TranslationInfo(LanguageCode.SV, "Kap Verde"),
-            new TranslationInfo(LanguageCode.TR, "Cape Verde"),
+            new TranslationInfo(LanguageCode.TR, "Yeşil Burun"),
             new TranslationInfo(LanguageCode.UK, "Кабо-Верде"),
             new TranslationInfo(LanguageCode.UZ, "Kabo-Verde"),
             new TranslationInfo(LanguageCode.ZH, "佛得角"),

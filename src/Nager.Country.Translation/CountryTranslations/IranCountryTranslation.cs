@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Iran
@@ -18,8 +18,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DA, "Iran"),
             new TranslationInfo(LanguageCode.DE, "Iran"),
             new TranslationInfo(LanguageCode.EL, "Ισλαμική Δημοκρατία του Ιράν"),
-            new TranslationInfo(LanguageCode.EN, "Iran, Islamic Republic of"),
-            new TranslationInfo(LanguageCode.ES, "Irán (República Islámica de)"),
+            new TranslationInfo(LanguageCode.EN, "Iran"),
+            new TranslationInfo(LanguageCode.ES, "Iran"),
             new TranslationInfo(LanguageCode.ET, "Iraan"),
             new TranslationInfo(LanguageCode.FA, "ایران"),
             new TranslationInfo(LanguageCode.FI, "Iran"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Iran"),
             new TranslationInfo(LanguageCode.IS, "Íran"),
             new TranslationInfo(LanguageCode.IT, "Iran"),
-            new TranslationInfo(LanguageCode.JA, "イラン・イスラム共和国"),
+            new TranslationInfo(LanguageCode.JA, "イラン"),
             new TranslationInfo(LanguageCode.KA, "ირანი"),
             new TranslationInfo(LanguageCode.KK, "Иран"),
             new TranslationInfo(LanguageCode.KO, "이란"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Iran"),
             new TranslationInfo(LanguageCode.NN, "Iran"),
             new TranslationInfo(LanguageCode.PL, "Iran"),
-            new TranslationInfo(LanguageCode.PT, "Irã"),
+            new TranslationInfo(LanguageCode.PT, "Irão"),
             new TranslationInfo(LanguageCode.RO, "Iran"),
             new TranslationInfo(LanguageCode.RU, "Иран"),
             new TranslationInfo(LanguageCode.SK, "Irán"),

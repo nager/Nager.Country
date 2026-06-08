@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Sierra Leone
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Sierra Leone"),
             new TranslationInfo(LanguageCode.EL, "Σιέρα Λεόνε"),
             new TranslationInfo(LanguageCode.EN, "Sierra Leone"),
-            new TranslationInfo(LanguageCode.ES, "Sierra Leona"),
+            new TranslationInfo(LanguageCode.ES, "Sierra Leone"),
             new TranslationInfo(LanguageCode.ET, "Sierra Leone"),
             new TranslationInfo(LanguageCode.FA, "سیرالئون"),
             new TranslationInfo(LanguageCode.FI, "Sierra Leone"),

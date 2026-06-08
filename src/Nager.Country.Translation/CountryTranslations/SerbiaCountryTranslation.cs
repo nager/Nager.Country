@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Serbia
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "صربيا"),
+            new TranslationInfo(LanguageCode.AR, "صيربيا"),
             new TranslationInfo(LanguageCode.AZ, "Serbiya"),
             new TranslationInfo(LanguageCode.BE, "Сербія"),
             new TranslationInfo(LanguageCode.BG, "Сърбия"),

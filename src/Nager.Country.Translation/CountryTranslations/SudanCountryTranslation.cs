@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Sudan
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Sudan"),
             new TranslationInfo(LanguageCode.EL, "Σουδάν"),
             new TranslationInfo(LanguageCode.EN, "Sudan"),
-            new TranslationInfo(LanguageCode.ES, "Sudan"),
+            new TranslationInfo(LanguageCode.ES, "Sudán"),
             new TranslationInfo(LanguageCode.ET, "Sudaan"),
             new TranslationInfo(LanguageCode.FA, "سودان"),
             new TranslationInfo(LanguageCode.FI, "Sudan"),

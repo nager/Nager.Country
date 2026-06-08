@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Palau
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Belau"),
             new TranslationInfo(LanguageCode.FA, "پالائو"),
             new TranslationInfo(LanguageCode.FI, "Palau"),
-            new TranslationInfo(LanguageCode.FR, "Palau"),
+            new TranslationInfo(LanguageCode.FR, "Palaos (Palau)"),
             new TranslationInfo(LanguageCode.HE, "פלאו"),
             new TranslationInfo(LanguageCode.HI, "पलाऊ"),
             new TranslationInfo(LanguageCode.HR, "Palau"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Palau"),
             new TranslationInfo(LanguageCode.UK, "Палау"),
             new TranslationInfo(LanguageCode.UZ, "Palau"),
-            new TranslationInfo(LanguageCode.ZH, "帛琉"),
+            new TranslationInfo(LanguageCode.ZH, "帕劳"),
         };
     }
 }

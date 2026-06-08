@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Taiwan
@@ -31,8 +31,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Թայվան"),
             new TranslationInfo(LanguageCode.ID, "Taiwan"),
             new TranslationInfo(LanguageCode.IS, "Taívan"),
-            new TranslationInfo(LanguageCode.IT, "Repubblica di Cina"),
-            new TranslationInfo(LanguageCode.JA, "台湾"),
+            new TranslationInfo(LanguageCode.IT, "Taiwan"),
+            new TranslationInfo(LanguageCode.JA, "中華民国"),
             new TranslationInfo(LanguageCode.KA, "ტაივანი"),
             new TranslationInfo(LanguageCode.KK, "Тайвань"),
             new TranslationInfo(LanguageCode.KO, "대만"),
@@ -46,9 +46,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Taiwan"),
             new TranslationInfo(LanguageCode.NN, "Taiwan"),
             new TranslationInfo(LanguageCode.PL, "Tajwan"),
-            new TranslationInfo(LanguageCode.PT, "Taiwan"),
+            new TranslationInfo(LanguageCode.PT, "Ilha Formosa"),
             new TranslationInfo(LanguageCode.RO, "Taiwan"),
-            new TranslationInfo(LanguageCode.RU, "Китайская Республика"),
+            new TranslationInfo(LanguageCode.RU, "Тайвань"),
             new TranslationInfo(LanguageCode.SK, "Taiwan"),
             new TranslationInfo(LanguageCode.SL, "Tajvan"),
             new TranslationInfo(LanguageCode.SR, "Тајван"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Tayvan"),
             new TranslationInfo(LanguageCode.UK, "Республіка Китай"),
             new TranslationInfo(LanguageCode.UZ, "Tayvan"),
-            new TranslationInfo(LanguageCode.ZH, "臺湾"),
+            new TranslationInfo(LanguageCode.ZH, "台灣"),
         };
     }
 }

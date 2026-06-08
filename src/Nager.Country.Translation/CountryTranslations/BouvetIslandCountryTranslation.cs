@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Bouvet Island
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
-            new TranslationInfo(LanguageCode.AR, "جزيرة بوفيه"),
+            new TranslationInfo(LanguageCode.AR, "جزر بوفيه"),
             new TranslationInfo(LanguageCode.AZ, "Buve adası"),
             new TranslationInfo(LanguageCode.BE, "Востраў Бувэ"),
             new TranslationInfo(LanguageCode.BG, "остров Буве"),
@@ -20,9 +20,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EL, "Μπουβέ"),
             new TranslationInfo(LanguageCode.EN, "Bouvet Island"),
             new TranslationInfo(LanguageCode.ES, "Isla Bouvet"),
-            new TranslationInfo(LanguageCode.ET, "Bouvet’i saar"),
+            new TranslationInfo(LanguageCode.ET, "Bouvet’ saar"),
             new TranslationInfo(LanguageCode.FA, "جزیرهٔ بووه"),
-            new TranslationInfo(LanguageCode.FI, "Bouvet’nsaari"),
+            new TranslationInfo(LanguageCode.FI, "Bouvet'nsaari"),
             new TranslationInfo(LanguageCode.FR, "Île Bouvet"),
             new TranslationInfo(LanguageCode.HE, "איי בובה"),
             new TranslationInfo(LanguageCode.HI, "बुवे द्वीप"),
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "ブーベ島"),
             new TranslationInfo(LanguageCode.KA, "ბუვე"),
             new TranslationInfo(LanguageCode.KK, "Буве аралы"),
-            new TranslationInfo(LanguageCode.KO, "부베섬"),
+            new TranslationInfo(LanguageCode.KO, "부베 섬"),
             new TranslationInfo(LanguageCode.KY, "Буве аралдары"),
             new TranslationInfo(LanguageCode.LT, "Buvė Sala"),
             new TranslationInfo(LanguageCode.LV, "Buvē sala"),
@@ -43,10 +43,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Буветын арлууд"),
             new TranslationInfo(LanguageCode.NB, "Bouvetøya"),
             new TranslationInfo(LanguageCode.NO, "Bouvetøya"),
-            new TranslationInfo(LanguageCode.NL, "Bouvet Eiland"),
+            new TranslationInfo(LanguageCode.NL, "Bouveteiland"),
             new TranslationInfo(LanguageCode.NN, "Bouvetøya"),
             new TranslationInfo(LanguageCode.PL, "Wyspa Bouveta"),
-            new TranslationInfo(LanguageCode.PT, "Ilhas Bouvet"),
+            new TranslationInfo(LanguageCode.PT, "Ilha Bouvet"),
             new TranslationInfo(LanguageCode.RO, "Insula Bouvet"),
             new TranslationInfo(LanguageCode.RU, "Остров Буве"),
             new TranslationInfo(LanguageCode.SK, "Bouvetov ostrov"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Bouvet Adası"),
             new TranslationInfo(LanguageCode.UK, "Острів Буве"),
             new TranslationInfo(LanguageCode.UZ, "Buve oroli"),
-            new TranslationInfo(LanguageCode.ZH, "布韦岛"),
+            new TranslationInfo(LanguageCode.ZH, "布维岛"),
         };
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Thailand
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "تايلاند"),
+            new TranslationInfo(LanguageCode.AR, "تايلند"),
             new TranslationInfo(LanguageCode.AZ, "Tailand"),
             new TranslationInfo(LanguageCode.BE, "Тайланд"),
             new TranslationInfo(LanguageCode.BG, "Тайланд"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Թայլանդ"),
             new TranslationInfo(LanguageCode.ID, "Thailand"),
             new TranslationInfo(LanguageCode.IS, "Taíland"),
-            new TranslationInfo(LanguageCode.IT, "Thailandia"),
+            new TranslationInfo(LanguageCode.IT, "Tailandia"),
             new TranslationInfo(LanguageCode.JA, "タイ"),
             new TranslationInfo(LanguageCode.KA, "ტაილანდი"),
             new TranslationInfo(LanguageCode.KK, "Тайланд"),

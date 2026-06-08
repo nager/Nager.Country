@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Singapore
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Singapore"),
             new TranslationInfo(LanguageCode.NN, "Singapore"),
             new TranslationInfo(LanguageCode.PL, "Singapur"),
-            new TranslationInfo(LanguageCode.PT, "Cingapura"),
+            new TranslationInfo(LanguageCode.PT, "Singapura"),
             new TranslationInfo(LanguageCode.RO, "Singapore"),
             new TranslationInfo(LanguageCode.RU, "Сингапур"),
             new TranslationInfo(LanguageCode.SK, "Singapur"),

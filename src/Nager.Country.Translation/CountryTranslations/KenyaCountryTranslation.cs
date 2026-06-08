@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Kenya
@@ -19,8 +19,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Kenia"),
             new TranslationInfo(LanguageCode.EL, "Κένυα"),
             new TranslationInfo(LanguageCode.EN, "Kenya"),
-            new TranslationInfo(LanguageCode.ES, "Kenya"),
-            new TranslationInfo(LanguageCode.ET, "Kenya"),
+            new TranslationInfo(LanguageCode.ES, "Kenia"),
+            new TranslationInfo(LanguageCode.ET, "Keenia"),
             new TranslationInfo(LanguageCode.FA, "کنیا"),
             new TranslationInfo(LanguageCode.FI, "Kenia"),
             new TranslationInfo(LanguageCode.FR, "Kenya"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Kenia"),
             new TranslationInfo(LanguageCode.NN, "Kenya"),
             new TranslationInfo(LanguageCode.PL, "Kenia"),
-            new TranslationInfo(LanguageCode.PT, "Quênia"),
+            new TranslationInfo(LanguageCode.PT, "Quénia"),
             new TranslationInfo(LanguageCode.RO, "Kenya"),
             new TranslationInfo(LanguageCode.RU, "Кения"),
             new TranslationInfo(LanguageCode.SK, "Keňa"),

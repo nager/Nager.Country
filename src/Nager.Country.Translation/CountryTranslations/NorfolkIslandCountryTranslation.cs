@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Norfolk Island
@@ -19,9 +19,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Norfolkinsel"),
             new TranslationInfo(LanguageCode.EL, "Νησί Νόρφολκ"),
             new TranslationInfo(LanguageCode.EN, "Norfolk Island"),
-            new TranslationInfo(LanguageCode.ES, "Isla Norfolk"),
+            new TranslationInfo(LanguageCode.ES, "Isla de Norfolk"),
             new TranslationInfo(LanguageCode.ET, "Norfolk"),
-            new TranslationInfo(LanguageCode.FA, "جزیرهٔ نورفولک"),
+            new TranslationInfo(LanguageCode.FA, "جزیره نورفک"),
             new TranslationInfo(LanguageCode.FI, "Norfolkinsaari"),
             new TranslationInfo(LanguageCode.FR, "Île Norfolk"),
             new TranslationInfo(LanguageCode.HE, "איי נורפוק"),
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "ノーフォーク島"),
             new TranslationInfo(LanguageCode.KA, "ნორფოლკის კუნძული"),
             new TranslationInfo(LanguageCode.KK, "Норфолк аралы"),
-            new TranslationInfo(LanguageCode.KO, "노퍽섬"),
+            new TranslationInfo(LanguageCode.KO, "노퍽 섬"),
             new TranslationInfo(LanguageCode.KY, "Норфолк аралы"),
             new TranslationInfo(LanguageCode.LT, "Norfolko sala"),
             new TranslationInfo(LanguageCode.LV, "Norfolkas sala"),
@@ -43,12 +43,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Норфолк арлууд"),
             new TranslationInfo(LanguageCode.NB, "Norfolk Island"),
             new TranslationInfo(LanguageCode.NO, "Norfolk Island"),
-            new TranslationInfo(LanguageCode.NL, "Norfolk"),
+            new TranslationInfo(LanguageCode.NL, "Norfolkeiland"),
             new TranslationInfo(LanguageCode.NN, "Norfolk Island"),
-            new TranslationInfo(LanguageCode.PL, "Norfolk"),
+            new TranslationInfo(LanguageCode.PL, "Wyspa Norfolk"),
             new TranslationInfo(LanguageCode.PT, "Ilha Norfolk"),
             new TranslationInfo(LanguageCode.RO, "Insula Norfolk"),
-            new TranslationInfo(LanguageCode.RU, "Остров Норфолк"),
+            new TranslationInfo(LanguageCode.RU, "Норфолк"),
             new TranslationInfo(LanguageCode.SK, "Norfolk"),
             new TranslationInfo(LanguageCode.SL, "Norfolški otok"),
             new TranslationInfo(LanguageCode.SR, "Острво Норфок"),

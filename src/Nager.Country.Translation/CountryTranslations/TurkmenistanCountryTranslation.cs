@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Turkmenistan
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Turkmenistan"),
             new TranslationInfo(LanguageCode.NN, "Turkmenistan"),
             new TranslationInfo(LanguageCode.PL, "Turkmenistan"),
-            new TranslationInfo(LanguageCode.PT, "Turcomenistão"),
+            new TranslationInfo(LanguageCode.PT, "Turquemenistão"),
             new TranslationInfo(LanguageCode.RO, "Turkmenistan"),
             new TranslationInfo(LanguageCode.RU, "Туркмения"),
             new TranslationInfo(LanguageCode.SK, "Turkménsko"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Qatar
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Katar"),
             new TranslationInfo(LanguageCode.EL, "Κατάρ"),
             new TranslationInfo(LanguageCode.EN, "Qatar"),
-            new TranslationInfo(LanguageCode.ES, "Qatar"),
+            new TranslationInfo(LanguageCode.ES, "Catar"),
             new TranslationInfo(LanguageCode.ET, "Katar"),
             new TranslationInfo(LanguageCode.FA, "قطر"),
             new TranslationInfo(LanguageCode.FI, "Qatar"),

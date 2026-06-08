@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Russia
@@ -16,9 +16,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Rússia"),
             new TranslationInfo(LanguageCode.CS, "Rusko"),
             new TranslationInfo(LanguageCode.DA, "Rusland"),
-            new TranslationInfo(LanguageCode.DE, "Russische Föderation"),
+            new TranslationInfo(LanguageCode.DE, "Russland"),
             new TranslationInfo(LanguageCode.EL, "Ρωσική Ομοσπονδία"),
-            new TranslationInfo(LanguageCode.EN, "Russian Federation"),
+            new TranslationInfo(LanguageCode.EN, "Russia"),
             new TranslationInfo(LanguageCode.ES, "Rusia"),
             new TranslationInfo(LanguageCode.ET, "Venemaa"),
             new TranslationInfo(LanguageCode.FA, "روسیه"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Rusia"),
             new TranslationInfo(LanguageCode.IS, "Rússland"),
             new TranslationInfo(LanguageCode.IT, "Russia"),
-            new TranslationInfo(LanguageCode.JA, "ロシア連邦"),
+            new TranslationInfo(LanguageCode.JA, "ロシア"),
             new TranslationInfo(LanguageCode.KA, "რუსეთი"),
             new TranslationInfo(LanguageCode.KK, "Ресей"),
             new TranslationInfo(LanguageCode.KO, "러시아"),

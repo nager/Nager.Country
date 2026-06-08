@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Moldova
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "مولدوفا"),
+            new TranslationInfo(LanguageCode.AR, "مولدوڤا"),
             new TranslationInfo(LanguageCode.AZ, "Moldova"),
             new TranslationInfo(LanguageCode.BE, "Малдова"),
             new TranslationInfo(LanguageCode.BG, "Молдова"),
@@ -18,7 +18,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DA, "Moldova"),
             new TranslationInfo(LanguageCode.DE, "Moldawien"),
             new TranslationInfo(LanguageCode.EL, "Δημοκρατία της Μολδαβίας"),
-            new TranslationInfo(LanguageCode.EN, "Moldova, Republic of"),
+            new TranslationInfo(LanguageCode.EN, "Moldova"),
             new TranslationInfo(LanguageCode.ES, "Moldavia"),
             new TranslationInfo(LanguageCode.ET, "Moldova"),
             new TranslationInfo(LanguageCode.FA, "مولداوی"),
@@ -26,13 +26,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FR, "Moldavie"),
             new TranslationInfo(LanguageCode.HE, "מולדובה"),
             new TranslationInfo(LanguageCode.HI, "मोल्दोवा"),
-            new TranslationInfo(LanguageCode.HR, "Moldavija"),
+            new TranslationInfo(LanguageCode.HR, "Moldova"),
             new TranslationInfo(LanguageCode.HU, "Moldova"),
             new TranslationInfo(LanguageCode.HY, "Մոլդովա"),
             new TranslationInfo(LanguageCode.ID, "Moldova"),
             new TranslationInfo(LanguageCode.IS, "Moldóva"),
             new TranslationInfo(LanguageCode.IT, "Moldavia"),
-            new TranslationInfo(LanguageCode.JA, "モルドバ共和国"),
+            new TranslationInfo(LanguageCode.JA, "モルドバ"),
             new TranslationInfo(LanguageCode.KA, "მოლდოვა"),
             new TranslationInfo(LanguageCode.KK, "Молдова"),
             new TranslationInfo(LanguageCode.KO, "몰도바"),

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// French Guiana
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "غويانا الفرنسية"),
+            new TranslationInfo(LanguageCode.AR, "غويانا"),
             new TranslationInfo(LanguageCode.AZ, "Fransa Qvianası"),
             new TranslationInfo(LanguageCode.BE, "Французская Гвіяна"),
             new TranslationInfo(LanguageCode.BG, "Френска Гвиана"),
@@ -23,10 +23,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Prantsuse Guajaana"),
             new TranslationInfo(LanguageCode.FA, "گویان فرانسه"),
             new TranslationInfo(LanguageCode.FI, "Ranskan Guayana"),
-            new TranslationInfo(LanguageCode.FR, "Guyane française"),
+            new TranslationInfo(LanguageCode.FR, "Guyane"),
             new TranslationInfo(LanguageCode.HE, "גיאנה הצרפתית"),
             new TranslationInfo(LanguageCode.HI, "फ्रेंच गयाना"),
-            new TranslationInfo(LanguageCode.HR, "Francuska Gijana"),
+            new TranslationInfo(LanguageCode.HR, "Francuska Gvajana"),
             new TranslationInfo(LanguageCode.HU, "Francia Guyana"),
             new TranslationInfo(LanguageCode.HY, "Ֆրանսիական Գվիանա"),
             new TranslationInfo(LanguageCode.ID, "Guyana Perancis"),
@@ -47,8 +47,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Gujana Francuska"),
             new TranslationInfo(LanguageCode.PT, "Guiana Francesa"),
             new TranslationInfo(LanguageCode.RO, "Guyana Franceză"),
-            new TranslationInfo(LanguageCode.RU, "Гвиана"),
-            new TranslationInfo(LanguageCode.SK, "Francúzska Guayana"),
+            new TranslationInfo(LanguageCode.RU, "Французская Гвиана"),
+            new TranslationInfo(LanguageCode.SK, "Guyana"),
             new TranslationInfo(LanguageCode.SL, "Francoska Gvajana"),
             new TranslationInfo(LanguageCode.SR, "Француска Гвајана"),
             new TranslationInfo(LanguageCode.SV, "Franska Guyana"),

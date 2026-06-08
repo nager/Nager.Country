@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Antarctica
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new[]
         {
-            new TranslationInfo(LanguageCode.AR, "القارة القطبية الجنوبية"),
+            new TranslationInfo(LanguageCode.AR, "أنتارتيكا"),
             new TranslationInfo(LanguageCode.AZ, "Antarktika"),
             new TranslationInfo(LanguageCode.BE, "Антарктыка"),
             new TranslationInfo(LanguageCode.BG, "Антарктика"),
@@ -16,13 +16,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Antàrtida"),
             new TranslationInfo(LanguageCode.CS, "Antarktida"),
             new TranslationInfo(LanguageCode.DA, "Antarktis"),
-            new TranslationInfo(LanguageCode.DE, "Antarktika"),
+            new TranslationInfo(LanguageCode.DE, "Antarktis"),
             new TranslationInfo(LanguageCode.EL, "Ανταρκτική"),
             new TranslationInfo(LanguageCode.EN, "Antarctica"),
             new TranslationInfo(LanguageCode.ES, "Antártida"),
-            new TranslationInfo(LanguageCode.ET, "Antarktis"),
+            new TranslationInfo(LanguageCode.ET, "Antarktika"),
             new TranslationInfo(LanguageCode.FA, "جنوبگان"),
-            new TranslationInfo(LanguageCode.FI, "Antarktis"),
+            new TranslationInfo(LanguageCode.FI, "Etelämanner"),
             new TranslationInfo(LanguageCode.FR, "Antarctique"),
             new TranslationInfo(LanguageCode.HE, "אנטארקטיקה"),
             new TranslationInfo(LanguageCode.HI, "अंटार्कटिका"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Antarctica"),
             new TranslationInfo(LanguageCode.IS, "Antarktíka"),
             new TranslationInfo(LanguageCode.IT, "Antartide"),
-            new TranslationInfo(LanguageCode.JA, "南極"),
+            new TranslationInfo(LanguageCode.JA, "南極大陸"),
             new TranslationInfo(LanguageCode.KA, "ანტარქტიკა"),
             new TranslationInfo(LanguageCode.KK, "Антарктида"),
             new TranslationInfo(LanguageCode.KO, "남극"),

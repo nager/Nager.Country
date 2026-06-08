@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Christmas Island
@@ -8,7 +8,7 @@ namespace Nager.Country.Translation.CountryTranslations
         /// <inheritdoc/>
         public TranslationInfo[] Translations => new []
         {
-            new TranslationInfo(LanguageCode.AR, "جزيرة عيد الميلاد"),
+            new TranslationInfo(LanguageCode.AR, "جزيرة كريسماس"),
             new TranslationInfo(LanguageCode.AZ, "Milad adası"),
             new TranslationInfo(LanguageCode.BE, "Востраў Каляд"),
             new TranslationInfo(LanguageCode.BG, "остров Рождество"),
@@ -31,11 +31,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Սուրբ Ծննդյան կղզի"),
             new TranslationInfo(LanguageCode.ID, "Pulau Natal"),
             new TranslationInfo(LanguageCode.IS, "Jólaey"),
-            new TranslationInfo(LanguageCode.IT, "Isola del Natale"),
+            new TranslationInfo(LanguageCode.IT, "Isola di Natale"),
             new TranslationInfo(LanguageCode.JA, "クリスマス島"),
             new TranslationInfo(LanguageCode.KA, "შობის კუნძული"),
             new TranslationInfo(LanguageCode.KK, "Рождество аралы"),
-            new TranslationInfo(LanguageCode.KO, "크리스마스섬"),
+            new TranslationInfo(LanguageCode.KO, "크리스마스 섬"),
             new TranslationInfo(LanguageCode.KY, "Крисмас аралы"),
             new TranslationInfo(LanguageCode.LT, "Kalėdų Sala"),
             new TranslationInfo(LanguageCode.LV, "Ziemsvētku sala"),
@@ -46,10 +46,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Christmaseiland"),
             new TranslationInfo(LanguageCode.NN, "Christmasøya"),
             new TranslationInfo(LanguageCode.PL, "Wyspa Bożego Narodzenia"),
-            new TranslationInfo(LanguageCode.PT, "Ilha Christmas"),
+            new TranslationInfo(LanguageCode.PT, "Ilha do Natal"),
             new TranslationInfo(LanguageCode.RO, "Insula Christmas"),
             new TranslationInfo(LanguageCode.RU, "Остров Рождества"),
-            new TranslationInfo(LanguageCode.SK, "Vianočný ostrov"),
+            new TranslationInfo(LanguageCode.SK, "Vianočnú ostrov"),
             new TranslationInfo(LanguageCode.SL, "Božični otok"),
             new TranslationInfo(LanguageCode.SR, "Божићно Острво"),
             new TranslationInfo(LanguageCode.SV, "Julön"),
