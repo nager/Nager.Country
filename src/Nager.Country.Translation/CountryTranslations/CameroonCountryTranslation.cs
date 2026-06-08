@@ -45,7 +45,7 @@
             new TranslationInfo(LanguageCode.NO, "Kamerun"),
             new TranslationInfo(LanguageCode.NL, "Kameroen"),
             new TranslationInfo(LanguageCode.NN, "Kamerun"),
-            new TranslationInfo(LanguageCode.PL, "WybrzeŻe Kości Słoniowej"),
+            new TranslationInfo(LanguageCode.PL, "Kamerun"),
             new TranslationInfo(LanguageCode.PT, "Camarões"),
             new TranslationInfo(LanguageCode.RO, "Camerun"),
             new TranslationInfo(LanguageCode.RU, "Камерун"),
