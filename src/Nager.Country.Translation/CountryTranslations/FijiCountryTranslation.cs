@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Fidži"),
             new TranslationInfo(LanguageCode.DA, "Fiji"),
             new TranslationInfo(LanguageCode.DE, "Fidschi"),
-            new TranslationInfo(LanguageCode.EL, "Δημοκρατία των Φίτζι"),
+            new TranslationInfo(LanguageCode.EL, "Φίτζι"),
             new TranslationInfo(LanguageCode.EN, "Fiji"),
             new TranslationInfo(LanguageCode.ES, "Fiyi"),
             new TranslationInfo(LanguageCode.ET, "Fidži"),

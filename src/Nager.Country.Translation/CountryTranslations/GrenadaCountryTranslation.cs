@@ -19,7 +19,7 @@
             new TranslationInfo(LanguageCode.DE, "Grenada"),
             new TranslationInfo(LanguageCode.EL, "Γρενάδα"),
             new TranslationInfo(LanguageCode.EN, "Grenada"),
-            new TranslationInfo(LanguageCode.ES, "Grenada"),
+            new TranslationInfo(LanguageCode.ES, "Granada"),
             new TranslationInfo(LanguageCode.ET, "Grenada"),
             new TranslationInfo(LanguageCode.FA, "گرنادا"),
             new TranslationInfo(LanguageCode.FI, "Grenada"),

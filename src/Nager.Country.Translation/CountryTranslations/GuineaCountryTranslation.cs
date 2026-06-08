@@ -13,7 +13,7 @@
             new TranslationInfo(LanguageCode.BE, "Гвінея"),
             new TranslationInfo(LanguageCode.BG, "Гвинея"),
             new TranslationInfo(LanguageCode.BS, "Gvineja"),
-            new TranslationInfo(LanguageCode.CA, "República de Guinea"),
+            new TranslationInfo(LanguageCode.CA, "Guinea"),
             new TranslationInfo(LanguageCode.CS, "Guinea"),
             new TranslationInfo(LanguageCode.DA, "Guinea"),
             new TranslationInfo(LanguageCode.DE, "Guinea"),
