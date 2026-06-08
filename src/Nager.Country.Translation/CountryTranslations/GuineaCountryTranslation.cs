@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Guinea"),
             new TranslationInfo(LanguageCode.ES, "Guinea"),
             new TranslationInfo(LanguageCode.ET, "Guinea"),
-            new TranslationInfo(LanguageCode.FA, "پاپوآ گینه نو"),
+            new TranslationInfo(LanguageCode.FA, "گینه"),
             new TranslationInfo(LanguageCode.FI, "Guinea"),
             new TranslationInfo(LanguageCode.FR, "Guinée"),
             new TranslationInfo(LanguageCode.HE, "גינאה"),
