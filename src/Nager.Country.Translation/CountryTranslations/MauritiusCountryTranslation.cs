@@ -23,7 +23,7 @@
             new TranslationInfo(LanguageCode.ET, "Mauritius"),
             new TranslationInfo(LanguageCode.FA, "موریس"),
             new TranslationInfo(LanguageCode.FI, "Mauritius"),
-            new TranslationInfo(LanguageCode.FR, "Île Maurice"),
+            new TranslationInfo(LanguageCode.FR, "Maurice"),
             new TranslationInfo(LanguageCode.HE, "מאוריציוס"),
             new TranslationInfo(LanguageCode.HI, "मॉरीशस"),
             new TranslationInfo(LanguageCode.HR, "Mauricijus"),
