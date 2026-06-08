@@ -27,7 +27,7 @@
             new TranslationInfo(LanguageCode.HE, "טנזניה"),
             new TranslationInfo(LanguageCode.HI, "तंज़ानिया"),
             new TranslationInfo(LanguageCode.HR, "Tanzanija"),
-            new TranslationInfo(LanguageCode.HU, "Tádzsikisztán"),
+            new TranslationInfo(LanguageCode.HU, "Tanzánia"),
             new TranslationInfo(LanguageCode.HY, "Տանզանիա"),
             new TranslationInfo(LanguageCode.ID, "Tanzania"),
             new TranslationInfo(LanguageCode.IS, "Tansanía"),
