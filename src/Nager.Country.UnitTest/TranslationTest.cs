@@ -226,11 +226,17 @@ namespace Nager.Country.UnitTest
                 .ToList();
 
             // List of unwanted, invisible characters (e.g., soft hyphens from Wikipedia copy-pastes)
-            // \u00AD = Soft Hyphen
-            // \u200B = Zero Width Space
-            // \u200D = Zero Width Joiner
-            // \uFEFF = Byte Order Mark
-            char[] forbiddenChars = ['\u00AD', '\u200B', '\u200D', '\uFEFF'];
+            char[] forbiddenChars =
+            [
+                '\u00AD', // Soft Hyphen
+                '\u200B', // Zero Width Space
+                '\u200D', // Zero Width Joiner
+                '\u2060', // Word Joiner
+                '\uFEFF', // Byte Order Mark
+
+                // Whitespace variants
+                '\u180E', // Mongolian Vowel Separator (deprecated but still seen)
+            ];
 
             foreach (var translationClass in translationClasses)
             {
