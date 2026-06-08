@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Ukrajina"),
             new TranslationInfo(LanguageCode.DA, "Ukraine"),
             new TranslationInfo(LanguageCode.DE, "Ukraine"),
-            new TranslationInfo(LanguageCode.EL, "Ουκρανια"),
+            new TranslationInfo(LanguageCode.EL, "Ουκρανία"),
             new TranslationInfo(LanguageCode.EN, "Ukraine"),
             new TranslationInfo(LanguageCode.ES, "Ucrania"),
             new TranslationInfo(LanguageCode.ET, "Ukraina"),

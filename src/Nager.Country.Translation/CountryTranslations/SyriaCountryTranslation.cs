@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Sýrie"),
             new TranslationInfo(LanguageCode.DA, "Syrien"),
             new TranslationInfo(LanguageCode.DE, "Syrien"),
-            new TranslationInfo(LanguageCode.EL, "Αραβική Δημοκρατία της Συρίας"),
+            new TranslationInfo(LanguageCode.EL, "Συρία"),
             new TranslationInfo(LanguageCode.EN, "Syria"),
             new TranslationInfo(LanguageCode.ES, "Siria"),
             new TranslationInfo(LanguageCode.ET, "Süüria"),

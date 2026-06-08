@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Tanzanie"),
             new TranslationInfo(LanguageCode.DA, "Tanzania"),
             new TranslationInfo(LanguageCode.DE, "Tansania"),
-            new TranslationInfo(LanguageCode.EL, "Ενωμένη Δημοκρατία της Τανζανίας"),
+            new TranslationInfo(LanguageCode.EL, "Τανζανία"),
             new TranslationInfo(LanguageCode.EN, "Tanzania"),
             new TranslationInfo(LanguageCode.ES, "Tanzania"),
             new TranslationInfo(LanguageCode.ET, "Tansaania"),

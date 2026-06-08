@@ -8,7 +8,7 @@
         /// <inheritdoc/>
         public TranslationInfo[] Translations =>
         [
-            new TranslationInfo(LanguageCode.AR, "الإمارات"),
+            new TranslationInfo(LanguageCode.AR, "الإمارات العربية المتحدة"),
             new TranslationInfo(LanguageCode.AZ, "Birləşmiş Ərəb Əmirlikləri"),
             new TranslationInfo(LanguageCode.BE, "Аб’яднаныя Арабскія Эміраты"),
             new TranslationInfo(LanguageCode.BG, "Обединени арабски емирства"),
@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "United Arab Emirates"),
             new TranslationInfo(LanguageCode.ES, "Emiratos Árabes Unidos"),
             new TranslationInfo(LanguageCode.ET, "Araabia Ühendemiraadid"),
-            new TranslationInfo(LanguageCode.FA, "امارات"),
+            new TranslationInfo(LanguageCode.FA, "امارات متحده عربی"),
             new TranslationInfo(LanguageCode.FI, "Arabiemiraatit"),
             new TranslationInfo(LanguageCode.FR, "Émirats Arabes Unis"),
             new TranslationInfo(LanguageCode.HE, "איחוד האמירויות הערביות"),
@@ -32,7 +32,7 @@
             new TranslationInfo(LanguageCode.ID, "Uni Emirat Arab"),
             new TranslationInfo(LanguageCode.IS, "Sameinuðu arabísku furstadæmin"),
             new TranslationInfo(LanguageCode.IT, "Emirati Arabi Uniti"),
-            new TranslationInfo(LanguageCode.JA, "UAE"),
+            new TranslationInfo(LanguageCode.JA, "アラブ首長国連邦"),
             new TranslationInfo(LanguageCode.KA, "არაბთა გაერთიანებული საამიროები"),
             new TranslationInfo(LanguageCode.KK, "Біріккен Араб Әмірліктері"),
             new TranslationInfo(LanguageCode.KO, "아랍에미리트"),
