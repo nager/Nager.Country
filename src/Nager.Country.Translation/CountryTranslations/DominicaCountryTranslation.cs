@@ -56,7 +56,7 @@
             new TranslationInfo(LanguageCode.TR, "Dominika"),
             new TranslationInfo(LanguageCode.UK, "Домініка"),
             new TranslationInfo(LanguageCode.UZ, "Dominika"),
-            new TranslationInfo(LanguageCode.ZH, "多米尼加"),
+            new TranslationInfo(LanguageCode.ZH, "多米尼克"),
         };
     }
 }

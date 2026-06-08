@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Israel"),
             new TranslationInfo(LanguageCode.ES, "Israel"),
             new TranslationInfo(LanguageCode.ET, "Iisrael"),
-            new TranslationInfo(LanguageCode.FA, "فلسطين اشغالی"),
+            new TranslationInfo(LanguageCode.FA, "اسرائیل"),
             new TranslationInfo(LanguageCode.FI, "Israel"),
             new TranslationInfo(LanguageCode.FR, "Israël"),
             new TranslationInfo(LanguageCode.HE, "ישראל"),
