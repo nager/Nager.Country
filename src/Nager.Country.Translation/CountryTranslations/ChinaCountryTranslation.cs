@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Кина"),
             new TranslationInfo(LanguageCode.SV, "Kina"),
             new TranslationInfo(LanguageCode.TR, "Çin"),
-            new TranslationInfo(LanguageCode.UK, "КНР (Китайська Народна Республіка)"),
+            new TranslationInfo(LanguageCode.UK, "Китай"),
             new TranslationInfo(LanguageCode.UZ, "Xitoy"),
             new TranslationInfo(LanguageCode.ZH, "中国"),
         ];
