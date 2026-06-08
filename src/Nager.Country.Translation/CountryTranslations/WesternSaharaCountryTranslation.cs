@@ -6,8 +6,8 @@
     public class WesternSaharaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الصحراء الغربية"),
             new TranslationInfo(LanguageCode.AZ, "Qərbi Saxara"),
             new TranslationInfo(LanguageCode.BE, "Заходняя Сахара"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Західна Сахара"),
             new TranslationInfo(LanguageCode.UZ, "G‘arbiy Sahroi Kabir"),
             new TranslationInfo(LanguageCode.ZH, "西撒哈拉"),
-        };
+        ];
     }
 }

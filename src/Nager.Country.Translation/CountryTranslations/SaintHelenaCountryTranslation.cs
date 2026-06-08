@@ -6,8 +6,8 @@
     public class SaintHelenaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.DE, "St. Helena, Ascension und Tristan da Cunha"),
             new TranslationInfo(LanguageCode.EN, "Saint Helena, Ascension and Tristan da Cunha"),
             new TranslationInfo(LanguageCode.ES, "Santa Elena, Ascensión y Tristán de Acuña"),
@@ -26,6 +26,6 @@
             new TranslationInfo(LanguageCode.TR, "Saint Helena"),
             new TranslationInfo(LanguageCode.UK, "Свята Єлена"),
             new TranslationInfo(LanguageCode.RU, "Острова Святой Елены, Вознесения и Тристан-да-Кунья"),
-        };
+        ];
     }
 }

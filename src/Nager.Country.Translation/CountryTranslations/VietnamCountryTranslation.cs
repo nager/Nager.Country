@@ -6,8 +6,8 @@
     public class VietnamCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "فيتنام"),
             new TranslationInfo(LanguageCode.AZ, "Vyetnam"),
             new TranslationInfo(LanguageCode.BE, "В’етнам"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "В'єтнам"),
             new TranslationInfo(LanguageCode.UZ, "Vyetnam"),
             new TranslationInfo(LanguageCode.ZH, "越南"),
-        };
+        ];
     }
 }

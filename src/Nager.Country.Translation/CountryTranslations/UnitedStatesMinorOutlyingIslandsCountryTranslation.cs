@@ -6,8 +6,8 @@
     public class UnitedStatesMinorOutlyingIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر الولايات المتحدة الصغيرة النائية"),
             new TranslationInfo(LanguageCode.AZ, "ABŞ-a bağlı kiçik adacıqlar"),
             new TranslationInfo(LanguageCode.BE, "Малыя Аддаленыя астравы ЗША"),
@@ -56,6 +56,6 @@
             new TranslationInfo(LanguageCode.UK, "Зовнішні малі острови (США)"),
             new TranslationInfo(LanguageCode.UZ, "AQSH yondosh orollari"),
             new TranslationInfo(LanguageCode.ZH, "美国本土外小岛屿"),
-        };
+        ];
     }
 }

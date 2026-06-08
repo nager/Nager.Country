@@ -6,8 +6,8 @@
     public class YemenCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "اليمن"),
             new TranslationInfo(LanguageCode.AZ, "Yəmən"),
             new TranslationInfo(LanguageCode.BE, "Емен"),
@@ -57,6 +57,6 @@
             new TranslationInfo(LanguageCode.UK, "Ємен"),
             new TranslationInfo(LanguageCode.UZ, "Yaman"),
             new TranslationInfo(LanguageCode.ZH, "也门"),
-        };
+        ];
     }
 }
