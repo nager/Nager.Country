@@ -18,7 +18,7 @@
             new TranslationInfo(LanguageCode.DA, "Sydgeorgien og Sydsandwichøerne"),
             new TranslationInfo(LanguageCode.DE, "Südgeorgien und die Südlichen Sandwichinseln"),
             new TranslationInfo(LanguageCode.EL, "Νότια Γεωργία και Νότιες Νήσοι Σάντουιτς"),
-            new TranslationInfo(LanguageCode.EN, "South Georgia and the South Sandwich Islands"),
+            new TranslationInfo(LanguageCode.EN, "South Georgia"),
             new TranslationInfo(LanguageCode.ES, "Islas Georgias del Sur y Sandwich del Sur"),
             new TranslationInfo(LanguageCode.ET, "Lõuna-Georgia ja Lõuna-Sandwichi saared"),
             new TranslationInfo(LanguageCode.FA, "جزایر جورجیای جنوبی و ساندویچ جنوبی"),
