@@ -13,7 +13,7 @@
             new TranslationInfo(LanguageCode.BE, "Рэюньён"),
             new TranslationInfo(LanguageCode.BG, "Реюнион"),
             new TranslationInfo(LanguageCode.BS, "Reunion"),
-            new TranslationInfo(LanguageCode.CA, "Reunió, illa de la"),
+            new TranslationInfo(LanguageCode.CA, "Reunió"),
             new TranslationInfo(LanguageCode.CS, "Réunion"),
             new TranslationInfo(LanguageCode.DA, "Réunion"),
             new TranslationInfo(LanguageCode.DE, "Réunion"),
@@ -51,12 +51,12 @@
             new TranslationInfo(LanguageCode.RU, "Реюньон"),
             new TranslationInfo(LanguageCode.SK, "Réunion"),
             new TranslationInfo(LanguageCode.SL, "Reunion"),
-            new TranslationInfo(LanguageCode.SR, "Реинион"),
+            new TranslationInfo(LanguageCode.SR, "Реунион"),
             new TranslationInfo(LanguageCode.SV, "Réunion"),
             new TranslationInfo(LanguageCode.TR, "Réunion"),
             new TranslationInfo(LanguageCode.UK, "Реюньйон"),
             new TranslationInfo(LanguageCode.UZ, "Reyunion"),
-            new TranslationInfo(LanguageCode.ZH, "留尼旺岛"),
+            new TranslationInfo(LanguageCode.ZH, "留尼汪"),
         ];
     }
 }
