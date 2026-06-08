@@ -3,6 +3,7 @@ using Nager.Country.Translation;
 using System;
 using System.Globalization;
 using System.Linq;
+using System.Reflection;
 
 namespace Nager.Country.UnitTest
 {
@@ -202,6 +203,60 @@ namespace Nager.Country.UnitTest
                     if (searchValues.Where(searchValue => translation.Name.Contains(searchValue)).Any())
                     {
                         Assert.Fail($"Check hyphen in language:{languageCode}, {translation.Name}");
+                    }
+                }
+            }
+        }
+
+        [TestMethod]
+        public void Translations_ShouldNotContainHiddenControlCharacters()
+        {
+            // 1. Find all classes that implement ICountryTranslation
+            var translationInterfaceType = typeof(ICountryTranslation);
+            var assembly = Assembly.GetAssembly(translationInterfaceType);
+
+            if (assembly is null)
+            {
+                Assert.Fail("The assembly containing the translations could not be loaded.");
+                return;
+            }
+
+            var translationClasses = assembly.GetTypes()
+                .Where(t => translationInterfaceType.IsAssignableFrom(t) && !t.IsInterface && !t.IsAbstract)
+                .ToList();
+
+            // List of unwanted, invisible characters (e.g., soft hyphens from Wikipedia copy-pastes)
+            // \u00AD = Soft Hyphen
+            // \u200B = Zero Width Space
+            // \u200D = Zero Width Joiner
+            // \uFEFF = Byte Order Mark
+            char[] forbiddenChars = ['\u00AD', '\u200B', '\u200D', '\uFEFF'];
+
+            foreach (var translationClass in translationClasses)
+            {
+                // Dynamically instantiate the translation class
+                var instance = Activator.CreateInstance(translationClass) as ICountryTranslation;
+                if (instance?.Translations is null)
+                {
+                    continue;
+                }
+
+                foreach (var translation in instance.Translations)
+                {
+                    // Adjust 'translation.Name' if the property name differs in your Nager.Country version
+                    var text = translation.Name;
+
+                    if (!string.IsNullOrEmpty(text))
+                    {
+                        // Check if any of the forbidden characters are present in the text
+                        var containsForbiddenChar = text.Any(c => forbiddenChars.Contains(c));
+
+                        if (containsForbiddenChar)
+                        {
+                            // MSTest aborts immediately with a detailed failure message
+                            Assert.Fail($"Error in class '{translationClass.Name}' for language '{translation.LanguageCode}': " +
+                                        $"The string \"{text}\" contains hidden control characters (e.g., soft hyphen).");
+                        }
                     }
                 }
             }
