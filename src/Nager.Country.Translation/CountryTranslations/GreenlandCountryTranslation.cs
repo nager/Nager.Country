@@ -22,7 +22,7 @@
             new TranslationInfo(LanguageCode.ES, "Groenlandia"),
             new TranslationInfo(LanguageCode.ET, "Gröönimaa"),
             new TranslationInfo(LanguageCode.FA, "گرینلند"),
-            new TranslationInfo(LanguageCode.FI, "Groönlanti"),
+            new TranslationInfo(LanguageCode.FI, "Grönlanti"),
             new TranslationInfo(LanguageCode.FR, "Groenland"),
             new TranslationInfo(LanguageCode.HE, "גרינלנד"),
             new TranslationInfo(LanguageCode.HI, "ग्रीनलैंड"),
