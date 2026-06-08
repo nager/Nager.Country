@@ -26,7 +26,7 @@
             new TranslationInfo(LanguageCode.FR, "Wallis-et-Futuna"),
             new TranslationInfo(LanguageCode.HE, "איי ווליס ופוטונה"),
             new TranslationInfo(LanguageCode.HI, "वालिस और फुतुना"),
-            new TranslationInfo(LanguageCode.HR, "Wallis i Fortuna"),
+            new TranslationInfo(LanguageCode.HR, "Valis i Futuna"),
             new TranslationInfo(LanguageCode.HU, "Wallis és Futuna"),
             new TranslationInfo(LanguageCode.HY, "Ուոլիս և Ֆուտունա"),
             new TranslationInfo(LanguageCode.ID, "Wallis and Futuna"),
