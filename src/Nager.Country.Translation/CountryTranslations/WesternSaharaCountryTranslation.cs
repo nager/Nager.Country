@@ -53,8 +53,8 @@
             new TranslationInfo(LanguageCode.SL, "Zahodna Sahara"),
             new TranslationInfo(LanguageCode.SR, "Западна Сахара"),
             new TranslationInfo(LanguageCode.SV, "Västsahara"),
-            new TranslationInfo(LanguageCode.TR, "Sahra Demokratik Arap Cumhuriyeti"),
-            new TranslationInfo(LanguageCode.UK, "САДР"),
+            new TranslationInfo(LanguageCode.TR, "Batı Sahra"),
+            new TranslationInfo(LanguageCode.UK, "Західна Сахара"),
             new TranslationInfo(LanguageCode.UZ, "G‘arbiy Sahroi Kabir"),
             new TranslationInfo(LanguageCode.ZH, "西撒哈拉"),
         };

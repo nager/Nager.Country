@@ -27,7 +27,7 @@
             new TranslationInfo(LanguageCode.HE, "סמואה האמריקנית"),
             new TranslationInfo(LanguageCode.HI, "अमेरिकी समोआ"),
             new TranslationInfo(LanguageCode.HR, "Američka Samoa"),
-            new TranslationInfo(LanguageCode.HU, "Szamoa"),
+            new TranslationInfo(LanguageCode.HU, "Amerikai Szamoa"),
             new TranslationInfo(LanguageCode.HY, "Ամերիկյան Սամոա"),
             new TranslationInfo(LanguageCode.ID, "Samoa Amerika"),
             new TranslationInfo(LanguageCode.IS, "Bandaríska Samóa"),

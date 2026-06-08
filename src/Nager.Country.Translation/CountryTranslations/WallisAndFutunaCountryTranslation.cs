@@ -53,7 +53,7 @@
             new TranslationInfo(LanguageCode.SL, "Wallis in Futuna"),
             new TranslationInfo(LanguageCode.SR, "Валис и Футуна"),
             new TranslationInfo(LanguageCode.SV, "Wallis- och Futunaöarna"),
-            new TranslationInfo(LanguageCode.TR, "Wallis ve Futuna Adaları Bölgesi"),
+            new TranslationInfo(LanguageCode.TR, "Wallis ve Futuna"),
             new TranslationInfo(LanguageCode.UK, "Волліс і Футуна"),
             new TranslationInfo(LanguageCode.UZ, "Uollis va Futuna"),
             new TranslationInfo(LanguageCode.ZH, "瓦利斯和富图纳群岛"),
