@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Laos"),
             new TranslationInfo(LanguageCode.DA, "Laos"),
             new TranslationInfo(LanguageCode.DE, "Laos"),
-            new TranslationInfo(LanguageCode.EL, "Λαϊκή Δημοκρατία του Λάος"),
+            new TranslationInfo(LanguageCode.EL, "Λάος"),
             new TranslationInfo(LanguageCode.EN, "Laos"),
             new TranslationInfo(LanguageCode.ES, "Laos"),
             new TranslationInfo(LanguageCode.ET, "Laos"),

@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Írán"),
             new TranslationInfo(LanguageCode.DA, "Iran"),
             new TranslationInfo(LanguageCode.DE, "Iran"),
-            new TranslationInfo(LanguageCode.EL, "Ισλαμική Δημοκρατία του Ιράν"),
+            new TranslationInfo(LanguageCode.EL, "Ιράν"),
             new TranslationInfo(LanguageCode.EN, "Iran"),
             new TranslationInfo(LanguageCode.ES, "Iran"),
             new TranslationInfo(LanguageCode.ET, "Iraan"),
