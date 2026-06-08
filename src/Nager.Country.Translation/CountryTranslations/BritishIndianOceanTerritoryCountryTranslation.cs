@@ -34,7 +34,7 @@
             new TranslationInfo(LanguageCode.JA, "イギリス領インド洋地域"),
             new TranslationInfo(LanguageCode.KA, "ბრიტანეთის ტერიტორია ინდოეთის ოკეანეში"),
             new TranslationInfo(LanguageCode.KK, "Үнді мұхитындағы Британ аймағы"),
-            new TranslationInfo(LanguageCode.KO, "인도"),
+            new TranslationInfo(LanguageCode.KO, "영국령 인도양 지역"),
             new TranslationInfo(LanguageCode.KY, "Британиянын Индия океанындагы аймагы"),
             new TranslationInfo(LanguageCode.LT, "Indijos Vandenyno Britų Sritis"),
             new TranslationInfo(LanguageCode.LV, "Indijas okeāna Britu teritorija"),
