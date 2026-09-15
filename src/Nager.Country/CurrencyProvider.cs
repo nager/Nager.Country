@@ -25,10 +25,6 @@ namespace Nager.Country
         /// </summary>
         public static readonly ICurrency Amd = new AmdCurrency();
         /// <summary>
-        /// ANG currency
-        /// </summary>
-        public static readonly ICurrency Ang = new AngCurrency();
-        /// <summary>
         /// AOA currency
         /// </summary>
         public static readonly ICurrency Aoa = new AoaCurrency();
@@ -620,6 +616,10 @@ namespace Nager.Country
         /// XCD currency
         /// </summary>
         public static readonly ICurrency Xcd = new XcdCurrency();
+        /// <summary>
+        /// XCG currency
+        /// </summary>
+        public static readonly ICurrency Xcg = new XcgCurrency();
         /// <summary>
         /// XDR currency
         /// </summary>

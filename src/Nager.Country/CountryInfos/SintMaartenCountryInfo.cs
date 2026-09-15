@@ -42,7 +42,7 @@
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [CurrencyProvider.Ang];
+        public ICurrency[] Currencies => [CurrencyProvider.Xcg];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["1721"];

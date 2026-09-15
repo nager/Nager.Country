@@ -1,12 +1,12 @@
 ﻿namespace Nager.Country.Currencies
 {
     /// <summary>
-    /// Ang Currency
+    /// Xcg Currency
     /// </summary>
-    public sealed class AngCurrency : ICurrency
+    public sealed class XcgCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => "NAƒ";
+        public string? Symbol => "Cg";
 
         /// <inheritdoc/>
         public string? Singular => "guilder";
@@ -15,12 +15,12 @@
         public string? Plural => "guilders";
 
         /// <inheritdoc/>
-        public string IsoCode => "ANG";
+        public string IsoCode => "XCG";
 
         /// <inheritdoc/>
         public string NumericCode => "532";
 
         /// <inheritdoc/>
-        public string Name => "Netherlands Antillean guilder";
+        public string Name => "Caribbean guilder";
     }
 }
