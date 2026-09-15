@@ -6,7 +6,7 @@ namespace Nager.Country.Currencies
     public sealed class SosCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => "$";
+        public string? Symbol => "S";
 
         /// <inheritdoc/>
         public string? Singular => null;
@@ -15,12 +15,12 @@ namespace Nager.Country.Currencies
         public string? Plural => null;
 
         /// <inheritdoc/>
-        public string IsoCode => "SRD";
+        public string IsoCode => "SOS";
 
         /// <inheritdoc/>
-        public string NumericCode => "968";
+        public string NumericCode => "706";
 
         /// <inheritdoc/>
-        public string Name => "Surinamese dollar";
+        public string Name => "Somali Shilling";
     }
 }
