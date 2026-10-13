@@ -39,10 +39,7 @@
         public Alpha2Code[] BorderCountries => [];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [
-            CurrencyProvider.Cuc,
-            CurrencyProvider.Cup,
-        ];
+        public ICurrency[] Currencies => [CurrencyProvider.Cup];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["53"];
