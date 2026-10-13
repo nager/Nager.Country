@@ -21,6 +21,6 @@ namespace Nager.Country.Currencies
         public string NumericCode => "478";
 
         /// <inheritdoc/>
-        public string Name => "	Mauritanian ouguiya";
+        public string Name => "Mauritanian ouguiya";
     }
 }
