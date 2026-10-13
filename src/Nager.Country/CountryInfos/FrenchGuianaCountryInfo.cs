@@ -9,7 +9,7 @@
         public string CommonName => "French Guiana";
 
         /// <inheritdoc/>
-        public string OfficialName => "Guyane française";
+        public string OfficialName => "French Guiana";
 
         /// <inheritdoc/>
         public string NativeName => "Guyane française";
