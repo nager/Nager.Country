@@ -1,4 +1,4 @@
-namespace Nager.Country.Currencies
+﻿namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Ssp Currency
@@ -6,7 +6,7 @@ namespace Nager.Country.Currencies
     public sealed class SspCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => "SS�";
+        public string? Symbol => "SS£";
 
         /// <inheritdoc/>
         public string? Singular => null;

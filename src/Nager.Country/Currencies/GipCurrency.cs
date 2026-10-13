@@ -6,7 +6,7 @@ namespace Nager.Country.Currencies
     public sealed class GipCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => "£";
+        public string? Symbol => "Â£";
 
         /// <inheritdoc/>
         public string? Singular => null;

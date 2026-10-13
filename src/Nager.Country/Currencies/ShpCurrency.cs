@@ -1,4 +1,4 @@
-namespace Nager.Country.Currencies
+﻿namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Shp Currency
@@ -6,7 +6,7 @@ namespace Nager.Country.Currencies
     public sealed class ShpCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => "�";
+        public string? Symbol => "£";
 
         /// <inheritdoc/>
         public string? Singular => null;
