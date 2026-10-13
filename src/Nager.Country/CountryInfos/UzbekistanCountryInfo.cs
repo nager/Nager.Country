@@ -12,7 +12,7 @@
         public string OfficialName => "Republic of Uzbekistan";
 
         /// <inheritdoc/>
-        public string NativeName => "Ўзбекистон";
+        public string NativeName => "Oʻzbekiston";
 
         /// <inheritdoc/>
         public string Slug => "uzbekistan";

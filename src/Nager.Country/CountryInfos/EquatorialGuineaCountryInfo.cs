@@ -12,7 +12,7 @@
         public string OfficialName => "Republic of Equatorial Guinea";
 
         /// <inheritdoc/>
-        public string NativeName => "Equatorial Guinea";
+        public string NativeName => "Guinea Ecuatorial";
 
         /// <inheritdoc/>
         public string Slug => "equatorial-guinea";

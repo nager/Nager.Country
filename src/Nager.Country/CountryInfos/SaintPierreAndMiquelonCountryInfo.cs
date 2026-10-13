@@ -12,7 +12,7 @@
         public string OfficialName => "Saint Pierre and Miquelon";
 
         /// <inheritdoc/>
-        public string NativeName => "Saint Pierre et Miquelon";
+        public string NativeName => "Saint-Pierre-et-Miquelon";
 
         /// <inheritdoc/>
         public string Slug => "saint-pierre-and-miquelon";

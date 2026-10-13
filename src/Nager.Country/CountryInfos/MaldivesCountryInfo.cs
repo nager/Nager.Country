@@ -12,7 +12,7 @@
         public string OfficialName => "Republic of the Maldives";
 
         /// <inheritdoc/>
-        public string NativeName => "Maldives";
+        public string NativeName => "ދިވެހިރާއްޖެ";
 
         /// <inheritdoc/>
         public string Slug => "maldives";

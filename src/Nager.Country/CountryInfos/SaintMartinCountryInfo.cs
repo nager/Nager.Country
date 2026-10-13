@@ -12,7 +12,7 @@
         public string OfficialName => "Saint Martin";
 
         /// <inheritdoc/>
-        public string NativeName => "Saint Martin";
+        public string NativeName => "Saint-Martin";
 
         /// <inheritdoc/>
         public string Slug => "saint-martin";

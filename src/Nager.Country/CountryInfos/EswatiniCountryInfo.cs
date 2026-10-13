@@ -15,7 +15,7 @@
         public string NativeName => "Swaziland";
 
         /// <inheritdoc/>
-        public string Slug => "eswatini";
+        public string Slug => "eSwatini";
 
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.SZ;

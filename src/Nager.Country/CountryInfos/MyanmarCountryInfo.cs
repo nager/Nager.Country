@@ -12,7 +12,7 @@
         public string OfficialName => "Republic of the Union of Myanmar";
 
         /// <inheritdoc/>
-        public string NativeName => "Myanma";
+        public string NativeName => "မြန်မာ";
 
         /// <inheritdoc/>
         public string Slug => "myanmar";

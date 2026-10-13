@@ -12,7 +12,7 @@
         public string OfficialName => "Democratic People's Republic of Korea";
 
         /// <inheritdoc/>
-        public string NativeName => "북한";
+        public string NativeName => "조선";
 
         /// <inheritdoc/>
         public string Slug => "north-korea";

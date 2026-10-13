@@ -12,7 +12,7 @@
         public string OfficialName => "Bonaire, Sint Eustatius and Saba";
 
         /// <inheritdoc/>
-        public string NativeName => "Caribbean Netherlands";
+        public string NativeName => "Caribisch Nederland";
 
         /// <inheritdoc/>
         public string Slug => "caribbean-netherlands";

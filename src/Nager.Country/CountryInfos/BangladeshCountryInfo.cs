@@ -12,7 +12,7 @@
         public string OfficialName => "People's Republic of Bangladesh";
 
         /// <inheritdoc/>
-        public string NativeName => "Bangladesh";
+        public string NativeName => "বাংলাদেশ";
 
         /// <inheritdoc/>
         public string Slug => "bangladesh";

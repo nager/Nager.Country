@@ -12,7 +12,7 @@
         public string OfficialName => "Kingdom of Bhutan";
 
         /// <inheritdoc/>
-        public string NativeName => "ʼbrug-yul";
+        public string NativeName => "འབྲུག་ཡུལ་";
 
         /// <inheritdoc/>
         public string Slug => "bhutan";
