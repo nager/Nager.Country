@@ -15,7 +15,7 @@
         public string NativeName => "Åland";
 
         /// <inheritdoc/>
-        public string Slug => "aland";
+        public string Slug => "aland-islands";
 
         /// <inheritdoc/>
         public Alpha2Code Alpha2Code => Alpha2Code.AX;
