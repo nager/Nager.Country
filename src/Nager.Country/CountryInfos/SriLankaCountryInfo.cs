@@ -12,7 +12,7 @@
         public string OfficialName => "Democratic Socialist Republic of Sri Lanka";
 
         /// <inheritdoc/>
-        public string NativeName => "śrī laṃkāva";
+        public string NativeName => "ශ්‍රී ලංකාව";
 
         /// <inheritdoc/>
         public string Slug => "sri-lanka";
