@@ -27,7 +27,7 @@
         public int NumericCode => 570;
 
         /// <inheritdoc/>
-        public string[] TLD => new [] { ".nu" };
+        public string[] TLD => [".nu"];
 
         /// <inheritdoc/>
         public Region Region => Region.Oceania;
