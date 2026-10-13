@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "British Indian Ocean Territory"),
             new TranslationInfo(LanguageCode.ES, "Territorio Británico del Océano Índico"),
             new TranslationInfo(LanguageCode.ET, "Briti India ookeani ala"),
-            new TranslationInfo(LanguageCode.FA, "قلمرو بریتانیا در اقیanوس هند"),
+            new TranslationInfo(LanguageCode.FA, "قلمرو بریتانیا در اقیانوس هند"),
             new TranslationInfo(LanguageCode.FI, "Brittiläinen Intian valtameren alue"),
             new TranslationInfo(LanguageCode.FR, "Territoire britannique de l'océan Indien"),
             new TranslationInfo(LanguageCode.HE, "הטריטוריה הבริטית באוקיינוס ההודי"),
