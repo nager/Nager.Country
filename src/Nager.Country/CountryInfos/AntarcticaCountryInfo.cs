@@ -1,4 +1,4 @@
-namespace Nager.Country.CountryInfos
+﻿namespace Nager.Country.CountryInfos
 {
     /// <summary>
     /// Antarctica
