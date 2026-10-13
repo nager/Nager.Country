@@ -373,6 +373,10 @@ namespace Nager.Country
         /// </summary>
         public static readonly ICurrency Mro = new MroCurrency();
         /// <summary>
+        /// MRU currency
+        /// </summary>
+        public static readonly ICurrency Mru = new MruCurrency();
+        /// <summary>
         /// MUR currency
         /// </summary>
         public static readonly ICurrency Mur = new MurCurrency();
@@ -505,6 +509,10 @@ namespace Nager.Country
         /// </summary>
         public static readonly ICurrency Sll = new SllCurrency();
         /// <summary>
+        /// SLE currency
+        /// </summary>
+        public static readonly ICurrency Sle = new SleCurrency();
+        /// <summary>
         /// SOS currency
         /// </summary>
         public static readonly ICurrency Sos = new SosCurrency();
@@ -520,6 +528,10 @@ namespace Nager.Country
         /// STD currency
         /// </summary>
         public static readonly ICurrency Std = new StdCurrency();
+        /// <summary>
+        /// STN currency
+        /// </summary>
+        public static readonly ICurrency Stn = new StnCurrency();
         /// <summary>
         /// SVC currency
         /// </summary>
@@ -644,6 +656,10 @@ namespace Nager.Country
         /// ZMW currency
         /// </summary>
         public static readonly ICurrency Zmw = new ZmwCurrency();
+        /// <summary>
+        /// ZWG currency
+        /// </summary>
+        public static readonly ICurrency Zwg = new ZwgCurrency();
         /// <summary>
         /// ZWL currency
         /// </summary>

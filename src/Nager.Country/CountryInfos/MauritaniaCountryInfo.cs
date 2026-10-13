@@ -45,7 +45,7 @@
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [CurrencyProvider.Mro];
+        public ICurrency[] Currencies => [CurrencyProvider.Mru];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["222"];

@@ -47,7 +47,8 @@
         /// <inheritdoc/>
         public ICurrency[] Currencies =>
         [
-            CurrencyProvider.Zwl,
+            CurrencyProvider.Zwg,
+            CurrencyProvider.Usd,
         ];
 
         /// <inheritdoc/>

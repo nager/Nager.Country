@@ -48,7 +48,7 @@
         [
             CurrencyProvider.Mad,
             CurrencyProvider.Dzd,
-            CurrencyProvider.Mro,
+            CurrencyProvider.Mru,
         ];
 
         /// <inheritdoc/>

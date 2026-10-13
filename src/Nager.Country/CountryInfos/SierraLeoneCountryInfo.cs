@@ -43,7 +43,7 @@
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [CurrencyProvider.Sll];
+        public ICurrency[] Currencies => [CurrencyProvider.Sle];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["232"];

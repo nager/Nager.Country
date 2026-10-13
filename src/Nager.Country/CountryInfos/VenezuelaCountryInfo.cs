@@ -44,7 +44,7 @@
         ];
 
         /// <inheritdoc/>
-        public ICurrency[] Currencies => [CurrencyProvider.Vef];
+        public ICurrency[] Currencies => [CurrencyProvider.Ves];
 
         /// <inheritdoc/>
         public string[] CallingCodes => ["58"];
