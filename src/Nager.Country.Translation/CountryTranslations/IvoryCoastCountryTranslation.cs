@@ -49,7 +49,7 @@
             new TranslationInfo(LanguageCode.PT, "Costa do Marfim"),
             new TranslationInfo(LanguageCode.RO, "Côte d’Ivoire"),
             new TranslationInfo(LanguageCode.RU, "Берег Слоновой Кости"),
-            new TranslationInfo(LanguageCode.SK, "Pobržie Slonoviny"),
+            new TranslationInfo(LanguageCode.SK, "Pobrežie Slonoviny"),
             new TranslationInfo(LanguageCode.SL, "Slonokoščena obala"),
             new TranslationInfo(LanguageCode.SR, "Обала Слоноваче"),
             new TranslationInfo(LanguageCode.SV, "Elfenbenskusten"),

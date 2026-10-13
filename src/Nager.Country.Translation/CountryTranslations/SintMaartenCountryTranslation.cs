@@ -46,7 +46,7 @@
             new TranslationInfo(LanguageCode.NL, "Sint Maarten"),
             new TranslationInfo(LanguageCode.NN, "Sint Maarten"),
             new TranslationInfo(LanguageCode.PL, "Sint Maarten"),
-            new TranslationInfo(LanguageCode.PT, "São Martinho"),
+            new TranslationInfo(LanguageCode.PT, "Sint Maarten"),
             new TranslationInfo(LanguageCode.RO, "Sint-Maarten"),
             new TranslationInfo(LanguageCode.RU, "Синт-Мартен"),
             new TranslationInfo(LanguageCode.SK, "Sint Maarten"),
@@ -56,7 +56,7 @@
             new TranslationInfo(LanguageCode.TR, "Sint Maarten"),
             new TranslationInfo(LanguageCode.UK, "Сінт-Мартен"),
             new TranslationInfo(LanguageCode.UZ, "Sint-Marten"),
-            new TranslationInfo(LanguageCode.ZH, "圣马丁"),
+            new TranslationInfo(LanguageCode.ZH, "荷属圣马丁"),
         ];
     }
 }
