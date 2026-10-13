@@ -3,8 +3,9 @@
 namespace Nager.Country
 {
     /// <summary>
-    /// SubRegion
+    /// SubRegion - UN M49
     /// </summary>
+    /// <remarks>https://en.wikipedia.org/wiki/United_Nations_geoscheme</remarks>
     public enum SubRegion
     {
         /// <summary>

@@ -33,7 +33,7 @@
         public Region Region => Region.Europe;
 
         /// <inheritdoc/>
-        public SubRegion SubRegion => SubRegion.EasternEurope;
+        public SubRegion SubRegion => SubRegion.SouthernEurope;
 
         /// <inheritdoc/>
         public Alpha2Code[] BorderCountries => [];
