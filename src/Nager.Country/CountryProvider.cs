@@ -39,7 +39,7 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.AW, new ArubaCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.AX, new AlandIslandsCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.AZ, new AzerbaijanCountryInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.BA, new BosniaandHerzegovinaCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.BA, new BosniaAndHerzegovinaCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.BB, new BarbadosCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.BD, new BangladeshCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.BE, new BelgiumCountryInfo());
