@@ -10,7 +10,7 @@
         [
             new TranslationInfo(LanguageCode.AR, "سيشل"),
             new TranslationInfo(LanguageCode.AZ, "Seyşel adaları"),
-            new TranslationInfo(LanguageCode.BE, "Сейшэльскія Астравы"),
+            new TranslationInfo(LanguageCode.BE, "Сейшэльскія астравы"),
             new TranslationInfo(LanguageCode.BG, "Сейшели"),
             new TranslationInfo(LanguageCode.BS, "Sejšeli"),
             new TranslationInfo(LanguageCode.CA, "Seychelles"),
