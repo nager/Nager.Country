@@ -75,7 +75,7 @@ namespace Nager.Country.Translation
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.BM, new BermudaCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.BT, new BhutanCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.BO, new BoliviaCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BA, new BosniaandHerzegovinaCountryTranslation());
+            this._alpha2Code2CountryTranslation.Add(Alpha2Code.BA, new BosniaAndHerzegovinaCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.BW, new BotswanaCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.BV, new BouvetIslandCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.BR, new BrazilCountryTranslation());
@@ -153,7 +153,7 @@ namespace Nager.Country.Translation
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.IR, new IranCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.IQ, new IraqCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.IE, new IrelandCountryTranslation());
-            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IM, new IsleofManCountryTranslation());
+            this._alpha2Code2CountryTranslation.Add(Alpha2Code.IM, new IsleOfManCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.IL, new IsraelCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.IT, new ItalyCountryTranslation());
             this._alpha2Code2CountryTranslation.Add(Alpha2Code.CI, new IvoryCoastCountryTranslation());

@@ -3,7 +3,7 @@
     /// <summary>
     /// Bosnia and Herzegovina
     /// </summary>
-    public class BosniaandHerzegovinaCountryTranslation : ICountryTranslation
+    public class BosniaAndHerzegovinaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
         public TranslationInfo[] Translations =>

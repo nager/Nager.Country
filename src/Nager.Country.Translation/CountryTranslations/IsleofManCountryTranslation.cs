@@ -3,7 +3,7 @@
     /// <summary>
     /// Isle of Man
     /// </summary>
-    public class IsleofManCountryTranslation : ICountryTranslation
+    public class IsleOfManCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
         public TranslationInfo[] Translations =>
