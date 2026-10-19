@@ -9,10 +9,10 @@ namespace Nager.Country.Currencies
     public sealed class VefCurrency : ICurrency
     {
         /// <inheritdoc/>
-        public string? Symbol => "Bs.S";
+        public string? Symbol => "Bs.F";
 
         /// <inheritdoc/>
-        public string? Singular => "bolívar soberano";
+        public string? Singular => "bolívar fuerte";
 
         /// <inheritdoc/>
         public string? Plural => null;
