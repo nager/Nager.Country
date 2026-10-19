@@ -35,7 +35,7 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: ${{ runner.temp }}/countries.zip
         asset_name: countries.zip
-        tag: ${{ github.ref }}-${{ github.run_id }}
+        tag: ${{ github.ref_name }}
         overwrite: true
         body: |
           # New Release of Nager.Country
