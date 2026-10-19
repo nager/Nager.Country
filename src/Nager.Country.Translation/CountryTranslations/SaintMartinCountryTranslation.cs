@@ -31,7 +31,7 @@
             new TranslationInfo(LanguageCode.HY, "Սեն Մարտեն"),
             new TranslationInfo(LanguageCode.ID, "Saint-Martin"),
             new TranslationInfo(LanguageCode.IS, "Sankti Martin"),
-            new TranslationInfo(LanguageCode.IT, "San Martino"),
+            new TranslationInfo(LanguageCode.IT, "Saint-Martin"),
             new TranslationInfo(LanguageCode.JA, "サン・マルタン"),
             new TranslationInfo(LanguageCode.KA, "სენ-მარტენი"),
             new TranslationInfo(LanguageCode.KK, "Сен-Мартен"),

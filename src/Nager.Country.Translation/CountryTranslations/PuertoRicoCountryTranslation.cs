@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Puerto Rikas"),
             new TranslationInfo(LanguageCode.LV, "Puertoriko"),
             new TranslationInfo(LanguageCode.MK, "Порторико"),
-            new TranslationInfo(LanguageCode.MN, "Пуэрто Рико"),
+            new TranslationInfo(LanguageCode.MN, "Пуэрто-Рико"),
             new TranslationInfo(LanguageCode.NB, "Puerto Rico"),
             new TranslationInfo(LanguageCode.NO, "Puerto Rico"),
             new TranslationInfo(LanguageCode.NL, "Puerto Rico"),
@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Порторико"),
             new TranslationInfo(LanguageCode.SV, "Puerto Rico"),
             new TranslationInfo(LanguageCode.TR, "Porto Riko"),
-            new TranslationInfo(LanguageCode.UK, "Пуерто-Ріко"),
+            new TranslationInfo(LanguageCode.UK, "Пуерто-Рико"),
             new TranslationInfo(LanguageCode.UZ, "Puerto-Riko"),
             new TranslationInfo(LanguageCode.ZH, "波多黎各"),
         ];

@@ -36,7 +36,7 @@
             new TranslationInfo(LanguageCode.KA, "ახალი ზელანდია"),
             new TranslationInfo(LanguageCode.KK, "Жаңа Зеландия"),
             new TranslationInfo(LanguageCode.KO, "뉴질랜드"),
-            new TranslationInfo(LanguageCode.KY, "Жаӊы Зеландия"),
+            new TranslationInfo(LanguageCode.KY, "Жаңы Зеландия"),
             new TranslationInfo(LanguageCode.LT, "Naujoji Zelandija"),
             new TranslationInfo(LanguageCode.LV, "Jaunzēlande"),
             new TranslationInfo(LanguageCode.MK, "Нов Зеланд"),

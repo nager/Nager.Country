@@ -46,7 +46,7 @@
             new TranslationInfo(LanguageCode.NL, "Peru"),
             new TranslationInfo(LanguageCode.NN, "Peru"),
             new TranslationInfo(LanguageCode.PL, "Peru"),
-            new TranslationInfo(LanguageCode.PT, "Perú"),
+            new TranslationInfo(LanguageCode.PT, "Peru"),
             new TranslationInfo(LanguageCode.RO, "Peru"),
             new TranslationInfo(LanguageCode.RU, "Перу"),
             new TranslationInfo(LanguageCode.SK, "Peru"),

@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Пољска"),
             new TranslationInfo(LanguageCode.SV, "Polen"),
             new TranslationInfo(LanguageCode.TR, "Polonya"),
-            new TranslationInfo(LanguageCode.UK, "Польша"),
+            new TranslationInfo(LanguageCode.UK, "Польща"),
             new TranslationInfo(LanguageCode.UZ, "Polsha"),
             new TranslationInfo(LanguageCode.ZH, "波兰"),
         ];
