@@ -30,6 +30,7 @@
             new TranslationInfo(LanguageCode.HU, "Jersey"),
             new TranslationInfo(LanguageCode.HY, "Ջերսի"),
             new TranslationInfo(LanguageCode.ID, "Jersey"),
+            new TranslationInfo(LanguageCode.IS, "Jersey"),
             new TranslationInfo(LanguageCode.IT, "Jersey"),
             new TranslationInfo(LanguageCode.JA, "ジャージー"),
             new TranslationInfo(LanguageCode.KA, "ჯერსი"),

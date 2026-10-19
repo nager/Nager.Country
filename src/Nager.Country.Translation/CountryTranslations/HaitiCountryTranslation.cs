@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Haiti"),
             new TranslationInfo(LanguageCode.DA, "Haiti"),
             new TranslationInfo(LanguageCode.DE, "Haiti"),
-            new TranslationInfo(LanguageCode.EL, "Αϊτη"),
+            new TranslationInfo(LanguageCode.EL, "Αϊτή"),
             new TranslationInfo(LanguageCode.EN, "Haiti"),
             new TranslationInfo(LanguageCode.ES, "Haití"),
             new TranslationInfo(LanguageCode.ET, "Haiti"),

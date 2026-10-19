@@ -36,7 +36,7 @@
             new TranslationInfo(LanguageCode.KA, "იაპონია"),
             new TranslationInfo(LanguageCode.KK, "Жапония"),
             new TranslationInfo(LanguageCode.KO, "일본"),
-            new TranslationInfo(LanguageCode.KY, "Япония"),
+            new TranslationInfo(LanguageCode.KY, "Жапония"),
             new TranslationInfo(LanguageCode.LT, "Japonija"),
             new TranslationInfo(LanguageCode.LV, "Japāna"),
             new TranslationInfo(LanguageCode.MK, "Јапонија"),

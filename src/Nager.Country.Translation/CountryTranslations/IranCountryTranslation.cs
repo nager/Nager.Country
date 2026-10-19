@@ -19,7 +19,7 @@
             new TranslationInfo(LanguageCode.DE, "Iran"),
             new TranslationInfo(LanguageCode.EL, "Ιράν"),
             new TranslationInfo(LanguageCode.EN, "Iran"),
-            new TranslationInfo(LanguageCode.ES, "Iran"),
+            new TranslationInfo(LanguageCode.ES, "Irán"),
             new TranslationInfo(LanguageCode.ET, "Iraan"),
             new TranslationInfo(LanguageCode.FA, "ایران"),
             new TranslationInfo(LanguageCode.FI, "Iran"),

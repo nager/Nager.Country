@@ -29,7 +29,7 @@
             new TranslationInfo(LanguageCode.HR, "Kirgistan"),
             new TranslationInfo(LanguageCode.HU, "Kirgizisztán"),
             new TranslationInfo(LanguageCode.HY, "Ղրղզստան"),
-            new TranslationInfo(LanguageCode.ID, "Kyrgyzstan"),
+            new TranslationInfo(LanguageCode.ID, "Kirgizstan"),
             new TranslationInfo(LanguageCode.IS, "Kirgistan"),
             new TranslationInfo(LanguageCode.IT, "Kirghizistan"),
             new TranslationInfo(LanguageCode.JA, "キルギス"),
