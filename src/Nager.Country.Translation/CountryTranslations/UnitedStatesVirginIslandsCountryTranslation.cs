@@ -8,11 +8,11 @@
         /// <inheritdoc/>
         public TranslationInfo[] Translations =>
         [
-            new TranslationInfo(LanguageCode.AR, "جزر العذراء الامريكية"),
+            new TranslationInfo(LanguageCode.AR, "جزر العذراء الأمريكية"),
             new TranslationInfo(LanguageCode.AZ, "ABŞ Virgin adaları"),
-            new TranslationInfo(LanguageCode.BE, "Амерiканскiя Вiргiнскiя астравы"),
+            new TranslationInfo(LanguageCode.BE, "Амерыканскія Віргінскія астравы"),
             new TranslationInfo(LanguageCode.BG, "Американски Вирджински острови"),
-            new TranslationInfo(LanguageCode.BS, "Američka Djevičanska Ostrva"),
+            new TranslationInfo(LanguageCode.BS, "Američka Djevičanska ostrva"),
             new TranslationInfo(LanguageCode.CA, "Illes Verges Nord-americanes"),
             new TranslationInfo(LanguageCode.CS, "Americké Panenské ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Amerikanske Jomfruøer"),
@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Jungtinių Valstijų Mergelių Salos"),
             new TranslationInfo(LanguageCode.LV, "ASV Virdžīnas"),
             new TranslationInfo(LanguageCode.MK, "Американски Девствени Острови"),
-            new TranslationInfo(LanguageCode.MN, "АНУ-ын Виржиний Арлууд"),
+            new TranslationInfo(LanguageCode.MN, "АНУ-ын Виржиний арлууд"),
             new TranslationInfo(LanguageCode.NB, "Jomfruøyene (USA)"),
             new TranslationInfo(LanguageCode.NO, "Jomfruøyene (USA)"),
             new TranslationInfo(LanguageCode.NL, "Amerikaanse Maagdeneilanden"),
