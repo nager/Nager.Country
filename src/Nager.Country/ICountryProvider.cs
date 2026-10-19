@@ -80,7 +80,7 @@ namespace Nager.Country
         /// If you also need all translations then you can install the Nuget package <see href="https://www.nuget.org/packages/Nager.Country.Translation">Nager.Country.Translation</see>
         /// </summary>
         /// <remarks>
-        /// GetCountryByNameConsiderTranslation -> <see href="https://github.com/nager/Nager.Country/blob/master/src/Nager.Country.Translation/CountryProviderExtension.cs>">CountryProviderExtension</see>
+        /// GetCountryByNameConsiderTranslation -> <see href="https://github.com/nager/Nager.Country/blob/main/src/Nager.Country.Translation/CountryProviderExtension.cs">CountryProviderExtension</see>
         /// </remarks>
         /// <param name="countryName"></param>
         /// <returns>The <see cref="ICountryInfo"/> corresponding to the specified code.</returns>
