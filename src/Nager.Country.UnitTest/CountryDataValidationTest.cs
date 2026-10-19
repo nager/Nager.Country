@@ -29,7 +29,7 @@ namespace Nager.Country.UnitTest
             }
 
             ICountryProvider countryProvider = new CountryProvider();
-            foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
+            foreach (var countryCode in Enum.GetValues<Alpha2Code>())
             {
                 if (ignoreCountryCodes.Contains(countryCode))
                 {

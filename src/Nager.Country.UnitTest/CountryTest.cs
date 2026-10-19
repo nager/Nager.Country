@@ -124,11 +124,12 @@ namespace Nager.Country.UnitTest
             Assert.AreEqual(Alpha2Code.AT, countryInfo.Alpha2Code);
         }
 
+        [TestMethod]
         public void GetCountries()
         {
             ICountryProvider countryProvider = new CountryProvider();
             var countries = countryProvider.GetCountries();
-            var availableCountryCodes = (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code));
+            var availableCountryCodes = Enum.GetValues<Alpha2Code>();
 
             foreach (var countryCode in availableCountryCodes)
             {
@@ -140,9 +141,25 @@ namespace Nager.Country.UnitTest
         }
 
         [TestMethod]
+        public void CheckSlugIsLowercase()
+        {
+            ICountryProvider countryProvider = new CountryProvider();
+            var countries = countryProvider.GetCountries();
+            var availableCountryCodes = Enum.GetValues<Alpha2Code>();
+
+            foreach (var country in countries)
+            {
+                if (!country.Slug.ToLower().Equals(country.Slug))
+                {
+                    Assert.Fail($"Slug is not lowercase for {country.Alpha2Code}");
+                }
+            }
+        }
+
+        [TestMethod]
         public void Alpha3CodeHasCorrectAsciiValue()
         {
-            foreach (var alpha3Code in (Alpha3Code[])Enum.GetValues(typeof(Alpha3Code)))
+            foreach (var alpha3Code in Enum.GetValues<Alpha3Code>())
             {
                 var name = alpha3Code.ToString();
                 var expectedValue = int.Parse(string.Concat(name.Select(c => ((int)c).ToString())));
