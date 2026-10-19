@@ -14,7 +14,7 @@ namespace Nager.Country.UnitTest
         public void DuplicateTranslationTest()
         {
             ITranslationProvider translationProvider = new TranslationProvider();
-            foreach (var countryCode in (Alpha2Code[])Enum.GetValues(typeof(Alpha2Code)))
+            foreach (var countryCode in Enum.GetValues<Alpha2Code>())
             {
                 var countryTranslation = translationProvider.GetCountryTranslation(countryCode);
                 if (countryTranslation is null)
