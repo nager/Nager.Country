@@ -45,7 +45,7 @@
             new TranslationInfo(LanguageCode.NO, "Sør-Afrika"),
             new TranslationInfo(LanguageCode.NL, "Zuid-Afrika"),
             new TranslationInfo(LanguageCode.NN, "Sør-Afrika"),
-            new TranslationInfo(LanguageCode.PL, "Południowa Afryka"),
+            new TranslationInfo(LanguageCode.PL, "Republika Południowej Afryki"),
             new TranslationInfo(LanguageCode.PT, "África do Sul"),
             new TranslationInfo(LanguageCode.RO, "Africa de Sud"),
             new TranslationInfo(LanguageCode.RU, "Южно-Африканская Республика"),

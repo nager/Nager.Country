@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Šri Lanka"),
             new TranslationInfo(LanguageCode.LV, "Šrilanka"),
             new TranslationInfo(LanguageCode.MK, "Шри Ланка"),
-            new TranslationInfo(LanguageCode.MN, "Шри Ланка"),
+            new TranslationInfo(LanguageCode.MN, "Шри-Ланка"),
             new TranslationInfo(LanguageCode.NB, "Sri Lanka"),
             new TranslationInfo(LanguageCode.NO, "Sri Lanka"),
             new TranslationInfo(LanguageCode.NL, "Sri Lanka"),
