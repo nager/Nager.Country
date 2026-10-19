@@ -1,8 +1,11 @@
+using System;
+
 namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Std Currency
     /// </summary>
+    [Obsolete("Replaced by the new São Tomé and Príncipe dobra (STN) on 1 January 2018. Use CurrencyProvider.Stn instead.")]
     public sealed class StdCurrency : ICurrency
     {
         /// <inheritdoc/>

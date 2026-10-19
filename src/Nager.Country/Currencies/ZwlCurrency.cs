@@ -1,8 +1,11 @@
+using System;
+
 namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Zwl Currency
     /// </summary>
+    [Obsolete("Replaced by Zimbabwe Gold (ZWG) on 5 April 2024. Use CurrencyProvider.Zwg instead.")]
     public sealed class ZwlCurrency : ICurrency
     {
         /// <inheritdoc/>

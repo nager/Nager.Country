@@ -5,7 +5,7 @@ namespace Nager.Country.Currencies
     /// <summary>
     /// Bgn Currency
     /// </summary>
-    [Obsolete("Replaced with ECurrency. Use EurCurrency instead.")]
+    [Obsolete("Bulgaria adopted the euro on 1 January 2026. Use CurrencyProvider.Eur instead.")]
     public sealed class BgnCurrency : ICurrency
     {
         /// <inheritdoc/>

@@ -1,8 +1,11 @@
+using System;
+
 namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Sll Currency
     /// </summary>
+    [Obsolete("Replaced by the new Sierra Leonean leone (SLE) on 1 July 2022. Use CurrencyProvider.Sle instead.")]
     public sealed class SllCurrency : ICurrency
     {
         /// <inheritdoc/>

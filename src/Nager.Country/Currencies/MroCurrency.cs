@@ -1,8 +1,11 @@
+using System;
+
 namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Mro Currency
     /// </summary>
+    [Obsolete("Replaced by the Mauritanian ouguiya (MRU) on 1 January 2018. Use CurrencyProvider.Mru instead.")]
     public sealed class MroCurrency : ICurrency
     {
         /// <inheritdoc/>

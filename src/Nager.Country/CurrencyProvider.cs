@@ -1,4 +1,5 @@
 ﻿using Nager.Country.Currencies;
+using System;
 
 namespace Nager.Country
 {
@@ -59,6 +60,7 @@ namespace Nager.Country
         /// <summary>
         /// BGN currency
         /// </summary>
+        [Obsolete("Bulgaria adopted the euro on 1 January 2026. Use CurrencyProvider.Eur instead.")]
         public static readonly ICurrency Bgn = new BgnCurrency();
         /// <summary>
         /// BHD currency
@@ -139,6 +141,7 @@ namespace Nager.Country
         /// <summary>
         /// CUC currency
         /// </summary>
+        [Obsolete("Withdrawn on 1 January 2021 as part of the Cuban currency unification. Use CurrencyProvider.Cup instead.")]
         public static readonly ICurrency Cuc = new CucCurrency();
         /// <summary>
         /// CUP currency
@@ -235,6 +238,7 @@ namespace Nager.Country
         /// <summary>
         /// HRK currency
         /// </summary>
+        [Obsolete("Croatia adopted the euro on 1 January 2023. Use CurrencyProvider.Eur instead.")]
         public static readonly ICurrency Hrk = new HrkCurrency();
         /// <summary>
         /// HTG currency
@@ -371,6 +375,7 @@ namespace Nager.Country
         /// <summary>
         /// MRO currency
         /// </summary>
+        [Obsolete("Replaced by the Mauritanian ouguiya (MRU) on 1 January 2018. Use CurrencyProvider.Mru instead.")]
         public static readonly ICurrency Mro = new MroCurrency();
         /// <summary>
         /// MRU currency
@@ -507,6 +512,7 @@ namespace Nager.Country
         /// <summary>
         /// SLL currency
         /// </summary>
+        [Obsolete("Replaced by the new Sierra Leonean leone (SLE) on 1 July 2022. Use CurrencyProvider.Sle instead.")]
         public static readonly ICurrency Sll = new SllCurrency();
         /// <summary>
         /// SLE currency
@@ -527,6 +533,7 @@ namespace Nager.Country
         /// <summary>
         /// STD currency
         /// </summary>
+        [Obsolete("Replaced by the new São Tomé and Príncipe dobra (STN) on 1 January 2018. Use CurrencyProvider.Stn instead.")]
         public static readonly ICurrency Std = new StdCurrency();
         /// <summary>
         /// STN currency
@@ -603,6 +610,7 @@ namespace Nager.Country
         /// <summary>
         /// VEF currency
         /// </summary>
+        [Obsolete("Replaced by the Venezuelan bolívar soberano (VES) on 20 August 2018. Use CurrencyProvider.Ves instead.")]
         public static readonly ICurrency Vef = new VefCurrency();
         /// <summary>
         /// VES currency
@@ -663,6 +671,7 @@ namespace Nager.Country
         /// <summary>
         /// ZWL currency
         /// </summary>
+        [Obsolete("Replaced by Zimbabwe Gold (ZWG) on 5 April 2024. Use CurrencyProvider.Zwg instead.")]
         public static readonly ICurrency Zwl = new ZwlCurrency();
     }
 }

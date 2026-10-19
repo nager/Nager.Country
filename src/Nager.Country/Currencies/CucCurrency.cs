@@ -1,8 +1,11 @@
-﻿namespace Nager.Country.Currencies
+﻿using System;
+
+namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Cuc Currency
     /// </summary>
+    [Obsolete("Withdrawn on 1 January 2021 as part of the Cuban currency unification. Use CurrencyProvider.Cup instead.")]
     public sealed class CucCurrency : ICurrency
     {
         /// <inheritdoc/>

@@ -1,8 +1,11 @@
+using System;
+
 namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Vef Currency
     /// </summary>
+    [Obsolete("Replaced by the Venezuelan bolívar soberano (VES) on 20 August 2018. Use CurrencyProvider.Ves instead.")]
     public sealed class VefCurrency : ICurrency
     {
         /// <inheritdoc/>

@@ -1,8 +1,11 @@
+using System;
+
 namespace Nager.Country.Currencies
 {
     /// <summary>
     /// Hrk Currency
     /// </summary>
+    [Obsolete("Croatia adopted the euro on 1 January 2023. Use CurrencyProvider.Eur instead.")]
     public sealed class HrkCurrency : ICurrency
     {
         /// <inheritdoc/>
