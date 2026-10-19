@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Kuwait"),
             new TranslationInfo(LanguageCode.ES, "Kuwait"),
             new TranslationInfo(LanguageCode.ET, "Kuveit"),
-            new TranslationInfo(LanguageCode.FA, "کُویت"),
+            new TranslationInfo(LanguageCode.FA, "کویت"),
             new TranslationInfo(LanguageCode.FI, "Kuwait"),
             new TranslationInfo(LanguageCode.FR, "Koweït"),
             new TranslationInfo(LanguageCode.HE, "כווית"),
