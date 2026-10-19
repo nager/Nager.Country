@@ -145,7 +145,6 @@ namespace Nager.Country.UnitTest
         {
             ICountryProvider countryProvider = new CountryProvider();
             var countries = countryProvider.GetCountries();
-            var availableCountryCodes = Enum.GetValues<Alpha2Code>();
 
             foreach (var country in countries)
             {
