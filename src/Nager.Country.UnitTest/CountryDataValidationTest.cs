@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Nager.Country.UnitTest
@@ -21,7 +21,10 @@ namespace Nager.Country.UnitTest
 
             using var httpClient = new HttpClient();
             var json = await httpClient.GetStringAsync("https://raw.githubusercontent.com/mledoze/countries/master/dist/countries.json");
-            var items = JsonConvert.DeserializeObject<MledozeCountry[]>(json);
+            var items = JsonSerializer.Deserialize<MledozeCountry[]>(json, new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            });
 
             if (items is null)
             {
@@ -56,7 +59,7 @@ namespace Nager.Country.UnitTest
                 //    .BeEquivalentTo(compareCountry.Currencies.ChildrenToke.Name.ToArray(),
                 //    because: $"{countryCode} {string.Join(",", compareCountry.Currencies.Keys)}  {string.Join(",", countryInfo.Currencies)}");                   
 
-                Assert.AreEqual(compareCountry.Ccn3, countryInfo.NumericCode, $"wrong numeric code by {countryCode} {countryInfo.CommonName}");
+                Assert.AreEqual(compareCountry.Ccn3, countryInfo.NumericCode.ToString("000"), $"wrong numeric code by {countryCode} {countryInfo.CommonName}");
                 Assert.AreEqual(compareCountry.Region, countryInfo.Region.ToString(), $"wrong region by {countryCode} {countryInfo.CommonName}");
                 //Assert.AreEqual(this.AdaptMledozeSubRegion(compareCountry.Subregion), this.GetSubRegion(countryInfo.SubRegion), $"wrong subregion by {countryCode} {countryInfo.CommonName}");
                 Assert.AreEqual(compareCountry.Cca3, countryInfo.Alpha3Code.ToString(), $"wrong alpha 3 code by {countryCode} {countryInfo.CommonName}");
@@ -81,15 +84,15 @@ namespace Nager.Country.UnitTest
 
         public class MledozeCountry
         {
-            public required Name Name { get; set; }
-            public required string[] Tld { get; set; }
-            public required string Cca2 { get; set; }
-            public int? Ccn3 { get; set; }
-            public required string Cca3 { get; set; }
-            public required string Cioc { get; set; }
+            public Name Name { get; set; }
+            public string[] Tld { get; set; }
+            public string Cca2 { get; set; }
+            public string? Ccn3 { get; set; }
+            public string Cca3 { get; set; }
+            public string Cioc { get; set; }
             public bool? Independent { get; set; }
-            public required string Status { get; set; }
-            public required dynamic Currencies { get; set; }
+            public string Status { get; set; }
+            public dynamic Currencies { get; set; }
             public string[] CallingCode { get; set; } = [];
             public string[] Capital { get; set; } = [];
             public string[] AltSpellings { get; set; } = [];
@@ -97,7 +100,7 @@ namespace Nager.Country.UnitTest
             public required string Subregion { get; set; }
             //public Languages languages { get; set; }
             //public Dictionary<string, NameNative> translations { get; set; }
-            public required List<double> LatLng { get; set; }
+            public List<double> LatLng { get; set; }
             public string? Demonym { get; set; }
             public bool Landlocked { get; set; }
             public string[] Borders { get; set; } = [];

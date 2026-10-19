@@ -181,8 +181,6 @@ namespace Nager.Country.UnitTest
 
                 foreach (var translation in countryTranslation.Translations)
                 {
-                    var x = searchValues.Select(searchValue => translation.Name.Contains(searchValue)).ToList();
-
                     if (searchValues.Where(searchValue => translation.Name.Contains(searchValue)).Any())
                     {
                         Assert.Fail($"Check hyphen in country:{countryCode}, {translation.Name}");
