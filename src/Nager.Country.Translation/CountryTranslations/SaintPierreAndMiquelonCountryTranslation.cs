@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Saint Pierre and Miquelon"),
             new TranslationInfo(LanguageCode.ES, "San Pedro y Miquelón"),
             new TranslationInfo(LanguageCode.ET, "Saint-Pierre ja Miquelon"),
-            new TranslationInfo(LanguageCode.FA, "سن-پیِر و میکلُن"),
+            new TranslationInfo(LanguageCode.FA, "سن پیر و میکلن"),
             new TranslationInfo(LanguageCode.FI, "Saint-Pierre ja Miquelon"),
             new TranslationInfo(LanguageCode.FR, "Saint-Pierre-et-Miquelon"),
             new TranslationInfo(LanguageCode.HE, "סנט פייר ומיקלון"),

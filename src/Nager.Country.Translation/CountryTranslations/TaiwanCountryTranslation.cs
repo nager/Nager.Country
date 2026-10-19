@@ -56,7 +56,7 @@
             new TranslationInfo(LanguageCode.TR, "Tayvan"),
             new TranslationInfo(LanguageCode.UK, "Тайвань"),
             new TranslationInfo(LanguageCode.UZ, "Tayvan"),
-            new TranslationInfo(LanguageCode.ZH, "台灣"),
+            new TranslationInfo(LanguageCode.ZH, "台湾"),
         ];
     }
 }

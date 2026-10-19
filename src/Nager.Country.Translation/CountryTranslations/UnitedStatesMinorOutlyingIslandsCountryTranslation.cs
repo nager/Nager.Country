@@ -30,6 +30,7 @@
             new TranslationInfo(LanguageCode.HU, "Az Amerikai Egyesült Államok lakatlan külbirtokai"),
             new TranslationInfo(LanguageCode.HY, "Արտաքին կղզիներ (ԱՄՆ)"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Terluar Kecil Amerika Serikat"),
+            new TranslationInfo(LanguageCode.IS, "Smáeyjar Bandaríkjanna"),
             new TranslationInfo(LanguageCode.IT, "Isole minori esterne degli Stati Uniti d'America"),
             new TranslationInfo(LanguageCode.JA, "合衆国領有小離島"),
             new TranslationInfo(LanguageCode.KA, "აშშ-ის შორეული კუნძულები"),

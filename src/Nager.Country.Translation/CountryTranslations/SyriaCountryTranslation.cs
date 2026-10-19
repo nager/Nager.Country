@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Сирија"),
             new TranslationInfo(LanguageCode.SV, "Syrien"),
             new TranslationInfo(LanguageCode.TR, "Suriye"),
-            new TranslationInfo(LanguageCode.UK, "Сірія"),
+            new TranslationInfo(LanguageCode.UK, "Сирія"),
             new TranslationInfo(LanguageCode.UZ, "Suriya"),
             new TranslationInfo(LanguageCode.ZH, "叙利亚"),
         ];

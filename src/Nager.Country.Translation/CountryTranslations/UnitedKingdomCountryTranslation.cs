@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "United Kingdom"),
             new TranslationInfo(LanguageCode.ES, "Reino Unido"),
             new TranslationInfo(LanguageCode.ET, "Suurbritannia"),
-            new TranslationInfo(LanguageCode.FA, "بریتانیای کبیر"),
+            new TranslationInfo(LanguageCode.FA, "بریتانیا"),
             new TranslationInfo(LanguageCode.FI, "Yhdistynyt kuningaskunta"),
             new TranslationInfo(LanguageCode.FR, "Royaume-Uni"),
             new TranslationInfo(LanguageCode.HE, "הממלכה המאוחדת"),
