@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Lesotho"),
             new TranslationInfo(LanguageCode.DA, "Lesotho"),
             new TranslationInfo(LanguageCode.DE, "Lesotho"),
-            new TranslationInfo(LanguageCode.EL, "Βασίλειο του Λεσότο"),
+            new TranslationInfo(LanguageCode.EL, "Λεσότο"),
             new TranslationInfo(LanguageCode.EN, "Lesotho"),
             new TranslationInfo(LanguageCode.ES, "Lesotho"),
             new TranslationInfo(LanguageCode.ET, "Lesotho"),

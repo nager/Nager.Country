@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Majotas"),
             new TranslationInfo(LanguageCode.LV, "Majota"),
             new TranslationInfo(LanguageCode.MK, "Мајот"),
-            new TranslationInfo(LanguageCode.MN, "Майотте"),
+            new TranslationInfo(LanguageCode.MN, "Майотта"),
             new TranslationInfo(LanguageCode.NB, "Mayotte"),
             new TranslationInfo(LanguageCode.NO, "Mayotte"),
             new TranslationInfo(LanguageCode.NL, "Mayotte"),

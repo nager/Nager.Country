@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Liberia"),
             new TranslationInfo(LanguageCode.ES, "Liberia"),
             new TranslationInfo(LanguageCode.ET, "Libeeria"),
-            new TranslationInfo(LanguageCode.FA, "لیبـِریا"),
+            new TranslationInfo(LanguageCode.FA, "لیبریا"),
             new TranslationInfo(LanguageCode.FI, "Liberia"),
             new TranslationInfo(LanguageCode.FR, "Liberia"),
             new TranslationInfo(LanguageCode.HE, "ליבריה"),

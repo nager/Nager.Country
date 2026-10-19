@@ -30,7 +30,7 @@
             new TranslationInfo(LanguageCode.HU, "Mikronézia"),
             new TranslationInfo(LanguageCode.HY, "Միկրոնեզիա"),
             new TranslationInfo(LanguageCode.ID, "Mikronesia"),
-            new TranslationInfo(LanguageCode.IS, "Mikrónesía"),
+            new TranslationInfo(LanguageCode.IS, "Míkrónesía"),
             new TranslationInfo(LanguageCode.IT, "Micronesia"),
             new TranslationInfo(LanguageCode.JA, "ミクロネシア"),
             new TranslationInfo(LanguageCode.KA, "მიკრონეზია"),
