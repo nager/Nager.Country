@@ -27,7 +27,7 @@
         public int NumericCode => 156;
 
         /// <inheritdoc/>
-        public string[] TLD => [".cn", ".中国", ".中國", ".公司", ".网络"];
+        public string[] TLD => [".cn", ".中国", ".中國"];
 
         /// <inheritdoc/>
         public Region Region => Region.Asia;

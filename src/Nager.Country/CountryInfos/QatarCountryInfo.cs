@@ -30,7 +30,7 @@
         public string[] TLD =>
         [
             ".qa",
-            "قطر.",
+            ".قطر",
         ];
 
         /// <inheritdoc/>
