@@ -126,7 +126,7 @@ namespace Nager.Country
             this._alpha2Code2CountryInfo.Add(Alpha2Code.ID, new IndonesiaCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.IE, new IrelandCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.IL, new IsraelCountryInfo());
-            this._alpha2Code2CountryInfo.Add(Alpha2Code.IM, new IsleofManCountryInfo());
+            this._alpha2Code2CountryInfo.Add(Alpha2Code.IM, new IsleOfManCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.IN, new IndiaCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.IO, new BritishIndianOceanTerritoryCountryInfo());
             this._alpha2Code2CountryInfo.Add(Alpha2Code.IQ, new IraqCountryInfo());

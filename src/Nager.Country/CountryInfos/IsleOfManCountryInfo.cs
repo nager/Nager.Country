@@ -3,7 +3,7 @@
     /// <summary>
     /// Isle of Man
     /// </summary>
-    public sealed class IsleofManCountryInfo : ICountryInfo
+    public sealed class IsleOfManCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Isle of Man";

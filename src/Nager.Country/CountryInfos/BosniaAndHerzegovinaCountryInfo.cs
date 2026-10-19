@@ -3,7 +3,7 @@
     /// <summary>
     /// Bosnia and Herzegovina
     /// </summary>
-    public sealed class BosniaandHerzegovinaCountryInfo : ICountryInfo
+    public sealed class BosniaAndHerzegovinaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
         public string CommonName => "Bosnia and Herzegovina";
