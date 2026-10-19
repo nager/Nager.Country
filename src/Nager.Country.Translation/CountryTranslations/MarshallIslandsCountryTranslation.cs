@@ -10,9 +10,9 @@
         [
             new TranslationInfo(LanguageCode.AR, "جزر مارشال"),
             new TranslationInfo(LanguageCode.AZ, "Marşal adaları"),
-            new TranslationInfo(LanguageCode.BE, "Маршалавы Астравы"),
+            new TranslationInfo(LanguageCode.BE, "Маршалавы астравы"),
             new TranslationInfo(LanguageCode.BG, "Маршалови острови"),
-            new TranslationInfo(LanguageCode.BS, "Maršalova Ostrva"),
+            new TranslationInfo(LanguageCode.BS, "Maršalova ostrva"),
             new TranslationInfo(LanguageCode.CA, "Illes Marshall"),
             new TranslationInfo(LanguageCode.CS, "Marshallovy ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Marshalløerne"),

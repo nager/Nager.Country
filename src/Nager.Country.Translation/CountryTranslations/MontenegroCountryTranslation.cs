@@ -8,7 +8,7 @@
         /// <inheritdoc/>
         public TranslationInfo[] Translations =>
         [
-            new TranslationInfo(LanguageCode.AR, "الجبل الاسود"),
+            new TranslationInfo(LanguageCode.AR, "الجبل الأسود"),
             new TranslationInfo(LanguageCode.AZ, "Monteneqro"),
             new TranslationInfo(LanguageCode.BE, "Чарнагорыя"),
             new TranslationInfo(LanguageCode.BG, "Черна гора"),

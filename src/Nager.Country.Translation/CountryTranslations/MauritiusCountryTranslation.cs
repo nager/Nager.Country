@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Mauricijus"),
             new TranslationInfo(LanguageCode.LV, "Maurīcija"),
             new TranslationInfo(LanguageCode.MK, "Маврициус"),
-            new TranslationInfo(LanguageCode.MN, "Мавритус"),
+            new TranslationInfo(LanguageCode.MN, "Маврикий"),
             new TranslationInfo(LanguageCode.NB, "Mauritius"),
             new TranslationInfo(LanguageCode.NO, "Mauritius"),
             new TranslationInfo(LanguageCode.NL, "Mauritius"),
