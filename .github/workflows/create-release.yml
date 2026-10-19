@@ -2,9 +2,8 @@ name: Create GitHub Release
 
 on:
   push:
-    paths:
-    - 'src/**'
-    branches: [ main ]
+    tags:
+      - 'v*.*.*'
 
 jobs:
   build:
