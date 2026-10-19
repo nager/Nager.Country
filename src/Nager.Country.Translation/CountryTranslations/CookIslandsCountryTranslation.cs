@@ -12,7 +12,7 @@
             new TranslationInfo(LanguageCode.AZ, "Kuk adaları"),
             new TranslationInfo(LanguageCode.BE, "Астравы Кука"),
             new TranslationInfo(LanguageCode.BG, "Острови Кук"),
-            new TranslationInfo(LanguageCode.BS, "Kukova Ostrva"),
+            new TranslationInfo(LanguageCode.BS, "Kukova ostrva"),
             new TranslationInfo(LanguageCode.CA, "Illes Cook"),
             new TranslationInfo(LanguageCode.CS, "Cookovy ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Cookøerne"),

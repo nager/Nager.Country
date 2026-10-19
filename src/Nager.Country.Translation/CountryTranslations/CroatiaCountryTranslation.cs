@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Croatia"),
             new TranslationInfo(LanguageCode.ES, "Croacia"),
             new TranslationInfo(LanguageCode.ET, "Horvaatia"),
-            new TranslationInfo(LanguageCode.FA, "کرُواسی"),
+            new TranslationInfo(LanguageCode.FA, "کرواسی"),
             new TranslationInfo(LanguageCode.FI, "Kroatia"),
             new TranslationInfo(LanguageCode.FR, "Croatie"),
             new TranslationInfo(LanguageCode.HE, "קרואטיה"),

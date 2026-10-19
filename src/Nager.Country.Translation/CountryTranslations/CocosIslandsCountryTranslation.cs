@@ -12,7 +12,7 @@
             new TranslationInfo(LanguageCode.AZ, "Kokos adaları"),
             new TranslationInfo(LanguageCode.BE, "Какосавыя астравы"),
             new TranslationInfo(LanguageCode.BG, "Кокосови острови"),
-            new TranslationInfo(LanguageCode.BS, "Kokosova Ostrva"),
+            new TranslationInfo(LanguageCode.BS, "Kokosova ostrva"),
             new TranslationInfo(LanguageCode.CA, "Illes Cocos"),
             new TranslationInfo(LanguageCode.CS, "Kokosové ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Cocosøerne"),

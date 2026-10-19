@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Kiurasao"),
             new TranslationInfo(LanguageCode.LV, "Kirasao"),
             new TranslationInfo(LanguageCode.MK, "Курасао"),
-            new TranslationInfo(LanguageCode.MN, "Куракао"),
+            new TranslationInfo(LanguageCode.MN, "Кюрасао"),
             new TranslationInfo(LanguageCode.NB, "Curaçao"),
             new TranslationInfo(LanguageCode.NO, "Curaçao"),
             new TranslationInfo(LanguageCode.NL, "Curaçao"),
