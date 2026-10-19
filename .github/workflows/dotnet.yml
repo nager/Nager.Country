@@ -40,6 +40,7 @@ jobs:
         dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country/Nager.Country.csproj
         dotnet pack --configuration Release --output $GITHUB_WORKSPACE/out src/Nager.Country.Translation/Nager.Country.Translation.csproj
     - name: NuGet login
+      if: github.event_name != 'pull_request'
       uses: NuGet/login@v1
       id: login
       with:
