@@ -43,7 +43,7 @@
             new TranslationInfo(LanguageCode.MN, "Америкийн Самоа"),
             new TranslationInfo(LanguageCode.NB, "Amerikansk Samoa"),
             new TranslationInfo(LanguageCode.NO, "Amerikansk Samoa"),
-            new TranslationInfo(LanguageCode.NL, "Amerikaans Samoa"),
+            new TranslationInfo(LanguageCode.NL, "Amerikaans-Samoa"),
             new TranslationInfo(LanguageCode.NN, "Amerikansk Samoa"),
             new TranslationInfo(LanguageCode.PL, "Samoa Amerykańskie"),
             new TranslationInfo(LanguageCode.PT, "Samoa Americana"),
