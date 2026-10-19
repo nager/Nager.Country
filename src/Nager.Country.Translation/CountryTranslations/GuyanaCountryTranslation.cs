@@ -22,7 +22,7 @@
             new TranslationInfo(LanguageCode.ES, "Guyana"),
             new TranslationInfo(LanguageCode.ET, "Guyana"),
             new TranslationInfo(LanguageCode.FA, "گویان"),
-            new TranslationInfo(LanguageCode.FI, "Guayana"),
+            new TranslationInfo(LanguageCode.FI, "Guyana"),
             new TranslationInfo(LanguageCode.FR, "Guyana"),
             new TranslationInfo(LanguageCode.HE, "גיאנה"),
             new TranslationInfo(LanguageCode.HI, "गुयाना"),

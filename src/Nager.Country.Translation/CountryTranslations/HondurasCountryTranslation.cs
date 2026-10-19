@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Honduras"),
             new TranslationInfo(LanguageCode.ES, "Honduras"),
             new TranslationInfo(LanguageCode.ET, "Honduras"),
-            new TranslationInfo(LanguageCode.FA, "هُندوراس"),
+            new TranslationInfo(LanguageCode.FA, "هندوراس"),
             new TranslationInfo(LanguageCode.FI, "Honduras"),
             new TranslationInfo(LanguageCode.FR, "Honduras"),
             new TranslationInfo(LanguageCode.HE, "הונדורס"),

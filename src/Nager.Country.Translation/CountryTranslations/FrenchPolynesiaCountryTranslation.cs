@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "French Polynesia"),
             new TranslationInfo(LanguageCode.ES, "Polinesia Francesa"),
             new TranslationInfo(LanguageCode.ET, "Prantsuse Polüneesia"),
-            new TranslationInfo(LanguageCode.FA, "پُلی‌نِزی فرانسه"),
+            new TranslationInfo(LanguageCode.FA, "پلی‌نزی فرانسه"),
             new TranslationInfo(LanguageCode.FI, "Ranskan Polynesia"),
             new TranslationInfo(LanguageCode.FR, "Polynésie française"),
             new TranslationInfo(LanguageCode.HE, "פולינזיה הצרפתית"),

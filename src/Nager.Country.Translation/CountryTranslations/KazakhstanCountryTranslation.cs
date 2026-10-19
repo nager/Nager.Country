@@ -15,7 +15,7 @@
             new TranslationInfo(LanguageCode.BS, "Kazahstan"),
             new TranslationInfo(LanguageCode.CA, "Kazakhstan"),
             new TranslationInfo(LanguageCode.CS, "Kazachstán"),
-            new TranslationInfo(LanguageCode.DA, "Kazakhstan"),
+            new TranslationInfo(LanguageCode.DA, "Kasakhstan"),
             new TranslationInfo(LanguageCode.DE, "Kasachstan"),
             new TranslationInfo(LanguageCode.EL, "Καζακστάν"),
             new TranslationInfo(LanguageCode.EN, "Kazakhstan"),

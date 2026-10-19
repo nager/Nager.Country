@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Гренланд"),
             new TranslationInfo(LanguageCode.SV, "Grönland"),
             new TranslationInfo(LanguageCode.TR, "Grönland"),
-            new TranslationInfo(LanguageCode.UK, "Ґренландія"),
+            new TranslationInfo(LanguageCode.UK, "Гренландія"),
             new TranslationInfo(LanguageCode.UZ, "Grenlandiya"),
             new TranslationInfo(LanguageCode.ZH, "格陵兰"),
         ];

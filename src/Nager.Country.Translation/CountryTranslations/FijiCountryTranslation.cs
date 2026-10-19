@@ -26,7 +26,7 @@
             new TranslationInfo(LanguageCode.FR, "Fidji"),
             new TranslationInfo(LanguageCode.HE, "פיג׳י"),
             new TranslationInfo(LanguageCode.HI, "फ़िजी"),
-            new TranslationInfo(LanguageCode.HR, "Fiđi"),
+            new TranslationInfo(LanguageCode.HR, "Fidži"),
             new TranslationInfo(LanguageCode.HU, "Fidzsi-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Ֆիջի"),
             new TranslationInfo(LanguageCode.ID, "Fiji"),

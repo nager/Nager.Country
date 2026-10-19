@@ -15,7 +15,7 @@
             new TranslationInfo(LanguageCode.BS, "Francuska Gvajana"),
             new TranslationInfo(LanguageCode.CA, "Guaiana Francesa"),
             new TranslationInfo(LanguageCode.CS, "Francouzská Guyana"),
-            new TranslationInfo(LanguageCode.DA, "Fransk Guiana"),
+            new TranslationInfo(LanguageCode.DA, "Fransk Guyana"),
             new TranslationInfo(LanguageCode.DE, "Französisch-Guayana"),
             new TranslationInfo(LanguageCode.EL, "Γαλλική Γουιάνα"),
             new TranslationInfo(LanguageCode.EN, "French Guiana"),

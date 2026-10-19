@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Estonia"),
             new TranslationInfo(LanguageCode.ES, "Estonia"),
             new TranslationInfo(LanguageCode.ET, "Eesti"),
-            new TranslationInfo(LanguageCode.FA, "اِستونی"),
+            new TranslationInfo(LanguageCode.FA, "استونی"),
             new TranslationInfo(LanguageCode.FI, "Viro"),
             new TranslationInfo(LanguageCode.FR, "Estonie"),
             new TranslationInfo(LanguageCode.HE, "אסטוניה"),
