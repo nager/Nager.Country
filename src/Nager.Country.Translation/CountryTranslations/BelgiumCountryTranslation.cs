@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Belgija"),
             new TranslationInfo(LanguageCode.LV, "Beļģija"),
             new TranslationInfo(LanguageCode.MK, "Белгија"),
-            new TranslationInfo(LanguageCode.MN, "Белги"),
+            new TranslationInfo(LanguageCode.MN, "Бельги"),
             new TranslationInfo(LanguageCode.NB, "Belgia"),
             new TranslationInfo(LanguageCode.NO, "Belgia"),
             new TranslationInfo(LanguageCode.NL, "België"),

@@ -17,7 +17,7 @@
             new TranslationInfo(LanguageCode.CS, "Angola"),
             new TranslationInfo(LanguageCode.DA, "Angola"),
             new TranslationInfo(LanguageCode.DE, "Angola"),
-            new TranslationInfo(LanguageCode.EL, "Ανγκόλα"),
+            new TranslationInfo(LanguageCode.EL, "Αγκόλα"),
             new TranslationInfo(LanguageCode.EN, "Angola"),
             new TranslationInfo(LanguageCode.ES, "Angola"),
             new TranslationInfo(LanguageCode.ET, "Angola"),

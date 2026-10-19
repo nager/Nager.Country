@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Kosta Rika"),
             new TranslationInfo(LanguageCode.LV, "Kostarika"),
             new TranslationInfo(LanguageCode.MK, "Костарика"),
-            new TranslationInfo(LanguageCode.MN, "Коста Рика"),
+            new TranslationInfo(LanguageCode.MN, "Коста-Рика"),
             new TranslationInfo(LanguageCode.NB, "Costa Rica"),
             new TranslationInfo(LanguageCode.NO, "Costa Rica"),
             new TranslationInfo(LanguageCode.NL, "Costa Rica"),

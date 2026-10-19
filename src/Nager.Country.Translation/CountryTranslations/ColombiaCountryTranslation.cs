@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Kolumbija"),
             new TranslationInfo(LanguageCode.LV, "Kolumbija"),
             new TranslationInfo(LanguageCode.MK, "Колумбија"),
-            new TranslationInfo(LanguageCode.MN, "Колумб"),
+            new TranslationInfo(LanguageCode.MN, "Колумби"),
             new TranslationInfo(LanguageCode.NB, "Colombia"),
             new TranslationInfo(LanguageCode.NO, "Colombia"),
             new TranslationInfo(LanguageCode.NL, "Colombia"),

@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Cameroon"),
             new TranslationInfo(LanguageCode.ES, "Camerún"),
             new TranslationInfo(LanguageCode.ET, "Kamerun"),
-            new TranslationInfo(LanguageCode.FA, "کامِرون"),
+            new TranslationInfo(LanguageCode.FA, "کامرون"),
             new TranslationInfo(LanguageCode.FI, "Kamerun"),
             new TranslationInfo(LanguageCode.FR, "Cameroun"),
             new TranslationInfo(LanguageCode.HE, "קמרון"),

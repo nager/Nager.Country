@@ -46,7 +46,7 @@
             new TranslationInfo(LanguageCode.NL, "Wit-Rusland"),
             new TranslationInfo(LanguageCode.NN, "Kviterussland"),
             new TranslationInfo(LanguageCode.PL, "Białoruś"),
-            new TranslationInfo(LanguageCode.PT, "Bielorússia"),
+            new TranslationInfo(LanguageCode.PT, "Bielorrússia"),
             new TranslationInfo(LanguageCode.RO, "Belarus"),
             new TranslationInfo(LanguageCode.RU, "Беларусь"),
             new TranslationInfo(LanguageCode.SK, "Bielorusko"),

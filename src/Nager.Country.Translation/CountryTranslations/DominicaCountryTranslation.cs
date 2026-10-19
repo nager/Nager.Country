@@ -32,7 +32,7 @@
             new TranslationInfo(LanguageCode.ID, "Dominika"),
             new TranslationInfo(LanguageCode.IS, "Dóminíka"),
             new TranslationInfo(LanguageCode.IT, "Dominica"),
-            new TranslationInfo(LanguageCode.JA, "ドミニカ"),
+            new TranslationInfo(LanguageCode.JA, "ドミニカ国"),
             new TranslationInfo(LanguageCode.KA, "დომინიკა"),
             new TranslationInfo(LanguageCode.KK, "Доминика"),
             new TranslationInfo(LanguageCode.KO, "도미니카"),

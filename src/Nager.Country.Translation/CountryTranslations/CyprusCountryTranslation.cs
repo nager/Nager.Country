@@ -21,7 +21,7 @@
             new TranslationInfo(LanguageCode.EN, "Cyprus"),
             new TranslationInfo(LanguageCode.ES, "Chipre"),
             new TranslationInfo(LanguageCode.ET, "Küpros"),
-            new TranslationInfo(LanguageCode.FA, "قِبرِس"),
+            new TranslationInfo(LanguageCode.FA, "قبرس"),
             new TranslationInfo(LanguageCode.FI, "Kypros"),
             new TranslationInfo(LanguageCode.FR, "Chypre"),
             new TranslationInfo(LanguageCode.HE, "קפריסין"),

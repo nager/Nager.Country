@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Јерменија"),
             new TranslationInfo(LanguageCode.SV, "Armenien"),
             new TranslationInfo(LanguageCode.TR, "Ermenistan"),
-            new TranslationInfo(LanguageCode.UK, "Арменія"),
+            new TranslationInfo(LanguageCode.UK, "Вірменія"),
             new TranslationInfo(LanguageCode.UZ, "Armaniston"),
             new TranslationInfo(LanguageCode.ZH, "亚美尼亚"),
         ];

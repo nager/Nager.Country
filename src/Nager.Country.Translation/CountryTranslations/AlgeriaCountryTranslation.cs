@@ -29,7 +29,7 @@
             new TranslationInfo(LanguageCode.HR, "Alžir"),
             new TranslationInfo(LanguageCode.HU, "Algéria"),
             new TranslationInfo(LanguageCode.HY, "Ալժիր"),
-            new TranslationInfo(LanguageCode.ID, "Algeria"),
+            new TranslationInfo(LanguageCode.ID, "Aljazair"),
             new TranslationInfo(LanguageCode.IS, "Alsír"),
             new TranslationInfo(LanguageCode.IT, "Algeria"),
             new TranslationInfo(LanguageCode.JA, "アルジェリア"),
