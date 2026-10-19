@@ -24,7 +24,7 @@
             new TranslationInfo(LanguageCode.FA, "تونس"),
             new TranslationInfo(LanguageCode.FI, "Tunisia"),
             new TranslationInfo(LanguageCode.FR, "Tunisie"),
-            new TranslationInfo(LanguageCode.HE, "טוניסיה"),
+            new TranslationInfo(LanguageCode.HE, "תוניסיה"),
             new TranslationInfo(LanguageCode.HI, "ट्यूनीशिया"),
             new TranslationInfo(LanguageCode.HR, "Tunis"),
             new TranslationInfo(LanguageCode.HU, "Tunézia"),

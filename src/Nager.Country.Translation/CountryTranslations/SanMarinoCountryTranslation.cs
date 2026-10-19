@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Сан Марино"),
             new TranslationInfo(LanguageCode.SV, "San Marino"),
             new TranslationInfo(LanguageCode.TR, "San Marino"),
-            new TranslationInfo(LanguageCode.UK, "Сан-Маріно"),
+            new TranslationInfo(LanguageCode.UK, "Сан-Марино"),
             new TranslationInfo(LanguageCode.UZ, "San-Marino"),
             new TranslationInfo(LanguageCode.ZH, "圣马力诺"),
         ];

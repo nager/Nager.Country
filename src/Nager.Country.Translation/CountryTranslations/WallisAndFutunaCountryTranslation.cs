@@ -29,7 +29,7 @@
             new TranslationInfo(LanguageCode.HR, "Wallis i Futuna"),
             new TranslationInfo(LanguageCode.HU, "Wallis és Futuna"),
             new TranslationInfo(LanguageCode.HY, "Ուոլիս և Ֆուտունա"),
-            new TranslationInfo(LanguageCode.ID, "Wallis and Futuna"),
+            new TranslationInfo(LanguageCode.ID, "Wallis dan Futuna"),
             new TranslationInfo(LanguageCode.IS, "Wallis- og Fútúnaeyjar"),
             new TranslationInfo(LanguageCode.IT, "Wallis e Futuna"),
             new TranslationInfo(LanguageCode.JA, "ウォリス・フツナ"),

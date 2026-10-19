@@ -35,7 +35,7 @@
             new TranslationInfo(LanguageCode.JA, "トルコ"),
             new TranslationInfo(LanguageCode.KA, "თურქეთი"),
             new TranslationInfo(LanguageCode.KK, "Түркия"),
-            new TranslationInfo(LanguageCode.KO, "터키"),
+            new TranslationInfo(LanguageCode.KO, "튀르키예"),
             new TranslationInfo(LanguageCode.KY, "Түркия"),
             new TranslationInfo(LanguageCode.LT, "Turkija"),
             new TranslationInfo(LanguageCode.LV, "Turcija"),
