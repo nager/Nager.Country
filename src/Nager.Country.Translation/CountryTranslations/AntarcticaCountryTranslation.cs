@@ -8,7 +8,7 @@
         /// <inheritdoc/>
         public TranslationInfo[] Translations =>
         [
-            new TranslationInfo(LanguageCode.AR, "أنتارتيكا"),
+            new TranslationInfo(LanguageCode.AR, "أنتاركتيكا"),
             new TranslationInfo(LanguageCode.AZ, "Antarktika"),
             new TranslationInfo(LanguageCode.BE, "Антарктыка"),
             new TranslationInfo(LanguageCode.BG, "Антарктика"),
@@ -29,7 +29,7 @@
             new TranslationInfo(LanguageCode.HR, "Antarktika"),
             new TranslationInfo(LanguageCode.HU, "Antarktisz"),
             new TranslationInfo(LanguageCode.HY, "Անտարկտիդա"),
-            new TranslationInfo(LanguageCode.ID, "Antarctica"),
+            new TranslationInfo(LanguageCode.ID, "Antarktika"),
             new TranslationInfo(LanguageCode.IS, "Antarktíka"),
             new TranslationInfo(LanguageCode.IT, "Antartide"),
             new TranslationInfo(LanguageCode.JA, "南極大陸"),

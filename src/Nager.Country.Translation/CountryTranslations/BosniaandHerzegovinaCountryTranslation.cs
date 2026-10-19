@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Bosnija ir Hercegovina"),
             new TranslationInfo(LanguageCode.LV, "Bosnija un Hercegovina"),
             new TranslationInfo(LanguageCode.MK, "Босна и Херцеговина"),
-            new TranslationInfo(LanguageCode.MN, "Босни Герцеговин"),
+            new TranslationInfo(LanguageCode.MN, "Босни-Херцеговин"),
             new TranslationInfo(LanguageCode.NB, "Bosnia-Hercegovina"),
             new TranslationInfo(LanguageCode.NO, "Bosnia-Hercegovina"),
             new TranslationInfo(LanguageCode.NL, "Bosnië en Herzegovina"),
