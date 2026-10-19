@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Чиле"),
             new TranslationInfo(LanguageCode.SV, "Chile"),
             new TranslationInfo(LanguageCode.TR, "Şili"),
-            new TranslationInfo(LanguageCode.UK, "Чілі"),
+            new TranslationInfo(LanguageCode.UK, "Чилі"),
             new TranslationInfo(LanguageCode.UZ, "Chili"),
             new TranslationInfo(LanguageCode.ZH, "智利"),
         ];
