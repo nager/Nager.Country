@@ -26,7 +26,7 @@
             new TranslationInfo(LanguageCode.FR, "Myanmar"),
             new TranslationInfo(LanguageCode.HE, "מיאנמר"),
             new TranslationInfo(LanguageCode.HI, "म्यांमार"),
-            new TranslationInfo(LanguageCode.HR, "Mijanmar"),
+            new TranslationInfo(LanguageCode.HR, "Mjanmar"),
             new TranslationInfo(LanguageCode.HU, "Mianmar"),
             new TranslationInfo(LanguageCode.HY, "Մյանմա"),
             new TranslationInfo(LanguageCode.ID, "Myanmar"),

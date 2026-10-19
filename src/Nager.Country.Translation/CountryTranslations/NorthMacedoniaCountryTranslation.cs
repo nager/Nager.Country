@@ -56,7 +56,7 @@
             new TranslationInfo(LanguageCode.TR, "Kuzey Makedonya"),
             new TranslationInfo(LanguageCode.UK, "Північна Македонія"),
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Makedoniya"),
-            new TranslationInfo(LanguageCode.ZH, "北馬其頓"),
+            new TranslationInfo(LanguageCode.ZH, "北马其顿"),
         ];
     }
 }

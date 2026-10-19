@@ -23,7 +23,7 @@
             new TranslationInfo(LanguageCode.ET, "Saudi Araabia"),
             new TranslationInfo(LanguageCode.FA, "عربستان سعودی"),
             new TranslationInfo(LanguageCode.FI, "Saudi-Arabia"),
-            new TranslationInfo(LanguageCode.FR, "Arabie Saoudite"),
+            new TranslationInfo(LanguageCode.FR, "Arabie saoudite"),
             new TranslationInfo(LanguageCode.HE, "ערב הסעודית"),
             new TranslationInfo(LanguageCode.HI, "सऊदी अरब"),
             new TranslationInfo(LanguageCode.HR, "Saudijska Arabija"),

@@ -40,7 +40,7 @@
             new TranslationInfo(LanguageCode.LT, "Trinidadas ir Tobagas"),
             new TranslationInfo(LanguageCode.LV, "Trinidāda un Tobāgo"),
             new TranslationInfo(LanguageCode.MK, "Тринидад и Тобаго"),
-            new TranslationInfo(LanguageCode.MN, "Тринидад Тобаго"),
+            new TranslationInfo(LanguageCode.MN, "Тринидад ба Тобаго"),
             new TranslationInfo(LanguageCode.NB, "Trinidad og Tobago"),
             new TranslationInfo(LanguageCode.NO, "Trinidad og Tobago"),
             new TranslationInfo(LanguageCode.NL, "Trinidad en Tobago"),

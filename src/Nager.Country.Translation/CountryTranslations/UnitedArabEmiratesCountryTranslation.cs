@@ -23,7 +23,7 @@
             new TranslationInfo(LanguageCode.ET, "Araabia Ühendemiraadid"),
             new TranslationInfo(LanguageCode.FA, "امارات متحده عربی"),
             new TranslationInfo(LanguageCode.FI, "Arabiemiraatit"),
-            new TranslationInfo(LanguageCode.FR, "Émirats Arabes Unis"),
+            new TranslationInfo(LanguageCode.FR, "Émirats arabes unis"),
             new TranslationInfo(LanguageCode.HE, "איחוד האמירויות הערביות"),
             new TranslationInfo(LanguageCode.HI, "संयुक्त अरब अमीरात"),
             new TranslationInfo(LanguageCode.HR, "Ujedinjeni Arapski Emirati"),

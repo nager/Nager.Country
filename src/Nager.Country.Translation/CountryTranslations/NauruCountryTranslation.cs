@@ -30,7 +30,7 @@
             new TranslationInfo(LanguageCode.HU, "Nauru"),
             new TranslationInfo(LanguageCode.HY, "Նաուրու"),
             new TranslationInfo(LanguageCode.ID, "Nauru"),
-            new TranslationInfo(LanguageCode.IS, "Naúrú"),
+            new TranslationInfo(LanguageCode.IS, "Nárú"),
             new TranslationInfo(LanguageCode.IT, "Nauru"),
             new TranslationInfo(LanguageCode.JA, "ナウル"),
             new TranslationInfo(LanguageCode.KA, "ნაურუ"),
