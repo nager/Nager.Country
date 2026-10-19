@@ -27,7 +27,7 @@
         public int NumericCode => 012;
 
         /// <inheritdoc/>
-        public string[] TLD => [".dz", "الجزائر."];
+        public string[] TLD => [".dz", ".الجزائر"];
 
         /// <inheritdoc/>
         public Region Region => Region.Africa;
