@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Антарктик"),
             new TranslationInfo(LanguageCode.SV, "Antarktis"),
             new TranslationInfo(LanguageCode.TR, "Antarktika"),
-            new TranslationInfo(LanguageCode.UK, "Антарктида"),
+            new TranslationInfo(LanguageCode.UK, "Антарктика"),
             new TranslationInfo(LanguageCode.UZ, "Antarktida"),
             new TranslationInfo(LanguageCode.ZH, "南极洲"),
         

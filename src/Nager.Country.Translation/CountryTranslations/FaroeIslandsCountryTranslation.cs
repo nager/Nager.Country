@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Фарска Острва"),
             new TranslationInfo(LanguageCode.SV, "Färöarna"),
             new TranslationInfo(LanguageCode.TR, "Faroe Adaları"),
-            new TranslationInfo(LanguageCode.UK, "Фарерські острови"),
+            new TranslationInfo(LanguageCode.UK, "Фарерські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Farer orollari"),
             new TranslationInfo(LanguageCode.ZH, "法罗群岛"),
         ];

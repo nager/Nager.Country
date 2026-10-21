@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Шри Ланка"),
             new TranslationInfo(LanguageCode.SV, "Sri Lanka"),
             new TranslationInfo(LanguageCode.TR, "Sri Lanka"),
-            new TranslationInfo(LanguageCode.UK, "Шрі-Ланка"),
+            new TranslationInfo(LanguageCode.UK, "Шри-Ланка"),
             new TranslationInfo(LanguageCode.UZ, "Shri-Lanka"),
             new TranslationInfo(LanguageCode.ZH, "斯里兰卡"),
         ];

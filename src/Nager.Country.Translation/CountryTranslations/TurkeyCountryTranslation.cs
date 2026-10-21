@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Турска"),
             new TranslationInfo(LanguageCode.SV, "Turkiet"),
             new TranslationInfo(LanguageCode.TR, "Türkiye"),
-            new TranslationInfo(LanguageCode.UK, "Турція"),
+            new TranslationInfo(LanguageCode.UK, "Туреччина"),
             new TranslationInfo(LanguageCode.UZ, "Turkiya"),
             new TranslationInfo(LanguageCode.ZH, "土耳其"),
         ];

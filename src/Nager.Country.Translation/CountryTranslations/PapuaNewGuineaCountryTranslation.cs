@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Папуа Нова Гвинеја"),
             new TranslationInfo(LanguageCode.SV, "Papua Nya Guinea"),
             new TranslationInfo(LanguageCode.TR, "Papua Yeni Gine"),
-            new TranslationInfo(LanguageCode.UK, "Папуа Нова Гвінея"),
+            new TranslationInfo(LanguageCode.UK, "Папуа-Нова Гвінея"),
             new TranslationInfo(LanguageCode.UZ, "Papua-Yangi Gvineya"),
             new TranslationInfo(LanguageCode.ZH, "巴布亚新几内亚"),
         ];

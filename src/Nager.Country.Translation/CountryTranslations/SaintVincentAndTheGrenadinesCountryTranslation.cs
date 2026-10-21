@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Сент Винсент и Гренадини"),
             new TranslationInfo(LanguageCode.SV, "Saint Vincent och Grenadinerna"),
             new TranslationInfo(LanguageCode.TR, "Saint Vincent ve Grenadinler"),
-            new TranslationInfo(LanguageCode.UK, "Сент-Вінсент і Гренадини"),
+            new TranslationInfo(LanguageCode.UK, "Сент-Вінсент і Гренадіни"),
             new TranslationInfo(LanguageCode.UZ, "Sent-Vinsent va Grenadin"),
             new TranslationInfo(LanguageCode.ZH, "圣文森特和格林纳丁斯"),
         ];

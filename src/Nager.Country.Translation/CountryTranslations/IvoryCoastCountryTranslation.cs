@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Обала Слоноваче"),
             new TranslationInfo(LanguageCode.SV, "Elfenbenskusten"),
             new TranslationInfo(LanguageCode.TR, "Fildişi Sahili"),
-            new TranslationInfo(LanguageCode.UK, "Берег Слонової Кістки"),
+            new TranslationInfo(LanguageCode.UK, "Кот-Д'Івуар"),
             new TranslationInfo(LanguageCode.UZ, "Kot-d’Ivuar"),
             new TranslationInfo(LanguageCode.ZH, "科特迪瓦"),
         ];

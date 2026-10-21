@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Конго-Киншаса"),
             new TranslationInfo(LanguageCode.SV, "Kongo-Kinshasa"),
             new TranslationInfo(LanguageCode.TR, "Kongo Demokratik Cumhuriyeti"),
-            new TranslationInfo(LanguageCode.UK, "ДР Конго"),
+            new TranslationInfo(LanguageCode.UK, "Демократична Республіка Конго"),
             new TranslationInfo(LanguageCode.UZ, "Kongo-Kinshasa"),
             new TranslationInfo(LanguageCode.ZH, "民主刚果"),
         ];
