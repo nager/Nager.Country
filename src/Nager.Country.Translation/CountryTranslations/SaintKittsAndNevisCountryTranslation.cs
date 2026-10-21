@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Сент Китс и Невис"),
             new TranslationInfo(LanguageCode.SV, "Saint Kitts och Nevis"),
             new TranslationInfo(LanguageCode.TR, "Saint Kitts ve Nevis"),
-            new TranslationInfo(LanguageCode.UK, "Сент-Кіттс і Невіс"),
+            new TranslationInfo(LanguageCode.UK, "Сент-Кітс і Невіс"),
             new TranslationInfo(LanguageCode.UZ, "Sent-Kits va Nevis"),
             new TranslationInfo(LanguageCode.ZH, "圣基茨和尼维斯"),
         ];

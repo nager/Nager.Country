@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Сингапур"),
             new TranslationInfo(LanguageCode.SV, "Singapore"),
             new TranslationInfo(LanguageCode.TR, "Singapur"),
-            new TranslationInfo(LanguageCode.UK, "Сінгапур"),
+            new TranslationInfo(LanguageCode.UK, "Сингапур"),
             new TranslationInfo(LanguageCode.UZ, "Singapur"),
             new TranslationInfo(LanguageCode.ZH, "新加坡"),
         ];

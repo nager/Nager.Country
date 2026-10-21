@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Оландска Острва"),
             new TranslationInfo(LanguageCode.SV, "Ålandöarna"),
             new TranslationInfo(LanguageCode.TR, "Åland Adaları"),
-            new TranslationInfo(LanguageCode.UK, "Аландські острови"),
+            new TranslationInfo(LanguageCode.UK, "Аландські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Aland orollari"),
             new TranslationInfo(LanguageCode.ZH, "奥兰群岛"),
         ];

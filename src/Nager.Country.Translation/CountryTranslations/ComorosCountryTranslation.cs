@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Коморска Острва"),
             new TranslationInfo(LanguageCode.SV, "Komorerna"),
             new TranslationInfo(LanguageCode.TR, "Komorlar"),
-            new TranslationInfo(LanguageCode.UK, "Коморські Острови"),
+            new TranslationInfo(LanguageCode.UK, "Комори"),
             new TranslationInfo(LanguageCode.UZ, "Komor orollari"),
             new TranslationInfo(LanguageCode.ZH, "科摩罗"),
         ];

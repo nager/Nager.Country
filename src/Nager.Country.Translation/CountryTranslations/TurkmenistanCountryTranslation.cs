@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Туркменистан"),
             new TranslationInfo(LanguageCode.SV, "Turkmenistan"),
             new TranslationInfo(LanguageCode.TR, "Türkmenistan"),
-            new TranslationInfo(LanguageCode.UK, "Туркменістан"),
+            new TranslationInfo(LanguageCode.UK, "Туркменистан"),
             new TranslationInfo(LanguageCode.UZ, "Turkmaniston"),
             new TranslationInfo(LanguageCode.ZH, "土库曼斯坦"),
         ];

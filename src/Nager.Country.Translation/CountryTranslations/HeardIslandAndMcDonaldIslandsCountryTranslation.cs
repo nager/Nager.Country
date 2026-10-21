@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Острво Херд и Мекдоналдова острва"),
             new TranslationInfo(LanguageCode.SV, "Heard- och McDonaldöarna"),
             new TranslationInfo(LanguageCode.TR, "Heard Adası ve McDonald Adaları"),
-            new TranslationInfo(LanguageCode.UK, "Острів Герд і острови Макдональд"),
+            new TranslationInfo(LanguageCode.UK, "Острів Герд і Острови Макдоналд"),
             new TranslationInfo(LanguageCode.UZ, "Xerd va Makdonald orollari"),
             new TranslationInfo(LanguageCode.ZH, "赫德岛和麦克唐纳群岛"),
         ];

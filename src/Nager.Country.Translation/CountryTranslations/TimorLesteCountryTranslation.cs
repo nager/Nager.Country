@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Источни Тимор"),
             new TranslationInfo(LanguageCode.SV, "Östtimor"),
             new TranslationInfo(LanguageCode.TR, "Doğu Timor"),
-            new TranslationInfo(LanguageCode.UK, "Східний Тимор"),
+            new TranslationInfo(LanguageCode.UK, "Тимор-Лешті"),
             new TranslationInfo(LanguageCode.UZ, "Timor-Leste"),
             new TranslationInfo(LanguageCode.ZH, "东帝汶"),
         ];

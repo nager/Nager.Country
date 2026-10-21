@@ -54,7 +54,7 @@
             new TranslationInfo(LanguageCode.SR, "Брунеј"),
             new TranslationInfo(LanguageCode.SV, "Brunei"),
             new TranslationInfo(LanguageCode.TR, "Brunei"),
-            new TranslationInfo(LanguageCode.UK, "Бруней"),
+            new TranslationInfo(LanguageCode.UK, "Бруней-Даруссалам"),
             new TranslationInfo(LanguageCode.UZ, "Bruney"),
             new TranslationInfo(LanguageCode.ZH, "文莱"),
         ];
